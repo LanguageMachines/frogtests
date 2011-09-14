@@ -1,0 +1,30 @@
+# /bin/sh
+
+if [ "$frog_bin" = "" ];
+then echo "frog_bin not set";
+     exit;
+fi
+
+OK="\033[1;32m OK  \033[0m"
+FAIL="\033[1;31m  FAILED  \033[0m"
+
+export comm="$VG $frog_bin/frog"
+
+for file in $1
+do if test -x $file
+   then 
+      \rm -f $file.diff
+      \rm -f $file.err
+      \rm -f $file.out
+      echo -n "Frogging $file "
+      ./$file > $file.err 2>&1
+      diff $file.out $file.ok >& $file.diff
+      if [ $? -ne 0 ];
+      then echo -e $FAIL;	
+      echo "differences logged in $file.diff";
+      else echo -e $OK
+      fi
+  else
+	echo "file $file not found"
+   fi
+done

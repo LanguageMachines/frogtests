@@ -1,0 +1,12 @@
+#!/bin/sh -x
+
+
+$frog_bin/frog  --skip=p -S 7000  > testserver.log 2>&1  &
+pid=`echo $!`
+
+sleep 8
+
+./frogclient
+
+kill $pid
+

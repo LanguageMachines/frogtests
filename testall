@@ -1,0 +1,17 @@
+# /bin/sh
+
+\rm -f *.diff
+\rm -f *.tmp
+\rm -f *.out*
+
+if [ "$frog_bin" = "" ];
+then echo "frog_bin not set";
+     exit;
+fi
+
+for file in teststandard testencoding testunits testslash testapostroph \
+    	    testoption_n testnormalize testquotes testinternet \
+    	    testparser testskipt testskipt2 testserver
+do ./testone $file
+done
+

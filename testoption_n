@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm --skip=p -t testoption_n.txt -o test1.out
+$comm --skip=p -n -t testoption_n.txt -o test2.out
+
+cat test1.out test2.out > testoption_n.out
