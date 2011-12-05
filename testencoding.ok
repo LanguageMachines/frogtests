@@ -13,7 +13,7 @@
 13	het	het	[het]	LID(bep,stan,evon)	0.997424		
 14	ministerie	ministerie	[minister][ie]	N(soort,ev,basis,onz,stan)	0.999008		
 15	van	van	[van]	VZ(init)	0.990421		
-16	Landbouw	Landbouw	[Landbouw]	SPEC(deeleigen)	0.882353		
+16	Landbouw	Landbouw	[Landbouw]	SPEC(deeleigen)	1.000000		
 17	in_principe	in_principe	[in]_[principe]	VZ(init)_N(soort,ev,basis,onz,stan)	0.995840		
 18	hun	hun	[hun]	VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)	0.918501		
 19	mestrechten	mestrecht	[mestrecht][en]	N(soort,mv,basis)	1.000000		
@@ -31,7 +31,7 @@
 31	.	.	[.]	LET()	0.999956		
 
 1	Voorzitter	voorzitter	[voor][zit][er]	N(soort,ev,basis,zijd,stan)	0.992385		
-2	C._van_Gisbergen	C._van_Gisbergen	[C.]_[van]_[Gisbergen]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	0.630949		
+2	C._van_Gisbergen	C._van_Gisbergen	[C.]_[van]_[Gisbergen]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000		
 3	van	van	[van]	VZ(init)	0.963788		
 4	de	de	[de]	LID(bep,stan,rest)	0.981886		
 5	LTO-vakgroep	lto-vakgroep	[lto-vak][groep]	N(soort,ev,basis,zijd,stan)	0.582590		
@@ -141,7 +141,7 @@
 12	worden	worden	[word][en]	WW(inf,vrij,zonder)	0.600000		
 13	'	'	[']	LET()	0.999956		
 14	Door	door	[door]	VZ(init)	0.978335		
-15	Guus_Spijkers_TILBURG	Guus_Spijkers_TILBURG	[Guus]_[Spijkers]_[TILBURG]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	0.731369		
+15	Guus_Spijkers_TILBURG	Guus_Spijkers_TILBURG	[Guus]_[Spijkers]_[TILBURG]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000		
 16	-	-	[-]	LET()	0.999705		
 17	Slechts	slechts	[slechts]	BW()	0.995867		
 18	enkele	enkele	[enkele]	VNW(onbep,det,stan,prenom,met-e,rest)	0.998946		
@@ -150,7 +150,7 @@
 21	de	de	[de]	LID(bep,stan,rest)	0.999852		
 22	spelers	speler	[speel][er][s]	N(soort,mv,basis)	0.999668		
 23	van	van	[van]	VZ(init)	0.959310		
-24	CVT_Trappers	CVT_Trappers	[CVT]_[Trappers]	SPEC(deeleigen)_SPEC(deeleigen)	0.737084		
+24	CVT_Trappers	CVT_Trappers	[CVT]_[Trappers]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000		
 25	tijd	tijd	[tijd]	N(soort,ev,basis,zijd,stan)	0.999884		
 26	gehad	hebben	[ge][heb][d]	WW(vd,vrij,zonder)	0.999777		
 27	te	te	[te]	VZ(init)	0.907459		
@@ -161,7 +161,7 @@
 32	driedaagse	driedaags	[drie][dag][s][e]	ADJ(prenom,basis,met-e,stan)	0.885728		
 33	ijshockeytoernooi	ijshockeytoernooi	[ijs][hockeytoernooi]	N(soort,ev,basis,zijd,stan)	0.671224		
 34	in	in	[in]	VZ(init)	0.999588		
-35	Tilburg	Tilburg	[Tilburg]	SPEC(deeleigen)	0.997512		
+35	Tilburg	Tilburg	[Tilburg]	SPEC(deeleigen)	1.000000		
 36	dat	dat	[dat]	VNW(betr,pron,stan,vol,3,ev)	0.500000		
 37	met	met	[met]	VZ(init)	0.999728		
 38	winst	winst	[win][st]	N(soort,ev,basis,zijd,stan)	0.998935		

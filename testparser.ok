@@ -1,9 +1,9 @@
 1	De	de	[de]	LID(bep,stan,rest)	0.999701	2	det
 2	oprichter	oprichter	[op][richt][er]	N(soort,ev,basis,zijd,stan)	0.999694	8	su
 3	van	van	[van]	VZ(init)	0.999154	2	mod
-4	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	0.998271	3	obj1
+4	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	3	obj1
 5	,	,	[,]	LET()	0.999709	4	punct
-6	Jimmy_Wales	Jimmy_Wales	[Jimmy]_[Wales]	SPEC(deeleigen)_SPEC(deeleigen)	0.997354	4	mod
+6	Jimmy_Wales	Jimmy_Wales	[Jimmy]_[Wales]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	4	mod
 7	,	,	[,]	LET()	0.999925	6	punct
 8	wil	willen	[wil]	WW(pv,tgw,ev)	0.994536	0	ROOT
 9	een	een	[een]	LID(onbep,stan,agr)	0.995147	11	det
@@ -18,10 +18,10 @@
 4	Britse	britse	[brits][e]	ADJ(prenom,basis,met-e,stan)	0.981205	5	mod
 5	krant	krant	[krant]	N(soort,ev,basis,zijd,stan)	0.971014	2	su
 6	The	The	[The]	SPEC(vreemd)	1.000000	2	su
-7	Times	Times	[Times]	SPEC(vreemd)	0.914729	0	ROOT
+7	Times	Times	[Times]	SPEC(vreemd)	1.000000	0	ROOT
 8	.	.	[.]	LET()	0.999956	7	punct
 
-1	Wales	Wales	[Wales]	SPEC(deeleigen)	0.997123	2	su
+1	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	2	su
 2	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.997207	0	ROOT
 3	dat	dat	[dat]	VG(onder)	0.962882	2	vc
 4	de	de	[de]	LID(bep,stan,rest)	0.999844	6	det
@@ -34,16 +34,16 @@
 11	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	3	body
 12	concurreren	concurreren	[concurreren]	WW(inf,vrij,zonder)	0.738241	11	vc
 13	met	met	[met]	VZ(init)	0.999574	12	pc
-14	Google	Google	[Google]	SPEC(deeleigen)	0.990099	15	cnj
+14	Google	Google	[Google]	SPEC(deeleigen)	1.000000	15	cnj
 15	en	en	[en]	VG(neven)	0.993989	13	obj1
-16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	0.997824	15	cnj
-17	!.	!.	[!.]	SPEC(afk)	0.616162	16	mod
+16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	15	cnj
+17	!.	!.	[!.]	SPEC(afk)	1.000000	16	mod
 
 1	Tegenover	tegenover	[tegenover]	VZ(init)	0.980282	4	mod
 2	de	de	[de]	LID(bep,stan,rest)	0.999964	3	det
 3	krant	krant	[krant]	N(soort,ev,basis,zijd,stan)	0.999183	1	obj1
 4	liet	laten	[laat]	WW(pv,verl,ev)	0.998970	0	ROOT
-5	Wales	Wales	[Wales]	SPEC(deeleigen)	0.998883	4	su
+5	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	4	su
 6	weten	weten	[weet][en]	WW(inf,vrij,zonder)	0.900000	4	vc
 7	dat	dat	[dat]	VG(onder)	0.987315	6	vc
 8	de	de	[de]	LID(bep,stan,rest)	0.999279	9	det
@@ -56,7 +56,7 @@
 15	gelanceerd	lanceren	[ge][lanceren]	WW(vd,vrij,zonder)	0.999503	14	vc
 16	.	.	[.]	LET()	0.999956	15	punct
 
-1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	0.493644	2	su
+1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	2	su
 2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	0	ROOT
 3	gebruik	gebruik	[gebruik]	N(soort,ev,basis,onz,stan)	0.998108	2	obj1
 4	van	van	[van]	VZ(init)	0.959310	2	pc
@@ -64,12 +64,12 @@
 6	user-based	user-based	[user-based]	N(soort,ev,basis,onz,stan)	0.812838	4	obj1
 7	technologie	technologie	[technologisch][ie]	N(soort,ev,basis,zijd,stan)	0.997772	6	mod
 8	als	als	[als]	VG(onder)	0.833333	7	mod
-9	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	0.997908	8	body
+9	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	8	body
 10	zelf	zelf	[zelf]	BW()	0.996918	6	mod
 11	.	.	[.]	LET()	0.999956	10	punct
 
 1	"	"	["]	LET()	0.999939	0	ROOT
-2	Google	Google	[Google]	SPEC(deeleigen)	0.998078	3	su
+2	Google	Google	[Google]	SPEC(deeleigen)	1.000000	3	su
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	0	ROOT
 4	een	een	[een]	LID(onbep,stan,agr)	0.997219	7	det
 5	zeer	zeer	[zeer]	BW()	0.978124	6	mod
@@ -92,7 +92,7 @@
 22	"	"	["]	LET()	0.999939	21	punct
 23	,	,	[,]	LET()	0.950000	21	punct
 24	aldus	aldus	[al][dus]	BW()	0.997264	0	ROOT
-25	Wales	Wales	[Wales]	SPEC(deeleigen)	0.998826	24	obj1
+25	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	24	obj1
 26	.	.	[.]	LET()	0.999956	25	punct
 
 1	"	"	["]	LET()	0.999939	0	ROOT
@@ -102,7 +102,7 @@
 5	te	te	[te]	VZ(init)	0.997732	2	mod
 6	zoeken	zoeken	[zoek][en]	WW(inf,vrij,zonder)	0.973333	5	body
 7	op	op	[op]	VZ(init)	0.972190	2	pc
-8	Tampa_Hotels	Tampa_Hotels	[Tampa]_[Hotels]	SPEC(deeleigen)_SPEC(deeleigen)	0.997824	7	obj1
+8	Tampa_Hotels	Tampa_Hotels	[Tampa]_[Hotels]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	7	obj1
 9	.	.	[.]	LET()	0.999956	8	punct
 
 1	Je	je	[je]	VNW(pers,pron,nomin,red,2v,ev)	0.997874	2	su
@@ -119,10 +119,10 @@
 2	algoritmische	algoritmisch	[algoritme][isch][e]	ADJ(prenom,basis,met-e,stan)	0.990169	3	mod
 3	zoekprogramma	zoekprogramma	[zoek][programma]	N(soort,ev,basis,onz,stan)	1.000000	6	su
 4	van	van	[van]	VZ(init)	0.973586	3	mod
-5	Google	Google	[Google]	SPEC(deeleigen)	0.996599	4	obj1
+5	Google	Google	[Google]	SPEC(deeleigen)	1.000000	4	obj1
 6	zou	zullen	[zal]	WW(pv,verl,ev)	0.999947	0	ROOT
 7	volgens	volgens	[volgens]	VZ(init)	0.998616	11	ld
-8	Wales	Wales	[Wales]	SPEC(deeleigen)	0.999087	7	obj1
+8	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	7	obj1
 9	makkelijk	makkelijk	[mak][e][lijk]	ADJ(vrij,basis,zonder)	0.995289	11	predc
 10	te	te	[te]	VZ(init)	0.907459	9	pc
 11	bemaken	bemaken	[be][maak][en]	WW(inf,vrij,zonder)	1.000000	6	vc
@@ -170,7 +170,7 @@
 3	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	4	mod
 4	project	project	[project]	N(soort,ev,basis,onz,stan)	0.998223	1	obj1
 5	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.998984	0	ROOT
-6	Wales	Wales	[Wales]	SPEC(deeleigen)	0.921569	5	su
+6	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	5	su
 7	gebruik	gebruiken	[gebruik]	WW(pv,tgw,ev)	0.500000	0	ROOT
 8	te	te	[te]	VZ(init)	0.907459	7	mod
 9	kunnen	kunnen	[kan][en]	WW(inf,vrij,zonder)	0.914286	8	body
@@ -179,7 +179,7 @@
 12	de	de	[de]	LID(bep,stan,rest)	0.999852	13	det
 13	gebruikers	gebruiker	[gebruik][er][s]	N(soort,mv,basis)	0.999597	11	obj1
 14	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.969697	13	mod
-15	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	0.997680	20	su
+15	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	20	su
 16	tot	tot	[tot]	VZ(init)	0.998379	15	mod
 17	een	een	[een]	LID(onbep,stan,agr)	0.999386	19	det
 18	wereldwijd	wereldwijd	[wereld][wijd]	ADJ(prenom,basis,zonder)	0.978684	19	mod
