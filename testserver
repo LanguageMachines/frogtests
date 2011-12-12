@@ -6,7 +6,12 @@ pid=`echo $!`
 
 sleep 8
 
-./frogclient
+./frogclient1 &
+./frogclient2 &
+
+sleep 4
+cat testserver1.out > testserver.out
+cat testserver2.out >> testserver.out
 
 kill $pid
 

@@ -4,7 +4,7 @@ spawn telnet localhost 7000
 expect "Trying 127.0.0.1..."
 expect "Connected to localhost."
 expect "Escape character is '^]'."
-log_file -noappend testserver.out
-send "Dit is een test.\r"
+log_file -noappend testserver2.out
+send "Dit nog zo'n boeiende test.\r"
 expect "READY"
 log_file 
