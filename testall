@@ -11,7 +11,7 @@ fi
 
 for file in teststandard testencoding testunits testslash testapostroph \
     	    testoption_n testnormalize testquotes testinternet \
-    	    testparser testskipt testskipt2 testserver
+    	    testparser testskipt testskipt2 testserver test_testdir
 do ./testone $file
 done
 

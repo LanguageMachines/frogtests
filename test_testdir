@@ -3,5 +3,9 @@
 # defaults:
 #
 
-$comm --skip=p --testdir=./subdir --outputdir=./output
-cat ./output/* > test_testdir.out
+$comm --skip=p --testdir=./subdir --outputdir=./output -X
+cat ./output/*.out > test_testdir.out
+
+$comm --skip=p --testdir=./subdir --outputdir=./output --xmldir=./output
+cat ./output/*.xml >> test_testdir.out
+
