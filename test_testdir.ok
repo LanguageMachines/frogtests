@@ -14,7 +14,7 @@
 
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.6">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.7">
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -77,7 +77,6 @@
             <feat class="prenom" subset="positie"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma annotator="mblem" class="eerste"/>
           <morphology>
             <morpheme>
               <t offset="0">een</t>
@@ -86,6 +85,7 @@
               <t offset="3">ste</t>
             </morpheme>
           </morphology>
+          <lemma annotator="mblem" class="eerste"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.5" class="WORD" space="no">
           <t>testfile</t>
@@ -96,7 +96,6 @@
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma annotator="mblem" class="testfile"/>
           <morphology>
             <morpheme>
               <t offset="0">test</t>
@@ -105,6 +104,7 @@
               <t offset="4">file</t>
             </morpheme>
           </morphology>
+          <lemma annotator="mblem" class="testfile"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
@@ -129,7 +129,7 @@
 
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.6">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.7">
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -162,12 +162,12 @@
             <feat class="3o" subset="persoon"/>
             <feat class="ev" subset="getal"/>
           </pos>
-          <lemma annotator="mblem" class="dit"/>
           <morphology>
             <morpheme>
               <t offset="0">dit</t>
             </morpheme>
           </morphology>
+          <lemma annotator="mblem" class="dit"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.3" class="WORD">
           <t>is</t>
@@ -190,12 +190,12 @@
             <feat class="stan" subset="naamval"/>
             <feat class="agr" subset="npagr"/>
           </pos>
-          <lemma annotator="mblem" class="een"/>
           <morphology>
             <morpheme>
               <t offset="0">een</t>
             </morpheme>
           </morphology>
+          <lemma annotator="mblem" class="een"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.5" class="WORD">
           <t>tweede</t>
@@ -204,7 +204,6 @@
             <feat class="prenom" subset="positie"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma annotator="mblem" class="tweede"/>
           <morphology>
             <morpheme>
               <t offset="0">twee</t>
@@ -213,6 +212,7 @@
               <t offset="4">de</t>
             </morpheme>
           </morphology>
+          <lemma annotator="mblem" class="tweede"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.6" class="WORD" space="no">
           <t>testfile</t>
@@ -223,7 +223,6 @@
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma annotator="mblem" class="testfile"/>
           <morphology>
             <morpheme>
               <t offset="0">test</t>
@@ -232,16 +231,17 @@
               <t offset="4">file</t>
             </morpheme>
           </morphology>
+          <lemma annotator="mblem" class="testfile"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.7" class="PUNCTUATION">
           <t>!</t>
           <pos annotator="MBT" class="LET()" confidence="0.995005" head="LET"/>
-          <lemma annotator="mblem" class="!"/>
           <morphology>
             <morpheme>
               <t offset="0">!</t>
             </morpheme>
           </morphology>
+          <lemma annotator="mblem" class="!"/>
         </w>
       </s>
     </p>
