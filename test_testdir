@@ -3,6 +3,8 @@
 # defaults:
 #
 
+rm ./output/*
+
 $comm --skip=p --testdir=./subdir --outputdir=./output -X
 cat ./output/*.out > test_testdir.out
 

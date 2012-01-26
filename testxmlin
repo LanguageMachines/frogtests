@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+rm ./output/*
+
+$comm --skip=p -x folia1.xml -X folia1.out.xml
+cat folia1.out.xml > testxmlin.out
+$comm --skip=p -x -t folia1.xml -X folia1.out1.xml
+$comm --skip=p -x folia1.xml --testdir=xmltests -X folia1.out.xml &>> testxmlin.out
+$comm --skip=p -x --testdir=xmltests --xmldir=./output
+cat ./output/folia*.xml >> testxmlin.out
