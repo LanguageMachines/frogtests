@@ -1,0 +1,17 @@
+#!/bin/sh -x
+
+
+$frog_bin/frog -x --skip=p -S 7000  > testserverxml.log 2>&1  &
+pid=`echo $!`
+
+sleep 8
+
+./frogclient3 &
+./frogclient4 &
+
+sleep 4
+cat testserver3.out > testserverxml.out
+cat testserver4.out >> testserverxml.out
+
+kill $pid
+
