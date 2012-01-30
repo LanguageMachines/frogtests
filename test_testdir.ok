@@ -14,7 +14,7 @@
 
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.7">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.6">
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -77,6 +77,7 @@
             <feat class="prenom" subset="positie"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma annotator="mblem" class="eerste"/>
           <morphology>
             <morpheme>
               <t offset="0">een</t>
@@ -85,7 +86,6 @@
               <t offset="3">ste</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="eerste"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.5" class="WORD" space="no">
           <t>testfile</t>
@@ -96,6 +96,7 @@
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma annotator="mblem" class="testfile"/>
           <morphology>
             <morpheme>
               <t offset="0">test</t>
@@ -104,7 +105,6 @@
               <t offset="4">file</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="testfile"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
@@ -116,6 +116,19 @@
           </morphology>
           <lemma annotator="mblem" class="."/>
         </w>
+        <chunking>
+          <chunk class="NP">
+            <wref id="frog.p.1.s.1.w.1" t="Dit"/>
+          </chunk>
+          <chunk class="VP">
+            <wref id="frog.p.1.s.1.w.2" t="is"/>
+          </chunk>
+          <chunk class="NP">
+            <wref id="frog.p.1.s.1.w.3" t="de"/>
+            <wref id="frog.p.1.s.1.w.4" t="eerste"/>
+            <wref id="frog.p.1.s.1.w.5" t="testfile"/>
+          </chunk>
+        </chunking>
         <entities>
           <entity>
             <wref id="frog.p.1.s.1.w.3" t="de"/>
@@ -129,7 +142,7 @@
 
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.7">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.6">
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -190,12 +203,12 @@
             <feat class="stan" subset="naamval"/>
             <feat class="agr" subset="npagr"/>
           </pos>
+          <lemma annotator="mblem" class="een"/>
           <morphology>
             <morpheme>
               <t offset="0">een</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="een"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.5" class="WORD">
           <t>tweede</t>
@@ -204,6 +217,7 @@
             <feat class="prenom" subset="positie"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma annotator="mblem" class="tweede"/>
           <morphology>
             <morpheme>
               <t offset="0">twee</t>
@@ -212,7 +226,6 @@
               <t offset="4">de</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="tweede"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.6" class="WORD" space="no">
           <t>testfile</t>
@@ -223,6 +236,7 @@
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma annotator="mblem" class="testfile"/>
           <morphology>
             <morpheme>
               <t offset="0">test</t>
@@ -231,7 +245,6 @@
               <t offset="4">file</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="testfile"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.7" class="PUNCTUATION">
           <t>!</t>
@@ -243,6 +256,22 @@
           </morphology>
           <lemma annotator="mblem" class="!"/>
         </w>
+        <chunking>
+          <chunk class="PP">
+            <wref id="frog.p.1.s.1.w.1" t="En"/>
+          </chunk>
+          <chunk class="NP">
+            <wref id="frog.p.1.s.1.w.2" t="dit"/>
+          </chunk>
+          <chunk class="VP">
+            <wref id="frog.p.1.s.1.w.3" t="is"/>
+          </chunk>
+          <chunk class="NP">
+            <wref id="frog.p.1.s.1.w.4" t="een"/>
+            <wref id="frog.p.1.s.1.w.5" t="tweede"/>
+            <wref id="frog.p.1.s.1.w.6" t="testfile"/>
+          </chunk>
+        </chunking>
       </s>
     </p>
   </text>
