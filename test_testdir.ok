@@ -18,8 +18,10 @@
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
-      <pos-annotation set="mbt-pos"/>
-      <lemma-annotation set="mbt-lemma"/>
+      <pos-annotation annotator="frog-mbpos-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="frog.text">
@@ -27,7 +29,7 @@
       <s xml:id="frog.p.1.s.1">
         <w xml:id="frog.p.1.s.1.w.1" class="WORD">
           <t>Dit</t>
-          <pos annotator="MBT" class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
+          <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
             <feat class="aanw" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="stan" subset="naamval"/>
@@ -40,11 +42,11 @@
               <t offset="0">dit</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="dit"/>
+          <lemma class="dit"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.2" class="WORD">
           <t>is</t>
-          <pos annotator="MBT" class="WW(pv,tgw,ev)" confidence="0.999635" head="WW">
+          <pos class="WW(pv,tgw,ev)" confidence="0.999635" head="WW">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
@@ -54,11 +56,11 @@
               <t offset="0">zijn</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="zijn"/>
+          <lemma class="zijn"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.3" class="WORD">
           <t>de</t>
-          <pos annotator="MBT" class="LID(bep,stan,rest)" confidence="0.999244" head="LID">
+          <pos class="LID(bep,stan,rest)" confidence="0.999244" head="LID">
             <feat class="bep" subset="lwtype"/>
             <feat class="stan" subset="naamval"/>
             <feat class="rest" subset="npagr"/>
@@ -68,16 +70,16 @@
               <t offset="0">de</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="de"/>
+          <lemma class="de"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.4" class="WORD">
           <t>eerste</t>
-          <pos annotator="MBT" class="TW(rang,prenom,stan)" confidence="0.883988" head="TW">
+          <pos class="TW(rang,prenom,stan)" confidence="0.883988" head="TW">
             <feat class="rang" subset="numtype"/>
             <feat class="prenom" subset="positie"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma annotator="mblem" class="eerste"/>
+          <lemma class="eerste"/>
           <morphology>
             <morpheme>
               <t offset="0">een</t>
@@ -89,14 +91,14 @@
         </w>
         <w xml:id="frog.p.1.s.1.w.5" class="WORD" space="no">
           <t>testfile</t>
-          <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.954637" head="N">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.954637" head="N">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma annotator="mblem" class="testfile"/>
+          <lemma class="testfile"/>
           <morphology>
             <morpheme>
               <t offset="0">test</t>
@@ -108,13 +110,13 @@
         </w>
         <w xml:id="frog.p.1.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos annotator="MBT" class="LET()" confidence="0.999956" head="LET"/>
+          <pos class="LET()" confidence="0.999956" head="LET"/>
           <morphology>
             <morpheme>
               <t offset="0">.</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="."/>
+          <lemma class="."/>
         </w>
         <chunking>
           <chunk class="NP">
@@ -146,8 +148,10 @@
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
-      <pos-annotation set="mbt-pos"/>
-      <lemma-annotation set="mbt-lemma"/>
+      <pos-annotation annotator="frog-mbpos-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="frog.text">
@@ -155,7 +159,7 @@
       <s xml:id="frog.p.1.s.1">
         <w xml:id="frog.p.1.s.1.w.1" class="WORD">
           <t>En</t>
-          <pos annotator="MBT" class="VG(neven)" confidence="0.992995" head="VG">
+          <pos class="VG(neven)" confidence="0.992995" head="VG">
             <feat class="neven" subset="conjtype"/>
           </pos>
           <morphology>
@@ -163,11 +167,11 @@
               <t offset="0">en</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="en"/>
+          <lemma class="en"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.2" class="WORD">
           <t>dit</t>
-          <pos annotator="MBT" class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.996906" head="VNW">
+          <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.996906" head="VNW">
             <feat class="aanw" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="stan" subset="naamval"/>
@@ -175,7 +179,7 @@
             <feat class="3o" subset="persoon"/>
             <feat class="ev" subset="getal"/>
           </pos>
-          <lemma annotator="mblem" class="dit"/>
+          <lemma class="dit"/>
           <morphology>
             <morpheme>
               <t offset="0">dit</t>
@@ -184,7 +188,7 @@
         </w>
         <w xml:id="frog.p.1.s.1.w.3" class="WORD">
           <t>is</t>
-          <pos annotator="MBT" class="WW(pv,tgw,ev)" confidence="0.999891" head="WW">
+          <pos class="WW(pv,tgw,ev)" confidence="0.999891" head="WW">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
@@ -194,16 +198,16 @@
               <t offset="0">zijn</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="zijn"/>
+          <lemma class="zijn"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.4" class="WORD">
           <t>een</t>
-          <pos annotator="MBT" class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
+          <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
             <feat class="onbep" subset="lwtype"/>
             <feat class="stan" subset="naamval"/>
             <feat class="agr" subset="npagr"/>
           </pos>
-          <lemma annotator="mblem" class="een"/>
+          <lemma class="een"/>
           <morphology>
             <morpheme>
               <t offset="0">een</t>
@@ -212,12 +216,12 @@
         </w>
         <w xml:id="frog.p.1.s.1.w.5" class="WORD">
           <t>tweede</t>
-          <pos annotator="MBT" class="TW(rang,prenom,stan)" confidence="0.849288" head="TW">
+          <pos class="TW(rang,prenom,stan)" confidence="0.849288" head="TW">
             <feat class="rang" subset="numtype"/>
             <feat class="prenom" subset="positie"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma annotator="mblem" class="tweede"/>
+          <lemma class="tweede"/>
           <morphology>
             <morpheme>
               <t offset="0">twee</t>
@@ -229,14 +233,14 @@
         </w>
         <w xml:id="frog.p.1.s.1.w.6" class="WORD" space="no">
           <t>testfile</t>
-          <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.822277" head="N">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.822277" head="N">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma annotator="mblem" class="testfile"/>
+          <lemma class="testfile"/>
           <morphology>
             <morpheme>
               <t offset="0">test</t>
@@ -248,13 +252,13 @@
         </w>
         <w xml:id="frog.p.1.s.1.w.7" class="PUNCTUATION">
           <t>!</t>
-          <pos annotator="MBT" class="LET()" confidence="0.995005" head="LET"/>
+          <pos class="LET()" confidence="0.995005" head="LET"/>
           <morphology>
             <morpheme>
               <t offset="0">!</t>
             </morpheme>
           </morphology>
-          <lemma annotator="mblem" class="!"/>
+          <lemma class="!"/>
         </w>
         <chunking>
           <chunk class="PP">
