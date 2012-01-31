@@ -1,16 +1,16 @@
-1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085				
-2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999635				
-3	de_eerste	de_eerste	[de]_[een][ste]	LID(bep,stan,rest)_TW(rang,prenom,stan)	0.883320				
-4	testfile	testfile	[test][file]	N(soort,ev,basis,zijd,stan)	0.954637				
-5	.	.	[.]	LET()	0.999956				
+1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085	B-NP		
+2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999635	B-VP		
+3	de_eerste	de_eerste	[de]_[een][ste]	LID(bep,stan,rest)_TW(rang,prenom,stan)	0.883320	B-NP_I-NP		
+4	testfile	testfile	[test][file]	N(soort,ev,basis,zijd,stan)	0.954637	I-NP		
+5	.	.	[.]	LET()	0.999956	O		
 
-1	En	en	[en]	VG(neven)	0.992995				
-2	dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.996906				
-3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891				
-4	een	een	[een]	LID(onbep,stan,agr)	0.995147				
-5	tweede	tweede	[twee][de]	TW(rang,prenom,stan)	0.849288				
-6	testfile	testfile	[test][file]	N(soort,ev,basis,zijd,stan)	0.822277				
-7	!	!	[!]	LET()	0.995005				
+1	En	en	[en]	VG(neven)	0.992995	B-PP		
+2	dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.996906	B-NP		
+3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	B-VP		
+4	een	een	[een]	LID(onbep,stan,agr)	0.995147	B-NP		
+5	tweede	tweede	[twee][de]	TW(rang,prenom,stan)	0.849288	I-NP		
+6	testfile	testfile	[test][file]	N(soort,ev,basis,zijd,stan)	0.822277	I-NP		
+7	!	!	[!]	LET()	0.995005	O		
 
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
@@ -116,6 +116,19 @@
           </morphology>
           <lemma annotator="mblem" class="."/>
         </w>
+        <chunking>
+          <chunk class="NP">
+            <wref id="frog.p.1.s.1.w.1" t="Dit"/>
+          </chunk>
+          <chunk class="VP">
+            <wref id="frog.p.1.s.1.w.2" t="is"/>
+          </chunk>
+          <chunk class="NP">
+            <wref id="frog.p.1.s.1.w.3" t="de"/>
+            <wref id="frog.p.1.s.1.w.4" t="eerste"/>
+            <wref id="frog.p.1.s.1.w.5" t="testfile"/>
+          </chunk>
+        </chunking>
         <entities>
           <entity>
             <wref id="frog.p.1.s.1.w.3" t="de"/>
@@ -243,6 +256,22 @@
           </morphology>
           <lemma annotator="mblem" class="!"/>
         </w>
+        <chunking>
+          <chunk class="PP">
+            <wref id="frog.p.1.s.1.w.1" t="En"/>
+          </chunk>
+          <chunk class="NP">
+            <wref id="frog.p.1.s.1.w.2" t="dit"/>
+          </chunk>
+          <chunk class="VP">
+            <wref id="frog.p.1.s.1.w.3" t="is"/>
+          </chunk>
+          <chunk class="NP">
+            <wref id="frog.p.1.s.1.w.4" t="een"/>
+            <wref id="frog.p.1.s.1.w.5" t="tweede"/>
+            <wref id="frog.p.1.s.1.w.6" t="testfile"/>
+          </chunk>
+        </chunking>
       </s>
     </p>
   </text>
