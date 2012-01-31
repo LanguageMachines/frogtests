@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.6" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.7" version="0.8">
   <metadata type="native">
     <annotations>
+      <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <pos-annotation set="mbt-pos"/>
       <lemma-annotation set="mbt-lemma"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
-    <div xml:id="WR-P-E-J-0000000001.div0.1">
+    <div xml:id="WR-P-E-J-0000000001.div0.1" class="1">
       <head xml:id="WR-P-E-J-0000000001.head.1">
         <s xml:id="WR-P-E-J-0000000001.head.1.s.1">
           <t>Dit is een test.
@@ -23,12 +24,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma annotator="mblem" class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -185,31 +186,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </morphology>
             <lemma annotator="mblem" class="?"/>
           </w>
-          <chunking>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
-            </chunk>
-            <chunk class="VP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="een"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="test"/>
-            </chunk>
-            <chunk class="VP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="Gaat"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="deze"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="datum"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.10" t="28-11-2011"/>
-            </chunk>
-            <chunk class="ADJP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="goed"/>
-            </chunk>
-          </chunking>
         </s>
       </head>
     </div>
@@ -217,16 +193,17 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 
 <?xml version="1.0"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.6" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.7" version="0.8">
   <metadata type="native">
     <annotations>
+      <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <pos-annotation set="mbt-pos"/>
       <lemma-annotation set="mbt-lemma"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
-    <div xml:id="WR-P-E-J-0000000001.div0.1">
+    <div xml:id="WR-P-E-J-0000000001.div0.1" class="1">
       <head xml:id="WR-P-E-J-0000000001.head.1">
         <s xml:id="WR-P-E-J-0000000001.head.1.s.1">
           <t>Dit is test 1.
@@ -241,12 +218,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma annotator="mblem" class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -359,12 +336,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
             <t>:</t>
             <pos annotator="MBT" class="LET()" confidence="0.999778" head="LET"/>
+            <lemma annotator="mblem" class=":"/>
             <morphology>
               <morpheme>
                 <t offset="0">:</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class=":"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="DATE">
             <t>28-11-2011</t>
@@ -402,31 +379,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </morphology>
             <lemma annotator="mblem" class="?"/>
           </w>
-          <chunking>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
-            </chunk>
-            <chunk class="VP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="test"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="1"/>
-            </chunk>
-            <chunk class="VP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="Gaat"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="deze"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="datum"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.10" t="28-11-2011"/>
-            </chunk>
-            <chunk class="ADJP">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="goed"/>
-            </chunk>
-          </chunking>
         </s>
       </head>
     </div>
@@ -434,16 +386,17 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 
 <?xml version="1.0"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.6" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.7" version="0.8">
   <metadata type="native">
     <annotations>
+      <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <pos-annotation set="mbt-pos"/>
       <lemma-annotation set="mbt-lemma"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
-    <div xml:id="WR-P-E-J-0000000001.div0.1">
+    <div xml:id="WR-P-E-J-0000000001.div0.1" class="unknown">
       <p xml:id="WR-P-E-J-0000000001.div0.1.p.1">
         <t>Dit is test 2.
 Gaat deze datum: 28-11-2011 goed?</t>
@@ -458,12 +411,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma annotator="mblem" class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -518,18 +471,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </morphology>
             <lemma annotator="mblem" class="."/>
           </w>
-          <chunking>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.1" t="Dit"/>
-            </chunk>
-            <chunk class="VP">
-              <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.2" t="is"/>
-              <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.3" t="test"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.4" t="2"/>
-            </chunk>
-          </chunking>
         </s>
         <s xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2">
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.1" class="WORD">
@@ -633,21 +574,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </morphology>
             <lemma annotator="mblem" class="?"/>
           </w>
-          <chunking>
-            <chunk class="VP">
-              <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.1" t="Gaat"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.2" t="deze"/>
-              <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.3" t="datum"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.5" t="28-11-2011"/>
-            </chunk>
-            <chunk class="ADJP">
-              <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.6" t="goed"/>
-            </chunk>
-          </chunking>
         </s>
       </p>
     </div>
@@ -655,16 +581,17 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 
 <?xml version="1.0"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.6" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.7" version="0.8">
   <metadata type="native">
     <annotations>
+      <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <pos-annotation set="mbt-pos"/>
       <lemma-annotation set="mbt-lemma"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
-    <div xml:id="WR-P-E-J-0000000001.div0.1">
+    <div xml:id="WR-P-E-J-0000000001.div0.1" class="kindergarten">
       <t>Dit is test3 .
 Gaat deze datum: 28-11-2011 goed?</t>
       <p xml:id="WR-P-E-J-0000000001.p.1">
@@ -679,12 +606,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma annotator="mblem" class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -739,18 +666,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </morphology>
             <lemma annotator="mblem" class="."/>
           </w>
-          <chunking>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.p.1.s.1.w.1" t="Dit"/>
-            </chunk>
-            <chunk class="VP">
-              <wref id="WR-P-E-J-0000000001.p.1.s.1.w.2" t="is"/>
-              <wref id="WR-P-E-J-0000000001.p.1.s.1.w.3" t="test"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.p.1.s.1.w.4" t="3"/>
-            </chunk>
-          </chunking>
         </s>
         <s xml:id="WR-P-E-J-0000000001.p.1.s.2">
           <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.1" class="WORD">
@@ -854,21 +769,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </morphology>
             <lemma annotator="mblem" class="?"/>
           </w>
-          <chunking>
-            <chunk class="VP">
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.1" t="Gaat"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.2" t="deze"/>
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.3" t="datum"/>
-            </chunk>
-            <chunk class="NP">
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.5" t="28-11-2011"/>
-            </chunk>
-            <chunk class="ADJP">
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.6" t="goed"/>
-            </chunk>
-          </chunking>
         </s>
       </p>
     </div>

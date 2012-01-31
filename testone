@@ -18,7 +18,7 @@ do if test -x $file
       \rm -f $file.out
       echo -n "Frogging $file "
       ./$file > $file.err 2>&1
-      diff $file.out $file.ok >& $file.diff
+      diff -w $file.out $file.ok >& $file.diff
       if [ $? -ne 0 ];
       then echo -e $FAIL;	
       echo "differences logged in $file.diff";
