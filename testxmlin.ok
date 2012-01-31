@@ -4,8 +4,10 @@
     <annotations>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
-      <pos-annotation set="mbt-pos"/>
-      <lemma-annotation set="mbt-lemma"/>
+      <pos-annotation annotator="frog-mbpos-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -16,7 +18,7 @@
 Gaat deze datum: 28-11-2011 goed?</t>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.1" class="WORD">
             <t>Dit</t>
-            <pos annotator="MBT" class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
+            <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
               <feat class="aanw" subset="vwtype"/>
               <feat class="pron" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -24,16 +26,16 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
-            <pos annotator="MBT" class="WW(pv,tgw,ev)" confidence="0.999891" head="WW">
+            <pos class="WW(pv,tgw,ev)" confidence="0.999891" head="WW">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
@@ -43,16 +45,16 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">zijn</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="zijn"/>
+            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
             <t>een</t>
-            <pos annotator="MBT" class="LID(onbep,stan,agr)" confidence="0.999113" head="LID">
+            <pos class="LID(onbep,stan,agr)" confidence="0.999113" head="LID">
               <feat class="onbep" subset="lwtype"/>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
-            <lemma annotator="mblem" class="een"/>
+            <lemma class="een"/>
             <morphology>
               <morpheme>
                 <t offset="0">een</t>
@@ -61,14 +63,14 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" space="no">
             <t>test</t>
-            <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.903055" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.903055" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
-            <lemma annotator="mblem" class="test"/>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t offset="0">test</t>
@@ -77,22 +79,22 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="PUNCTUATION">
             <t>.</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999956" head="LET"/>
+            <pos class="LET()" confidence="0.999956" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">.</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="."/>
+            <lemma class="."/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>Gaat</t>
-            <pos annotator="MBT" class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="met-t" subset="pvagr"/>
             </pos>
-            <lemma annotator="mblem" class="gaan"/>
+            <lemma class="gaan"/>
             <morphology>
               <morpheme>
                 <t offset="0">ga</t>
@@ -109,7 +111,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD">
             <t>deze</t>
-            <pos annotator="MBT" class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
               <feat class="aanw" subset="vwtype"/>
               <feat class="det" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -117,7 +119,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="met-e" subset="buiging"/>
               <feat class="rest" subset="npagr"/>
             </pos>
-            <lemma annotator="mblem" class="deze"/>
+            <lemma class="deze"/>
             <morphology>
               <morpheme>
                 <t offset="0">deze</t>
@@ -126,14 +128,14 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no">
             <t>datum</t>
-            <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
-            <lemma annotator="mblem" class="datum"/>
+            <lemma class="datum"/>
             <morphology>
               <morpheme>
                 <t offset="0">datum</t>
@@ -142,17 +144,17 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
             <t>:</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999778" head="LET"/>
+            <pos class="LET()" confidence="0.999778" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">:</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class=":"/>
+            <lemma class=":"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="DATE">
             <t>28-11-2011</t>
-            <pos annotator="MBT" class="SPEC(symb)" confidence="1" head="SPEC">
+            <pos class="SPEC(symb)" confidence="1" head="SPEC">
               <feat class="symb" subset="spectype"/>
             </pos>
             <morphology>
@@ -160,16 +162,16 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">28-11-2011</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="28-11-2011"/>
+            <lemma class="28-11-2011"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
             <t>goed</t>
-            <pos annotator="MBT" class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
               <feat class="vrij" subset="positie"/>
               <feat class="basis" subset="graad"/>
               <feat class="zonder" subset="buiging"/>
             </pos>
-            <lemma annotator="mblem" class="goed"/>
+            <lemma class="goed"/>
             <morphology>
               <morpheme>
                 <t offset="0">goed</t>
@@ -178,13 +180,13 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
             <t>?</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999956" head="LET"/>
+            <pos class="LET()" confidence="0.999956" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">?</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="?"/>
+            <lemma class="?"/>
           </w>
           <chunking>
             <chunk class="NP">
@@ -223,8 +225,10 @@ Gaat deze datum: 28-11-2011 goed?</t>
     <annotations>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
-      <pos-annotation set="mbt-pos"/>
-      <lemma-annotation set="mbt-lemma"/>
+      <pos-annotation annotator="frog-mbpos-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -235,7 +239,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
 Gaat deze datum: 28-11-2011 goed?</t>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.1" class="WORD">
             <t>Dit</t>
-            <pos annotator="MBT" class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
+            <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
               <feat class="aanw" subset="vwtype"/>
               <feat class="pron" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -243,7 +247,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
-            <lemma annotator="mblem" class="dit"/>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
@@ -252,7 +256,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
-            <pos annotator="MBT" class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
+            <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
@@ -262,18 +266,18 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">zijn</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="zijn"/>
+            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
             <t>test</t>
-            <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.5" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.5" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
-            <lemma annotator="mblem" class="test"/>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t offset="0">test</t>
@@ -282,7 +286,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="NUMBER" space="no">
             <t>1</t>
-            <pos annotator="MBT" class="TW(hoofd,vrij)" confidence="0.986842" head="TW">
+            <pos class="TW(hoofd,vrij)" confidence="0.986842" head="TW">
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
@@ -291,26 +295,26 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">1</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="1"/>
+            <lemma class="1"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="PUNCTUATION">
             <t>.</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999956" head="LET"/>
+            <pos class="LET()" confidence="0.999956" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">.</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="."/>
+            <lemma class="."/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>Gaat</t>
-            <pos annotator="MBT" class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="met-t" subset="pvagr"/>
             </pos>
-            <lemma annotator="mblem" class="gaan"/>
+            <lemma class="gaan"/>
             <morphology>
               <morpheme>
                 <t offset="0">ga</t>
@@ -327,7 +331,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD">
             <t>deze</t>
-            <pos annotator="MBT" class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
               <feat class="aanw" subset="vwtype"/>
               <feat class="det" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -335,7 +339,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="met-e" subset="buiging"/>
               <feat class="rest" subset="npagr"/>
             </pos>
-            <lemma annotator="mblem" class="deze"/>
+            <lemma class="deze"/>
             <morphology>
               <morpheme>
                 <t offset="0">deze</t>
@@ -344,14 +348,14 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no">
             <t>datum</t>
-            <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
-            <lemma annotator="mblem" class="datum"/>
+            <lemma class="datum"/>
             <morphology>
               <morpheme>
                 <t offset="0">datum</t>
@@ -360,17 +364,17 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
             <t>:</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999778" head="LET"/>
+            <pos class="LET()" confidence="0.999778" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">:</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class=":"/>
+            <lemma class=":"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="DATE">
             <t>28-11-2011</t>
-            <pos annotator="MBT" class="SPEC(symb)" confidence="1" head="SPEC">
+            <pos class="SPEC(symb)" confidence="1" head="SPEC">
               <feat class="symb" subset="spectype"/>
             </pos>
             <morphology>
@@ -378,16 +382,16 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">28-11-2011</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="28-11-2011"/>
+            <lemma class="28-11-2011"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
             <t>goed</t>
-            <pos annotator="MBT" class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
               <feat class="vrij" subset="positie"/>
               <feat class="basis" subset="graad"/>
               <feat class="zonder" subset="buiging"/>
             </pos>
-            <lemma annotator="mblem" class="goed"/>
+            <lemma class="goed"/>
             <morphology>
               <morpheme>
                 <t offset="0">goed</t>
@@ -396,13 +400,13 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
             <t>?</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999956" head="LET"/>
+            <pos class="LET()" confidence="0.999956" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">?</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="?"/>
+            <lemma class="?"/>
           </w>
           <chunking>
             <chunk class="NP">
@@ -441,8 +445,10 @@ Gaat deze datum: 28-11-2011 goed?</t>
     <annotations>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
-      <pos-annotation set="mbt-pos"/>
-      <lemma-annotation set="mbt-lemma"/>
+      <pos-annotation annotator="frog-mbpos-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -453,7 +459,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
         <s xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1">
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.1" class="WORD">
             <t>Dit</t>
-            <pos annotator="MBT" class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
+            <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
               <feat class="aanw" subset="vwtype"/>
               <feat class="pron" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -461,7 +467,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
-            <lemma annotator="mblem" class="dit"/>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
@@ -470,7 +476,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.2" class="WORD">
             <t>is</t>
-            <pos annotator="MBT" class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
+            <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
@@ -480,18 +486,18 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">zijn</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="zijn"/>
+            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.3" class="WORD">
             <t>test</t>
-            <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.789112" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.789112" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
-            <lemma annotator="mblem" class="test"/>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t offset="0">test</t>
@@ -500,7 +506,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.4" class="NUMBER" space="no">
             <t>2</t>
-            <pos annotator="MBT" class="TW(hoofd,vrij)" confidence="0.890855" head="TW">
+            <pos class="TW(hoofd,vrij)" confidence="0.890855" head="TW">
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
@@ -509,17 +515,17 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">2</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="2"/>
+            <lemma class="2"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.5" class="PUNCTUATION">
             <t>.</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999956" head="LET"/>
+            <pos class="LET()" confidence="0.999956" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">.</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="."/>
+            <lemma class="."/>
           </w>
           <chunking>
             <chunk class="NP">
@@ -537,12 +543,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
         <s xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2">
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.1" class="WORD">
             <t>Gaat</t>
-            <pos annotator="MBT" class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="met-t" subset="pvagr"/>
             </pos>
-            <lemma annotator="mblem" class="gaan"/>
+            <lemma class="gaan"/>
             <morphology>
               <morpheme>
                 <t offset="0">ga</t>
@@ -559,7 +565,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.2" class="WORD">
             <t>deze</t>
-            <pos annotator="MBT" class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
               <feat class="aanw" subset="vwtype"/>
               <feat class="det" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -567,7 +573,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="met-e" subset="buiging"/>
               <feat class="rest" subset="npagr"/>
             </pos>
-            <lemma annotator="mblem" class="deze"/>
+            <lemma class="deze"/>
             <morphology>
               <morpheme>
                 <t offset="0">deze</t>
@@ -576,14 +582,14 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.3" class="WORD" space="no">
             <t>datum</t>
-            <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
-            <lemma annotator="mblem" class="datum"/>
+            <lemma class="datum"/>
             <morphology>
               <morpheme>
                 <t offset="0">datum</t>
@@ -592,17 +598,17 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.4" class="PUNCTUATION">
             <t>:</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999778" head="LET"/>
+            <pos class="LET()" confidence="0.999778" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">:</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class=":"/>
+            <lemma class=":"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.5" class="DATE">
             <t>28-11-2011</t>
-            <pos annotator="MBT" class="SPEC(symb)" confidence="1" head="SPEC">
+            <pos class="SPEC(symb)" confidence="1" head="SPEC">
               <feat class="symb" subset="spectype"/>
             </pos>
             <morphology>
@@ -610,16 +616,16 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">28-11-2011</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="28-11-2011"/>
+            <lemma class="28-11-2011"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.6" class="WORD" space="no">
             <t>goed</t>
-            <pos annotator="MBT" class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
               <feat class="vrij" subset="positie"/>
               <feat class="basis" subset="graad"/>
               <feat class="zonder" subset="buiging"/>
             </pos>
-            <lemma annotator="mblem" class="goed"/>
+            <lemma class="goed"/>
             <morphology>
               <morpheme>
                 <t offset="0">goed</t>
@@ -628,13 +634,13 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.7" class="PUNCTUATION">
             <t>?</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999956" head="LET"/>
+            <pos class="LET()" confidence="0.999956" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">?</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="?"/>
+            <lemma class="?"/>
           </w>
           <chunking>
             <chunk class="VP">
@@ -663,8 +669,10 @@ Gaat deze datum: 28-11-2011 goed?</t>
     <annotations>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
-      <pos-annotation set="mbt-pos"/>
-      <lemma-annotation set="mbt-lemma"/>
+      <pos-annotation annotator="frog-mbpos-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -675,7 +683,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
         <s xml:id="WR-P-E-J-0000000001.p.1.s.1">
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.1" class="WORD">
             <t>Dit</t>
-            <pos annotator="MBT" class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
+            <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
               <feat class="aanw" subset="vwtype"/>
               <feat class="pron" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -683,16 +691,16 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.2" class="WORD">
             <t>is</t>
-            <pos annotator="MBT" class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
+            <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
@@ -702,27 +710,27 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">zijn</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="zijn"/>
+            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.3" class="WORD" space="no">
             <t>test</t>
-            <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.789112" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.789112" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t offset="0">test</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="test"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.4" class="NUMBER">
             <t>3</t>
-            <pos annotator="MBT" class="TW(hoofd,vrij)" confidence="0.890855" head="TW">
+            <pos class="TW(hoofd,vrij)" confidence="0.890855" head="TW">
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
@@ -731,17 +739,17 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">3</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="3"/>
+            <lemma class="3"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.5" class="PUNCTUATION">
             <t>.</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999956" head="LET"/>
+            <pos class="LET()" confidence="0.999956" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">.</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="."/>
+            <lemma class="."/>
           </w>
           <chunking>
             <chunk class="NP">
@@ -759,12 +767,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
         <s xml:id="WR-P-E-J-0000000001.p.1.s.2">
           <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.1" class="WORD">
             <t>Gaat</t>
-            <pos annotator="MBT" class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="met-t" subset="pvagr"/>
             </pos>
-            <lemma annotator="mblem" class="gaan"/>
+            <lemma class="gaan"/>
             <morphology>
               <morpheme>
                 <t offset="0">ga</t>
@@ -781,7 +789,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.2" class="WORD">
             <t>deze</t>
-            <pos annotator="MBT" class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
               <feat class="aanw" subset="vwtype"/>
               <feat class="det" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -789,7 +797,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="met-e" subset="buiging"/>
               <feat class="rest" subset="npagr"/>
             </pos>
-            <lemma annotator="mblem" class="deze"/>
+            <lemma class="deze"/>
             <morphology>
               <morpheme>
                 <t offset="0">deze</t>
@@ -798,14 +806,14 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.3" class="WORD" space="no">
             <t>datum</t>
-            <pos annotator="MBT" class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
-            <lemma annotator="mblem" class="datum"/>
+            <lemma class="datum"/>
             <morphology>
               <morpheme>
                 <t offset="0">datum</t>
@@ -814,17 +822,17 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.4" class="PUNCTUATION">
             <t>:</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999778" head="LET"/>
+            <pos class="LET()" confidence="0.999778" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">:</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class=":"/>
+            <lemma class=":"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.5" class="DATE">
             <t>28-11-2011</t>
-            <pos annotator="MBT" class="SPEC(symb)" confidence="1" head="SPEC">
+            <pos class="SPEC(symb)" confidence="1" head="SPEC">
               <feat class="symb" subset="spectype"/>
             </pos>
             <morphology>
@@ -832,16 +840,16 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t offset="0">28-11-2011</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="28-11-2011"/>
+            <lemma class="28-11-2011"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.6" class="WORD" space="no">
             <t>goed</t>
-            <pos annotator="MBT" class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
               <feat class="vrij" subset="positie"/>
               <feat class="basis" subset="graad"/>
               <feat class="zonder" subset="buiging"/>
             </pos>
-            <lemma annotator="mblem" class="goed"/>
+            <lemma class="goed"/>
             <morphology>
               <morpheme>
                 <t offset="0">goed</t>
@@ -850,13 +858,13 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.7" class="PUNCTUATION">
             <t>?</t>
-            <pos annotator="MBT" class="LET()" confidence="0.999956" head="LET"/>
+            <pos class="LET()" confidence="0.999956" head="LET"/>
             <morphology>
               <morpheme>
                 <t offset="0">?</t>
               </morpheme>
             </morphology>
-            <lemma annotator="mblem" class="?"/>
+            <lemma class="?"/>
           </w>
           <chunking>
             <chunk class="VP">
