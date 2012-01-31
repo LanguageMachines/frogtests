@@ -4,6 +4,8 @@
 $frog_bin/frog -x --skip=p -S 7000  > testserverxml.log 2>&1  &
 pid=`echo $!`
 
+\rm  testserver3.out
+\rm  testserver4.out
 sleep 8
 
 ./frogclient3 &
