@@ -5,7 +5,7 @@ expect "Trying 127.0.0.1..."
 expect "Connected to localhost."
 expect "Escape character is '^]'."
 log_file -noappend testserver4.out
-send "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\m"
+send "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
 send "<FoLiA xmlns=\"http://ilk.uvt.nl/folia\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:id=\"WR-P-E-J-0000000001\" version=\"0.8\" generator=\"libfolia-v0.4\">\n"
 send "  <text xml:id=\"WR-P-E-J-0000000001.text\">\n"
 send "      <div xml:id=\"WR-P-E-J-0000000001.div0.1\">\n"
