@@ -6,13 +6,31 @@ pid=`echo $!`
 
 \rm  testserver3.out
 \rm  testserver4.out
-sleep 8
+sleep 6
 
 ./frogclient3 &
 ./frogclient4 &
 
-sleep 4
+sleep 3
 cat testserver3.out > testserverxml.out
+cat testserver4.out >> testserverxml.out
+
+kill $pid
+
+sleep 4
+
+$frog_bin/frog -x -X --skip=p -S 7000  >> testserverxml.log 2>&1  &
+pid=`echo $!`
+
+\rm  testserver3.out
+\rm  testserver4.out
+sleep 6
+
+./frogclient3 &
+./frogclient4 &
+
+sleep 3
+cat testserver3.out >> testserverxml.out
 cat testserver4.out >> testserverxml.out
 
 kill $pid
