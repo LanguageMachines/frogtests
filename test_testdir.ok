@@ -18,11 +18,11 @@
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <pos-annotation annotator="frog-mbpos-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="frog.text">
@@ -149,11 +149,11 @@
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-0.12.10" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <pos-annotation annotator="frog-mbpos-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.11" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="frog.text">
@@ -164,12 +164,12 @@
           <pos class="VG(neven)" confidence="0.992995" head="VG">
             <feat class="neven" subset="conjtype"/>
           </pos>
-          <lemma class="en"/>
           <morphology>
             <morpheme>
               <t offset="0">en</t>
             </morpheme>
           </morphology>
+          <lemma class="en"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.2" class="WORD">
           <t>dit</t>

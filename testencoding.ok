@@ -25,7 +25,7 @@
 25	ruim	ruim	[ruim]	ADJ(vrij,basis,zonder)	0.979612	B-ADVP		
 26	één	één	[één]	TW(hoofd,prenom,stan)	0.959184	B-NP		
 27	miljoen	miljoen	[miljoen]	N(soort,ev,basis,onz,stan)	0.600000	I-NP		
-28	kilo	kilo	[kilo]	N(soort,ev,basis,zijd,stan)	0.760000	B-NP		
+28	kilo	kilo	[kilo]	N(soort,ev,basis,zijd,stan)	0.760000	I-NP		
 29	fosfaat	fosfaat	[fosfaat]	N(soort,ev,basis,onz,stan)	0.996804	B-NP		
 30	gemoeid	moeien	[gemoeid]	WW(vd,vrij,zonder)	0.900000	B-ADJP		
 31	.	.	[.]	LET()	0.999956	O		
@@ -35,10 +35,10 @@
 3	van	van	[van]	VZ(init)	0.963788	B-PP		
 4	de	de	[de]	LID(bep,stan,rest)	0.981886	B-NP		
 5	LTO-vakgroep	lto-vakgroep	[lto-vak][groep]	N(soort,ev,basis,zijd,stan)	0.582590	I-NP		
-6	varkenshouderij	varkenshouderij	[varken][s][houd][erij]	N(soort,ev,basis,zijd,stan)	0.995338	B-VP		
+6	varkenshouderij	varkenshouderij	[varken][s][houd][erij]	N(soort,ev,basis,zijd,stan)	0.995338	B-ADJP		
 7	zegt	zeggen	[zeg][t]	WW(pv,tgw,met-t)	0.999565	B-VP		
-8	dat	dat	[dat]	VG(onder)	0.857143	B-NP		
-9	boeren	boer	[boer][en]	N(soort,mv,basis)	0.987342	I-NP		
+8	dat	dat	[dat]	VG(onder)	0.857143	B-SBAR		
+9	boeren	boer	[boer][en]	N(soort,mv,basis)	0.987342	B-NP		
 10	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.798603	B-SBAR		
 11	serieus	serieus	[serieus]	ADJ(vrij,basis,zonder)	0.973684	B-ADJP		
 12	willen	willen	[wil][en]	WW(inf,vrij,zonder)	0.625000	B-VP		
