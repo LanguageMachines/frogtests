@@ -120,13 +120,13 @@
           <lemma class="."/>
         </w>
         <chunking>
-          <chunk class="NP">
+          <chunk class="NP" confidence="0.992424">
             <wref id="frog.p.1.s.1.w.1" t="Dit"/>
           </chunk>
-          <chunk class="VP">
+          <chunk class="VP" confidence="0.972459">
             <wref id="frog.p.1.s.1.w.2" t="is"/>
           </chunk>
-          <chunk class="NP">
+          <chunk class="NP" confidence="0.720654">
             <wref id="frog.p.1.s.1.w.3" t="de"/>
             <wref id="frog.p.1.s.1.w.4" t="eerste"/>
             <wref id="frog.p.1.s.1.w.5" t="testfile"/>
@@ -181,12 +181,12 @@
             <feat class="3o" subset="persoon"/>
             <feat class="ev" subset="getal"/>
           </pos>
-          <lemma class="dit"/>
           <morphology>
             <morpheme>
               <t offset="0">dit</t>
             </morpheme>
           </morphology>
+          <lemma class="dit"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.3" class="WORD">
           <t>is</t>
@@ -209,12 +209,12 @@
             <feat class="stan" subset="naamval"/>
             <feat class="agr" subset="npagr"/>
           </pos>
-          <lemma class="een"/>
           <morphology>
             <morpheme>
               <t offset="0">een</t>
             </morpheme>
           </morphology>
+          <lemma class="een"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.5" class="WORD">
           <t>tweede</t>
@@ -223,7 +223,6 @@
             <feat class="prenom" subset="positie"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma class="tweede"/>
           <morphology>
             <morpheme>
               <t offset="0">twee</t>
@@ -232,6 +231,7 @@
               <t offset="4">de</t>
             </morpheme>
           </morphology>
+          <lemma class="tweede"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.6" class="WORD" space="no">
           <t>testfile</t>
@@ -242,7 +242,6 @@
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
-          <lemma class="testfile"/>
           <morphology>
             <morpheme>
               <t offset="0">test</t>
@@ -251,6 +250,7 @@
               <t offset="4">file</t>
             </morpheme>
           </morphology>
+          <lemma class="testfile"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.7" class="PUNCTUATION">
           <t>!</t>
@@ -263,16 +263,16 @@
           <lemma class="!"/>
         </w>
         <chunking>
-          <chunk class="PP">
+          <chunk class="PP" confidence="0.984615">
             <wref id="frog.p.1.s.1.w.1" t="En"/>
           </chunk>
-          <chunk class="NP">
+          <chunk class="NP" confidence="0.954545">
             <wref id="frog.p.1.s.1.w.2" t="dit"/>
           </chunk>
-          <chunk class="VP">
+          <chunk class="VP" confidence="0.972459">
             <wref id="frog.p.1.s.1.w.3" t="is"/>
           </chunk>
-          <chunk class="NP">
+          <chunk class="NP" confidence="0.816831">
             <wref id="frog.p.1.s.1.w.4" t="een"/>
             <wref id="frog.p.1.s.1.w.5" t="tweede"/>
             <wref id="frog.p.1.s.1.w.6" t="testfile"/>
