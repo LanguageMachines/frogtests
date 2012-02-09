@@ -367,12 +367,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
             <t>:</t>
             <pos class="LET()" confidence="0.999778" head="LET"/>
+            <lemma class=":"/>
             <morphology>
               <morpheme>
                 <t offset="0">:</t>
               </morpheme>
             </morphology>
-            <lemma class=":"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="DATE">
             <t>28-11-2011</t>
@@ -414,8 +414,10 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk class="NP" confidence="0.992424">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
             </chunk>
-            <chunk class="VP" confidence="0.765361">
+            <chunk class="VP" confidence="0.972459">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
+            </chunk>
+            <chunk class="NP" confidence="0.787037">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="test"/>
             </chunk>
             <chunk class="NP" confidence="0.916667">
@@ -470,12 +472,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -534,8 +536,10 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk class="NP" confidence="0.992424">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.1" t="Dit"/>
             </chunk>
-            <chunk class="VP" confidence="0.765361">
+            <chunk class="VP" confidence="0.972459">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.2" t="is"/>
+            </chunk>
+            <chunk class="NP" confidence="0.787037">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.3" t="test"/>
             </chunk>
             <chunk class="NP" confidence="0.5">
@@ -638,12 +642,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.7" class="PUNCTUATION">
             <t>?</t>
             <pos class="LET()" confidence="0.999956" head="LET"/>
-            <lemma class="?"/>
             <morphology>
               <morpheme>
                 <t offset="0">?</t>
               </morpheme>
             </morphology>
+            <lemma class="?"/>
           </w>
           <chunking>
             <chunk class="VP" confidence="0.998908">
@@ -695,12 +699,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -759,8 +763,10 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk class="NP" confidence="0.992424">
               <wref id="WR-P-E-J-0000000001.p.1.s.1.w.1" t="Dit"/>
             </chunk>
-            <chunk class="VP" confidence="0.765361">
+            <chunk class="VP" confidence="0.972459">
               <wref id="WR-P-E-J-0000000001.p.1.s.1.w.2" t="is"/>
+            </chunk>
+            <chunk class="NP" confidence="0.787037">
               <wref id="WR-P-E-J-0000000001.p.1.s.1.w.3" t="test"/>
             </chunk>
             <chunk class="NP" confidence="0.680798">
