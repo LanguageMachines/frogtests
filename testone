@@ -22,7 +22,9 @@ do if test -x $file
       if [ $? -ne 0 ];
       then echo -e $FAIL;	
       echo "differences logged in $file.diff";
-      else echo -e $OK
+      else
+       echo -e $OK
+       rm $file.diff
       fi
   else
 	echo "file $file not found"
