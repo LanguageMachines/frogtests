@@ -204,8 +204,9 @@
 14	moet	moeten	[moet]	WW(pv,tgw,ev)	0.999794	B-VP	0	ROOT
 15	garant	garant	[garant]	N(soort,ev,basis,zijd,stan)	0.800000	B-VAST	16	obj1
 16	staan	staan	[sta]	WW(pv,tgw,mv)	1.000000	B-VP	14	vc
-17	voor_een	voor_een	[voor]_[een]	VZ(init)_LID(onbep,stan,agr)	0.987121	B-PP_B-NP	19	det
-18	betrouwbare	betrouwbaar	[be][trouw][baar][e]	ADJ(prenom,basis,met-e,stan)	0.999828	I-NP	19	mod
-19	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999705	I-NP	16	obj1
-20	.	.	[.]	LET()	0.999956	O	19	punct
+17	voor	voor	[voor]	VZ(init)	0.991935	B-PP	16	ld
+18	een	een	[een]	LID(onbep,stan,agr)	0.995147	B-NP	20	det
+19	betrouwbare	betrouwbaar	[be][trouw][baar][e]	ADJ(prenom,basis,met-e,stan)	0.999828	I-NP	20	mod
+20	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999705	I-NP	17	obj1
+21	.	.	[.]	LET()	0.999956	O	20	punct
 

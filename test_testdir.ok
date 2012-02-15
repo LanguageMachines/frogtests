@@ -1,8 +1,9 @@
 1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085	B-NP		
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999635	B-VP		
-3	de_eerste	de_eerste	[de]_[een][ste]	LID(bep,stan,rest)_TW(rang,prenom,stan)	0.883320	B-NP_I-NP		
-4	testfile	testfile	[test][file]	N(soort,ev,basis,zijd,stan)	0.954637	I-NP		
-5	.	.	[.]	LET()	0.999956	O		
+3	de	de	[de]	LID(bep,stan,rest)	0.999244	B-NP		
+4	eerste	eerste	[een][ste]	TW(rang,prenom,stan)	0.883988	I-NP		
+5	testfile	testfile	[test][file]	N(soort,ev,basis,zijd,stan)	0.954637	I-NP		
+6	.	.	[.]	LET()	0.999956	O		
 
 1	En	en	[en]	VG(neven)	0.992995	B-PP		
 2	dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.996906	B-NP		
@@ -132,12 +133,6 @@
             <wref id="frog.p.1.s.1.w.5" t="testfile"/>
           </chunk>
         </chunking>
-        <entities>
-          <entity>
-            <wref id="frog.p.1.s.1.w.3" t="de"/>
-            <wref id="frog.p.1.s.1.w.4" t="eerste"/>
-          </entity>
-        </entities>
       </s>
     </p>
   </text>
