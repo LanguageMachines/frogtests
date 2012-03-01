@@ -1,24 +1,24 @@
-1	met	met	[met]	VZ(init)	0.999480	B-PP		
-2	zn	zn	[zn]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999410	B-NP		
-3	allen	allen	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	B-ADVP		
-4	,	,	[,]	LET()	0.999925	O		
-5	of	of	[of]	VG(neven)	0.987531	B-CONJP		
-6	met	met	[met]	VZ(init)	0.999480	B-PP		
-7	z'n	z'n	[z'n]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999385	B-NP		
-8	allen	allen	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	B-ADVP		
-9	?	?	[?]	LET()	0.999956	O		
+1	met	met	[met]	VZ(init)	0.999480	O	B-PP		
+2	zn	zn	[zn]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999410	O	B-NP		
+3	allen	allen	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
+4	,	,	[,]	LET()	0.999925	O	O		
+5	of	of	[of]	VG(neven)	0.987531	O	B-CONJP		
+6	met	met	[met]	VZ(init)	0.999480	O	B-PP		
+7	z'n	z'n	[z'n]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999385	O	B-NP		
+8	allen	allen	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
+9	?	?	[?]	LET()	0.999956	O	O		
 
-1	da's	da's	[da's]	WW(pv,tgw,ev)	0.500000	B-VP		
-2	niet	niet	[niet]	BW()	0.999918	B-ADVP		
-3	best	best	[goed]	ADJ(vrij,sup,zonder)	0.892899	B-ADVP		
+1	da's	da's	[da's]	WW(pv,tgw,ev)	0.500000	O	B-VP		
+2	niet	niet	[niet]	BW()	0.999918	O	B-ADVP		
+3	best	best	[goed]	ADJ(vrij,sup,zonder)	0.892899	O	B-ADVP		
 
-1	da’s	da’	[da’][s]	N(soort,mv,basis)	0.300761	B-NP		
-2	niet	niet	[niet]	BW()	0.999918	B-ADVP		
-3	best	best	[goed]	ADJ(vrij,sup,zonder)	0.892899	B-ADVP		
+1	da’s	da’	[da’][s]	N(soort,mv,basis)	0.300761	O	B-NP		
+2	niet	niet	[niet]	BW()	0.999918	O	B-ADVP		
+3	best	best	[goed]	ADJ(vrij,sup,zonder)	0.892899	O	B-ADVP		
 
-1	zo’n	zo’n	[zo’n]	N(soort,mv,basis)	0.837756	B-NP		
-2	leesteken	leesteken	[leesteken]	WW(pv,verl,mv)	0.433219	I-NP		
-3	of	of	[of]	VG(neven)	0.820513	B-CONJP		
-4	zo'n	zo'n	[zo'n]	VNW(aanw,det,stan,prenom,zonder,agr)	0.995074	B-NP		
-5	?	?	[?]	LET()	0.999956	O		
+1	zo’n	zo’n	[zo’n]	N(soort,mv,basis)	0.837756	O	B-NP		
+2	leesteken	leesteken	[leesteken]	WW(pv,verl,mv)	0.433219	O	I-NP		
+3	of	of	[of]	VG(neven)	0.820513	O	B-CONJP		
+4	zo'n	zo'n	[zo'n]	VNW(aanw,det,stan,prenom,zonder,agr)	0.995074	O	B-NP		
+5	?	?	[?]	LET()	0.999956	O	O		
 

@@ -1,41 +1,41 @@
-1	1	1	[1]	TW(hoofd,vrij)	0.698220	B-NP		
-2	kB	kB	[kB]	SPEC(afk)	1.000000	I-NP		
-3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	B-VP		
-4	1000	1000	[1000]	TW(hoofd,prenom,stan)	0.627863	B-NP		
-5	bytes	byte	[byte][s]	N(soort,mv,basis)	1.000000	I-NP		
-6	,	,	[,]	LET()	0.999925	O		
-7	maar	maar	[maar]	BW()	0.500000	B-CONJP		
-8	1	1	[1]	TW(hoofd,vrij)	0.698220	B-NP		
-9	KiB	KiB	[KiB]	SPEC(deeleigen)	1.000000	I-NP		
-10	is	zijn	[zijn]	WW(pv,tgw,ev)	0.997290	B-VP		
-11	1024	1024	[1024]	TW(hoofd,vrij)	0.698220	B-NP		
-12	bytes	byte	[byte][s]	N(soort,mv,basis)	0.944042	I-NP		
-13	en	en	[en]	VG(neven)	0.998783	B-CONJP		
-14	wordt	worden	[word][t]	WW(pv,tgw,met-t)	0.999676	B-VP		
-15	ook	ook	[ook]	BW()	0.999979	B-ADVP		
-16	wel	wel	[wel]	BW()	0.999831	B-ADVP		
-17	als	als	[als]	VZ(init)	0.720000	B-SBAR		
-18	1	1	[1]	TW(hoofd,vrij)	0.698220	B-NP		
-19	kiB	kib	[kib]	N(soort,ev,basis,zijd,stan)	0.587567	I-NP		
-20	geschreven	schrijven	[ge][schrijf][en]	WW(vd,vrij,zonder)	0.991826	B-VP		
-21	.	.	[.]	LET()	0.999956	O		
+1	1	1	[1]	TW(hoofd,vrij)	0.698220	O	B-NP		
+2	kB	kB	[kB]	SPEC(afk)	1.000000	O	I-NP		
+3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP		
+4	1000	1000	[1000]	TW(hoofd,prenom,stan)	0.627863	O	B-NP		
+5	bytes	byte	[byte][s]	N(soort,mv,basis)	1.000000	O	I-NP		
+6	,	,	[,]	LET()	0.999925	O	O		
+7	maar	maar	[maar]	BW()	0.500000	O	B-CONJP		
+8	1	1	[1]	TW(hoofd,vrij)	0.698220	O	B-NP		
+9	KiB	KiB	[KiB]	SPEC(deeleigen)	1.000000	B-ORG	I-NP		
+10	is	zijn	[zijn]	WW(pv,tgw,ev)	0.997290	O	B-VP		
+11	1024	1024	[1024]	TW(hoofd,vrij)	0.698220	O	B-NP		
+12	bytes	byte	[byte][s]	N(soort,mv,basis)	0.944042	O	I-NP		
+13	en	en	[en]	VG(neven)	0.998783	O	B-CONJP		
+14	wordt	worden	[word][t]	WW(pv,tgw,met-t)	0.999676	O	B-VP		
+15	ook	ook	[ook]	BW()	0.999979	O	B-ADVP		
+16	wel	wel	[wel]	BW()	0.999831	O	B-ADVP		
+17	als	als	[als]	VZ(init)	0.720000	O	B-SBAR		
+18	1	1	[1]	TW(hoofd,vrij)	0.698220	O	B-NP		
+19	kiB	kib	[kib]	N(soort,ev,basis,zijd,stan)	0.587567	O	I-NP		
+20	geschreven	schrijven	[ge][schrijf][en]	WW(vd,vrij,zonder)	0.991826	O	B-VP		
+21	.	.	[.]	LET()	0.999956	O	O		
 
-1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-NP		
-2	fietst	fietsen	[fiets][t]	WW(pv,tgw,met-t)	0.998984	B-VP		
-3	100	100	[100]	TW(hoofd,prenom,stan)	0.677411	B-NP		
-4	km	km	[km]	N(soort,ev,basis,zijd,stan)	0.666667	I-NP		
-5	met	met	[met]	VZ(init)	0.999480	B-PP		
-6	50	50	[50]	TW(hoofd,prenom,stan)	0.677411	B-NP		
-7	km	km	[km]	N(soort,ev,basis,zijd,stan)	0.800000	I-NP		
-8	/	/	[/]	LET()	0.995005	O		
-9	h	h	[h]	SPEC(symb)	1.000000	B-NP		
+1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP		
+2	fietst	fietsen	[fiets][t]	WW(pv,tgw,met-t)	0.998984	O	B-VP		
+3	100	100	[100]	TW(hoofd,prenom,stan)	0.677411	O	B-NP		
+4	km	km	[km]	N(soort,ev,basis,zijd,stan)	0.666667	O	I-NP		
+5	met	met	[met]	VZ(init)	0.999480	O	B-PP		
+6	50	50	[50]	TW(hoofd,prenom,stan)	0.677411	O	B-NP		
+7	km	km	[km]	N(soort,ev,basis,zijd,stan)	0.800000	O	I-NP		
+8	/	/	[/]	LET()	0.995005	O	O		
+9	h	h	[h]	SPEC(symb)	1.000000	O	B-NP		
 
-1	De	de	[de]	LID(bep,stan,rest)	0.877577	B-NP		
-2	moter	moter	[moter]	N(soort,ev,basis,zijd,stan)	1.000000	I-NP		
-3	lever	leveren	[lever]	WW(pv,tgw,ev)	0.666667	I-NP		
-4	een	een	[een]	LID(onbep,stan,agr)	0.995147	B-NP		
-5	koppel	koppel	[koppel]	N(soort,ev,basis,onz,stan)	0.998108	I-NP		
-6	van	van	[van]	VZ(init)	0.994382	B-PP		
-7	108	108	[108]	TW(hoofd,vrij)	0.842105	B-NP		
-8	Nm	nm	[nm]	N(soort,ev,basis,zijd,stan)	0.992385	I-NP		
+1	De	de	[de]	LID(bep,stan,rest)	0.877577	O	B-NP		
+2	moter	moter	[moter]	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP		
+3	lever	leveren	[lever]	WW(pv,tgw,ev)	0.666667	O	I-NP		
+4	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP		
+5	koppel	koppel	[koppel]	N(soort,ev,basis,onz,stan)	0.998108	O	I-NP		
+6	van	van	[van]	VZ(init)	0.994382	O	B-PP		
+7	108	108	[108]	TW(hoofd,vrij)	0.842105	O	B-NP		
+8	Nm	nm	[nm]	N(soort,ev,basis,zijd,stan)	0.992385	B-PER	I-NP		
 

@@ -2,6 +2,7 @@
 <FoLiA xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="WR-P-E-J-0000000001" version="0.8" generator="libfolia-v0.4">
   <metadata type="imdi">
     <annotations>
+
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
     </annotations>
   </metadata>
@@ -16,14 +17,14 @@
   </text>
 </FoLiA>
 
-1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085			B-NP		
-2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891			B-VP		
-3	een	een	[een]	LID(onbep,stan,agr)	0.999113			B-NP		
-4	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.991304			I-NP		
-5	van	van	[van]	VZ(init)	0.959310			B-PP		
-6	FoLia	FoLia	[FoLia]	SPEC(deeleigen)	1.000000			B-NP		
-7	input	input	[input]	N(soort,ev,basis,zijd,stan)	0.500000			I-NP		
-8	?	?	[?]	LET()	0.999956			O		
+1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085	O	B-NP		
+2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP		
+3	een	een	[een]	LID(onbep,stan,agr)	0.999113	O	B-NP		
+4	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.991304	O	I-NP		
+5	van	van	[van]	VZ(init)	0.959310	O	B-PP		
+6	FoLia	FoLia	[FoLia]	SPEC(deeleigen)	1.000000	B-LOC	B-NP		
+7	input	input	[input]	N(soort,ev,basis,zijd,stan)	0.500000	O	I-NP		
+8	?	?	[?]	LET()	0.999956	O	O		
 
 READY
 <?xml version="1.0" encoding="UTF-8"?>
@@ -44,15 +45,15 @@ READY
   </text>
 </FoLiA>
 
-1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085			B-NP		
-2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891			B-VP		
-3	een	een	[een]	LID(onbep,stan,agr)	0.995147			B-NP		
-4	andere	ander	[ander][e]	ADJ(prenom,basis,met-e,stan)	0.910340			I-NP		
-5	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.983389			I-NP		
-6	van	van	[van]	VZ(init)	0.959310			B-PP		
-7	FoLia	FoLia	[FoLia]	SPEC(deeleigen)	1.000000			B-NP		
-8	input	input	[input]	N(soort,ev,basis,zijd,stan)	0.500000			I-NP		
-9	?	?	[?]	LET()	0.999956			O		
+1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085	O	B-NP		
+2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP		
+3	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP		
+4	andere	ander	[ander][e]	ADJ(prenom,basis,met-e,stan)	0.910340	O	I-NP		
+5	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.983389	O	I-NP		
+6	van	van	[van]	VZ(init)	0.959310	O	B-PP		
+7	FoLia	FoLia	[FoLia]	SPEC(deeleigen)	1.000000	B-LOC	B-NP		
+8	input	input	[input]	N(soort,ev,basis,zijd,stan)	0.500000	O	I-NP		
+9	?	?	[?]	LET()	0.999956	O	O		
 
 READY
 <?xml version="1.0" encoding="UTF-8"?>
@@ -79,11 +80,12 @@ READY
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <pos-annotation annotator="frog-mbpos-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <morphological-annotation annotator="frog-mbma-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbpos-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -221,6 +223,11 @@ READY
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="input"/>
             </chunk>
           </chunking>
+          <entities>
+            <entity class="loc" confidence="0.576918" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="FoLia"/>
+            </entity>
+          </entities>
         </s>
       </head>
     </div>
@@ -253,11 +260,12 @@ READY
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <pos-annotation annotator="frog-mbpos-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <morphological-annotation annotator="frog-mbma-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbpos-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -414,6 +422,11 @@ READY
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="input"/>
             </chunk>
           </chunking>
+          <entities>
+            <entity class="loc" confidence="0.576918" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="FoLia"/>
+            </entity>
+          </entities>
         </s>
       </head>
     </div>

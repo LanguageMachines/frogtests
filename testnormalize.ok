@@ -1,24 +1,24 @@
-1	vergelijk	vergelijken	[ver][gelijk]/[vergelijk]	WW(pv,tgw,ev)	0.692130	B-VP		
-2	gráda	gráda	[gráda]	N(soort,ev,basis,zijd,stan)	0.588322	B-NP		
-3	versus	versus	[versus]	VZ(init)	0.997963	B-CONJP		
-4	gráda	gráda	[gráda]	SPEC(deeleigen)	1.000000	B-NP		
-5	.	.	[.]	LET()	0.999956	O		
+1	vergelijk	vergelijken	[ver][gelijk]/[vergelijk]	WW(pv,tgw,ev)	0.692130	O	B-VP		
+2	gráda	gráda	[gráda]	N(soort,ev,basis,zijd,stan)	0.588322	O	B-NP		
+3	versus	versus	[versus]	VZ(init)	0.997963	O	B-CONJP		
+4	gráda	gráda	[gráda]	SPEC(deeleigen)	1.000000	O	B-NP		
+5	.	.	[.]	LET()	0.999956	O	O		
 
-1	de	de	[de]	LID(bep,stan,rest)	0.981886	B-NP		
-2	angstrom	angstrom	[angstrom]	N(soort,ev,basis,zijd,stan)	0.546373	I-NP		
-3	:	:	[:]	LET()	0.999778	O		
-4	Å	Å	[Å]	SPEC(symb)	1.000000	B-NP		
-5	en	en	[en]	VG(neven)	0.999194	B-CONJP		
-6	å	å	[å]	SPEC(symb)	1.000000	B-NP		
-7	.	.	[.]	LET()	0.999956	O		
+1	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP		
+2	angstrom	angstrom	[angstrom]	N(soort,ev,basis,zijd,stan)	0.546373	O	I-NP		
+3	:	:	[:]	LET()	0.999778	O	O		
+4	Å	Å	[Å]	SPEC(symb)	1.000000	O	B-NP		
+5	en	en	[en]	VG(neven)	0.999194	O	B-CONJP		
+6	å	å	[å]	SPEC(symb)	1.000000	O	B-NP		
+7	.	.	[.]	LET()	0.999956	O	O		
 
-1	en	en	[en]	VG(neven)	0.999194	B-PP		
-2	een	een	[een]	LID(onbep,stan,agr)	0.995147	B-NP		
-3	ligatuur	ligatuur	[ligatuur]	N(soort,ev,basis,zijd,stan)	1.000000	I-NP		
-4	:	:	[:]	LET()	0.999778	O		
-5	het	het	[het]	LID(bep,stan,evon)	0.702075	B-NP		
-6	oevre	oevre	[oevre]	ADJ(nom,basis,met-e,zonder-n,stan)	0.860436	I-NP		
-7	van	van	[van]	VZ(init)	0.959310	B-PP		
-8	AEgidius	AEgidius	[AEgidius]	SPEC(deeleigen)	1.000000	B-NP		
-9	.	.	[.]	LET()	0.999956	O		
+1	en	en	[en]	VG(neven)	0.999194	O	B-PP		
+2	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP		
+3	ligatuur	ligatuur	[ligatuur]	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP		
+4	:	:	[:]	LET()	0.999778	O	O		
+5	het	het	[het]	LID(bep,stan,evon)	0.702075	O	B-NP		
+6	oevre	oevre	[oevre]	ADJ(nom,basis,met-e,zonder-n,stan)	0.860436	O	I-NP		
+7	van	van	[van]	VZ(init)	0.959310	O	B-PP		
+8	AEgidius	AEgidius	[AEgidius]	SPEC(deeleigen)	1.000000	B-LOC	B-NP		
+9	.	.	[.]	LET()	0.999956	O	O		
 

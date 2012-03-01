@@ -4,7 +4,7 @@
 $frog_bin/frog  --keep-parser-files=yes -S 7000  > testserver.log 2>&1  &
 pid=`echo $!`
 
-sleep 8
+sleep 12
 
 ./frogclient1 &
 ./frogclient2 &

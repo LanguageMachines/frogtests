@@ -1,26 +1,26 @@
-1	stuur	sturen	[stuur]	WW(pv,tgw,ev)	0.714286	B-VP		
-2	een	een	[een]	LID(onbep,stan,agr)	0.999113	B-NP		
-3	mail	mail	[mail]	N(soort,ev,basis,zijd,stan)	0.851064	I-NP		
-4	naar	naar	[naar]	VZ(init)	0.970603	B-PP		
-5	Piet.puk@uvt.nl	Piet.puk@uvt.nl	[Piet.puk@uvt.nl]	SPEC(symb)	1.000000	B-NP		
-6	of	of	[of]	VG(neven)	0.992537	B-CONJP		
-7	surf	surfen	[surf]	WW(pv,tgw,ev)	0.983871	B-VP		
-8	naar	naar	[naar]	VZ(init)	0.970603	B-PP		
-9	www.uvt.nl/puk	www.uvt.nl/puk	[www.uvt.nl/puk]	SPEC(symb)	1.000000	B-NP		
-10	.	.	[.]	LET()	0.999956	O		
+1	stuur	sturen	[stuur]	WW(pv,tgw,ev)	0.714286	O	B-VP		
+2	een	een	[een]	LID(onbep,stan,agr)	0.999113	O	B-NP		
+3	mail	mail	[mail]	N(soort,ev,basis,zijd,stan)	0.851064	O	I-NP		
+4	naar	naar	[naar]	VZ(init)	0.970603	O	B-PP		
+5	Piet.puk@uvt.nl	Piet.puk@uvt.nl	[Piet.puk@uvt.nl]	SPEC(symb)	1.000000	B-LOC	B-NP		
+6	of	of	[of]	VG(neven)	0.992537	O	B-CONJP		
+7	surf	surfen	[surf]	WW(pv,tgw,ev)	0.983871	O	B-VP		
+8	naar	naar	[naar]	VZ(init)	0.970603	O	B-PP		
+9	www.uvt.nl/puk	www.uvt.nl/puk	[www.uvt.nl/puk]	SPEC(symb)	1.000000	O	B-NP		
+10	.	.	[.]	LET()	0.999956	O	O		
 
-1	De	de	[de]	LID(bep,stan,rest)	0.877577	B-NP		
-2	URL	URL	[URL]	SPEC(deeleigen)	1.000000	I-NP		
-3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	B-VP		
-4	http://www.consument-en-veiligheid.nl	http://www.consument-en-veiligheid.nl	[http://www.][consumeerenten][veilig][heid.nl]	N(soort,ev,basis,zijd,stan)	0.997399	B-NP		
-5	.	.	[.]	LET()	0.999956	O		
+1	De	de	[de]	LID(bep,stan,rest)	0.877577	O	B-NP		
+2	URL	URL	[URL]	SPEC(deeleigen)	1.000000	B-ORG	I-NP		
+3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP		
+4	http://www.consument-en-veiligheid.nl	http://www.consument-en-veiligheid.nl	[http://www.][consumeerenten][veilig][heid.nl]	N(soort,ev,basis,zijd,stan)	0.997399	O	B-NP		
+5	.	.	[.]	LET()	0.999956	O	O		
 
-1	Ook	ook	[ook]	BW()	0.999604	B-ADVP		
-2	https://ilk.uvt.nl/svn	https://ilk.uvt.nl/svn	[https://ilk.uvt.nl/svn]	N(soort,mv,basis)	0.846064	B-VP		
-3	en	en	[en]	VG(neven)	0.999194	B-CONJP		
-4	http://www.uvt.nl	http://www.uvt.nl	[http://www.uvt.nl]	SPEC(symb)	1.000000	B-NP		
-5	/	/	[/]	LET()	0.995005	O		
-6	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.973699	B-VP		
-7	de_moeite_waard	de_moeite_waard	[de]_[moeite]_[waard]	LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)_ADJ(vrij,basis,zonder)	0.980165	B-NP_I-NP_B-ADJP		
-8	.	.	[.]	LET()	0.999956	O		
+1	Ook	ook	[ook]	BW()	0.999604	O	B-ADVP		
+2	https://ilk.uvt.nl/svn	https://ilk.uvt.nl/svn	[https://ilk.uvt.nl/svn]	N(soort,mv,basis)	0.846064	O	B-VP		
+3	en	en	[en]	VG(neven)	0.999194	O	B-CONJP		
+4	http://www.uvt.nl	http://www.uvt.nl	[http://www.uvt.nl]	SPEC(symb)	1.000000	O	B-NP		
+5	/	/	[/]	LET()	0.995005	O	O		
+6	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.973699	O	B-VP		
+7	de_moeite_waard	de_moeite_waard	[de]_[moeite]_[waard]	LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)_ADJ(vrij,basis,zonder)	0.980165	O_O_O	B-NP_I-NP_B-ADJP		
+8	.	.	[.]	LET()	0.999956	O	O		
 

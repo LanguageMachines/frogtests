@@ -4,11 +4,12 @@
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <pos-annotation annotator="frog-mbpos-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <morphological-annotation annotator="frog-mbma-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbpos-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -27,12 +28,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -214,6 +215,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="goed"/>
             </chunk>
           </chunking>
+          <entities/>
         </s>
       </head>
     </div>
@@ -226,11 +228,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <pos-annotation annotator="frog-mbpos-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <morphological-annotation annotator="frog-mbma-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbpos-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -249,12 +252,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -437,6 +440,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="goed"/>
             </chunk>
           </chunking>
+          <entities/>
         </s>
       </head>
     </div>
@@ -449,11 +453,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <pos-annotation annotator="frog-mbpos-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <morphological-annotation annotator="frog-mbma-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbpos-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -546,6 +551,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.4" t="2"/>
             </chunk>
           </chunking>
+          <entities/>
         </s>
         <s xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2">
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.1" class="WORD">
@@ -664,6 +670,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.6" t="goed"/>
             </chunk>
           </chunking>
+          <entities/>
         </s>
       </p>
     </div>
@@ -676,11 +683,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
       <div-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <pos-annotation annotator="frog-mbpos-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <morphological-annotation annotator="frog-mbma-0.12.13" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbpos-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-0.12.15" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -699,12 +707,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -773,6 +781,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.p.1.s.1.w.4" t="3"/>
             </chunk>
           </chunking>
+          <entities/>
         </s>
         <s xml:id="WR-P-E-J-0000000001.p.1.s.2">
           <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.1" class="WORD">
@@ -891,6 +900,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.p.1.s.2.w.6" t="goed"/>
             </chunk>
           </chunking>
+          <entities/>
         </s>
       </p>
     </div>
