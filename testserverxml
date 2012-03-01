@@ -6,7 +6,7 @@ pid=`echo $!`
 
 \rm  testserver3.out
 \rm  testserver4.out
-sleep 6
+sleep 10
 
 ./frogclient3 &
 ./frogclient4 &
@@ -24,7 +24,7 @@ pid=`echo $!`
 
 \rm  testserver3.out
 \rm  testserver4.out
-sleep 6
+sleep 10
 
 ./frogclient3 &
 ./frogclient4 &
