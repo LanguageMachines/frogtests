@@ -40,12 +40,12 @@
             <feat class="3o" subset="persoon"/>
             <feat class="ev" subset="getal"/>
           </pos>
-          <lemma class="dit"/>
           <morphology>
             <morpheme>
               <t offset="0">dit</t>
             </morpheme>
           </morphology>
+          <lemma class="dit"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.2" class="WORD">
           <t>is</t>
@@ -54,12 +54,12 @@
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
           </pos>
+          <lemma class="zijn"/>
           <morphology>
             <morpheme>
               <t offset="0">zijn</t>
             </morpheme>
           </morphology>
-          <lemma class="zijn"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.3" class="WORD">
           <t>de</t>
@@ -128,7 +128,7 @@
           <chunk class="VP" confidence="0.972459">
             <wref id="frog.p.1.s.1.w.2" t="is"/>
           </chunk>
-          <chunk class="NP" confidence="0.720654">
+          <chunk class="NP" confidence="0.720653">
             <wref id="frog.p.1.s.1.w.3" t="de"/>
             <wref id="frog.p.1.s.1.w.4" t="eerste"/>
             <wref id="frog.p.1.s.1.w.5" t="testfile"/>
