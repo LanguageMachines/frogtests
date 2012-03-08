@@ -56,7 +56,7 @@
 15	gelanceerd	lanceren	[ge][lanceren]	WW(vd,vrij,zonder)	0.999503	O	I-VP	14	vc
 16	.	.	[.]	LET()	0.999956	O	O	15	punct
 
-1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
+1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	O	B-NP	2	su
 2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP	0	ROOT
 3	gebruik	gebruik	[gebruik]	N(soort,ev,basis,onz,stan)	0.998108	O	B-NP	2	obj1
 4	van	van	[van]	VZ(init)	0.959310	O	B-PP	2	pc
@@ -102,7 +102,7 @@
 5	te	te	[te]	VZ(init)	0.997732	O	B-VP	2	mod
 6	zoeken	zoeken	[zoek][en]	WW(inf,vrij,zonder)	0.973333	O	I-VP	5	body
 7	op	op	[op]	VZ(init)	0.972190	O	B-PP	2	pc
-8	Tampa_Hotels	Tampa_Hotels	[Tampa]_[Hotels]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-LOC_B-LOC	B-NP_I-NP	7	obj1
+8	Tampa_Hotels	Tampa_Hotels	[Tampa]_[Hotels]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-LOC_I-LOC	B-NP_I-NP	7	obj1
 9	.	.	[.]	LET()	0.999956	O	O	8	punct
 
 1	Je	je	[je]	VNW(pers,pron,nomin,red,2v,ev)	0.997874	O	B-NP	2	su
