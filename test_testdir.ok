@@ -15,7 +15,7 @@
 
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.9">
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -40,12 +40,12 @@
             <feat class="3o" subset="persoon"/>
             <feat class="ev" subset="getal"/>
           </pos>
+          <lemma class="dit"/>
           <morphology>
             <morpheme>
               <t offset="0">dit</t>
             </morpheme>
           </morphology>
-          <lemma class="dit"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.2" class="WORD">
           <t>is</t>
@@ -54,12 +54,12 @@
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
           </pos>
-          <lemma class="zijn"/>
           <morphology>
             <morpheme>
               <t offset="0">zijn</t>
             </morpheme>
           </morphology>
+          <lemma class="zijn"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.3" class="WORD">
           <t>de</t>
@@ -142,7 +142,7 @@
 
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.9">
   <metadata type="native">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -193,12 +193,12 @@
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
           </pos>
+          <lemma class="zijn"/>
           <morphology>
             <morpheme>
               <t offset="0">zijn</t>
             </morpheme>
           </morphology>
-          <lemma class="zijn"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.4" class="WORD">
           <t>een</t>

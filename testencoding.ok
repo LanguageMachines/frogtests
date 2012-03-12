@@ -31,7 +31,7 @@
 31	.	.	[.]	LET()	0.999956	O	O		
 
 1	Voorzitter	voorzitter	[voor][zit][er]	N(soort,ev,basis,zijd,stan)	0.992385	O	B-NP		
-2	C._van_Gisbergen	C._van_Gisbergen	[C.]_[van]_[Gisbergen]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000	O_O_B-PER	B-NP_I-NP_I-NP		
+2	C._van_Gisbergen	C._van_Gisbergen	[C.]_[van]_[Gisbergen]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000	O_O_B-LOC	B-NP_I-NP_I-NP		
 3	van	van	[van]	VZ(init)	0.963788	O	B-PP		
 4	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP		
 5	LTO-vakgroep	lto-vakgroep	[lto-vak][groep]	N(soort,ev,basis,zijd,stan)	0.582590	B-MISC	I-NP		
@@ -141,7 +141,7 @@
 12	worden	worden	[word][en]	WW(inf,vrij,zonder)	0.600000	O	B-VP		
 13	'	'	[']	LET()	0.999956	O	O		
 14	Door	door	[door]	VZ(init)	0.978335	O	B-PP		
-15	Guus_Spijkers_TILBURG	Guus_Spijkers_TILBURG	[Guus]_[Spijkers]_[TILBURG]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_I-PER_O	B-NP_I-NP_I-NP		
+15	Guus_Spijkers_TILBURG	Guus_Spijkers_TILBURG	[Guus]_[Spijkers]_[TILBURG]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_I-PER_I-PER	B-NP_I-NP_I-NP		
 16	-	-	[-]	LET()	0.999705	O	O		
 17	Slechts	slechts	[slechts]	BW()	0.995867	O	B-NP		
 18	enkele	enkele	[enkele]	VNW(onbep,det,stan,prenom,met-e,rest)	0.998946	O	I-NP		
@@ -150,7 +150,7 @@
 21	de	de	[de]	LID(bep,stan,rest)	0.999852	O	B-NP		
 22	spelers	speler	[speel][er][s]	N(soort,mv,basis)	0.999668	O	I-NP		
 23	van	van	[van]	VZ(init)	0.959310	O	B-PP		
-24	CVT_Trappers	CVT_Trappers	[CVT]_[Trappers]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-ORG_I-ORG	B-NP_I-NP		
+24	CVT_Trappers	CVT_Trappers	[CVT]_[Trappers]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-MISC_I-MISC	B-NP_I-NP		
 25	tijd	tijd	[tijd]	N(soort,ev,basis,zijd,stan)	0.999884	O	I-NP		
 26	gehad	hebben	[ge][heb][d]	WW(vd,vrij,zonder)	0.999777	O	B-VP		
 27	te	te	[te]	VZ(init)	0.907459	O	B-VP		
