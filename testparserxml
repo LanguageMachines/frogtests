@@ -3,5 +3,5 @@
 # defaults:
 #
 
-$comm -t teststandard.txt -X testparser.xml
+$comm -t teststandard.txt -X testparser.xml --id=frog-parse
 cat testparser.xml > testparserxml.out
