@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm -t teststandard.txt -X testparser.xml
+cat testparser.xml > testparserxml.out
