@@ -1,13 +1,13 @@
-1	Ken	kunnen	[ken]	WW(pv,tgw,ev)	0.993151	B-PER	B-VP	0	ROOT
+1	Ken	kennen	[ken]	WW(pv,tgw,ev)	0.993151	B-PER	B-VP	0	ROOT
 2	je	je	[je]	VNW(pers,pron,nomin,red,2v,ev)	0.985222	O	B-NP	1	su
 3	Jan_de_Bruin	Jan_de_Bruin	[Jan]_[de]_[Bruin]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_I-PER_I-PER	I-NP_I-NP_I-NP	1	predc
 4	?	?	[?]	LET()	0.999956	O	O	3	punct
 
 1	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	1.000000	O	B-SBAR	6	su
-2	zusje	zusje	[zusje]	N(soort,ev,dim,onz,stan)	0.999330	O	B-NP	6	mod
+2	zusje	zus	[zusje]	N(soort,ev,dim,onz,stan)	0.999330	O	B-NP	6	mod
 3	van	van	[van]	VZ(init)	0.997769	O	B-PP	2	mod
 4	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.993884	O	B-NP	5	det
-5	jongen	jongen	[jongen]	N(soort,ev,basis,zijd,stan)	0.978723	O	I-NP	3	obj1
+5	jongen	jong	[jongen]	N(soort,ev,basis,zijd,stan)	0.978723	O	I-NP	3	obj1
 6	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
 7	overleden	overlijden	[overleden]	WW(vd,vrij,zonder)	0.978836	O	I-VP	6	vc
 8	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
@@ -18,9 +18,9 @@
 2	Betekenis	betekenis	[betekenis]	N(soort,ev,basis,zijd,stan)	0.994313	O	B-NP	0	ROOT
 3	:	:	[:]	LET()	0.999778	O	O	2	punct
 4	het	het	[het]	LID(bep,stan,evon)	0.988109	O	B-NP	5	det
-5	zusje	zusje	[zusje]	N(soort,ev,dim,onz,stan)	0.999330	O	I-NP	2	cnj
+5	zusje	zus	[zusje]	N(soort,ev,dim,onz,stan)	0.999330	O	I-NP	2	cnj
 6	van	van	[van]	VZ(init)	0.997769	O	B-PP	5	mod
 7	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.993884	O	B-NP	8	det
-8	jongen	jongen	[jongen]	N(soort,ev,basis,zijd,stan)	0.974729	O	I-NP	6	obj1
+8	jongen	jong	[jongen]	N(soort,ev,basis,zijd,stan)	0.974729	O	I-NP	6	obj1
 9	)	)	[)]	LET()	0.999609	O	O	8	punct
 

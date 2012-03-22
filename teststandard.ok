@@ -125,12 +125,12 @@
 8	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP		
 9	makkelijk	makkelijk	[mak][e][lijk]	ADJ(vrij,basis,zonder)	0.995289	O	B-ADVP		
 10	te	te	[te]	VZ(init)	0.999928	O	B-VP		
-11	beïnvloeden	beïnvloed	[beïnvloeden]	WW(inf,vrij,zonder)	0.979167	O	I-VP		
+11	beïnvloeden	beinvloeden	[beïnvloeden]	WW(inf,vrij,zonder)	0.979167	O	I-VP		
 12	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.666667	O	I-VP		
 13	door	door	[door]	VZ(init)	0.998841	O	B-PP		
 14	spammers	spammer	[spammer][s]	N(soort,mv,basis)	0.997650	O	B-NP		
 15	en	en	[en]	VG(neven)	0.999342	O	B-CONJP		
-16	commerciële	commerciëal	[commerciël][e]	ADJ(prenom,basis,met-e,stan)	0.999790	O	B-NP		
+16	commerciële	commercieel	[commerciël][e]	ADJ(prenom,basis,met-e,stan)	0.999790	O	B-NP		
 17	ondernemingen	onderneming	[onderneem][ing][en]	N(soort,mv,basis)	0.999588	O	I-NP		
 18	.	.	[.]	LET()	0.999956	O	O		
 
@@ -144,21 +144,21 @@
 8	algoritme	algoritme	[algoritme]	N(soort,ev,basis,onz,stan)	0.900000	O	I-NP		
 9	waardoor	waardoor	[waar][door]	BW()	0.993007	O	B-SBAR		
 10	het	het	[het]	LID(bep,stan,evon)	0.996942	O	B-NP		
-11	eerste	eerste	[een][ste]	TW(rang,prenom,stan)	0.998547	O	I-NP		
+11	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.998547	O	I-NP		
 12	resultaat	resultaat	[resulteer][aat]	N(soort,ev,basis,onz,stan)	0.982759	O	I-NP		
 13	altijd	altijd	[altijd]	BW()	0.999919	O	B-ADVP		
 14	de	de	[de]	LID(bep,stan,rest)	0.999665	O	B-NP		
 15	website	website	[website]	N(soort,ev,basis,zijd,stan)	0.999295	O	I-NP		
 16	met	met	[met]	VZ(init)	0.999820	O	B-PP		
 17	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP		
-18	meeste	meeste	[meeste]	VNW(onbep,grad,stan,prenom,met-e,agr,sup)	0.997028	O	I-NP		
+18	meeste	meest	[meeste]	VNW(onbep,grad,stan,prenom,met-e,agr,sup)	0.997028	O	I-NP		
 19	verwijzingen	verwijzing	[ver][wijs][ing][en]	N(soort,mv,basis)	0.997677	O	I-NP		
 20	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999662	O	B-VP		
 21	.	.	[.]	LET()	0.999956	O	O		
 
 1	"	"	["]	LET()	0.999939	O	O		
 2	De	de	[de]	LID(bep,stan,rest)	0.877577	O	B-NP		
-3	eerste	eerste	[een][ste]	TW(rang,prenom,stan)	0.997796	O	I-NP		
+3	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.997796	O	I-NP		
 4	taak	taak	[taak]	N(soort,ev,basis,zijd,stan)	0.999602	O	I-NP		
 5	van	van	[van]	VZ(init)	0.999667	O	B-PP		
 6	een	een	[een]	LID(onbep,stan,agr)	0.999038	O	B-NP		
@@ -197,7 +197,7 @@
 3	kunnen	kunnen	[kan][en]	WW(pv,tgw,mv)	0.911765	O	B-VP		
 4	nu_eenmaal	nu_eenmaal	[nu]_[eenmaal]	BW()_BW()	0.995579	O_O	B-ADVP_I-ADVP		
 5	niet	niet	[niet]	BW()	0.999918	O	I-ADVP		
-6	dergelijke	dergelijke	[der][g][elijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP		
+6	dergelijke	dergelijk	[der][g][elijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP		
 7	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.999466	O	I-NP		
 8	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.727273	O	B-VP		
 9	.	.	[.]	LET()	0.999956	O	O		

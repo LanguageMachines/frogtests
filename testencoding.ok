@@ -1,6 +1,6 @@
 1	Met	met	[met]	VZ(init)	0.995378	O	B-PP		
 2	het	het	[het]	LID(bep,stan,evon)	0.996942	O	B-NP		
-3	eerste	eerste	[een][ste]	TW(rang,prenom,stan)	0.998547	O	I-NP		
+3	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.998547	O	I-NP		
 4	aanbod	aanbod	[aanbod]	N(soort,ev,basis,onz,stan)	0.997078	O	I-NP		
 5	in_het_kader_van	in_het_kader_van	[in]_[het]_[kader]_[van]	VZ(init)_LID(bep,stan,evon)_N(soort,ev,basis,onz,stan)_VZ(init)	0.996619	O_O_O_O	B-PP_I-PP_I-PP_I-PP		
 6	de	de	[de]	LID(bep,stan,rest)	0.999525	O	B-NP		
@@ -23,7 +23,7 @@
 23	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999017	O	B-VP		
 24	in_totaal	in_totaal	[in]_[totaal]	VZ(init)_N(soort,ev,basis,onz,stan)	0.620750	O_O	B-ADVP_I-ADVP		
 25	ruim	ruim	[ruim]	ADJ(vrij,basis,zonder)	0.979612	O	B-ADVP		
-26	één	één	[één]	TW(hoofd,prenom,stan)	0.959184	O	B-NP		
+26	één	een	[één]	TW(hoofd,prenom,stan)	0.959184	O	B-NP		
 27	miljoen	miljoen	[miljoen]	N(soort,ev,basis,onz,stan)	0.600000	O	I-NP		
 28	kilo	kilo	[kilo]	N(soort,ev,basis,zijd,stan)	0.760000	O	I-NP		
 29	fosfaat	fosfaat	[fosfaat]	N(soort,ev,basis,onz,stan)	0.996804	O	B-NP		
@@ -47,7 +47,7 @@
 15	minister	minister	[minister]	N(soort,ev,basis,zijd,stan)	0.999371	O	I-NP		
 16	ongetwijfeld	ongetwijfeld	[ongetwijfeld]	ADJ(vrij,basis,zonder)	0.600000	O	B-ADVP		
 17	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP		
-18	reële	reëal	[reël][e]	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP		
+18	reële	reëel	[reël][e]	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP		
 19	prijs	prijs	[prijs]	N(soort,ev,basis,zijd,stan)	0.999604	O	I-NP		
 20	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.878788	O	B-VP		
 21	gevraagd	vragen	[ge][vraag][d]/[gevraag][d]	WW(vd,vrij,zonder)	0.984848	O	I-VP		
@@ -113,7 +113,7 @@
 8	ook	ook	[ook]	BW()	0.999979	O	B-ADVP		
 9	onder	onder	[onder]	VZ(init)	0.999375	O	B-PP		
 10	de	de	[de]	LID(bep,stan,rest)	0.999805	O	B-NP		
-11	oude	oude	[oud][e]	ADJ(prenom,basis,met-e,stan)	0.999323	O	I-NP		
+11	oude	oud	[oud][e]	ADJ(prenom,basis,met-e,stan)	0.999323	O	I-NP		
 12	regiem	regiem	[regiem]	N(soort,ev,basis,onz,stan)	0.996413	O	I-NP		
 13	een	een	[een]	LID(onbep,stan,agr)	0.999522	O	B-NP		
 14	deel	deel	[deel]	N(soort,ev,basis,onz,stan)	0.997059	O	I-NP		
@@ -144,7 +144,7 @@
 15	Guus_Spijkers_TILBURG	Guus_Spijkers_TILBURG	[Guus]_[Spijkers]_[TILBURG]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_I-PER_I-PER	B-NP_I-NP_I-NP		
 16	-	-	[-]	LET()	0.999705	O	O		
 17	Slechts	slechts	[slechts]	BW()	0.995867	O	B-NP		
-18	enkele	enkele	[enkele]	VNW(onbep,det,stan,prenom,met-e,rest)	0.998946	O	I-NP		
+18	enkele	enkel	[enkele]	VNW(onbep,det,stan,prenom,met-e,rest)	0.998946	O	I-NP		
 19	dagen	dag	[dag][en]	N(soort,mv,basis)	0.993437	O	I-NP		
 20	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.982587	O	B-VP		
 21	de	de	[de]	LID(bep,stan,rest)	0.999852	O	B-NP		
