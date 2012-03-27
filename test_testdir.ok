@@ -54,12 +54,12 @@
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
           </pos>
-          <lemma class="zijn"/>
           <morphology>
             <morpheme>
               <t offset="0">zijn</t>
             </morpheme>
           </morphology>
+          <lemma class="zijn"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.3" class="WORD">
           <t>de</t>
@@ -83,6 +83,12 @@
             <feat class="stan" subset="naamval"/>
           </pos>
           <lemma class="een"/>
+          <alt auth="no">
+            <lemma class="eerste"/>
+          </alt>
+          <alt auth="no">
+            <lemma class="&#xE9;&#xE9;n"/>
+          </alt>
           <morphology>
             <morpheme>
               <t offset="0">een</t>
@@ -222,6 +228,9 @@
             <feat class="stan" subset="naamval"/>
           </pos>
           <lemma class="twee"/>
+          <alt auth="no">
+            <lemma class="tweede"/>
+          </alt>
           <morphology>
             <morpheme>
               <t offset="0">twee</t>
