@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+rm ./taggerout/*
+
+$comm --skip=cmnp --testdir=./taggerproblems --outputdir=./taggerout 
+cat ./taggerout/*.out > testtaggerproblems.out
+

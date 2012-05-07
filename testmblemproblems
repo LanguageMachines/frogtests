@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+rm ./mblemout/*
+
+$comm --skip=cmnp --testdir=./mblemproblems --outputdir=./mblemout 
+cat ./mblemout/*.out > testmblemproblems.out
+
