@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.9" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.10" version="0.8">
   <metadata type="imdi">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -28,12 +28,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -147,12 +147,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
             <t>:</t>
             <pos class="LET()" confidence="0.999778" head="LET"/>
-            <lemma class=":"/>
             <morphology>
               <morpheme>
                 <t offset="0">:</t>
               </morpheme>
             </morphology>
+            <lemma class=":"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="DATE">
             <t>28-11-2011</t>
@@ -183,12 +183,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
             <t>?</t>
             <pos class="LET()" confidence="0.999956" head="LET"/>
-            <lemma class="?"/>
             <morphology>
               <morpheme>
                 <t offset="0">?</t>
               </morpheme>
             </morphology>
+            <lemma class="?"/>
           </w>
           <chunking>
             <chunk class="NP" confidence="0.992424">
@@ -223,7 +223,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 
 <?xml version="1.0"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.9" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.10" version="0.8">
   <metadata type="imdi">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -252,12 +252,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -448,7 +448,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 
 <?xml version="1.0"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.9" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.10" version="0.8">
   <metadata type="imdi">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -477,12 +477,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -537,6 +537,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </morphology>
             <lemma class="."/>
           </w>
+          <entities/>
           <chunking>
             <chunk class="NP" confidence="0.992424">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.1" t="Dit"/>
@@ -551,7 +552,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.4" t="2"/>
             </chunk>
           </chunking>
-          <entities/>
         </s>
         <s xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2">
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.1" class="WORD">
@@ -678,7 +678,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 
 <?xml version="1.0"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.9" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.10" version="0.8">
   <metadata type="imdi">
     <annotations>
       <token-annotation annotator="ucto" annotatortype="auto" set="tokconfig-nl"/>
@@ -707,12 +707,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
-            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
+            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -721,12 +721,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn"/>
             <morphology>
               <morpheme>
                 <t offset="0">zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.3" class="WORD" space="no">
             <t>test</t>

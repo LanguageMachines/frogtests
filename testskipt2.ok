@@ -4,21 +4,21 @@
 4	?	?	[?]	LET()	0.999956	O	O	3	punct
 
 1	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	1.000000	O	B-SBAR	6	su
-2	zusje	zus	[zusje]	N(soort,ev,dim,onz,stan)	0.999330	O	B-NP	6	mod
+2	zusje	zus	[zus][je]	N(soort,ev,dim,onz,stan)	0.999330	O	B-NP	6	mod
 3	van	van	[van]	VZ(init)	0.997769	O	B-PP	2	mod
 4	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.993884	O	B-NP	5	det
 5	jongen	jong	[jongen]	N(soort,ev,basis,zijd,stan)	0.978723	O	I-NP	3	obj1
 6	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
-7	overleden	overlijden	[overleden]	WW(vd,vrij,zonder)	0.978836	O	I-VP	6	vc
+7	overleden	overlijden	[over][lijden]	WW(vd,vrij,zonder)	0.978836	O	I-VP	6	vc
 8	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
-9	overleden	overlijden	[overleden]	WW(vd,vrij,zonder)	0.993905	O	I-VP	8	vc
+9	overleden	overlijden	[over][lijden]	WW(vd,vrij,zonder)	0.993905	O	I-VP	8	vc
 10	.	.	[.]	LET()	0.999956	O	O	9	punct
 
 1	(	(	[(]	LET()	0.999902	O	O	0	ROOT
 2	Betekenis	betekenis	[betekenis]	N(soort,ev,basis,zijd,stan)	0.994313	O	B-NP	0	ROOT
 3	:	:	[:]	LET()	0.999778	O	O	2	punct
 4	het	het	[het]	LID(bep,stan,evon)	0.988109	O	B-NP	5	det
-5	zusje	zus	[zusje]	N(soort,ev,dim,onz,stan)	0.999330	O	I-NP	2	cnj
+5	zusje	zus	[zus][je]	N(soort,ev,dim,onz,stan)	0.999330	O	I-NP	2	cnj
 6	van	van	[van]	VZ(init)	0.997769	O	B-PP	5	mod
 7	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.993884	O	B-NP	8	det
 8	jongen	jong	[jongen]	N(soort,ev,basis,zijd,stan)	0.974729	O	I-NP	6	obj1
