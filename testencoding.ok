@@ -16,9 +16,9 @@
 16	Landbouw	Landbouw	[Landbouw]	SPEC(deeleigen)	1.000000	B-MISC	B-NP		
 17	in_principe	in_principe	[in]_[principe]	VZ(init)_N(soort,ev,basis,onz,stan)	0.995840	O_O	B-PP_B-NP		
 18	hun	hun	[hun]	VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)	0.918501	O	B-NP		
-19	mestrechten	mestrecht	[mestrecht][en]	N(soort,mv,basis)	1.000000	O	I-NP		
+19	mestrechten	mestrecht	[mest][recht][en]	N(soort,mv,basis)	1.000000	O	I-NP		
 20	willen	willen	[wil][en]	WW(pv,tgw,mv)	0.625000	O	B-VP		
-21	verkopen	verkopen	[ver][koop][en]	WW(inf,vrij,zonder)	0.850000	O	I-VP		
+21	verkopen	verkopen	[verkoop][en]	WW(inf,vrij,zonder)	0.850000	O	I-VP		
 22	)	)	[)]	LET()	0.999609	O	O		
 23	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999017	O	B-VP		
 24	in_totaal	in_totaal	[in]_[totaal]	VZ(init)_N(soort,ev,basis,onz,stan)	0.620750	O_O	B-ADVP_I-ADVP		
@@ -100,7 +100,7 @@
 34	gulden	gulden	[gulden]	N(soort,ev,basis,zijd,stan)	0.995558	O	I-NP		
 35	voor	voor	[voor]	VZ(init)	0.954128	O	B-PP		
 36	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.562801	O	B-NP		
-37	mestrechten	mestrecht	[mestrecht][en]	N(soort,mv,basis)	1.000000	O	I-NP		
+37	mestrechten	mestrecht	[mest][recht][en]	N(soort,mv,basis)	1.000000	O	I-NP		
 38	.	.	[.]	LET()	0.999956	O	O		
 
 1	De	de	[de]	LID(bep,stan,rest)	0.943794	O	B-DETP		
@@ -119,7 +119,7 @@
 14	deel	deel	[deel]	N(soort,ev,basis,onz,stan)	0.997059	O	I-NP		
 15	van	van	[van]	VZ(init)	0.999675	O	B-PP		
 16	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP		
-17	gekochte	kopen	[ge][koop][te]	WW(vd,prenom,met-e)	0.990625	O	I-NP		
+17	gekochte	kopen	[ge][koop][t][e]	WW(vd,prenom,met-e)	0.990625	O	I-NP		
 18	productie	productie	[productie]	N(soort,ev,basis,zijd,stan)	0.998860	O	I-NP		
 19	bij	bij	[bij]	VZ(init)	0.998628	O	B-PP		
 20	de	de	[de]	LID(bep,stan,rest)	0.999964	O	B-NP		
@@ -133,7 +133,7 @@
 4	wettelijke	wettelijk	[wet][elijk][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	B-NP		
 5	eisen	eisen	[eis][en]	WW(inf,vrij,zonder)	0.666667	O	I-NP		
 6	'	'	[']	LET()	0.999956	O	O		
-7	Vervoer	vervoer	[ver][vaar]/[ver][voer]/[vervoer]	N(soort,ev,basis,onz,stan)	0.629630	O	B-NP		
+7	Vervoer	vervoer	[ver][vaar]/[vervoer]	N(soort,ev,basis,onz,stan)	0.629630	O	B-NP		
 8	per	per	[per]	VZ(init)	0.927508	O	B-PP		
 9	rolstoel	rolstoel	[rol][stoel]	N(soort,ev,basis,zijd,stan)	0.998270	O	B-NP		
 10	moet	moeten	[moet]	WW(pv,tgw,ev)	0.999794	O	B-VP		
@@ -155,7 +155,7 @@
 26	gehad	hebben	[ge][heb][d]	WW(vd,vrij,zonder)	0.999777	O	B-VP		
 27	te	te	[te]	VZ(init)	0.907459	O	B-VP		
 28	kunnen	kunnen	[kan][en]	WW(inf,vrij,zonder)	0.674107	O	I-VP		
-29	recupereren	recupereren	[recupereren]	WW(inf,vrij,zonder)	0.789298	O	I-VP		
+29	recupereren	recupereren	[recupereer][en]	WW(inf,vrij,zonder)	0.789298	O	I-VP		
 30	van	van	[van]	VZ(init)	0.999849	O	B-PP		
 31	het	het	[het]	LID(bep,stan,evon)	0.991607	O	B-NP		
 32	driedaagse	driedaags	[drie][dag][s][e]	ADJ(prenom,basis,met-e,stan)	0.885728	O	I-NP		

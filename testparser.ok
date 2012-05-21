@@ -9,7 +9,7 @@
 9	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	11	det
 10	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP	11	mod
 11	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP	12	obj1
-12	lanceren	lanceren	[lanceren]	WW(inf,vrij,zonder)	0.791045	O	B-VP	8	vc
+12	lanceren	lanceren	[lanceer][en]	WW(inf,vrij,zonder)	0.791045	O	B-VP	8	vc
 13	.	.	[.]	LET()	0.999956	O	O	12	punct
 
 1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.993865	O	B-NP	2	obj1
@@ -32,7 +32,7 @@
 9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	8	obj1
 10	,	,	[,]	LET()	0.999925	O	O	9	punct
 11	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP	3	body
-12	concurreren	concurreren	[concurreren]	WW(inf,vrij,zonder)	0.738241	O	I-VP	11	vc
+12	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP	11	vc
 13	met	met	[met]	VZ(init)	0.999574	O	B-PP	12	pc
 14	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	15	cnj
 15	en	en	[en]	VG(neven)	0.993989	O	B-CONJP	13	obj1
@@ -53,7 +53,7 @@
 12	volgend	volgen	[volg][end]	WW(od,prenom,zonder)	0.928571	O	B-NP	13	mod
 13	jaar	jaar	[jaar]	N(soort,ev,basis,onz,stan)	0.999642	O	I-NP	14	su
 14	wordt	worden	[word][t]	WW(pv,tgw,met-t)	0.999697	O	B-VP	7	body
-15	gelanceerd	lanceren	[ge][lanceren]	WW(vd,vrij,zonder)	0.999503	O	I-VP	14	vc
+15	gelanceerd	lanceren	[ge][lanceer][d]	WW(vd,vrij,zonder)	0.999503	O	I-VP	14	vc
 16	.	.	[.]	LET()	0.999956	O	O	15	punct
 
 1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
@@ -109,7 +109,7 @@
 2	komt	komen	[kom][t]	WW(pv,tgw,met-t)	0.999725	O	B-VP	0	ROOT
 3	geen	geen	[geen]	VNW(onbep,det,stan,prenom,zonder,agr)	0.999753	O	B-NP	5	det
 4	bruikbare	bruikbaar	[gebruik][baar][e]	ADJ(prenom,basis,met-e,stan)	0.999790	O	I-NP	5	mod
-5	resultaten	resultaat	[resulta][at][en]	N(soort,mv,basis)	0.997992	O	I-NP	2	obj1
+5	resultaten	resultaat	[resulteer][at][en]	N(soort,mv,basis)	0.997992	O	I-NP	2	obj1
 6	tegen	tegen	[tegen]	VZ(fin)	0.954545	O	O	2	svp
 7	.	.	[.]	LET()	0.999956	O	O	6	punct
 
@@ -197,7 +197,7 @@
 3	kunnen	kunnen	[kan][en]	WW(pv,tgw,mv)	0.911765	O	B-VP	0	ROOT
 4	nu_eenmaal	nu_eenmaal	[nu]_[eenmaal]	BW()_BW()	0.995579	O_O	B-ADVP_I-ADVP	5	mod
 5	niet	niet	[niet]	BW()	0.999918	O	I-ADVP	8	mod
-6	dergelijke	dergelijk	[der][g][elijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP	7	mod
+6	dergelijke	dergelijk	[dergelijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP	7	mod
 7	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.999466	O	I-NP	8	obj1
 8	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.727273	O	B-VP	3	vc
 9	.	.	[.]	LET()	0.999956	O	O	8	punct
