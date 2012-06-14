@@ -39,35 +39,6 @@
 16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	15	cnj
 17	!.	!.	[!.]	SPEC(afk)	1.000000	O	O	16	mod
 
-1	Tegenover	tegenover	[tegenover]	VZ(init)	0.980282	O	B-PP	4	mod
-2	de	de	[de]	LID(bep,stan,rest)	0.999964	O	B-NP	3	det
-3	krant	krant	[krant]	N(soort,ev,basis,zijd,stan)	0.999183	O	I-NP	1	obj1
-4	liet	laten	[laat]	WW(pv,verl,ev)	0.998970	O	B-VP	0	ROOT
-5	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	4	su
-6	weten	weten	[weet][en]	WW(inf,vrij,zonder)	0.900000	O	O	4	vc
-7	dat	dat	[dat]	VG(onder)	0.987315	O	B-SBAR	6	vc
-8	de	de	[de]	LID(bep,stan,rest)	0.999279	O	B-NP	9	det
-9	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997351	O	I-NP	14	su
-10	waarschijnlijk	waarschijnlijk	[waarschijnlijk]	ADJ(vrij,basis,zonder)	0.999659	O	B-ADVP	11	mod
-11	begin	begin	[begin]	N(soort,ev,basis,onz,stan)	0.846813	O	B-ADVP	14	su
-12	volgend	volgen	[volg][end]	WW(od,prenom,zonder)	0.928571	O	B-NP	13	mod
-13	jaar	jaar	[jaar]	N(soort,ev,basis,onz,stan)	0.999642	O	I-NP	14	su
-14	wordt	worden	[word][t]	WW(pv,tgw,met-t)	0.999697	O	B-VP	7	body
-15	gelanceerd	lanceren	[ge][lanceer][d]	WW(vd,vrij,zonder)	0.999503	O	I-VP	14	vc
-16	.	.	[.]	LET()	0.999956	O	O	15	punct
-
-1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
-2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP	0	ROOT
-3	gebruik	gebruik	[gebruik]	N(soort,ev,basis,onz,stan)	0.998108	O	B-NP	2	obj1
-4	van	van	[van]	VZ(init)	0.959310	O	B-PP	2	pc
-5	dezelfde	dezelfde	[dezelfde]	ADJ(prenom,basis,zonder)	0.982473	O	B-NP	6	mod
-6	user-based	user-based	[user-based]	N(soort,ev,basis,onz,stan)	0.812838	O	I-NP	4	obj1
-7	technologie	technologie	[technologisch][ie]	N(soort,ev,basis,zijd,stan)	0.997772	O	B-NP	6	mod
-8	als	als	[als]	VG(onder)	0.833333	O	I-NP	7	mod
-9	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	I-NP	8	body
-10	zelf	zelf	[zelf]	BW()	0.996918	O	B-ADVP	6	mod
-11	.	.	[.]	LET()	0.999956	O	O	10	punct
-
 1	"	"	["]	LET()	0.999939	O	O	0	ROOT
 2	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	3	su
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP	0	ROOT
@@ -94,26 +65,6 @@
 24	aldus	aldus	[al][dus]	BW()	0.997264	O	B-PP	0	ROOT
 25	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	24	obj1
 26	.	.	[.]	LET()	0.999956	O	O	25	punct
-
-1	"	"	["]	LET()	0.999939	O	O	0	ROOT
-2	Probeer	proberen	[probeer]	WW(pv,tgw,ev)	0.993151	O	B-VP	0	ROOT
-3	maar	maar	[maar]	BW()	0.925311	O	B-ADVP	2	mod
-4	eens	eens	[eens]	BW()	0.980000	O	B-ADVP	3	cnj
-5	te	te	[te]	VZ(init)	0.997732	O	B-VP	2	mod
-6	zoeken	zoeken	[zoek][en]	WW(inf,vrij,zonder)	0.973333	O	I-VP	5	body
-7	op	op	[op]	VZ(init)	0.972190	O	B-PP	2	pc
-8	Tampa_Hotels	Tampa_Hotels	[Tampa]_[Hotels]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-LOC_I-LOC	B-NP_I-NP	7	obj1
-9	.	.	[.]	LET()	0.999956	O	O	8	punct
-
-1	Je	je	[je]	VNW(pers,pron,nomin,red,2v,ev)	0.997874	O	B-NP	2	su
-2	komt	komen	[kom][t]	WW(pv,tgw,met-t)	0.999725	O	B-VP	0	ROOT
-3	geen	geen	[geen]	VNW(onbep,det,stan,prenom,zonder,agr)	0.999753	O	B-NP	5	det
-4	bruikbare	bruikbaar	[gebruik][baar][e]	ADJ(prenom,basis,met-e,stan)	0.999790	O	I-NP	5	mod
-5	resultaten	resultaat	[resulteer][at][en]	N(soort,mv,basis)	0.997992	O	I-NP	2	obj1
-6	tegen	tegen	[tegen]	VZ(fin)	0.954545	O	O	2	svp
-7	.	.	[.]	LET()	0.999956	O	O	6	punct
-
-1	"	"	["]	LET()	0.999939	O	O	0	ROOT
 
 1	Het	het	[het]	LID(bep,stan,evon)	0.998917	O	B-NP	3	det
 2	algoritmische	algoritmisch	[algoritme][isch][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP	3	mod
@@ -201,43 +152,6 @@
 7	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.999466	O	I-NP	8	obj1
 8	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.727273	O	B-VP	3	vc
 9	.	.	[.]	LET()	0.999956	O	O	8	punct
-
-1	Wij	wij	[wij]	VNW(pers,pron,nomin,vol,1,mv)	0.998082	O	B-NP	2	su
-2	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.984000	O	B-VP	0	ROOT
-3	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	6	det
-4	veel	veel	[veel]	VNW(onbep,grad,stan,vrij,zonder,basis)	0.915254	O	I-NP	6	det
-5	betere	goed	[goed][e]	ADJ(prenom,comp,met-e,stan)	0.998884	O	I-NP	6	mod
-6	manier	manier	[manier]	N(soort,ev,basis,zijd,stan)	0.997481	O	I-NP	2	obj1
-7	om	om	[om]	VZ(init)	0.999556	O	B-PP	6	vc
-8	een	een	[een]	LID(onbep,stan,agr)	0.999038	O	B-NP	9	det
-9	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.999117	O	I-NP	7	obj1
-10	te	te	[te]	VZ(init)	0.998842	O	B-VP	7	body
-11	beoordelen	beoordelen	[beoordelen]	WW(inf,vrij,zonder)	0.958333	O	I-VP	10	body
-12	:	:	[:]	LET()	0.999778	O	O	11	punct
-13	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.988936	O	B-ADVP	16	mod
-14	zelf	zelf	[zelf]	BW()	0.995781	O	B-ADVP	16	svp
-15	naar	naar	[naar]	VZ(fin)	0.928571	O	B-PP	16	ld
-16	kijken	kijken	[kijk][en]	WW(inf,vrij,zonder)	0.941176	O	B-VP	0	ROOT
-17	.	.	[.]	LET()	0.999956	O	O	16	punct
-
-1	Meestal	meestal	[meest][al]	BW()	0.998992	O	B-ADVP	2	mod
-2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP	0	ROOT
-3	een	een	[een]	LID(onbep,stan,agr)	0.999560	O	B-NP	4	det
-4	seconde	seconde	[seconde]	N(soort,ev,basis,zijd,stan)	0.996386	O	I-NP	2	su
-5	genoeg	genoeg	[genoeg]	BW()	0.999172	O	B-NP	4	mod
-6	om	om	[om]	VZ(init)	0.897527	O	B-PP	5	obcomp
-7	te	te	[te]	VZ(init)	0.999179	O	B-VP	2	su
-8	bepalen	bepalen	[be][paal][en]	WW(inf,vrij,zonder)	0.990566	O	I-VP	7	body
-9	of	of	[of]	VG(neven)	0.924051	O	B-SBAR	8	vc
-10	een	een	[een]	LID(onbep,stan,agr)	0.999560	O	B-NP	11	det
-11	website	website	[website]	N(soort,ev,basis,zijd,stan)	0.995781	O	I-NP	13	su
-12	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.996139	O	B-ADVP	13	predc
-13	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	14	cnj
-14	of	of	[of]	VG(neven)	0.984375	O	B-CONJP	2	mod
-15	niet	niet	[niet]	BW()	0.999881	O	B-ADVP	14	cnj
-16	.	.	[.]	LET()	0.999956	O	O	15	punct
-
-1	"	"	["]	LET()	0.999939	O	O	0	ROOT
 
 1	Voor	voor	[voor]	VZ(init)	0.950530	O	B-PP	5	mod
 2	het	het	[het]	LID(bep,stan,evon)	0.994595	O	B-NP	4	det
