@@ -19,7 +19,7 @@ kill $pid
 
 sleep 4
 
-$frog_bin/frog -x -X --skip=p -S 7000  >> testserverxml.log 2>&1  &
+$frog_bin/frog -x -X --KANON --skip=p -S 7000  >> testserverxml.log 2>&1  &
 pid=`echo $!`
 
 \rm  testserver3.out

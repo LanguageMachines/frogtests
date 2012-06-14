@@ -40,12 +40,12 @@
             <feat class="3o" subset="persoon"/>
             <feat class="ev" subset="getal"/>
           </pos>
+          <lemma class="dit"/>
           <morphology>
             <morpheme>
               <t offset="0">dit</t>
             </morpheme>
           </morphology>
-          <lemma class="dit"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.2" class="WORD">
           <t>is</t>
@@ -54,12 +54,12 @@
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
           </pos>
+          <lemma class="zijn"/>
           <morphology>
             <morpheme>
               <t offset="0">zijn</t>
             </morpheme>
           </morphology>
-          <lemma class="zijn"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.3" class="WORD">
           <t>de</t>
@@ -68,12 +68,12 @@
             <feat class="stan" subset="naamval"/>
             <feat class="rest" subset="npagr"/>
           </pos>
+          <lemma class="de"/>
           <morphology>
             <morpheme>
               <t offset="0">de</t>
             </morpheme>
           </morphology>
-          <lemma class="de"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.4" class="WORD">
           <t>eerste</t>
@@ -83,12 +83,6 @@
             <feat class="stan" subset="naamval"/>
           </pos>
           <lemma class="een"/>
-          <alt auth="no">
-            <lemma class="eerste"/>
-          </alt>
-          <alt auth="no">
-            <lemma class="&#xE9;&#xE9;n"/>
-          </alt>
           <morphology>
             <morpheme>
               <t offset="0">een</t>
@@ -97,6 +91,12 @@
               <t offset="3">ste</t>
             </morpheme>
           </morphology>
+          <alt auth="no">
+            <lemma class="eerste"/>
+          </alt>
+          <alt auth="no">
+            <lemma class="&#xE9;&#xE9;n"/>
+          </alt>
         </w>
         <w xml:id="frog.p.1.s.1.w.5" class="WORD" space="no">
           <t>testfile</t>
@@ -120,12 +120,12 @@
         <w xml:id="frog.p.1.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
           <pos class="LET()" confidence="0.999956" head="LET"/>
+          <lemma class="."/>
           <morphology>
             <morpheme>
               <t offset="0">.</t>
             </morpheme>
           </morphology>
-          <lemma class="."/>
         </w>
         <chunking>
           <chunk class="NP" confidence="0.992424">
@@ -168,12 +168,12 @@
           <pos class="VG(neven)" confidence="0.992995" head="VG">
             <feat class="neven" subset="conjtype"/>
           </pos>
+          <lemma class="en"/>
           <morphology>
             <morpheme>
               <t offset="0">en</t>
             </morpheme>
           </morphology>
-          <lemma class="en"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.2" class="WORD">
           <t>dit</t>
@@ -185,12 +185,12 @@
             <feat class="3o" subset="persoon"/>
             <feat class="ev" subset="getal"/>
           </pos>
+          <lemma class="dit"/>
           <morphology>
             <morpheme>
               <t offset="0">dit</t>
             </morpheme>
           </morphology>
-          <lemma class="dit"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.3" class="WORD">
           <t>is</t>
@@ -199,12 +199,12 @@
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
           </pos>
+          <lemma class="zijn"/>
           <morphology>
             <morpheme>
               <t offset="0">zijn</t>
             </morpheme>
           </morphology>
-          <lemma class="zijn"/>
         </w>
         <w xml:id="frog.p.1.s.1.w.4" class="WORD">
           <t>een</t>
@@ -228,9 +228,6 @@
             <feat class="stan" subset="naamval"/>
           </pos>
           <lemma class="twee"/>
-          <alt auth="no">
-            <lemma class="tweede"/>
-          </alt>
           <morphology>
             <morpheme>
               <t offset="0">twee</t>
@@ -239,6 +236,9 @@
               <t offset="4">de</t>
             </morpheme>
           </morphology>
+          <alt auth="no">
+            <lemma class="tweede"/>
+          </alt>
         </w>
         <w xml:id="frog.p.1.s.1.w.6" class="WORD" space="no">
           <t>testfile</t>
@@ -262,14 +262,13 @@
         <w xml:id="frog.p.1.s.1.w.7" class="PUNCTUATION">
           <t>!</t>
           <pos class="LET()" confidence="0.995005" head="LET"/>
+          <lemma class="!"/>
           <morphology>
             <morpheme>
               <t offset="0">!</t>
             </morpheme>
           </morphology>
-          <lemma class="!"/>
         </w>
-        <entities/>
         <chunking>
           <chunk class="PP" confidence="0.984615">
             <wref id="frog.p.1.s.1.w.1" t="En"/>
@@ -286,6 +285,7 @@
             <wref id="frog.p.1.s.1.w.6" t="testfile"/>
           </chunk>
         </chunking>
+        <entities/>
       </s>
     </p>
   </text>

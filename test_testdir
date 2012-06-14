@@ -5,9 +5,9 @@
 
 rm ./output/*
 
-$comm --skip=p --testdir=./subdir --outputdir=./output -X --id=frog
+$comm --skip=p --testdir=./subdir --outputdir=./output 
 cat ./output/*.out > test_testdir.out
 
-$comm --skip=p --testdir=./subdir --outputdir=./output --xmldir=./output --id=frog
+$comm --skip=p --testdir=./subdir --outputdir=./output --xmldir=./output --id=frog --KANON
 cat ./output/*.xml >> test_testdir.out
 
