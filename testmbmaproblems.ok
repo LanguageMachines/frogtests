@@ -1,7 +1,6 @@
 1	Maar	maar	[maar]	VG(neven)	0.997961					
 2	ook	ook	[ook]	BW()	0.999979						
-3	bloedje-link	bloedje-link	[bloed][je][link]	ADJ(vrij,basis,zonder)	0.55136
-5						
+3	bloedje-link	bloedje-link	[bloed][je][link]	ADJ(vrij,basis,zonder)	0.551365						
 4	.	.	[.]	LET()	0.999956						
 
 1	We	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.997215						
@@ -9,7 +8,14 @@
 3	op	op	[op]	VZ(init)	0.996568						
 4	de	de	[de]	LID(bep,stan,rest)	0.999964						
 5	deur	deur	[deur]	N(soort,ev,basis,zijd,stan)	0.998077						
-6	.	.	[.]	LET()	0.999956						
+6	.	.	[.]	LET()	0.999956				
+	
+1	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170		
+2	krijgen	krijgen	[krijg][en]	WW(pv,tgw,mv)	1.000000						
+3	rare	raar	[raar][e]	ADJ(prenom,basis,met-e,stan)	0.999143		
+4	resultaten	resultaat	[resulteer][at][en]	N(soort,mv,basis)	0.999588
+						
+5	.	.	[.]	LET()	0.999956						
 
 1	de	de	[de]	LID(bep,stan,rest)	0.995342						
 2	zeven	zeven	[zeven]	TW(hoofd,prenom,stan)	0.869565						
@@ -20,3 +26,4 @@
 2	ben	zijn	[zijn]	WW(pv,tgw,ev)	0.999866						
 3	anders	anders	[anders]	BW()	0.927273						
 4	.	.	[.]	LET()	0.999956						
+
