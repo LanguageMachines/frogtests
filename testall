@@ -13,7 +13,7 @@ for file in teststandard testencoding testunits testslash testapostroph \
     	    testoption_n testnormalize testquotes testinternet \
     	    testparser testskipt testskipt2 testserver test_testdir \
 	    testxmlin testserverxml \
-	    testmblemproblems testmbmaproblems testtaggerproblems
+	    testmblemproblems testmbmaproblems #testtaggerproblems
 do ./testone $file
 done
 
