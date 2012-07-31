@@ -3,4 +3,4 @@
 # defaults:
 #
 
-$comm --skip=t -t testskipt2.txt -o testskipt2.out
+$comm --skip=t --uttmarker="<utt>" -t testskipt2.txt -o testskipt2.out
