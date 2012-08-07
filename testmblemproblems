@@ -3,7 +3,8 @@
 # defaults:
 #
 
-rm ./mblemout/*
+rm -rf ./mblemout/*
+mkdir ./mblemout
 
 $comm --skip=cmnp --testdir=./mblemproblems --outputdir=./mblemout 
 cat ./mblemout/*.out > testmblemproblems.out

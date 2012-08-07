@@ -3,7 +3,8 @@
 # defaults:
 #
 
-rm ./mbmaout/*
+rm -rf ./mbmaout/*
+mkdir ./mbmaout
 
 $comm --skip=cmnp --testdir=./mbmaproblems --outputdir=./mbmaout 
 cat ./mbmaout/*.out > testmbmaproblems.out
