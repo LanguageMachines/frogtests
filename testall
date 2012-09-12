@@ -11,8 +11,8 @@ fi
 
 for file in teststandard testencoding testunits testslash testapostroph \
     	    testoption_n testnormalize testquotes testinternet \
-    	    testparser testskipt testskipt2 testserver test_testdir \
-	    testxmlin testserverxml testmbma testmblem \
+    	    testparser testskipt testskipt2 testserver testserver-n \
+	    test_testdir testxmlin testserverxml testmbma testmblem \
 	    testmblemproblems testmbmaproblems #testtaggerproblems
 do ./testone $file
 done
