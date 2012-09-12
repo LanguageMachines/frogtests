@@ -1,0 +1,17 @@
+#!/bin/sh -x
+
+
+$frog_bin/frog  --keep-parser-files=yes -n -S 7000  > testserver-n.log 2>&1  &
+pid=`echo $!`
+
+sleep 12
+
+./frogclient1 &
+./frogclient2 &
+
+sleep 4
+cat testserver1.out > testserver-n.out
+cat testserver2.out >> testserver-n.out
+
+kill $pid
+

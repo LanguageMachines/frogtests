@@ -1,0 +1,14 @@
+#!/usr/bin/expect -f
+#
+spawn telnet localhost 7000
+expect "Trying 127.0.0.1..."
+expect "Connected to localhost."
+expect "Escape character is '^]'."
+log_file -noappend testserver5.out
+send "Dit een boeiende test.\r"
+send "Met meerdere zinnen. Al dan niet op een regel.\r"
+send "\r"
+send "En een tweede paragraaf ook!\r"
+send "EOT\r"
+expect "READY"
+log_file 
