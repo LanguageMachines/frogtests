@@ -28,7 +28,7 @@
 5	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP	6	mod
 6	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999633	O	I-NP	11	su
 7	,	,	[,]	LET()	0.999925	O	O	6	punct
-8	genaamd	genaamd	[ge][naamd]/[genaamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP	6	mod
+8	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP	6	mod
 9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	8	obj1
 10	,	,	[,]	LET()	0.999925	O	O	9	punct
 11	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP	3	body
@@ -173,7 +173,7 @@
 18	wereldwijd	wereldwijd	[wereld][wijd]	ADJ(prenom,basis,zonder)	0.978684	O	I-NP	19	mod
 19	succes	succes	[succes]	N(soort,ev,basis,onz,stan)	0.998985	O	I-NP	16	obj1
 20	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.600000	O	B-VP	14	body
-21	gemaakt	maken	[ge][maak][t]/[gemaak][t]	WW(vd,vrij,zonder)	0.999127	O	I-VP	20	vc
+21	gemaakt	maken	[ge][maak][t]	WW(vd,vrij,zonder)	0.999127	O	I-VP	20	vc
 22	.	.	[.]	LET()	0.999956	O	O	21	punct
 
 1	De	de	[de]	LID(bep,stan,rest)	0.992095	O	B-NP	3	det
