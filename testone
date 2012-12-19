@@ -21,7 +21,7 @@ do if test -x $file
       \rm -f $file.out
       echo -n "Frogging $file "
       ./$file > $file.err 2>&1
-      diff -w $file.out $file.ok >& $file.diff
+      diff -w --ignore-matching-lines=".?*-annotation .?*" $file.out $file.ok >& $file.diff
       if [ $? -ne 0 ];
       then 
            diff -w $file.diff $file.diff.known >& /dev/null
