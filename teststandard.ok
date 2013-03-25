@@ -147,13 +147,11 @@
 11	"	"	["]	LET()	0.999939	O	O		
 12	,	,	[,]	LET()	0.999925	O	O		
 13	verklaart	verklaren	[ver][klaar][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP		
-14	de	de	[de]	LID(bep,stan,rest)	0.990662	O	B-NP		
-15	40	40	[40]	TW(hoofd,prenom,stan)	1.000000	O	I-NP		
-16	-	-	[-]	LET()	0.999705	O	O		
-17	jarige	jarig	[jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	0.717037	O	B-NP		
-18	voormalige	voormalig	[voor][maal][ig][e]	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP		
-19	effectenhandelaar	effectenhandelaar	[effect][en][handel][aar]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP		
-20	.	.	[.]	LET()	0.999956	O	O		
+14	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP		
+15	40-jarige	40-jarige	[40-jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	0.988152	O	I-NP		
+16	voormalige	voormalig	[voor][maal][ig][e]	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP		
+17	effectenhandelaar	effectenhandelaar	[effect][en][handel][aar]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP		
+18	.	.	[.]	LET()	0.999956	O	O		
 
 1	"	"	["]	LET()	0.999939	O	O		
 2	Computers	computer	[computer][s]	N(soort,mv,basis)	0.862385	O	B-NP		
@@ -181,8 +179,7 @@
 14	of	of	[of]	VG(neven)	0.984375	O	B-CONJP		
 15	niet	niet	[niet]	BW()	0.999881	O	B-ADVP		
 16	.	.	[.]	LET()	0.999956	O	O		
-
-1	"	"	["]	LET()	0.999939	O	O		
+17	"	"	["]	LET()	0.999939	O	O		
 
 1	Voor	voor	[voor]	VZ(init)	0.950530	O	B-PP		
 2	het	het	[het]	LID(bep,stan,evon)	0.994595	O	B-NP		
