@@ -9,6 +9,10 @@ $comm --skip=p -x folia1.xml -X folia1.out.xml --KANON
 cat folia1.out.xml > testxmlin.out
 $comm --skip=p -x folia1.xml --textclass=OCR -X folia2.out.xml --KANON
 cat folia2.out.xml >> testxmlin.out
+$comm --skip=p -x -t folia1.xml.gz -X folia1.out1.xml --KANON
+zcat folia1.out1.xml.gz >> testxmlin.out
+$comm --skip=p -x -t folia1.xml.bz2 -X folia1.out1.xml.bz2 --KANON
+bzcat folia1.out1.xml.bz2 >> testxmlin.out
 $comm --skip=p -x -t folia1.xml -X folia1.out1.xml --KANON
 $comm --skip=p -x folia1.xml --testdir=xmltests -X folia1.out.xml --KANON >> testxmlin.out
 $comm --skip=p -x --KANON --testdir=xmltests --xmldir=./output
