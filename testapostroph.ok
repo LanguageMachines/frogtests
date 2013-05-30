@@ -1,20 +1,18 @@
 1	met	met	[met]	VZ(init)	0.999480	O	B-PP		
 2	zn	zn	[zn]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999410	O	B-NP		
 3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
-4	,	,	[,]	LET()	0.999038	O	O		
-5	met	met	[met]	VZ(init)	0.999480	O	B-PP		
-6	z`n	z`n	[z`n]	N(soort,mv,basis)	1.000000	O	B-NP		
-7	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
-8	,	,	[,]	LET()	0.999038	O	O		
-9	met	met	[met]	VZ(init)	0.999480	O	B-PP		
-10	z'n	zijn	[z'n]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999385	O	B-NP		
-11	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
-12	,	,	[,]	LET()	0.999925	O	O		
-13	of	of	[of]	VG(neven)	0.987531	O	B-CONJP		
-14	met	met	[met]	VZ(init)	0.999480	O	B-PP		
-15	z’n	z’n	[z’n]	N(soort,mv,basis)	0.892172	O	B-NP		
-16	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
-17	?	?	[?]	LET()	0.999956	O	O		
+
+1	met	met	[met]	VZ(init)	0.999480	O	B-PP		
+2	z`n	z`n	[z`n]	N(soort,mv,basis)	0.936116	O	B-NP		
+3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
+
+1	met	met	[met]	VZ(init)	0.999480	O	B-PP		
+2	z'n	zijn	[z'n]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999385	O	B-NP		
+3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
+
+1	met	met	[met]	VZ(init)	0.999480	O	B-PP		
+2	z’n	z’n	[z’n]	N(soort,mv,basis)	0.724190	O	B-NP		
+3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
 
 1	da`s	da`	[da`s]	N(soort,mv,basis)	0.728894	O	B-NP		
 2	niet	niet	[niet]	BW()	0.999918	O	B-ADVP		
@@ -29,12 +27,11 @@
 3	best	best	[goed][st]	ADJ(vrij,sup,zonder)	0.892899	O	B-ADVP		
 
 1	zo`n	zo`n	[zo`n]	VNW(aanw,det,stan,prenom,zonder,agr)	0.997335	O	B-NP		
-2	leesteken	leesteken	[lees][teken]	N(soort,mv,basis)	0.774701	O	B-VP		
-3	of	of	[of]	VG(neven)	0.820513	O	B-SBAR		
-4	zo'n	zo'n	[zo'n]	VNW(aanw,det,stan,prenom,zonder,agr)	0.995074	O	B-NP		
-5	,	,	[,]	LET()	0.999925	O	O		
-6	of	of	[of]	VG(neven)	0.986301	O	B-CONJP		
-7	toch	toch	[toch]	BW()	0.999796	O	B-ADVP		
-8	zo’n	zo’n	[zo’n]	N(soort,mv,basis)	0.679137	O	B-VP		
-9	?	?	[?]	LET()	0.999956	O	O		
+2	leesteken	leesteken	[lees][teken]	N(soort,mv,basis)	1.000000	O	B-VP		
+
+1	zo'n	zo'n	[zo'n]	VNW(aanw,det,stan,prenom,zonder,agr)	0.997290	O	B-NP		
+2	leesteken	leesteken	[lees][teken]	N(soort,ev,dim,onz,stan)	0.313688	O	I-NP		
+
+1	zo’n	zo’n	[zo’n]	N(soort,mv,basis)	0.773654	O	B-NP		
+2	leesteken	leesteken	[lees][teken]	N(soort,mv,basis)	0.419039	O	I-NP		
 
