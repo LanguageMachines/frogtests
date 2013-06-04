@@ -3,7 +3,7 @@
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP		
 4	1000	1000	[1000]	TW(hoofd,prenom,stan)	0.627863	O	B-NP		
 5	bytes	byte	[byte][s]	N(soort,mv,basis)	1.000000	O	I-NP		
-6	,	,	[,]	LET()	0.999925	O	O		
+6	,	,	[,]	LET()	1.000000	O	O		
 7	maar	maar	[maar]	BW()	0.500000	O	B-CONJP		
 8	1	1	[1]	TW(hoofd,vrij)	0.698220	O	B-NP		
 9	KiB	KiB	[KiB]	SPEC(deeleigen)	1.000000	B-MISC	I-NP		
@@ -18,7 +18,7 @@
 18	1	1	[1]	TW(hoofd,vrij)	0.698220	O	B-NP		
 19	kiB	kib	[kib]	N(soort,ev,basis,zijd,stan)	0.587567	O	I-NP		
 20	geschreven	schrijven	[ge][schrijf][en]	WW(vd,vrij,zonder)	0.991826	O	B-VP		
-21	.	.	[.]	LET()	0.999956	O	O		
+21	.	.	[.]	LET()	1.000000	O	O		
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP		
 2	fietst	fietsen	[fiets][t]	WW(pv,tgw,met-t)	0.998984	O	B-VP		
@@ -27,7 +27,7 @@
 5	met	met	[met]	VZ(init)	0.999480	O	B-PP		
 6	50	50	[50]	TW(hoofd,prenom,stan)	0.677411	O	B-NP		
 7	km	km	[km]	N(soort,ev,basis,zijd,stan)	0.800000	O	I-NP		
-8	/	/	[/]	LET()	0.995005	O	O		
+8	/	/	[/]	LET()	1.000000	O	O		
 9	h	h	[h]	SPEC(symb)	1.000000	O	B-NP		
 
 1	De	de	[de]	LID(bep,stan,rest)	0.877577	O	B-NP		

@@ -7,12 +7,12 @@ EOT
 2	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	4	det
 3	boeiende	boeien	[boei][end][e]	WW(od,prenom,met-e)	0.790000	O	I-NP	4	mod
 4	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.903055	O	I-NP	0	ROOT
-5	.	.	[.]	LET()	0.999956	O	O	4	punct
+5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
 1	Met	met	[met]	VZ(init)	0.995378	O	B-PP	0	ROOT
 2	meerdere	meerder	[meerdere]	VNW(onbep,det,stan,prenom,met-e,mv)	0.986667	O	B-NP	3	det
 3	zinnen	zin	[zin][en]	N(soort,mv,basis)	0.996082	O	I-NP	1	obj1
-4	.	.	[.]	LET()	0.999956	O	O	3	punct
+4	.	.	[.]	LET()	1.000000	O	O	3	punct
 
 1	Al	al	[al]	BW()	0.626101	O	B-ADVP	2	cnj
 2	dan	dan	[dan]	BW()	0.888889	O	I-ADVP	0	ROOT
@@ -20,14 +20,14 @@ EOT
 4	op	op	[op]	VZ(init)	0.995868	O	B-PP	0	ROOT
 5	een	een	[een]	LID(onbep,stan,agr)	0.999113	O	B-NP	6	det
 6	regel	regel	[regel]	N(soort,ev,basis,zijd,stan)	0.903055	O	I-NP	4	obj1
-7	.	.	[.]	LET()	0.999956	O	O	6	punct
+7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	En	en	[en]	VG(neven)	0.992995	O	B-PP	0	ROOT
 2	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	4	det
 3	tweede	twee	[twee][de]	TW(rang,prenom,stan)	0.995693	O	I-NP	4	mod
 4	paragraaf	paragraaf	[paragraaf]	N(soort,ev,basis,zijd,stan)	0.994876	O	I-NP	0	ROOT
 5	ook	ook	[ook]	BW()	0.999979	O	B-ADVP	4	mod
-6	!	!	[!]	LET()	0.995005	O	O	5	punct
+6	!	!	[!]	LET()	1.000000	O	O	5	punct
 
 READY
 Dit een alternatieve test.
@@ -39,18 +39,18 @@ EOT
 2	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	4	det
 3	alternatieve	alternatief	[alterneer][atieief][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP	4	mod
 4	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.996466	O	I-NP	0	ROOT
-5	.	.	[.]	LET()	0.999956	O	O	4	punct
+5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
 1	Met	met	[met]	VZ(init)	0.995378	O	B-PP	0	ROOT
 2	meerdere	meerder	[meerdere]	VNW(onbep,det,stan,prenom,met-e,mv)	0.986667	O	B-NP	3	det
 3	zinnen	zin	[zin][en]	N(soort,mv,basis)	0.996082	O	I-NP	1	obj1
-4	.	.	[.]	LET()	0.999956	O	O	3	punct
+4	.	.	[.]	LET()	1.000000	O	O	3	punct
 
 1	En	en	[en]	VG(neven)	0.999135	O	B-PP	0	ROOT
 2	ook	ook	[ook]	BW()	0.999979	O	B-NP	0	ROOT
 3	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	I-NP	5	det
 4	tweede	twee	[twee][de]	TW(rang,prenom,stan)	0.995693	O	I-NP	5	mod
 5	paragraaf	paragraaf	[paragraaf]	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	0	ROOT
-6	.	.	[.]	LET()	0.999956	O	O	5	punct
+6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 READY

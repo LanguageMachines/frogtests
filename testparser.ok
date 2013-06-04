@@ -2,15 +2,15 @@
 2	oprichter	oprichter	[op][richt][er]	N(soort,ev,basis,zijd,stan)	0.999694	O	I-NP	8	su
 3	van	van	[van]	VZ(init)	0.999154	O	B-PP	2	mod
 4	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	3	obj1
-5	,	,	[,]	LET()	0.999709	O	O	4	punct
+5	,	,	[,]	LET()	1.000000	O	O	4	punct
 6	Jimmy_Wales	Jimmy_Wales	[Jimmy]_[Wales]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_B-LOC	B-NP_I-NP	4	mod
-7	,	,	[,]	LET()	0.999925	O	O	6	punct
+7	,	,	[,]	LET()	1.000000	O	O	6	punct
 8	wil	willen	[wil]	WW(pv,tgw,ev)	0.994536	O	B-VP	0	ROOT
 9	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	11	det
 10	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP	11	mod
 11	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP	12	obj1
 12	lanceren	lanceren	[lanceer][en]	WW(inf,vrij,zonder)	0.791045	O	B-VP	8	vc
-13	.	.	[.]	LET()	0.999956	O	O	12	punct
+13	.	.	[.]	LET()	1.000000	O	O	12	punct
 
 1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.993865	O	B-NP	2	obj1
 2	meldt	melden	[meld][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP	0	ROOT
@@ -19,7 +19,7 @@
 5	krant	krant	[krant]	N(soort,ev,basis,zijd,stan)	0.971014	O	I-NP	2	su
 6	The	The	[The]	SPEC(vreemd)	1.000000	B-PRO	B-NP	2	su
 7	Times	Times	[Times]	SPEC(vreemd)	1.000000	I-PRO	I-NP	0	ROOT
-8	.	.	[.]	LET()	0.999956	O	O	7	punct
+8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
 1	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	2	su
 2	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.997207	O	B-VP	0	ROOT
@@ -27,10 +27,10 @@
 4	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP	6	det
 5	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP	6	mod
 6	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999633	O	I-NP	11	su
-7	,	,	[,]	LET()	0.999925	O	O	6	punct
+7	,	,	[,]	LET()	1.000000	O	O	6	punct
 8	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP	6	mod
 9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	8	obj1
-10	,	,	[,]	LET()	0.999925	O	O	9	punct
+10	,	,	[,]	LET()	1.000000	O	O	9	punct
 11	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP	3	body
 12	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP	11	vc
 13	met	met	[met]	VZ(init)	0.999574	O	B-PP	12	pc
@@ -39,7 +39,7 @@
 16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	15	cnj
 17	!.	!.	[!.]	SPEC(afk)	1.000000	O	O	16	mod
 
-1	"	"	["]	LET()	0.999939	O	O	0	ROOT
+1	"	"	["]	LET()	1.000000	O	O	0	ROOT
 2	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	3	su
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP	0	ROOT
 4	een	een	[een]	LID(onbep,stan,agr)	0.997219	O	B-NP	7	det
@@ -60,11 +60,11 @@
 19	andere	ander	[ander][e]	ADJ(prenom,basis,met-e,stan)	0.990544	O	B-NP	21	mod
 20	onnodige	onnodig	[on][nodig][e]	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP	21	mod
 21	informatie	informatie	[informeer][atie]	N(soort,ev,basis,zijd,stan)	0.995885	O	I-NP	18	cnj
-22	"	"	["]	LET()	0.999939	O	O	21	punct
-23	,	,	[,]	LET()	0.950000	O	O	21	punct
+22	"	"	["]	LET()	1.000000	O	O	21	punct
+23	,	,	[,]	LET()	1.000000	O	O	21	punct
 24	aldus	aldus	[al][dus]	BW()	0.997264	O	B-PP	0	ROOT
 25	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	24	obj1
-26	.	.	[.]	LET()	0.999956	O	O	25	punct
+26	.	.	[.]	LET()	1.000000	O	O	25	punct
 
 1	Het	het	[het]	LID(bep,stan,evon)	0.998917	O	B-NP	3	det
 2	algoritmische	algoritmisch	[algoritme][isch][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP	3	mod
@@ -83,7 +83,7 @@
 15	en	en	[en]	VG(neven)	0.999342	O	B-CONJP	13	obj1
 16	commerciële	commercieel	[commerciël][e]	ADJ(prenom,basis,met-e,stan)	0.999790	O	B-NP	17	mod
 17	ondernemingen	onderneming	[onderneem][ing][en]	N(soort,mv,basis)	0.999588	O	I-NP	15	cnj
-18	.	.	[.]	LET()	0.999956	O	O	17	punct
+18	.	.	[.]	LET()	1.000000	O	O	17	punct
 
 1	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.964035	O	B-NP	4	su
 2	bij	bij	[bij]	VZ(init)	0.989796	O	B-PP	1	mod
@@ -105,9 +105,9 @@
 18	meeste	meest	[meeste]	VNW(onbep,grad,stan,prenom,met-e,agr,sup)	0.997028	O	I-NP	19	mod
 19	verwijzingen	verwijzing	[ver][wijs][ing][en]	N(soort,mv,basis)	0.997677	O	I-NP	16	obj1
 20	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999662	O	B-VP	9	body
-21	.	.	[.]	LET()	0.999956	O	O	20	punct
+21	.	.	[.]	LET()	1.000000	O	O	20	punct
 
-1	"	"	["]	LET()	0.999939	O	O	0	ROOT
+1	"	"	["]	LET()	1.000000	O	O	0	ROOT
 2	De	de	[de]	LID(bep,stan,rest)	0.877577	O	B-NP	4	det
 3	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.997796	O	I-NP	4	mod
 4	taak	taak	[taak]	N(soort,ev,basis,zijd,stan)	0.999602	O	I-NP	8	su
@@ -120,7 +120,7 @@
 11	van	van	[van]	VZ(init)	0.999441	O	B-PP	10	mod
 12	een	een	[een]	LID(onbep,stan,agr)	0.999038	O	B-NP	13	det
 13	keuze	keuze	[keuze]	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	11	obj1
-14	.	.	[.]	LET()	0.999956	O	O	13	punct
+14	.	.	[.]	LET()	1.000000	O	O	13	punct
 
 1	Deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780	O	B-NP	2	det
 2	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998006	O	I-NP	3	su
@@ -129,19 +129,19 @@
 5	en	en	[en]	VG(neven)	0.999194	O	I-NP	0	ROOT
 6	deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.999113	O	B-NP	7	det
 7	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998230	O	I-NP	13	su
-8	'	'	[']	LET()	0.999956	O	O	7	punct
+8	'	'	[']	LET()	1.000000	O	O	7	punct
 9	sucks	sucks	[sucks]	SPEC(vreemd)	1.000000	O	B-NP	7	app
-10	'	'	[']	LET()	0.999956	O	O	9	punct
-11	"	"	["]	LET()	0.999939	O	O	9	punct
-12	,	,	[,]	LET()	0.999925	O	O	9	punct
+10	'	'	[']	LET()	1.000000	O	O	9	punct
+11	"	"	["]	LET()	1.000000	O	O	9	punct
+12	,	,	[,]	LET()	1.000000	O	O	9	punct
 13	verklaart	verklaren	[ver][klaar][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP	0	ROOT
 14	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP	17	det
 15	40-jarige	40-jarige	[40-jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	0.988152	O	I-NP	17	mod
 16	voormalige	voormalig	[voor][maal][ig][e]	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP	17	mod
 17	effectenhandelaar	effectenhandelaar	[effect][en][handel][aar]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	13	obj1
-18	.	.	[.]	LET()	0.999956	O	O	17	punct
+18	.	.	[.]	LET()	1.000000	O	O	17	punct
 
-1	"	"	["]	LET()	0.999939	O	O	0	ROOT
+1	"	"	["]	LET()	1.000000	O	O	0	ROOT
 2	Computers	computer	[computer][s]	N(soort,mv,basis)	0.862385	O	B-NP	3	su
 3	kunnen	kunnen	[kan][en]	WW(pv,tgw,mv)	0.911765	O	B-VP	0	ROOT
 4	nu_eenmaal	nu_eenmaal	[nu]_[eenmaal]	BW()_BW()	0.995579	O_O	B-ADVP_I-ADVP	5	mod
@@ -149,7 +149,7 @@
 6	dergelijke	dergelijk	[dergelijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP	7	mod
 7	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.999466	O	I-NP	8	obj1
 8	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.727273	O	B-VP	3	vc
-9	.	.	[.]	LET()	0.999956	O	O	8	punct
+9	.	.	[.]	LET()	1.000000	O	O	8	punct
 
 1	Voor	voor	[voor]	VZ(init)	0.950530	O	B-PP	5	mod
 2	het	het	[het]	LID(bep,stan,evon)	0.994595	O	B-NP	4	det
@@ -172,7 +172,7 @@
 19	succes	succes	[succes]	N(soort,ev,basis,onz,stan)	0.998985	O	I-NP	16	obj1
 20	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.600000	O	B-VP	14	body
 21	gemaakt	maken	[ge][maak][t]	WW(vd,vrij,zonder)	0.999127	O	I-VP	20	vc
-22	.	.	[.]	LET()	0.999956	O	O	21	punct
+22	.	.	[.]	LET()	1.000000	O	O	21	punct
 
 1	De	de	[de]	LID(bep,stan,rest)	0.992095	O	B-NP	3	det
 2	goede	goed	[goed][e]	ADJ(prenom,basis,met-e,stan)	0.997314	O	I-NP	3	mod
@@ -180,13 +180,13 @@
 4	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.966981	O	B-SBAR	3	mod
 5	zij	zij	[zij]	VNW(pers,pron,nomin,vol,3p,mv)	0.977273	O	B-NP	6	su
 6	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.599303	O	B-VP	4	body
-7	,	,	[,]	LET()	0.999838	O	O	6	punct
+7	,	,	[,]	LET()	1.000000	O	O	6	punct
 8	samen	samen	[samen]	BW()	0.998251	O	B-ADVP	6	mod
 9	met	met	[met]	VZ(init)	0.999820	O	B-PP	8	pc
 10	de	de	[de]	LID(bep,stan,rest)	0.999805	O	B-NP	12	det
 11	duidelijke	duidelijk	[duid][elijk][e]	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP	12	mod
 12	technologie	technologie	[technologisch][ie]	N(soort,ev,basis,zijd,stan)	0.999633	O	I-NP	9	obj1
-13	,	,	[,]	LET()	0.999925	O	O	12	punct
+13	,	,	[,]	LET()	1.000000	O	O	12	punct
 14	moet	moeten	[moet]	WW(pv,tgw,ev)	0.999794	O	B-VP	0	ROOT
 15	garant	garant	[garant]	N(soort,ev,basis,zijd,stan)	0.800000	O	B-VAST	16	obj1
 16	staan	staan	[sta]	WW(pv,tgw,mv)	1.000000	O	B-VP	14	vc
@@ -194,5 +194,5 @@
 18	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	20	det
 19	betrouwbare	betrouwbaar	[be][trouw][baar][e]	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP	20	mod
 20	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	17	obj1
-21	.	.	[.]	LET()	0.999956	O	O	20	punct
+21	.	.	[.]	LET()	1.000000	O	O	20	punct
 
