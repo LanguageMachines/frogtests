@@ -3,4 +3,4 @@
 # defaults:
 #
 
-$comm --skip=p -e LATIN1 -t testencoding.txt -o testencoding.out
+$comm --skip=p -n -e LATIN1 -t testencoding.txt -o testencoding.out
