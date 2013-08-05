@@ -1,6 +1,6 @@
 1	Maar	maar	[maar]	VG(neven)	0.997961						
 2	ook	ook	[ook]	BW()	0.999979						
-3	bloedje-link	bloedje-link	[bloed][je][link]	ADJ(vrij,basis,zonder)	0.551365						
+3	bloedje-link	bloedje-link	[bloedje][link]	ADJ(vrij,basis,zonder)	0.551365						
 4	.	.	[.]	LET()	1.000000						
 
 1	We	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.997215						
@@ -24,18 +24,278 @@
 4	resultaten	resultaat	[resulteer][at][en]	N(soort,mv,basis)	0.999588						
 5	.	.	[.]	LET()	1.000000						
 
+1	De	de	[de]	LID(bep,stan,rest)	0.877577						
+2	aftaaiende	aftaaien	[aftaai][end][e]	WW(od,prenom,met-e)	0.772507						
+3	abiturienten	abiturient	[abiturient][e][n]	N(soort,mv,basis)	1.000000						
+4	bakkeleien	bakkeleien	[bakkelei][en]	WW(pv,tgw,mv)	0.900000						
+5	over	over	[over]	VZ(init)	0.999393						
+6	het	het	[het]	LID(bep,stan,evon)	0.702075						
+7	aspiratieniveau	aspiratieniveau	[aspireer][atie][niveau]	N(soort,ev,basis,onz,stan)	1.000000						
+8	.	.	[.]	LET()	1.000000						
+
+1	Ze	ze	[ze]	VNW(pers,pron,stan,red,3,mv)	0.999366						
+2	leiden	leiden	[leid][en]	WW(pv,tgw,mv)	0.857143						
+3	aan	aan	[aan]	VZ(init)	0.745129						
+4	bacterienvrees	bacterienvrees	[bacterie][n][vrees]	N(soort,mv,basis)	0.646080						
+5	vanwege	vanwege	[vanwege]	VZ(init)	0.999078						
+6	de	de	[de]	LID(bep,stan,rest)	0.981886						
+7	bediendenbelastingen	bediendenbelasting	[bediende][n][be][last][ing][en]	N(soort,mv,basis)	0.903723						
+8	.	.	[.]	LET()	1.000000						
+
+1	De	de	[de]	LID(bep,stan,rest)	0.877577						
+2	bedieningsmachinisten	bedieningsmachinist	[be][dien][ing][s][machine][ist][en]	N(soort,mv,basis)	1.000000						
+3	zitten	zitten	[zit][en]	WW(pv,tgw,mv)	0.857143						
+4	achter	achter	[achter]	VZ(init)	0.997587						
+5	de	de	[de]	LID(bep,stan,rest)	0.981886						
+6	bedieningspanelen	bedieningspaneel	[be][dien][ing][s][paneel][en]	N(soort,mv,basis)	1.000000						
+7	.	.	[.]	LET()	1.000000						
+
+1	De	de	[de]	LID(bep,stan,rest)	0.877577						
+2	beoliende	beoliende	[beoliende]	N(soort,ev,basis,zijd,stan)	0.337832						
+3	en	en	[en]	VG(neven)	0.999194						
+4	betraliende	betraliende	[betraliende]	ADJ(prenom,basis,met-e,stan)	0.591576						
+5	bezienswaardigheden	bezienswaardigheid	[be][zie][ns][waarde][ig][heid][en]	N(soort,mv,basis)	0.999588						
+6	.	.	[.]	LET()	1.000000						
+
+1	De	de	[de]	LID(bep,stan,rest)	0.877577						
+2	braniende	braniende	[braniende]	N(soort,ev,basis,zijd,stan)	0.433178						
+3	buspatienten	buspatient	[bus][patient][en]	N(soort,mv,basis)	0.667235						
+4	gebruiken	gebruiken	[gebruiken]	WW(inf,vrij,zonder)	0.782340						
+5	catechumenenolie	catechumenenolie	[catechumeen][en][olie]	N(soort,ev,basis,zijd,stan)	1.000000						
+6	.	.	[.]	LET()	1.000000						
+
+1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999688						
+2	dien	die	[dien]	VNW(aanw,det,dial)	0.653768						
+3	de	de	[de]	LID(bep,stan,rest)	0.999852						
+4	dienaressen	dienares	[dien][aar][es][en]	N(soort,mv,basis)	0.998726						
+5	in	in	[in]	VZ(init)	0.931125						
+6	hun	hun	[hun]	VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)	0.918501						
+7	dienstbodenkamertje	dienstbodenkamer	[dien][st][bode][n][kamer][tje]	N(soort,ev,dim,onz,stan)	0.999323						
+8	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+9	dienstverleningsaanbod	dienstverleningsaanbod	[dien][st][ver][leen][ing][s][aanbod]	N(soort,ev,basis,onz,stan)	0.936065						
+10	toe	toe	[toe]	VZ(fin)	0.998680						
+11	.	.	[.]	LET()	1.000000						
+
+1	de	de	[de]	LID(bep,stan,rest)	0.981886						
+2	differentiaalquotienten	differentiaalquotient	[different][ie][aal][quotient][en]	N(soort,mv,basis)	1.000000						
+3	werden	worden	[word][en]	WW(pv,verl,mv)	0.997831						
+4	in	in	[in]	VZ(init)	0.931125						
+5	estafettendiensten	estafettendienst	[estafette][n][dien][st][en]	N(soort,mv,basis)	0.942253						
+6	met	met	[met]	VZ(init)	0.999480						
+7	evangelienharmonieen	evangelienharmonieen	[evangelie][n][harmon][ie][n]	N(soort,mv,basis)	1.000000						
+8	en	en	[en]	VG(neven)	0.999194						
+9	flikflooiende	flikflooien	[flikflooi][end][e]	WW(od,prenom,met-e)	0.587127						
+10	zeloten	zeloot	[zeloot][en]	N(soort,mv,basis)	1.000000						
+11	afgeleverd	afleveren	[af][ge][lever][d]	WW(vd,vrij,zonder)	0.998385						
+12	bij	bij	[bij]	VZ(init)	0.998628						
+13	de	de	[de]	LID(bep,stan,rest)	0.981886						
+14	herendienst	herendienst	[heer][en][dien][st]	N(soort,ev,basis,zijd,stan)	1.000000						
+15	.	.	[.]	LET()	1.000000						
+
+1	De	de	[de]	LID(bep,stan,rest)	0.877577						
+2	kandidatentoernooien	kandidatentoernooi	[kandideer][at][en][toernooi][en]	N(soort,mv,basis)	1.000000						
+3	in	in	[in]	VZ(init)	0.998814						
+4	de	de	[de]	LID(bep,stan,rest)	0.981886						
+5	keiengroeven	keiengroef	[kei][en][groeven]	N(soort,mv,basis)	1.000000						
+6	.	.	[.]	LET()	1.000000						
+
+1	De	de	[de]	LID(bep,stan,rest)	0.877577						
+2	klaspatienten	klaspatient	[klas][patient][en]	N(soort,mv,basis)	0.790409						
+3	laveien	laveien	[lavei][en]	WW(pv,tgw,mv)	0.379537						
+4	door	door	[door]	VZ(init)	0.856675						
+5	het	het	[het]	LID(bep,stan,evon)	0.702075						
+6	lelienbed	lelienbed	[lelie][n][bed]	N(soort,ev,basis,onz,stan)	1.000000						
+7	.	.	[.]	LET()	1.000000						
+
+1	Zenuwpatienten	zenuwpatient	[zenuw][patient][en]	N(soort,mv,basis)	1.000000						
+2	lagen	liggen	[lig][en]	WW(pv,verl,mv)	0.689655						
+3	in	in	[in]	VZ(init)	0.998790						
+4	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+5	zeswekendienst	zeswekendienst	[zes][week][en][dien][st]	N(soort,ev,basis,zijd,stan)	0.809922						
+6	.	.	[.]	LET()	1.000000						
+
+1	Ziekenfondspatienten	ziekenfondspatient	[zieke][n][fonds][patient][en]	N(soort,mv,basis)	1.000000						
+2	draaiden	draaien	[draai][den]	WW(pv,verl,mv)	0.993311						
+3	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+4	ziekenhuisdienst	ziekenhuisdienst	[zieke][n][huis][dien][st]	N(soort,ev,basis,zijd,stan)	0.910688						
+5	.	.	[.]	LET()	1.000000						
+
+1	Een	een	[een]	LID(onbep,stan,agr)	0.981771						
+2	neuriende	neuriende	[neuriende]	WW(od,prenom,met-e)	0.608528						
+3	ziekenhuisvoorziening	ziekenhuisvoorziening	[zieke][n][huis][voor][zie][ing]	N(soort,ev,basis,zijd,stan)	1.000000						
+4	.	.	[.]	LET()	1.000000						
+
+1	Alles	alles	[alles]	VNW(onbep,pron,stan,vol,3o,ev)	0.994808						
+2	overziende	overziende	[over][zie][nd][e]	WW(pv,verl,ev)	0.951936						
+3	zijn	zijn	[zijn]	WW(inf,vrij,zonder)	0.666667						
+4	de	de	[de]	LID(bep,stan,rest)	0.981886						
+5	pagaaiende	pagaaien	[pagaai][end][e]	WW(od,prenom,met-e)	0.768520						
+6	patienten	patient	[patient][en]	N(soort,mv,basis)	0.793317						
+7	pierenwaaiende	pierenwaaiende	[pier][en][waai][end][e]	WW(pv,verl,ev)	1.000000						
+8	.	.	[.]	LET()	1.000000						
+
+1	Of	of	[of]	VG(neven)	0.900891						
+2	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.991297						
+3	ze	ze	[ze]	VNW(pers,pron,stan,red,3,mv)	0.670897						
+4	papegaaiende	papegaaiende	[papegaai][end][e]	WW(pv,verl,ev)	0.784774						
+5	?	?	[?]	LET()	1.000000						
+
+1	Een	een	[een]	LID(onbep,stan,agr)	0.981771						
+2	psychohygienische	psychohygienisch	[psycho][hygiene][isch][e]	ADJ(prenom,basis,met-e,stan)	1.000000						
+3	regeringsdienst	regeringsdienst	[regeer][ing][s][dien][st]	N(soort,ev,basis,zijd,stan)	1.000000						
+4	.	.	[.]	LET()	1.000000						
+
+1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791						
+2	ben	zijn	[zijn]	WW(pv,tgw,ev)	0.999866						
+3	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+4	skier	skier	[skiee][r]	N(soort,ev,basis,zijd,stan)	0.843882						
+5	en	en	[en]	VG(neven)	0.997774						
+6	zie	zien	[zie]	WW(pv,tgw,ev)	0.997988						
+7	al	al	[al]	BW()	0.903830						
+8	skiende	skiende	[skiee][nd][e]	WW(od,vrij,zonder)	0.329545						
+9	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+10	skiende	skiende	[skiee][nd][e]	WW(od,prenom,met-e)	0.524140						
+11	schaliendekker	schaliendekker	[schalie][n][dek][er]	N(soort,ev,basis,zijd,stan)	1.000000						
+12	,	,	[,]	LET()	1.000000						
+13	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.891473						
+14	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447						
+15	verfoeienswaardig	verfoeienswaardig	[verfoei][ens][waarde][ig]	ADJ(vrij,basis,zonder)	1.000000						
+16	.	.	[.]	LET()	1.000000						
+
+1	Al	al	[al]	BW()	0.626101						
+2	neuriend	neuriend	[neuriend]	WW(od,vrij,zonder)	0.940041						
+3	meniende	meniende	[menie][nd][e]	WW(pv,verl,ev)	0.725171						
+4	aan	aan	[aan]	VZ(init)	0.996734						
+5	de	de	[de]	LID(bep,stan,rest)	0.981886						
+6	malienkolders	malienkolder	[malie][n][kolder][s]	N(soort,mv,basis)	1.000000						
+7	en	en	[en]	VG(neven)	0.999194						
+8	markeringsboeien	markeringsboei	[mark][eer][ing][s][boei][en]	N(soort,mv,basis)	1.000000						
+9	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.995415						
+10	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170						
+11	milieuhygienisch	milieuhygienisch	[milieu][hygiene][isch]	ADJ(vrij,basis,zonder)	1.000000						
+12	niet	niet	[niet]	BW()	0.999918						
+13	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.990476						
+14	bezig	bezig	[bezig]	ADJ(vrij,basis,zonder)	0.998472						
+15	.	.	[.]	LET()	1.000000						
+
+1	De	de	[de]	LID(bep,stan,rest)	0.877577						
+2	monopoliende	monopolien	[monopoli][end][e]	WW(od,prenom,met-e)	0.437063						
+3	olien	olien	[oliee][n]	N(soort,mv,basis)	1.000000						
+4	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.947740						
+5	onhygienisch	onhygienisch	[on][hygiene][isch]	ADJ(vrij,basis,zonder)	0.994118						
+6	.	.	[.]	LET()	1.000000						
+
+1	Wij	wij	[wij]	VNW(pers,pron,nomin,vol,1,mv)	0.998887						
+2	ontmoeien	ontmoeien	[ontmoei][en]	WW(pv,tgw,mv)	0.563713						
+3	ons	ons	[ons]	VNW(pr,pron,obl,vol,1,mv)	0.979381						
+4	met	met	[met]	VZ(init)	0.999820						
+5	de	de	[de]	LID(bep,stan,rest)	0.981886						
+6	opruiende	opruiend	[opruiend][e]	ADJ(prenom,basis,met-e,stan)	0.727444						
+7	orientering	orientering	[Orient][eer][ing]	N(soort,ev,basis,zijd,stan)	1.000000						
+8	.	.	[.]	LET()	1.000000						
+
+1	We	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.997961						
+2	verdienden	verdienen	[verdien][den]	WW(pv,verl,mv)	0.998744						
+3	het	het	[het]	VNW(pers,pron,stan,red,3,ev,onz)	0.917266						
+4	dat	dat	[dat]	VG(onder)	0.946787						
+5	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170						
+6	het	het	[het]	LID(bep,stan,evon)	0.997424						
+7	dak	dak	[dak]	N(soort,ev,basis,onz,stan)	0.996804						
+8	verleien	verleien	[verleien]	ADJ(vrij,basis,zonder)	0.327419						
+9	moesten	moeten	[moet][en]	WW(pv,verl,mv)	0.997888						
+10	.	.	[.]	LET()	1.000000						
+
+1	Dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.868670						
+2	moesten	moeten	[moet][en]	WW(pv,verl,mv)	0.997888						
+3	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170						
+4	wel	wel	[wel]	BW()	0.999831						
+5	uitkienen	uitkienen	[uitkien][en]	WW(inf,vrij,zonder)	0.972973						
+6	.	.	[.]	LET()	1.000000						
+
+1	zenuwpatienten	zenuwpatient	[zenuw][patient][en]	N(soort,mv,basis)	0.998733						
+2	lagen	liggen	[lig][en]	WW(pv,verl,mv)	0.689655						
+3	in	in	[in]	VZ(init)	0.998790						
+4	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+5	zeswekendienst	zeswekendienst	[zes][week][en][dien][st]	N(soort,ev,basis,zijd,stan)	0.809922						
+6	.	.	[.]	LET()	1.000000						
+
+1	ziekenfondspatienten	ziekenfondspatient	[zieke][n][fonds][patient][en]	N(soort,mv,basis)	0.995005						
+2	draaiden	draaien	[draai][den]	WW(pv,verl,mv)	0.993311						
+3	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+4	ziekenhuisdienst	ziekenhuisdienst	[zieke][n][huis][dien][st]	N(soort,ev,basis,zijd,stan)	0.910688						
+5	.	.	[.]	LET()	1.000000						
+
+1	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+2	neuriende	neuriende	[neuriende]	WW(od,prenom,met-e)	0.549191						
+3	ziekenhuisvoorziening	ziekenhuisvoorziening	[zieke][n][huis][voor][zie][ing]	N(soort,ev,basis,zijd,stan)	1.000000						
+4	.	.	[.]	LET()	1.000000						
+
+1	alles	alles	[alles]	VNW(onbep,pron,stan,vol,3o,ev)	0.999840						
+2	overziende	overziende	[over][zie][nd][e]	WW(pv,verl,ev)	0.927584						
+3	zijn	zijn	[zijn]	WW(inf,vrij,zonder)	0.666667						
+4	de	de	[de]	LID(bep,stan,rest)	0.981886						
+5	pagaaiende	pagaaien	[pagaai][end][e]	WW(od,prenom,met-e)	0.768520						
+6	patienten	patient	[patient][en]	N(soort,mv,basis)	0.793317						
+7	pierenwaaiende	pierenwaaiende	[pier][en][waai][end][e]	WW(pv,verl,ev)	1.000000						
+8	.	.	[.]	LET()	1.000000						
+
+1	Of	of	[of]	VG(neven)	0.900891						
+2	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.991297						
+3	ze	ze	[ze]	VNW(pers,pron,stan,red,3,mv)	0.670897						
+4	papegaaiende	papegaaiende	[papegaai][end][e]	WW(pv,verl,ev)	0.784774						
+5	?	?	[?]	LET()	1.000000						
+
+1	Een	een	[een]	LID(onbep,stan,agr)	0.981771						
+2	psychohygienische	psychohygienisch	[psycho][hygiene][isch][e]	ADJ(prenom,basis,met-e,stan)	1.000000						
+3	regeringsdienst	regeringsdienst	[regeer][ing][s][dien][st]	N(soort,ev,basis,zijd,stan)	1.000000						
+4	.	.	[.]	LET()	1.000000						
+
+1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791						
+2	ben	zijn	[zijn]	WW(pv,tgw,ev)	0.999866						
+3	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+4	skier	skier	[skiee][r]	N(soort,ev,basis,zijd,stan)	0.843882						
+5	en	en	[en]	VG(neven)	0.997774						
+6	zie	zien	[zie]	WW(pv,tgw,ev)	0.997988						
+7	al	al	[al]	BW()	0.903830						
+8	skiende	skiende	[skiee][nd][e]	WW(od,vrij,zonder)	0.329545						
+9	een	een	[een]	LID(onbep,stan,agr)	0.995147						
+10	skiende	skiende	[skiee][nd][e]	WW(od,prenom,met-e)	0.524140						
+11	schaliendekker	schaliendekker	[schalie][n][dek][er]	N(soort,ev,basis,zijd,stan)	1.000000						
+12	,	,	[,]	LET()	1.000000						
+13	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.891473						
+14	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447						
+15	verfoeienswaardig	verfoeienswaardig	[verfoei][ens][waarde][ig]	ADJ(vrij,basis,zonder)	1.000000						
+16	.	.	[.]	LET()	1.000000						
+
+1	We	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.997961						
+2	verdienden	verdienen	[verdien][den]	WW(pv,verl,mv)	0.998397						
+3	dat	dat	[dat]	VG(onder)	0.946787						
+4	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170						
+5	de	de	[de]	LID(bep,stan,rest)	0.999665						
+6	boot	boot	[boot]	N(soort,ev,basis,zijd,stan)	0.997691						
+7	verleien	verleien	[verlei][en]	WW(inf,vrij,zonder)	0.739231						
+8	moesten	moeten	[moet][en]	WW(pv,verl,mv)	0.997888						
+9	.	.	[.]	LET()	1.000000						
+
+1	Dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.868670						
+2	moesten	moeten	[moet][en]	WW(pv,verl,mv)	0.997888						
+3	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170						
+4	wel	wel	[wel]	BW()	0.999831						
+5	uitkienen	uitkienen	[uitkien][en]	WW(inf,vrij,zonder)	0.972973						
+6	.	.	[.]	LET()	1.000000						
+
 1	de	de	[de]	LID(bep,stan,rest)	0.995342						
 2	zeven	zeven	[zeven]	TW(hoofd,prenom,stan)	0.869565						
-3	zeeën	zee	[zee][en]	N(soort,mv,basis)	0.996082						
+3	zeeën	zee	[zeeën]	N(soort,mv,basis)	0.996082						
 4	.	.	[.]	LET()	1.000000						
 
 1	Die	die	[die]	VNW(aanw,pron,stan,vol,3,getal)	0.654898						
-2	vervelende	vervelend	[vervelend][e]	ADJ(prenom,basis,met-e,stan)	0.657143						
+2	vervelende	vervelend	[verveelend][e]	ADJ(prenom,basis,met-e,stan)	0.657143						
 3	journalist	journalist	[journaal][ist]	N(soort,ev,basis,zijd,stan)	0.999705						
 4	.	.	[.]	LET()	1.000000						
 
 1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.997942						
-2	was	zijn	[zijn]	WW(pv,verl,ev)	0.996560						
+2	was	zijn	[wees]	WW(pv,verl,ev)	0.996560						
 3	voorpaginanieuws	voorpaginanieuws	[voor][pagina][nieuws]	N(soort,ev,basis,onz,stan)	0.996824						
 4	!	!	[!]	LET()	1.000000						
 
