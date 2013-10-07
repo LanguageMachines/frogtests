@@ -6,6 +6,6 @@
 rm -rf ./mbmaout/*
 mkdir ./mbmaout
 
-$comm --skip=cmnp --testdir=./mbmaproblems --outputdir=./mbmaout 
+$comm --skip=lcmnp --testdir=./mbmaproblems --outputdir=./mbmaout 
 cat ./mbmaout/*.out > testmbmaproblems.out
 
