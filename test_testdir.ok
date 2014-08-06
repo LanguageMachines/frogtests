@@ -15,16 +15,16 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.11" version="0.11.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.11" version="0.11.1">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2014-05-27T13:43:54" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2014-05-27T13:43:54" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2014-05-27T13:43:54" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2014-05-27T13:43:54" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2014-05-27T13:43:54" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2014-05-27T13:43:54" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2014-05-27T13:43:54" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2014-08-06T16:59:12" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="frog.text">
@@ -129,20 +129,20 @@
             </morpheme>
           </morphology>
         </w>
-        <chunking>
-          <chunk class="NP" confidence="0.992424">
+        <chunking xml:id="frog.p.1.s.1.chunking.1">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="0.992424">
             <wref id="frog.p.1.s.1.w.1" t="Dit"/>
           </chunk>
-          <chunk class="VP" confidence="0.972459">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.2" class="VP" confidence="0.972459">
             <wref id="frog.p.1.s.1.w.2" t="is"/>
           </chunk>
-          <chunk class="NP" confidence="0.720653">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.3" class="NP" confidence="0.720653">
             <wref id="frog.p.1.s.1.w.3" t="de"/>
             <wref id="frog.p.1.s.1.w.4" t="eerste"/>
             <wref id="frog.p.1.s.1.w.5" t="testfile"/>
           </chunk>
         </chunking>
-        <entities/>
+        <entities xml:id="frog.p.1.s.1.entities.1"/>
       </s>
     </p>
   </text>
@@ -150,16 +150,16 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.11" version="0.11.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v0.11" version="0.11.1">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2014-05-27T13:43:55" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2014-05-27T13:43:55" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2014-05-27T13:43:55" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2014-05-27T13:43:55" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2014-05-27T13:43:55" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2014-05-27T13:43:55" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2014-05-27T13:43:55" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2014-08-06T16:59:12" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2014-08-06T16:59:12" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="frog.text">
@@ -273,23 +273,23 @@
             </morpheme>
           </morphology>
         </w>
-        <chunking>
-          <chunk class="PP" confidence="0.984615">
+        <chunking xml:id="frog.p.1.s.1.chunking.1">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.1" class="PP" confidence="0.984615">
             <wref id="frog.p.1.s.1.w.1" t="En"/>
           </chunk>
-          <chunk class="NP" confidence="0.954545">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.2" class="NP" confidence="0.954545">
             <wref id="frog.p.1.s.1.w.2" t="dit"/>
           </chunk>
-          <chunk class="VP" confidence="0.972459">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.3" class="VP" confidence="0.972459">
             <wref id="frog.p.1.s.1.w.3" t="is"/>
           </chunk>
-          <chunk class="NP" confidence="0.816831">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.4" class="NP" confidence="0.816831">
             <wref id="frog.p.1.s.1.w.4" t="een"/>
             <wref id="frog.p.1.s.1.w.5" t="tweede"/>
             <wref id="frog.p.1.s.1.w.6" t="testfile"/>
           </chunk>
         </chunking>
-        <entities/>
+        <entities xml:id="frog.p.1.s.1.entities.1"/>
       </s>
     </p>
   </text>
