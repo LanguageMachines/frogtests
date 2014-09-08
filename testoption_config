@@ -3,6 +3,6 @@
 # defaults:
 #
 
-$comm --skip=p -c ./test.cfg -t testoption_n.txt -o test1.out
+$comm --skip=p -c settings/test.cfg -t testoption_n.txt -o test1.out
 
 cat test1.out  > testoption_config.out
