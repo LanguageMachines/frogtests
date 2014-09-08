@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm --skip=p --config=./test.cfg -t testoption_n.txt -o test1.out
+
+cat test1.out  > testoption_config.out

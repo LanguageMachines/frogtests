@@ -10,11 +10,10 @@ then echo "frog_bin not set";
 fi
 
 for file in teststandard testencoding testunits testslash testapostroph \
-    	    testapostroph2 \
+    	    testapostroph2 testoption_config \
     	    testoption_n testnormalize testquotes testinternet testsmiley \
     	    testparser testskipt testskipt2 testserver testserver-n \
 	    test_testdir testxmlin testserverxml testmbma testmblem \
 	    testmblemproblems testmbmaproblems #testtaggerproblems
 do ./testone $file
 done
-
