@@ -77,14 +77,14 @@ READY
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.11" version="0.8">
   <metadata type="imdi">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2014-08-06T16:59:52" set="tokconfig-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2014-09-16T10:23:29" set="tokconfig-nl"/>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -102,12 +102,12 @@ READY
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -116,12 +116,12 @@ READY
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn"/>
             <morphology>
               <morpheme>
                 <t offset="0">zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
             <t>een</t>
@@ -130,12 +130,12 @@ READY
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
+            <lemma class="een"/>
             <morphology>
               <morpheme>
                 <t offset="0">een</t>
               </morpheme>
             </morphology>
-            <lemma class="een"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD">
             <t>test</t>
@@ -146,36 +146,36 @@ READY
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t offset="0">test</t>
               </morpheme>
             </morphology>
-            <lemma class="test"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD">
             <t>van</t>
             <pos class="VZ(init)" confidence="0.95931" head="VZ">
               <feat class="init" subset="vztype"/>
             </pos>
+            <lemma class="van"/>
             <morphology>
               <morpheme>
                 <t offset="0">van</t>
               </morpheme>
             </morphology>
-            <lemma class="van"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>FoLia</t>
             <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
+            <lemma class="FoLia"/>
             <morphology>
               <morpheme>
                 <t offset="0">FoLia</t>
               </morpheme>
             </morphology>
-            <lemma class="FoLia"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" space="no">
             <t>input</t>
@@ -186,22 +186,22 @@ READY
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="input"/>
             <morphology>
               <morpheme>
                 <t offset="0">input</t>
               </morpheme>
             </morphology>
-            <lemma class="input"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="PUNCTUATION">
             <t>?</t>
             <pos class="LET()" confidence="1" head="LET"/>
+            <lemma class="?"/>
             <morphology>
               <morpheme>
                 <t offset="0">?</t>
               </morpheme>
             </morphology>
-            <lemma class="?"/>
           </w>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="0.992424">
@@ -233,7 +233,6 @@ READY
   </text>
 </FoLiA>
 
-
 READY
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="WR-P-E-J-0000000001" version="0.8" generator="libfolia-v0.4">
@@ -257,14 +256,14 @@ READY
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v0.11" version="0.8">
   <metadata type="imdi">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2014-08-06T16:59:52" set="tokconfig-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2014-09-16T10:23:29" set="tokconfig-nl"/>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2014-08-06T16:59:52" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2014-09-16T10:23:29" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -282,12 +281,12 @@ READY
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t offset="0">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -296,12 +295,12 @@ READY
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn"/>
             <morphology>
               <morpheme>
                 <t offset="0">zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
             <t>een</t>
@@ -310,12 +309,12 @@ READY
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
+            <lemma class="een"/>
             <morphology>
               <morpheme>
                 <t offset="0">een</t>
               </morpheme>
             </morphology>
-            <lemma class="een"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD">
             <t>andere</t>
@@ -325,6 +324,7 @@ READY
               <feat class="met-e" subset="buiging"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="ander"/>
             <morphology>
               <morpheme>
                 <t offset="0">ander</t>
@@ -333,7 +333,6 @@ READY
                 <t offset="5">e</t>
               </morpheme>
             </morphology>
-            <lemma class="ander"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD">
             <t>test</t>
@@ -344,36 +343,36 @@ READY
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t offset="0">test</t>
               </morpheme>
             </morphology>
-            <lemma class="test"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>van</t>
             <pos class="VZ(init)" confidence="0.95931" head="VZ">
               <feat class="init" subset="vztype"/>
             </pos>
+            <lemma class="van"/>
             <morphology>
               <morpheme>
                 <t offset="0">van</t>
               </morpheme>
             </morphology>
-            <lemma class="van"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD">
             <t>FoLia</t>
             <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
+            <lemma class="FoLia"/>
             <morphology>
               <morpheme>
                 <t offset="0">FoLia</t>
               </morpheme>
             </morphology>
-            <lemma class="FoLia"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no">
             <t>input</t>
@@ -384,22 +383,22 @@ READY
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="input"/>
             <morphology>
               <morpheme>
                 <t offset="0">input</t>
               </morpheme>
             </morphology>
-            <lemma class="input"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
             <t>?</t>
             <pos class="LET()" confidence="1" head="LET"/>
+            <lemma class="?"/>
             <morphology>
               <morpheme>
                 <t offset="0">?</t>
               </morpheme>
             </morphology>
-            <lemma class="?"/>
           </w>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="0.992424">
@@ -431,6 +430,5 @@ READY
     </div>
   </text>
 </FoLiA>
-
 
 READY
