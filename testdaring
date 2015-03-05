@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+rm ./mbmaout/*
+
+$comm -t ./mbmaproblems/bons --daring -X bons.xml --KANON > testdaring.out
+cat bons.xml >> testdaring.out
+$comm -t ./mbmaproblems/torture --daring -X torture.xml --KANON >> testdaring.out
+cat torture.xml >> testdaring.out
