@@ -3,6 +3,6 @@
 # defaults:
 #
 
-$comm --skip=p -c settings/test.cfg -t teststandard.txt -o test1.out
+$comm --skip=p -c settings/testner.cfg -t testner.txt -o test1.out
 
 cat test1.out  > testnerknown.out
