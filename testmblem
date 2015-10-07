@@ -6,4 +6,4 @@
 rm ./mblemout/*
 
 $mblem -t ./mblemproblems/open > testmblem.out
-$mblem -t ./mblemproblems/open -a >> testmblem.out
+$mblem -t ./mblemproblems/open --notagger >> testmblem.out
