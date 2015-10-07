@@ -898,7 +898,7 @@
 2	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.989247	O	B-NP	3	det
 3	wenkbrauwen	wenkbrauw	[wenkbrauw][en]	N(soort,mv,basis)	0.995489	O	I-NP	1	obj1
 4	maar	maar	[maar]	BW()	0.982143	O	B-CONJP	6	mod
-5	lekker	lekker	[lekker]	ADJ(vrij,basis,zonder)	0.940391	O	B-ADJP	6	mod
+5	lekker	lekker	[lek][er]	ADJ(vrij,basis,zonder)	0.940391	O	B-ADJP	6	mod
 6	woekeren	woekeren	[woeker][en]	WW(inf,vrij,zonder)	0.994048	O	B-VP	1	vc
 7	,	,	[,]	LET()	1.000000	O	O	6	punct
 8	net	net	[net]	BW()	0.993174	O	B-ADVP	9	mod
@@ -1645,7 +1645,7 @@
 11	.	.	[.]	LET()	1.000000	O	O	10	punct
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
-2	gaat	gaan	[gaat]	WW(pv,tgw,met-t)	0.999736	O	B-VP	0	ROOT
+2	gaat	gaan	[ga][t]	WW(pv,tgw,met-t)	0.999736	O	B-VP	0	ROOT
 3	naar	naar	[naar]	VZ(init)	0.994083	O	B-PP	2	ld
 4	huis	huis	[huis]	N(soort,ev,basis,onz,stan)	0.996553	O	B-NP	3	obj1
 5	.	.	[.]	LET()	1.000000	O	O	4	punct
@@ -1719,7 +1719,7 @@
 3	met	met	[met]	VZ(init)	0.999820	O	B-PP	2	mod
 4	de	de	[de]	LID(bep,stan,rest)	0.999964	O	B-NP	5	det
 5	pet	pet	[pet]	N(soort,ev,basis,zijd,stan)	0.998836	O	I-NP	3	obj1
-6	gaat	gaan	[gaat]	WW(pv,tgw,met-t)	0.999736	O	B-VP	0	ROOT
+6	gaat	gaan	[ga][t]	WW(pv,tgw,met-t)	0.999736	O	B-VP	0	ROOT
 7	naar	naar	[naar]	VZ(init)	0.994083	O	B-PP	6	ld
 8	huis	huis	[huis]	N(soort,ev,basis,onz,stan)	0.996553	O	B-NP	7	obj1
 9	.	.	[.]	LET()	1.000000	O	O	8	punct
@@ -2159,7 +2159,7 @@
 8	gebroken	breken	[ge][breek][en]	WW(vd,prenom,zonder)	0.800000	O	I-NP	9	mod
 9	been	been	[been]	N(soort,ev,basis,onz,stan)	0.998276	O	I-NP	10	su
 10	had	hebben	[heb][d]	WW(pv,verl,ev)	0.999771	O	B-VP	6	body
-11	eerder	eerder	[eerder]	ADJ(vrij,basis,zonder)	0.500000	O	B-ADVP	12	mod
+11	eerder	eerder	[eer][er]	ADJ(vrij,basis,zonder)	0.500000	O	B-ADVP	12	mod
 12	geholpen	helpen	[ge][help][en]	WW(vd,vrij,zonder)	0.998236	O	B-VP	13	vc
 13	werd	worden	[word]	WW(pv,verl,ev)	0.999799	O	I-VP	3	body
 14	dan	dan	[dan]	BW()	0.647727	O	B-PP	16	mod
@@ -2351,7 +2351,7 @@
 5	kleren	kleed	[kleed][en]	N(soort,mv,basis)	0.997840	O	I-NP	3	obj1
 6	naar	naar	[naar]	VZ(init)	0.998814	O	B-PP	5	mod
 7	school	school	[school]	N(soort,ev,basis,zijd,stan)	0.997492	O	B-NP	6	obj1
-8	gaat	gaan	[gaat]	WW(pv,tgw,met-t)	0.999736	O	B-VP	1	body
+8	gaat	gaan	[ga][t]	WW(pv,tgw,met-t)	0.999736	O	B-VP	1	body
 9	,	,	[,]	LET()	1.000000	O	O	8	punct
 10	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
 11	raar	raar	[raar]	ADJ(vrij,basis,zonder)	0.996068	O	B-ADJP	10	predc
@@ -2586,7 +2586,7 @@
 8	gebroken	breken	[ge][breek][en]	WW(vd,prenom,zonder)	0.800000	O	I-NP	9	mod
 9	been	been	[been]	N(soort,ev,basis,onz,stan)	0.998276	O	I-NP	10	su
 10	had	hebben	[heb][d]	WW(pv,verl,ev)	0.999771	O	B-VP	6	body
-11	eerder	eerder	[eerder]	ADJ(vrij,basis,zonder)	0.500000	O	B-ADVP	12	mod
+11	eerder	eerder	[eer][er]	ADJ(vrij,basis,zonder)	0.500000	O	B-ADVP	12	mod
 12	geholpen	helpen	[ge][help][en]	WW(vd,vrij,zonder)	0.998236	O	B-VP	13	vc
 13	werd	worden	[word]	WW(pv,verl,ev)	0.999799	O	I-VP	3	body
 14	dan	dan	[dan]	BW()	0.647727	O	B-PP	16	mod
