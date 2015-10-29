@@ -10,14 +10,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v0.13" version="0.12.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-07-06T13:54:18" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-07-06T13:54:18" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-07-06T13:54:18" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-07-06T13:54:18" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-07-06T13:54:18" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-07-06T13:54:18" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-07-06T13:54:18" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-07-06T13:54:18" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-10-27T13:57:10" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-10-27T13:57:10" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-10-27T13:57:10" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-10-27T13:57:10" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-10-27T13:57:10" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-10-27T13:57:10" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-10-27T13:57:10" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-10-27T13:57:10" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -421,7 +421,7 @@
 3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	cnj
 4	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.991803	O	B-VP	0	ROOT
 5	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
-6	expediënten	expediënt	[[[expedieer][nt]][en]]	N(soort,mv,basis)	0.635838	O	I-NP	4	su
+6	expediënten	expediënt	[[expedieer][ent][en]]	N(soort,mv,basis)	0.635838	O	I-NP	4	su
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -429,14 +429,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v0.13" version="0.12.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-07-06T13:54:22" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-07-06T13:54:22" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-07-06T13:54:22" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-07-06T13:54:22" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-07-06T13:54:22" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-07-06T13:54:22" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-07-06T13:54:22" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-07-06T13:54:22" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-10-27T13:57:13" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-10-27T13:57:13" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-10-27T13:57:13" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-10-27T13:57:13" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-10-27T13:57:13" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-10-27T13:57:13" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-10-27T13:57:13" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-10-27T13:57:13" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -6561,27 +6561,21 @@
           <lemma class="expediënt"/>
           <morphology>
             <morpheme class="complex">
-              <t offset="0">expedieernten</t>
+              <t offset="0">expedieerenten</t>
               <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <morpheme class="complex">
-                <t offset="0">expedieernt</t>
+              <morpheme class="stem">
+                <t offset="0">expedieer</t>
                 <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-                <morpheme class="stem">
-                  <t offset="0">expedieer</t>
-                  <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-                </morpheme>
-                <morpheme class="derivational">
-                  <t offset="9">nt</t>
-                  <pos class="N_V*" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-                  <feat class="[nt]" subset="structure"/>
-                </morpheme>
-                <feat class="[[expedieer][nt]]" subset="structure"/>
               </morpheme>
               <morpheme class="affix">
-                <t offset="11">en</t>
+                <t offset="9">ent</t>
+                <feat class="singular" subset="inflection"/>
+              </morpheme>
+              <morpheme class="affix">
+                <t offset="12">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[expedieer][nt]][en]]" subset="structure"/>
+              <feat class="[[expedieer][ent][en]]" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6931,14 +6925,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v0.13" version="0.12.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-07-06T13:54:26" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-07-06T13:54:26" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-07-06T13:54:26" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-07-06T13:54:26" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-07-06T13:54:26" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-07-06T13:54:26" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-07-06T13:54:26" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-07-06T13:54:26" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-10-27T13:57:17" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-10-27T13:57:17" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-10-27T13:57:17" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-10-27T13:57:17" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-10-27T13:57:17" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-10-27T13:57:17" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-10-27T13:57:17" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-10-27T13:57:17" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
