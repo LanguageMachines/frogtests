@@ -1,8 +1,8 @@
 1	We	we	[we]O	VNW(pers,pron,nomin,red,1,mv)	0.997215	O	B-NP	2	su
-2	bonzen	bons	[[bonze]N[n]]N	N(soort,mv,basis)	0.666667	O	I-NP	0	ROOT
+2	bonzen	bons	[[bonze]N[n]plural]N	N(soort,mv,basis)	0.666667	O	I-NP	0	ROOT
 3	op	op	[op]P	VZ(init)	0.996568	O	B-PP	2	mod
 4	de	de	[de]D	LID(bep,stan,rest)	0.999964	O	B-NP	5	det
-5	deur	deur	[deur]N	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	3	obj1
+5	deur	deur	[deur]N/singular	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	3	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -10,14 +10,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v0.13" version="0.12.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-09T12:36:53" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-09T12:36:53" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-09T12:36:53" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-09T12:36:53" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-09T12:36:53" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-09T12:36:53" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-09T12:36:53" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-09T12:36:53" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-12T12:07:33" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-12T12:07:33" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-12T12:07:33" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-12T12:07:33" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-12T12:07:33" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-12T12:07:33" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-12T12:07:33" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-12T12:07:33" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -69,7 +69,7 @@
                 <t offset="5">n</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[bonze]N[n]]N" subset="structure"/>
+              <feat class="[[bonze]N[n]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.1.s.1.w.2.alt-lem.1" auth="no">
@@ -88,7 +88,7 @@
                   <t offset="4">en</t>
                   <feat class="plural" subset="inflection"/>
                 </morpheme>
-                <feat class="[[bons]N[en]]N" subset="structure"/>
+                <feat class="[[bons]N[en]plural]N" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -152,7 +152,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[deur]N" subset="structure"/>
+              <feat class="[deur]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -229,199 +229,199 @@
 </FoLiA>
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	3	det
-2	aftaaiende	aftaaien	[[aftaai]V[end][e]]V	WW(od,prenom,met-e)	0.772507	O	I-NP	3	mod
-3	abituriënten	abituriënt	[[[abituriënt]N[e]]N[n]]N	N(soort,mv,basis)	1.000000	O	I-NP	4	su
-4	bakkeleien	bakkeleien	[[bakkelei]V[en]]V	WW(pv,tgw,mv)	0.900000	O	B-VP	0	ROOT
+2	aftaaiende	aftaaien	[[aftaai]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.772507	O	I-NP	3	mod
+3	abituriënten	abituriënt	[[[abituriënt]N[e]]N[n]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	4	su
+4	bakkeleien	bakkeleien	[[bakkelei]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.900000	O	B-VP	0	ROOT
 5	over	over	[over]P	VZ(init)	0.999393	O	B-PP	4	mod
 6	het	het	[het]D	LID(bep,stan,evon)	0.702075	O	B-NP	7	det
-7	aspiratieniveau	aspiratieniveau	[[[aspireer]V[atie]]N[niveau]N]N	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP	5	obj1
+7	aspiratieniveau	aspiratieniveau	[[[aspireer]V[atie]]N[niveau]N/singular]N	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP	5	obj1
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
 1	Ze	ze	[ze]O	VNW(pers,pron,stan,red,3,mv)	0.999366	O	B-NP	2	su
-2	leiden	leiden	[[leid]V[en]]V	WW(pv,tgw,mv)	0.857143	O	B-VP	0	ROOT
+2	leiden	leiden	[[leid]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.857143	O	B-VP	0	ROOT
 3	aan	aan	[aan]P	VZ(init)	0.745129	O	B-PP	2	pc
-4	bacteriënvrees	bacteriënvrees	[[bacterie]N[en][vrees]N]N	N(soort,mv,basis)	0.646080	O	B-NP	3	obj1
+4	bacteriënvrees	bacteriënvrees	[[bacterie]N[en]plural[vrees]N/singular]N	N(soort,mv,basis)	0.646080	O	B-NP	3	obj1
 5	vanwege	vanwege	[vanwege]	VZ(init)	0.999078	O	B-PP	4	mod
 6	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	7	det
-7	bediendenbelastingen	bediendenbelasting	[[[bediende]N[n][[[be][last]N]V[ing]]N]N[en]]N	N(soort,mv,basis)	0.903723	O	I-NP	5	obj1
+7	bediendenbelastingen	bediendenbelasting	[[[bediende]N[n][[[be][last]N]V[ing]]N]N[en]plural]N	N(soort,mv,basis)	0.903723	O	I-NP	5	obj1
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	2	det
-2	bedieningsmachinisten	bedieningsmachinist	[[[[[be][dien]V]V[ing]]N[s][[machine]N[ist]]N]N[en]]N	N(soort,mv,basis)	1.000000	O	I-NP	3	su
-3	zitten	zitten	[[zit]V[en]]V	WW(pv,tgw,mv)	0.857143	O	B-VP	0	ROOT
+2	bedieningsmachinisten	bedieningsmachinist	[[[[[be][dien]V]V[ing]]N[s][[machine]N[ist]]N]N[en]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	3	su
+3	zitten	zitten	[[zit]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.857143	O	B-VP	0	ROOT
 4	achter	achter	[achter]P	VZ(init)	0.997587	O	B-PP	3	ld
 5	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
-6	bedieningspanelen	bedieningspaneel	[[[[[be][dien]V]V[ing]]N[s][paneel]N]N[en]]N	N(soort,mv,basis)	1.000000	O	I-NP	4	obj1
+6	bedieningspanelen	bedieningspaneel	[[[[[be][dien]V]V[ing]]N[s][paneel]N]N[en]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	4	obj1
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	2	det
 2	beoliënde	beoliënde	[beoliënde]	N(soort,ev,basis,zijd,stan)	0.337832	O	I-NP	3	cnj
 3	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	0	ROOT
 4	betraliënde	betraliënde	[betraliënde]	ADJ(prenom,basis,met-e,stan)	0.591576	O	B-NP	5	mod
-5	bezienswaardigheden	bezienswaardigheid	[[[be][zie]V]V[ns][[[waarde]N[ig]]A[heid]]N[en]]N	N(soort,mv,basis)	0.999588	O	I-NP	3	cnj
+5	bezienswaardigheden	bezienswaardigheid	[[[be][zie]V]V[ns][[[waarde]N[ig]]A[heid]]N[en]plural]N	N(soort,mv,basis)	0.999588	O	I-NP	3	cnj
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	2	det
 2	braniënde	braniënde	[braniënde]	N(soort,ev,basis,zijd,stan)	0.433178	O	I-NP	4	obj1
-3	buspatiënten	buspatiënt	[[[bus]N[patiënt]N]N[en]]N	N(soort,mv,basis)	0.667235	O	I-NP	2	mod
+3	buspatiënten	buspatiënt	[[[bus]N[patiënt]N]N[en]plural]N	N(soort,mv,basis)	0.667235	O	I-NP	2	mod
 4	gebruiken	gebruiken	[gebruiken]	WW(inf,vrij,zonder)	0.782340	O	B-VP	0	ROOT
-5	catechumenenolie	catechumenenolie	[[catechumeen]N[en][olie]N]N	N(soort,ev,basis,zijd,stan)	1.000000	O	B-NP	4	obj1
+5	catechumenenolie	catechumenenolie	[[catechumeen]N[en][olie]N]N/singular	N(soort,ev,basis,zijd,stan)	1.000000	O	B-NP	4	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Ik	ik	[ik]O	VNW(pers,pron,nomin,vol,1,ev)	0.999688	O	B-NP	0	ROOT
 2	dien	die	[dien]	VNW(aanw,det,dial)	0.653768	O	B-PP	4	det
 3	de	de	[de]D	LID(bep,stan,rest)	0.999852	O	B-NP	4	det
-4	dienaressen	dienares	[[[[dien]V[aar]]N[es]]N[en]]N	N(soort,mv,basis)	0.998726	O	I-NP	0	ROOT
+4	dienaressen	dienares	[[[[dien]V[aar]]N[es]]N[en]plural]N	N(soort,mv,basis)	0.998726	O	I-NP	0	ROOT
 5	in	in	[in]P	VZ(init)	0.931125	O	B-PP	4	mod
 6	hun	hun	[hun]O	VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)	0.918501	O	B-NP	7	det
-7	dienstbodenkamertje	dienstbodenkamer	[[[dien]V[st]]N[[bode]N[n][kamer]N]N[tje]]N	N(soort,ev,dim,onz,stan)	0.999323	O	I-NP	5	obj1
+7	dienstbodenkamertje	dienstbodenkamer	[[[dien]V[st]]N[[bode]N[n][kamer]N]N[tje]diminutive/singular]N	N(soort,ev,dim,onz,stan)	0.999323	O	I-NP	5	obj1
 8	een	een	[een]D	LID(onbep,stan,agr)	0.995147	O	B-NP	9	det
-9	dienstverleningsaanbod	dienstverleningsaanbod	[[[[dien]V[st]]N[[ver][leen]V]V[ing]]N[s][aanbod]N]N	N(soort,ev,basis,onz,stan)	0.936065	O	I-NP	10	None
+9	dienstverleningsaanbod	dienstverleningsaanbod	[[[[dien]V[st]]N[[ver][leen]V]V[ing]]N[s][aanbod]N]N/singular	N(soort,ev,basis,onz,stan)	0.936065	O	I-NP	10	None
 10	toe	toe	[toe]P	VZ(fin)	0.998680	O	O	7	mod
 11	.	.	[.]	LET()	1.000000	O	O	10	punct
 
 1	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	2	det
-2	differentiaalquotiënten	differentiaalquotiënt	[[[[different]A[ie]]N[aal]]N[quotiënt]N[en]]N	N(soort,mv,basis)	1.000000	O	I-NP	3	su
-3	werden	worden	[[word]V[en]]V	WW(pv,verl,mv)	0.997831	O	B-VP	0	ROOT
+2	differentiaalquotiënten	differentiaalquotiënt	[[[[different]A[ie]]N[aal]]N[quotiënt]N[en]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	3	su
+3	werden	worden	[[word]V[en]past_tense/plural]V	WW(pv,verl,mv)	0.997831	O	B-VP	0	ROOT
 4	in	in	[in]P	VZ(init)	0.931125	O	B-PP	11	mod
-5	estafettendiensten	estafettendienst	[[[estafette]N[n][[dien]V[st]]N]N[en]]N	N(soort,mv,basis)	0.942253	O	B-NP	4	obj1
+5	estafettendiensten	estafettendienst	[[[estafette]N[n][[dien]V[st]]N]N[en]plural]N	N(soort,mv,basis)	0.942253	O	B-NP	4	obj1
 6	met	met	[met]P	VZ(init)	0.999480	O	B-PP	5	mod
-7	evangeliënharmonieën	evangeliënharmonie	[[[evangelie]N[en][[harmon]A[ie]]N]N[en]]N	N(soort,mv,basis)	1.000000	O	B-NP	8	cnj
+7	evangeliënharmonieën	evangeliënharmonie	[[[evangelie]N[en][[harmon]A[ie]]N]N[en]plural]N	N(soort,mv,basis)	1.000000	O	B-NP	8	cnj
 8	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	6	obj1
-9	flikflooiende	flikflooien	[[flikflooi]V[end][e]]V	WW(od,prenom,met-e)	0.587127	O	B-NP	10	mod
-10	zeloten	zeloot	[[zeloot]N[en]]N	N(soort,mv,basis)	1.000000	O	I-NP	8	cnj
-11	afgeleverd	afleveren	[[af]P[ge][lever]V[d]]V	WW(vd,vrij,zonder)	0.998385	O	B-VP	3	vc
+9	flikflooiende	flikflooien	[[flikflooi]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.587127	O	B-NP	10	mod
+10	zeloten	zeloot	[[zeloot]N[en]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	8	cnj
+11	afgeleverd	afleveren	[[af]P[ge]participle/past_tense[lever]V[d]participle/past_tense]V	WW(vd,vrij,zonder)	0.998385	O	B-VP	3	vc
 12	bij	bij	[bij]P	VZ(init)	0.998628	O	B-PP	11	mod
 13	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	14	det
-14	herendienst	herendienst	[[heer]N[en][[dien]V[st]]N]N	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	12	obj1
+14	herendienst	herendienst	[[heer]N[en][[dien]V[st]]N]N/singular	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	12	obj1
 15	.	.	[.]	LET()	1.000000	O	O	14	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	2	det
-2	kandidatentoernooien	kandidatentoernooi	[[[[kandideer]V[at]]N[en][toernooi]N]N[en]]N	N(soort,mv,basis)	1.000000	O	I-NP	0	ROOT
+2	kandidatentoernooien	kandidatentoernooi	[[[[kandideer]V[at]]N[en][toernooi]N]N[en]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	0	ROOT
 3	in	in	[in]P	VZ(init)	0.998814	O	B-PP	2	mod
 4	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	5	det
 5	keiengroeven	keiengroef	[[kei]N[en][groeven]N]N	N(soort,mv,basis)	1.000000	O	I-NP	3	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	2	det
-2	klaspatienten	klaspatient	[[[klas]N[patient]N]N[en]]N	N(soort,mv,basis)	0.790409	O	I-NP	3	su
-3	laveien	laveien	[[lavei]V[en]]V	WW(pv,tgw,mv)	0.379537	O	B-VP	0	ROOT
+2	klaspatienten	klaspatient	[[[klas]N[patient]N]N[en]plural]N	N(soort,mv,basis)	0.790409	O	I-NP	3	su
+3	laveien	laveien	[[lavei]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.379537	O	B-VP	0	ROOT
 4	door	door	[door]P	VZ(init)	0.856675	O	B-PP	3	mod
 5	het	het	[het]D	LID(bep,stan,evon)	0.702075	O	B-NP	6	det
-6	leliënbed	leliënbed	[[lelie]N[en][bed]N]N	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP	4	obj1
+6	leliënbed	leliënbed	[[lelie]N[en][bed]N]N/singular	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP	4	obj1
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
-1	Zenuwpatiënten	zenuwpatiënt	[[[zenuw]N[patiënt]N]N[en]]N	N(soort,mv,basis)	1.000000	O	B-ADVP	2	su
-2	lagen	liggen	[[lig]V[en]]V	WW(pv,verl,mv)	0.689655	O	B-VP	0	ROOT
+1	Zenuwpatiënten	zenuwpatiënt	[[[zenuw]N[patiënt]N]N[en]plural]N	N(soort,mv,basis)	1.000000	O	B-ADVP	2	su
+2	lagen	liggen	[[lig]V[en]infinitive]V	WW(pv,verl,mv)	0.689655	O	B-VP	0	ROOT
 3	in	in	[in]P	VZ(init)	0.998790	O	B-PP	2	ld
 4	een	een	[een]D	LID(onbep,stan,agr)	0.995147	O	B-NP	5	det
-5	zeswekendienst	zeswekendienst	[[zes]Q[week]N[en][[dien]V[st]]N]N	N(soort,ev,basis,zijd,stan)	0.809922	O	I-NP	3	obj1
+5	zeswekendienst	zeswekendienst	[[zes]Q[week]N[en][[dien]V[st]]N]N/singular	N(soort,ev,basis,zijd,stan)	0.809922	O	I-NP	3	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
-1	Ziekenfondspatiënten	ziekenfondspatiënt	[[[zieke]N[n][[fonds]N[patiënt]N]N]N[en]]N	N(soort,mv,basis)	1.000000	O	B-ADJP	2	su
-2	draaiden	draaien	[[draai]V[den]]V	WW(pv,verl,mv)	0.993311	O	B-VP	0	ROOT
+1	Ziekenfondspatiënten	ziekenfondspatiënt	[[[zieke]N[n][[fonds]N[patiënt]N]N]N[en]plural]N	N(soort,mv,basis)	1.000000	O	B-ADJP	2	su
+2	draaiden	draaien	[[draai]V[den]past_tense/plural]V	WW(pv,verl,mv)	0.993311	O	B-VP	0	ROOT
 3	een	een	[een]D	LID(onbep,stan,agr)	0.995147	O	B-NP	4	det
-4	ziekenhuisdienst	ziekenhuisdienst	[[[zieke]N[n][huis]N]N[[dien]V[st]]N]N	N(soort,ev,basis,zijd,stan)	0.910688	O	I-NP	2	obj1
+4	ziekenhuisdienst	ziekenhuisdienst	[[[zieke]N[n][huis]N]N[[dien]V[st]]N/singular]N	N(soort,ev,basis,zijd,stan)	0.910688	O	I-NP	2	obj1
 5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
 1	Een	een	[een]D	LID(onbep,stan,agr)	0.981771	O	B-NP	3	det
-2	neuriënde	neuriën	[[neurie]V[end][e]]V	WW(od,prenom,met-e)	0.608528	O	I-NP	3	mod
-3	ziekenhuisvoorziening	ziekenhuisvoorziening	[[[zieke]N[n][huis]N]N[voor]B[[zie]V[ing]]N]N	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	0	ROOT
+2	neuriënde	neuriën	[[neurie]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.608528	O	I-NP	3	mod
+3	ziekenhuisvoorziening	ziekenhuisvoorziening	[[[zieke]N[n][huis]N]N[voor]B[[zie]V[ing]]N/singular]N	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	0	ROOT
 4	.	.	[.]	LET()	1.000000	O	O	3	punct
 
 1	Alles	alles	[alles]	VNW(onbep,pron,stan,vol,3o,ev)	0.994808	O	B-NP	2	su
-2	overziende	overziende	[[over]P[zie]V[nd][e]]V	WW(pv,verl,ev)	0.951936	O	I-NP	0	ROOT
-3	zijn	zijn	[zijn]V	WW(inf,vrij,zonder)	0.666667	O	B-VP	2	vc
+2	overziende	overziende	[[over]P[zie]V[nd]participle/present_tense[e]suffix-e]V	WW(pv,verl,ev)	0.951936	O	I-NP	0	ROOT
+3	zijn	zijn	[zijn]V/infinitive	WW(inf,vrij,zonder)	0.666667	O	B-VP	2	vc
 4	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
-5	pagaaiende	pagaaien	[[pagaai]V[end][e]]V	WW(od,prenom,met-e)	0.768520	O	I-NP	6	mod
-6	patiënten	patiënt	[[patiënt]N[en]]N	N(soort,mv,basis)	0.998020	O	I-NP	7	obj1
-7	pierenwaaiende	pierenwaaiende	[[pier]N[en][waai]V[end][e]]V	WW(pv,verl,ev)	1.000000	O	B-VP	0	ROOT
+5	pagaaiende	pagaaien	[[pagaai]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.768520	O	I-NP	6	mod
+6	patiënten	patiënt	[[patiënt]N[en]plural]N	N(soort,mv,basis)	0.998020	O	I-NP	7	obj1
+7	pierenwaaiende	pierenwaaiende	[[pier]N[en][waai]V[end]participle/present_tense[e]suffix-e]V	WW(pv,verl,ev)	1.000000	O	B-VP	0	ROOT
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
 1	Of	of	[of]	VG(neven)	0.900891	O	B-PP	0	ROOT
-2	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.991297	O	B-NP	1	body
+2	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.991297	O	B-NP	1	body
 3	ze	ze	[ze]O	VNW(pers,pron,stan,red,3,mv)	0.670897	O	B-NP	2	su
-4	papegaaiende	papegaaiende	[[papegaai]V[end][e]]V	WW(pv,verl,ev)	0.784774	O	B-VP	2	mod
+4	papegaaiende	papegaaiende	[[papegaai]V[end]participle/present_tense[e]suffix-e]V	WW(pv,verl,ev)	0.784774	O	B-VP	2	mod
 5	?	?	[?]	LET()	1.000000	O	O	4	punct
 
 1	Een	een	[een]D	LID(onbep,stan,agr)	0.981771	O	B-NP	3	det
-2	psychohygiënische	psychohygiënisch	[[psycho][[hygiëne]N[isch]]A[e]]A	ADJ(prenom,basis,met-e,stan)	1.000000	O	I-NP	3	mod
-3	regeringsdienst	regeringsdienst	[[[regeer]V[ing]]N[s][[dien]V[st]]N]N	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	0	ROOT
+2	psychohygiënische	psychohygiënisch	[[psycho][[hygiëne]N[isch]]A[e]suffix-e/positive]A	ADJ(prenom,basis,met-e,stan)	1.000000	O	I-NP	3	mod
+3	regeringsdienst	regeringsdienst	[[[regeer]V[ing]]N[s][[dien]V[st]]N]N/singular	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	0	ROOT
 4	.	.	[.]	LET()	1.000000	O	O	3	punct
 
 1	Ik	ik	[ik]O	VNW(pers,pron,nomin,vol,1,ev)	0.999791	O	B-NP	2	su
-2	ben	zijn	[zijn]V	WW(pv,tgw,ev)	0.999866	O	B-VP	0	ROOT
+2	ben	zijn	[zijn]V/present_tense/singular/1st_person_verb	WW(pv,tgw,ev)	0.999866	O	B-VP	0	ROOT
 3	een	een	[een]D	LID(onbep,stan,agr)	0.999560	O	B-NP	4	det
-4	skiër	skiër	[skiër]N	N(soort,ev,basis,zijd,stan)	0.998248	O	I-NP	5	cnj
+4	skiër	skiër	[skiër]N/singular	N(soort,ev,basis,zijd,stan)	0.998248	O	I-NP	5	cnj
 5	en	en	[en]	VG(neven)	0.997774	O	B-CONJP	0	ROOT
-6	zie	zien	[zie]V	WW(pv,tgw,ev)	0.997988	O	B-VP	5	cnj
+6	zie	zien	[zie]V/present_tense/singular/2nd_person_verb/inversed	WW(pv,tgw,ev)	0.997988	O	B-VP	5	cnj
 7	al	al	[al]B	BW()	0.903830	O	B-ADVP	8	mod
-8	skiënde	skiënde	[[ski]V[end][e]]V	WW(od,vrij,zonder)	0.329545	O	B-VP	14	predc
+8	skiënde	skiënde	[[ski]V[end]participle/present_tense[e]suffix-e]V	WW(od,vrij,zonder)	0.329545	O	B-VP	14	predc
 9	een	een	[een]D	LID(onbep,stan,agr)	0.995147	O	B-NP	11	det
-10	skiënde	skiën	[[ski]V[end][e]]V	WW(od,prenom,met-e)	0.524140	O	I-NP	11	mod
-11	schaliëndekker	schaliëndekker	[[schalie]N[en][dek]V[er]]N	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	8	obj1
+10	skiënde	skiën	[[ski]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.524140	O	I-NP	11	mod
+11	schaliëndekker	schaliëndekker	[[schalie]N[en][dek]V[er]]N/singular	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	8	obj1
 12	,	,	[,]	LET()	1.000000	O	O	11	punct
 13	dat	dat	[dat]O	VNW(aanw,pron,stan,vol,3o,ev)	0.891473	O	B-NP	14	su
-14	is	zijn	[zijn]V	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
-15	verfoeienswaardig	verfoeienswaardig	[[verfoei]V[ens][[waarde]N[ig]]A]A	ADJ(vrij,basis,zonder)	1.000000	O	B-ADJP	14	predc
+14	is	zijn	[zijn]V/present_tense/singular/3rd_person_verb	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
+15	verfoeienswaardig	verfoeienswaardig	[[verfoei]V[ens][[waarde]N[ig]]A]A/positive	ADJ(vrij,basis,zonder)	1.000000	O	B-ADJP	14	predc
 16	.	.	[.]	LET()	1.000000	O	O	15	punct
 
 1	Al	al	[al]B	BW()	0.626101	O	B-ADVP	0	ROOT
-2	neuriënd	neuriën	[[neurie]V[end]]V	WW(od,vrij,zonder)	0.996736	O	B-VP	3	predc
-3	meniënde	meniënde	[[menie]V[end][e]]V	WW(pv,verl,ev)	0.725171	O	B-NP	0	ROOT
+2	neuriënd	neuriën	[[neurie]V[end]participle/present_tense]V	WW(od,vrij,zonder)	0.996736	O	B-VP	3	predc
+3	meniënde	meniënde	[[menie]V[end]participle/present_tense[e]suffix-e]V	WW(pv,verl,ev)	0.725171	O	B-NP	0	ROOT
 4	aan	aan	[aan]P	VZ(init)	0.996734	O	B-PP	3	mod
 5	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
-6	maliënkolders	maliënkolder	[[[malie]N[en][kolder]N]N[s]]N	N(soort,mv,basis)	1.000000	O	I-NP	7	cnj
+6	maliënkolders	maliënkolder	[[[malie]N[en][kolder]N]N[s]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	7	cnj
 7	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	4	obj1
-8	markeringsboeien	markeringsboei	[[[[[mark]N[eer]]V[ing]]N[s][boei]N]N[en]]N	N(soort,mv,basis)	1.000000	O	B-NP	7	cnj
-9	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.995415	O	B-VP	0	ROOT
+8	markeringsboeien	markeringsboei	[[[[[mark]N[eer]]V[ing]]N[s][boei]N]N[en]plural]N	N(soort,mv,basis)	1.000000	O	B-NP	7	cnj
+9	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.995415	O	B-VP	0	ROOT
 10	we	we	[we]O	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP	9	su
-11	milieuhygiënisch	milieuhygiënisch	[[[milieu]N[hygiëne]N]N[isch]]A	ADJ(vrij,basis,zonder)	1.000000	O	B-NP	12	mod
+11	milieuhygiënisch	milieuhygiënisch	[[[milieu]N[hygiëne]N]N[isch]]A/positive	ADJ(vrij,basis,zonder)	1.000000	O	B-NP	12	mod
 12	niet	niet	[niet]B	BW()	0.999918	O	B-ADVP	13	mod
-13	goed	goed	[goed]A	ADJ(vrij,basis,zonder)	0.990476	O	B-ADVP	14	mod
-14	bezig	bezig	[bezig]A	ADJ(vrij,basis,zonder)	0.998472	O	B-ADJP	9	predc
+13	goed	goed	[goed]A/positive	ADJ(vrij,basis,zonder)	0.990476	O	B-ADVP	14	mod
+14	bezig	bezig	[bezig]A/positive	ADJ(vrij,basis,zonder)	0.998472	O	B-ADJP	9	predc
 15	.	.	[.]	LET()	1.000000	O	O	14	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	3	det
-2	monopoliënde	monopoliën	[[monopolie]V[end][e]]V	WW(od,prenom,met-e)	0.654586	O	I-NP	3	mod
-3	oliën	olie	[[olie]N[en]]N	N(soort,mv,basis)	0.916667	O	I-NP	4	su
-4	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.597701	O	B-VP	0	ROOT
-5	onhygiënisch	onhygiënisch	[[on][[hygiëne]N[isch]]A]A	ADJ(vrij,basis,zonder)	0.909402	O	B-ADJP	4	predc
+2	monopoliënde	monopoliën	[[monopolie]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.654586	O	I-NP	3	mod
+3	oliën	olie	[[olie]N[en]plural]N	N(soort,mv,basis)	0.916667	O	I-NP	4	su
+4	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.597701	O	B-VP	0	ROOT
+5	onhygiënisch	onhygiënisch	[[on][[hygiëne]N[isch]]A/positive]A	ADJ(vrij,basis,zonder)	0.909402	O	B-ADJP	4	predc
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Wij	wij	[wij]O	VNW(pers,pron,nomin,vol,1,mv)	0.998887	O	B-NP	2	su
-2	ontmoeien	ontmoeien	[[ontmoei]V[en]]V	WW(pv,tgw,mv)	0.563713	O	B-VP	0	ROOT
+2	ontmoeien	ontmoeien	[[ontmoei]V[en]infinitive]V	WW(pv,tgw,mv)	0.563713	O	B-VP	0	ROOT
 3	ons	ons	[ons]O	VNW(pr,pron,obl,vol,1,mv)	0.979381	O	B-NP	2	se
 4	met	met	[met]P	VZ(init)	0.999820	O	B-PP	3	mod
 5	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	7	det
-6	opruiende	opruiend	[[opruiend]A[e]]A	ADJ(prenom,basis,met-e,stan)	0.875000	O	I-NP	7	mod
-7	oriëntering	oriëntering	[[[Oriënt]N[eer]]V[ing]]N	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	4	obj1
+6	opruiende	opruiend	[[opruiend]A[e]suffix-e]A	ADJ(prenom,basis,met-e,stan)	0.875000	O	I-NP	7	mod
+7	oriëntering	oriëntering	[[[Oriënt]N[eer]]V[ing]]N/singular	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	4	obj1
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
 1	We	we	[we]O	VNW(pers,pron,nomin,red,1,mv)	0.997961	O	B-NP	2	su
-2	verdienden	verdienen	[[verdien]V[den]]V	WW(pv,verl,mv)	0.998744	O	B-VP	0	ROOT
+2	verdienden	verdienen	[[verdien]V[den]past_tense/plural]V	WW(pv,verl,mv)	0.998744	O	B-VP	0	ROOT
 3	het	het	[het]O	VNW(pers,pron,stan,red,3,ev,onz)	0.917266	O	B-NP	2	obj1
 4	dat	dat	[dat]	VG(onder)	0.946787	O	B-SBAR	2	mod
 5	we	we	[we]O	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP	9	su
 6	het	het	[het]D	LID(bep,stan,evon)	0.997424	O	B-NP	7	det
-7	dak	dak	[dak]N	N(soort,ev,basis,onz,stan)	0.996804	O	I-NP	8	me
+7	dak	dak	[dak]N/singular	N(soort,ev,basis,onz,stan)	0.996804	O	I-NP	8	me
 8	verleien	verleien	[verleien]	ADJ(vrij,basis,zonder)	0.327419	O	B-VP	9	predc
-9	moesten	moeten	[[moet]V[en]]V	WW(pv,verl,mv)	0.997888	O	I-VP	4	body
+9	moesten	moeten	[[moet]V[en]past_tense/plural]V	WW(pv,verl,mv)	0.997888	O	I-VP	4	body
 10	.	.	[.]	LET()	1.000000	O	O	9	punct
 
 1	Dat	dat	[dat]O	VNW(aanw,pron,stan,vol,3o,ev)	0.868670	O	B-NP	2	obj1
-2	moesten	moeten	[[moet]V[en]]V	WW(pv,verl,mv)	0.997888	O	B-VP	0	ROOT
+2	moesten	moeten	[[moet]V[en]past_tense/plural]V	WW(pv,verl,mv)	0.997888	O	B-VP	0	ROOT
 3	we	we	[we]O	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP	2	su
 4	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	5	mod
-5	uitkienen	uitkienen	[[uitkien]V[en]]V	WW(inf,vrij,zonder)	0.972973	O	B-VP	2	vc
+5	uitkienen	uitkienen	[[uitkien]V[en]infinitive]V	WW(inf,vrij,zonder)	0.972973	O	B-VP	2	vc
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	cnj
 2	en	en	[en]	VG(neven)	0.993989	O	B-CONJP	4	su
 3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	cnj
-4	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.991803	O	B-VP	0	ROOT
+4	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.991803	O	B-VP	0	ROOT
 5	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
-6	expediënten	expediënt	[[expedieer]N[ent][en]]N	N(soort,mv,basis)	0.635838	O	I-NP	4	su
+6	expediënten	expediënt	[[expedieer]N[ent]singular[en]plural]N	N(soort,mv,basis)	0.635838	O	I-NP	4	su
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -429,14 +429,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v0.13" version="0.12.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-09T12:37:01" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-09T12:37:01" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-09T12:37:01" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-09T12:37:01" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-09T12:37:01" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-09T12:37:01" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-09T12:37:01" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-09T12:37:01" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-12T12:07:36" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-12T12:07:36" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-12T12:07:36" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-12T12:07:36" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-12T12:07:36" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-12T12:07:36" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-12T12:07:36" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-12T12:07:36" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -490,7 +490,7 @@
                 <t offset="9">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[aftaai]V[end][e]]V" subset="structure"/>
+              <feat class="[[aftaai]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -524,7 +524,7 @@
                 <t offset="12">n</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[abituriënt]N[e]]N[n]]N" subset="structure"/>
+              <feat class="[[[abituriënt]N[e]]N[n]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.1.s.1.w.3.alt-lem.1" auth="no">
@@ -543,7 +543,7 @@
                   <t offset="11">en</t>
                   <feat class="plural" subset="inflection"/>
                 </morpheme>
-                <feat class="[[abituriënt]N[en]]N" subset="structure"/>
+                <feat class="[[abituriënt]N[en]plural]N" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -569,7 +569,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[bakkelei]V[en]]V" subset="structure"/>
+              <feat class="[[bakkelei]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -648,7 +648,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[aspireer]V[atie]]N[niveau]N]N" subset="structure"/>
+              <feat class="[[[aspireer]V[atie]]N[niveau]N/singular]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -789,7 +789,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[leid]V[en]]V" subset="structure"/>
+              <feat class="[[leid]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -838,7 +838,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[bacterie]N[en][vrees]N]N" subset="structure"/>
+              <feat class="[[bacterie]N[en]plural[vrees]N/singular]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -930,7 +930,7 @@
                 <t offset="18">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[bediende]N[n][[[be][last]N]V[ing]]N]N[en]]N" subset="structure"/>
+              <feat class="[[[bediende]N[n][[[be][last]N]V[ing]]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1115,7 +1115,7 @@
                 <t offset="20">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[[[be][dien]V]V[ing]]N[s][[machine]N[ist]]N]N[en]]N" subset="structure"/>
+              <feat class="[[[[[be][dien]V]V[ing]]N[s][[machine]N[ist]]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1140,7 +1140,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[zit]V[en]]V" subset="structure"/>
+              <feat class="[[zit]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1236,7 +1236,7 @@
                 <t offset="16">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[[[be][dien]V]V[ing]]N[s][paneel]N]N[en]]N" subset="structure"/>
+              <feat class="[[[[[be][dien]V]V[ing]]N[s][paneel]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1452,7 +1452,7 @@
                 <t offset="19">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[be][zie]V]V[ns][[[waarde]N[ig]]A[heid]]N[en]]N" subset="structure"/>
+              <feat class="[[[be][zie]V]V[ns][[[waarde]N[ig]]A[heid]]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1598,7 +1598,7 @@
                 <t offset="11">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[bus]N[patiënt]N]N[en]]N" subset="structure"/>
+              <feat class="[[[bus]N[patiënt]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.5.s.1.w.3.alt-lem.1" auth="no">
@@ -1656,7 +1656,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[catechumeen]N[en][olie]N]N" subset="structure"/>
+              <feat class="[[catechumeen]N[en][olie]N]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1835,7 +1835,7 @@
                 <t offset="9">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[[dien]V[aar]]N[es]]N[en]]N" subset="structure"/>
+              <feat class="[[[[dien]V[aar]]N[es]]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.6.s.1.w.4.alt-lem.1" auth="no">
@@ -1939,7 +1939,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[dien]V[st]]N[[bode]N[n][kamer]N]N[tje]]N" subset="structure"/>
+              <feat class="[[[dien]V[st]]N[[bode]N[n][kamer]N]N[tje]diminutive/singular]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2032,7 +2032,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[[dien]V[st]]N[[ver][leen]V]V[ing]]N[s][aanbod]N]N" subset="structure"/>
+              <feat class="[[[[dien]V[st]]N[[ver][leen]V]V[ing]]N[s][aanbod]N]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2235,7 +2235,7 @@
                 <t offset="23">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[[different]A[ie]]N[aal]]N[quotiënt]N[en]]N" subset="structure"/>
+              <feat class="[[[[different]A[ie]]N[aal]]N[quotiënt]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2260,7 +2260,7 @@
                 <feat class="past_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[word]V[en]]V" subset="structure"/>
+              <feat class="[[word]V[en]past_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2326,7 +2326,7 @@
                 <t offset="16">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[estafette]N[n][[dien]V[st]]N]N[en]]N" subset="structure"/>
+              <feat class="[[[estafette]N[n][[dien]V[st]]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2392,7 +2392,7 @@
                 <t offset="19">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[evangelie]N[en][[harmon]A[ie]]N]N[en]]N" subset="structure"/>
+              <feat class="[[[evangelie]N[en][[harmon]A[ie]]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2435,7 +2435,7 @@
                 <t offset="12">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[flikflooi]V[end][e]]V" subset="structure"/>
+              <feat class="[[flikflooi]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2459,7 +2459,7 @@
                 <t offset="6">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[zeloot]N[en]]N" subset="structure"/>
+              <feat class="[[zeloot]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2493,7 +2493,7 @@
                 <feat class="participle" subset="inflection"/>
                 <feat class="past_tense" subset="inflection"/>
               </morpheme>
-              <feat class="[[af]P[ge][lever]V[d]]V" subset="structure"/>
+              <feat class="[[af]P[ge]participle/past_tense[lever]V[d]participle/past_tense]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2580,7 +2580,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[heer]N[en][[dien]V[st]]N]N" subset="structure"/>
+              <feat class="[[heer]N[en][[dien]V[st]]N]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -2818,7 +2818,7 @@
                 <t offset="21">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[[kandideer]V[at]]N[en][toernooi]N]N[en]]N" subset="structure"/>
+              <feat class="[[[[kandideer]V[at]]N[en][toernooi]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3016,7 +3016,7 @@
                 <t offset="11">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[klas]N[patient]N]N[en]]N" subset="structure"/>
+              <feat class="[[[klas]N[patient]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3041,7 +3041,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[lavei]V[en]]V" subset="structure"/>
+              <feat class="[[lavei]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3118,7 +3118,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[lelie]N[en][bed]N]N" subset="structure"/>
+              <feat class="[[lelie]N[en][bed]N]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3237,7 +3237,7 @@
                 <t offset="13">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[zenuw]N[patiënt]N]N[en]]N" subset="structure"/>
+              <feat class="[[[zenuw]N[patiënt]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.10.s.1.w.1.alt-lem.1" auth="no">
@@ -3264,7 +3264,7 @@
                 <t offset="3">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[lig]V[en]]V" subset="structure"/>
+              <feat class="[[lig]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3355,7 +3355,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[zes]Q[week]N[en][[dien]V[st]]N]N" subset="structure"/>
+              <feat class="[[zes]Q[week]N[en][[dien]V[st]]N]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3479,7 +3479,7 @@
                 <t offset="19">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[zieke]N[n][[fonds]N[patiënt]N]N]N[en]]N" subset="structure"/>
+              <feat class="[[[zieke]N[n][[fonds]N[patiënt]N]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3504,7 +3504,7 @@
                 <feat class="past_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[draai]V[den]]V" subset="structure"/>
+              <feat class="[[draai]V[den]past_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3579,7 +3579,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[zieke]N[n][huis]N]N[[dien]V[st]]N]N" subset="structure"/>
+              <feat class="[[[zieke]N[n][huis]N]N[[dien]V[st]]N/singular]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3692,7 +3692,7 @@
                 <t offset="9">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[neurie]V[end][e]]V" subset="structure"/>
+              <feat class="[[neurie]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3749,7 +3749,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[zieke]N[n][huis]N]N[voor]B[[zie]V[ing]]N]N" subset="structure"/>
+              <feat class="[[[zieke]N[n][huis]N]N[voor]B[[zie]V[ing]]N/singular]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3852,7 +3852,7 @@
                 <t offset="9">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[over]P[zie]V[nd][e]]V" subset="structure"/>
+              <feat class="[[over]P[zie]V[nd]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3875,7 +3875,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3924,7 +3924,7 @@
                 <t offset="9">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[pagaai]V[end][e]]V" subset="structure"/>
+              <feat class="[[pagaai]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -3948,7 +3948,7 @@
                 <t offset="8">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[patiënt]N[en]]N" subset="structure"/>
+              <feat class="[[patiënt]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.13.s.1.w.6.alt-lem.1" auth="no">
@@ -3989,7 +3989,7 @@
                 <t offset="13">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[pier]N[en][waai]V[end][e]]V" subset="structure"/>
+              <feat class="[[pier]N[en][waai]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4111,7 +4111,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4163,7 +4163,7 @@
                 <t offset="11">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[papegaai]V[end][e]]V" subset="structure"/>
+              <feat class="[[papegaai]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4290,7 +4290,7 @@
                 <feat class="suffix-e" subset="inflection"/>
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[psycho][[hygiëne]N[isch]]A[e]]A" subset="structure"/>
+              <feat class="[[psycho][[hygiëne]N[isch]]A[e]suffix-e/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4349,7 +4349,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[regeer]V[ing]]N[s][[dien]V[st]]N]N" subset="structure"/>
+              <feat class="[[[regeer]V[ing]]N[s][[dien]V[st]]N]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4448,7 +4448,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="1st_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/present_tense/singular/1st_person_verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4493,7 +4493,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[skiër]N" subset="structure"/>
+              <feat class="[skiër]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4533,7 +4533,7 @@
                 <feat class="2nd_person_verb" subset="inflection"/>
                 <feat class="inversed" subset="inflection"/>
               </morpheme>
-              <feat class="[zie]V" subset="structure"/>
+              <feat class="[zie]V/present_tense/singular/2nd_person_verb/inversed" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.16.s.1.w.6.alt-mor.1" auth="no">
@@ -4550,7 +4550,7 @@
                   <feat class="singular" subset="inflection"/>
                   <feat class="1st_person_verb" subset="inflection"/>
                 </morpheme>
-                <feat class="[zie]V" subset="structure"/>
+                <feat class="[zie]V/present_tense/singular/1st_person_verb" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -4596,7 +4596,7 @@
                 <t offset="6">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[ski]V[end][e]]V" subset="structure"/>
+              <feat class="[[ski]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4645,7 +4645,7 @@
                 <t offset="6">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[ski]V[end][e]]V" subset="structure"/>
+              <feat class="[[ski]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4689,7 +4689,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[schalie]N[en][dek]V[er]]N" subset="structure"/>
+              <feat class="[[schalie]N[en][dek]V[er]]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4749,7 +4749,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="3rd_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/present_tense/singular/3rd_person_verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4796,7 +4796,7 @@
               <morpheme class="inflection">
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[verfoei]V[ens][[waarde]N[ig]]A]A" subset="structure"/>
+              <feat class="[[verfoei]V[ens][[waarde]N[ig]]A]A/positive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -4999,7 +4999,7 @@
                 <feat class="participle" subset="inflection"/>
                 <feat class="present_tense" subset="inflection"/>
               </morpheme>
-              <feat class="[[neurie]V[end]]V" subset="structure"/>
+              <feat class="[[neurie]V[end]participle/present_tense]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5028,7 +5028,7 @@
                 <t offset="8">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[menie]V[end][e]]V" subset="structure"/>
+              <feat class="[[menie]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5104,7 +5104,7 @@
                 <t offset="13">s</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[malie]N[en][kolder]N]N[s]]N" subset="structure"/>
+              <feat class="[[[malie]N[en][kolder]N]N[s]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5176,7 +5176,7 @@
                 <t offset="15">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[[[mark]N[eer]]V[ing]]N[s][boei]N]N[en]]N" subset="structure"/>
+              <feat class="[[[[[mark]N[eer]]V[ing]]N[s][boei]N]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5199,7 +5199,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5266,7 +5266,7 @@
               <morpheme class="inflection">
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[[milieu]N[hygiëne]N]N[isch]]A" subset="structure"/>
+              <feat class="[[[milieu]N[hygiëne]N]N[isch]]A/positive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5305,7 +5305,7 @@
               <morpheme class="inflection">
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[goed]A" subset="structure"/>
+              <feat class="[goed]A/positive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5328,7 +5328,7 @@
               <morpheme class="inflection">
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[bezig]A" subset="structure"/>
+              <feat class="[bezig]A/positive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5535,7 +5535,7 @@
                 <t offset="12">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[monopolie]V[end][e]]V" subset="structure"/>
+              <feat class="[[monopolie]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5559,7 +5559,7 @@
                 <t offset="4">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[olie]N[en]]N" subset="structure"/>
+              <feat class="[[olie]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5582,7 +5582,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5620,7 +5620,7 @@
               <morpheme class="inflection">
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[on][[hygiëne]N[isch]]A]A" subset="structure"/>
+              <feat class="[[on][[hygiëne]N[isch]]A/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5740,7 +5740,7 @@
                 <t offset="7">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[ontmoei]V[en]]V" subset="structure"/>
+              <feat class="[[ontmoei]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5826,7 +5826,7 @@
                 <t offset="8">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[opruiend]A[e]]A" subset="structure"/>
+              <feat class="[[opruiend]A[e]suffix-e]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -5871,7 +5871,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[Oriënt]N[eer]]V[ing]]N" subset="structure"/>
+              <feat class="[[[Oriënt]N[eer]]V[ing]]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6014,7 +6014,7 @@
                 <feat class="past_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[verdien]V[den]]V" subset="structure"/>
+              <feat class="[[verdien]V[den]past_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6120,7 +6120,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[dak]N" subset="structure"/>
+              <feat class="[dak]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6161,7 +6161,7 @@
                 <feat class="past_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[moet]V[en]]V" subset="structure"/>
+              <feat class="[[moet]V[en]past_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6326,7 +6326,7 @@
                 <feat class="past_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[moet]V[en]]V" subset="structure"/>
+              <feat class="[[moet]V[en]past_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6385,7 +6385,7 @@
                 <t offset="7">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[uitkien]V[en]]V" subset="structure"/>
+              <feat class="[[uitkien]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6527,7 +6527,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6575,7 +6575,7 @@
                 <t offset="12">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[expedieer]N[ent][en]]N" subset="structure"/>
+              <feat class="[[expedieer]N[ent]singular[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6673,251 +6673,251 @@
 </FoLiA>
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.991282	O	B-NP	3	det
-2	Tilburgse	tilburgs	[[til]N[burgse]A]A	ADJ(prenom,basis,met-e,stan)	0.981205	B-ORG	I-NP	3	mod
-3	academiën	academie	[[[academ]A[isch]]N[en]]N	N(soort,mv,basis)	1.000000	O	I-NP	4	su
-4	verkiezen	verkiezen	[[[ver][kies]V]V[en]]V	WW(pv,tgw,mv)	0.884615	O	B-VP	0	ROOT
+2	Tilburgse	tilburgs	[[til]N[burgse]A/positive]A	ADJ(prenom,basis,met-e,stan)	0.981205	B-ORG	I-NP	3	mod
+3	academiën	academie	[[[academ]A[isch]]N[en]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	4	su
+4	verkiezen	verkiezen	[[[ver][kies]V]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.884615	O	B-VP	0	ROOT
 5	het	het	[het]D	LID(bep,stan,evon)	0.702075	O	B-NP	6	det
-6	abbreviëren	abbreviëren	[[abbrevieer]V[en]]V	WW(inf,nom,zonder,zonder-n)	1.000000	O	I-NP	4	obj1
+6	abbreviëren	abbreviëren	[[abbrevieer]V[en]infinitive]V	WW(inf,nom,zonder,zonder-n)	1.000000	O	I-NP	4	obj1
 7	van	van	[van]P	VZ(init)	0.999333	O	B-PP	6	mod
-8	universiteit	universiteit	[universiteit]N	N(soort,ev,basis,zijd,stan)	0.998069	O	B-NP	7	obj1
+8	universiteit	universiteit	[universiteit]N/singular	N(soort,ev,basis,zijd,stan)	0.998069	O	B-NP	7	obj1
 9	tot	tot	[tot]P	VZ(init)	0.998379	O	B-PP	8	mod
 10	u	u	[u]O	VNW(pr,pron,obl,vol,2,getal)	0.866667	O	B-NP	9	obj1
 11	.	.	[.]	LET()	1.000000	O	O	10	punct
 
 1	Wij	wij	[wij]O	VNW(pers,pron,nomin,vol,1,mv)	0.998887	O	B-NP	2	su
-2	affiliëren	affiliëren	[[affilieer]V[en]]V	WW(pv,tgw,mv)	0.636526	O	B-VP	0	ROOT
+2	affiliëren	affiliëren	[[affilieer]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.636526	O	B-VP	0	ROOT
 3	ons	ons	[ons]O	VNW(pr,pron,obl,vol,1,mv)	0.985222	O	B-NP	2	se
 4	niet	niet	[niet]B	BW()	0.999918	O	B-ADVP	5	mod
 5	hiermee	hiermee	[[hier]B[mee]B]B	BW()	0.987097	O	B-PP	2	mod
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Wij	wij	[wij]O	VNW(pers,pron,nomin,vol,1,mv)	0.998887	O	B-NP	2	su
-2	associëren	associëren	[[associeer]V[en]]V	WW(pv,tgw,mv)	0.666667	O	B-VP	0	ROOT
+2	associëren	associëren	[[associeer]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.666667	O	B-VP	0	ROOT
 3	ons	ons	[ons]O	VNW(pr,pron,obl,vol,1,mv)	0.985222	O	B-NP	2	se
 4	niet	niet	[niet]B	BW()	0.999881	O	B-ADVP	2	mod
 5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
 1	Want	want	[want]	VG(neven)	0.996817	O	B-PP	0	ROOT
 2	wij	wij	[wij]O	VNW(pers,pron,nomin,vol,1,mv)	0.998490	O	B-NP	3	su
-3	ambiëren	ambiëren	[[ambieer]V[en]]V	WW(inf,vrij,zonder)	0.875000	O	B-VP	1	cnj
+3	ambiëren	ambiëren	[[ambieer]V[en]infinitive]V	WW(inf,vrij,zonder)	0.875000	O	B-VP	1	cnj
 4	iets	iets	[iets]O	VNW(onbep,pron,stan,vol,3o,ev)	0.998571	O	B-NP	3	mod
-5	artificiële	artificieel	[[artificieel]A[e]]A	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP	6	mod
-6	intelligentie	intelligentie	[intelligentie]N	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	0	ROOT
+5	artificiële	artificieel	[[artificieel]A[e]suffix-e/positive]A	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP	6	mod
+6	intelligentie	intelligentie	[intelligentie]N/singular	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	0	ROOT
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Deze	deze	[deze]O	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780	O	B-NP	2	det
-2	arteriën	arterie	[[arterie]N[en]]N	N(soort,mv,basis)	0.999775	O	I-NP	3	su
-3	hebben	hebben	[[heb]V[en]]V	WW(pv,tgw,mv)	0.984000	O	B-VP	0	ROOT
+2	arteriën	arterie	[[arterie]N[en]plural]N	N(soort,mv,basis)	0.999775	O	I-NP	3	su
+3	hebben	hebben	[[heb]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.984000	O	B-VP	0	ROOT
 4	een	een	[een]D	LID(onbep,stan,agr)	0.995147	O	B-NP	6	det
-5	arteriële	arterieel	[[[arterie]N[eel]]A[e]]A	ADJ(prenom,basis,met-e,stan)	1.000000	O	I-NP	6	mod
-6	infectie	infectie	[[infect]A[ie]]N	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	3	obj1
+5	arteriële	arterieel	[[[arterie]N[eel]]A[e]suffix-e/positive]A	ADJ(prenom,basis,met-e,stan)	1.000000	O	I-NP	6	mod
+6	infectie	infectie	[[infect]A[ie]]N/singular	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	3	obj1
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Wat	wat	[wat]O	VNW(vb,pron,stan,vol,3o,ev)	0.987835	O	B-SBAR	0	ROOT
-2	betekent	betekenen	[[be]N[teken]V[t]]V	WW(pv,tgw,met-t)	0.998984	O	B-VP	1	body
-3	auctoriële	auctorieel	[[auctorieel]A[e]]A	ADJ(prenom,basis,met-e,stan)	0.999807	O	B-NP	4	mod
-4	mensen	mens	[[mens]N[en]]N	N(soort,mv,basis)	0.999865	O	I-NP	2	obj1
+2	betekent	betekenen	[[be]N[teken]V[t]present_tense/singular/2nd_person_verb]V	WW(pv,tgw,met-t)	0.998984	O	B-VP	1	body
+3	auctoriële	auctorieel	[[auctorieel]A[e]suffix-e/positive]A	ADJ(prenom,basis,met-e,stan)	0.999807	O	B-NP	4	mod
+4	mensen	mens	[[mens]N[en]plural]N	N(soort,mv,basis)	0.999865	O	I-NP	2	obj1
 5	?	?	[?]	LET()	1.000000	O	O	4	punct
 
 1	Dat	dat	[dat]O	VNW(aanw,pron,stan,vol,3o,ev)	0.995495	O	B-NP	2	obj1
 2	moeten	moeten	[moeten]	WW(pv,tgw,mv)	0.672768	O	B-VP	0	ROOT
 3	we	we	[we]O	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP	2	su
-4	bediscussiëren	bediscussiëren	[[[be][discussieer]V]V[en]]V	WW(pv,tgw,mv)	0.857143	O	B-VP	2	vc
+4	bediscussiëren	bediscussiëren	[[[be][discussieer]V]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.857143	O	B-VP	2	vc
 5	in	in	[in]P	VZ(init)	0.999350	O	B-PP	4	pc
 6	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	8	det
-7	concipiërende	concipiëren	[[concipieer]V[end][e]]V	WW(od,prenom,met-e)	0.910700	O	I-NP	8	mod
-8	vergadering	vergadering	[[vergader]V[ing]]N	N(soort,ev,basis,zijd,stan)	0.998281	O	I-NP	5	obj1
+7	concipiërende	concipiëren	[[concipieer]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.910700	O	I-NP	8	mod
+8	vergadering	vergadering	[[vergader]V[ing]]N/singular	N(soort,ev,basis,zijd,stan)	0.998281	O	I-NP	5	obj1
 9	?	?	[?]	LET()	1.000000	O	O	8	punct
 
 1	Zodat	zodat	[zodat]	VG(onder)	0.998089	O	B-SBAR	0	ROOT
 2	we	we	[we]O	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP	4	su
 3	het	het	[het]O	VNW(pers,pron,stan,red,3,ev,onz)	0.884615	O	B-NP	4	su
-4	kunnen	kunnen	[[kan]V[en]]V	WW(pv,tgw,mv)	0.534687	O	B-VP	1	body
-5	certifiëren	certifiëren	[[certifieer]V[en]]V	WW(inf,vrij,zonder)	1.000000	O	I-VP	4	vc
+4	kunnen	kunnen	[[kan]V[en]infinitive]V	WW(pv,tgw,mv)	0.534687	O	B-VP	1	body
+5	certifiëren	certifiëren	[[certifieer]V[en]infinitive]V	WW(inf,vrij,zonder)	1.000000	O	I-VP	4	vc
 6	,	,	[,]	LET()	1.000000	O	O	5	punct
 7	of	of	[of]	VG(neven)	0.986413	O	B-CONJP	0	ROOT
-8	is	zijn	[zijn]V	WW(pv,tgw,ev)	0.999447	O	B-VP	7	cnj
+8	is	zijn	[zijn]V/present_tense/singular/3rd_person_verb	WW(pv,tgw,ev)	0.999447	O	B-VP	7	cnj
 9	het	het	[het]O	VNW(pers,pron,stan,red,3,ev,onz)	1.000000	O	B-NP	8	su
-10	certificeren	certificeren	[[certificeer]V[en]]V	WW(pv,tgw,mv)	0.983607	O	I-NP	8	vc
+10	certificeren	certificeren	[[certificeer]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.983607	O	I-NP	8	vc
 11	?	?	[?]	LET()	1.000000	O	O	10	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	2	det
-2	conciliën	concilie	[[concilie]N[n]]N	N(soort,mv,basis)	1.000000	O	I-NP	3	su
-3	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.975831	O	B-VP	0	ROOT
+2	conciliën	concilie	[[concilie]N[n]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	3	su
+3	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.975831	O	B-VP	0	ROOT
 4	al	al	[al]B	BW()	0.991537	O	B-NP	3	mod
-5	dagen	dag	[[dag]N[en]]N	N(soort,mv,basis)	0.995536	O	I-NP	3	su
+5	dagen	dag	[[dag]N[en]plural]N	N(soort,mv,basis)	0.995536	O	I-NP	3	su
 6	aan_het	aan_het	[aan]P_[het]D	VZ(init)_LID(bep,stan,evon)	0.699641	O_O	B-PP_B-NP	3	vc
-7	conciliëren	conciliëren	[[concilieer]V[en]]V	WW(inf,nom,zonder,zonder-n)	0.754229	O	I-NP	6	body
+7	conciliëren	conciliëren	[[concilieer]V[en]infinitive]V	WW(inf,nom,zonder,zonder-n)	0.754229	O	I-NP	6	body
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
 1	Ze	ze	[ze]O	VNW(pers,pron,stan,red,3,mv)	0.514499	O	B-NP	2	su
-2	contrariëren	contrariëren	[[contrarieer]V[en]]V	WW(pv,verl,mv)	0.663786	O	B-VP	0	ROOT
+2	contrariëren	contrariëren	[[contrarieer]V[en]present_tense/plural]V	WW(pv,verl,mv)	0.663786	O	B-VP	0	ROOT
 3	over	over	[over]P	VZ(init)	0.958333	O	B-PP	2	mod
 4	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
-5	contrariërende	contrariëren	[[contrarieer]V[end][e]]V	WW(od,prenom,met-e)	0.744567	O	I-NP	6	mod
+5	contrariërende	contrariëren	[[contrarieer]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.744567	O	I-NP	6	mod
 6	onderwerpen	onderwerp	[onderwerpen]	N(soort,mv,basis)	0.996470	O	I-NP	3	obj1
 7	!	!	[!]	LET()	1.000000	O	O	6	punct
 
 1	Ze	ze	[ze]O	VNW(pers,pron,stan,red,3,mv)	0.514499	O	B-NP	2	su
-2	contrariëren	contrariëren	[[contrarieer]V[en]]V	WW(pv,verl,mv)	0.663786	O	B-VP	0	ROOT
+2	contrariëren	contrariëren	[[contrarieer]V[en]present_tense/plural]V	WW(pv,verl,mv)	0.663786	O	B-VP	0	ROOT
 3	over	over	[over]P	VZ(init)	0.958333	O	B-PP	2	mod
 4	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
-5	contraveniërende	contraveniëren	[[contravenieer]V[end][e]]V	WW(od,prenom,met-e)	0.744567	O	I-NP	6	mod
+5	contraveniërende	contraveniëren	[[contravenieer]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.744567	O	I-NP	6	mod
 6	onderwerpen	onderwerp	[onderwerpen]	N(soort,mv,basis)	0.996470	O	I-NP	3	obj1
 7	!	!	[!]	LET()	1.000000	O	O	6	punct
 
 1	Maar	maar	[maar]	VG(neven)	0.994319	O	B-PP	0	ROOT
 2	er	er	[er]O	VNW(aanw,adv-pron,stan,red,3,getal)	0.996845	O	B-ADVP	3	mod
-3	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.986083	O	B-VP	0	ROOT
+3	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.986083	O	B-VP	0	ROOT
 4	nog	nog	[nog]B	BW()	0.999930	O	B-ADVP	3	mod
-5	controversiëlere	controversieel	[[[controversie]N[eel]]A[er][e]]A	ADJ(prenom,comp,met-e,stan)	0.990385	O	B-NP	6	mod
+5	controversiëlere	controversieel	[[[controversie]N[eel]]A[er]comparative[e]suffix-e]A	ADJ(prenom,comp,met-e,stan)	0.990385	O	B-NP	6	mod
 6	onderwerpen	onderwerp	[onderwerpen]	N(soort,mv,basis)	0.998911	O	I-NP	3	su
 7	dan	dan	[dan]	VG(onder)	0.727273	O	B-PP	6	mod
 8	de	de	[de]D	LID(bep,stan,rest)	0.999647	O	B-NP	9	det
-9	spelling	spelling	[[spel]V[ing]]N	N(soort,ev,basis,zijd,stan)	0.999662	O	I-NP	7	body
+9	spelling	spelling	[[spel]V[ing]]N/singular	N(soort,ev,basis,zijd,stan)	0.999662	O	I-NP	7	body
 10	van	van	[van]P	VZ(init)	0.959310	O	B-PP	9	mod
 11	controversiëler	controversiëler	[controversiëler]	N(soort,ev,basis,onz,stan)	0.587848	O	B-NP	10	obj1
 12	.	.	[.]	LET()	1.000000	O	O	11	punct
 
 1	Deze	deze	[deze]O	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780	O	B-NP	2	det
-2	zaken	zaak	[[zaak]N[en]]N	N(soort,mv,basis)	0.998020	O	I-NP	3	su
-3	conveniëren	conveniëren	[[convenieer]V[en]]V	WW(pv,tgw,mv)	0.413782	O	B-VP	0	ROOT
+2	zaken	zaak	[[zaak]N[en]plural]N	N(soort,mv,basis)	0.998020	O	I-NP	3	su
+3	conveniëren	conveniëren	[[convenieer]V[en]present_tense/plural]V	WW(pv,tgw,mv)	0.413782	O	B-VP	0	ROOT
 4	ons	ons	[ons]O	VNW(pr,pron,obl,vol,1,mv)	0.985222	O	B-NP	3	obj2
 5	niet	niet	[niet]B	BW()	0.999881	O	B-ADVP	3	mod
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	We	we	[we]O	VNW(pers,pron,nomin,red,1,mv)	0.997215	O	B-NP	2	su
-2	definiëren	definiëren	[[definieer]V[en]]V	WW(pv,tgw,mv)	1.000000	O	B-VP	0	ROOT
+2	definiëren	definiëren	[[definieer]V[en]present_tense/plural]V	WW(pv,tgw,mv)	1.000000	O	B-VP	0	ROOT
 3	een	een	[een]D	LID(onbep,stan,agr)	0.995147	O	B-NP	5	det
-4	differentiële	differentieel	[[[[different]A[ie]]N[eel]]A[e]]A	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP	5	mod
-5	vergelijking	vergelijking	[[[ver][gelijk]V]V[ing]]N	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	2	obj1
+4	differentiële	differentieel	[[[[different]A[ie]]N[eel]]A[e]suffix-e/positive]A	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP	5	mod
+5	vergelijking	vergelijking	[[[ver][gelijk]V]V[ing]]N/singular	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	2	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Het	het	[het]D	LID(bep,stan,evon)	0.516709	O	B-NP	2	det
-2	differentiëringsproces	differentiëringsproces	[[differentieer]A[[ing][s][proces]N]N]N	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP	3	su
-3	verloopt	verlopen	[[ver]N[loop]V[t]]V	WW(pv,tgw,met-t)	0.998984	O	B-VP	0	ROOT
-4	eenvoudig	eenvoudig	[[eenvoud]N[ig]]A	ADJ(vrij,basis,zonder)	0.977273	O	B-ADJP	3	mod
+2	differentiëringsproces	differentiëringsproces	[[differentieer]A[[ing][s][proces]N]N/singular]N	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP	3	su
+3	verloopt	verlopen	[[ver]N[loop]V[t]present_tense/singular/2nd_person_verb]V	WW(pv,tgw,met-t)	0.998984	O	B-VP	0	ROOT
+4	eenvoudig	eenvoudig	[[eenvoud]N[ig]]A/positive	ADJ(vrij,basis,zonder)	0.977273	O	B-ADJP	3	mod
 5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
 1	Dit	dit	[dit]O	VNW(aanw,pron,stan,vol,3o,ev)	0.777085	O	B-NP	2	su
-2	is	zijn	[zijn]V	WW(pv,tgw,ev)	0.996528	O	B-VP	0	ROOT
-3	discussiëren	discussiëren	[[discussieer]V[en]]V	WW(inf,vrij,zonder)	0.892100	O	I-VP	2	vc
+2	is	zijn	[zijn]V/present_tense/singular/3rd_person_verb	WW(pv,tgw,ev)	0.996528	O	B-VP	0	ROOT
+3	discussiëren	discussiëren	[[discussieer]V[en]infinitive]V	WW(inf,vrij,zonder)	0.892100	O	I-VP	2	vc
 4	om	om	[om]P	VZ(init)	0.997222	O	B-PP	2	su
 5	niets	niets	[niets]	VNW(onbep,pron,stan,vol,3o,ev)	0.997921	O	B-NP	4	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Wat	wat	[wat]O	VNW(vb,pron,stan,vol,3o,ev)	0.903943	O	B-SBAR	0	ROOT
-2	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.973699	O	B-VP	1	body
+2	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.973699	O	B-VP	1	body
 3	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	4	det
-4	domiciliën	domicilie	[[domicilie]N[en]]N	N(soort,mv,basis)	1.000000	O	I-NP	2	predc
+4	domiciliën	domicilie	[[domicilie]N[en]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	2	predc
 5	van	van	[van]P	VZ(init)	0.996226	O	B-PP	4	mod
 6	jullie	jullie	[jullie]O	VNW(pers,pron,stan,nadr,2v,mv)	0.984615	O	B-NP	5	obj1
 7	?	?	[?]	LET()	1.000000	O	O	6	punct
 
 1	Dat	dat	[dat]O	VNW(aanw,pron,stan,vol,3o,ev)	0.986464	O	B-NP	2	su
-2	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.973699	O	B-VP	0	ROOT
+2	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.973699	O	B-VP	0	ROOT
 3	de	de	[de]D	LID(bep,stan,rest)	0.999805	O	B-NP	5	det
-4	essentiële	essentieel	[[[essentie]N[eel]]A[e]]A	ADJ(prenom,basis,met-e,stan)	0.999769	O	I-NP	5	mod
-5	zaken	zaak	[[zaak]N[en]]N	N(soort,mv,basis)	0.999588	O	I-NP	2	predc
+4	essentiële	essentieel	[[[essentie]N[eel]]A[e]suffix-e/positive]A	ADJ(prenom,basis,met-e,stan)	0.999769	O	I-NP	5	mod
+5	zaken	zaak	[[zaak]N[en]plural]N	N(soort,mv,basis)	0.999588	O	I-NP	2	predc
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	We	we	[we]O	VNW(pers,pron,nomin,red,1,mv)	0.997215	O	B-NP	2	su
-2	excommuniëren	excommuniëren	[[[ex][communieer]V]V[en]]V	WW(pv,verl,mv)	0.834987	O	B-VP	0	ROOT
+2	excommuniëren	excommuniëren	[[[ex][communieer]V]V[en]present_tense/plural]V	WW(pv,verl,mv)	0.834987	O	B-VP	0	ROOT
 3	hem	hem	[hem]O	VNW(pers,pron,obl,vol,3,ev,masc)	0.989775	O	B-NP	2	obj1
 4	.	.	[.]	LET()	1.000000	O	O	3	punct
 
 1	Hij	hij	[hij]O	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431	O	B-NP	2	su
-2	moet	moeten	[moet]V	WW(pv,tgw,ev)	0.999794	O	B-VP	0	ROOT
-3	expatriëren	expatriëren	[[expatrieer]V[en]]V	WW(inf,vrij,zonder)	1.000000	O	I-VP	2	vc
+2	moet	moeten	[moet]V/present_tense/singular/1st_person_verb	WW(pv,tgw,ev)	0.999794	O	B-VP	0	ROOT
+3	expatriëren	expatriëren	[[expatrieer]V[en]infinitive]V	WW(inf,vrij,zonder)	1.000000	O	I-VP	2	vc
 4	naar	naar	[naar]P	VZ(init)	0.999197	O	B-PP	3	pc
 5	Zimbabwe	Zimbabwe	[Zimbabwe]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	4	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	3	det
-2	foliërende	foliëren	[[folieer]V[end][e]]V	WW(od,prenom,met-e)	0.554146	O	I-NP	3	mod
-3	baliekluivers	baliekluiver	[[balie]N[[kluif]V[er]]N[s]]N	N(soort,mv,basis)	1.000000	O	I-NP	0	ROOT
+2	foliërende	foliëren	[[folieer]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.554146	O	I-NP	3	mod
+3	baliekluivers	baliekluiver	[[balie]N[[kluif]V[er]]N[s]plural]N	N(soort,mv,basis)	1.000000	O	I-NP	0	ROOT
 4	.	.	[.]	LET()	1.000000	O	O	3	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.999577	O	B-NP	2	det
-2	fotokopieën	fotokopie	[[fotokopie]N[en]]N	N(soort,mv,basis)	0.999779	O	I-NP	3	su
-3	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.662252	O	B-VP	0	ROOT
+2	fotokopieën	fotokopie	[[fotokopie]N[en]plural]N	N(soort,mv,basis)	0.999779	O	I-NP	3	su
+3	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.662252	O	B-VP	0	ROOT
 4	door	door	[door]P	VZ(init)	0.998249	O	B-PP	8	mod
 5	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	7	det
-6	fotokopiërende	fotokopiëren	[[foto]N[kopieer]V[end][e]]V	WW(od,prenom,met-e)	0.631268	O	I-NP	7	mod
-7	medewerkers	medewerker	[[mede]B[[werk]V[er]]N[s]]N	N(soort,mv,basis)	0.998020	O	I-NP	4	obj1
-8	verprutst	verprutsen	[[[ver][pruts]V]V[t]]V	WW(vd,vrij,zonder)	0.802632	O	B-VP	3	vc
+6	fotokopiërende	fotokopiëren	[[foto]N[kopieer]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.631268	O	I-NP	7	mod
+7	medewerkers	medewerker	[[mede]B[[werk]V[er]]N[s]plural]N	N(soort,mv,basis)	0.998020	O	I-NP	4	obj1
+8	verprutst	verprutsen	[[[ver][pruts]V]V[t]present_tense/singular/2nd_person_verb]V	WW(vd,vrij,zonder)	0.802632	O	B-VP	3	vc
 9	.	.	[.]	LET()	1.000000	O	O	8	punct
 
 1	De	de	[de]D	LID(bep,stan,rest)	0.877577	O	B-NP	3	det
-2	fructifiërende	fructifiëren	[[fructifieer]V[end][e]]V	WW(od,prenom,met-e)	0.683738	O	I-NP	3	mod
-3	frou-frou	frou-frou	[frou-frou]N	N(soort,ev,basis,zijd,stan)	0.997399	O	I-NP	0	ROOT
+2	fructifiërende	fructifiëren	[[fructifieer]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.683738	O	I-NP	3	mod
+3	frou-frou	frou-frou	[frou-frou]N/singular	N(soort,ev,basis,zijd,stan)	0.997399	O	I-NP	0	ROOT
 4	.	.	[.]	LET()	1.000000	O	O	3	punct
 
-1	Is	zijn	[zijn]V	WW(pv,tgw,ev)	0.996196	O	B-VP	0	ROOT
-2	gangliën	ganglion	[[gangli]N[on]]N	N(soort,mv,basis)	0.573455	O	B-NP	1	obj1
+1	Is	zijn	[zijn]V/present_tense/singular/3rd_person_verb	WW(pv,tgw,ev)	0.996196	O	B-VP	0	ROOT
+2	gangliën	ganglion	[[gangli]N[on]plural]N	N(soort,mv,basis)	0.573455	O	B-NP	1	obj1
 3	het	het	[het]D	LID(bep,stan,evon)	0.997424	O	B-NP	4	det
-4	meervoud	meervoud	[meervoud]N	N(soort,ev,basis,onz,stan)	0.999008	O	I-NP	0	ROOT
+4	meervoud	meervoud	[meervoud]N/singular	N(soort,ev,basis,onz,stan)	0.999008	O	I-NP	0	ROOT
 5	van	van	[van]P	VZ(init)	0.959310	O	B-PP	4	mod
-6	ganglion	ganglion	[ganglion]N	N(soort,ev,basis,zijd,stan)	0.663000	O	B-NP	5	obj1
+6	ganglion	ganglion	[ganglion]N/singular	N(soort,ev,basis,zijd,stan)	0.663000	O	B-NP	5	obj1
 7	?	?	[?]	LET()	1.000000	O	O	6	punct
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
-2	is	zijn	[zijn]V	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
-3	genaakt	genaken	[[ge][naken]V[t]]V	WW(vd,vrij,zonder)	0.903143	O	I-VP	2	vc
+2	is	zijn	[zijn]V/present_tense/singular/3rd_person_verb	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
+3	genaakt	genaken	[[ge]participle/past_tense[naken]V[t]present_tense/singular/3rd_person_verb]V	WW(vd,vrij,zonder)	0.903143	O	I-VP	2	vc
 4	?	?	[?]	LET()	1.000000	O	O	3	punct
 
 1	Hij	hij	[hij]O	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431	O	B-NP	2	su
-2	werd	worden	[word]V	WW(pv,verl,ev)	0.998963	O	B-VP	0	ROOT
+2	werd	worden	[word]V/past_tense/singular	WW(pv,verl,ev)	0.998963	O	B-VP	0	ROOT
 3	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	4	mod
-4	geraakt	geraken	[[ge]A[raken]V[t]]V	WW(vd,vrij,zonder)	0.800000	O	B-VP	2	vc
+4	geraakt	geraken	[[ge]A[raken]V[t]participle/past_tense]V	WW(vd,vrij,zonder)	0.800000	O	B-VP	2	vc
 5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
 1	Met	met	[met]P	VZ(init)	0.995378	O	B-PP	0	ROOT
 2	volle	vol	[volle]	ADJ(prenom,basis,met-e,stan)	0.997947	O	B-NP	3	mod
-3	overgave	overgave	[[over]P[geefe]N]N	N(soort,ev,basis,zijd,stan)	0.999172	O	I-NP	1	obj1
+3	overgave	overgave	[[over]P[geefe]N/singular]N	N(soort,ev,basis,zijd,stan)	0.999172	O	I-NP	1	obj1
 4	aan	aan	[aan]P	VZ(init)	0.999180	O	B-PP	3	mod
 5	de	de	[de]D	LID(bep,stan,rest)	0.999964	O	B-NP	6	det
-6	slag	slag	[slag]N	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	4	obj1
+6	slag	slag	[slag]N/singular	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	4	obj1
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Een	een	[een]D	LID(onbep,stan,agr)	0.981771	O	B-NP	3	det
-2	gloriërend	gloriëren	[[glorieer]V[end]]V	WW(od,prenom,zonder)	0.734317	O	I-NP	3	mod
-3	moment	moment	[moment]N	N(soort,ev,basis,onz,stan)	0.997816	O	I-NP	0	ROOT
+2	gloriërend	gloriëren	[[glorieer]V[end]participle/present_tense]V	WW(od,prenom,zonder)	0.734317	O	I-NP	3	mod
+3	moment	moment	[moment]N/singular	N(soort,ev,basis,onz,stan)	0.997816	O	I-NP	0	ROOT
 4	voor	voor	[voor]P	VZ(init)	0.998512	O	B-PP	3	mod
 5	de	de	[de]D	LID(bep,stan,rest)	0.981886	O	B-NP	7	det
-6	jakhalzende	jakhalzen	[[jakhals]V[end][e]]V	WW(od,prenom,met-e)	0.864263	O	I-NP	7	mod
-7	journalist	journalist	[[journaal]N[ist]]N	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	4	obj1
+6	jakhalzende	jakhalzen	[[jakhals]V[end]participle/present_tense[e]suffix-e]V	WW(od,prenom,met-e)	0.864263	O	I-NP	7	mod
+7	journalist	journalist	[[journaal]N[ist]]N/singular	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	4	obj1
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
 1	Dit	dit	[dit]O	VNW(aanw,det,stan,prenom,zonder,evon)	1.000000	O	B-NP	3	det
-2	reële	reëel	[[reëel]A[e]]A	ADJ(prenom,basis,met-e,stan)	0.999323	O	I-NP	3	mod
-3	voorbeeld	voorbeeld	[[voor]B[beeld]N]N	N(soort,ev,basis,onz,stan)	0.998006	O	I-NP	4	su
-4	bleek	blijken	[bleek]V	WW(pv,verl,ev)	0.998808	O	B-VP	0	ROOT
+2	reële	reëel	[[reëel]A[e]suffix-e/positive]A	ADJ(prenom,basis,met-e,stan)	0.999323	O	I-NP	3	mod
+3	voorbeeld	voorbeeld	[[voor]B[beeld]N/singular]N	N(soort,ev,basis,onz,stan)	0.998006	O	I-NP	4	su
+4	bleek	blijken	[bleek]V/present_tense/singular/1st_person_verb	WW(pv,verl,ev)	0.998808	O	B-VP	0	ROOT
 5	nog	nog	[nog]B	BW()	0.999930	O	B-ADVP	6	mod
-6	surreëler	surreëel	[[surreëel]A[er]]A	ADJ(vrij,comp,zonder)	1.000000	O	B-ADJP	4	predc
+6	surreëler	surreëel	[[surreëel]A[er]comparative]A	ADJ(vrij,comp,zonder)	1.000000	O	B-ADJP	4	predc
 7	dan	dan	[dan]B	BW()	0.600000	O	B-SBAR	8	mod
-8	gedacht	denken	[[ge]N[denk]V[t]]V	WW(vd,vrij,zonder)	0.872274	O	B-VP	4	vc
+8	gedacht	denken	[[ge]N[denk]V[t]participle/past_tense]V	WW(vd,vrij,zonder)	0.872274	O	B-VP	4	vc
 9	.	.	[.]	LET()	1.000000	O	O	8	punct
 
 1	Wat	wat	[wat]O	VNW(vb,pron,stan,vol,3o,ev)	0.903943	O	B-SBAR	4	su
-2	spondeeën	spondee	[[spondeus]N[en]]N	N(soort,mv,basis)	0.745456	O	B-NP	3	su
-3	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	1.000000	O	B-VP	1	body
-4	weet	weten	[wijt]V	WW(pv,tgw,ev)	0.999734	O	B-VP	0	ROOT
+2	spondeeën	spondee	[[spondeus]N[en]plural]N	N(soort,mv,basis)	0.745456	O	B-NP	3	su
+3	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	1.000000	O	B-VP	1	body
+4	weet	weten	[wijt]V/present_tense/singular/1st_person_verb	WW(pv,tgw,ev)	0.999734	O	B-VP	0	ROOT
 5	ik	ik	[ik]O	VNW(pers,pron,nomin,vol,1,ev)	0.999844	O	B-NP	4	su
 6	niet	niet	[niet]B	BW()	0.999881	O	B-ADVP	4	mod
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
-1	Trocheeën	trochee	[[trocheus]N[en]]N	N(soort,mv,basis)	0.955181	O	B-NP	2	su
-2	zijn	zijn	[zijn]V	WW(pv,tgw,mv)	0.875874	O	B-VP	0	ROOT
-3	welbekend	welbekend	[[wel]A[bekend]A]A	ADJ(vrij,basis,zonder)	0.981871	O	B-ADJP	2	predc
+1	Trocheeën	trochee	[[trocheus]N[en]plural]N	N(soort,mv,basis)	0.955181	O	B-NP	2	su
+2	zijn	zijn	[zijn]V/infinitive	WW(pv,tgw,mv)	0.875874	O	B-VP	0	ROOT
+3	welbekend	welbekend	[[wel]A[bekend]A/positive]A	ADJ(vrij,basis,zonder)	0.981871	O	B-ADJP	2	predc
 4	in	in	[in]P	VZ(init)	0.999350	O	B-PP	3	pc
 5	de	de	[de]D	LID(bep,stan,rest)	0.999964	O	B-NP	6	det
-6	taalkunde	taalkunde	[[taal]N[kunde]N]N	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	4	obj1
+6	taalkunde	taalkunde	[[taal]N[kunde]N]N/singular	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	4	obj1
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Een	een	[een]D	LID(onbep,stan,agr)	0.981771	O	B-NP	3	det
-2	financiële	financieel	[[financiee]V[l][e]]A	ADJ(prenom,basis,met-e,stan)	0.999837	O	I-NP	3	mod
-3	tegenvaller	tegenvaller	[[tegen]P[[val]V[er]]N]N	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	0	ROOT
+2	financiële	financieel	[[financiee]V[l][e]suffix-e/positive]A	ADJ(prenom,basis,met-e,stan)	0.999837	O	I-NP	3	mod
+3	tegenvaller	tegenvaller	[[tegen]P[[val]V[er]]N/singular]N	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	0	ROOT
 4	.	.	[.]	LET()	1.000000	O	O	3	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -6925,14 +6925,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v0.13" version="0.12.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-09T12:37:11" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-09T12:37:11" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-09T12:37:11" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-09T12:37:11" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-09T12:37:11" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-09T12:37:11" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-09T12:37:11" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-09T12:37:11" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-12T12:07:41" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-12T12:07:41" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-12T12:07:41" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-12T12:07:41" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-12T12:07:41" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-12T12:07:41" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-12T12:07:41" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-12T12:07:41" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -6985,7 +6985,7 @@
               <morpheme class="inflection">
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[til]N[burgse]A]A" subset="structure"/>
+              <feat class="[[til]N[burgse]A/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7019,7 +7019,7 @@
                 <t offset="10">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[academ]A[isch]]N[en]]N" subset="structure"/>
+              <feat class="[[[academ]A[isch]]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7054,7 +7054,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[ver][kies]V]V[en]]V" subset="structure"/>
+              <feat class="[[[ver][kies]V]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7099,7 +7099,7 @@
                 <t offset="10">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[abbrevieer]V[en]]V" subset="structure"/>
+              <feat class="[[abbrevieer]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7142,7 +7142,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[universiteit]N" subset="structure"/>
+              <feat class="[universiteit]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7362,7 +7362,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[affilieer]V[en]]V" subset="structure"/>
+              <feat class="[[affilieer]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7546,7 +7546,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[associeer]V[en]]V" subset="structure"/>
+              <feat class="[[associeer]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7712,7 +7712,7 @@
                 <t offset="7">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[ambieer]V[en]]V" subset="structure"/>
+              <feat class="[[ambieer]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7761,7 +7761,7 @@
                 <feat class="suffix-e" subset="inflection"/>
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[artificieel]A[e]]A" subset="structure"/>
+              <feat class="[[artificieel]A[e]suffix-e/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7786,7 +7786,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[intelligentie]N" subset="structure"/>
+              <feat class="[intelligentie]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7909,7 +7909,7 @@
                 <t offset="7">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[arterie]N[en]]N" subset="structure"/>
+              <feat class="[[arterie]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7934,7 +7934,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[heb]V[en]]V" subset="structure"/>
+              <feat class="[[heb]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -7990,7 +7990,7 @@
                 <feat class="suffix-e" subset="inflection"/>
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[[arterie]N[eel]]A[e]]A" subset="structure"/>
+              <feat class="[[[arterie]N[eel]]A[e]suffix-e/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8025,7 +8025,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[infect]A[ie]]N" subset="structure"/>
+              <feat class="[[infect]A[ie]]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8160,7 +8160,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="2nd_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[[be]N[teken]V[t]]V" subset="structure"/>
+              <feat class="[[be]N[teken]V[t]present_tense/singular/2nd_person_verb]V" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.6.s.1.w.2.alt-mor.1" auth="no">
@@ -8182,7 +8182,7 @@
                   <feat class="singular" subset="inflection"/>
                   <feat class="3rd_person_verb" subset="inflection"/>
                 </morpheme>
-                <feat class="[[be]N[teken]V[t]]V" subset="structure"/>
+                <feat class="[[be]N[teken]V[t]present_tense/singular/3rd_person_verb]V" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -8209,7 +8209,7 @@
                 <feat class="suffix-e" subset="inflection"/>
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[auctorieel]A[e]]A" subset="structure"/>
+              <feat class="[[auctorieel]A[e]suffix-e/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8233,7 +8233,7 @@
                 <t offset="4">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[mens]N[en]]N" subset="structure"/>
+              <feat class="[[mens]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8394,7 +8394,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[be][discussieer]V]V[en]]V" subset="structure"/>
+              <feat class="[[[be][discussieer]V]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8461,7 +8461,7 @@
                 <t offset="13">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[concipieer]V[end][e]]V" subset="structure"/>
+              <feat class="[[concipieer]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8496,7 +8496,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[vergader]V[ing]]N" subset="structure"/>
+              <feat class="[[vergader]V[ing]]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8687,7 +8687,7 @@
                 <t offset="3">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[kan]V[en]]V" subset="structure"/>
+              <feat class="[[kan]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8711,7 +8711,7 @@
                 <t offset="10">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[certifieer]V[en]]V" subset="structure"/>
+              <feat class="[[certifieer]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8762,7 +8762,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="3rd_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/present_tense/singular/3rd_person_verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8811,7 +8811,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[certificeer]V[en]]V" subset="structure"/>
+              <feat class="[[certificeer]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8972,7 +8972,7 @@
                 <t offset="8">n</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[concilie]N[n]]N" subset="structure"/>
+              <feat class="[[concilie]N[n]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8995,7 +8995,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9035,7 +9035,7 @@
                 <t offset="3">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[dag]N[en]]N" subset="structure"/>
+              <feat class="[[dag]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9098,7 +9098,7 @@
                 <t offset="10">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[concilieer]V[en]]V" subset="structure"/>
+              <feat class="[[concilieer]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9250,7 +9250,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[contrarieer]V[en]]V" subset="structure"/>
+              <feat class="[[contrarieer]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9317,7 +9317,7 @@
                 <t offset="14">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[contrarieer]V[end][e]]V" subset="structure"/>
+              <feat class="[[contrarieer]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9465,7 +9465,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[contrarieer]V[en]]V" subset="structure"/>
+              <feat class="[[contrarieer]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9532,7 +9532,7 @@
                 <t offset="16">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[contravenieer]V[end][e]]V" subset="structure"/>
+              <feat class="[[contravenieer]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9692,7 +9692,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9747,7 +9747,7 @@
                 <t offset="17">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[[controversie]N[eel]]A[er][e]]A" subset="structure"/>
+              <feat class="[[[controversie]N[eel]]A[er]comparative[e]suffix-e]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9832,7 +9832,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[spel]V[ing]]N" subset="structure"/>
+              <feat class="[[spel]V[ing]]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10046,7 +10046,7 @@
                 <t offset="4">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[zaak]N[en]]N" subset="structure"/>
+              <feat class="[[zaak]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10071,7 +10071,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[convenieer]V[en]]V" subset="structure"/>
+              <feat class="[[convenieer]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10233,7 +10233,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[definieer]V[en]]V" subset="structure"/>
+              <feat class="[[definieer]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10299,7 +10299,7 @@
                 <feat class="suffix-e" subset="inflection"/>
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[[[different]A[ie]]N[eel]]A[e]]A" subset="structure"/>
+              <feat class="[[[[different]A[ie]]N[eel]]A[e]suffix-e/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10344,7 +10344,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[ver][gelijk]V]V[ing]]N" subset="structure"/>
+              <feat class="[[[ver][gelijk]V]V[ing]]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10481,7 +10481,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[differentieer]A[[ing][s][proces]N]N]N" subset="structure"/>
+              <feat class="[[differentieer]A[[ing][s][proces]N]N/singular]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10511,7 +10511,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="2nd_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[[ver]N[loop]V[t]]V" subset="structure"/>
+              <feat class="[[ver]N[loop]V[t]present_tense/singular/2nd_person_verb]V" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.15.s.1.w.3.alt-mor.1" auth="no">
@@ -10533,7 +10533,7 @@
                   <feat class="singular" subset="inflection"/>
                   <feat class="3rd_person_verb" subset="inflection"/>
                 </morpheme>
-                <feat class="[[ver]N[loop]V[t]]V" subset="structure"/>
+                <feat class="[[ver]N[loop]V[t]present_tense/singular/3rd_person_verb]V" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -10567,7 +10567,7 @@
               <morpheme class="inflection">
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[eenvoud]N[ig]]A" subset="structure"/>
+              <feat class="[[eenvoud]N[ig]]A/positive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10679,7 +10679,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="3rd_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/present_tense/singular/3rd_person_verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10703,7 +10703,7 @@
                 <t offset="11">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[discussieer]V[en]]V" subset="structure"/>
+              <feat class="[[discussieer]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10861,7 +10861,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10905,7 +10905,7 @@
                 <t offset="9">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[domicilie]N[en]]N" subset="structure"/>
+              <feat class="[[domicilie]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11078,7 +11078,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11134,7 +11134,7 @@
                 <feat class="suffix-e" subset="inflection"/>
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[[essentie]N[eel]]A[e]]A" subset="structure"/>
+              <feat class="[[[essentie]N[eel]]A[e]suffix-e/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11158,7 +11158,7 @@
                 <t offset="4">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[zaak]N[en]]N" subset="structure"/>
+              <feat class="[[zaak]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11289,7 +11289,7 @@
                 <feat class="present_tense" subset="inflection"/>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[ex][communieer]V]V[en]]V" subset="structure"/>
+              <feat class="[[[ex][communieer]V]V[en]present_tense/plural]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11417,7 +11417,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="1st_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[moet]V" subset="structure"/>
+              <feat class="[moet]V/present_tense/singular/1st_person_verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11441,7 +11441,7 @@
                 <t offset="10">en</t>
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[expatrieer]V[en]]V" subset="structure"/>
+              <feat class="[[expatrieer]V[en]infinitive]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11602,7 +11602,7 @@
                 <t offset="10">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[folieer]V[end][e]]V" subset="structure"/>
+              <feat class="[[folieer]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11642,7 +11642,7 @@
                 <t offset="12">s</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[balie]N[[kluif]V[er]]N[s]]N" subset="structure"/>
+              <feat class="[[balie]N[[kluif]V[er]]N[s]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11737,7 +11737,7 @@
                 <t offset="9">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[fotokopie]N[en]]N" subset="structure"/>
+              <feat class="[[fotokopie]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11760,7 +11760,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11831,7 +11831,7 @@
                 <t offset="14">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[foto]N[kopieer]V[end][e]]V" subset="structure"/>
+              <feat class="[[foto]N[kopieer]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11869,7 +11869,7 @@
                 <t offset="10">s</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[mede]B[[werk]V[er]]N[s]]N" subset="structure"/>
+              <feat class="[[mede]B[[werk]V[er]]N[s]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -11905,7 +11905,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="2nd_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[[[ver][pruts]V]V[t]]V" subset="structure"/>
+              <feat class="[[[ver][pruts]V]V[t]present_tense/singular/2nd_person_verb]V" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.22.s.1.w.8.alt-mor.1" auth="no">
@@ -11933,7 +11933,7 @@
                   <feat class="singular" subset="inflection"/>
                   <feat class="3rd_person_verb" subset="inflection"/>
                 </morpheme>
-                <feat class="[[[ver][pruts]V]V[t]]V" subset="structure"/>
+                <feat class="[[[ver][pruts]V]V[t]present_tense/singular/3rd_person_verb]V" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -11961,7 +11961,7 @@
                   <feat class="participle" subset="inflection"/>
                   <feat class="past_tense" subset="inflection"/>
                 </morpheme>
-                <feat class="[[[ver][pruts]V]V[t]]V" subset="structure"/>
+                <feat class="[[[ver][pruts]V]V[t]participle/past_tense]V" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -12115,7 +12115,7 @@
                 <t offset="14">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[fructifieer]V[end][e]]V" subset="structure"/>
+              <feat class="[[fructifieer]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12140,7 +12140,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[frou-frou]N" subset="structure"/>
+              <feat class="[frou-frou]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12216,7 +12216,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="3rd_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/present_tense/singular/3rd_person_verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12240,7 +12240,7 @@
                 <t offset="6">on</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[gangli]N[on]]N" subset="structure"/>
+              <feat class="[[gangli]N[on]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12285,7 +12285,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[meervoud]N" subset="structure"/>
+              <feat class="[meervoud]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12328,7 +12328,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[ganglion]N" subset="structure"/>
+              <feat class="[ganglion]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12445,7 +12445,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="3rd_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/present_tense/singular/3rd_person_verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12476,7 +12476,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="3rd_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[[ge][naken]V[t]]V" subset="structure"/>
+              <feat class="[[ge]participle/past_tense[naken]V[t]present_tense/singular/3rd_person_verb]V" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.25.s.1.w.3.alt-lem.1" auth="no">
@@ -12497,7 +12497,7 @@
                   <feat class="singular" subset="inflection"/>
                   <feat class="2nd_person_verb" subset="inflection"/>
                 </morpheme>
-                <feat class="[[genaak]V[t]]V" subset="structure"/>
+                <feat class="[[genaak]V[t]present_tense/singular/2nd_person_verb]V" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -12604,7 +12604,7 @@
                 <feat class="past_tense" subset="inflection"/>
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[word]V" subset="structure"/>
+              <feat class="[word]V/past_tense/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12645,7 +12645,7 @@
                 <feat class="participle" subset="inflection"/>
                 <feat class="past_tense" subset="inflection"/>
               </morpheme>
-              <feat class="[[ge]A[raken]V[t]]V" subset="structure"/>
+              <feat class="[[ge]A[raken]V[t]participle/past_tense]V" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.26.s.1.w.4.alt-lem.1" auth="no">
@@ -12665,7 +12665,7 @@
                   <feat class="participle" subset="inflection"/>
                   <feat class="past_tense" subset="inflection"/>
                 </morpheme>
-                <feat class="[[geraak]V[t]]V" subset="structure"/>
+                <feat class="[[geraak]V[t]participle/past_tense]V" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -12798,7 +12798,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[over]P[geefe]N]N" subset="structure"/>
+              <feat class="[[over]P[geefe]N/singular]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12861,7 +12861,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[slag]N" subset="structure"/>
+              <feat class="[slag]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12990,7 +12990,7 @@
                 <feat class="participle" subset="inflection"/>
                 <feat class="present_tense" subset="inflection"/>
               </morpheme>
-              <feat class="[[glorieer]V[end]]V" subset="structure"/>
+              <feat class="[[glorieer]V[end]participle/present_tense]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13015,7 +13015,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[moment]N" subset="structure"/>
+              <feat class="[moment]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13082,7 +13082,7 @@
                 <t offset="10">e</t>
                 <feat class="suffix-e" subset="inflection"/>
               </morpheme>
-              <feat class="[[jakhals]V[end][e]]V" subset="structure"/>
+              <feat class="[[jakhals]V[end]participle/present_tense[e]suffix-e]V" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13117,7 +13117,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[journaal]N[ist]]N" subset="structure"/>
+              <feat class="[[journaal]N[ist]]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13257,7 +13257,7 @@
                 <feat class="suffix-e" subset="inflection"/>
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[reëel]A[e]]A" subset="structure"/>
+              <feat class="[[reëel]A[e]suffix-e/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13286,7 +13286,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[voor]B[beeld]N]N" subset="structure"/>
+              <feat class="[[voor]B[beeld]N/singular]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13311,7 +13311,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="1st_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[bleek]V" subset="structure"/>
+              <feat class="[bleek]V/present_tense/singular/1st_person_verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13351,7 +13351,7 @@
                 <t offset="9">er</t>
                 <feat class="comparative" subset="inflection"/>
               </morpheme>
-              <feat class="[[surreëel]A[er]]A" subset="structure"/>
+              <feat class="[[surreëel]A[er]comparative]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13396,7 +13396,7 @@
                 <feat class="participle" subset="inflection"/>
                 <feat class="past_tense" subset="inflection"/>
               </morpheme>
-              <feat class="[[ge]N[denk]V[t]]V" subset="structure"/>
+              <feat class="[[ge]N[denk]V[t]participle/past_tense]V" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.29.s.1.w.8.alt-lem.1" auth="no">
@@ -13416,7 +13416,7 @@
                   <feat class="participle" subset="inflection"/>
                   <feat class="past_tense" subset="inflection"/>
                 </morpheme>
-                <feat class="[[gedenken]V]V" subset="structure"/>
+                <feat class="[[gedenken]Vparticiple/past_tense]V" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -13570,7 +13570,7 @@
                 <t offset="8">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[spondeus]N[en]]N" subset="structure"/>
+              <feat class="[[spondeus]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.30.s.1.w.2.alt-lem.1" auth="no">
@@ -13596,7 +13596,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13621,7 +13621,7 @@
                 <feat class="singular" subset="inflection"/>
                 <feat class="1st_person_verb" subset="inflection"/>
               </morpheme>
-              <feat class="[wijt]V" subset="structure"/>
+              <feat class="[wijt]V/present_tense/singular/1st_person_verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13772,7 +13772,7 @@
                 <t offset="8">en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[trocheus]N[en]]N" subset="structure"/>
+              <feat class="[[trocheus]N[en]plural]N" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.31.s.1.w.1.alt-lem.1" auth="no">
@@ -13798,7 +13798,7 @@
               <morpheme class="inflection">
                 <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[zijn]V" subset="structure"/>
+              <feat class="[zijn]V/infinitive" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13825,7 +13825,7 @@
               <morpheme class="inflection">
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[wel]A[bekend]A]A" subset="structure"/>
+              <feat class="[[wel]A[bekend]A/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -13899,7 +13899,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[taal]N[kunde]N]N" subset="structure"/>
+              <feat class="[[taal]N[kunde]N]N/singular" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -14036,7 +14036,7 @@
                 <feat class="suffix-e" subset="inflection"/>
                 <feat class="positive" subset="inflection"/>
               </morpheme>
-              <feat class="[[financiee]V[l][e]]A" subset="structure"/>
+              <feat class="[[financiee]V[l][e]suffix-e/positive]A" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -14077,7 +14077,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[tegen]P[[val]V[er]]N]N" subset="structure"/>
+              <feat class="[[tegen]P[[val]V[er]]N/singular]N" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
