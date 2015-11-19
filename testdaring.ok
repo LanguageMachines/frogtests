@@ -10,14 +10,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v0.13" version="0.12.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-18T17:38:41" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-18T17:38:41" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-18T17:38:41" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-18T17:38:41" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-18T17:38:41" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-18T17:38:41" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-18T17:38:41" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-18T17:38:41" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-19T15:40:58" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-19T15:40:58" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-19T15:40:58" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-19T15:40:58" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-19T15:40:58" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-19T15:40:58" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-19T15:40:58" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-19T15:40:58" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -241,7 +241,7 @@
 2	leiden	leiden	[[leid]verb[en]/present-tense/plural]verb	WW(pv,tgw,mv)	0.857143	O	B-VP	0	ROOT
 3	aan	aan	[aan]preposition	VZ(init)	0.745129	O	B-PP	2	pc
 4	bacteriënvrees	bacteriënvrees	[[bacterie]noun[en]/plural[vrees]noun/singular]noun	N(soort,mv,basis)	0.646080	O	B-NP	3	obj1
-5	vanwege	vanwege	[vanwege]	VZ(init)	0.999078	O	B-PP	4	mod
+5	vanwege	vanwege	[vanwege]preposition	VZ(init)	0.999078	O	B-PP	4	mod
 6	de	de	[de]article	LID(bep,stan,rest)	0.981886	O	B-NP	7	det
 7	bediendenbelastingen	bediendenbelasting	[[[bediende]noun[n][[[be][last]noun]verb[ing]]noun]noun[en]/plural]noun	N(soort,mv,basis)	0.903723	O	I-NP	5	obj1
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
@@ -255,21 +255,21 @@
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	De	de	[de]article	LID(bep,stan,rest)	0.877577	O	B-NP	2	det
-2	beoliënde	beoliënde	[beoliënde]	N(soort,ev,basis,zijd,stan)	0.337832	O	I-NP	3	cnj
+2	beoliënde	beoliënde	[beoliënde]noun	N(soort,ev,basis,zijd,stan)	0.337832	O	I-NP	3	cnj
 3	en	en	[en]conjunction	VG(neven)	0.999194	O	B-CONJP	0	ROOT
-4	betraliënde	betraliënde	[betraliënde]	ADJ(prenom,basis,met-e,stan)	0.591576	O	B-NP	5	mod
+4	betraliënde	betraliënde	[betraliënde]adjective	ADJ(prenom,basis,met-e,stan)	0.591576	O	B-NP	5	mod
 5	bezienswaardigheden	bezienswaardigheid	[[[be][zie]verb]verb[ns][[[waarde]noun[ig]]adjective[heid]]noun[en]/plural]noun	N(soort,mv,basis)	0.999588	O	I-NP	3	cnj
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	De	de	[de]article	LID(bep,stan,rest)	0.877577	O	B-NP	2	det
-2	braniënde	braniënde	[braniënde]	N(soort,ev,basis,zijd,stan)	0.433178	O	I-NP	4	obj1
+2	braniënde	braniënde	[braniënde]noun	N(soort,ev,basis,zijd,stan)	0.433178	O	I-NP	4	obj1
 3	buspatiënten	buspatiënt	[[[bus]noun[patiënt]noun]noun[en]/plural]noun	N(soort,mv,basis)	0.667235	O	I-NP	2	mod
-4	gebruiken	gebruiken	[gebruiken]	WW(inf,vrij,zonder)	0.782340	O	B-VP	0	ROOT
+4	gebruiken	gebruiken	[gebruiken]verb	WW(inf,vrij,zonder)	0.782340	O	B-VP	0	ROOT
 5	catechumenenolie	catechumenenolie	[[catechumeen]noun[en][olie]noun]noun/singular	N(soort,ev,basis,zijd,stan)	1.000000	O	B-NP	4	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Ik	ik	[ik]pronoun	VNW(pers,pron,nomin,vol,1,ev)	0.999688	O	B-NP	0	ROOT
-2	dien	die	[dien]	VNW(aanw,det,dial)	0.653768	O	B-PP	4	det
+2	dien	die	[dien]pronoun	VNW(aanw,det,dial)	0.653768	O	B-PP	4	det
 3	de	de	[de]article	LID(bep,stan,rest)	0.999852	O	B-NP	4	det
 4	dienaressen	dienares	[[[[dien]verb[aar]]noun[es]]noun[en]/plural]noun	N(soort,mv,basis)	0.998726	O	I-NP	0	ROOT
 5	in	in	[in]preposition	VZ(init)	0.931125	O	B-PP	4	mod
@@ -329,7 +329,7 @@
 3	ziekenhuisvoorziening	ziekenhuisvoorziening	[[[zieke]noun[n][huis]noun]noun[voor]adverb[[zie]verb[ing]]noun/singular]noun	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	0	ROOT
 4	.	.	[.]	LET()	1.000000	O	O	3	punct
 
-1	Alles	alles	[alles]	VNW(onbep,pron,stan,vol,3o,ev)	0.994808	O	B-NP	2	su
+1	Alles	alles	[alles]pronoun	VNW(onbep,pron,stan,vol,3o,ev)	0.994808	O	B-NP	2	su
 2	overziende	overziende	[[over]preposition[zie]verb[nd]/participle/present-tense[e]/suffix-e]verb	WW(pv,verl,ev)	0.951936	O	I-NP	0	ROOT
 3	zijn	zijn	[zijn]verb/infinitive	WW(inf,vrij,zonder)	0.666667	O	B-VP	2	vc
 4	de	de	[de]article	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
@@ -405,14 +405,14 @@
 5	we	we	[we]pronoun	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP	9	su
 6	het	het	[het]article	LID(bep,stan,evon)	0.997424	O	B-NP	7	det
 7	dak	dak	[dak]noun/singular	N(soort,ev,basis,onz,stan)	0.996804	O	I-NP	8	me
-8	verleien	verleien	[verleien]	ADJ(vrij,basis,zonder)	0.327419	O	B-VP	9	predc
+8	verleien	verleien	[verleien]adjective	ADJ(vrij,basis,zonder)	0.327419	O	B-VP	9	predc
 9	moesten	moeten	[[moet]verb[en]/past-tense/plural]verb	WW(pv,verl,mv)	0.997888	O	I-VP	4	body
 10	.	.	[.]	LET()	1.000000	O	O	9	punct
 
 1	Dat	dat	[dat]pronoun	VNW(aanw,pron,stan,vol,3o,ev)	0.868670	O	B-NP	2	obj1
 2	moesten	moeten	[[moet]verb[en]/past-tense/plural]verb	WW(pv,verl,mv)	0.997888	O	B-VP	0	ROOT
 3	we	we	[we]pronoun	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP	2	su
-4	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	5	mod
+4	wel	wel	[wel]adverb	BW()	0.999831	O	B-ADVP	5	mod
 5	uitkienen	uitkienen	[[uitkien]verb[en]/infinitive]verb	WW(inf,vrij,zonder)	0.972973	O	B-VP	2	vc
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
@@ -429,14 +429,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v0.13" version="0.12.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-18T17:38:44" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-18T17:38:44" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-18T17:38:44" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-18T17:38:44" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-18T17:38:44" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-18T17:38:44" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-18T17:38:44" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-18T17:38:44" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-19T15:41:02" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-19T15:41:02" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-19T15:41:02" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-19T15:41:02" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-19T15:41:02" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-19T15:41:02" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-19T15:41:02" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-19T15:41:02" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -850,7 +850,7 @@
             <morpheme class="stem">
               <t>vanwege</t>
               <pos class="P" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[vanwege]" subset="structure"/>
+              <feat class="[vanwege]preposition" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1346,7 +1346,7 @@
             <morpheme class="stem">
               <t>beoliënde</t>
               <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[beoliënde]" subset="structure"/>
+              <feat class="[beoliënde]noun" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1381,7 +1381,7 @@
             <morpheme class="stem">
               <t>betraliënde</t>
               <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[betraliënde]" subset="structure"/>
+              <feat class="[betraliënde]adjective" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1552,7 +1552,7 @@
             <morpheme class="stem">
               <t>braniënde</t>
               <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[braniënde]" subset="structure"/>
+              <feat class="[braniënde]noun" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1605,7 +1605,7 @@
             <morpheme class="stem">
               <t>gebruiken</t>
               <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[gebruiken]" subset="structure"/>
+              <feat class="[gebruiken]verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -1755,7 +1755,7 @@
             <morpheme class="stem">
               <t>dien</t>
               <pos class="O" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[dien]" subset="structure"/>
+              <feat class="[dien]pronoun" subset="structure"/>
             </morpheme>
           </morphology>
           <alt xml:id="untitled.p.6.s.1.w.2.alt-lem.1" auth="no">
@@ -3781,7 +3781,7 @@
             <morpheme class="stem">
               <t>alles</t>
               <pos class="O" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[alles]" subset="structure"/>
+              <feat class="[alles]pronoun" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6098,7 +6098,7 @@
             <morpheme class="stem">
               <t>verleien</t>
               <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[verleien]" subset="structure"/>
+              <feat class="[verleien]adjective" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6323,7 +6323,7 @@
             <morpheme class="stem">
               <t>wel</t>
               <pos class="B" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[wel]" subset="structure"/>
+              <feat class="[wel]adverb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -6686,7 +6686,7 @@
 5	?	?	[?]	LET()	1.000000	O	O	4	punct
 
 1	Dat	dat	[dat]pronoun	VNW(aanw,pron,stan,vol,3o,ev)	0.995495	O	B-NP	2	obj1
-2	moeten	moeten	[moeten]	WW(pv,tgw,mv)	0.672768	O	B-VP	0	ROOT
+2	moeten	moeten	[moeten]verb	WW(pv,tgw,mv)	0.672768	O	B-VP	0	ROOT
 3	we	we	[we]pronoun	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP	2	su
 4	bediscussiëren	bediscussiëren	[[[be][discussieer]verb]verb[en]/present-tense/plural]verb	WW(pv,tgw,mv)	0.857143	O	B-VP	2	vc
 5	in	in	[in]preposition	VZ(init)	0.999350	O	B-PP	4	pc
@@ -6695,7 +6695,7 @@
 8	vergadering	vergadering	[[vergader]verb[ing]]noun/singular	N(soort,ev,basis,zijd,stan)	0.998281	O	I-NP	5	obj1
 9	?	?	[?]	LET()	1.000000	O	O	8	punct
 
-1	Zodat	zodat	[zodat]	VG(onder)	0.998089	O	B-SBAR	0	ROOT
+1	Zodat	zodat	[zodat]conjunction	VG(onder)	0.998089	O	B-SBAR	0	ROOT
 2	we	we	[we]pronoun	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP	4	su
 3	het	het	[het]pronoun	VNW(pers,pron,stan,red,3,ev,onz)	0.884615	O	B-NP	4	su
 4	kunnen	kunnen	[[kan]verb[en]/infinitive]verb	WW(pv,tgw,mv)	0.534687	O	B-VP	1	body
@@ -6721,7 +6721,7 @@
 3	over	over	[over]preposition	VZ(init)	0.958333	O	B-PP	2	mod
 4	de	de	[de]article	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
 5	contrariërende	contrariëren	[[contrarieer]verb[end]/participle/present-tense[e]/suffix-e]verb	WW(od,prenom,met-e)	0.744567	O	I-NP	6	mod
-6	onderwerpen	onderwerp	[onderwerpen]	N(soort,mv,basis)	0.996470	O	I-NP	3	obj1
+6	onderwerpen	onderwerp	[onderwerpen]noun	N(soort,mv,basis)	0.996470	O	I-NP	3	obj1
 7	!	!	[!]	LET()	1.000000	O	O	6	punct
 
 1	Ze	ze	[ze]pronoun	VNW(pers,pron,stan,red,3,mv)	0.514499	O	B-NP	2	su
@@ -6729,20 +6729,20 @@
 3	over	over	[over]preposition	VZ(init)	0.958333	O	B-PP	2	mod
 4	de	de	[de]article	LID(bep,stan,rest)	0.981886	O	B-NP	6	det
 5	contraveniërende	contraveniëren	[[contravenieer]verb[end]/participle/present-tense[e]/suffix-e]verb	WW(od,prenom,met-e)	0.744567	O	I-NP	6	mod
-6	onderwerpen	onderwerp	[onderwerpen]	N(soort,mv,basis)	0.996470	O	I-NP	3	obj1
+6	onderwerpen	onderwerp	[onderwerpen]noun	N(soort,mv,basis)	0.996470	O	I-NP	3	obj1
 7	!	!	[!]	LET()	1.000000	O	O	6	punct
 
-1	Maar	maar	[maar]	VG(neven)	0.994319	O	B-PP	0	ROOT
+1	Maar	maar	[maar]conjunction	VG(neven)	0.994319	O	B-PP	0	ROOT
 2	er	er	[er]pronoun	VNW(aanw,adv-pron,stan,red,3,getal)	0.996845	O	B-ADVP	3	mod
 3	zijn	zijn	[zijn]verb/infinitive	WW(pv,tgw,mv)	0.986083	O	B-VP	0	ROOT
 4	nog	nog	[nog]adverb	BW()	0.999930	O	B-ADVP	3	mod
 5	controversiëlere	controversieel	[[[controversie]noun[eel]]adjective[er]/comparative[e]/suffix-e]adjective	ADJ(prenom,comp,met-e,stan)	0.990385	O	B-NP	6	mod
-6	onderwerpen	onderwerp	[onderwerpen]	N(soort,mv,basis)	0.998911	O	I-NP	3	su
-7	dan	dan	[dan]	VG(onder)	0.727273	O	B-PP	6	mod
+6	onderwerpen	onderwerp	[onderwerpen]noun	N(soort,mv,basis)	0.998911	O	I-NP	3	su
+7	dan	dan	[dan]conjunction	VG(onder)	0.727273	O	B-PP	6	mod
 8	de	de	[de]article	LID(bep,stan,rest)	0.999647	O	B-NP	9	det
 9	spelling	spelling	[[spel]verb[ing]]noun/singular	N(soort,ev,basis,zijd,stan)	0.999662	O	I-NP	7	body
 10	van	van	[van]preposition	VZ(init)	0.959310	O	B-PP	9	mod
-11	controversiëler	controversiëler	[controversiëler]	N(soort,ev,basis,onz,stan)	0.587848	O	B-NP	10	obj1
+11	controversiëler	controversiëler	[controversiëler]noun	N(soort,ev,basis,onz,stan)	0.587848	O	B-NP	10	obj1
 12	.	.	[.]	LET()	1.000000	O	O	11	punct
 
 1	Deze	deze	[deze]pronoun	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780	O	B-NP	2	det
@@ -6769,7 +6769,7 @@
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	WW(pv,tgw,ev)	0.996528	O	B-VP	0	ROOT
 3	discussiëren	discussiëren	[[discussieer]verb[en]/infinitive]verb	WW(inf,vrij,zonder)	0.892100	O	I-VP	2	vc
 4	om	om	[om]preposition	VZ(init)	0.997222	O	B-PP	2	su
-5	niets	niets	[niets]	VNW(onbep,pron,stan,vol,3o,ev)	0.997921	O	B-NP	4	obj1
+5	niets	niets	[niets]pronoun	VNW(onbep,pron,stan,vol,3o,ev)	0.997921	O	B-NP	4	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Wat	wat	[wat]pronoun	VNW(vb,pron,stan,vol,3o,ev)	0.903943	O	B-SBAR	0	ROOT
@@ -6834,12 +6834,12 @@
 
 1	Hij	hij	[hij]pronoun	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431	O	B-NP	2	su
 2	werd	worden	[word]verb/past-tense/singular	WW(pv,verl,ev)	0.998963	O	B-VP	0	ROOT
-3	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	4	mod
+3	wel	wel	[wel]adverb	BW()	0.999831	O	B-ADVP	4	mod
 4	geraakt	geraken	[[ge]adjective[raken]verb[t]/participle/past-tense]verb	WW(vd,vrij,zonder)	0.800000	O	B-VP	2	vc
 5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
 1	Met	met	[met]preposition	VZ(init)	0.995378	O	B-PP	0	ROOT
-2	volle	vol	[volle]	ADJ(prenom,basis,met-e,stan)	0.997947	O	B-NP	3	mod
+2	volle	vol	[volle]adjective	ADJ(prenom,basis,met-e,stan)	0.997947	O	B-NP	3	mod
 3	overgave	overgave	[[over]preposition[geefe]noun/singular]noun	N(soort,ev,basis,zijd,stan)	0.999172	O	I-NP	1	obj1
 4	aan	aan	[aan]preposition	VZ(init)	0.999180	O	B-PP	3	mod
 5	de	de	[de]article	LID(bep,stan,rest)	0.999964	O	B-NP	6	det
@@ -6891,14 +6891,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v0.13" version="0.12.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-18T17:38:48" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-18T17:38:48" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-18T17:38:48" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-18T17:38:48" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-18T17:38:48" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-18T17:38:48" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-18T17:38:48" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-18T17:38:48" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-11-19T15:41:07" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2015-11-19T15:41:07" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-19T15:41:07" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2015-11-19T15:41:07" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2015-11-19T15:41:07" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2015-11-19T15:41:07" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2015-11-19T15:41:07" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2015-11-19T15:41:07" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -8302,7 +8302,7 @@
             <morpheme class="stem">
               <t>moeten</t>
               <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[moeten]" subset="structure"/>
+              <feat class="[moeten]verb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -8580,7 +8580,7 @@
             <morpheme class="stem">
               <t>zodat</t>
               <pos class="C" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[zodat]" subset="structure"/>
+              <feat class="[zodat]conjunction" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9301,7 +9301,7 @@
             <morpheme class="stem">
               <t>onderwerpen</t>
               <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[onderwerpen]" subset="structure"/>
+              <feat class="[onderwerpen]noun" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9516,7 +9516,7 @@
             <morpheme class="stem">
               <t>onderwerpen</t>
               <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[onderwerpen]" subset="structure"/>
+              <feat class="[onderwerpen]noun" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9614,7 +9614,7 @@
             <morpheme class="stem">
               <t>maar</t>
               <pos class="C" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[maar]" subset="structure"/>
+              <feat class="[maar]conjunction" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9730,7 +9730,7 @@
             <morpheme class="stem">
               <t>onderwerpen</t>
               <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[onderwerpen]" subset="structure"/>
+              <feat class="[onderwerpen]noun" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9744,7 +9744,7 @@
             <morpheme class="stem">
               <t>dan</t>
               <pos class="C" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[dan]" subset="structure"/>
+              <feat class="[dan]conjunction" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -9834,7 +9834,7 @@
             <morpheme class="stem">
               <t>controversiëler</t>
               <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[controversiëler]" subset="structure"/>
+              <feat class="[controversiëler]noun" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -10700,7 +10700,7 @@
             <morpheme class="stem">
               <t>niets</t>
               <pos class="O" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[niets]" subset="structure"/>
+              <feat class="[niets]pronoun" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12569,7 +12569,7 @@
             <morpheme class="stem">
               <t>wel</t>
               <pos class="B" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[wel]" subset="structure"/>
+              <feat class="[wel]adverb" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
@@ -12720,7 +12720,7 @@
             <morpheme class="stem">
               <t>volle</t>
               <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[volle]" subset="structure"/>
+              <feat class="[volle]adjective" subset="structure"/>
             </morpheme>
           </morphology>
         </w>
