@@ -14,3 +14,5 @@ cat testserver5.out > testserver.out
 cat testserver6.out >> testserver.out
 
 kill $pid
+
+sleep 5

@@ -16,8 +16,7 @@ cat testserver3.out > testserverxml.out
 cat testserver4.out >> testserverxml.out
 
 kill $pid
-
-sleep 4
+sleep 5
 
 $frog_bin/frog -x -X --KANON --skip=p -S 7000  >> testserverxml.log 2>&1  &
 pid=`echo $!`
@@ -34,4 +33,4 @@ cat testserver3.out >> testserverxml.out
 cat testserver4.out >> testserverxml.out
 
 kill $pid
-
+sleep 5
