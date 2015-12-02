@@ -1,15 +1,14 @@
-#!/bin/sh -x
+#!/bin/sh
 
-
-$frog_bin/frog --keep-parser-files -S 7000  > testserver.log 2>&1  &
+$frog_bin/frog -S 7000  > testserver.log 2>&1  &
 pid=`echo $!`
 
-sleep 12
+sleep 30
 
 ./frogclient5 &
 ./frogclient6 &
 
-sleep 4
+sleep 20
 cat testserver5.out > testserver.out
 cat testserver6.out >> testserver.out
 
