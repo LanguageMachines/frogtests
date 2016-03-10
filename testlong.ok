@@ -3704,21 +3704,24 @@
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Maar	maar	[maar]	VG(neven)	0.997961	O	B-PP	0	ROOT
-2	ook	ook	[ook]	BW()	0.999979	O	B-NP	11	mod
+2	ook	ook	[ook]	BW()	0.999979	O	B-NP	3	mod
 3	Kees	Kees	[Kees]	SPEC(deeleigen)	1.000000	B-PER	I-NP	4	cnj
 4	en	en	[en]	VG(neven)	0.994334	I-PER	B-CONJP	6	cnj
 5	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	I-PER	B-NP	4	cnj
-6	en	en	[en]	VG(neven)	0.998082	O	B-CONJP	11	obj1
+6	en	en	[en]	VG(neven)	0.998082	O	B-CONJP	0	ROOT
 7	de	de	[de]	LID(bep,stan,rest)	0.999852	O	B-NP	8	det
 8	honden	hond	[hond][en]	N(soort,mv,basis)	0.999668	O	I-NP	6	cnj
 9	van	van	[van]	VZ(init)	0.959310	O	B-PP	8	mod
-10	hen.Wij	hen.wij	[hen.wij]	N(soort,ev,basis,zijd,stan)	1.000000	O	B-NP	9	obj1
-11	roeien	roeien	[roei][en]	WW(inf,vrij,zonder)	0.884615	O	B-VP	0	ROOT
-12	in	in	[in]	VZ(init)	0.999350	O	B-PP	11	mod
-13	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP	15	det
-14	kleine	klein	[klein][e]	ADJ(prenom,basis,met-e,stan)	0.967387	O	I-NP	15	mod
-15	boot	boot	[boot]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	12	obj1
-16	.	.	[.]	LET()	1.000000	O	O	15	punct
+10	hen	hen	[hen]	VNW(pers,pron,obl,vol,3p,mv)	0.999084	O	B-NP	9	obj1
+11	.	.	[.]	LET()	1.000000	O	O	10	punct
+
+1	Wij	wij	[wij]	VNW(pers,pron,nomin,vol,1,mv)	0.998887	O	B-NP	2	su
+2	roeien	roeien	[roei][en]	WW(pv,tgw,mv)	1.000000	O	B-VP	0	ROOT
+3	in	in	[in]	VZ(init)	0.999350	O	B-PP	2	pc
+4	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP	6	det
+5	kleine	klein	[klein][e]	ADJ(prenom,basis,met-e,stan)	0.967387	O	I-NP	6	mod
+6	boot	boot	[boot]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	3	obj1
+7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Het	het	[het]	VNW(pers,pron,stan,red,3,ev,onz)	0.993432	O	B-NP	2	su
 2	was	zijn	[zijn]	WW(pv,verl,ev)	0.999647	O	B-VP	0	ROOT
