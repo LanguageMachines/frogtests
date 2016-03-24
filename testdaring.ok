@@ -10,11 +10,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.1" version="1.0.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-03-23T12:30:14" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-03-23T12:30:14" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-23T12:30:14" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-03-23T12:30:14" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-23T12:30:14" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-03-24T11:49:32" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-03-24T11:49:32" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-24T11:49:32" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-03-24T11:49:32" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-24T11:49:32" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="untitled.text">
@@ -352,7 +352,7 @@
 1	Dat	dat	[dat]pronoun	VNW(aanw,pron,stan,vol,3o,ev)	0.868670						
 2	moesten	moeten	[[moet]verb[en]/past-tense/plural]verb	WW(pv,verl,mv)	0.997888						
 3	we	we	[we]pronoun	VNW(pers,pron,nomin,red,1,mv)	0.999170						
-4	wel	wel	[wel]adverb	BW()	0.999831						
+4	wel	wel	[wel]adjective/positive	BW()	0.999831						
 5	uitkienen	uitkienen	[[uitkien]verb[en]/infinitive]verb	WW(inf,vrij,zonder)	0.972973						
 6	.	.	[.]	LET()	1.000000						
 
@@ -369,11 +369,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.1" version="1.0.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-03-23T12:30:15" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-03-23T12:30:15" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-23T12:30:15" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-03-23T12:30:15" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-23T12:30:15" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-03-24T11:49:34" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-03-24T11:49:34" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-24T11:49:34" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-03-24T11:49:34" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-24T11:49:34" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="untitled.text">
@@ -4834,10 +4834,17 @@
           <t>wel</t>
           <pos class="BW()" confidence="0.999831" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <morphology>
-            <morpheme class="stem">
+            <morpheme class="complex">
               <t>wel</t>
-              <pos class="B" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[wel]adverb" subset="structure"/>
+              <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              <morpheme class="stem">
+                <t>wel</t>
+                <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+              <morpheme class="inflection">
+                <feat class="positive" subset="inflection"/>
+              </morpheme>
+              <feat class="[wel]adjective/positive" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="wel"/>
@@ -5214,7 +5221,7 @@
 
 1	Hij	hij	[hij]pronoun	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431						
 2	werd	worden	[word]verb/past-tense/singular	WW(pv,verl,ev)	0.998963						
-3	wel	wel	[wel]adverb	BW()	0.999831						
+3	wel	wel	[wel]adjective/positive	BW()	0.999831						
 4	geraakt	geraken	[[ge][raken]verb[t]/participle/past-tense]verb	WW(vd,vrij,zonder)	0.800000						
 5	.	.	[.]	LET()	1.000000						
 
@@ -5271,11 +5278,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.1" version="1.0.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-03-23T12:30:17" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-03-23T12:30:17" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-23T12:30:17" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-03-23T12:30:17" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-23T12:30:17" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-03-24T11:49:35" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-03-24T11:49:35" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-24T11:49:35" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-03-24T11:49:35" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-24T11:49:35" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="untitled.text">
@@ -9354,10 +9361,17 @@
           <t>wel</t>
           <pos class="BW()" confidence="0.999831" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <morphology>
-            <morpheme class="stem">
+            <morpheme class="complex">
               <t>wel</t>
-              <pos class="B" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[wel]adverb" subset="structure"/>
+              <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              <morpheme class="stem">
+                <t>wel</t>
+                <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+              <morpheme class="inflection">
+                <feat class="positive" subset="inflection"/>
+              </morpheme>
+              <feat class="[wel]adjective/positive" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="wel"/>
@@ -10484,7 +10498,7 @@
 
 1	Dat	dat	[dat]pronoun	VNW(aanw,pron,stan,vol,3o,ev)	0.999022						
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	WW(pv,tgw,ev)	0.999966						
-3	stilaan	stilaan	[stilaan]adverb	BW()	0.997264						
+3	stilaan	stilaan	[[stil]adjective[aan]preposition]adjective	BW()	0.997264						
 4	best	best	[[goed]adjective[st]/superlative]adjective	ADJ(vrij,sup,zonder)	0.982079						
 5	goed	goed	[goed]adjective/positive	ADJ(vrij,basis,zonder)	0.996926						
 6	.	.	[.]	LET()	1.000000						
@@ -10502,7 +10516,7 @@
 5	.	.	[.]	LET()	1.000000						
 
 1	Maar	maar	[maar]conjunction	VG(neven)	0.997961						
-2	wel	wel	[wel]adverb	BW()	0.999831						
+2	wel	wel	[wel]adjective/positive	BW()	0.999831						
 3	alomtegenwoordig	alomtegenwoordig	[[alom]adverb[tegenwoordig]adjective/positive]adjective	ADJ(vrij,basis,zonder)	0.997612						
 4	.	.	[.]	LET()	1.000000						
 
@@ -10583,11 +10597,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.1" version="1.0.0">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-03-23T12:30:18" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-03-23T12:30:18" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-23T12:30:18" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-03-23T12:30:18" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-23T12:30:18" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-03-24T11:49:37" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-03-24T11:49:37" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-24T11:49:37" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-03-24T11:49:37" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-03-24T11:49:37" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
     </annotations>
   </metadata>
   <text xml:id="untitled.text">
@@ -11573,10 +11587,20 @@
           <t>stilaan</t>
           <pos class="BW()" confidence="0.997264" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <morphology>
-            <morpheme class="stem">
+            <morpheme class="complex">
               <t>stilaan</t>
-              <pos class="B" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[stilaan]adverb" subset="structure"/>
+              <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
+                <feat class="AP" subset="compound"/>
+              </pos>
+              <morpheme class="stem">
+                <t>stil</t>
+                <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+              <morpheme class="stem">
+                <t>aan</t>
+                <pos class="P" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+              <feat class="[[stil]adjective[aan]preposition]adjective" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="stilaan"/>
@@ -11902,10 +11926,17 @@
           <t>wel</t>
           <pos class="BW()" confidence="0.999831" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <morphology>
-            <morpheme class="stem">
+            <morpheme class="complex">
               <t>wel</t>
-              <pos class="B" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-              <feat class="[wel]adverb" subset="structure"/>
+              <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              <morpheme class="stem">
+                <t>wel</t>
+                <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+              <morpheme class="inflection">
+                <feat class="positive" subset="inflection"/>
+              </morpheme>
+              <feat class="[wel]adjective/positive" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="wel"/>

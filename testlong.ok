@@ -544,7 +544,7 @@
 5	je	je	[je]	VNW(pers,pron,nomin,red,2v,ev)	0.750000	O	B-NP	4	su
 6	hersens	hersens	[hersen][s]	N(soort,mv,basis)	0.999152	O	I-NP	4	obj1
 7	nou	nou	[nou]	BW()	0.998251	O	B-ADVP	4	mod
-8	eens	eens	[eens]	BW()	0.929416	O	B-ADVP	10	mod
+8	eens	eens	[een][s]	BW()	0.929416	O	B-ADVP	10	mod
 9	een	een	[een]	LID(onbep,stan,agr)	0.996085	O	B-NP	10	det
 10	keer	keer	[keer]	N(soort,ev,basis,zijd,stan)	0.958333	O	I-NP	0	ROOT
 11	.	.	[.]	LET()	1.000000	O	O	10	punct
@@ -683,7 +683,7 @@
 13	moet	moeten	[moet]	WW(pv,tgw,ev)	0.999794	O	B-VP	0	ROOT
 14	het	het	[het]	VNW(pers,pron,stan,red,3,ev,onz)	0.995475	O	B-NP	13	su
 15	maar	maar	[maar]	BW()	0.925311	O	B-ADVP	13	predm
-16	eens	eens	[eens]	BW()	0.975862	O	B-ADVP	17	mod
+16	eens	eens	[een][s]	BW()	0.975862	O	B-ADVP	17	mod
 17	gezegd	zeggen	[ge][zeg][d]	WW(vd,vrij,zonder)	0.992512	O	B-VP	18	vc
 18	worden	worden	[word][en]	WW(inf,vrij,zonder)	0.920000	O	I-VP	13	vc
 19	:	:	[:]	LET()	1.000000	O	O	18	punct
@@ -974,7 +974,7 @@
 28	het	het	[het]	VNW(pers,pron,stan,red,3,ev,onz)	0.993377	O	B-NP	27	su
 29	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	27	mod
 30	weer	weer	[weer]	BW()	0.990909	O	B-ADVP	31	mod
-31	eens	eens	[eens]	BW()	0.967213	O	B-ADVP	0	ROOT
+31	eens	eens	[een][s]	BW()	0.967213	O	B-ADVP	0	ROOT
 32	tijd	tijd	[tijd]	N(soort,ev,basis,zijd,stan)	0.999884	O	B-NP	0	ROOT
 33	voor	voor	[voor]	VZ(init)	0.997829	O	B-PP	32	mod
 34	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	36	det
@@ -1119,7 +1119,7 @@
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999966	O	B-VP	0	ROOT
-3	evenmin	evenmin	[evenmin]	BW()	0.999464	O	B-ADVP	2	mod
+3	evenmin	evenmin	[even][min]	BW()	0.999464	O	B-ADVP	2	mod
 4	een	een	[een]	LID(onbep,stan,agr)	0.998962	O	B-NP	5	det
 5	roker	roker	[rook][er]	N(soort,ev,basis,zijd,stan)	0.997772	O	I-NP	2	su
 6	als	als	[als]	VG(onder)	0.800000	O	B-PP	5	vc
@@ -1128,7 +1128,7 @@
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999966	O	B-VP	0	ROOT
-3	zomin	zomin	[zomin]	BW()	0.999464	O	B-ADVP	2	mod
+3	zomin	zomin	[zo][min]	BW()	0.999464	O	B-ADVP	2	mod
 4	een	een	[een]	LID(onbep,stan,agr)	0.998962	O	B-NP	5	det
 5	roker	roker	[rook][er]	N(soort,ev,basis,zijd,stan)	0.997772	O	I-NP	2	su
 6	als	als	[als]	VG(onder)	0.720588	O	B-PP	5	vc
