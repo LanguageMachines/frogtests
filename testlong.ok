@@ -306,7 +306,7 @@
 14	hoort	horen	[hoor][t]	WW(pv,tgw,met-t)	0.998785	O	B-VP	0	ROOT
 15	begint	beginnen	[begin][t]	WW(pv,tgw,met-t)	0.997352	O	B-VP	0	ROOT
 16	ze	ze	[ze]	VNW(pers,pron,stan,red,3,ev,fem)	0.958333	O	B-NP	15	su
-17	hartverscheurend	hartverscheurend	[hartverscheurend]	ADJ(vrij,basis,zonder)	0.981952	O	B-ADVP	19	predc
+17	hartverscheurend	hartverscheurend	[hart][ver][scheur][end]	ADJ(vrij,basis,zonder)	0.981952	O	B-ADVP	19	predc
 18	te	te	[te]	VZ(init)	0.907459	O	B-VP	17	pc
 19	snikken	snikken	[snik][en]	WW(inf,vrij,zonder)	0.907407	O	I-VP	15	vc
 20	.	.	[.]	LET()	1.000000	O	O	19	punct
@@ -817,7 +817,7 @@
 5	snel	snel	[snel]	ADJ(vrij,basis,zonder)	0.997191	O	I-ADJP	2	predc
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
-1	Gladgepolijste	gladgepolijste	[gladgepolijste]	ADJ(prenom,sup,met-e,stan)	0.491064	O	B-NP	2	mod
+1	Gladgepolijste	gladgepolijste	[glad][ge][polijste]	ADJ(prenom,sup,met-e,stan)	0.491064	O	B-NP	2	mod
 2	mensen	mens	[mens][en]	N(soort,mv,basis)	0.999865	O	I-NP	0	ROOT
 3	.	.	[.]	LET()	1.000000	O	O	2	punct
 
@@ -1463,7 +1463,7 @@
 25	cadeaus	cadeau	[cadeau][s]	N(soort,mv,basis)	0.995554	O	B-NP	23	cnj
 26	aan	aan	[aan]	VZ(init)	0.995833	O	B-PP	25	mod
 27	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP	28	det
-28	doden	doden	[dod][en]	WW(inf,vrij,zonder)	1.000000	O	I-NP	26	obj1
+28	doden	doden	[doden]	WW(inf,vrij,zonder)	1.000000	O	I-NP	26	obj1
 29	voor	voor	[voor]	VZ(init)	0.999218	O	B-PP	28	mod
 30	het	het	[het]	LID(bep,stan,evon)	0.702075	O	B-NP	31	det
 31	leven	leven	[leven]	N(soort,ev,basis,onz,stan)	0.900000	O	I-NP	29	obj1
@@ -2989,7 +2989,7 @@
 15	mijn	mijn	[mijn]	VNW(bez,det,stan,vol,1,ev,prenom,zonder,agr)	0.991340	O	B-NP	16	det
 16	zoontje	zoon	[zoon][tje]	N(soort,ev,dim,onz,stan)	0.983333	O	I-NP	19	obj1
 17	duizend	duizend	[duizend]	TW(hoofd,prenom,stan)	0.694674	O	I-NP	18	det
-18	doden	dood	[doden]	ADJ(nom,basis,met-e,mv-n)	0.567010	O	I-NP	19	obj1
+18	doden	dood	[dood][en]	ADJ(nom,basis,met-e,mv-n)	0.567010	O	I-NP	19	obj1
 19	sterven	sterven	[sterf][en]	WW(inf,vrij,zonder)	0.857143	O	I-NP	14	vc
 20	.	.	[.]	LET()	1.000000	O	O	19	punct
 
