@@ -14,6 +14,10 @@
 < 4	drinkeboer		[drinke][boer]	N(soort,ev,basis,zijd,stan)	0.725182						
 ---
 > 4	drinkeboer		[drink][e][boer]	N(soort,ev,basis,zijd,stan)	0.725182
+176c176
+< 2	achterovergebogen		[achter][over][ge][buig][en]	ADJ(prenom,basis,zonder)	0.884912						
+---
+> 2	achterovergebogen		[achter][over][buig][en]	ADJ(prenom,basis,zonder)	0.884912
 179a180
 > 
 189c190
@@ -23,7 +27,7 @@
 196c197
 < 4	doorbakken		[doorge][bakken]	ADJ(vrij,basis,zonder)	0.993597						
 ---
-> 4	doorbakken		[door][bakken]	ADJ(vrij,basis,zonder)	0.993597
+> 4	doorbakken		[door][gebakken]	ADJ(vrij,basis,zonder)	0.993597
 200c201
 < 2	groeibevorderende		[groeibe][vorder][end][e]	ADJ(prenom,basis,met-e,stan)	0.999837						
 ---
@@ -31,7 +35,7 @@
 205c206
 < 2	halfgeërgerde		[half][ërger][de]	WW(vd,prenom,met-e)	0.516328						
 ---
-> 2	halfgeërgerde		[half][ge][erger][de]	WW(vd,prenom,met-e)	0.516328
+> 2	halfgeërgerde		[half][erger][de]	WW(vd,prenom,met-e)	0.516328
 209c210
 < 2	zelfvertrouwen		[zelfvertrouwen]	N(soort,ev,basis,onz,stan)	0.996848						
 ---
@@ -43,19 +47,11 @@
 214c215
 < 1	Hooggeacht		[hooggeacht]	N(soort,ev,basis,zijd,stan)	0.483960						
 ---
-> 1	Hooggeacht		[hoog][ge][acht]	N(soort,ev,basis,zijd,stan)	0.483960
+> 1	Hooggeacht		[hoog][geacht]	N(soort,ev,basis,zijd,stan)	0.483960
 219c220
 < 2	hooggeachte		[hoogge][acht][e]	ADJ(prenom,basis,met-e,stan)	0.999323						
 ---
-> 2	hooggeachte		[hoog][ge][acht][e]	ADJ(prenom,basis,met-e,stan)	0.999323
-225c226
-< 3	hooggeplaatsten		[hoog][geplaats][ten]	ADJ(nom,basis,met-e,mv-n)	0.962733						
----
-> 3	hooggeplaatsten		[hoog][ge][plaats][ten]	ADJ(nom,basis,met-e,mv-n)	0.962733
-230c231
-< 3	hooggeplaatste		[hoog][geplaats][t][e]	ADJ(prenom,basis,met-e,stan)	0.999790						
----
-> 3	hooggeplaatste		[hoog][ge][plaats][t][e]	ADJ(prenom,basis,met-e,stan)	0.999790
+> 2	hooggeachte		[hoog][geacht][e]	ADJ(prenom,basis,met-e,stan)	0.999323
 235c236
 < 2	inbegrepen		[in][begrepen]	ADJ(vrij,basis,zonder)	0.818182						
 ---
@@ -67,7 +63,7 @@
 245c246
 < 3	misplaatst		[misge][plaats][t]	ADJ(vrij,basis,zonder)	0.996068						
 ---
-> 3	misplaatst		[mis][ge][plaats][t]	ADJ(vrij,basis,zonder)	0.996068
+> 3	misplaatst		[mis][geplaatst]	ADJ(vrij,basis,zonder)	0.996068
 249c250
 < 2	nieuwbakken		[nieuwge][bakken]	ADJ(prenom,basis,zonder)	0.997552						
 ---
@@ -80,37 +76,55 @@
 < 3	zonovergoten		[zon][overgot][en]	ADJ(prenom,basis,zonder)	0.999368						
 ---
 > 3	zonovergoten		[zon][over][giet][en]	ADJ(prenom,basis,zonder)	0.999368
-265c266
-< 2	allesdoorborende		[allesdoor][boor][end][e]	WW(od,prenom,met-e)	0.874243						
+263d263
+< 
+265c265
+< 2	hoplieden		[hopma][n]	N(soort,mv,basis)	1.000000						
 ---
-> 2	allesdoorborende		[alles][door][boor][end][e]	WW(od,prenom,met-e)	0.874243
-272c273
-< 4	doorbakken		[doorge][bakken]	ADJ(vrij,basis,zonder)	0.993597						
+> 2	hoplieden		[hopman][en]	N(soort,mv,basis)	1.000000
+271c271
+< 3	zwerfafvalveroorzakers		[zwerf][afvalver][oorzaak][er][s]	N(soort,mv,basis)	1.000000						
 ---
-> 4	doorbakken		[door][bakken]	ADJ(vrij,basis,zonder)	0.993597
-308c309
+> 3	zwerfafvalveroorzakers		[zwerf][afval][ver][oorzaak][er][s]	N(soort,mv,basis)	1.000000
+307c307
 < 2	beoliënde		[beoliënde]	N(soort,ev,basis,zijd,stan)	0.337832						
 ---
 > 2	beoliënde		[be][olie][end][e]	N(soort,ev,basis,zijd,stan)	0.337832
-315c316
+314c314
 < 2	braniënde		[braniënde]	N(soort,ev,basis,zijd,stan)	0.433178						
 ---
 > 2	braniënde		[branie][end][e]	N(soort,ev,basis,zijd,stan)	0.433178
-383c384
+342c342
+< 11	afgeleverd		[af][ge][lever][d]	WW(vd,vrij,zonder)	0.998385						
+---
+> 11	afgeleverd		[af][lever][d]	WW(vd,vrij,zonder)	0.998385
+382c382
 < 2	overziende		[over][zie][nd][e]	WW(pv,verl,ev)	0.951936						
 ---
 > 2	overziende		[over][zien][d][e]	WW(pv,verl,ev)	0.951936
-443c444
+442c442
 < 2	ontmoeien		[ontmoei][en]	WW(pv,tgw,mv)	0.563713						
 ---
 > 2	ontmoeien		[ont][moei][en]	WW(pv,tgw,mv)	0.563713
-722c723
+668c668
+< 3	genaakt		[ge][naken][t]	WW(vd,vrij,zonder)	0.903143						
+---
+> 3	genaakt		[naken][t]	WW(vd,vrij,zonder)	0.903143
+674c674
+< 4	geraakt		[ge][raken][t]	WW(vd,vrij,zonder)	0.800000						
+---
+> 4	geraakt		[raken][t]	WW(vd,vrij,zonder)	0.800000
+701c701
+< 8	gedacht		[ge][denk][t]	WW(vd,vrij,zonder)	0.872274						
+---
+> 8	gedacht		[denk][t]	WW(vd,vrij,zonder)	0.872274
+721c721
 < 2	financiële		[financiee][l][e]	ADJ(prenom,basis,met-e,stan)	0.999837						
 ---
 > 2	financiële		[financi][eel][e]	ADJ(prenom,basis,met-e,stan)	0.999837
-732c733
+731c731
 < 2	vervelende		[verveelend][e]	ADJ(prenom,basis,met-e,stan)	0.657143						
 ---
 > 2	vervelende		[vervelend][e]	ADJ(prenom,basis,met-e,stan)	0.657143
-745d745
+744d743
 < 

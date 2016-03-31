@@ -173,7 +173,7 @@
 6	.		[.]	LET()	1.000000
 
 1	De		[de]	LID(bep,stan,rest)	0.877577
-2	achterovergebogen		[achter][over][ge][buig][en]	ADJ(prenom,basis,zonder)	0.884912
+2	achterovergebogen		[achter][over][buig][en]	ADJ(prenom,basis,zonder)	0.884912
 3	paal		[paal]	N(soort,ev,basis,zijd,stan)	0.991561
 4	.		[.]	LET()	1.000000
 
@@ -194,7 +194,7 @@
 1	De		[de]	LID(bep,stan,rest)	0.877577
 2	biefstuk		[biefstuk]	N(soort,ev,basis,zijd,stan)	0.861111
 3	was		[zijn]	WW(pv,verl,ev)	0.997901
-4	doorbakken		[door][bakken]	ADJ(vrij,basis,zonder)	0.993597
+4	doorbakken		[door][gebakken]	ADJ(vrij,basis,zonder)	0.993597
 5	.		[.]	LET()	1.000000
 
 1	Een		[een]	LID(onbep,stan,agr)	0.981771
@@ -203,7 +203,7 @@
 4	.		[.]	LET()	1.000000
 
 1	De		[de]	LID(bep,stan,rest)	0.877577
-2	halfgeërgerde		[half][ge][erger][de]	WW(vd,prenom,met-e)	0.516328
+2	halfgeërgerde		[half][erger][de]	WW(vd,prenom,met-e)	0.516328
 3	speler		[speel][er]	N(soort,ev,basis,zijd,stan)	0.997691
 
 1	het		[het]	LID(bep,stan,evon)	0.997424
@@ -212,23 +212,23 @@
 4	herwonnen		[her][win][en]	ADJ(vrij,basis,zonder)	0.500000
 5	.		[.]	LET()	1.000000
 
-1	Hooggeacht		[hoog][ge][acht]	N(soort,ev,basis,zijd,stan)	0.483960
+1	Hooggeacht		[hoog][geacht]	N(soort,ev,basis,zijd,stan)	0.483960
 2	publiek		[publiek]	N(soort,ev,basis,onz,stan)	0.996824
 3	!		[!]	LET()	1.000000
 
 1	Het		[het]	LID(bep,stan,evon)	0.998917
-2	hooggeachte		[hoog][ge][acht][e]	ADJ(prenom,basis,met-e,stan)	0.999323
+2	hooggeachte		[hoog][geacht][e]	ADJ(prenom,basis,met-e,stan)	0.999323
 3	publiek		[publiek]	N(soort,ev,basis,onz,stan)	0.997008
 4	.		[.]	LET()	1.000000
 
 1	Dat		[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.986464
 2	zijn		[zijn]	WW(pv,tgw,mv)	0.833333
-3	hooggeplaatsten		[hoog][ge][plaats][ten]	ADJ(nom,basis,met-e,mv-n)	0.962733
+3	hooggeplaatsten		[hoog][geplaats][ten]	ADJ(nom,basis,met-e,mv-n)	0.962733
 4	.		[.]	LET()	1.000000
 
 1	Dat		[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.986464
 2	zijn		[zijn]	WW(pv,tgw,mv)	0.988764
-3	hooggeplaatste		[hoog][ge][plaats][t][e]	ADJ(prenom,basis,met-e,stan)	0.999790
+3	hooggeplaatste		[hoog][geplaats][t][e]	ADJ(prenom,basis,met-e,stan)	0.999790
 4	personen		[persoon][en]	N(soort,mv,basis)	0.999588
 5	.		[.]	LET()	1.000000
 
@@ -243,7 +243,7 @@
 
 1	Dat		[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.999022
 2	is		[zijn]	WW(pv,tgw,ev)	0.999447
-3	misplaatst		[mis][ge][plaats][t]	ADJ(vrij,basis,zonder)	0.996068
+3	misplaatst		[mis][geplaatst]	ADJ(vrij,basis,zonder)	0.996068
 4	.		[.]	LET()	1.000000
 
 1	de		[de]	LID(bep,stan,rest)	0.996466
@@ -261,17 +261,15 @@
 3	zonovergoten		[zon][over][giet][en]	ADJ(prenom,basis,zonder)	0.999368
 4	strand		[strand]	N(soort,ev,basis,onz,stan)	0.999409
 5	.		[.]	LET()	1.000000
-
-1	de		[de]	LID(bep,stan,rest)	0.981886
-2	allesdoorborende		[alles][door][boor][end][e]	WW(od,prenom,met-e)	0.874243
-3	kogels		[kogel][s]	N(soort,mv,basis)	0.996082
+1	De		[de]	LID(bep,stan,rest)	0.877577
+2	hoplieden		[hopman][en]	N(soort,mv,basis)	1.000000
+3	lopen		[loop][en]	WW(inf,vrij,zonder)	0.685714
 4	.		[.]	LET()	1.000000
 
-1	De		[de]	LID(bep,stan,rest)	0.877577
-2	biefstuk		[biefstuk]	N(soort,ev,basis,zijd,stan)	0.861111
-3	was		[zijn]	WW(pv,verl,ev)	0.997901
-4	doorbakken		[door][bakken]	ADJ(vrij,basis,zonder)	0.993597
-5	.		[.]	LET()	1.000000
+1	Het		[het]	VNW(pers,pron,stan,red,3,ev,onz)	0.989247
+2	zijn		[zijn]	WW(pv,tgw,mv)	0.562801
+3	zwerfafvalveroorzakers		[zwerf][afval][ver][oorzaak][er][s]	N(soort,mv,basis)	1.000000
+4	.		[.]	LET()	1.000000
 
 1	we		[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170
 2	krijgen		[krijg][en]	WW(pv,tgw,mv)	1.000000
@@ -341,7 +339,7 @@
 8	en		[en]	VG(neven)	0.999194
 9	flikflooiende		[flikflooi][end][e]	WW(od,prenom,met-e)	0.587127
 10	zeloten		[zeloot][en]	N(soort,mv,basis)	1.000000
-11	afgeleverd		[af][ge][lever][d]	WW(vd,vrij,zonder)	0.998385
+11	afgeleverd		[af][lever][d]	WW(vd,vrij,zonder)	0.998385
 12	bij		[bij]	VZ(init)	0.998628
 13	de		[de]	LID(bep,stan,rest)	0.981886
 14	herendienst		[heer][en][dien][st]	N(soort,ev,basis,zijd,stan)	1.000000
@@ -667,13 +665,13 @@
 
 1	Jan		[Jan]	SPEC(deeleigen)	1.000000
 2	is		[zijn]	WW(pv,tgw,ev)	0.999447
-3	genaakt		[ge][naken][t]	WW(vd,vrij,zonder)	0.903143
+3	genaakt		[naken][t]	WW(vd,vrij,zonder)	0.903143
 4	?		[?]	LET()	1.000000
 
 1	Hij		[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431
 2	werd		[word]	WW(pv,verl,ev)	0.998963
 3	wel		[wel]	BW()	0.999831
-4	geraakt		[ge][raken][t]	WW(vd,vrij,zonder)	0.800000
+4	geraakt		[raken][t]	WW(vd,vrij,zonder)	0.800000
 5	.		[.]	LET()	1.000000
 
 1	Met		[met]	VZ(init)	0.995378
@@ -700,7 +698,7 @@
 5	nog		[nog]	BW()	0.999930
 6	surreëler		[surreëel][er]	ADJ(vrij,comp,zonder)	1.000000
 7	dan		[dan]	BW()	0.600000
-8	gedacht		[ge][denk][t]	WW(vd,vrij,zonder)	0.872274
+8	gedacht		[denk][t]	WW(vd,vrij,zonder)	0.872274
 9	.		[.]	LET()	1.000000
 
 1	Wat		[wat]	VNW(vb,pron,stan,vol,3o,ev)	0.903943
