@@ -1,42 +1,116 @@
 20c20
-< 2	bonzen		[bonze][n]	N(soort,mv,basis)	0.666667
+< 2	bonzen		[bonze][n]	N(soort,mv,basis)	0.666667						
 ---
 > 2	bonzen		[bons][en]	N(soort,mv,basis)	0.666667
 95c95
-< 4	nietroker		[nie][trook][er]	N(soort,ev,basis,zijd,stan)	0.950434
+< 4	nietroker		[nie][trook][er]	N(soort,ev,basis,zijd,stan)	0.950434						
 ---
 > 4	nietroker		[niet][rook][er]	N(soort,ev,basis,zijd,stan)	0.950434
 118c118
-< 4	niet-roken		[niet-roken]	N(soort,ev,basis,onz,stan)	0.500000
+< 4	niet-roken		[niet-roken]	N(soort,ev,basis,onz,stan)	0.500000						
 ---
 > 4	niet-roken		[niet][roken]	N(soort,ev,basis,onz,stan)	0.500000
 147c147
-< 4	drinkeboer		[drinke][boer]	N(soort,ev,basis,zijd,stan)	0.725182
+< 4	drinkeboer		[drinke][boer]	N(soort,ev,basis,zijd,stan)	0.725182						
 ---
 > 4	drinkeboer		[drink][e][boer]	N(soort,ev,basis,zijd,stan)	0.725182
-216c216
-< 2	beoliënde		[beoliënde]	N(soort,ev,basis,zijd,stan)	0.337832
+179a180
+> 
+189c190
+< 2	allesdoorborende		[allesdoor][boor][end][e]	WW(od,prenom,met-e)	0.874243						
+---
+> 2	allesdoorborende		[alles][door][boor][end][e]	WW(od,prenom,met-e)	0.874243
+196c197
+< 4	doorbakken		[doorge][bakken]	ADJ(vrij,basis,zonder)	0.993597						
+---
+> 4	doorbakken		[door][bakken]	ADJ(vrij,basis,zonder)	0.993597
+200c201
+< 2	groeibevorderende		[groeibe][vorder][end][e]	ADJ(prenom,basis,met-e,stan)	0.999837						
+---
+> 2	groeibevorderende		[groei][be][vorder][end][e]	ADJ(prenom,basis,met-e,stan)	0.999837
+205c206
+< 2	halfgeërgerde		[half][ërger][de]	WW(vd,prenom,met-e)	0.516328						
+---
+> 2	halfgeërgerde		[half][ge][erger][de]	WW(vd,prenom,met-e)	0.516328
+209c210
+< 2	zelfvertrouwen		[zelfvertrouwen]	N(soort,ev,basis,onz,stan)	0.996848						
+---
+> 2	zelfvertrouwen		[zelf][vertrouwen]	N(soort,ev,basis,onz,stan)	0.996848
+211c212
+< 4	herwonnen		[her][winen]	ADJ(vrij,basis,zonder)	0.500000						
+---
+> 4	herwonnen		[her][win][en]	ADJ(vrij,basis,zonder)	0.500000
+214c215
+< 1	Hooggeacht		[hooggeacht]	N(soort,ev,basis,zijd,stan)	0.483960						
+---
+> 1	Hooggeacht		[hoog][ge][acht]	N(soort,ev,basis,zijd,stan)	0.483960
+219c220
+< 2	hooggeachte		[hoogge][acht][e]	ADJ(prenom,basis,met-e,stan)	0.999323						
+---
+> 2	hooggeachte		[hoog][ge][acht][e]	ADJ(prenom,basis,met-e,stan)	0.999323
+225c226
+< 3	hooggeplaatsten		[hoog][geplaats][ten]	ADJ(nom,basis,met-e,mv-n)	0.962733						
+---
+> 3	hooggeplaatsten		[hoog][ge][plaats][ten]	ADJ(nom,basis,met-e,mv-n)	0.962733
+230c231
+< 3	hooggeplaatste		[hoog][geplaats][t][e]	ADJ(prenom,basis,met-e,stan)	0.999790						
+---
+> 3	hooggeplaatste		[hoog][ge][plaats][t][e]	ADJ(prenom,basis,met-e,stan)	0.999790
+235c236
+< 2	inbegrepen		[in][begrepen]	ADJ(vrij,basis,zonder)	0.818182						
+---
+> 2	inbegrepen		[in][be][grepen]	ADJ(vrij,basis,zonder)	0.818182
+239c240
+< 2	maanovergoten		[maan][overgot][en]	ADJ(prenom,basis,zonder)	0.982473						
+---
+> 2	maanovergoten		[maan][over][giet][en]	ADJ(prenom,basis,zonder)	0.982473
+245c246
+< 3	misplaatst		[misge][plaats][t]	ADJ(vrij,basis,zonder)	0.996068						
+---
+> 3	misplaatst		[mis][ge][plaats][t]	ADJ(vrij,basis,zonder)	0.996068
+249c250
+< 2	nieuwbakken		[nieuwge][bakken]	ADJ(prenom,basis,zonder)	0.997552						
+---
+> 2	nieuwbakken		[nieuw][bakken]	ADJ(prenom,basis,zonder)	0.997552
+254c255
+< 2	vakantievierende		[vakantie][vieer][end][e]	ADJ(prenom,basis,met-e,stan)	0.999763						
+---
+> 2	vakantievierende		[vakantie][vier][end][e]	ADJ(prenom,basis,met-e,stan)	0.999763
+260c261
+< 3	zonovergoten		[zon][overgot][en]	ADJ(prenom,basis,zonder)	0.999368						
+---
+> 3	zonovergoten		[zon][over][giet][en]	ADJ(prenom,basis,zonder)	0.999368
+265c266
+< 2	allesdoorborende		[allesdoor][boor][end][e]	WW(od,prenom,met-e)	0.874243						
+---
+> 2	allesdoorborende		[alles][door][boor][end][e]	WW(od,prenom,met-e)	0.874243
+272c273
+< 4	doorbakken		[doorge][bakken]	ADJ(vrij,basis,zonder)	0.993597						
+---
+> 4	doorbakken		[door][bakken]	ADJ(vrij,basis,zonder)	0.993597
+308c309
+< 2	beoliënde		[beoliënde]	N(soort,ev,basis,zijd,stan)	0.337832						
 ---
 > 2	beoliënde		[be][olie][end][e]	N(soort,ev,basis,zijd,stan)	0.337832
-223c223
-< 2	braniënde		[braniënde]	N(soort,ev,basis,zijd,stan)	0.433178
+315c316
+< 2	braniënde		[braniënde]	N(soort,ev,basis,zijd,stan)	0.433178						
 ---
 > 2	braniënde		[branie][end][e]	N(soort,ev,basis,zijd,stan)	0.433178
-291c291
-< 2	overziende		[over][zie][nd][e]	WW(pv,verl,ev)	0.951936
+383c384
+< 2	overziende		[over][zie][nd][e]	WW(pv,verl,ev)	0.951936						
 ---
 > 2	overziende		[over][zien][d][e]	WW(pv,verl,ev)	0.951936
-351c351
-< 2	ontmoeien		[ontmoei][en]	WW(pv,tgw,mv)	0.563713
+443c444
+< 2	ontmoeien		[ontmoei][en]	WW(pv,tgw,mv)	0.563713						
 ---
 > 2	ontmoeien		[ont][moei][en]	WW(pv,tgw,mv)	0.563713
-630c630
-< 2	financiële		[financiee][l][e]	ADJ(prenom,basis,met-e,stan)	0.999837
+722c723
+< 2	financiële		[financiee][l][e]	ADJ(prenom,basis,met-e,stan)	0.999837						
 ---
 > 2	financiële		[financi][eel][e]	ADJ(prenom,basis,met-e,stan)	0.999837
-640c640
-< 2	vervelende		[verveelend][e]	ADJ(prenom,basis,met-e,stan)	0.657143
+732c733
+< 2	vervelende		[verveelend][e]	ADJ(prenom,basis,met-e,stan)	0.657143						
 ---
 > 2	vervelende		[vervelend][e]	ADJ(prenom,basis,met-e,stan)	0.657143
-653d652
-<
+745d745
+< 
