@@ -277,6 +277,14 @@
 4	resultaten		[resulteer][aat][en]	N(soort,mv,basis)	0.999588
 5	.		[.]	LET()	1.000000
 
+1	Het		[het]	VNW(pers,pron,stan,red,3,ev,onz)	0.986995
+2	ligt		[lig][t]	WW(pv,tgw,met-t)	0.999122
+3	verscholen		[ver][schuil][en]	WW(vd,vrij,zonder)	0.888889
+4	in		[in]	VZ(init)	0.999213
+5	het		[het]	LID(bep,stan,evon)	0.988139
+6	bos		[bos]	N(soort,ev,basis,onz,stan)	0.953488
+7	.		[.]	LET()	1.000000
+
 1	De		[de]	LID(bep,stan,rest)	0.877577
 2	aftaaiende		[aftaai][end][e]	WW(od,prenom,met-e)	0.772507
 3	abituriënten		[abituriënt][e][n]	N(soort,mv,basis)	1.000000
@@ -736,6 +744,19 @@
 2	was		[zijn]	WW(pv,verl,ev)	0.996560
 3	voorpaginanieuws		[voor][pagina][nieuws]	N(soort,ev,basis,onz,stan)	0.996824
 4	!		[!]	LET()	1.000000
+
+1	Ik		[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791
+2	wil		[wil]	WW(pv,tgw,ev)	0.999351
+3	weten		[weet][en]	WW(inf,vrij,zonder)	0.814815
+4	waarom		[waarom]	BW()	0.991667
+5	.		[.]	LET()	1.000000
+
+1	Ik		[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791
+2	weet		[weet]	WW(pv,tgw,ev)	0.999318
+3	een		[een]	LID(onbep,stan,agr)	0.995147
+4	goede		[goed][e]	ADJ(prenom,basis,met-e,stan)	0.998739
+5	tekst		[tekst]	N(soort,ev,basis,zijd,stan)	0.999705
+6	.		[.]	LET()	1.000000
 
 1	Ik		[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791
 2	ben		[zijn]	WW(pv,tgw,ev)	0.999866
