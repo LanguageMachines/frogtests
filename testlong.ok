@@ -325,7 +325,7 @@
 6	om	om	[om]	VZ(init)	0.998966	O	B-PP	5	vc
 7	energie	energie	[energie]	N(soort,ev,basis,zijd,stan)	0.999117	O	B-NP	6	obj1
 8	te	te	[te]	VZ(init)	0.999179	O	B-VP	6	body
-9	verspillen	verspillen	[verspillen]	WW(inf,vrij,zonder)	0.961271	O	I-VP	8	body
+9	verspillen	verspillen	[ver][spil][en]	WW(inf,vrij,zonder)	0.961271	O	I-VP	8	body
 10	.	.	[.]	LET()	1.000000	O	O	9	punct
 
 1	Huilen	huilen	[huil][en]	WW(inf,nom,zonder,zonder-n)	0.750000	O	B-VP	2	su
@@ -996,7 +996,7 @@
 12	Amerika	Amerika	[Amerika]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	11	obj1
 13	,	,	[,]	LET()	1.000000	O	O	12	punct
 14	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.735294	O	B-SBAR	12	mod
-15	ongetwijfeld	ongetwijfeld	[ongetwijfeld]	BW()	0.778375	O	B-ADVP	16	mod
+15	ongetwijfeld	ongetwijfeld	[on][getwijfel][d]	BW()	0.778375	O	B-ADVP	16	mod
 16	ergens	ergens	[ergens]	VNW(onbep,adv-pron,obl,vol,3o,getal)	0.998533	O	B-ADVP	23	mod
 17	in	in	[in]	VZ(init)	0.931125	O	B-PP	22	mod
 18	2012	2012	[2012]	TW(hoofd,vrij)	0.993620	O	B-NP	17	obj1
@@ -1067,7 +1067,7 @@
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999688	O	B-NP	9	su
-2	vertrek	vertrek	[ver][trek]	N(soort,ev,basis,onz,stan)	0.857143	O	I-NP	9	su
+2	vertrek	vertrek	[vertrek]	N(soort,ev,basis,onz,stan)	0.857143	O	I-NP	9	su
 3	naar	naar	[naar]	VZ(init)	0.999197	O	B-PP	2	mod
 4	Ede	Ede	[Ede]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	3	obj1
 5	aangezien	aangezien	[aangezien]	VG(onder)	0.950000	O	B-SBAR	4	mod
@@ -1430,7 +1430,7 @@
 7	,	,	[,]	LET()	1.000000	O	O	6	punct
 8	ligt	liggen	[lig][t]	WW(pv,tgw,met-t)	0.999122	O	B-VP	0	ROOT
 9	meestal	meestal	[meest][al]	BW()	0.997264	O	B-ADVP	10	mod
-10	verscholen	verschuilen	[verscholen]	WW(vd,vrij,zonder)	0.888889	O	B-VP	8	vc
+10	verscholen	verschuilen	[ver][schuiol][en]	WW(vd,vrij,zonder)	0.888889	O	B-VP	8	vc
 11	in	in	[in]	VZ(init)	0.999350	O	B-PP	10	mod
 12	de	de	[de]	LID(bep,stan,rest)	0.999964	O	B-NP	13	det
 13	grond	grond	[grond]	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	11	obj1
@@ -1571,7 +1571,7 @@
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791	O	B-NP	2	su
 2	waardeer	waarderen	[waarde][eer]	WW(pv,tgw,ev)	0.981424	O	B-VP	3	cnj
 3	en	en	[en]	VG(neven)	0.998211	O	B-CONJP	0	ROOT
-4	bewonder	bewonderen	[bewonder]	WW(pv,tgw,ev)	0.992966	O	B-VP	3	cnj
+4	bewonder	bewonderen	[be][wonder]	WW(pv,tgw,ev)	0.992966	O	B-VP	3	cnj
 5	hem	hem	[hem]	VNW(pers,pron,obl,vol,3,ev,masc)	0.989775	O	B-NP	4	obj1
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
@@ -2030,7 +2030,7 @@
 12	.	.	[.]	LET()	1.000000	O	O	11	punct
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999688	O	B-NP	2	su
-2	verwacht	verwachten	[verwacht]	WW(pv,tgw,ev)	0.800000	O	B-VP	0	ROOT
+2	verwacht	verwachten	[ver][wacht]	WW(pv,tgw,ev)	0.800000	O	B-VP	0	ROOT
 3	dat	dat	[dat]	VG(onder)	0.985075	O	B-SBAR	2	vc
 4	hij	hij	[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999659	O	B-NP	6	su
 5	niet	niet	[niet]	BW()	0.998873	O	B-ADVP	6	mod
@@ -2327,7 +2327,7 @@
 7	,	,	[,]	LET()	1.000000	O	O	6	punct
 8	ligt	liggen	[lig][t]	WW(pv,tgw,met-t)	0.999122	O	B-VP	0	ROOT
 9	meestal	meestal	[meest][al]	BW()	0.997264	O	B-ADVP	10	mod
-10	verscholen	verschuilen	[verscholen]	WW(vd,vrij,zonder)	0.888889	O	B-VP	8	vc
+10	verscholen	verschuilen	[ver][schuiol][en]	WW(vd,vrij,zonder)	0.888889	O	B-VP	8	vc
 11	in	in	[in]	VZ(init)	0.999350	O	B-PP	10	mod
 12	de	de	[de]	LID(bep,stan,rest)	0.999964	O	B-NP	13	det
 13	grond	grond	[grond]	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	11	obj1
@@ -2471,7 +2471,7 @@
 5	,	,	[,]	LET()	1.000000	O	O	4	punct
 6	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP	0	ROOT
 7	veel	veel	[veel]	VNW(onbep,grad,stan,prenom,zonder,agr,basis)	0.972754	O	B-NP	8	det
-8	verhalen	verhaal	[ver][haal][en]	N(soort,mv,basis)	0.996082	O	I-NP	6	obj1
+8	verhalen	verhaal	[verhaal][en]	N(soort,mv,basis)	0.996082	O	I-NP	6	obj1
 9	.	.	[.]	LET()	1.000000	O	O	8	punct
 
 1	Terwijl	terwijl	[terwijl]	VG(onder)	0.998089	O	B-SBAR	14	mod
