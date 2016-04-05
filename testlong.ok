@@ -232,7 +232,7 @@
 1	En	en	[en]	VG(neven)	0.999810	O	B-PP	0	ROOT
 2	ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999944	O	B-NP	3	su
 3	wil	willen	[wil]	WW(pv,tgw,ev)	0.999351	O	B-VP	7	cnj
-4	weten	weten	[wijt][en]	WW(inf,vrij,zonder)	0.814815	O	I-VP	3	vc
+4	weten	weten	[weet][en]	WW(inf,vrij,zonder)	0.814815	O	I-VP	3	vc
 5	waarom	waarom	[waarom]	BW()	0.993377	O	B-SBAR	6	mod
 6	niet	niet	[niet]	BW()	0.999918	O	B-ADVP	7	cnj
 7	want	want	[want]	VG(neven)	0.998782	O	B-CONJP	0	ROOT
@@ -447,7 +447,7 @@
 11	zo_gauw_een	zo_gauw_een	[zo]_[gauw]_[een]	BW()_ADJ(vrij,basis,zonder)_LID(onbep,stan,agr)	0.978137	O_O_O	B-ADJP_I-ADJP_B-NP	13	det
 12	betere	goed	[goed][er][e]	ADJ(prenom,comp,met-e,stan)	0.998656	O	I-NP	13	mod
 13	tekst	tekst	[tekst]	N(soort,ev,basis,zijd,stan)	0.994624	O	I-NP	14	obj1
-14	weet	weten	[wijt]	WW(pv,tgw,ev)	0.999318	O	B-VP	8	body
+14	weet	weten	[weet]	WW(pv,tgw,ev)	0.999318	O	B-VP	8	body
 15	.	.	[.]	LET()	1.000000	O	O	14	punct
 
 1	'	'	[']	LET()	1.000000	O	O	0	ROOT
@@ -2751,7 +2751,7 @@
 2	Pap	pap	[pap]	N(soort,ev,basis,zijd,stan)	0.988372	O	B-NP	13	su
 3	,	,	[,]	LET()	1.000000	O	O	2	punct
 4	ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999944	O	B-NP	5	su
-5	weet	weten	[wijt]	WW(pv,tgw,ev)	0.999318	O	B-VP	2	mod
+5	weet	weten	[weet]	WW(pv,tgw,ev)	0.999318	O	B-VP	2	mod
 6	waar	waar	[waar]	VNW(vb,adv-pron,obl,vol,3o,getal)	0.900000	O	B-SBAR	5	vc
 7	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999729	O	B-NP	9	su
 8	moeten	moeten	[moeten]	WW(inf,vrij,zonder)	0.670130	O	B-VP	9	None
@@ -2811,7 +2811,7 @@
 5	oud	oud	[oud]	ADJ(prenom,basis,zonder)	1.000000	O	B-ADJP	0	ROOT
 6	,	,	[,]	LET()	1.000000	O	O	5	punct
 7	ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999944	O	B-NP	8	su
-8	weet	weten	[wijt]	WW(pv,tgw,ev)	0.999318	O	B-VP	0	ROOT
+8	weet	weten	[weet]	WW(pv,tgw,ev)	0.999318	O	B-VP	0	ROOT
 9	het	het	[het]	VNW(pers,pron,stan,red,3,ev,onz)	0.981481	O	B-NP	8	obj1
 10	.	.	[.]	LET()	1.000000	O	O	9	punct
 
