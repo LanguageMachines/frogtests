@@ -3,12 +3,13 @@
 $frog_bin/frog -S 7000  > testserver.log 2>&1  &
 pid=`echo $!`
 
-sleep 30
+sleep 15
 
 ./frogclient5 &
 ./frogclient6 &
 
-sleep 20
+sleep 8
+
 cat testserver5.out > testserver.out
 cat testserver6.out >> testserver.out
 
