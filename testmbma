@@ -8,3 +8,4 @@ rm ./mbmaout/*
 $mbma -t ./mbmaproblems/bons > testmbma.out
 $mbma -t ./mbmaproblems/bons --notagger >> testmbma.out
 $mbma -t ./mbmaproblems/torture >> testmbma.out
+$mbma -t ./mbmaproblems/torture --deep-morph >> testmbma.out
