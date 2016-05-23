@@ -15,19 +15,19 @@ export mblem="$VG $frog_bin/mblem"
 
 for file in $1
 do if test -x $file
-   then 
+   then
       \rm -f $file.diff
       \rm -f $file.err
       \rm -f $file.out
       echo -n "Frogging $file "
       ./$file > $file.err 2>&1
-      diff -w --ignore-matching-lines=".?*-annotation .?*" $file.out $file.ok >& $file.diff
+      diff -w --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*" $file.out $file.ok >& $file.diff
       if [ $? -ne 0 ];
-      then 
+      then
            diff -w $file.diff $file.diff.known >& /dev/null
       	   if [ $? -ne 0 ];
 	   then
-		echo -e $FAIL;	
+		echo -e $FAIL;
 		echo "differences logged in $file.diff";
 	   else
 		echo -e $KNOWNFAIL;
