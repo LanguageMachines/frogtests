@@ -3866,3 +3866,19 @@
 6	DEEL	deel	[deel]	N(soort,ev,basis,onz,stan)	0.995444	B-PER	B-NP	5	mod
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
+1	Dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.999022	O	B-NP	2	su
+2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP	0	ROOT
+3	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	4	det
+4	rock	rock	[rock]	N(soort,ev,basis,zijd,stan)	0.805515	O	I-NP	2	predc
+5	’n	'n	['n]	N(soort,mv,basis)	0.300000	O	B-NP	4	mod
+6	roll-hit	roll-hit	[roll-hit]	BW()	0.326760	O	I-NP	5	mod
+7	!	!	[!]	LET()	1.000000	O	O	6	punct
+
+1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791	O	B-NP	2	su
+2	zie	zien	[zie]	WW(pv,tgw,ev)	0.997988	O	B-VP	0	ROOT
+3	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.899471	O	B-SBAR	2	su
+4	voor	voor	[voor]	VZ(init)	0.999322	O	B-PP	2	mod
+5	`t	het	['t]	LID(bep,stan,evon)	0.931373	O	B-NP	0	ROOT
+6	eerst	eerst	[eer][st]	BW()	0.920000	O	I-NP	0	ROOT
+7	.	.	[.]	LET()	1.000000	O	O	6	punct
+
