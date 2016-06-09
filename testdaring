@@ -15,3 +15,6 @@ cat torture2.xml >> testdaring.out
 
 $comm  --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON >> testdaring.out
 cat compounds.xml >> testdaring.out
+
+$comm  -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON >> testdaring.out
+cat mwu.xml >> testdaring.out
