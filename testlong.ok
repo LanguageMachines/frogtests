@@ -650,14 +650,15 @@
 15	'	'	[']	LET()	1.000000	O	O	13	punct
 
 1	'	'	[']	LET()	1.000000	O	O	0	ROOT
-2	Dag	dag	[dag]	N(soort,ev,basis,zijd,stan)	0.797753	B-EVE	B-NP	7	su
+2	Dag	dag	[dag]	N(soort,ev,basis,zijd,stan)	0.797753	B-EVE	B-NP	0	ROOT
 3	met	met	[met]	VZ(init)	0.999480	O	B-PP	2	mod
-4	wàt	wàt	[wàt]	N(soort,ev,basis,onz,stan)	0.262827	O	B-NP	3	obj1
-5	..?	..?	[..?]	TW(hoofd,vrij)	0.279577	O	O	4	app
-6	'	'	[']	LET()	1.000000	O	O	5	punct
-7	vraagt	vragen	[vraag][t]	WW(pv,tgw,met-t)	0.998984	O	B-VP	0	ROOT
-8	Leen	Leen	[Leen]	SPEC(deeleigen)	1.000000	B-PER	B-NP	7	su
-9	.	.	[.]	LET()	1.000000	O	O	8	punct
+4	wàt	wàt	[wàt]	N(soort,ev,basis,onz,stan)	0.538143	O	B-NP	3	obj1
+5	..	..	[..]	LET()	0.995005	O	O	4	punct
+6	?	?	[?]	LET()	1.000000	O	O	4	punct
+7	'	'	[']	LET()	1.000000	O	O	0	ROOT
+8	vraagt	vragen	[vraag][t]	WW(pv,tgw,met-t)	0.998984	O	B-VP	0	ROOT
+9	Leen	Leen	[Leen]	SPEC(deeleigen)	1.000000	B-PER	B-NP	8	su
+10	.	.	[.]	LET()	1.000000	O	O	9	punct
 
 1	Wat	wat	[wat]	VNW(vb,pron,stan,vol,3o,ev)	0.903943	O	B-SBAR	0	ROOT
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	1	body
@@ -1761,7 +1762,7 @@
 16	koffie	koffie	[koffie]	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	15	mod
 17	.	.	[.]	LET()	1.000000	O	O	16	punct
 
-1	jan	jan	[jan]	BW()	0.692308	O	B-NP	2	cnj
+1	jan	jan	[jan]	SPEC(afk)	1.000000	O	B-NP	2	cnj
 2	en	en	[en]	VG(neven)	0.995348	O	B-CONJP	4	su
 3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	cnj
 4	gaan	gaan	[ga]	WW(pv,tgw,mv)	0.769231	O	B-VP	7	cnj

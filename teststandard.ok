@@ -35,9 +35,10 @@
 12	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP		
 13	met	met	[met]	VZ(init)	0.999574	O	B-PP		
 14	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP		
-15	en	en	[en]	VG(neven)	0.993989	O	B-CONJP		
+15	en	en	[en]	VG(neven)	0.994831	O	B-CONJP		
 16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	B-ORG	B-NP		
-17	!.	!.	[!.]	SPEC(afk)	1.000000	O	O		
+17	!	!	[!]	LET()	1.000000	I-ORG	I-NP		
+18	.	.	[.]	LET()	1.000000	O	O		
 
 1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP		
 2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP		

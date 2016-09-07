@@ -35,9 +35,10 @@
 12	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP	11	vc
 13	met	met	[met]	VZ(init)	0.999574	O	B-PP	12	pc
 14	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	15	cnj
-15	en	en	[en]	VG(neven)	0.993989	O	B-CONJP	13	obj1
+15	en	en	[en]	VG(neven)	0.994831	O	B-CONJP	13	obj1
 16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	15	cnj
-17	!.	!.	[!.]	SPEC(afk)	1.000000	O	O	16	mod
+17	!	!	[!]	LET()	1.000000	I-ORG	I-NP	16	punct
+18	.	.	[.]	LET()	1.000000	O	O	16	punct
 
 1	"	"	["]	LET()	1.000000	O	O	0	ROOT
 2	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	3	su
