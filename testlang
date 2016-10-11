@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+rm ./mbmaout/*
+
+$comm --skip=ampcn -x folia-lang.xml -X lang.xml --KANON > testlang.out
+cat lang.xml >> testlang.out
+$comm --skip=ampcn --language=nl -x folia-lang.xml -X lang.xml --KANON >> testlang.out
+cat lang.xml >> testlang.out
+$comm --skip=ampcn --language=eng -x folia-lang.xml -X lang.xml --KANON >> testlang.out
+if [ $? -eq 0 ];
+then
+    cat lang.xml >> testlang.out
+fi
