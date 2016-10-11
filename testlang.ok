@@ -5,11 +5,9 @@
 5	.	.		LET()	1.000000						
 
 1	This	This		SPEC(vreemd)	1.000000						
-2	is	zijn		WW(pv,tgw,ev)	0.999496						
-3	'	'		LET()	1.000000						
-4	nt	nt		SPEC(vreemd)	1.000000						
-5	dutch	dutch		SPEC(vreemd)	1.000000						
-6	.	.		LET()	1.000000						
+2	isn't	isn't		SPEC(vreemd)	1.000000						
+3	dutch	dutch		SPEC(vreemd)	1.000000						
+4	.	.		LET()	1.000000						
 
 1	En	en		VG(neven)	0.992995						
 2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
@@ -20,14 +18,15 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.4" version="0.8">
-  <metadata type="imdi">
+  <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-11T11:59:13" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-11T11:59:13" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-11T11:59:13" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-11T17:25:10" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-11T17:25:10" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-11T17:25:10" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
+    <meta id="language">dut</meta>
   </metadata>
   <text xml:id="text">
     <div xml:id="div">
@@ -80,12 +79,12 @@
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
           </w>
-          <lang class="nl"/>
+          <lang class="dut"/>
         </s>
       </p>
       <p xml:id="p2">
         <s xml:id="s2">
-          <t>This is'nt dutch.</t>
+          <t>This isn't dutch.</t>
           <w xml:id="s2.w.1" class="WORD">
             <t>This</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
@@ -93,35 +92,21 @@
             </pos>
             <lemma class="This"/>
           </w>
-          <w xml:id="s2.w.2" class="WORD" space="no">
-            <t>is</t>
-            <pos class="WW(pv,tgw,ev)" confidence="0.999496" head="WW">
-              <feat class="pv" subset="wvorm"/>
-              <feat class="tgw" subset="pvtijd"/>
-              <feat class="ev" subset="pvagr"/>
-            </pos>
-            <lemma class="zijn"/>
-          </w>
-          <w xml:id="s2.w.3" class="PUNCTUATION" space="no">
-            <t>'</t>
-            <pos class="LET()" confidence="1" head="LET"/>
-            <lemma class="'"/>
-          </w>
-          <w xml:id="s2.w.4" class="WORD">
-            <t>nt</t>
+          <w xml:id="s2.w.2" class="WORD-WITHSUFFIX">
+            <t>isn't</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
               <feat class="vreemd" subset="spectype"/>
             </pos>
-            <lemma class="nt"/>
+            <lemma class="isn't"/>
           </w>
-          <w xml:id="s2.w.5" class="WORD" space="no">
+          <w xml:id="s2.w.3" class="WORD" space="no">
             <t>dutch</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
               <feat class="vreemd" subset="spectype"/>
             </pos>
             <lemma class="dutch"/>
           </w>
-          <w xml:id="s2.w.6" class="PUNCTUATION">
+          <w xml:id="s2.w.4" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
@@ -195,13 +180,6 @@
 4	test	test		N(soort,ev,basis,zijd,stan)	0.903055						
 5	.	.		LET()	1.000000						
 
-1	This				1.000000						
-2	is				1.000000						
-3	'				1.000000						
-4	nt				1.000000						
-5	dutch				1.000000						
-6	.				1.000000						
-
 1	En	en		VG(neven)	0.992995						
 2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
 3	is	zijn		WW(pv,tgw,ev)	0.999447						
@@ -211,14 +189,15 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.4" version="0.8">
-  <metadata type="imdi">
+  <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-11T11:59:14" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-11T11:59:14" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-11T11:59:14" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-11T17:25:11" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-11T17:25:11" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-11T17:25:11" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
+    <meta id="language">dut</meta>
   </metadata>
   <text xml:id="text">
     <div xml:id="div">
@@ -271,30 +250,12 @@
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
           </w>
-          <lang class="nl"/>
+          <lang class="dut"/>
         </s>
       </p>
       <p xml:id="p2">
         <s xml:id="s2">
-          <t>This is'nt dutch.</t>
-          <w xml:id="s2.w.1" class="WORD">
-            <t>This</t>
-          </w>
-          <w xml:id="s2.w.2" class="WORD" space="no">
-            <t>is</t>
-          </w>
-          <w xml:id="s2.w.3" class="PUNCTUATION" space="no">
-            <t>'</t>
-          </w>
-          <w xml:id="s2.w.4" class="WORD">
-            <t>nt</t>
-          </w>
-          <w xml:id="s2.w.5" class="WORD" space="no">
-            <t>dutch</t>
-          </w>
-          <w xml:id="s2.w.6" class="PUNCTUATION">
-            <t>.</t>
-          </w>
+          <t>This isn't dutch.</t>
           <lang class="eng"/>
         </s>
       </p>
