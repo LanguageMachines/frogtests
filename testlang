@@ -7,7 +7,7 @@ rm lang*.xml
 
 $comm --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON > testlang.out
 cat lang1.xml >> testlang.out
-$comm --skip=ampcn --language=dut -x folia-lang.xml -X lang2.xml --KANON >> testlang.out
+$comm --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON >> testlang.out
 cat lang2.xml >> testlang.out
 $comm --skip=ampcn --language=eng -x folia-lang.xml -X lang3.xml --KANON >> testlang.out
 if [ $? -eq 0 ];
