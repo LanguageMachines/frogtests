@@ -22,9 +22,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-27T10:41:59" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-27T10:41:59" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-27T10:41:59" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-27T13:47:22" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-27T13:47:22" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-27T13:47:22" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -193,9 +193,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-27T10:42:00" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-27T10:42:00" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-27T10:42:00" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-27T13:47:23" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-27T13:47:23" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-27T13:47:23" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -326,9 +326,10 @@
 5	.	.		LET()	1.000000						
 
 1	This	this		SPEC(vreemd)	1.000000						
-2	isn't	isn't		SPEC(vreemd)	1.000000						
-3	dutch	dutch		SPEC(vreemd)	1.000000						
-4	.	.		LET()	1.000000						
+2	is	zijn		WW(pv,tgw,ev)	0.999447						
+3	n't	n't		ADJ(vrij,comp,zonder)	0.395742						
+4	dutch	dutch		SPEC(vreemd)	1.000000						
+5	.	.		LET()	1.000000						
 
 1	En	en		VG(neven)	0.992995						
 2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
@@ -343,9 +344,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-27T10:42:02" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-27T10:42:02" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-27T10:42:02" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-10-27T13:47:24" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-10-27T13:47:24" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-10-27T13:47:24" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -413,21 +414,32 @@
             </pos>
             <lemma class="this"/>
           </w>
-          <w xml:id="s2.w.2" class="WORD-WITHSUFFIX">
-            <t>isn't</t>
-            <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
-              <feat class="vreemd" subset="spectype"/>
+          <w xml:id="s2.w.2" class="WORD" space="no">
+            <t>is</t>
+            <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="ev" subset="pvagr"/>
             </pos>
-            <lemma class="isn't"/>
+            <lemma class="zijn"/>
           </w>
-          <w xml:id="s2.w.3" class="WORD" space="no">
+          <w xml:id="s2.w.3" class="SUFFIX">
+            <t>n't</t>
+            <pos class="ADJ(vrij,comp,zonder)" confidence="0.395742" head="ADJ">
+              <feat class="vrij" subset="positie"/>
+              <feat class="comp" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="n't"/>
+          </w>
+          <w xml:id="s2.w.4" class="WORD" space="no">
             <t>dutch</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
               <feat class="vreemd" subset="spectype"/>
             </pos>
             <lemma class="dutch"/>
           </w>
-          <w xml:id="s2.w.4" class="PUNCTUATION">
+          <w xml:id="s2.w.5" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
