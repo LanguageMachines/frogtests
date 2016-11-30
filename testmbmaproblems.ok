@@ -319,6 +319,23 @@
 5	dagen		[dag][en]	N(soort,mv,basis)	0.981087
 6	.		[.]	LET()	1.000000
 
+1	Een		[een]	LID(onbep,stan,agr)	0.981771
+2	schoorsteen		[schoor][steen]	N(soort,ev,basis,zijd,stan)	0.878788
+3	.		[.]	LET()	1.000000
+
+1	De		[de]	LID(bep,stan,rest)	0.877577
+2	fabrieksschoorsteenpijp		[fabriek][s][schoor][steen][pijp]	N(soort,ev,basis,zijd,stan)	1.000000
+3	staat		[sta][t]	WW(pv,tgw,met-t)	0.937183
+4	naast		[naast]	VZ(init)	0.917140
+5	de		[de]	LID(bep,stan,rest)	0.999964
+6	fabriek		[fabriek]	N(soort,ev,basis,zijd,stan)	0.998077
+7	.		[.]	LET()	1.000000
+
+1	Er		[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.998121
+2	is		[zijn]	WW(pv,tgw,ev)	0.999891
+3	een		[een]	LID(onbep,stan,agr)	0.995147
+4	vaccinatieplicht		[vaccin][eer][atie][plicht]	N(soort,ev,basis,zijd,stan)	0.719868
+5	.		[.]	LET()	1.000000
 
 1	de		[de]	LID(bep,stan,rest)	0.981886
 2	allesdoorborende		[alles][door][boor][end][e]	WW(od,prenom,met-e)	0.874243
