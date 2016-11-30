@@ -7,6 +7,7 @@ rm ./mbmaout/*
 
 $comm --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON > testdaring.out
 cat bons.xml >> testdaring.out
+
 $comm  --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON >> testdaring.out
 cat torture.xml >> testdaring.out
 
@@ -18,3 +19,6 @@ cat compounds.xml >> testdaring.out
 
 $comm  -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON >> testdaring.out
 cat mwu.xml >> testdaring.out
+
+$comm  --skip=mpcn -t ./mbmaproblems/mbma-fix --debug=a0 --deep-morph -X mbma-fix.xml --KANON >> testdaring.out
+cat mbma-fix.xml >> testdaring.out
