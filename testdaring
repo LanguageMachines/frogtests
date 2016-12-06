@@ -20,5 +20,5 @@ cat compounds.xml >> testdaring.out
 $comm  -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON >> testdaring.out
 cat mwu.xml >> testdaring.out
 
-$comm  --skip=mpcn -t ./mbmaproblems/mbma-fix --debug=a0 --deep-morph -X mbma-fix.xml --KANON >> testdaring.out
-cat mbma-fix.xml >> testdaring.out
+$comm  --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON >> testdaring.out
+cat fixtest.xml >> testdaring.out
