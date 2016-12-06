@@ -337,6 +337,25 @@
 4	vaccinatieplicht		[vaccin][eer][atie][plicht]	N(soort,ev,basis,zijd,stan)	0.719868
 5	.		[.]	LET()	1.000000
 
+1	Jan		[Jan]	SPEC(deeleigen)	1.000000
+2	lijdt		[lijd][t]	WW(pv,tgw,met-t)	0.998852
+3	aan		[aan]	VZ(init)	0.983740
+4	dehydratatie		[de][hydreer][aat][eer][atie]	N(soort,ev,basis,zijd,stan)	0.998865
+5	.		[.]	LET()	1.000000
+
+1	De		[de]	LID(bep,stan,rest)	0.877577
+2	debiteurenadministratie		[debiet][eer][eur][en][administreer][atie]	N(soort,ev,basis,zijd,stan)	1.000000
+3	is		[zijn]	WW(pv,tgw,ev)	0.998276
+4	een		[een]	LID(onbep,stan,agr)	0.999907
+5	rommeltje		[rommel][tje]	N(soort,ev,dim,onz,stan)	0.999548
+6	.		[.]	LET()	1.000000
+
+1	Wat		[wat]	VNW(vb,pron,stan,vol,3o,ev)	0.903943
+2	is		[zijn]	WW(pv,tgw,ev)	0.999891
+3	een		[een]	LID(onbep,stan,agr)	0.995147
+4	circulatiebank		[circuleer][atie][bank]	N(soort,ev,basis,zijd,stan)	1.000000
+5	?		[?]	LET()	1.000000
+
 1	de		[de]	LID(bep,stan,rest)	0.981886
 2	allesdoorborende		[alles][door][boor][end][e]	WW(od,prenom,met-e)	0.874243
 3	kogels		[kogel][s]	N(soort,mv,basis)	0.996082
