@@ -1,0 +1,51 @@
+frog 0.13.0 (c) ILK 1998 - 2015
+Induction of Linguistic Knowledge Research Group, Tilburg University
+based on [ucto 0.8.2, libfolia 0.13, timbl 6.4.7, ticcutils 0.10, mbt 3.2.13]
+frog-:config read from: /home/sloot/git/../usr/local/etc/frog/frog.cfg
+frog-tok-:Initiating tokeniser...
+frog-pos-tagger-mbt-:  Reading the lexicon from: /home/sloot/git/../usr/local/etc/frog/Frog.mbt.1.0.lex.ambi.05 (229170 words).
+frog-pos-tagger-mbt-:  Read frequent words list from: /home/sloot/git/../usr/local/etc/frog/Frog.mbt.1.0.top500 (500 words).
+frog-pos-tagger-mbt-:  Reading case-base for known words from: /home/sloot/git/../usr/local/etc/frog/Frog.mbt.1.0.known.dddwfWawa... 
+frog-pos-tagger-mbt-:  case-base for known words read.
+frog-pos-tagger-mbt-:  Reading case-base for unknown words from: /home/sloot/git/../usr/local/etc/frog/Frog.mbt.1.0.unknown.chnppdddwFawasss... 
+frog-pos-tagger-mbt-:  case-base for unknown word read
+frog-pos-tagger-mbt-:  Sentence delimiter set to '<utt>'
+frog-pos-tagger-mbt-:  Beam size = 1
+frog-pos-tagger-mbt-:  Known Tree, Algorithm = IGTREE
+frog-pos-tagger-mbt-:  Unknown Tree, Algorithm = IB1
+frog-pos-tagger-mbt-:
+frog-iob-mbt-:  Reading the lexicon from: /home/sloot/git/../usr/local/etc/frog/chunker.train.lex.ambi.05 (78570 words).
+frog-iob-mbt-:  Read frequent words list from: /home/sloot/git/../usr/local/etc/frog/chunker.train.top1000 (1000 words).
+frog-iob-mbt-:  Reading case-base for known words from: /home/sloot/git/../usr/local/etc/frog/chunker.train.known.dddwfWawa... 
+frog-iob-mbt-:  case-base for known words read.
+frog-iob-mbt-:  Reading case-base for unknown words from: /home/sloot/git/../usr/local/etc/frog/chunker.train.unknown.chnppddwFawsss... 
+frog-iob-mbt-:  case-base for unknown word read
+frog-iob-mbt-:  Sentence delimiter set to '<utt>'
+frog-iob-mbt-:  Beam size = 1
+frog-iob-mbt-:  Known Tree, Algorithm = IGTREE
+frog-iob-mbt-:  Unknown Tree, Algorithm = IB1
+frog-iob-mbt-:
+frog-ner-mbt-:  Reading the lexicon from: /home/sloot/git/../usr/local/etc/frog/ner.data.lex.ambi.05 (73735 words).
+frog-ner-mbt-:  Read frequent words list from: /home/sloot/git/../usr/local/etc/frog/ner.data.top1000 (1000 words).
+frog-ner-mbt-:  Reading case-base for known words from: /home/sloot/git/../usr/local/etc/frog/ner.data.known.ddwdwfWawawaa... 
+frog-ner-mbt-:  case-base for known words read.
+frog-ner-mbt-:  Reading case-base for unknown words from: /home/sloot/git/../usr/local/etc/frog/ner.data.unknown.chnppddwdwFawawaasss... 
+frog-ner-mbt-:  case-base for unknown word read
+frog-ner-mbt-:  Sentence delimiter set to 'EL'
+frog-ner-mbt-:  Beam size = 1
+frog-ner-mbt-:  Known Tree, Algorithm = IGTREE
+frog-ner-mbt-:  Unknown Tree, Algorithm = TRIBL
+frog-ner-mbt-:
+frog-mblem:Initiating lemmatizer...
+frog-mbma-:Initiating morphological analyzer...
+frog-mwu-:initiating mwuChunker...
+frog-mwu-:read mwus /home/sloot/git/../usr/local/etc/frog//Frog.mwu.1.0
+frog-parser-:initiating parser ... 
+frog-parser-:reading /home/sloot/git/../usr/local/etc/frog//Frog.mbdp.1.0.pairs.sampled.ibase
+frog-parser-:reading /home/sloot/git/../usr/local/etc/frog//Frog.mbdp.1.0.dir.ibase
+frog-parser-:reading /home/sloot/git/../usr/local/etc/frog//Frog.mbdp.1.0.rels.ibase
+frog-:Initialization done.
+frog-:Listening on port 7000
+KillServerFun caught a signal SIGTERM
+frog-:Server error:Accept failed Exiting.
+frog-:fatal error: Accept failed

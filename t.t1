@@ -1,0 +1,61 @@
+frog 0.13.4 (c) CLTS, ILK 1998 - 2016
+CLST  - Centre for Language and Speech Technology,Radboud University
+ILK   - Induction of Linguistic Knowledge Research Group,Tilburg University
+based on [ucto 0.8.5, libfolia 1.1, timbl 6.4.8, ticcutils 0.12, mbt 3.2.16]
+config read from: /home/sloot/usr/local/etc/frog/frog.cfg
+Initiating lemmmatizer...
+Initiating morphological analyzer...
+Initiating tokeniser...
+  Reading the lexicon from: /home/sloot/usr/local/etc/frog/Frog.mbt.1.0.lex.ambi.05 (229170 words).
+frog-pos-tagger-mbt-:  Read frequent words list from: /home/sloot/usr/local/etc/frog/Frog.mbt.1.0.top500 (500 words).
+frog-pos-tagger-mbt-:  Reading case-base for known words from: /home/sloot/usr/local/etc/frog/Frog.mbt.1.0.known.dddwfWawa... 
+frog-pos-tagger-mbt-:  case-base for known words read.
+frog-pos-tagger-mbt-:  Reading case-base for unknown words from: /home/sloot/usr/local/etc/frog/Frog.mbt.1.0.unknown.chnppdddwFawasss... 
+frog-pos-tagger-mbt-:  case-base for unknown word read
+frog-pos-tagger-mbt-:  Sentence delimiter set to '<utt>'
+frog-pos-tagger-mbt-:  Beam size = 1
+frog-pos-tagger-mbt-:  Known Tree, Algorithm = IGTREE
+frog-pos-tagger-mbt-:  Unknown Tree, Algorithm = IB1
+frog-pos-tagger-mbt-:
+frog-:Initialization done.
+frog-:Frogging bla
+frog-mbma-:Classify de( <pos class='LID(bep,stan,rest)' confidence='0.981886' > {<head>,<feat>,<feat>,<feat>,}) [WORD]
+frog-mbma-:itt #1 _,_,_,_,_,_,d,e,_,_,_,_,_,? ==> D|E, depth=4
+frog-mbma-:itt #2 _,_,_,_,_,d,e,_,_,_,_,_,_,? ==> 0, depth=6
+frog-mbma-:alternatives: word=de, classes=<D|E,0,>
+frog-mbma-:allParts : [[D,0],[E,0]]
+frog-mbma-:FOUND rule MBMA rule (de):
+frog-mbma-:	d - D 
+frog-mbma-:	e - 0 
+frog-mbma-:tag: / infl: morhemes: [] description:  confidence: 0
+frog-mbma-:
+frog-mbma-:edit::act=d - D 
+frog-mbma-:FOUND a basic tag D
+frog-mbma-:edit::act=e - 0 
+frog-mbma-:add to morpheme: 
+frog-mbma-:edited rule MBMA rule (de):
+frog-mbma-:	d - D  morpheme ='de'
+frog-mbma-:	e - 0 
+frog-mbma-:tag: / infl: morhemes: [de] description:  confidence: 0
+frog-mbma-:
+frog-mbma-:after reduction: MBMA rule (de):
+frog-mbma-:	d - D  morpheme ='de'
+frog-mbma-:tag: / infl: morhemes: [de] description:  confidence: 0
+frog-mbma-:
+frog-mbma-:after resolving: MBMA rule (de):
+frog-mbma-:	d - D  morpheme ='de'
+frog-mbma-:tag: / infl: morhemes: [de] description:  confidence: 0
+frog-mbma-:
+frog-mbma-:check rule for bracketing: MBMA rule (de):
+frog-mbma-:	d - D  morpheme ='de'
+frog-mbma-:tag: / infl: morhemes: [de] description:  confidence: 0
+frog-mbma-:
+frog-mbma-:STEP 1:[ [de]D ]
+get compoundType: [ [de]D ]
+#parts: 1
+   ASSIGNED :none
+frog-mbma-:Final Bracketing:[ [de]D ]D with tag=D
+GET CLEAN: MBMA rule (de):
+	d - D  morpheme ='de'
+tag: D infl: morhemes: [de] description: article confidence: 0
+

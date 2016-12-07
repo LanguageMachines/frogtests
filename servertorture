@@ -1,0 +1,33 @@
+#!/bin/sh -x
+
+#$frog_bin/frog -x -S 7000 > servertorture.log 2>&1  &
+#pid=`echo $!`
+
+#sleep 6
+
+./frogclient3 &
+./frogclient4 &
+sleep 2
+./frogclient3 &
+./frogclient4 &
+sleep 2
+./frogclient3 &
+./frogclient4 &
+sleep 2
+./frogclient3 &
+./frogclient4 &
+sleep 2
+./frogclient3 &
+./frogclient4 &
+sleep 2
+./frogclient3 &
+./frogclient4 &
+./frogclient3 &
+./frogclient4 &
+sleep 2
+./frogclient3 &
+./frogclient4 &
+./frogclient3 &
+./frogclient4 &
+./frogclient3 &
+./frogclient4 &
