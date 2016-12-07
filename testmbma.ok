@@ -246,7 +246,7 @@ abituriënten {N(soort,mv,basis)}	[ [ [abituriënt]N [e]N_N* ]N [n]m ]N	[ [abitu
 bakkeleien {WW(pv,tgw,mv)}	[ [bakkelei]V [en]tm ]V
 over {VZ(init)}	[ [over]P ]P
 het {LID(bep,stan,evon)}	[ [het]D ]D
-aspiratieniveau {N(soort,ev,basis,onz,stan)}	[ [ [aspireer]V [atie]N_V* ]N [niveau]N e ]N NN-compound	NN
+aspiratieniveau {N(soort,ev,basis,onz,stan)}	[ [ [ [aspireer]V [atie]N_V* ]N [niveau]N ]N NN-compound e ]N NN-compound	NN
 . {LET()}	[.]
 <utt>
 
@@ -301,7 +301,7 @@ toe {VZ(fin)}	[ [toe]P ]P
 <utt>
 
 de {LID(bep,stan,rest)}	[ [de]D ]D
-differentiaalquotiënten {N(soort,mv,basis)}	[ [ [ [different]A [ie]N_A* ]N [aal]N_N* ]N [quotiënt]N [en]m ]N NN-compound	NN
+differentiaalquotiënten {N(soort,mv,basis)}	[ [ [ [ [different]A [ie]N_A* ]N [aal]N_N* ]N [quotiënt]N ]N NN-compound [en]m ]N NN-compound	NN
 werden {WW(pv,verl,mv)}	[ [word]V [en]vm ]V
 in {VZ(init)}	[ [in]P ]P
 estafettendiensten {N(soort,mv,basis)}	[ [ [estafette]N [n]N_N*N [ [dien]V [st]N_V* ]N ]N NN-compound [en]m ]N NN-compound	NN
@@ -344,7 +344,7 @@ zeswekendienst {N(soort,ev,basis,zijd,stan)}	[ [ [zes]Q [week]N [en]N_QN*N [ [di
 . {LET()}	[.]
 <utt>
 
-Ziekenfondspatiënten {N(soort,mv,basis)}	[ [ [zieke]N [n]N_N*N [ [fonds]N [patiënt]N ]N NN-compound ]N NNN-compound [en]m ]N NNN-compound	NNN
+Ziekenfondspatiënten {N(soort,mv,basis)}	[ [ [ [zieke]N [n]N_N*N [fonds]N ]N NN-compound [patiënt]N ]N NNN-compound [en]m ]N NNN-compound	NNN
 draaiden {WW(pv,verl,mv)}	[ [draai]V [den]vm ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
 ziekenhuisdienst {N(soort,ev,basis,zijd,stan)}	[ [ [zieke]N [n]N_N*N [huis]N ]N NN-compound [ [dien]V [st]N_V* ]N e ]N NN-compound	NN
@@ -412,7 +412,7 @@ zijn {WW(pv,tgw,mv)}	[ [zijn]V i ]V
 we {VNW(pers,pron,nomin,red,1,mv)}	[ [we]O ]O
 <utt>
 
-milieuhygiënisch {ADJ(vrij,basis,zonder)}	[ [ [ [milieu]N [hygiëne]N ]N NN-compound [isch]A_N* ]A NN-compound P ]A NN-compound	NN
+milieuhygiënisch {ADJ(vrij,basis,zonder)}	[ [milieu]N [ [hygiëne]N [isch]A_N* ]A P ]A
 niet {BW()}	[ [niet]B ]B
 goed {ADJ(vrij,basis,zonder)}	[ [goed]A P ]A
 bezig {ADJ(vrij,basis,zonder)}	[ [bezig]A P ]A
