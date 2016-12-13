@@ -10,11 +10,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.6" version="1.3.2">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-08T16:29:38" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-08T16:29:38" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-08T16:29:38" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:38" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:38" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-13T13:16:29" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-13T13:16:29" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-13T13:16:29" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:29" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:29" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
     </annotations>
   </metadata>
   <text xml:id="untitled.text">
@@ -258,15 +258,15 @@
 5	zeswekendienst	zeswekendienst	[[zes]quantifier-numeral[week]noun[en][[dien]verb[st]]noun]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.809922						
 6	.	.	[.]	0	LET()	1.000000						
 
-1	Ziekenfondspatiënten	ziekenfondspatiënt	[[[[zieke]noun[n][fonds]noun]noun[patiënt]noun]noun[en]/plural]noun	NNN-compound	N(soort,mv,basis)	1.000000						
+1	Ziekenfondspatiënten	ziekenfondspatiënt	[[[[zieke]noun[en][fonds]noun]noun[patiënt]noun]noun[en]/plural]noun	NNN-compound	N(soort,mv,basis)	1.000000						
 2	draaiden	draaien	[[draai]verb[den]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.993311						
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147						
-4	ziekenhuisdienst	ziekenhuisdienst	[[[zieke]noun[n][huis]noun]noun[[dien]verb[st]]noun/singular]noun	NN-compound	N(soort,ev,basis,zijd,stan)	0.910688						
+4	ziekenhuisdienst	ziekenhuisdienst	[[[zieke]noun[en][huis]noun]noun[[dien]verb[st]]noun/singular]noun	NN-compound	N(soort,ev,basis,zijd,stan)	0.910688						
 5	.	.	[.]	0	LET()	1.000000						
 
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771						
 2	neuriënde	neuriën	[[neurie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.608528						
-3	ziekenhuisvoorziening	ziekenhuisvoorziening	[[[zieke]noun[n][huis]noun]noun[voor]adverb[[zie]verb[ing]]noun/singular]noun	0	N(soort,ev,basis,zijd,stan)	1.000000						
+3	ziekenhuisvoorziening	ziekenhuisvoorziening	[[[zieke]noun[en][huis]noun]noun[voor]adverb[[zie]verb[ing]]noun/singular]noun	0	N(soort,ev,basis,zijd,stan)	1.000000						
 4	.	.	[.]	0	LET()	1.000000						
 
 1	Alles	alles	[alles]pronoun	0	VNW(onbep,pron,stan,vol,3o,ev)	0.994808						
@@ -294,7 +294,7 @@
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.999560						
 4	skiër	skiër	[skiër]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998248						
 5	en	en	[en]conjunction	0	VG(neven)	0.997774						
-6	zie	zien	[zie]verb/present-tense/singular/2nd-person-verb/inversed	0	WW(pv,tgw,ev)	0.997988						
+6	zie	zien	[zie]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.997988						
 7	al	al	[al]adverb	0	BW()	0.903830						
 8	skiënde	skiënde	[[ski]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,vrij,zonder)	0.329545						
 9	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147						
@@ -345,7 +345,7 @@
 5	we	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.999170						
 6	het	het	[het]article	0	LID(bep,stan,evon)	0.997424						
 7	dak	dak	[dak]noun/singular	0	N(soort,ev,basis,onz,stan)	0.996804						
-8	verleien	verleien	[[verlei]verb[en]/present-tense/plural]verb	0	ADJ(vrij,basis,zonder)	0.327419						
+8	verleien	verleien	[[verlei]verb[en]/infinitive]verb	0	ADJ(vrij,basis,zonder)	0.327419						
 9	moesten	moeten	[[moet]verb[en]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.997888						
 10	.	.	[.]	0	LET()	1.000000						
 
@@ -369,11 +369,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.6" version="1.3.2">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-08T16:29:40" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-08T16:29:40" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-08T16:29:40" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:40" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:40" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-13T13:16:30" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-13T13:16:30" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-13T13:16:30" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:30" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:30" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
     </annotations>
   </metadata>
   <text xml:id="untitled.text">
@@ -2689,27 +2689,27 @@
                     <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
                   </morpheme>
                   <morpheme class="affix">
-                    <t>n</t>
-                    <feat class="[n]" subset="structure"/>
+                    <t>en</t>
+                    <feat class="[en]" subset="structure"/>
                   </morpheme>
                   <morpheme class="stem">
                     <t>fonds</t>
                     <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
                   </morpheme>
                   <feat class="N_N*N" subset="applied_rule"/>
-                  <feat class="[[zieke]noun[n][fonds]noun]noun" subset="structure"/>
+                  <feat class="[[zieke]noun[en][fonds]noun]noun" subset="structure"/>
                 </morpheme>
                 <morpheme class="stem">
                   <t>patiënt</t>
                   <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
                 </morpheme>
-                <feat class="[[[zieke]noun[n][fonds]noun]noun[patiënt]noun]noun" subset="structure"/>
+                <feat class="[[[zieke]noun[en][fonds]noun]noun[patiënt]noun]noun" subset="structure"/>
               </morpheme>
               <morpheme class="inflection">
                 <t>en</t>
                 <feat class="plural" subset="inflection"/>
               </morpheme>
-              <feat class="[[[[zieke]noun[n][fonds]noun]noun[patiënt]noun]noun[en]/plural]noun" subset="structure"/>
+              <feat class="[[[[zieke]noun[en][fonds]noun]noun[patiënt]noun]noun[en]/plural]noun" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="ziekenfondspatiënt"/>
@@ -2783,15 +2783,15 @@
                   <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
                 </morpheme>
                 <morpheme class="affix">
-                  <t>n</t>
-                  <feat class="[n]" subset="structure"/>
+                  <t>en</t>
+                  <feat class="[en]" subset="structure"/>
                 </morpheme>
                 <morpheme class="stem">
                   <t>huis</t>
                   <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
                 </morpheme>
                 <feat class="N_N*N" subset="applied_rule"/>
-                <feat class="[[zieke]noun[n][huis]noun]noun" subset="structure"/>
+                <feat class="[[zieke]noun[en][huis]noun]noun" subset="structure"/>
               </morpheme>
               <morpheme class="complex">
                 <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
@@ -2809,7 +2809,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[zieke]noun[n][huis]noun]noun[[dien]verb[st]]noun/singular]noun" subset="structure"/>
+              <feat class="[[[zieke]noun[en][huis]noun]noun[[dien]verb[st]]noun/singular]noun" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="ziekenhuisdienst"/>
@@ -2903,15 +2903,15 @@
                   <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
                 </morpheme>
                 <morpheme class="affix">
-                  <t>n</t>
-                  <feat class="[n]" subset="structure"/>
+                  <t>en</t>
+                  <feat class="[en]" subset="structure"/>
                 </morpheme>
                 <morpheme class="stem">
                   <t>huis</t>
                   <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
                 </morpheme>
                 <feat class="N_N*N" subset="applied_rule"/>
-                <feat class="[[zieke]noun[n][huis]noun]noun" subset="structure"/>
+                <feat class="[[zieke]noun[en][huis]noun]noun" subset="structure"/>
               </morpheme>
               <morpheme class="stem">
                 <t>voor</t>
@@ -2933,7 +2933,7 @@
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[[zieke]noun[n][huis]noun]noun[voor]adverb[[zie]verb[ing]]noun/singular]noun" subset="structure"/>
+              <feat class="[[[zieke]noun[en][huis]noun]noun[voor]adverb[[zie]verb[ing]]noun/singular]noun" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="ziekenhuisvoorziening"/>
@@ -3545,10 +3545,9 @@
               <morpheme class="inflection">
                 <feat class="present-tense" subset="inflection"/>
                 <feat class="singular" subset="inflection"/>
-                <feat class="2nd-person-verb" subset="inflection"/>
-                <feat class="inversed" subset="inflection"/>
+                <feat class="1st-person-verb" subset="inflection"/>
               </morpheme>
-              <feat class="[zie]verb/present-tense/singular/2nd-person-verb/inversed" subset="structure"/>
+              <feat class="[zie]verb/present-tense/singular/1st-person-verb" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="zien"/>
@@ -3564,9 +3563,10 @@
                 <morpheme class="inflection">
                   <feat class="present-tense" subset="inflection"/>
                   <feat class="singular" subset="inflection"/>
-                  <feat class="1st-person-verb" subset="inflection"/>
+                  <feat class="2nd-person-verb" subset="inflection"/>
+                  <feat class="inversed" subset="inflection"/>
                 </morpheme>
-                <feat class="[zie]verb/present-tense/singular/1st-person-verb" subset="structure"/>
+                <feat class="[zie]verb/present-tense/singular/2nd-person-verb/inversed" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -4738,10 +4738,9 @@
               </morpheme>
               <morpheme class="inflection">
                 <t>en</t>
-                <feat class="present-tense" subset="inflection"/>
-                <feat class="plural" subset="inflection"/>
+                <feat class="infinitive" subset="inflection"/>
               </morpheme>
-              <feat class="[[verlei]verb[en]/present-tense/plural]verb" subset="structure"/>
+              <feat class="[[verlei]verb[en]/infinitive]verb" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="verleien"/>
@@ -4756,9 +4755,10 @@
                 </morpheme>
                 <morpheme class="inflection">
                   <t>en</t>
-                  <feat class="infinitive" subset="inflection"/>
+                  <feat class="present-tense" subset="inflection"/>
+                  <feat class="plural" subset="inflection"/>
                 </morpheme>
-                <feat class="[[verlei]verb[en]/infinitive]verb" subset="structure"/>
+                <feat class="[[verlei]verb[en]/present-tense/plural]verb" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -5245,7 +5245,7 @@
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981886						
 6	fotokopiërende	fotokopiëren	[[foto]noun[kopieer]verb[end]/participle/present-tense[e]/suffix-e]verb	NV-compound	WW(od,prenom,met-e)	0.631268						
 7	medewerkers	medewerker	[[mede]adverb[[werk]verb[er]]noun[s]/plural]noun	BN-compound	N(soort,mv,basis)	0.998020						
-8	verprutst	verprutsen	[[[ver][pruts]verb]verb[t]/present-tense/singular/2nd-person-verb]verb	0	WW(vd,vrij,zonder)	0.802632						
+8	verprutst	verprutsen	[[[ver][pruts]verb]verb[t]/participle/past-tense]verb	0	WW(vd,vrij,zonder)	0.802632						
 9	.	.	[.]	0	LET()	1.000000						
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577						
@@ -5325,11 +5325,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.6" version="1.3.2">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-08T16:29:41" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-08T16:29:41" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-08T16:29:41" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:41" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:41" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-13T13:16:31" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-13T13:16:31" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-13T13:16:31" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:31" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:31" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
     </annotations>
   </metadata>
   <text xml:id="untitled.text">
@@ -8918,11 +8918,10 @@
               </morpheme>
               <morpheme class="inflection">
                 <t>t</t>
-                <feat class="present-tense" subset="inflection"/>
-                <feat class="singular" subset="inflection"/>
-                <feat class="2nd-person-verb" subset="inflection"/>
+                <feat class="participle" subset="inflection"/>
+                <feat class="past-tense" subset="inflection"/>
               </morpheme>
-              <feat class="[[[ver][pruts]verb]verb[t]/present-tense/singular/2nd-person-verb]verb" subset="structure"/>
+              <feat class="[[[ver][pruts]verb]verb[t]/participle/past-tense]verb" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="verprutsen"/>
@@ -8948,9 +8947,9 @@
                   <t>t</t>
                   <feat class="present-tense" subset="inflection"/>
                   <feat class="singular" subset="inflection"/>
-                  <feat class="3rd-person-verb" subset="inflection"/>
+                  <feat class="2nd-person-verb" subset="inflection"/>
                 </morpheme>
-                <feat class="[[[ver][pruts]verb]verb[t]/present-tense/singular/3rd-person-verb]verb" subset="structure"/>
+                <feat class="[[[ver][pruts]verb]verb[t]/present-tense/singular/2nd-person-verb]verb" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -8974,10 +8973,11 @@
                 </morpheme>
                 <morpheme class="inflection">
                   <t>t</t>
-                  <feat class="participle" subset="inflection"/>
-                  <feat class="past-tense" subset="inflection"/>
+                  <feat class="present-tense" subset="inflection"/>
+                  <feat class="singular" subset="inflection"/>
+                  <feat class="3rd-person-verb" subset="inflection"/>
                 </morpheme>
-                <feat class="[[[ver][pruts]verb]verb[t]/participle/past-tense]verb" subset="structure"/>
+                <feat class="[[[ver][pruts]verb]verb[t]/present-tense/singular/3rd-person-verb]verb" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -10507,7 +10507,7 @@
 4	.	.	[.]	0	LET()	1.000000						
 
 1	Waarop	waarop	[[waar]adverb[op]preposition]adverb	BP-compound	BW()	0.998992						
-2	baseer	baseren	[[basis]noun[eer]]verb/present-tense/singular/2nd-person-verb/inversed	0	WW(pv,tgw,ev)	0.999442						
+2	baseer	baseren	[[basis]noun[eer]]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.999442						
 3	je	je	[je]pronoun	0	VNW(pers,pron,nomin,red,2v,ev)	0.975281						
 4	dat	dat	[dat]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.992628						
 5	?	?	[?]	0	LET()	1.000000						
@@ -10531,7 +10531,7 @@
 4	!	!	[!]	0	LET()	1.000000						
 
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000						
-2	gaat	gaan	[[ga]verb[t]/present-tense/singular/3rd-person-verb/present-tense/singular/2nd-person-verb/inversed]verb	0	WW(pv,tgw,met-t)	0.999673						
+2	gaat	gaan	[[ga]verb[t]/present-tense/singular/2nd-person-verb/present-tense/singular/2nd-person-verb]verb	0	WW(pv,tgw,met-t)	0.999673						
 3	vrijuit	vrijuit	[[vrij]adjective[uit]adverb]adverb	AB-compound	BW()	0.995596						
 4	.	.	[.]	0	LET()	1.000000						
 
@@ -10584,7 +10584,7 @@
 5	.	.	[.]	0	LET()	1.000000						
 
 1	Ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999791						
-2	kom	komen	[kom]verb/present-tense/singular/2nd-person-verb/inversed	0	WW(pv,tgw,ev)	0.850000						
+2	kom	komen	[kom]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.850000						
 3	tot	tot	[tot]preposition	0	VZ(init)	0.998273						
 4	inzicht	inzicht	[[in]preposition[zicht]noun/singular]noun	PN-compound	N(soort,ev,basis,onz,stan)	0.994052						
 5	.	.	[.]	0	LET()	1.000000						
@@ -10647,11 +10647,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.6" version="1.3.2">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-08T16:29:43" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-08T16:29:43" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-08T16:29:43" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:43" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:43" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-13T13:16:33" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-13T13:16:33" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-13T13:16:33" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:33" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:33" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
     </annotations>
   </metadata>
   <text xml:id="untitled.text">
@@ -10878,10 +10878,9 @@
               <morpheme class="inflection">
                 <feat class="present-tense" subset="inflection"/>
                 <feat class="singular" subset="inflection"/>
-                <feat class="2nd-person-verb" subset="inflection"/>
-                <feat class="inversed" subset="inflection"/>
+                <feat class="1st-person-verb" subset="inflection"/>
               </morpheme>
-              <feat class="[[basis]noun[eer]]verb/present-tense/singular/2nd-person-verb/inversed" subset="structure"/>
+              <feat class="[[basis]noun[eer]]verb/present-tense/singular/1st-person-verb" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="baseren"/>
@@ -10906,9 +10905,10 @@
                 <morpheme class="inflection">
                   <feat class="present-tense" subset="inflection"/>
                   <feat class="singular" subset="inflection"/>
-                  <feat class="1st-person-verb" subset="inflection"/>
+                  <feat class="2nd-person-verb" subset="inflection"/>
+                  <feat class="inversed" subset="inflection"/>
                 </morpheme>
-                <feat class="[[basis]noun[eer]]verb/present-tense/singular/1st-person-verb" subset="structure"/>
+                <feat class="[[basis]noun[eer]]verb/present-tense/singular/2nd-person-verb/inversed" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -11352,15 +11352,14 @@
                 <t>t</t>
                 <feat class="present-tense" subset="inflection"/>
                 <feat class="singular" subset="inflection"/>
-                <feat class="3rd-person-verb" subset="inflection"/>
+                <feat class="2nd-person-verb" subset="inflection"/>
               </morpheme>
               <morpheme class="inflection">
                 <feat class="present-tense" subset="inflection"/>
                 <feat class="singular" subset="inflection"/>
                 <feat class="2nd-person-verb" subset="inflection"/>
-                <feat class="inversed" subset="inflection"/>
               </morpheme>
-              <feat class="[[ga]verb[t]/present-tense/singular/3rd-person-verb/present-tense/singular/2nd-person-verb/inversed]verb" subset="structure"/>
+              <feat class="[[ga]verb[t]/present-tense/singular/2nd-person-verb/present-tense/singular/2nd-person-verb]verb" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="gaan"/>
@@ -11377,14 +11376,15 @@
                   <t>t</t>
                   <feat class="present-tense" subset="inflection"/>
                   <feat class="singular" subset="inflection"/>
-                  <feat class="2nd-person-verb" subset="inflection"/>
+                  <feat class="3rd-person-verb" subset="inflection"/>
                 </morpheme>
                 <morpheme class="inflection">
                   <feat class="present-tense" subset="inflection"/>
                   <feat class="singular" subset="inflection"/>
                   <feat class="2nd-person-verb" subset="inflection"/>
+                  <feat class="inversed" subset="inflection"/>
                 </morpheme>
-                <feat class="[[ga]verb[t]/present-tense/singular/2nd-person-verb/present-tense/singular/2nd-person-verb]verb" subset="structure"/>
+                <feat class="[[ga]verb[t]/present-tense/singular/3rd-person-verb/present-tense/singular/2nd-person-verb/inversed]verb" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -12395,10 +12395,9 @@
               <morpheme class="inflection">
                 <feat class="present-tense" subset="inflection"/>
                 <feat class="singular" subset="inflection"/>
-                <feat class="2nd-person-verb" subset="inflection"/>
-                <feat class="inversed" subset="inflection"/>
+                <feat class="1st-person-verb" subset="inflection"/>
               </morpheme>
-              <feat class="[kom]verb/present-tense/singular/2nd-person-verb/inversed" subset="structure"/>
+              <feat class="[kom]verb/present-tense/singular/1st-person-verb" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="komen"/>
@@ -12417,9 +12416,10 @@
                 <morpheme class="inflection">
                   <feat class="present-tense" subset="inflection"/>
                   <feat class="singular" subset="inflection"/>
-                  <feat class="1st-person-verb" subset="inflection"/>
+                  <feat class="2nd-person-verb" subset="inflection"/>
+                  <feat class="inversed" subset="inflection"/>
                 </morpheme>
-                <feat class="[kom]verb/present-tense/singular/1st-person-verb" subset="structure"/>
+                <feat class="[kom]verb/present-tense/singular/2nd-person-verb/inversed" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
@@ -13491,14 +13491,14 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.6" version="1.3.2">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-08T16:29:46" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-08T16:29:46" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-08T16:29:46" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:46" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:46" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2016-12-08T16:29:46" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2016-12-08T16:29:46" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2016-12-08T16:29:46" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-13T13:16:35" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-13T13:16:35" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-13T13:16:35" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:35" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:35" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2016-12-13T13:16:35" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2016-12-13T13:16:35" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2016-12-13T13:16:35" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -13775,7 +13775,7 @@
   </text>
 </FoLiA>
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577						
-2	fabrieksschoorsteen	fabrieksschoorsteen	[[fabriek]noun[s][[schoor]noun[steen]noun]noun]noun/singular	NN-compound	N(soort,mv,basis)	1.000000						
+2	fabrieksschoorsteen	fabrieksschoorsteen	[[fabriek]noun[s][[schoor]verb[steen]noun]noun]noun/singular	NN-compound	N(soort,mv,basis)	1.000000						
 3	staat	staan	[[sta]verb[t]/present-tense/singular/2nd-person-verb]verb	0	WW(pv,tgw,met-t)	0.902017						
 4	in	in	[in]preposition	0	VZ(init)	0.999213						
 5	het	het	[het]article	0	LID(bep,stan,evon)	0.702075						
@@ -13790,7 +13790,7 @@
 6	.	.	[.]	0	LET()	1.000000						
 
 1	Ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999791						
-2	zie	zien	[zie]verb/present-tense/singular/2nd-person-verb/inversed	0	WW(pv,tgw,ev)	0.954545						
+2	zie	zien	[zie]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.954545						
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147						
 4	condensatiestreep	condensatiestreep	[[[[condens]noun[eer]]verb[atie]]noun[streep]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.790763						
 5	boven	boven	[boven]preposition	0	VZ(init)	0.532751						
@@ -13835,11 +13835,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="untitled" generator="libfolia-v1.6" version="1.3.2">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-08T16:29:48" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-08T16:29:48" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-08T16:29:48" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:48" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-08T16:29:48" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-12-13T13:16:37" set="tokconfig-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-12-13T13:16:37" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-12-13T13:16:37" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:37" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <pos-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2016-12-13T13:16:37" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
     </annotations>
   </metadata>
   <text xml:id="untitled.text">
@@ -13905,15 +13905,15 @@
                     <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
                   </morpheme>
                   <feat class="N_^VN" subset="applied_rule"/>
-                  <feat class="[[schoor]noun[steen]noun]noun" subset="structure"/>
+                  <feat class="[[schoor]verb[steen]noun]noun" subset="structure"/>
                 </morpheme>
                 <feat class="N_N*N" subset="applied_rule"/>
-                <feat class="[[fabriek]noun[s][[schoor]noun[steen]noun]noun]noun" subset="structure"/>
+                <feat class="[[fabriek]noun[s][[schoor]verb[steen]noun]noun]noun" subset="structure"/>
               </morpheme>
               <morpheme class="inflection">
                 <feat class="singular" subset="inflection"/>
               </morpheme>
-              <feat class="[[fabriek]noun[s][[schoor]noun[steen]noun]noun]noun/singular" subset="structure"/>
+              <feat class="[[fabriek]noun[s][[schoor]verb[steen]noun]noun]noun/singular" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="fabrieksschoorsteen"/>
@@ -14292,10 +14292,9 @@
               <morpheme class="inflection">
                 <feat class="present-tense" subset="inflection"/>
                 <feat class="singular" subset="inflection"/>
-                <feat class="2nd-person-verb" subset="inflection"/>
-                <feat class="inversed" subset="inflection"/>
+                <feat class="1st-person-verb" subset="inflection"/>
               </morpheme>
-              <feat class="[zie]verb/present-tense/singular/2nd-person-verb/inversed" subset="structure"/>
+              <feat class="[zie]verb/present-tense/singular/1st-person-verb" subset="structure"/>
             </morpheme>
           </morphology>
           <lemma class="zien"/>
@@ -14311,9 +14310,10 @@
                 <morpheme class="inflection">
                   <feat class="present-tense" subset="inflection"/>
                   <feat class="singular" subset="inflection"/>
-                  <feat class="1st-person-verb" subset="inflection"/>
+                  <feat class="2nd-person-verb" subset="inflection"/>
+                  <feat class="inversed" subset="inflection"/>
                 </morpheme>
-                <feat class="[zie]verb/present-tense/singular/1st-person-verb" subset="structure"/>
+                <feat class="[zie]verb/present-tense/singular/2nd-person-verb/inversed" subset="structure"/>
               </morpheme>
             </morphology>
           </alt>
