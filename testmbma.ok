@@ -7,7 +7,7 @@ deur {N(soort,ev,basis,zijd,stan)}	[ [deur]N e ]N
 <utt>
 
 We	[ [we]O ]O	none
-bonzen	[ [bonze]N [n]m ]N	none	[ [bons]N [en]m ]N	none	[ [bonz]0 [en]i ]0	none	[ [bonz]0 [en]tm ]0	none
+bonzen	[ [bonze]N [n]m ]N	none	[ [bons]N [en]m ]N	none	[ [bons]V [en]i ]V	none	[ [bons]V [en]tm ]V	none
 op	[ [op]A P ]A	none	[ [op]P ]P	none
 de	[ [de]D ]D	none	[ [de]E ]	none
 deur	[ [deur]N e ]N	none
@@ -70,7 +70,7 @@ een {LID(onbep,stan,agr)}	[ [een]D ]D
 <utt>
 
 dienstverleningsaanbod {N(soort,ev,basis,zijd,stan)}	[ [dien]V [st]N_V* [ver]V_*V [leen]V [ing]N_NV* [s]N_N*N [aanbod]N e ]N
-toe {VZ(fin)}	[ [toe]P ]P
+toe {VZ(fin)}	[ [toe]P e ]P
 . {LET()}	[.]
 <utt>
 
@@ -79,7 +79,7 @@ differentiaalquotiënten {N(soort,mv,basis)}	[ [different]A [ie]N_A* [aal]N_N* [
 werden {WW(pv,verl,mv)}	[ [word]V [en]vm ]V
 in {VZ(init)}	[ [in]P ]P
 estafettendiensten {N(soort,mv,basis)}	[ [estafette]N [n]N_N*N [dien]V [st]N_V* [en]m ]N
-met {VZ(init)}	[ [met]P ]P
+met {VZ(init)}	[ [met]P e ]P
 evangeliënharmonieën {N(soort,mv,basis)}	[ [evangelie]N [en]N_N*N [harmon]A [ie]N_A* [en]m ]N
 <utt>
 
@@ -104,30 +104,30 @@ keiengroeven {N(soort,mv,basis)}	[ [kei]N [en]N_N*N [groeven]N ]N NN-compound	NN
 De {LID(bep,stan,rest)}	[ [de]D ]D
 klaspatienten {N(soort,mv,basis)}	[ [klas]N [patient]N [en]m ]N NN-compound	NN
 laveien {WW(pv,tgw,mv)}	[ [lavei]V [en]tm ]V
-door {VZ(init)}	[ [door]P ]P
+door {VZ(init)}	[ [door]P e ]P
 het {LID(bep,stan,evon)}	[ [het]D ]D
 leliënbed {N(soort,ev,basis,onz,stan)}	[ [lelie]N [en]N_N*N [bed]N e ]N NN-compound	NN
 . {LET()}	[.]
 <utt>
 
 Zenuwpatiënten {N(soort,mv,basis)}	[ [zenuw]N [patiënt]N [en]m ]N NN-compound	NN
-lagen {WW(pv,verl,mv)}	[ [lig]V [en]i ]V
+lagen {WW(pv,verl,mv)}	[ [lig]V [en]vm ]V
 in {VZ(init)}	[ [in]P ]P
 een {LID(onbep,stan,agr)}	[ [een]D ]D
 zeswekendienst {N(soort,ev,basis,zijd,stan)}	[ [zes]Q [week]N [en]N_QN*N [dien]V [st]N_V* e ]N
 . {LET()}	[.]
 <utt>
 
-Ziekenfondspatiënten {N(soort,mv,basis)}	[ [zieke]N [en]N_N*N [fonds]N [patiënt]N [en]m ]N NN-compound	NN
+Ziekenfondspatiënten {N(soort,mv,basis)}	[ [zieke]N [n]N_N*N [fonds]N [patiënt]N [en]m ]N NN-compound	NN
 draaiden {WW(pv,verl,mv)}	[ [draai]V [den]vm ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
-ziekenhuisdienst {N(soort,ev,basis,zijd,stan)}	[ [zieke]N [en]N_N*N [huis]N [dien]V [st]N_V* e ]N NN-compound	NN
+ziekenhuisdienst {N(soort,ev,basis,zijd,stan)}	[ [zieke]N [n]N_N*N [huis]N [dien]V [st]N_V* e ]N NN-compound	NN
 . {LET()}	[.]
 <utt>
 
 Een {LID(onbep,stan,agr)}	[ [een]D ]D
 neuriënde {WW(od,prenom,met-e)}	[ [neurie]V [end]pt [e]E ]V
-ziekenhuisvoorziening {N(soort,ev,basis,zijd,stan)}	[ [zieke]N [en]N_N*N [huis]N [voor]B [zie]V [ing]N_V* e ]N NN-compound	NN
+ziekenhuisvoorziening {N(soort,ev,basis,zijd,stan)}	[ [zieke]N [n]N_N*N [huis]N [voor]B [zie]V [ing]N_V* e ]N NN-compound	NN
 . {LET()}	[.]
 <utt>
 
@@ -142,7 +142,7 @@ pierenwaaiende {WW(pv,verl,ev)}	[ [pier]N [en]N_N*N [waai]V [end]pt [e]E ]V
 <utt>
 
 Of {VG(neven)}	[ [of]C ]C
-zijn {WW(pv,tgw,mv)}	[ [zijn]V i ]V
+zijn {WW(pv,tgw,mv)}	[ [zijn]V tm ]V
 ze {VNW(pers,pron,stan,red,3,mv)}	[ [ze]O ]O
 papegaaiende {WW(pv,verl,ev)}	[ [papegaai]V [end]pt [e]E ]V
 ? {LET()}	[?]
@@ -155,11 +155,11 @@ regeringsdienst {N(soort,ev,basis,zijd,stan)}	[ [regeer]V [ing]N_V* [s]N_N*N [di
 <utt>
 
 Ik {VNW(pers,pron,nomin,vol,1,ev)}	[ [ik]O ]O
-ben {WW(pv,tgw,ev)}	[ [zijn]V te1 ]V
+ben {WW(pv,tgw,ev)}	[ [zijn]V te2I ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
 skiër {N(soort,ev,basis,zijd,stan)}	[ [skiër]N e ]N
 en {VG(neven)}	[ [en]C ]C
-zie {WW(pv,tgw,ev)}	[ [zie]V te2I ]V
+zie {WW(pv,tgw,ev)}	[ [zie]V te1 ]V
 al {BW()}	[ [al]B ]B
 skiënde {WW(od,vrij,zonder)}	[ [ski]V [end]pt [e]E ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
@@ -168,7 +168,7 @@ schaliëndekker {N(soort,ev,basis,zijd,stan)}	[ [schalie]N [en]N_N*Vx [dek]V [er
 , {LET()}	[,]
 <utt>
 
-dat {VNW(aanw,pron,stan,vol,3o,ev)}	[ [dat]O ]O
+dat {VNW(aanw,pron,stan,vol,3o,ev)}	[dat]
 is {WW(pv,tgw,ev)}	[ [zijn]V te3 ]V
 verfoeienswaardig {ADJ(vrij,basis,zonder)}	[ [verfoei]V [ens]A_V*A [waarde]N [ig]A_N* P ]A
 . {LET()}	[.]
@@ -182,7 +182,7 @@ de {LID(bep,stan,rest)}	[ [de]D ]D
 maliënkolders {N(soort,mv,basis)}	[ [malie]N [en]N_N*N [kolder]N [s]m ]N NN-compound	NN
 en {VG(neven)}	[ [en]C ]C
 markeringsboeien {N(soort,mv,basis)}	[ [mark]N [eer]V_N* [ing]N_V* [s]N_N*N [boei]N [en]m ]N NN-compound	NN
-zijn {WW(pv,tgw,mv)}	[ [zijn]V i ]V
+zijn {WW(pv,tgw,mv)}	[ [zijn]V tm ]V
 we {VNW(pers,pron,nomin,red,1,mv)}	[ [we]O ]O
 <utt>
 
@@ -196,7 +196,7 @@ bezig {ADJ(vrij,basis,zonder)}	[ [bezig]A P ]A
 De {LID(bep,stan,rest)}	[ [de]D ]D
 monopoliënde {WW(od,prenom,met-e)}	[ [monopolie]V [end]pt [e]E ]V
 oliën {N(soort,mv,basis)}	[ [olie]N [en]m ]N
-zijn {WW(pv,tgw,mv)}	[ [zijn]V i ]V
+zijn {WW(pv,tgw,mv)}	[ [zijn]V tm ]V
 onhygiënisch {ADJ(vrij,basis,zonder)}	[ [on]A_*A [hygiëne]N [isch]A_N* P ]A
 . {LET()}	[.]
 <utt>
@@ -204,7 +204,7 @@ onhygiënisch {ADJ(vrij,basis,zonder)}	[ [on]A_*A [hygiëne]N [isch]A_N* P ]A
 Wij {VNW(pers,pron,nomin,vol,1,mv)}	[ [wij]O ]O
 ontmoeien {WW(pv,tgw,mv)}	[ [ontmoei]V [en]i ]V
 ons {VNW(pr,pron,obl,vol,1,mv)}	[ [ons]O ]O
-met {VZ(init)}	[ [met]P ]P
+met {VZ(init)}	[ [met]P e ]P
 de {LID(bep,stan,rest)}	[ [de]D ]D
 opruiende {ADJ(prenom,basis,met-e,stan)}	[ [opruiend]A [e]E ]A
 oriëntering {N(soort,ev,basis,zijd,stan)}	[ [Oriënt]N [eer]V_N* [ing]N_V* e ]N NN-compound	NN
@@ -223,7 +223,7 @@ moesten {WW(pv,verl,mv)}	[ [moet]V [en]vm ]V
 . {LET()}	[.]
 <utt>
 
-Dat {VNW(aanw,pron,stan,vol,3o,ev)}	[ [dat]O ]O
+Dat {VNW(aanw,pron,stan,vol,3o,ev)}	[dat]
 moesten {WW(pv,verl,mv)}	[ [moet]V [en]vm ]V
 we {VNW(pers,pron,nomin,red,1,mv)}	[ [we]O ]O
 wel {BW()}	[ [wel]A P ]A
@@ -234,7 +234,7 @@ uitkienen {WW(inf,vrij,zonder)}	[ [uitkien]V [en]i ]V
 Jan {SPEC(deeleigen)}	[ [Jan]PN ]PN
 en {VG(neven)}	[ [en]C ]C
 Piet {SPEC(deeleigen)}	[ [Piet]PN e ]PN
-zijn {WW(pv,tgw,mv)}	[ [zijn]V i ]V
+zijn {WW(pv,tgw,mv)}	[ [zijn]V tm ]V
 de {LID(bep,stan,rest)}	[ [de]D ]D
 expediënten {N(soort,mv,basis)}	[ [expedieer]N [ent]e [en]m ]N
 . {LET()}	[.]
@@ -296,7 +296,7 @@ een {LID(onbep,stan,agr)}	[ [een]D ]D
 <utt>
 
 dienstverleningsaanbod {N(soort,ev,basis,zijd,stan)}	[ [ [ [ [dien]V [st]N_V* ]N [ [ver]V_*V [leen]V ]V [ing]N_NV* ]N NN-compound [s]N_N*N [aanbod]N ]N NN-compound e ]N NN-compound	NN
-toe {VZ(fin)}	[ [toe]P ]P
+toe {VZ(fin)}	[ [toe]P e ]P
 . {LET()}	[.]
 <utt>
 
@@ -305,7 +305,7 @@ differentiaalquotiënten {N(soort,mv,basis)}	[ [ [ [ [different]A [ie]N_A* ]N [a
 werden {WW(pv,verl,mv)}	[ [word]V [en]vm ]V
 in {VZ(init)}	[ [in]P ]P
 estafettendiensten {N(soort,mv,basis)}	[ [ [estafette]N [n]N_N*N [ [dien]V [st]N_V* ]N ]N NN-compound [en]m ]N NN-compound	NN
-met {VZ(init)}	[ [met]P ]P
+met {VZ(init)}	[ [met]P e ]P
 evangeliënharmonieën {N(soort,mv,basis)}	[ [ [evangelie]N [en]N_N*N [ [harmon]A [ie]N_A* ]N ]N NN-compound [en]m ]N NN-compound	NN
 <utt>
 
@@ -330,30 +330,30 @@ keiengroeven {N(soort,mv,basis)}	[ [kei]N [en]N_N*N [groeven]N ]N NN-compound	NN
 De {LID(bep,stan,rest)}	[ [de]D ]D
 klaspatienten {N(soort,mv,basis)}	[ [ [klas]N [patient]N ]N NN-compound [en]m ]N NN-compound	NN
 laveien {WW(pv,tgw,mv)}	[ [lavei]V [en]tm ]V
-door {VZ(init)}	[ [door]P ]P
+door {VZ(init)}	[ [door]P e ]P
 het {LID(bep,stan,evon)}	[ [het]D ]D
 leliënbed {N(soort,ev,basis,onz,stan)}	[ [ [lelie]N [en]N_N*N [bed]N ]N NN-compound e ]N NN-compound	NN
 . {LET()}	[.]
 <utt>
 
 Zenuwpatiënten {N(soort,mv,basis)}	[ [ [zenuw]N [patiënt]N ]N NN-compound [en]m ]N NN-compound	NN
-lagen {WW(pv,verl,mv)}	[ [lig]V [en]i ]V
+lagen {WW(pv,verl,mv)}	[ [lig]V [en]vm ]V
 in {VZ(init)}	[ [in]P ]P
 een {LID(onbep,stan,agr)}	[ [een]D ]D
 zeswekendienst {N(soort,ev,basis,zijd,stan)}	[ [ [zes]Q [week]N [en]N_QN*N [ [dien]V [st]N_V* ]N ]N e ]N
 . {LET()}	[.]
 <utt>
 
-Ziekenfondspatiënten {N(soort,mv,basis)}	[ [ [ [zieke]N [en]N_N*N [fonds]N ]N NN-compound [patiënt]N ]N NNN-compound [en]m ]N NNN-compound	NNN
+Ziekenfondspatiënten {N(soort,mv,basis)}	[ [ [ [zieke]N [n]N_N*N [fonds]N ]N NN-compound [patiënt]N ]N NNN-compound [en]m ]N NNN-compound	NNN
 draaiden {WW(pv,verl,mv)}	[ [draai]V [den]vm ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
-ziekenhuisdienst {N(soort,ev,basis,zijd,stan)}	[ [ [zieke]N [en]N_N*N [huis]N ]N NN-compound [ [dien]V [st]N_V* ]N e ]N NN-compound	NN
+ziekenhuisdienst {N(soort,ev,basis,zijd,stan)}	[ [ [zieke]N [n]N_N*N [huis]N ]N NN-compound [ [dien]V [st]N_V* ]N e ]N NN-compound	NN
 . {LET()}	[.]
 <utt>
 
 Een {LID(onbep,stan,agr)}	[ [een]D ]D
 neuriënde {WW(od,prenom,met-e)}	[ [neurie]V [end]pt [e]E ]V
-ziekenhuisvoorziening {N(soort,ev,basis,zijd,stan)}	[ [ [zieke]N [en]N_N*N [huis]N ]N NN-compound [voor]B [ [zie]V [ing]N_V* ]N e ]N
+ziekenhuisvoorziening {N(soort,ev,basis,zijd,stan)}	[ [ [zieke]N [n]N_N*N [huis]N ]N NN-compound [voor]B [ [zie]V [ing]N_V* ]N e ]N
 . {LET()}	[.]
 <utt>
 
@@ -368,7 +368,7 @@ pierenwaaiende {WW(pv,verl,ev)}	[ [pier]N [en]N_N*N [waai]V [end]pt [e]E ]V
 <utt>
 
 Of {VG(neven)}	[ [of]C ]C
-zijn {WW(pv,tgw,mv)}	[ [zijn]V i ]V
+zijn {WW(pv,tgw,mv)}	[ [zijn]V tm ]V
 ze {VNW(pers,pron,stan,red,3,mv)}	[ [ze]O ]O
 papegaaiende {WW(pv,verl,ev)}	[ [papegaai]V [end]pt [e]E ]V
 ? {LET()}	[?]
@@ -381,7 +381,7 @@ regeringsdienst {N(soort,ev,basis,zijd,stan)}	[ [ [ [regeer]V [ing]N_V* ]N [s]N_
 <utt>
 
 Ik {VNW(pers,pron,nomin,vol,1,ev)}	[ [ik]O ]O
-ben {WW(pv,tgw,ev)}	[ [zijn]V te1 ]V
+ben {WW(pv,tgw,ev)}	[ [zijn]V te1 ]V	[ [zijn]V te2I ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
 skiër {N(soort,ev,basis,zijd,stan)}	[ [skiër]N e ]N
 en {VG(neven)}	[ [en]C ]C
@@ -394,7 +394,7 @@ schaliëndekker {N(soort,ev,basis,zijd,stan)}	[ [ [schalie]N [en]N_N*Vx [dek]V [
 , {LET()}	[,]
 <utt>
 
-dat {VNW(aanw,pron,stan,vol,3o,ev)}	[ [dat]O ]O
+dat {VNW(aanw,pron,stan,vol,3o,ev)}	[dat]
 is {WW(pv,tgw,ev)}	[ [zijn]V te3 ]V
 verfoeienswaardig {ADJ(vrij,basis,zonder)}	[ [ [verfoei]V [ens]A_V*A [ [waarde]N [ig]A_N* ]A ]A P ]A
 . {LET()}	[.]
@@ -408,7 +408,7 @@ de {LID(bep,stan,rest)}	[ [de]D ]D
 maliënkolders {N(soort,mv,basis)}	[ [ [malie]N [en]N_N*N [kolder]N ]N NN-compound [s]m ]N NN-compound	NN
 en {VG(neven)}	[ [en]C ]C
 markeringsboeien {N(soort,mv,basis)}	[ [ [ [ [mark]N [eer]V_N* ]V [ing]N_V* ]N [s]N_N*N [boei]N ]N NN-compound [en]m ]N NN-compound	NN
-zijn {WW(pv,tgw,mv)}	[ [zijn]V i ]V
+zijn {WW(pv,tgw,mv)}	[ [zijn]V tm ]V
 we {VNW(pers,pron,nomin,red,1,mv)}	[ [we]O ]O
 <utt>
 
@@ -422,7 +422,7 @@ bezig {ADJ(vrij,basis,zonder)}	[ [bezig]A P ]A
 De {LID(bep,stan,rest)}	[ [de]D ]D
 monopoliënde {WW(od,prenom,met-e)}	[ [monopolie]V [end]pt [e]E ]V
 oliën {N(soort,mv,basis)}	[ [olie]N [en]m ]N
-zijn {WW(pv,tgw,mv)}	[ [zijn]V i ]V
+zijn {WW(pv,tgw,mv)}	[ [zijn]V tm ]V
 onhygiënisch {ADJ(vrij,basis,zonder)}	[ [on]A_*A [ [hygiëne]N [isch]A_N* ]A P ]A
 . {LET()}	[.]
 <utt>
@@ -430,7 +430,7 @@ onhygiënisch {ADJ(vrij,basis,zonder)}	[ [on]A_*A [ [hygiëne]N [isch]A_N* ]A P 
 Wij {VNW(pers,pron,nomin,vol,1,mv)}	[ [wij]O ]O
 ontmoeien {WW(pv,tgw,mv)}	[ [ontmoei]V [en]i ]V
 ons {VNW(pr,pron,obl,vol,1,mv)}	[ [ons]O ]O
-met {VZ(init)}	[ [met]P ]P
+met {VZ(init)}	[ [met]P e ]P
 de {LID(bep,stan,rest)}	[ [de]D ]D
 opruiende {ADJ(prenom,basis,met-e,stan)}	[ [opruiend]A [e]E ]A
 oriëntering {N(soort,ev,basis,zijd,stan)}	[ [ [ [Oriënt]N [eer]V_N* ]V [ing]N_V* ]N e ]N
@@ -449,7 +449,7 @@ moesten {WW(pv,verl,mv)}	[ [moet]V [en]vm ]V
 . {LET()}	[.]
 <utt>
 
-Dat {VNW(aanw,pron,stan,vol,3o,ev)}	[ [dat]O ]O
+Dat {VNW(aanw,pron,stan,vol,3o,ev)}	[dat]
 moesten {WW(pv,verl,mv)}	[ [moet]V [en]vm ]V
 we {VNW(pers,pron,nomin,red,1,mv)}	[ [we]O ]O
 wel {BW()}	[ [wel]A P ]A
@@ -460,7 +460,7 @@ uitkienen {WW(inf,vrij,zonder)}	[ [uitkien]V [en]i ]V
 Jan {SPEC(deeleigen)}	[ [Jan]PN ]PN
 en {VG(neven)}	[ [en]C ]C
 Piet {SPEC(deeleigen)}	[ [Piet]PN e ]PN
-zijn {WW(pv,tgw,mv)}	[ [zijn]V i ]V
+zijn {WW(pv,tgw,mv)}	[ [zijn]V tm ]V
 de {LID(bep,stan,rest)}	[ [de]D ]D
 expediënten {N(soort,mv,basis)}	[ [expedieer]N [ent]e [en]m ]N
 . {LET()}	[.]

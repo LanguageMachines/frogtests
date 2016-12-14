@@ -77,7 +77,7 @@
 5	,	,	[,]	LET()	1.000000	O	O	4	punct
 6	maar	maar	[maar]	VG(neven)	0.986395	O	B-CONJP	0	ROOT
 7	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.988333	O	B-ADVP	8	mod
-8	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.998377	O	B-VP	6	cnj
+8	waren	zijn	[waren]	WW(pv,verl,mv)	0.998377	O	B-VP	6	cnj
 9	geen	geen	[geen]	VNW(onbep,det,stan,prenom,zonder,agr)	0.999753	O	B-NP	10	det
 10	spaarpunten	spaarpunt	[spaar][punt][en]	N(soort,mv,basis)	1.000000	O	I-NP	8	su
 11	meer	veel	[meer]	VNW(onbep,grad,stan,vrij,zonder,comp)	0.942857	O	B-ADVP	8	mod
@@ -221,7 +221,7 @@
 19	,	,	[,]	LET()	1.000000	O	O	18	punct
 20	maar	maar	[maar]	VG(neven)	0.986395	O	B-CONJP	0	ROOT
 21	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.988333	O	B-ADVP	22	mod
-22	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.998377	O	B-VP	20	cnj
+22	waren	zijn	[waren]	WW(pv,verl,mv)	0.998377	O	B-VP	20	cnj
 23	geen	geen	[geen]	VNW(onbep,det,stan,prenom,zonder,agr)	0.999753	O	B-NP	24	det
 24	punten	punt	[punt][en]	N(soort,mv,basis)	0.995266	O	I-NP	22	su
 25	op	op	[op]	VZ(init)	0.996568	O	B-PP	24	mod
@@ -564,7 +564,7 @@
 4	op	op	[op]	VZ(init)	0.996355	O	B-PP	3	mod
 5	het	het	[het]	LID(bep,stan,evon)	0.999914	O	B-NP	6	det
 6	strand	strand	[strand]	N(soort,ev,basis,onz,stan)	0.997279	O	I-NP	4	obj1
-7	gezien	zien	[ge][zien]	WW(vd,vrij,zonder)	0.997893	O	B-VP	6	mod
+7	gezien	zien	[ge][zie][n]	WW(vd,vrij,zonder)	0.997893	O	B-VP	6	mod
 8	,	,	[,]	LET()	1.000000	O	O	7	punct
 9	een	een	[een]	LID(onbep,stan,agr)	0.999522	O	B-NP	10	det
 10	paar	paar	[paar]	N(soort,ev,basis,onz,stan)	0.994819	O	I-NP	11	det
@@ -1256,7 +1256,7 @@
 13	.	.	[.]	LET()	1.000000	O	O	12	punct
 
 1	Die	die	[die]	VNW(aanw,pron,stan,vol,3,getal)	0.979100	O	B-NP	2	su
-2	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.999293	O	B-VP	0	ROOT
+2	waren	zijn	[waren]	WW(pv,verl,mv)	0.999293	O	B-VP	0	ROOT
 3	alleen	alleen	[alleen]	BW()	0.998732	O	B-ADVP	2	mod
 4	te	te	[te]	VZ(init)	0.999976	O	B-VP	0	ROOT
 5	vinden	vinden	[vind][en]	WW(inf,vrij,zonder)	0.882883	O	I-VP	4	body
@@ -1316,7 +1316,7 @@
 8	ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999844	O	B-NP	7	su
 9	nog	nog	[nog]	BW()	0.999930	O	B-ADVP	10	mod
 10	nooit	nooit	[nooit]	BW()	0.994048	O	I-ADVP	11	mod
-11	gezien	zien	[ge][zien]	WW(vd,vrij,zonder)	0.997981	O	B-VP	7	vc
+11	gezien	zien	[ge][zie][n]	WW(vd,vrij,zonder)	0.997981	O	B-VP	7	vc
 12	.	.	[.]	LET()	1.000000	O	O	11	punct
 
 1	Men	men	[men]	VNW(pers,pron,nomin,red,3p,ev,masc)	0.995465	O	B-NP	2	su
@@ -1476,7 +1476,7 @@
 1	Onder	onder	[onder]	VZ(init)	0.980282	O	B-PP	0	ROOT
 2	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.998908	O	B-NP	3	det
 3	cadeaus	cadeau	[cadeau][s]	N(soort,mv,basis)	0.999414	O	I-NP	4	su
-4	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.999293	O	B-VP	0	ROOT
+4	waren	zijn	[waren]	WW(pv,verl,mv)	0.999293	O	B-VP	0	ROOT
 5	ook	ook	[ook]	BW()	0.999979	O	B-ADVP	4	mod
 6	bijzondere	bijzonder	[bijzonder][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP	7	mod
 7	potten	pot	[pot][en]	N(soort,mv,basis)	0.998847	O	I-NP	4	su
@@ -1620,7 +1620,7 @@
 5	met	met	[met]	VZ(init)	0.999820	O	B-PP	4	mod
 6	de	de	[de]	LID(bep,stan,rest)	0.999964	O	B-NP	7	det
 7	pet	pet	[pet]	N(soort,ev,basis,zijd,stan)	0.996154	O	I-NP	5	obj1
-8	gezien	zien	[ge][zien]	WW(vd,vrij,zonder)	0.997981	O	B-VP	2	vc
+8	gezien	zien	[ge][zie][n]	WW(vd,vrij,zonder)	0.997981	O	B-VP	2	vc
 9	.	.	[.]	LET()	1.000000	O	O	8	punct
 
 1	Hij	hij	[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431	O	B-NP	2	su
@@ -1987,7 +1987,7 @@
 5	kennen	kennen	[ken][en]	WW(pv,tgw,mv)	0.516667	O	B-VP	0	ROOT
 6	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.600000	O	B-NP	9	None
 7	dol	dol	[dol]	ADJ(vrij,basis,zonder)	0.979612	O	B-ADJP	8	predc
-8	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.989983	O	B-VP	6	body
+8	waren	zijn	[waren]	WW(pv,verl,mv)	0.989983	O	B-VP	6	body
 9	op	op	[op]	VZ(init)	0.996560	O	B-PP	5	obj2
 10	een	een	[een]	LID(onbep,stan,agr)	0.999573	O	B-NP	11	det
 11	biertje	bier	[bier][tje]	N(soort,ev,dim,onz,stan)	0.999323	O	I-NP	12	cnj
@@ -2027,7 +2027,7 @@
 8	ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999844	O	B-NP	7	su
 9	nog	nog	[nog]	BW()	0.999930	O	B-ADVP	10	mod
 10	nooit	nooit	[nooit]	BW()	0.994048	O	I-ADVP	11	mod
-11	gezien	zien	[ge][zien]	WW(vd,vrij,zonder)	0.997981	O	B-VP	7	vc
+11	gezien	zien	[ge][zie][n]	WW(vd,vrij,zonder)	0.997981	O	B-VP	7	vc
 12	.	.	[.]	LET()	1.000000	O	O	11	punct
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999688	O	B-NP	2	su
@@ -2092,7 +2092,7 @@
 9	uit	uit	[uit]	VZ(init)	0.993496	O	B-PP	2	su
 10	het	het	[het]	LID(bep,stan,evon)	0.999914	O	B-NP	11	det
 11	dak	dak	[dak]	N(soort,ev,basis,onz,stan)	0.997487	O	I-NP	9	obj1
-12	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.998377	O	B-VP	2	cnj
+12	waren	zijn	[waren]	WW(pv,verl,mv)	0.998377	O	B-VP	2	cnj
 13	geslagen	slaan	[ge][sla][en]	WW(vd,vrij,zonder)	0.997512	O	I-VP	12	vc
 14	,	,	[,]	LET()	1.000000	O	O	13	punct
 15	de	de	[de]	LID(bep,stan,rest)	0.999454	O	B-NP	16	det
@@ -2200,7 +2200,7 @@
 26	.	.	[.]	LET()	1.000000	O	O	25	punct
 
 1	Het	het	[het]	VNW(pers,pron,stan,red,3,ev,onz)	1.000000	O	B-NP	2	su
-2	moeten	moeten	[moeten]	WW(pv,tgw,mv)	0.994382	O	B-VP	10	cnj
+2	moeten	moeten	[moet][en]	WW(pv,tgw,mv)	0.994382	O	B-VP	10	cnj
 3	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.973214	O	B-ADVP	7	mod
 4	echter	echter	[echter]	BW()	0.997264	O	B-ADVP	6	mod
 5	veel	veel	[veel]	VNW(onbep,grad,stan,vrij,zonder,basis)	0.950000	O	B-NP	6	mod
@@ -2461,7 +2461,7 @@
 5	ze	ze	[ze]	VNW(pers,pron,stan,red,3,mv)	0.666667	O	B-NP	7	su
 6	zich	zich	[zich]	VNW(refl,pron,obl,red,3,getal)	0.999740	O	B-NP	7	None
 7	heeft	hebben	[heb][t]	WW(pv,tgw,met-t)	0.999599	O	B-VP	4	body
-8	moeten	moeten	[moeten]	WW(inf,vrij,zonder)	0.604790	O	I-VP	7	vc
+8	moeten	moeten	[moet][en]	WW(inf,vrij,zonder)	0.604790	O	I-VP	7	vc
 9	haasten	haasten	[haast][en]	WW(inf,vrij,zonder)	0.997619	O	I-VP	8	vc
 10	.	.	[.]	LET()	1.000000	O	O	9	punct
 
@@ -2519,7 +2519,7 @@
 9	uit	uit	[uit]	VZ(init)	0.993496	O	B-PP	2	su
 10	het	het	[het]	LID(bep,stan,evon)	0.999914	O	B-NP	11	det
 11	dak	dak	[dak]	N(soort,ev,basis,onz,stan)	0.997487	O	I-NP	9	obj1
-12	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.998377	O	B-VP	2	cnj
+12	waren	zijn	[waren]	WW(pv,verl,mv)	0.998377	O	B-VP	2	cnj
 13	geslagen	slaan	[ge][sla][en]	WW(vd,vrij,zonder)	0.997512	O	I-VP	12	vc
 14	,	,	[,]	LET()	1.000000	O	O	13	punct
 15	de	de	[de]	LID(bep,stan,rest)	0.999454	O	B-NP	16	det
@@ -2627,7 +2627,7 @@
 26	.	.	[.]	LET()	1.000000	O	O	25	punct
 
 1	Het	het	[het]	VNW(pers,pron,stan,red,3,ev,onz)	1.000000	O	B-NP	2	su
-2	moeten	moeten	[moeten]	WW(pv,tgw,mv)	0.994382	O	B-VP	10	cnj
+2	moeten	moeten	[moet][en]	WW(pv,tgw,mv)	0.994382	O	B-VP	10	cnj
 3	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.973214	O	B-ADVP	7	mod
 4	echter	echter	[echter]	BW()	0.997264	O	B-ADVP	6	mod
 5	veel	veel	[veel]	VNW(onbep,grad,stan,vrij,zonder,basis)	0.950000	O	B-NP	6	mod
@@ -2755,7 +2755,7 @@
 5	weet	weten	[weet]	WW(pv,tgw,ev)	0.999318	O	B-VP	2	mod
 6	waar	waar	[waar]	VNW(vb,adv-pron,obl,vol,3o,getal)	0.900000	O	B-SBAR	5	vc
 7	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999729	O	B-NP	9	su
-8	moeten	moeten	[moeten]	WW(inf,vrij,zonder)	0.670130	O	B-VP	9	None
+8	moeten	moeten	[moet][en]	WW(inf,vrij,zonder)	0.670130	O	B-VP	9	None
 9	zijn	zijn	[zijn]	WW(inf,vrij,zonder)	0.990566	O	I-VP	6	body
 10	.	.	[.]	LET()	1.000000	O	O	9	punct
 11	'	'	[']	LET()	1.000000	O	O	9	punct
@@ -3237,7 +3237,7 @@
 9	.	.	[.]	LET()	1.000000	O	O	8	punct
 
 1	We	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.998787	O	B-NP	2	su
-2	moeten	moeten	[moeten]	WW(pv,tgw,mv)	0.968000	O	B-VP	0	ROOT
+2	moeten	moeten	[moet][en]	WW(pv,tgw,mv)	0.968000	O	B-VP	0	ROOT
 3	de	de	[de]	LID(bep,stan,rest)	0.999665	O	B-NP	4	det
 4	software	software	[software]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP	5	obj1
 5	deinstalleren	deinstalleren	[deinstalleer][en]	WW(inf,vrij,zonder)	0.972368	O	B-VP	2	vc
@@ -3605,7 +3605,7 @@
 1	De	de	[de]	LID(bep,stan,rest)	0.877577	O	B-NP	3	det
 2	35jarige	35jarig	[35jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	1.000000	O	I-NP	3	mod
 3	bestuurder	bestuurder	[be][stuur][der]	N(soort,ev,basis,zijd,stan)	0.999183	O	I-NP	4	su
-4	reed	rijden	[reed]	WW(pv,verl,ev)	0.990826	O	B-VP	0	ROOT
+4	reed	rijden	[rijd]	WW(pv,verl,ev)	0.990826	O	B-VP	0	ROOT
 5	over	over	[over]	VZ(init)	0.998595	O	B-PP	4	mod
 6	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP	7	det
 7	A-2	A-2	[A-2]	SPEC(deeleigen)	1.000000	B-MISC	I-NP	8	cnj
