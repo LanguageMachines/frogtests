@@ -566,15 +566,15 @@
 5	zeswekendienst		[zes][week][en][dien][st]	N(soort,ev,basis,zijd,stan)	0.809922
 6	.		[.]	LET()	1.000000
 
-1	Ziekenfondspatiënten		[zieke][n][fonds][patiënt][en]	N(soort,mv,basis)	1.000000
+1	Ziekenfondspatiënten		[zieke][en][fonds][patiënt][en]	N(soort,mv,basis)	1.000000
 2	draaiden		[draai][den]	WW(pv,verl,mv)	0.993311
 3	een		[een]	LID(onbep,stan,agr)	0.995147
-4	ziekenhuisdienst		[zieke][n][huis][dien][st]	N(soort,ev,basis,zijd,stan)	0.910688
+4	ziekenhuisdienst		[zieke][en][huis][dien][st]	N(soort,ev,basis,zijd,stan)	0.910688
 5	.		[.]	LET()	1.000000
 
 1	Een		[een]	LID(onbep,stan,agr)	0.981771
 2	neuriënde		[neurie][end][e]	WW(od,prenom,met-e)	0.608528
-3	ziekenhuisvoorziening		[zieke][n][huis][voor][zie][ing]	N(soort,ev,basis,zijd,stan)	1.000000
+3	ziekenhuisvoorziening		[zieke][en][huis][voor][zie][ing]	N(soort,ev,basis,zijd,stan)	1.000000
 4	.		[.]	LET()	1.000000
 
 1	Alles		[alles]	VNW(onbep,pron,stan,vol,3o,ev)	0.994808
@@ -720,7 +720,7 @@
 5	?		[?]	LET()	1.000000
 
 1	Dat		[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.995495
-2	moeten		[moeten]	WW(pv,tgw,mv)	0.672768
+2	moeten		[moet][en]	WW(pv,tgw,mv)	0.672768
 3	we		[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170
 4	bediscussiëren		[be][discussieer][en]	WW(pv,tgw,mv)	0.857143
 5	in		[in]	VZ(init)	0.999350

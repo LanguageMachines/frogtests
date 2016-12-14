@@ -1,5 +1,5 @@
 We {VNW(pers,pron,nomin,red,1,mv)}	[ [we]O ]O
-bonzen {N(soort,mv,basis)}	[ [bonze]N [n]m ]N	[ [bons]N [en]m ]N
+bonzen {N(soort,mv,basis)}	[ [bons]N [en]m ]N	[ [bonze]N [n]m ]N
 op {VZ(init)}	[ [op]P ]P
 de {LID(bep,stan,rest)}	[ [de]D ]D
 deur {N(soort,ev,basis,zijd,stan)}	[ [deur]N e ]N
@@ -7,7 +7,7 @@ deur {N(soort,ev,basis,zijd,stan)}	[ [deur]N e ]N
 <utt>
 
 We	[ [we]O ]O	none
-bonzen	[ [bonze]N [n]m ]N	none	[ [bons]N [en]m ]N	none	[ [bons]V [en]i ]V	none	[ [bons]V [en]tm ]V	none
+bonzen	[ [bons]N [en]m ]N	none	[ [bonze]N [n]m ]N	none	[ [bons]V [en]i ]V	none	[ [bons]V [en]tm ]V	none
 op	[ [op]A P ]A	none	[ [op]P ]P	none
 de	[ [de]D ]D	none	[ [de]E ]	none
 deur	[ [deur]N e ]N	none
@@ -118,16 +118,16 @@ zeswekendienst {N(soort,ev,basis,zijd,stan)}	[ [zes]Q [week]N [en]N_QN*N [dien]V
 . {LET()}	[.]
 <utt>
 
-Ziekenfondspatiënten {N(soort,mv,basis)}	[ [zieke]N [n]N_N*N [fonds]N [patiënt]N [en]m ]N NN-compound	NN
+Ziekenfondspatiënten {N(soort,mv,basis)}	[ [zieke]N [en]N_N*N [fonds]N [patiënt]N [en]m ]N NN-compound	NN
 draaiden {WW(pv,verl,mv)}	[ [draai]V [den]vm ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
-ziekenhuisdienst {N(soort,ev,basis,zijd,stan)}	[ [zieke]N [n]N_N*N [huis]N [dien]V [st]N_V* e ]N NN-compound	NN
+ziekenhuisdienst {N(soort,ev,basis,zijd,stan)}	[ [zieke]N [en]N_N*N [huis]N [dien]V [st]N_V* e ]N NN-compound	NN
 . {LET()}	[.]
 <utt>
 
 Een {LID(onbep,stan,agr)}	[ [een]D ]D
 neuriënde {WW(od,prenom,met-e)}	[ [neurie]V [end]pt [e]E ]V
-ziekenhuisvoorziening {N(soort,ev,basis,zijd,stan)}	[ [zieke]N [n]N_N*N [huis]N [voor]B [zie]V [ing]N_V* e ]N NN-compound	NN
+ziekenhuisvoorziening {N(soort,ev,basis,zijd,stan)}	[ [zieke]N [en]N_N*N [huis]N [voor]B [zie]V [ing]N_V* e ]N NN-compound	NN
 . {LET()}	[.]
 <utt>
 
@@ -159,7 +159,7 @@ ben {WW(pv,tgw,ev)}	[ [zijn]V te2I ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
 skiër {N(soort,ev,basis,zijd,stan)}	[ [skiër]N e ]N
 en {VG(neven)}	[ [en]C ]C
-zie {WW(pv,tgw,ev)}	[ [zie]V te1 ]V
+zie {WW(pv,tgw,ev)}	[ [zie]V te2I ]V
 al {BW()}	[ [al]B ]B
 skiënde {WW(od,vrij,zonder)}	[ [ski]V [end]pt [e]E ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
@@ -218,7 +218,7 @@ dat {VG(onder)}	[ [dat]C ]C
 we {VNW(pers,pron,nomin,red,1,mv)}	[ [we]O ]O
 het {LID(bep,stan,evon)}	[ [het]D ]D
 dak {N(soort,ev,basis,onz,stan)}	[ [dak]N e ]N
-verleien {ADJ(vrij,basis,zonder)}	[ [verlei]V [en]tm ]V
+verleien {ADJ(vrij,basis,zonder)}	[ [verlei]V [en]i ]V
 moesten {WW(pv,verl,mv)}	[ [moet]V [en]vm ]V
 . {LET()}	[.]
 <utt>
@@ -344,16 +344,16 @@ zeswekendienst {N(soort,ev,basis,zijd,stan)}	[ [ [zes]Q [week]N [en]N_QN*N [ [di
 . {LET()}	[.]
 <utt>
 
-Ziekenfondspatiënten {N(soort,mv,basis)}	[ [ [ [zieke]N [n]N_N*N [fonds]N ]N NN-compound [patiënt]N ]N NNN-compound [en]m ]N NNN-compound	NNN
+Ziekenfondspatiënten {N(soort,mv,basis)}	[ [ [ [zieke]N [en]N_N*N [fonds]N ]N NN-compound [patiënt]N ]N NNN-compound [en]m ]N NNN-compound	NNN
 draaiden {WW(pv,verl,mv)}	[ [draai]V [den]vm ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
-ziekenhuisdienst {N(soort,ev,basis,zijd,stan)}	[ [ [zieke]N [n]N_N*N [huis]N ]N NN-compound [ [dien]V [st]N_V* ]N e ]N NN-compound	NN
+ziekenhuisdienst {N(soort,ev,basis,zijd,stan)}	[ [ [zieke]N [en]N_N*N [huis]N ]N NN-compound [ [dien]V [st]N_V* ]N e ]N NN-compound	NN
 . {LET()}	[.]
 <utt>
 
 Een {LID(onbep,stan,agr)}	[ [een]D ]D
 neuriënde {WW(od,prenom,met-e)}	[ [neurie]V [end]pt [e]E ]V
-ziekenhuisvoorziening {N(soort,ev,basis,zijd,stan)}	[ [ [zieke]N [n]N_N*N [huis]N ]N NN-compound [voor]B [ [zie]V [ing]N_V* ]N e ]N
+ziekenhuisvoorziening {N(soort,ev,basis,zijd,stan)}	[ [ [zieke]N [en]N_N*N [huis]N ]N NN-compound [voor]B [ [zie]V [ing]N_V* ]N e ]N
 . {LET()}	[.]
 <utt>
 

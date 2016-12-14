@@ -77,7 +77,7 @@
 5	,	,	[,]	LET()	1.000000	O	O	4	punct
 6	maar	maar	[maar]	VG(neven)	0.986395	O	B-CONJP	0	ROOT
 7	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.988333	O	B-ADVP	8	mod
-8	waren	zijn	[waren]	WW(pv,verl,mv)	0.998377	O	B-VP	6	cnj
+8	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.998377	O	B-VP	6	cnj
 9	geen	geen	[geen]	VNW(onbep,det,stan,prenom,zonder,agr)	0.999753	O	B-NP	10	det
 10	spaarpunten	spaarpunt	[spaar][punt][en]	N(soort,mv,basis)	1.000000	O	I-NP	8	su
 11	meer	veel	[meer]	VNW(onbep,grad,stan,vrij,zonder,comp)	0.942857	O	B-ADVP	8	mod
@@ -221,7 +221,7 @@
 19	,	,	[,]	LET()	1.000000	O	O	18	punct
 20	maar	maar	[maar]	VG(neven)	0.986395	O	B-CONJP	0	ROOT
 21	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.988333	O	B-ADVP	22	mod
-22	waren	zijn	[waren]	WW(pv,verl,mv)	0.998377	O	B-VP	20	cnj
+22	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.998377	O	B-VP	20	cnj
 23	geen	geen	[geen]	VNW(onbep,det,stan,prenom,zonder,agr)	0.999753	O	B-NP	24	det
 24	punten	punt	[punt][en]	N(soort,mv,basis)	0.995266	O	I-NP	22	su
 25	op	op	[op]	VZ(init)	0.996568	O	B-PP	24	mod
@@ -1256,7 +1256,7 @@
 13	.	.	[.]	LET()	1.000000	O	O	12	punct
 
 1	Die	die	[die]	VNW(aanw,pron,stan,vol,3,getal)	0.979100	O	B-NP	2	su
-2	waren	zijn	[waren]	WW(pv,verl,mv)	0.999293	O	B-VP	0	ROOT
+2	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.999293	O	B-VP	0	ROOT
 3	alleen	alleen	[alleen]	BW()	0.998732	O	B-ADVP	2	mod
 4	te	te	[te]	VZ(init)	0.999976	O	B-VP	0	ROOT
 5	vinden	vinden	[vind][en]	WW(inf,vrij,zonder)	0.882883	O	I-VP	4	body
@@ -1476,7 +1476,7 @@
 1	Onder	onder	[onder]	VZ(init)	0.980282	O	B-PP	0	ROOT
 2	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.998908	O	B-NP	3	det
 3	cadeaus	cadeau	[cadeau][s]	N(soort,mv,basis)	0.999414	O	I-NP	4	su
-4	waren	zijn	[waren]	WW(pv,verl,mv)	0.999293	O	B-VP	0	ROOT
+4	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.999293	O	B-VP	0	ROOT
 5	ook	ook	[ook]	BW()	0.999979	O	B-ADVP	4	mod
 6	bijzondere	bijzonder	[bijzonder][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP	7	mod
 7	potten	pot	[pot][en]	N(soort,mv,basis)	0.998847	O	I-NP	4	su
@@ -1987,7 +1987,7 @@
 5	kennen	kennen	[ken][en]	WW(pv,tgw,mv)	0.516667	O	B-VP	0	ROOT
 6	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.600000	O	B-NP	9	None
 7	dol	dol	[dol]	ADJ(vrij,basis,zonder)	0.979612	O	B-ADJP	8	predc
-8	waren	zijn	[waren]	WW(pv,verl,mv)	0.989983	O	B-VP	6	body
+8	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.989983	O	B-VP	6	body
 9	op	op	[op]	VZ(init)	0.996560	O	B-PP	5	obj2
 10	een	een	[een]	LID(onbep,stan,agr)	0.999573	O	B-NP	11	det
 11	biertje	bier	[bier][tje]	N(soort,ev,dim,onz,stan)	0.999323	O	I-NP	12	cnj
@@ -2092,7 +2092,7 @@
 9	uit	uit	[uit]	VZ(init)	0.993496	O	B-PP	2	su
 10	het	het	[het]	LID(bep,stan,evon)	0.999914	O	B-NP	11	det
 11	dak	dak	[dak]	N(soort,ev,basis,onz,stan)	0.997487	O	I-NP	9	obj1
-12	waren	zijn	[waren]	WW(pv,verl,mv)	0.998377	O	B-VP	2	cnj
+12	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.998377	O	B-VP	2	cnj
 13	geslagen	slaan	[ge][sla][en]	WW(vd,vrij,zonder)	0.997512	O	I-VP	12	vc
 14	,	,	[,]	LET()	1.000000	O	O	13	punct
 15	de	de	[de]	LID(bep,stan,rest)	0.999454	O	B-NP	16	det
@@ -2519,7 +2519,7 @@
 9	uit	uit	[uit]	VZ(init)	0.993496	O	B-PP	2	su
 10	het	het	[het]	LID(bep,stan,evon)	0.999914	O	B-NP	11	det
 11	dak	dak	[dak]	N(soort,ev,basis,onz,stan)	0.997487	O	I-NP	9	obj1
-12	waren	zijn	[waren]	WW(pv,verl,mv)	0.998377	O	B-VP	2	cnj
+12	waren	zijn	[zijn][en]	WW(pv,verl,mv)	0.998377	O	B-VP	2	cnj
 13	geslagen	slaan	[ge][sla][en]	WW(vd,vrij,zonder)	0.997512	O	I-VP	12	vc
 14	,	,	[,]	LET()	1.000000	O	O	13	punct
 15	de	de	[de]	LID(bep,stan,rest)	0.999454	O	B-NP	16	det
