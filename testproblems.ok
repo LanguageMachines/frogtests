@@ -1,5 +1,15 @@
 1	We	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.997215	O	B-NP
 2	zullen	zullen	[zal][en]	WW(pv,tgw,mv)	0.983831	O	B-VP
 3	hem	hem	[hem]	VNW(pers,pron,obl,vol,3,ev,masc)	0.978203	O	B-NP
-4	ontmoeten	ontmoeten	[ont][moet][en]	WW(inf,vrij,zonder)	0.912700	O	B-VP
+4	ontmoeten	ontmoeten	[ontmoet][en]	WW(inf,vrij,zonder)	0.912700	O	B-VP
 5	.	.	[.]	LET()	1.000000	O	O
+
+1	Wat	wat	[wat]	VNW(vb,pron,stan,vol,3o,ev)	0.584178	O	B-SBAR
+2	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP
+3	drel	drel	[drel]	N(soort,ev,basis,zijd,stan)	0.769713	O	I-NP
+4	!	!	[!]	LET()	1.000000	O	O
+
+1	Niet	niet	[niet]	BW()	0.996413	O	B-ADVP
+2	te	te	[te]	VZ(init)	0.999341	O	B-VP
+3	geloven	geloven	[geloof][en]	WW(inf,vrij,zonder)	0.999652	O	I-VP
+4	.	.	[.]	LET()	1.000000	O	O
