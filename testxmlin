@@ -22,5 +22,7 @@ $comm --skip=p -x -t folia1.xml -X folia1.out1.xml --KANON
 $comm --skip=p -x folia1.xml --testdir=xmltests -X folia1.out.xml --KANON >> testxmlin.out
 $comm --skip=p -x --KANON --testdir=xmltests --xmldir=./output
 cat ./output/folia*.xml >> testxmlin.out
+$comm --skip=p -x folia7.xml -X folia7.out.xml --KANON
+cat folia7.out.xml >> testxmlin.out
 $comm --skip=p -x --testdir=zipxmltests --xmldir=./zipoutput
 ls ./zipoutput/folia* >> testxmlin.out
