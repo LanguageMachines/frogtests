@@ -13,6 +13,8 @@ export comm="$VG $frog_bin/frog"
 export mbma="$VG $frog_bin/mbma"
 export mblem="$VG $frog_bin/mblem"
 
+errcnt=0
+
 for file in $1
 do if test -x $file
    then
@@ -29,6 +31,7 @@ do if test -x $file
 	   then
 		echo -e $FAIL;
 		echo "differences logged in $file.diff";
+		errcnt=$((errcnt+1))
 	   else
 		echo -e $KNOWNFAIL;
 	        \rm -f $file.diff
@@ -41,3 +44,4 @@ do if test -x $file
 	echo "file $file not found"
    fi
 done
+exit $errcnt

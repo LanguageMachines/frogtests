@@ -9,6 +9,8 @@ then echo "frog_bin not set";
      exit;
 fi
 
+errcnt=0
+
 for file in teststandard testencoding testunits testslash testapostroph \
     	    testapostroph2 testoption_config testdaring testsmurf \
     	    testoption_n testnormalize testquotes testinternet testsmiley \
@@ -16,4 +18,9 @@ for file in teststandard testencoding testunits testslash testapostroph \
 	    test_testdir testxmlin testserverxml testmbma testmblem \
 	    testmblemproblems testmbmaproblems testlong testlang
 do ./testone $file
+   if [ $? -ne 0 ];
+   then
+	errcnt=$((errcnt+1))
+   fi
 done
+exit $errcnt
