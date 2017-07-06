@@ -8,6 +8,7 @@ fi
 OK="\033[1;32m OK  \033[0m"
 FAIL="\033[1;31m  FAILED  \033[0m"
 KNOWNFAIL="\033[1;33m  KNOWN FAILURES  \033[0m"
+ACCEPTABLE="\033[1;34m  ACCEPTABLE DIFF  \033[0m"
 
 export comm="$VG $frog_bin/frog"
 export mbma="$VG $frog_bin/mbma"
@@ -29,9 +30,15 @@ do if test -x $file
            diff -w $file.diff $file.diff.known >& /dev/null
       	   if [ $? -ne 0 ];
 	   then
-		echo -e $FAIL;
-		echo "differences logged in $file.diff";
-		errcnt=$((errcnt+1))
+		diff -w $file.diff $file.diff.accept >& /dev/null
+      	   	if [ $? -ne 0 ];
+	   	then
+			echo -e $FAIL;
+			echo "differences logged in $file.diff";
+			errcnt=$((errcnt+1))
+		else
+			echo -e $ACCEPTABLE;
+		fi
 	   else
 		echo -e $KNOWNFAIL;
 	        \rm -f $file.diff
