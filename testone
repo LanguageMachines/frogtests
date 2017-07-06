@@ -41,11 +41,11 @@ do if test -x $file
 		fi
 	   else
 		echo -e $KNOWNFAIL;
-	        \rm -f $file.diff
+		\rm -f $file.diff
 	   fi
       else
-       echo -e $OK
-       rm $file.diff
+	   echo -e $OK
+	   rm $file.diff
       fi
   else
 	echo "file $file not found"
