@@ -3,4 +3,7 @@
 # defaults:
 #
 
-$comm -t testparser.txt -o testparser.out
+$comm -t testparser.txt -o testparser.tmp
+cat testparser.tmp > testparser.out
+$comm -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser.xml
+cat testparser.xml >> testparser.out
