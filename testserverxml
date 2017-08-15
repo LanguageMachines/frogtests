@@ -1,7 +1,7 @@
 #!/bin/sh -x
 
 
-$frog_bin/frog -x --skip=p -S 7000  > testserverxml.log 2>&1  &
+$frog_bin/frog -x --skip=p -S 7000  > testserverxml-1.log 2>&1  &
 pid=`echo $!`
 
 count="0"
@@ -34,7 +34,7 @@ cat testserver4.out >> testserverxml.out
 kill $pid
 sleep 5
 
-$frog_bin/frog -x -X --KANON --skip=p -S 7000  >> testserverxml.log 2>&1  &
+$frog_bin/frog -x -X --KANON --skip=p -S 7000  >> testserverxml-2.log 2>&1  &
 pid=`echo $!`
 
 count="0"
