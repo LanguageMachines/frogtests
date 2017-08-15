@@ -11,4 +11,4 @@ send "\r"
 send "En een tweede paragraaf ook!\r"
 send "EOT\r"
 expect "READY"
-log_file 
+log_file

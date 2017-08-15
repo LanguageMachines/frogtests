@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/bash -x
 
 $frog_bin/frog -S 7000  > testserver.log 2>&1  &
 pid=`echo $!`
@@ -19,15 +19,22 @@ do
     sleep 1
 done
 
-
 ./frogclient5 &
+pids[0]=$!
 ./frogclient6 &
+pids[1]=$!
 
-sleep 8
+for sub_pid in ${pids[*]}
+do
+    wait $sub_pid
+done
+
+echo "done waiting"
 
 cat testserver5.out > testserver.out
 cat testserver6.out >> testserver.out
 
+sleep 1
 kill $pid
 
-sleep 5
+wait $pid
