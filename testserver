@@ -35,7 +35,7 @@ cat testserver5.out > testserver.out
 cat testserver6.out >> testserver.out
 
 date
-sleep 200
+sleep 50
 date
 
 kill $pid
