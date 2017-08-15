@@ -34,7 +34,10 @@ echo "done waiting"
 cat testserver5.out > testserver.out
 cat testserver6.out >> testserver.out
 
-sleep 100
+date
+sleep 600
+date
+
 kill $pid
 
 wait $pid
