@@ -38,14 +38,18 @@ do if test -x $file
 			errcnt=$((errcnt+1))
 		else
 			echo -e $ACCEPTABLE;
-		fi
+	   		rm $file.diff
+	   		rm $file.err
+	   fi
 	   else
 		echo -e $KNOWNFAIL;
 		\rm -f $file.diff
+		\rm $file.err
 	   fi
       else
 	   echo -e $OK
 	   rm $file.diff
+	   rm $file.err
       fi
   else
 	echo "file $file not found"
