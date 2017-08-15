@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-$frog_bin/frog -S 7000  > testserver.log 2>&1  &
+$frog_bin/frog -d1 -S 7000  > testserver.log 2>&1  &
 pid=`echo $!`
 
 count="0"
