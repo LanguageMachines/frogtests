@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-$frog_bin/frog -d10 -S 7000  > testserver.log 2>&1  &
+$frog_bin/frog -S 7000  > testserver.log 2>&1  &
 pid=`echo $!`
 
 count="0"
@@ -35,7 +35,7 @@ cat testserver5.out > testserver.out
 cat testserver6.out >> testserver.out
 
 date
-sleep 50
+sleep 5
 date
 
 kill $pid
