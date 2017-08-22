@@ -137,7 +137,7 @@
 12	,	,	[,]	LET()	1.000000	O	O	9	punct
 13	verklaart	verklaren	[ver][klaar][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP	0	ROOT
 14	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP	17	det
-15	40-jarige	40-jarige	[40-jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	0.988152	O	I-NP	17	mod
+15	40-jarige	40-jarig	[40-jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	0.988152	O	I-NP	17	mod
 16	voormalige	voormalig	[voor][maal][ig][e]	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP	17	mod
 17	effectenhandelaar	effectenhandelaar	[effect][en][handel][aar]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	13	obj1
 18	.	.	[.]	LET()	1.000000	O	O	17	punct
@@ -198,17 +198,17 @@
 21	.	.	[.]	LET()	1.000000	O	O	20	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.8" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.9" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2017-08-14T19:03:02" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2017-08-14T19:03:02" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2017-08-14T19:03:02" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2017-08-14T19:03:02" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2017-08-14T19:03:02" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2017-08-14T19:03:02" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2017-08-14T19:03:02" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2017-08-22T11:48:52" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2017-08-22T11:48:52" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2017-08-22T11:48:52" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2017-08-22T11:48:52" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-1.0" annotatortype="auto" datetime="2017-08-22T11:48:52" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-1.0" annotatortype="auto" datetime="2017-08-22T11:48:52" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2017-08-22T11:48:52" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
