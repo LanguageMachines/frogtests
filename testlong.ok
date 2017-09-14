@@ -553,7 +553,7 @@
 2	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.997148	O	B-ADJP	3	mod
 3	ken	kennen	[ken]	WW(pv,tgw,ev)	0.999760	O	B-VP	0	ROOT
 4	je	je	[je]	VNW(pers,pron,nomin,red,2v,ev)	0.872974	O	B-NP	5	det
-5	Liselore	liselore	[l][i][selore]	N(soort,ev,basis,zijd,stan)	0.642836	B-ORG	B-NP	3	su
+5	Liselore	liselore	[l][i][selore]	N(soort,ev,basis,zijd,stan)	0.642836	B-LOC	B-NP	3	su
 6	nou	nou	[nou]	BW()	0.998251	O	B-ADVP	3	mod
 7	eigenlijk	eigenlijk	[eigen][lijk]	ADJ(vrij,basis,zonder)	0.998267	O	B-ADVP	3	predc
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
@@ -3144,7 +3144,7 @@
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Hij	hij	[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431	O	B-NP	0	ROOT
-2	LAS	LAS	[LAS]	SPEC(deeleigen)	1.000000	B-MISC	B-NP	4	det
+2	LAS	LAS	[LAS]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	4	det
 3	het	het	[het]	LID(bep,stan,evon)	0.997742	O	B-NP	4	det
 4	boek	boek	[boek]	N(soort,ev,basis,onz,stan)	0.998517	O	I-NP	5	me
 5	SNEL	snel	[snel]	ADJ(vrij,basis,zonder)	0.984513	O	B-ADVP	0	ROOT
