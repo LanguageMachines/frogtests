@@ -1,4 +1,4 @@
-# /bin/bash
+#/bin/bash
 
 if [ "$frog_bin" = "" ];
 then echo "frog_bin not set";
@@ -23,7 +23,7 @@ do if test -x $file
       \rm -f $file.err
       \rm -f $file.out
       echo -n "Frogging $file "
-      ./$file > $file.err 2>&1
+      bash ./$file > $file.err 2>&1
       diff -w --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*" $file.out $file.ok >& $file.diff
       if [ $? -ne 0 ];
       then

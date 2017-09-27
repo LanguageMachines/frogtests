@@ -9,7 +9,7 @@ send "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
 send "<FoLiA xmlns=\"http://ilk.uvt.nl/folia\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:id=\"WR-P-E-J-0000000001\" version=\"0.8\" generator=\"libfolia-v0.4\">\n"
 send "  <metadata type=\"imdi\">\n"
 send "    <annotations>\n"
-send "      <div-annotation annotator=\"ucto\" annotatortype=\"auto\" set=\"div\"/>\n"
+send "      <division-annotation annotator=\"ucto\" annotatortype=\"auto\" set=\"div\"/>\n"
 send "    </annotations>\n"
 send "  </metadata>\n"
 send "  <text xml:id=\"WR-P-E-J-0000000001.text\">\n"
@@ -24,4 +24,4 @@ send "  </text>\n"
 send "</FoLiA>\n"
 send "\n"
 expect READY
-log_file 
+log_file
