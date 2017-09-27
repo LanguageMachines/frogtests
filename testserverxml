@@ -1,5 +1,4 @@
-#!/bin/sh -x
-
+#!/bin/sh
 
 $frog_bin/frog -x --skip=p -S 7000  > testserverxml-1.log 2>&1  &
 pid=`echo $!`
@@ -9,10 +8,10 @@ stat="0"
 
 while [ $stat -ne 1 ]
 do
-#    echo `lsof -i :7000 |grep -c LISTEN`
+    echo `lsof -i :7000 |grep -c LISTEN`
     stat=`lsof -i :7000 |grep -c LISTEN`
-#    echo count=$count
-#    echo status=$stat
+    echo count=$count
+    echo status=$stat
     count=$((count+1))
     if [ $count -ge 20 ]; then
 	echo "unable to start server in time..."
@@ -25,16 +24,24 @@ done
 \rm  testserver4.out
 
 ./frogclient3 &
+pids[0]=$!
 ./frogclient4 &
+pids[1]=$!
 
-sleep 5
+for sub_pid in ${pids[*]}
+do
+    wait $sub_pid
+done
+
+echo "done waiting"
+
 cat testserver3.out > testserverxml.out
 cat testserver4.out >> testserverxml.out
 
 kill $pid
-sleep 5
+wait $pid
 
-$frog_bin/frog -x -X --KANON --skip=p -S 7000  >> testserverxml-2.log 2>&1  &
+$frog_bin/frog -x -X --KANON --skip=p -S 7000  > testserverxml-2.log 2>&1  &
 pid=`echo $!`
 
 count="0"
@@ -58,11 +65,19 @@ done
 \rm  testserver4.out
 
 ./frogclient3 &
+pids2[0]=$!
 ./frogclient4 &
+pids2[1]=$!
 
-sleep 5
+for sub_pid in ${pids2[*]}
+do
+    wait $sub_pid
+done
+
+echo "done waiting"
+
 cat testserver3.out >> testserverxml.out
 cat testserver4.out >> testserverxml.out
 
 kill $pid
-sleep 5
+wait $pid
