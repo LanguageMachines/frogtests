@@ -11,8 +11,8 @@ cat bons.xml >> testdaring.out
 $comm  --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON >> testdaring.out
 cat torture.xml >> testdaring.out
 
-$comm  --skip=mpcn -t ./mbmaproblems/torture2 --debug=a0 --deep-morph -X torture2.xml --KANON >> testdaring.out
-cat torture2.xml >> testdaring.out
+$comm  --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON >> testdaring.out
+cat tortuur.xml >> testdaring.out
 
 $comm  --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON >> testdaring.out
 cat compounds.xml >> testdaring.out

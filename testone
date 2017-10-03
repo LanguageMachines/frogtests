@@ -24,13 +24,13 @@ do if test -x $file
       \rm -f $file.out
       echo -n "Frogging $file "
       bash ./$file > $file.err 2>&1
-      diff -w --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*" $file.out $file.ok >& $file.diff
+      diff -w -B --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*" $file.out $file.ok >& $file.diff
       if [ $? -ne 0 ];
       then
            diff -w $file.diff $file.diff.known >& /dev/null
       	   if [ $? -ne 0 ];
 	   then
-		count=`diff -y --suppress-common-lines -w --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*" $file.out $file.ok | grep -c '^'`
+		count=`diff -y --suppress-common-lines -B -w --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*" $file.out $file.ok | grep -c '^'`
       	   	if [ $count -ge 3 ];
 	   	then
 			echo -e $FAIL;
