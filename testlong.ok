@@ -425,7 +425,7 @@
 18	.	.	[.]	LET()	1.000000	O	O	17	punct
 
 1	'	'	[']	LET()	1.000000	O	O	0	ROOT
-2	Liselore	Liselore	[Liselore]	SPEC(deeleigen)	1.000000	O	B-NP	3	cnj
+2	Liselore	Liselore	[Liselore]	SPEC(deeleigen)	1.000000	B-PER	B-NP	3	cnj
 3	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	0	ROOT
 4	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.397185	O	B-NP	5	det
 5	drel	drel	[d][rel]	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP	3	cnj
@@ -534,7 +534,7 @@
 13	toenemende	toenemen	[toe][neem][end][e]	WW(od,prenom,met-e)	0.800000	O	I-NP	14	mod
 14	volume	volume	[volume]	N(soort,ev,basis,onz,stan)	0.999008	O	I-NP	10	su
 15	van	van	[van]	VZ(init)	0.973586	O	B-PP	14	mod
-16	Leens_gesnik	Leens_gesnik	[Leens]_[gesnik]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-LOC_O	B-NP_B-VP	15	obj1
+16	Leens_gesnik	Leens_gesnik	[Leens]_[gesnik]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-LOC_I-LOC	B-NP_B-VP	15	obj1
 17	.	.	[.]	LET()	1.000000	O	O	16	punct
 
 1	'	'	[']	LET()	1.000000	O	O	0	ROOT
@@ -666,7 +666,7 @@
 4	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	2	predc
 5	wat	wat	[wat]	VNW(vb,pron,stan,vol,3o,ev)	0.899871	O	B-SBAR	4	cnj
 6	helemaal	helemaal	[helemaal]	BW()	0.999468	O	B-ADVP	5	body
-7	NOT	NOT	[NOT]	SPEC(deeleigen)	1.000000	O	B-VP	0	ROOT
+7	NOT	NOT	[NOT]	SPEC(deeleigen)	1.000000	B-ORG	B-VP	0	ROOT
 8	?	?	[?]	LET()	1.000000	O	O	7	punct
 
 1	Nu	nu	[nu]	VG(onder)	1.000000	O	B-SBAR	13	mod
@@ -707,7 +707,7 @@
 8	op	op	[op]	VZ(fin)	0.971429	O	O	0	ROOT
 9	?	?	[?]	LET()	1.000000	O	O	8	punct
 
-1	Reality-sterren	Reality-sterren	[Reality-sterren]	SPEC(deeleigen)	1.000000	O	B-NP	0	ROOT
+1	Reality-sterren	Reality-sterren	[Reality-sterren]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	0	ROOT
 2	.	.	[.]	LET()	1.000000	O	O	1	punct
 
 1	Toegegeven	toegeven	[toegegeven]	WW(vd,vrij,zonder)	0.992512	O	B-ADJP	0	ROOT
@@ -744,7 +744,7 @@
 13	laagbegaafd	laagbegaafd	[laag][be][gaaf][d]	ADJ(vrij,basis,zonder)	0.415904	O	B-NP	12	cnj
 14	doen	doen	[doe][n]	WW(inf,vrij,zonder)	0.941498	O	B-VP	0	ROOT
 15	(	(	[(]	LET()	1.000000	O	O	14	punct
-16	Barbie	Barbie	[Barbie]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	0	ROOT
+16	Barbie	Barbie	[Barbie]	SPEC(deeleigen)	1.000000	B-PER	B-NP	0	ROOT
 17	)	)	[)]	LET()	1.000000	O	O	16	punct
 18	of	of	[of]	VG(neven)	0.823529	O	B-CONJP	0	ROOT
 19	al	al	[al]	VNW(onbep,det,stan,vrij,zonder)	0.800000	O	B-NP	20	mod
@@ -967,8 +967,8 @@
 20	Eric	Eric	[Eric]	SPEC(deeleigen)	1.000000	B-PER	B-NP	19	app
 21	in	in	[in]	VZ(init)	0.965517	O	O	19	mod
 22	'	'	[']	LET()	1.000000	O	O	21	punct
-23	True	True	[True]	SPEC(vreemd)	1.000000	B-LOC	B-NP	21	obj1
-24	blood	blood	[blood]	SPEC(vreemd)	1.000000	O	I-NP	27	su
+23	True	True	[True]	SPEC(vreemd)	1.000000	B-PRO	B-NP	21	obj1
+24	blood	blood	[blood]	SPEC(vreemd)	1.000000	I-PRO	I-NP	27	su
 25	'	'	[']	LET()	1.000000	O	O	24	punct
 26	,	,	[,]	LET()	1.000000	O	O	24	punct
 27	wordt	worden	[word][t]	WW(pv,tgw,met-t)	0.999676	O	B-VP	0	ROOT
@@ -1103,7 +1103,7 @@
 3	van	van	[van]	VZ(init)	0.973586	O	I-PP	2	mod
 4	Rogier	Rogier	[Rogier]	SPEC(deeleigen)	1.000000	B-PER	B-NP	3	obj1
 5	komt	komen	[kom][t]	WW(pv,tgw,met-t)	0.999725	O	B-VP	0	ROOT
-6	Ko	Ko	[Ko]	SPEC(deeleigen)	1.000000	B-PER	B-NP	5	mod
+6	Ko	Ko	[Ko]	SPEC(deeleigen)	1.000000	O	B-NP	5	mod
 7	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.990265	O	B-NP	5	mod
 8	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	5	mod
 9	uit	uit	[uit]	VZ(fin)	0.793103	O	O	5	svp
@@ -1344,11 +1344,11 @@
 23	rollen	rollen	[rol][en]	WW(inf,vrij,zonder)	0.938776	O	I-VP	22	vc
 24	.	.	[.]	LET()	1.000000	O	O	23	punct
 
-1	Pietje	Pietje	[Pietje]	SPEC(deeleigen)	1.000000	O	B-NP	2	su
+1	Pietje	Pietje	[Pietje]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
 3	groter	groot	[groot][er]	ADJ(vrij,comp,zonder)	0.987976	O	B-ADJP	2	predc
 4	dan	dan	[dan]	BW()	0.905504	O	B-PP	5	mod
-5	Jantje	Jantje	[Jantje]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	0	ROOT
+5	Jantje	Jantje	[Jantje]	SPEC(deeleigen)	1.000000	B-PER	B-NP	0	ROOT
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Ze	ze	[ze]	VNW(pers,pron,stan,red,3,mv)	0.514499	O	B-NP	2	obj1
@@ -1726,8 +1726,8 @@
 9	.	.	[.]	LET()	1.000000	O	O	8	punct
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	cnj
-2	en	en	[en]	VG(neven)	0.991667	O	B-CONJP	4	su
-3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	cnj
+2	en	en	[en]	VG(neven)	0.991667	I-PER	B-CONJP	4	su
+3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	I-PER	B-NP	2	cnj
 4	gaan	gaan	[ga]	WW(pv,tgw,mv)	0.769231	O	B-VP	0	ROOT
 5	naar	naar	[naar]	VZ(init)	0.994083	O	B-PP	4	mod
 6	huis	huis	[huis]	N(soort,ev,basis,onz,stan)	0.996553	O	B-NP	5	obj1
@@ -2010,7 +2010,7 @@
 2	vond	vinden	[vind]	WW(pv,verl,ev)	0.999349	O	B-VP	0	ROOT
 3	,	,	[,]	LET()	1.000000	O	O	2	punct
 4	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	1.000000	O	B-SBAR	2	vc
-5	Artur	Artur	[Artur]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	9	su
+5	Artur	Artur	[Artur]	SPEC(deeleigen)	1.000000	B-PER	B-NP	9	su
 6	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	9	mod
 7	erg	erg	[erg]	ADJ(vrij,basis,zonder)	0.998435	O	B-ADJP	8	mod
 8	raar	raar	[raar]	ADJ(vrij,basis,zonder)	0.941176	O	I-ADJP	9	mod
@@ -2698,7 +2698,7 @@
 19	doen	doen	[doe][n]	WW(pv,tgw,mv)	0.575758	O	B-VP	17	vc
 20	.	.	[.]	LET()	1.000000	O	O	19	punct
 21	'	'	[']	LET()	1.000000	O	O	19	punct
-22	Ziehier	ziehier	[ziehier]	N(soort,ev,basis,zijd,stan)	0.592810	B-LOC	B-NP	17	obj1
+22	Ziehier	ziehier	[ziehier]	N(soort,ev,basis,zijd,stan)	0.592810	B-PRO	B-NP	17	obj1
 23	,	,	[,]	LET()	1.000000	O	O	22	punct
 24	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	26	det
 25	summiere	summier	[summier][e]	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP	26	mod
@@ -2874,19 +2874,19 @@
 12	.	.	[.]	LET()	1.000000	O	O	11	punct
 13	'	'	[']	LET()	1.000000	O	O	11	punct
 14	'	'	[']	LET()	1.000000	O	O	0	ROOT
-15	Ok	ok	[ok]	BW()	0.500000	B-LOC	B-NP	18	mod
+15	Ok	ok	[ok]	BW()	0.500000	O	B-NP	18	mod
 16	man	man	[man]	N(soort,ev,basis,zijd,stan)	0.992321	O	I-NP	15	obj1
 17	,	,	[,]	LET()	1.000000	O	O	16	punct
 18	cool	cool	[cool]	ADJ(vrij,basis,zonder)	0.666667	O	B-ADJP	21	mod
 19	,	,	[,]	LET()	1.000000	O	O	18	punct
-20	Ollie	Ollie	[Ollie]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	21	su
+20	Ollie	Ollie	[Ollie]	SPEC(deeleigen)	1.000000	B-PER	B-NP	21	su
 21	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP	0	ROOT
 22	je	je	[je]	VNW(pers,pron,nomin,red,2v,ev)	0.872974	O	B-NP	21	su
 23	ff	ff	[ff]	SPEC(afk)	1.000000	O	B-NP	24	obj1
 24	helpen	helpen	[help][en]	WW(inf,vrij,zonder)	0.946097	O	B-VP	21	vc
 25	?	?	[?]	LET()	1.000000	O	O	24	punct
 26	'	'	[']	LET()	1.000000	O	O	24	punct
-27	Ollie	Ollie	[Ollie]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	28	su
+27	Ollie	Ollie	[Ollie]	SPEC(deeleigen)	1.000000	B-PER	B-NP	28	su
 28	blijkt	blijken	[blijk][t]	WW(pv,tgw,met-t)	0.999485	O	B-VP	0	ROOT
 29	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	32	det
 30	opgeschoten	opschieten	[op][ge][schiet][en]	WW(vd,prenom,zonder)	0.846154	O	I-NP	32	mod
@@ -3116,7 +3116,7 @@
 
 1	Erg	erg	[erg]	ADJ(vrij,basis,zonder)	0.994100	O	B-ADJP	2	mod
 2	geloofwaardig	geloofwaardig	[geloof][waarde][ig]	ADJ(vrij,basis,zonder)	0.979612	O	I-ADJP	3	mod
-3	OPEREERT	OPEREERT	[OPEREERT]	SPEC(deeleigen)	1.000000	O	B-VP	0	ROOT
+3	OPEREERT	OPEREERT	[OPEREERT]	SPEC(deeleigen)	1.000000	B-ORG	B-VP	0	ROOT
 4	hij	hij	[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999659	O	B-NP	0	ROOT
 5	als	als	[als]	VG(onder)	1.000000	O	B-PP	0	ROOT
 6	woordvoerder	woordvoerder	[woord][voer][der]	N(soort,ev,basis,zijd,stan)	0.996386	O	B-NP	5	obj1
@@ -3124,7 +3124,7 @@
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
 1	Hij	hij	[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431	O	B-NP	0	ROOT
-2	LIEP	LIEP	[LIEP]	SPEC(deeleigen)	1.000000	O	B-VP	0	ROOT
+2	LIEP	LIEP	[LIEP]	SPEC(deeleigen)	1.000000	B-MISC	B-VP	0	ROOT
 3	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	5	det
 4	halve	half	[half][e]	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP	5	mod
 5	marathon	marathon	[marathon]	N(soort,ev,basis,zijd,stan)	0.998945	O	I-NP	0	ROOT
@@ -3144,18 +3144,18 @@
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Hij	hij	[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431	O	B-NP	0	ROOT
-2	LAS	LAS	[LAS]	SPEC(deeleigen)	1.000000	O	B-VP	4	det
+2	LAS	LAS	[LAS]	SPEC(deeleigen)	1.000000	B-MISC	B-VP	4	det
 3	het	het	[het]	LID(bep,stan,evon)	0.997742	O	B-NP	4	det
 4	boek	boek	[boek]	N(soort,ev,basis,onz,stan)	0.998517	O	I-NP	5	me
 5	SNEL	snel	[snel]	ADJ(vrij,basis,zonder)	0.984513	O	B-ADVP	0	ROOT
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Hij	hij	[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431	O	B-NP	0	ROOT
-2	LAS	LAS	[LAS]	SPEC(deeleigen)	1.000000	O	B-VP	4	det
+2	LAS	LAS	[LAS]	SPEC(deeleigen)	1.000000	B-MISC	B-VP	4	det
 3	het	het	[het]	LID(bep,stan,evon)	0.997742	O	B-NP	4	det
 4	boek	boek	[boek]	N(soort,ev,basis,onz,stan)	0.998517	O	I-NP	5	me
 5	erg	erg	[erg]	ADJ(vrij,basis,zonder)	0.993063	O	B-ADJP	6	mod
-6	VLUG	VLUG	[VLUG]	SPEC(deeleigen)	1.000000	O	B-NP	0	ROOT
+6	VLUG	VLUG	[VLUG]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	0	ROOT
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	This	This	[This]	SPEC(vreemd)	1.000000	O	B-NP	0	ROOT
@@ -3209,7 +3209,7 @@
 
 1	Before	Before	[Before]	SPEC(vreemd)	1.000000	O	B-NP	2	su
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	0	ROOT
-3	Taro’s	Taro	[Taro's]	SPEC(deeleigen)	1.000000	B-PRO	B-NP	2	su
+3	Taro’s	Taro	[Taro's]	SPEC(deeleigen)	1.000000	B-MISC	B-NP	2	su
 4	name	naam	[naam]	N(soort,ev,basis,dat)	0.997620	O	B-ADVP	0	ROOT
 5	on	on	[on]	SPEC(vreemd)	1.000000	O	B-NP	6	mod
 6	textbook	textbook	[textbook]	SPEC(vreemd)	1.000000	O	I-NP	0	ROOT
@@ -3316,7 +3316,7 @@
 4	kinderen	kind	[kind][en]	N(soort,mv,basis)	0.997633	O	I-NP	0	ROOT
 5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
-1	Peters	Peters	[Peters]	SPEC(deeleigen)	1.000000	O	B-NP	2	det
+1	Peters	Peters	[Peters]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	det
 2	honden	hond	[hond][en]	N(soort,mv,basis)	0.987013	O	I-NP	0	ROOT
 3	.	.	[.]	LET()	1.000000	O	O	2	punct
 
@@ -3437,7 +3437,7 @@
 
 1	Die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.991740	O	B-NP	2	det
 2	wedstrijd	wedstrijd	[wed][strijd]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP	0	ROOT
-3	Ajax-Anderlecht	Ajax-Anderlecht	[Ajax-Anderlecht]	SPEC(deeleigen)	1.000000	B-MISC	B-NP	2	app
+3	Ajax-Anderlecht	Ajax-Anderlecht	[Ajax-Anderlecht]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	app
 4	vorige	vorig	[vorig][e]	ADJ(prenom,basis,met-e,stan)	0.998721	O	B-NP	5	mod
 5	week	week	[wijk]	N(soort,ev,basis,zijd,stan)	0.997147	O	I-NP	3	mod
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
@@ -3510,7 +3510,7 @@
 3	zoals	zoals	[zoals]	VG(onder)	0.999101	O	B-SBAR	2	vc
 4	die	die	[die]	VNW(aanw,pron,stan,vol,3,getal)	0.962617	O	B-NP	3	body
 5	van	van	[van]	VZ(init)	0.973586	O	B-PP	4	mod
-6	Rinus	Rinus	[Rinus]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	5	obj1
+6	Rinus	Rinus	[Rinus]	SPEC(deeleigen)	1.000000	B-PER	B-NP	5	obj1
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Een	een	[een]	LID(onbep,stan,agr)	0.981771	O	B-NP	2	det
@@ -3615,7 +3615,7 @@
 11	samen	samen	[samen]	BW()	0.998251	O	B-ADVP	10	mod
 12	met	met	[met]	VZ(init)	0.999820	O	B-PP	11	pc
 13	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP	15	det
-14	20-jarige	20-jarig	[20-jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	0.988152	O	I-NP	15	mod
+14	20-jarige	20-jarige	[20-jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	0.988152	O	I-NP	15	mod
 15	liftster	liftster	[lift][ster]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	12	obj1
 16	.	.	[.]	LET()	1.000000	O	O	15	punct
 
@@ -3697,8 +3697,8 @@
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	cnj
-2	en	en	[en]	VG(neven)	0.994334	O	B-CONJP	4	cnj
-3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	cnj
+2	en	en	[en]	VG(neven)	0.994334	I-PER	B-CONJP	4	cnj
+3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	I-PER	B-NP	2	cnj
 4	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	0	ROOT
 5	hun	hun	[hun]	VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)	0.983607	O	B-NP	6	det
 6	hond	hond	[hond]	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	4	cnj
@@ -3842,7 +3842,7 @@
 12	.	.	[.]	LET()	1.000000	O	O	11	punct
 
 1	Hij	hij	[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431	O	B-NP	2	su
-2	SCHELDT	schelden	[scheld][t]	WW(pv,tgw,met-t)	0.620101	B-MISC	B-VP	0	ROOT
+2	SCHELDT	schelden	[scheld][t]	WW(pv,tgw,met-t)	0.620101	O	B-VP	0	ROOT
 3	iedereen	iedereen	[iedereen]	VNW(onbep,pron,stan,vol,3p,ev)	0.999691	O	B-NP	2	su
 4	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.750000	O	B-SBAR	3	mod
 5	langskomt	langskomen	[langs][kom][t]	WW(pv,tgw,met-t)	0.999772	O	B-VP	4	body
@@ -3860,11 +3860,11 @@
 9	.	.	[.]	LET()	1.000000	O	O	8	punct
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999688	O	B-NP	0	ROOT
-2	NEEM	NEEM	[NEEM]	SPEC(deeleigen)	1.000000	O	B-VP	0	ROOT
+2	NEEM	NEEM	[NEEM]	SPEC(deeleigen)	1.000000	B-PER	B-VP	0	ROOT
 3	graag	graag	[graag]	BW()	0.996516	O	B-ADVP	2	mod
 4	aan	aan	[aan]	VZ(init)	0.979798	O	B-PP	0	ROOT
 5	wedstrijden	wedstrijd	[wed][strijd][en]	N(soort,mv,basis)	0.990099	O	B-NP	4	obj1
-6	DEEL	deel	[deel]	N(soort,ev,basis,onz,stan)	0.995444	B-PER	B-NP	5	mod
+6	DEEL	deel	[deel]	N(soort,ev,basis,onz,stan)	0.995444	B-MISC	B-NP	5	mod
 7	.	.	[.]	LET()	1.000000	O	O	6	punct
 
 1	Dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.999022	O	B-NP	2	su

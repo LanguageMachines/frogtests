@@ -1,14 +1,14 @@
 de {LID(bep,stan,rest)}	de[LID(bep,stan,rest)]
 open {ADJ(prenom,basis,zonder)}	open[ADJ(prenom,basis,zonder)]
 dag {N(soort,ev,basis,zijd,stan)}	dag[N(soort,ev,basis,zijd,stan)]
-. {LET()}	.[LET()]
+. {LET()}
 <utt>
 
 
-de	de[ADJ(prenom,basis,met-e,stan)]/de[LID(bep,dial)]/de[LID(bep,stan,evon)]/de[LID(bep,stan,rest)]/de[N(soort,ev,basis,zijd,stan)]/de[SPEC(afk)]/de[SPEC(deeleigen)]/de[SPEC(vreemd)]/de[VG(neven)]/de[VNW(aanw,pron,stan,vol,3,getal)]/de[VNW(aanw,pron,stan,vol,3o,ev)]/de[VNW(pers,pron,dial)]/de[VNW(pers,pron,nomin,red,1,mv)]/de[VNW(pers,pron,nomin,red,2v,ev)]/de[VNW(pers,pron,stan,red,3,mv)]/de[VZ(init)]/de[WW(dial)]
-open	open[ADJ(nom,basis,zonder,zonder-n)]/open[ADJ(postnom,basis,zonder)]/open[ADJ(prenom,basis,zonder)]/open[ADJ(vrij,basis,zonder)]/open[SPEC(vreemd)]/open[VZ(fin)]/openen[WW(pv,tgw,ev)]
-dag	dag[ADJ(vrij,basis,zonder)]/dag[N(soort,ev,basis,zijd,stan)]/dag[TSW()]/dag[VNW(aanw,det,stan,prenom,zonder,evon)]/dag[VNW(aanw,pron,stan,vol,3o,ev)]
-.	.[LET()]
+de	de[LID(bep,dial)]/de[LID(bep,stan,evon)]/de[LID(bep,stan,rest)]/de[SPEC(deeleigen)]/de[SPEC(vreemd)]/de[VNW(pers,pron,dial)]/de[VNW(pers,pron,nomin,red,2v,ev)]/de[WW(dial)]
+open	open[ADJ(nom,basis,zonder,zonder-n)]/open[ADJ(postnom,basis,zonder)]/open[ADJ(prenom,basis,zonder)]/open[ADJ(vrij,basis,zonder)]/open[VZ(fin)]/openen[WW(pv,tgw,ev)]
+dag	dag[N(soort,ev,basis,zijd,stan)]/dag[TSW()]/dag[VNW(aanw,pron,stan,vol,3o,ev)]
+.	.[N(soort,ev,basis,zijd,stan)]
 <utt>
 
 
