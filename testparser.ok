@@ -198,17 +198,17 @@
 21	.	.	[.]	LET()	1.000000	O	O	20	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.10" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.11" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2017-10-17T15:42:53" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2017-10-17T15:42:53" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2017-10-17T15:42:53" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2017-10-17T15:42:53" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12" annotatortype="auto" datetime="2017-10-17T15:42:53" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2017-10-17T15:42:53" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2017-10-17T15:42:53" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2017-10-19T10:04:03" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-0.12" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -342,7 +342,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
             <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </entity>
           </entities>
           <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1">
@@ -397,26 +397,26 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </dependencies>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="0.984615" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="En"/>
             </chunk>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="NP" confidence="0.954545" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="dit"/>
             </chunk>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="VP" confidence="0.972459" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="is"/>
             </chunk>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="NP" confidence="0.997874" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="een"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
             </chunk>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="VP" confidence="0.95" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
             </chunk>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="PP" confidence="0.943458" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
             </chunk>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="NP" confidence="0.995202" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </chunk>
           </chunking>
         </s>
