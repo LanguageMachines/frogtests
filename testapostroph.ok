@@ -1,18 +1,18 @@
 1	met	met	[met]	VZ(init)	0.999480	O	B-PP		
 2	zn	zn	[zn]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999410	O	B-NP		
-3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
+3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	I-NP		
 
 1	met	met	[met]	VZ(init)	0.999480	O	B-PP		
 2	z`n	zijn	[z'n]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999385	O	B-NP		
-3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
+3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	I-NP		
 
 1	met	met	[met]	VZ(init)	0.999480	O	B-PP		
 2	z'n	zijn	[z'n]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999385	O	B-NP		
-3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
+3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	I-NP		
 
 1	met	met	[met]	VZ(init)	0.999480	O	B-PP		
 2	z’n	zijn	[z'n]	VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)	0.999385	O	B-NP		
-3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	B-ADVP		
+3	allen	al	[allen]	VNW(onbep,det,stan,nom,met-e,mv-n)	0.941300	O	I-NP		
 
 1	da`s	da's	[da's]	WW(pv,tgw,ev)	0.500000	O	B-VP		
 2	niet	niet	[niet]	BW()	0.999918	O	B-ADVP		
@@ -38,36 +38,36 @@
 1	Dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.999022	O	B-NP		
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP		
 3	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP		
-4	rock_`n_roll-hit	rock_'n_roll-hit	[rock]_['n]_[roll-hit]	N(soort,ev,basis,zijd,stan)_N(soort,mv,basis)_BW()	0.078963	O_O_O	I-NP_B-NP_I-NP		
+4	rock_`n_roll-hit	rock_'n_roll-hit	[rock]_['n]_[roll-hit]	N(soort,ev,basis,zijd,stan)_N(soort,mv,basis)_BW()	0.078963	O_O_O	I-NP_I-NP_B-ADVP		
 5	!	!	[!]	LET()	1.000000	O	O		
 
 1	Dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.999022	O	B-NP		
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP		
 3	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP		
-4	rock_'n_roll-hit	rock_'n_roll-hit	[rock]_['n]_[roll-hit]	N(soort,ev,basis,zijd,stan)_N(soort,mv,basis)_BW()	0.078963	O_O_O	I-NP_B-NP_I-NP		
+4	rock_'n_roll-hit	rock_'n_roll-hit	[rock]_['n]_[roll-hit]	N(soort,ev,basis,zijd,stan)_N(soort,mv,basis)_BW()	0.078963	O_O_O	I-NP_I-NP_B-ADVP		
 5	!	!	[!]	LET()	1.000000	O	O		
 
 1	Dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.999022	O	B-NP		
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP		
 3	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP		
-4	rock_’n_roll-hit	rock_'n_roll-hit	[rock]_['n]_[roll-hit]	N(soort,ev,basis,zijd,stan)_N(soort,mv,basis)_BW()	0.078963	O_O_O	I-NP_B-NP_I-NP		
+4	rock_’n_roll-hit	rock_'n_roll-hit	[rock]_['n]_[roll-hit]	N(soort,ev,basis,zijd,stan)_N(soort,mv,basis)_BW()	0.078963	O_O_O	I-NP_I-NP_B-ADVP		
 5	!	!	[!]	LET()	1.000000	O	O		
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791	O	B-NP		
 2	zie	zien	[zie]	WW(pv,tgw,ev)	0.997988	O	B-VP		
-3	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.899471	O	B-SBAR		
-4	voor_`t_eerst	voor_het_eerst	[voor]_['t]_[eer][st]	VZ(init)_LID(bep,stan,evon)_BW()	0.856282	O_O_O	B-PP_B-NP_I-NP		
+3	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.899471	O	B-NP		
+4	voor_`t_eerst	voor_het_eerst	[voor]_['t]_[eer][st]	VZ(init)_LID(bep,stan,evon)_BW()	0.856282	O_O_O	B-PP_B-NP_B-ADVP		
 5	.	.	[.]	LET()	1.000000	O	O		
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791	O	B-NP		
 2	zie	zien	[zie]	WW(pv,tgw,ev)	0.997988	O	B-VP		
-3	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.899471	O	B-SBAR		
-4	voor_'t_eerst	voor_het_eerst	[voor]_['t]_[eer][st]	VZ(init)_LID(bep,stan,evon)_BW()	0.856282	O_O_O	B-PP_B-NP_I-NP		
+3	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.899471	O	B-NP		
+4	voor_'t_eerst	voor_het_eerst	[voor]_['t]_[eer][st]	VZ(init)_LID(bep,stan,evon)_BW()	0.856282	O_O_O	B-PP_B-NP_B-ADVP		
 5	.	.	[.]	LET()	1.000000	O	O		
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791	O	B-NP		
 2	zie	zien	[zie]	WW(pv,tgw,ev)	0.997988	O	B-VP		
-3	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.899471	O	B-SBAR		
-4	voor_’t_eerst	voor_het_eerst	[voor]_['t]_[eer][st]	VZ(init)_LID(bep,stan,evon)_BW()	0.856282	O_O_O	B-PP_B-NP_I-NP		
+3	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.899471	O	B-NP		
+4	voor_’t_eerst	voor_het_eerst	[voor]_['t]_[eer][st]	VZ(init)_LID(bep,stan,evon)_BW()	0.856282	O_O_O	B-PP_B-NP_B-ADVP		
 5	.	.	[.]	LET()	1.000000	O	O		
 

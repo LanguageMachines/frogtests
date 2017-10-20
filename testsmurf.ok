@@ -1,11 +1,11 @@
 1	Wij	wij	[wij]	VNW(pers,pron,nomin,vol,1,mv)	0.998887	O	B-NP		
-2	smurfen	smurf	[smurf][en]	N(soort,mv,basis)	0.994090	O	B-VP		
+2	smurfen	smurf	[smurf][en]	N(soort,mv,basis)	0.994090	O	I-NP		
 3	de	de	[de]	LID(bep,stan,rest)	0.984076	O	B-NP		
 4	Grote	groot	[groot][e]	ADJ(prenom,basis,met-e,stan)	0.745756	B-LOC	I-NP		
 5	Smurf	Smurf	[Smurf]	SPEC(deeleigen)	1.000000	I-LOC	I-NP		
 6	.	.	[.]	LET()	1.000000	O	O		
 
-1	Smurf	smurf	[smurf]	N(soort,ev,basis,onz,stan)	0.372569	O	B-VP		
+1	Smurf	smurf	[smurf]	N(soort,ev,basis,onz,stan)	0.372569	O	B-NP		
 2	jij	jij	[jij]	VNW(pers,pron,nomin,vol,2v,ev)	0.999016	O	B-NP		
 3	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.992628	O	B-NP		
 4	?	?	[?]	LET()	1.000000	O	O		
@@ -21,7 +21,7 @@
 3	Smurf	Smurf	[Smurf]	SPEC(deeleigen)	1.000000	B-LOC	I-NP		
 4	niet	niet	[niet]	BW()	0.999918	O	B-ADVP		
 5	smurft	smurft	[smurf][t]	WW(pv,tgw,met-t)	0.742988	O	B-VP		
-6	smurft	smurft	[smurf][t]	WW(pv,tgw,met-t)	1.000000	O	B-NP		
+6	smurft	smurft	[smurf][t]	WW(pv,tgw,met-t)	1.000000	O	B-VP		
 7	ie	hij	[ie]	VNW(pers,pron,nomin,red,3,ev,masc)	0.997955	O	B-NP		
 8	niet	niet	[niet]	BW()	0.999881	O	B-ADVP		
 9	.	.	[.]	LET()	1.000000	O	O		

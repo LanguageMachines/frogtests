@@ -8,7 +8,7 @@
 8	(	(	[(]	LET()	1.000000	O	O		
 9	van	van	[van]	VZ(init)	0.959310	O	B-PP		
 10	384	384	[384]	TW(hoofd,vrij)	0.882353	O	B-NP		
-11	varkensboeren	varkensboer	[varken][s][boer][en]	N(soort,mv,basis)	0.999597	O	I-NP		
+11	varkensboeren	varkensboer	[varken][s][boer][en]	N(soort,mv,basis)	0.999597	O	B-NP		
 12	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.996269	O	B-SBAR		
 13	het	het	[het]	LID(bep,stan,evon)	0.997424	O	B-NP		
 14	ministerie	ministerie	[minister][ie]	N(soort,ev,basis,onz,stan)	0.999008	O	I-NP		
@@ -21,9 +21,9 @@
 21	verkopen	verkopen	[verkoop][en]	WW(inf,vrij,zonder)	0.850000	O	I-VP		
 22	)	)	[)]	LET()	1.000000	O	O		
 23	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999017	O	B-VP		
-24	in_totaal	in_totaal	[in]_[totaal]	VZ(init)_N(soort,ev,basis,onz,stan)	0.620750	O_O	B-ADVP_I-ADVP		
-25	ruim	ruim	[ruim]	ADJ(vrij,basis,zonder)	0.979612	O	B-ADVP		
-26	één	een	[één]	TW(hoofd,prenom,stan)	0.959184	O	B-NP		
+24	in_totaal	in_totaal	[in]_[totaal]	VZ(init)_N(soort,ev,basis,onz,stan)	0.620750	O_O	B-PP_B-NP		
+25	ruim	ruim	[ruim]	ADJ(vrij,basis,zonder)	0.979612	O	B-NP		
+26	één	een	[één]	TW(hoofd,prenom,stan)	0.959184	O	I-NP		
 27	miljoen	miljoen	[miljoen]	N(soort,ev,basis,onz,stan)	0.600000	O	I-NP		
 28	kilo	kilo	[kilo]	N(soort,ev,basis,zijd,stan)	0.760000	O	I-NP		
 29	fosfaat	fosfaat	[fosfaat]	N(soort,ev,basis,onz,stan)	0.996804	O	B-NP		
@@ -35,7 +35,7 @@
 3	van	van	[van]	VZ(init)	0.963788	O	B-PP		
 4	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP		
 5	LTO-vakgroep	lto-vakgroep	[lto-vak][groep]	N(soort,ev,basis,zijd,stan)	0.582590	B-MISC	I-NP		
-6	varkenshouderij	varkenshouderij	[varken][s][houd][erij]	N(soort,ev,basis,zijd,stan)	0.995338	O	B-ADJP		
+6	varkenshouderij	varkenshouderij	[varken][s][houd][erij]	N(soort,ev,basis,zijd,stan)	0.995338	O	B-NP		
 7	zegt	zeggen	[zeg][t]	WW(pv,tgw,met-t)	0.999565	O	B-VP		
 8	dat	dat	[dat]	VG(onder)	0.857143	O	B-SBAR		
 9	boeren	boer	[boer][en]	N(soort,mv,basis)	0.987342	O	B-NP		
@@ -70,7 +70,7 @@
 4	met	met	[met]	VZ(init)	0.999480	O	B-PP		
 5	duizend	duizend	[duizend]	TW(hoofd,prenom,stan)	0.996988	O	B-NP		
 6	mestvarkens	mestvarken	[mest][varken][s]	N(soort,mv,basis)	0.961538	O	I-NP		
-7	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.923077	O	B-SBAR		
+7	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.923077	O	B-NP		
 8	wordt	worden	[word][t]	WW(pv,tgw,met-t)	0.999697	O	B-VP		
 9	beëindigd	beëindigen	[be][eindig][d]	WW(vd,vrij,zonder)	0.997260	O	I-VP		
 10	,	,	[,]	LET()	1.000000	O	O		
@@ -99,8 +99,8 @@
 33	375.000	375.000	[375.000]	TW(hoofd,prenom,stan)	1.000000	O	B-NP		
 34	gulden	gulden	[gulden]	N(soort,ev,basis,zijd,stan)	0.995558	O	I-NP		
 35	voor	voor	[voor]	VZ(init)	0.954128	O	B-PP		
-36	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.562801	O	B-NP		
-37	mestrechten	mestrecht	[mest][recht][en]	N(soort,mv,basis)	1.000000	O	I-NP		
+36	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.562801	O	B-VP		
+37	mestrechten	mestrecht	[mest][recht][en]	N(soort,mv,basis)	1.000000	O	B-NP		
 38	.	.	[.]	LET()	1.000000	O	O		
 
 1	De	de	[de]	LID(bep,stan,rest)	0.943794	O	B-DETP		
@@ -109,7 +109,7 @@
 4	'	'	[']	LET()	1.000000	O	O		
 5	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.906977	O	B-SBAR		
 6	koopt	kopen	[koop][t]	WW(pv,tgw,met-t)	0.988235	O	B-VP		
-7	moest	moeten	[moet]	WW(pv,verl,ev)	0.999322	O	I-VP		
+7	moest	moeten	[moet]	WW(pv,verl,ev)	0.999322	O	B-VP		
 8	ook	ook	[ook]	BW()	0.999979	O	B-ADVP		
 9	onder	onder	[onder]	VZ(init)	0.999375	O	B-PP		
 10	de	de	[de]	LID(bep,stan,rest)	0.999805	O	B-NP		
@@ -131,7 +131,7 @@
 2	wil	willen	[wil]	WW(pv,tgw,ev)	0.985385	O	B-VP		
 3	snel	snel	[snel]	ADJ(vrij,basis,zonder)	0.992106	O	B-ADVP		
 4	wettelijke	wettelijk	[wet][elijk][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	B-NP		
-5	eisen	eisen	[eis][en]	WW(inf,vrij,zonder)	0.666667	O	I-NP		
+5	eisen	eisen	[eis][en]	WW(inf,vrij,zonder)	0.666667	O	B-VP		
 6	'	'	[']	LET()	1.000000	O	O		
 7	Vervoer	vervoer	[ver][vaar]	N(soort,ev,basis,onz,stan)	0.629630	O	B-NP		
 8	per	per	[per]	VZ(init)	0.927508	O	B-PP		
@@ -154,7 +154,7 @@
 11	CVT_Trappers	CVT_Trappers	[CVT]_[Trappers]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-ORG_I-ORG	B-NP_I-NP		
 12	tijd	tijd	[tijd]	N(soort,ev,basis,zijd,stan)	0.999884	O	I-NP		
 13	gehad	hebben	[ge][heb][d]	WW(vd,vrij,zonder)	0.999777	O	B-VP		
-14	te	te	[te]	VZ(init)	0.907459	O	B-VP		
+14	te	te	[te]	VZ(init)	0.907459	O	I-VP		
 15	kunnen	kunnen	[kan][en]	WW(inf,vrij,zonder)	0.674107	O	I-VP		
 16	recupereren	recupereren	[recupereer][en]	WW(inf,vrij,zonder)	0.789298	O	I-VP		
 17	van	van	[van]	VZ(init)	0.999849	O	B-PP		

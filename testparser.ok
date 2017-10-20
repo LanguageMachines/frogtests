@@ -1,7 +1,7 @@
 1	De	de	[de]	LID(bep,stan,rest)	0.999701	O	B-NP	2	det
 2	oprichter	oprichter	[op][richt][er]	N(soort,ev,basis,zijd,stan)	0.999694	O	I-NP	8	su
-3	van	van	[van]	VZ(init)	0.999154	O	B-PP	2	mod
-4	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	3	obj1
+3	van	van	[van]	VZ(init)	0.999154	O	B-NP	2	mod
+4	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	I-NP	3	obj1
 5	,	,	[,]	LET()	1.000000	O	O	4	punct
 6	Jimmy_Wales	Jimmy_Wales	[Jimmy]_[Wales]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_B-LOC	B-NP_I-NP	4	mod
 7	,	,	[,]	LET()	1.000000	O	O	6	punct
@@ -56,7 +56,7 @@
 14	meer	veel	[meer]	VNW(onbep,grad,stan,vrij,zonder,comp)	0.986742	O	B-ADVP	13	mod
 15	op	op	[op]	VZ(fin)	0.850000	O	B-PP	16	pc
 16	dan	dan	[dan]	BW()	0.770408	O	B-ADVP	14	mod
-17	spam	spam	[spam]	N(soort,ev,basis,onz,stan)	0.996587	O	B-ADJP	18	cnj
+17	spam	spam	[spam]	N(soort,ev,basis,onz,stan)	0.996587	O	B-NP	18	cnj
 18	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	13	mod
 19	andere	ander	[ander][e]	ADJ(prenom,basis,met-e,stan)	0.990544	O	B-NP	21	mod
 20	onnodige	onnodig	[on][nodig][e]	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP	21	mod
@@ -78,7 +78,7 @@
 9	makkelijk	makkelijk	[mak][e][lijk]	ADJ(vrij,basis,zonder)	0.995289	O	B-ADVP	12	mod
 10	te	te	[te]	VZ(init)	0.999928	O	B-VP	12	vc
 11	beïnvloeden	beïnvloeden	[be][invloed][en]	WW(inf,vrij,zonder)	0.979167	O	I-VP	10	body
-12	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.666667	O	I-VP	6	vc
+12	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.666667	O	B-VP	6	vc
 13	door	door	[door]	VZ(init)	0.998841	O	B-PP	6	mod
 14	spammers	spammer	[spammer][s]	N(soort,mv,basis)	0.997650	O	B-NP	15	cnj
 15	en	en	[en]	VG(neven)	0.999342	O	B-CONJP	13	obj1
@@ -94,7 +94,7 @@
 6	met_behulp_van	met_behulp_van	[met]_[behulp]_[van]	VZ(init)_N(soort,ev,basis,onz,stan)_VZ(init)	0.808651	O_O_O	B-PP_I-PP_I-PP	5	mod
 7	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	8	det
 8	algoritme	algoritme	[algoritme]	N(soort,ev,basis,onz,stan)	0.900000	O	I-NP	6	obj1
-9	waardoor	waardoor	[waar][door]	BW()	0.993007	O	B-SBAR	8	mod
+9	waardoor	waardoor	[waar][door]	BW()	0.993007	O	B-PP	8	mod
 10	het	het	[het]	LID(bep,stan,evon)	0.996942	O	B-NP	12	det
 11	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.998547	O	I-NP	12	mod
 12	resultaat	resultaat	[resulteer][aat]	N(soort,ev,basis,onz,stan)	0.982759	O	I-NP	20	su
@@ -126,8 +126,8 @@
 1	Deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780	O	B-NP	2	det
 2	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998006	O	I-NP	3	su
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	5	cnj
-4	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.934383	O	B-NP	3	predc
-5	en	en	[en]	VG(neven)	0.999194	O	I-NP	0	ROOT
+4	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.934383	O	B-ADJP	3	predc
+5	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	0	ROOT
 6	deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.999113	O	B-NP	7	det
 7	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998230	O	I-NP	13	su
 8	'	'	[']	LET()	1.000000	O	O	7	punct
@@ -158,7 +158,7 @@
 4	project	project	[project]	N(soort,ev,basis,onz,stan)	0.998223	O	I-NP	1	obj1
 5	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.998984	O	B-VP	0	ROOT
 6	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	5	su
-7	gebruik	gebruiken	[gebruik]	WW(pv,tgw,ev)	0.500000	O	B-NP	0	ROOT
+7	gebruik	gebruiken	[gebruik]	WW(pv,tgw,ev)	0.500000	O	B-VP	0	ROOT
 8	te	te	[te]	VZ(init)	0.907459	O	B-VP	7	mod
 9	kunnen	kunnen	[kan][en]	WW(inf,vrij,zonder)	0.914286	O	I-VP	8	body
 10	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.580078	O	I-VP	7	vc
@@ -202,13 +202,13 @@
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2017-10-19T10:04:03" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-0.12" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2017-10-19T10:04:03" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2017-10-20T17:35:40" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -396,26 +396,26 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </dependency>
           </dependencies>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="0.984615" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="1" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="En"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="NP" confidence="0.954545" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="NP" confidence="1" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="dit"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="VP" confidence="0.972459" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="VP" confidence="1" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="is"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="NP" confidence="0.997874" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="NP" confidence="1" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="een"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="VP" confidence="0.95" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="VP" confidence="1" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="PP" confidence="0.943458" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="PP" confidence="1" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="NP" confidence="0.995202" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="NP" confidence="1" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </chunk>
           </chunking>

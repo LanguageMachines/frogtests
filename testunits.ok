@@ -4,17 +4,17 @@
 4	1000	1000	[1000]	TW(hoofd,prenom,stan)	0.627863	O	B-NP		
 5	bytes	byte	[byte][s]	N(soort,mv,basis)	1.000000	O	I-NP		
 6	,	,	[,]	LET()	1.000000	O	O		
-7	maar	maar	[maar]	BW()	0.500000	O	B-CONJP		
-8	1	1	[1]	TW(hoofd,vrij)	0.698220	O	B-NP		
-9	KiB	KiB	[KiB]	SPEC(deeleigen)	1.000000	B-ORG	I-NP		
+7	maar	maar	[maar]	BW()	0.500000	O	B-NP		
+8	1	1	[1]	TW(hoofd,vrij)	0.698220	O	I-NP		
+9	KiB	KiB	[KiB]	SPEC(deeleigen)	1.000000	B-ORG	B-NP		
 10	is	zijn	[zijn]	WW(pv,tgw,ev)	0.997290	O	B-VP		
 11	1024	1024	[1024]	TW(hoofd,vrij)	0.698220	O	B-NP		
-12	bytes	byte	[byte][s]	N(soort,mv,basis)	0.944042	O	I-NP		
+12	bytes	byte	[byte][s]	N(soort,mv,basis)	0.944042	O	B-NP		
 13	en	en	[en]	VG(neven)	0.998783	O	B-CONJP		
 14	wordt	worden	[word][t]	WW(pv,tgw,met-t)	0.999676	O	B-VP		
 15	ook	ook	[ook]	BW()	0.999979	O	B-ADVP		
 16	wel	wel	[wel]	BW()	0.999831	O	B-ADVP		
-17	als	als	[als]	VZ(init)	0.720000	O	B-SBAR		
+17	als	als	[als]	VZ(init)	0.720000	O	B-PP		
 18	1	1	[1]	TW(hoofd,vrij)	0.698220	O	B-NP		
 19	kiB	kib	[kib]	N(soort,ev,basis,zijd,stan)	0.587567	O	I-NP		
 20	geschreven	schrijven	[ge][schrijf][en]	WW(vd,vrij,zonder)	0.991826	O	B-VP		
@@ -32,10 +32,10 @@
 
 1	De	de	[de]	LID(bep,stan,rest)	0.877577	O	B-NP		
 2	moter	moter	[moter]	N(soort,ev,basis,zijd,stan)	1.000000	O	I-NP		
-3	lever	leveren	[lever]	WW(pv,tgw,ev)	0.666667	O	I-NP		
+3	lever	leveren	[lever]	WW(pv,tgw,ev)	0.666667	O	B-VP		
 4	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP		
 5	koppel	koppel	[koppel]	N(soort,ev,basis,onz,stan)	0.998108	O	I-NP		
 6	van	van	[van]	VZ(init)	0.994382	O	B-PP		
 7	108	108	[108]	TW(hoofd,vrij)	0.842105	O	B-NP		
-8	Nm	nm	[nm]	N(soort,ev,basis,zijd,stan)	0.992385	O	I-NP		
+8	Nm	nm	[nm]	N(soort,ev,basis,zijd,stan)	0.992385	O	B-NP		
 
