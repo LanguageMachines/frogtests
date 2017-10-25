@@ -190,7 +190,7 @@
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791	O	B-NP	2	su
 2	ben	zijn	[zijn]	WW(pv,tgw,ev)	0.999866	O	B-VP	0	ROOT
-3	Romy	Romy	[Romy]	SPEC(deeleigen)	1.000000	B-PER	B-NP	4	cnj
+3	Romy	Romy	[Romy]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	4	cnj
 4	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	2	predc
 5	ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999944	O	B-NP	6	su
 6	doe	doen	[doe]	WW(pv,tgw,ev)	0.998682	O	B-VP	4	cnj
@@ -924,7 +924,7 @@
 15	,	,	[,]	LET()	1.000000	O	O	14	punct
 16	net	net	[net]	BW()	0.993174	O	B-ADVP	17	mod
 17	als	als	[als]	VZ(init)	1.000000	O	B-PP	14	mod
-18	Lara_Stone	Lara_Stone	[Lara]_[Stone]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PRO_I-PRO	B-NP_I-NP	17	body
+18	Lara_Stone	Lara_Stone	[Lara]_[Stone]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_I-PER	B-NP_I-NP	17	body
 19	,	,	[,]	LET()	1.000000	O	O	18	punct
 20	dan	dan	[dan]	BW()	0.997927	O	B-ADVP	21	mod
 21	ben	zijn	[zijn]	WW(pv,tgw,ev)	0.999866	O	B-VP	0	ROOT
@@ -987,7 +987,7 @@
 2	dat	dat	[dat]	VNW(aanw,pron,stan,vol,3o,ev)	0.996540	O	B-NP	3	su
 3	wordt	worden	[word][t]	WW(pv,tgw,met-t)	0.999676	O	B-VP	0	ROOT
 4	'	'	[']	LET()	1.000000	O	O	3	punct
-5	Game	Game	[Game]	SPEC(vreemd)	1.000000	O	B-NP	6	cnj
+5	Game	Game	[Game]	SPEC(vreemd)	1.000000	B-PRO	B-NP	6	cnj
 6	of	of	[of]	VG(neven)	0.855677	O	I-NP	3	obj1
 7	thrones	thrones	[thron][es]	N(soort,mv,basis)	1.000000	O	I-NP	6	cnj
 8	':	':	[':]	SPEC(symb)	1.000000	O	B-NP	7	app

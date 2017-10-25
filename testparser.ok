@@ -3,7 +3,7 @@
 3	van	van	[van]	VZ(init)	0.999154	O	B-NP	2	mod
 4	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	I-NP	3	obj1
 5	,	,	[,]	LET()	1.000000	O	O	4	punct
-6	Jimmy_Wales	Jimmy_Wales	[Jimmy]_[Wales]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_B-LOC	B-NP_I-NP	4	mod
+6	Jimmy_Wales	Jimmy_Wales	[Jimmy]_[Wales]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_B-PRO	B-NP_I-NP	4	mod
 7	,	,	[,]	LET()	1.000000	O	O	6	punct
 8	wil	willen	[wil]	WW(pv,tgw,ev)	0.994536	O	B-VP	0	ROOT
 9	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	11	det
@@ -202,13 +202,13 @@
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2017-10-20T17:35:40" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2017-10-20T17:35:40" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2017-10-25T12:48:01" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2017-10-25T12:48:01" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2017-10-25T12:48:01" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2017-10-25T12:48:01" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2017-10-25T12:48:01" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2017-10-25T12:48:01" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2017-10-25T12:48:01" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
