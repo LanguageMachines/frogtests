@@ -47,11 +47,14 @@ do if test -x $file
 		  diff -w $file.diff $file.diff.known >& /dev/null
       		  if [ $? -ne 0 ]
 		  then
+		      echo -e $FAIL
+		  else
 		      echo -e $KNOWNFAIL
 		      \rm -f $file.diff
 		      \rm $file.err
 		  fi
 	      else
+		  echo "5 hier $err"
 		  echo -e $FAIL
 	      fi
 	  else
