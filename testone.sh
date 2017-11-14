@@ -48,14 +48,17 @@ do if test -x $file
       		  if [ $? -ne 0 ]
 		  then
 		      echo -e $FAIL
+		      echo "differences logged in $file.diff"
+		      errcnt=$((errcnt+1))
 		  else
 		      echo -e $KNOWNFAIL
 		      \rm -f $file.diff
 		      \rm $file.err
 		  fi
 	      else
-		  echo "5 hier $err"
 		  echo -e $FAIL
+		  echo "differences logged in $file.diff"
+		  errcnt=$((errcnt+1))
 	      fi
 	  else
 	      echo -e $OK "(variant=$vari)"
