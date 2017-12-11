@@ -67,7 +67,7 @@
 2	,	,	[,]	LET()	1.000000	O	O	1	punct
 3	ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999944	O	B-NP	4	su
 4	ben	zijn	[zijn]	WW(pv,tgw,ev)	0.999866	O	B-VP	0	ROOT
-5	Natali	Natali	[Natali]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	4	predc
+5	Natali	Natali	[Natali]	SPEC(deeleigen)	1.000000	B-PER	B-NP	4	predc
 6	.	.	[.]	LET()	1.000000	O	O	5	punct
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999796	O	B-NP	2	su
@@ -190,7 +190,7 @@
 
 1	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791	O	B-NP	2	su
 2	ben	zijn	[zijn]	WW(pv,tgw,ev)	0.999866	O	B-VP	0	ROOT
-3	Romy	Romy	[Romy]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	4	cnj
+3	Romy	Romy	[Romy]	SPEC(deeleigen)	1.000000	B-PER	B-NP	4	cnj
 4	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	2	predc
 5	ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999944	O	B-NP	6	su
 6	doe	doen	[doe]	WW(pv,tgw,ev)	0.998682	O	B-VP	4	cnj
