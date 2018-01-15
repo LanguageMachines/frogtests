@@ -28,7 +28,7 @@ do if test -x $file
       err=$?
       if [ $err -ne 0 ]
       then
-	  for vari in 1 2 3
+	  for vari in 1 2 3 4 5 6
 	  do
 	      if  test -e $file.$vari.ok
 	      then
