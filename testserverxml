@@ -28,6 +28,7 @@ pids[0]=$!
 ./frogclient4 &
 pids[1]=$!
 
+echo "created PID's: ${pids[*]}"
 for sub_pid in ${pids[*]}
 do
     wait $sub_pid
@@ -69,6 +70,7 @@ pids2[0]=$!
 ./frogclient4 &
 pids2[1]=$!
 
+echo "created PID's: ${pids2[*]}"
 for sub_pid in ${pids2[*]}
 do
     wait $sub_pid
