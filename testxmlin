@@ -4,13 +4,14 @@
 #
 
 rm ./output/*
+rm *.out.xml
 rm ./zipoutput/*
 
 $comm --skip=p -x folia1.xml -X folia1.out.xml --KANON
 cat folia1.out.xml > testxmlin.out
 $comm --skip=p -x folia1.xml --inputclass=OCR -X folia2.out.xml --KANON
 cat folia2.out.xml >> testxmlin.out
-$comm --skip=p -x folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON
+$comm --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON
 cat folia3.out.xml >> testxmlin.out
 $comm --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
