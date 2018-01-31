@@ -1,13 +1,18 @@
 #!/bin/sh -x
-$frog_bin/frog  --keep-parser-files -n -S 7000  > testserver-n.log 2>&1  &
+$frog_bin/frog -n -S 7000  > testserver-n.log 2>&1  &
 pid=`echo $!`
 
 count="0"
 stat="0"
 while [ $stat -ne 1 ]
 do
-#    echo `lsof -i :7000 |grep -c LISTEN`
-    stat=`lsof -i :7000 |grep -c LISTEN`
+    if [ `uname` = Darwin ]
+    then
+	stat=`lsof -i :7000 -e /Volumes/VMware\ Shared\ Folders |grep -c LISTEN`
+    else
+#	echo `lsof -i :7000 |grep -c LISTEN`
+	stat=`lsof -i :7000 |grep -c LISTEN`
+    fi
 #    echo count=$count
 #    echo status=$stat
     count=$((count+1))

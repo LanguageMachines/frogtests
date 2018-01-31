@@ -7,10 +7,15 @@ count="0"
 stat="0"
 while [ $stat -ne 1 ]
 do
-#    echo `lsof -i :7000 |grep -c LISTEN`
-    stat=`lsof -i :7000 |grep -c LISTEN`
-#    echo count=$count
-#    echo status=$stat
+    if [ `uname` = Darwin ]
+    then
+	stat=`lsof -i :7000 -e /Volumes/VMware\ Shared\ Folders |grep -c LISTEN`
+    else
+    #    echo `lsof -i :7000 |grep -c LISTEN`
+	stat=`lsof -i :7000 |grep -c LISTEN`
+    fi
+    echo count=$count
+    echo status=$stat
     count=$((count+1))
     if [ $count -ge 20 ]; then
 	echo "unable to start server in time..."
