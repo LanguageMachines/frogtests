@@ -3463,8 +3463,8 @@
 
 1	Koning	koning	[koning]	N(soort,ev,basis,zijd,stan)	0.945906	O	B-NP	0	ROOT
 2	Boudewijn	Boudewijn	[Boudewijn]	SPEC(deeleigen)	1.000000	B-PER	B-NP	1	app
-3	van	van	[van]	VZ(init)	0.777778	O	I-NP	1	mod
-4	België	België	[België]	SPEC(deeleigen)	1.000000	B-LOC	I-NP	3	obj1
+3	van	van	[van]	VZ(init)	0.777778	I-PER	I-NP	1	mod
+4	België	België	[België]	SPEC(deeleigen)	1.000000	I-PER	I-NP	3	obj1
 5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
 1	De	de	[de]	LID(bep,stan,rest)	0.999701	O	B-NP	2	det
