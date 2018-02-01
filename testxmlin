@@ -15,7 +15,7 @@ $comm --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xm
 cat folia3.out.xml >> testxmlin.out
 $comm --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
-$comm --skip=p -x -t folia1.xml.gz -X folia1.out1.xml --KANON
+$comm --skip=p -t folia1.xml.gz -X folia1.out1.xml.gz --KANON
 zcat folia1.out1.xml.gz >> testxmlin.out
 $comm --skip=p -t folia1.xml.bz2 -X folia1.out1.xml.bz2 --KANON
 bzcat folia1.out1.xml.bz2 >> testxmlin.out
