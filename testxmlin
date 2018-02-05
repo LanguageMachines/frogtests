@@ -4,7 +4,7 @@
 #
 
 rm ./output/*
-rm *.out.xml
+rm *.out.xml*
 rm ./zipoutput/*
 
 $comm --skip=p -x folia1.xml -X folia1.out.xml --KANON
@@ -22,7 +22,10 @@ bzcat folia1.out1.xml.bz2 >> testxmlin.out
 $comm --skip=p -t folia1.xml -X folia1.out1.xml --KANON >> testxmlin.out
 $comm --skip=p -x folia1.xml --testdir=xmltests -X folia1.out.xml --KANON >> testxmlin.out
 $comm --skip=p --KANON --testdir=xmltests --xmldir=./output
-cat ./output/folia*.xml >> testxmlin.out
+cat ./output/folia1.xml >> testxmlin.out
+cat ./output/folia2.xml >> testxmlin.out
+cat ./output/folia3.xml >> testxmlin.out
+cat ./output/folia4.xml >> testxmlin.out
 $comm -x xmltests/folia4.xml -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
 $comm --skip=p -x --testdir=zipxmltests --xmldir=./zipoutput
