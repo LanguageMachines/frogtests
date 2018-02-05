@@ -11,17 +11,25 @@ $comm --skip=p -x folia1.xml -X folia1.out.xml --KANON
 cat folia1.out.xml > testxmlin.out
 $comm --skip=p -x folia1.xml --inputclass=OCR -X folia2.out.xml --KANON
 cat folia2.out.xml >> testxmlin.out
-$comm --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON
+echo STEP1 >> testxmlin.out
+$comm --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON >> testxmlin.out
 cat folia3.out.xml >> testxmlin.out
+echo STEP2 >> testxmlin.out
 $comm --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
+echo STEP3 >> testxmlin.out
 $comm --skip=p -t folia1.xml.gz -X folia1.out1.xml.gz --KANON
 zcat folia1.out1.xml.gz >> testxmlin.out
+echo STEP4 >> testxmlin.out
 $comm --skip=p -t folia1.xml.bz2 -X folia1.out1.xml.bz2 --KANON
 bzcat folia1.out1.xml.bz2 >> testxmlin.out
+echo STEP5 >> testxmlin.out
 $comm --skip=p -t folia1.xml -X folia1.out1.xml --KANON >> testxmlin.out
+echo STEP6 >> testxmlin.out
 $comm --skip=p -x folia1.xml --testdir=xmltests -X folia1.out.xml --KANON >> testxmlin.out
-$comm --skip=p --KANON --testdir=xmltests --xmldir=./output
+echo STEP7 >> testxmlin.out
+$comm --skip=p --KANON -x --testdir=xmltests --xmldir=./output
+echo STEP8 >> testxmlin.out
 cat ./output/folia1.xml >> testxmlin.out
 cat ./output/folia2.xml >> testxmlin.out
 cat ./output/folia3.xml >> testxmlin.out
