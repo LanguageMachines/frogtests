@@ -5,5 +5,5 @@
 
 rm ./mblemout/*
 
-$mblem -t ./mblemproblems/open > testmblem.out
+$mblem -t ./mblemproblems/open -o testmblem.out
 $mblem -t ./mblemproblems/open --notagger >> testmblem.out
