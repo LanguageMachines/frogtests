@@ -11,7 +11,6 @@
 11	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP	12	obj1
 12	lanceren	lanceren	[lanceer][en]	WW(inf,vrij,zonder)	0.791045	O	B-VP	8	vc
 13	.	.	[.]	LET()	1.000000	O	O	12	punct
-
 1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.993865	O	B-NP	2	obj1
 2	meldt	melden	[meld][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP	0	ROOT
 3	de	de	[de]	LID(bep,stan,rest)	0.999811	O	B-NP	5	det
@@ -20,7 +19,6 @@
 6	The	The	[The]	SPEC(vreemd)	1.000000	B-PRO	B-NP	2	su
 7	Times	Times	[Times]	SPEC(vreemd)	1.000000	I-PRO	I-NP	0	ROOT
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
-
 1	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	2	su
 2	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.997207	O	B-VP	0	ROOT
 3	dat	dat	[dat]	VG(onder)	0.962882	O	B-SBAR	2	vc
@@ -39,7 +37,6 @@
 16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	15	cnj
 17	!	!	[!]	LET()	1.000000	I-ORG	I-NP	16	punct
 18	.	.	[.]	LET()	1.000000	O	O	16	punct
-
 1	"	"	["]	LET()	1.000000	O	O	0	ROOT
 2	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	3	su
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP	0	ROOT
@@ -66,7 +63,6 @@
 24	aldus	aldus	[al][dus]	BW()	0.997264	O	B-PP	0	ROOT
 25	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP	24	obj1
 26	.	.	[.]	LET()	1.000000	O	O	25	punct
-
 1	Het	het	[het]	LID(bep,stan,evon)	0.998917	O	B-NP	3	det
 2	algoritmische	algoritmisch	[algoritme][isch][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP	3	mod
 3	zoekprogramma	zoekprogramma	[zoek][programma]	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP	6	su
@@ -85,13 +81,12 @@
 16	commerciële	commercieel	[commercie][eel][e]	ADJ(prenom,basis,met-e,stan)	0.999790	O	B-NP	17	mod
 17	ondernemingen	onderneming	[onderneem][ing][en]	N(soort,mv,basis)	0.999588	O	I-NP	15	cnj
 18	.	.	[.]	LET()	1.000000	O	O	17	punct
-
 1	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.964035	O	B-NP	4	su
 2	bij	bij	[bij]	VZ(init)	0.989796	O	B-PP	1	mod
 3	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	2	obj1
 4	worden	worden	[word][en]	WW(pv,tgw,mv)	1.000000	O	B-VP	0	ROOT
 5	uitgevoerd	uitvoeren	[uit][ge][voer][d]	WW(vd,vrij,zonder)	0.999154	O	I-VP	4	vc
-6	met_behulp_van	met_behulp_van	[met]_[behulp]_[van]	VZ(init)_N(soort,ev,basis,onz,stan)_VZ(init)	0.808651	O_O_O	B-PP_I-PP_I-PP	5	mod
+6	met_behulp_van	met_behulp_van	[met]_[behulp]_[van]	VZ(init)_N(soort,ev,basis,onz,stan)_VZ(init)	0.808650	O_O_O	B-PP_I-PP_I-PP	5	mod
 7	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	8	det
 8	algoritme	algoritme	[algoritme]	N(soort,ev,basis,onz,stan)	0.900000	O	I-NP	6	obj1
 9	waardoor	waardoor	[waar][door]	BW()	0.993007	O	B-PP	8	mod
@@ -107,7 +102,6 @@
 19	verwijzingen	verwijzing	[ver][wijs][ing][en]	N(soort,mv,basis)	0.997677	O	I-NP	16	obj1
 20	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999662	O	B-VP	9	body
 21	.	.	[.]	LET()	1.000000	O	O	20	punct
-
 1	"	"	["]	LET()	1.000000	O	O	0	ROOT
 2	De	de	[de]	LID(bep,stan,rest)	0.877577	O	B-NP	4	det
 3	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.997796	O	I-NP	4	mod
@@ -122,7 +116,6 @@
 12	een	een	[een]	LID(onbep,stan,agr)	0.999038	O	B-NP	13	det
 13	keuze	keuze	[keuze]	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP	11	obj1
 14	.	.	[.]	LET()	1.000000	O	O	13	punct
-
 1	Deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780	O	B-NP	2	det
 2	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998006	O	I-NP	3	su
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	5	cnj
@@ -141,17 +134,15 @@
 16	voormalige	voormalig	[voor][maal][ig][e]	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP	17	mod
 17	effectenhandelaar	effectenhandelaar	[effect][en][handel][aar]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	13	obj1
 18	.	.	[.]	LET()	1.000000	O	O	17	punct
-
 1	"	"	["]	LET()	1.000000	O	O	0	ROOT
 2	Computers	computer	[computer][s]	N(soort,mv,basis)	0.862385	O	B-NP	3	su
 3	kunnen	kunnen	[kan][en]	WW(pv,tgw,mv)	0.911765	O	B-VP	0	ROOT
-4	nu_eenmaal	nu_eenmaal	[nu]_[eenmaal]	BW()_BW()	0.995579	O_O	B-ADVP_I-ADVP	5	mod
+4	nu_eenmaal	nu_eenmaal	[nu]_[eenmaal]	BW()_BW()	0.995579	O_O	B-ADVP_I-ADVP	3	mod
 5	niet	niet	[niet]	BW()	0.999918	O	I-ADVP	8	mod
 6	dergelijke	dergelijk	[dergelijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP	7	mod
 7	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.999466	O	I-NP	8	obj1
 8	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.727273	O	B-VP	3	vc
 9	.	.	[.]	LET()	1.000000	O	O	8	punct
-
 1	Voor	voor	[voor]	VZ(init)	0.950530	O	B-PP	5	mod
 2	het	het	[het]	LID(bep,stan,evon)	0.994595	O	B-NP	4	det
 3	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP	4	mod
@@ -174,7 +165,6 @@
 20	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.600000	O	B-VP	14	body
 21	gemaakt	maken	[ge][maak][t]	WW(vd,vrij,zonder)	0.999127	O	I-VP	20	vc
 22	.	.	[.]	LET()	1.000000	O	O	21	punct
-
 1	De	de	[de]	LID(bep,stan,rest)	0.992095	O	B-NP	3	det
 2	goede	goed	[goed][e]	ADJ(prenom,basis,met-e,stan)	0.997314	O	I-NP	3	mod
 3	reputatie	reputatie	[reputatie]	N(soort,ev,basis,zijd,stan)	0.999455	O	I-NP	14	su
@@ -196,19 +186,18 @@
 19	betrouwbare	betrouwbaar	[be][trouw][baar][e]	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP	20	mod
 20	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	17	obj1
 21	.	.	[.]	LET()	1.000000	O	O	20	punct
-
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.14" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-07-12T10:23:56" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-07-12T10:23:56" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-07-12T10:23:56" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-07-12T10:23:56" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-07-12T10:23:56" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-07-12T10:23:56" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-07-12T10:23:56" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-08-14T17:12:03" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-08-14T17:12:03" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-08-14T17:12:03" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-08-14T17:12:03" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-08-14T17:12:03" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-08-14T17:12:03" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-08-14T17:12:03" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
