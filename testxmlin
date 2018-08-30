@@ -14,7 +14,7 @@ cat folia2.out.xml >> testxmlin.out
 echo STEP1 >> testxmlin.err
 $comm --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON >> testxmlin.out
 cat folia3.out.xml >> testxmlin.out
-echo STEP2 >> testxmlin.rr
+echo STEP2 >> testxmlin.err
 $comm --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
 echo STEP3 >> testxmlin.err
