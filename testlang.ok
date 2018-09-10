@@ -1,30 +1,33 @@
-1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085						
-2	is	zijn		WW(pv,tgw,ev)	0.999891						
-3	een	een		LID(onbep,stan,agr)	0.999113						
-4	test	test		N(soort,ev,basis,zijd,stan)	0.903055						
-5	.	.		LET()	1.000000						
 
-1	This	This		SPEC(vreemd)	1.000000						
-2	isn't	isn't		SPEC(vreemd)	1.000000						
-3	dutch	dutch		SPEC(vreemd)	1.000000						
-4	.	.		LET()	1.000000						
+1	Dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
+2	is	zijn			WW(pv,tgw,ev)	0.999891								
+3	een	een			LID(onbep,stan,agr)	0.999113								
+4	test	test			N(soort,ev,basis,zijd,stan)	0.903055								
+5	.	.			LET()	1.000000								
 
-1	En	en		VG(neven)	0.992995						
-2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
-3	is	zijn		WW(pv,tgw,ev)	0.999447						
-4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
-5	2	2		TW(hoofd,vrij)	0.890855						
-6	.	.		LET()	1.000000						
+
+1	This	This			SPEC(vreemd)	1.000000								
+2	isn't	isn't			SPEC(vreemd)	1.000000								
+3	dutch	dutch			SPEC(vreemd)	1.000000								
+4	.	.			LET()	1.000000								
+
+
+1	En	en			VG(neven)	0.992995								
+2	dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
+3	is	zijn			WW(pv,tgw,ev)	0.999447								
+4	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
+5	2	2			TW(hoofd,vrij)	0.890855								
+6	.	.			LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.5" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-11-10T20:09:11" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-11-10T20:09:11" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-11-10T20:09:11" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T15:46:11" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T15:46:11" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T15:46:11" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
   </metadata>
   <text xml:id="text">
@@ -83,6 +86,7 @@
       <p xml:id="p2">
         <s xml:id="s2">
           <t>This isn't dutch.</t>
+          <lang class="eng"/>
           <w xml:id="s2.w.1" class="WORD">
             <t>This</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
@@ -109,7 +113,6 @@
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
           </w>
-          <lang class="eng"/>
         </s>
       </p>
       <p xml:id="p3">
@@ -172,28 +175,36 @@
     </div>
   </text>
 </FoLiA>
-1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085						
-2	is	zijn		WW(pv,tgw,ev)	0.999891						
-3	een	een		LID(onbep,stan,agr)	0.999113						
-4	test	test		N(soort,ev,basis,zijd,stan)	0.903055						
-5	.	.		LET()	1.000000						
 
-1	En	en		VG(neven)	0.992995						
-2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
-3	is	zijn		WW(pv,tgw,ev)	0.999447						
-4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
-5	2	2		TW(hoofd,vrij)	0.890855						
-6	.	.		LET()	1.000000						
+1	Dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
+2	is	zijn			WW(pv,tgw,ev)	0.999891								
+3	een	een			LID(onbep,stan,agr)	0.999113								
+4	test	test			N(soort,ev,basis,zijd,stan)	0.903055								
+5	.	.			LET()	1.000000								
+
+
+1	This	This			SPEC(vreemd)	1.000000								
+2	isn't	isn't			SPEC(vreemd)	1.000000								
+3	dutch	dutch			SPEC(vreemd)	1.000000								
+4	.	.			LET()	1.000000								
+
+
+1	En	en			VG(neven)	0.992995								
+2	dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
+3	is	zijn			WW(pv,tgw,ev)	0.999447								
+4	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
+5	2	2			TW(hoofd,vrij)	0.890855								
+6	.	.			LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.5" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-11-10T20:09:13" set="tokconfig-nl"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-11-10T20:09:13" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-11-10T20:09:13" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T15:46:13" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T15:46:13" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T15:46:13" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -316,35 +327,38 @@
     </div>
   </text>
 </FoLiA>
-1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085						
-2	is	zijn		WW(pv,tgw,ev)	0.999891						
-3	een	een		LID(onbep,stan,agr)	0.999113						
-4	test	test		N(soort,ev,basis,zijd,stan)	0.903055						
-5	.	.		LET()	1.000000						
 
-1	This	this		SPEC(vreemd)	1.000000						
-2	is	zijn		WW(pv,tgw,ev)	0.999447						
-3	n't	n't		ADJ(vrij,comp,zonder)	0.395742						
-4	dutch	dutch		SPEC(vreemd)	1.000000						
-5	.	.		LET()	1.000000						
+1	Dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
+2	is	zijn			WW(pv,tgw,ev)	0.999891								
+3	een	een			LID(onbep,stan,agr)	0.999113								
+4	test	test			N(soort,ev,basis,zijd,stan)	0.903055								
+5	.	.			LET()	1.000000								
 
-1	En	en		VG(neven)	0.992995						
-2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
-3	is	zijn		WW(pv,tgw,ev)	0.999447						
-4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
-5	2	2		TW(hoofd,vrij)	0.890855						
-6	.	.		LET()	1.000000						
+
+1	This	this			SPEC(vreemd)	1.000000								
+2	is	zijn			WW(pv,tgw,ev)	0.999447								
+3	n't	n't			ADJ(vrij,comp,zonder)	0.395742								
+4	dutch	dutch			SPEC(vreemd)	1.000000								
+5	.	.			LET()	1.000000								
+
+
+1	En	en			VG(neven)	0.992995								
+2	dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
+3	is	zijn			WW(pv,tgw,ev)	0.999447								
+4	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
+5	2	2			TW(hoofd,vrij)	0.890855								
+6	.	.			LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.5" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-11-10T20:09:14" set="tokconfig-nld"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2016-11-10T20:09:14" set="tokconfig-eng"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2016-11-10T20:09:14" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2016-11-10T20:09:14" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T15:46:14" set="tokconfig-nld"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T15:46:14" set="tokconfig-eng"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T15:46:14" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T15:46:14" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -404,6 +418,7 @@
       <p xml:id="p2">
         <s xml:id="s2">
           <t>This isn't dutch.</t>
+          <lang class="eng"/>
           <w xml:id="s2.w.1" class="WORD" set="tokconfig-eng">
             <t>This</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
@@ -441,7 +456,6 @@
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
           </w>
-          <lang class="eng"/>
         </s>
       </p>
       <p xml:id="p3">
