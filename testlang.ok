@@ -25,9 +25,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T15:46:11" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T15:46:11" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T15:46:11" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T17:19:30" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T17:19:30" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T17:19:30" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
   </metadata>
   <text xml:id="text">
@@ -86,7 +86,6 @@
       <p xml:id="p2">
         <s xml:id="s2">
           <t>This isn't dutch.</t>
-          <lang class="eng"/>
           <w xml:id="s2.w.1" class="WORD">
             <t>This</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
@@ -113,6 +112,7 @@
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
           </w>
+          <lang class="eng"/>
         </s>
       </p>
       <p xml:id="p3">
@@ -202,9 +202,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T15:46:13" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T15:46:13" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T15:46:13" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T17:19:31" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T17:19:31" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T17:19:31" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -355,10 +355,10 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T15:46:14" set="tokconfig-nld"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T15:46:14" set="tokconfig-eng"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T15:46:14" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T15:46:14" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T17:19:32" set="tokconfig-nld"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T17:19:32" set="tokconfig-eng"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T17:19:32" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T17:19:32" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -418,7 +418,6 @@
       <p xml:id="p2">
         <s xml:id="s2">
           <t>This isn't dutch.</t>
-          <lang class="eng"/>
           <w xml:id="s2.w.1" class="WORD" set="tokconfig-eng">
             <t>This</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
@@ -456,6 +455,7 @@
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
           </w>
+          <lang class="eng"/>
         </s>
       </p>
       <p xml:id="p3">

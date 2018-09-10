@@ -202,14 +202,14 @@
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T09:39:16" set="tokconfig-nld"/>
       <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T09:39:16" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T09:39:16" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-10T09:39:16" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-10T09:39:16" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-10T09:39:16" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-10T09:39:16" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T17:17:26" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -225,12 +225,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <pos class="VG(neven)" confidence="0.992995" head="VG" textclass="OCR">
               <feat class="neven" subset="conjtype"/>
             </pos>
-            <lemma class="en" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">en</t>
               </morpheme>
             </morphology>
+            <lemma class="en" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD" textclass="OCR">
             <t class="OCR">dit</t>
@@ -242,12 +242,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
-            <lemma class="dit" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">dit</t>
               </morpheme>
             </morphology>
+            <lemma class="dit" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD" textclass="OCR">
             <t class="OCR">is</t>
@@ -256,12 +256,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
-            <lemma class="zijn" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">zijn</t>
               </morpheme>
             </morphology>
+            <lemma class="zijn" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" textclass="OCR">
             <t class="OCR">een</t>
@@ -270,12 +270,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
-            <lemma class="een" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">een</t>
               </morpheme>
             </morphology>
+            <lemma class="een" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD" textclass="OCR">
             <t class="OCR">klasse</t>
@@ -286,12 +286,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
-            <lemma class="klasse" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">klasse</t>
               </morpheme>
             </morphology>
+            <lemma class="klasse" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD" textclass="OCR">
             <t class="OCR">test</t>
@@ -300,76 +300,52 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
-            <lemma class="testen" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">test</t>
               </morpheme>
             </morphology>
+            <lemma class="testen" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" textclass="OCR">
             <t class="OCR">in</t>
             <pos class="VZ(init)" confidence="0.998321" head="VZ" textclass="OCR">
               <feat class="init" subset="vztype"/>
             </pos>
-            <lemma class="in" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">in</t>
               </morpheme>
             </morphology>
+            <lemma class="in" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no" textclass="OCR">
             <t class="OCR">Nijmegen</t>
             <pos class="SPEC(deeleigen)" confidence="1" head="SPEC" textclass="OCR">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
-            <lemma class="Nijmegen" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">Nijmegen</t>
               </morpheme>
             </morphology>
+            <lemma class="Nijmegen" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION" textclass="OCR">
             <t class="OCR">.</t>
             <pos class="LET()" confidence="1" head="LET" textclass="OCR"/>
-            <lemma class="." textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">.</t>
               </morpheme>
             </morphology>
+            <lemma class="." textclass="OCR"/>
           </w>
           <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
             <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </entity>
           </entities>
-          <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="1" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="En"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="NP" confidence="1" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="dit"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="VP" confidence="1" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="is"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="NP" confidence="1" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="een"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="VP" confidence="1" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="PP" confidence="1" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="NP" confidence="1" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
-            </chunk>
-          </chunking>
           <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1">
             <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.1" class="su" textclass="OCR">
               <hd>
@@ -420,6 +396,30 @@ Gaat deze datum: 28-11-2011 goed?</t>
               </dep>
             </dependency>
           </dependencies>
+          <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="1" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="En"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="NP" confidence="1" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="dit"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="VP" confidence="1" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="is"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="NP" confidence="1" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="een"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="VP" confidence="1" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="PP" confidence="1" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="NP" confidence="1" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
+            </chunk>
+          </chunking>
         </s>
       </head>
     </div>
