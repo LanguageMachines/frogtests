@@ -1,16 +1,17 @@
 test 1:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-02-05T11:31:37" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:37" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:37" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:37" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:37" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:37" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:37" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:05" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:05" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:05" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:05" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:05" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:05" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:05" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -276,17 +277,18 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 2:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-02-05T11:31:40" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:40" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:40" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:40" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:40" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:40" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:40" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:08" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:08" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:08" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:08" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:08" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:08" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:08" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -464,17 +466,18 @@ test 3:
 9	.	.	[.]	LET()	1.000000	O	O
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-02-05T11:31:43" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:43" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:43" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:43" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:43" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:43" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:43" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:11" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:11" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:11" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:11" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:11" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:11" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:11" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -641,17 +644,18 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 4:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-02-05T11:31:45" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:45" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:45" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:45" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:45" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:45" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:45" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:14" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:14" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:14" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:14" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:14" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:14" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:14" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -917,17 +921,18 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 5:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-02-05T11:31:48" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:48" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:48" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:48" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:48" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:48" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:48" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:17" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:17" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:17" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:17" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:17" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:17" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:17" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -1193,17 +1198,18 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 6:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-02-05T11:31:51" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:51" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:51" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:51" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:51" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:51" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:51" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:20" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:20" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:20" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:20" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:20" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:20" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:20" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -1468,12 +1474,15 @@ Gaat deze datum: 28-11-2011 goed?</t>
   </text>
 </FoLiA>
 test 7:
+
 1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085	O	B-NP
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP
 3	als_het_ware	als_het_waar	[als]_[het]_[ware]	VG(onder)_VNW(pers,pron,stan,red,3,ev,onz)_WW(pv,conj,ev)	0.680452	O_O_O	I-VP_I-VP_I-VP
 4	een	een	[een]	LID(onbep,stan,agr)	0.999113	O	B-NP
 5	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.903055	O	I-NP
 6	.	.	[.]	LET()	1.000000	O	O
+
+
 1	Gaat	gaan	[ga][t]	WW(pv,tgw,met-t)	0.996998	O	B-VP
 2	deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.999113	O	B-NP
 3	datum	datum	[datum]	N(soort,ev,basis,zijd,stan)	0.998230	O	I-NP
@@ -1481,20 +1490,22 @@ test 7:
 5	28-11-2011	28-11-2011	[28-11-2011]	SPEC(symb)	1.000000	O	B-NP
 6	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.995449	O	B-ADJP
 7	?	?	[?]	LET()	1.000000	O	O
+
 test 8:
 test 9:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-02-05T11:31:57" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:26" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:26" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:26" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:26" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:26" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:26" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:26" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -1701,17 +1712,18 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 9a:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-02-05T11:31:57" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:27" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="WR-P-E-J-0000000001.text">
@@ -1921,223 +1933,19 @@ Gaat deze datum: 28-11-2011 goed?</t>
   </text>
 </FoLiA>
 test 9b:
-<?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.12" version="0.8">
-  <metadata type="imdi">
-    <annotations>
-      <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-02-05T11:31:57" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-    </annotations>
-  </metadata>
-  <text xml:id="WR-P-E-J-0000000001.text">
-    <div xml:id="WR-P-E-J-0000000001.div0.1" class="kindergarten">
-      <t>Dit is test3 .
-Gaat deze datum: 28-11-2011 goed?</t>
-      <p xml:id="WR-P-E-J-0000000001.p.1">
-        <s xml:id="WR-P-E-J-0000000001.p.1.s.1">
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.1" class="WORD">
-            <t>Dit</t>
-            <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
-              <feat class="aanw" subset="vwtype"/>
-              <feat class="pron" subset="pdtype"/>
-              <feat class="stan" subset="naamval"/>
-              <feat class="vol" subset="status"/>
-              <feat class="3o" subset="persoon"/>
-              <feat class="ev" subset="getal"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>dit</t>
-              </morpheme>
-            </morphology>
-            <lemma class="dit"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.2" class="WORD">
-            <t>is</t>
-            <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
-              <feat class="pv" subset="wvorm"/>
-              <feat class="tgw" subset="pvtijd"/>
-              <feat class="ev" subset="pvagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>zijn</t>
-              </morpheme>
-            </morphology>
-            <lemma class="zijn"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.3" class="STRING-NUMBER">
-            <t>test3</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.360793" head="N">
-              <feat class="soort" subset="ntype"/>
-              <feat class="ev" subset="getal"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zijd" subset="genus"/>
-              <feat class="stan" subset="naamval"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>test3</t>
-              </morpheme>
-            </morphology>
-            <lemma class="test3"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.1.w.4" class="PUNCTUATION">
-            <t>.</t>
-            <pos class="LET()" confidence="1" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>.</t>
-              </morpheme>
-            </morphology>
-            <lemma class="."/>
-          </w>
-          <chunking xml:id="WR-P-E-J-0000000001.p.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="0.99375">
-              <wref id="WR-P-E-J-0000000001.p.1.s.1.w.1" t="Dit"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.p.1.s.1.chunking.1.chunk.2" class="VP" confidence="1">
-              <wref id="WR-P-E-J-0000000001.p.1.s.1.w.2" t="is"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.p.1.s.1.chunking.1.chunk.3" class="NP" confidence="0.952604">
-              <wref id="WR-P-E-J-0000000001.p.1.s.1.w.3" t="test3"/>
-            </chunk>
-          </chunking>
-        </s>
-        <s xml:id="WR-P-E-J-0000000001.p.1.s.2">
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.1" class="WORD">
-            <t>Gaat</t>
-            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
-              <feat class="pv" subset="wvorm"/>
-              <feat class="tgw" subset="pvtijd"/>
-              <feat class="met-t" subset="pvagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>ga</t>
-              </morpheme>
-              <morpheme>
-                <t>t</t>
-              </morpheme>
-            </morphology>
-            <lemma class="gaan"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.2" class="WORD">
-            <t>deze</t>
-            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
-              <feat class="aanw" subset="vwtype"/>
-              <feat class="det" subset="pdtype"/>
-              <feat class="stan" subset="naamval"/>
-              <feat class="prenom" subset="positie"/>
-              <feat class="met-e" subset="buiging"/>
-              <feat class="rest" subset="npagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>deze</t>
-              </morpheme>
-            </morphology>
-            <lemma class="deze"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.3" class="WORD" space="no">
-            <t>datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
-              <feat class="soort" subset="ntype"/>
-              <feat class="ev" subset="getal"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zijd" subset="genus"/>
-              <feat class="stan" subset="naamval"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>datum</t>
-              </morpheme>
-            </morphology>
-            <lemma class="datum"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.4" class="PUNCTUATION">
-            <t>:</t>
-            <pos class="LET()" confidence="1" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>:</t>
-              </morpheme>
-            </morphology>
-            <lemma class=":"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.5" class="DATE">
-            <t>28-11-2011</t>
-            <pos class="SPEC(symb)" confidence="1" head="SPEC">
-              <feat class="symb" subset="spectype"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>28-11-2011</t>
-              </morpheme>
-            </morphology>
-            <lemma class="28-11-2011"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.6" class="WORD" space="no">
-            <t>goed</t>
-            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
-              <feat class="vrij" subset="positie"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zonder" subset="buiging"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>goed</t>
-              </morpheme>
-            </morphology>
-            <lemma class="goed"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.p.1.s.2.w.7" class="PUNCTUATION">
-            <t>?</t>
-            <pos class="LET()" confidence="1" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>?</t>
-              </morpheme>
-            </morphology>
-            <lemma class="?"/>
-          </w>
-          <chunking xml:id="WR-P-E-J-0000000001.p.1.s.2.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.p.1.s.2.chunking.1.chunk.1" class="VP" confidence="1">
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.1" t="Gaat"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.p.1.s.2.chunking.1.chunk.2" class="NP" confidence="1">
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.2" t="deze"/>
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.3" t="datum"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.p.1.s.2.chunking.1.chunk.3" class="NP" confidence="1">
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.5" t="28-11-2011"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.p.1.s.2.chunking.1.chunk.4" class="ADJP" confidence="0.756469">
-              <wref id="WR-P-E-J-0000000001.p.1.s.2.w.6" t="goed"/>
-            </chunk>
-          </chunking>
-        </s>
-      </p>
-    </div>
-  </text>
-</FoLiA>
 test 9c:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v1.20" version="0.8">
   <metadata type="native">
     <annotations>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:31:57" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:27" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:27" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
   </metadata>
   <text xml:id="text">
@@ -2202,15 +2010,17 @@ test 9c:
 </FoLiA>
 test 10:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v1.12" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v1.20" version="0.8">
   <metadata type="native">
     <annotations>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-02-05T11:32:00" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-02-05T11:32:00" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-02-05T11:32:00" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-02-05T11:32:00" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-02-05T11:32:00" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-02-05T11:32:00" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-13T10:25:30" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-13T10:25:30" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-13T10:25:30" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-13T10:25:30" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-13T10:25:30" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-13T10:25:30" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-13T10:25:30" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
