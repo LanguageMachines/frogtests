@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+rm ./mbmaout/*
+rm ./output/*
+
+$comm --TESTAPI -t teststandard.txt -o teststandard.out
+cat teststandard.out > testapi.out
+
+$comm --skip=p --TESTAPI --testdir mbmaproblems --outputdir mbmaout
+cat mbmaout/*.out >> testapi.out
+
+$comm --skip=p --TESTAPI --testdir xmltests --xmldir output/
+cat output/*.xml >> testapi.out
