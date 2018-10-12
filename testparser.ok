@@ -203,13 +203,13 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-09-10T17:17:26" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-09-10T17:17:26" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-10-12T10:40:46" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-10-12T10:40:46" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-10-12T10:40:46" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-10-12T10:40:46" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-10-12T10:40:46" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-10-12T10:40:46" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-10-12T10:40:46" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -346,7 +346,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </entity>
           </entities>
-          <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1">
+          <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1" textclass="OCR">
             <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.1" class="su" textclass="OCR">
               <hd>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3"/>
