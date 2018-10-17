@@ -6,35 +6,45 @@
 rm ./output/*
 rm *.out.xml*
 rm ./zipoutput/*
+rm ./strangeout/*
 
+echo "test 1: " > testxmlin.out
 $comm --skip=p -x folia1.xml -X folia1.out.xml --KANON
-cat folia1.out.xml > testxmlin.out
+cat folia1.out.xml >> testxmlin.out
+echo "test 2: " >> testxmlin.out
 $comm --skip=p -x folia1.xml --inputclass=OCR -X folia2.out.xml --KANON
 cat folia2.out.xml >> testxmlin.out
-echo STEP1 >> testxmlin.err
+echo "test 3: " >> testxmlin.out
 $comm --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON >> testxmlin.out
 cat folia3.out.xml >> testxmlin.out
-echo STEP2 >> testxmlin.err
+echo "test 4: " >> testxmlin.out
 $comm --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
-echo STEP3 >> testxmlin.err
+echo "test 5: " >> testxmlin.out
 $comm --skip=p -t folia1.xml.gz -X folia1.out1.xml.gz --KANON
 gunzip -c folia1.out1.xml.gz >> testxmlin.out
-echo STEP4 >> testxmlin.err
+echo "test 6: " >> testxmlin.out
 $comm --skip=p -t folia1.xml.bz2 -X folia1.out1.xml.bz2 --KANON
 bzcat folia1.out1.xml.bz2 >> testxmlin.out
-echo STEP5 >> testxmlin.err
+echo "test 7: " >> testxmlin.out
 $comm --skip=p -t folia1.xml -X folia1.out1.xml --KANON >> testxmlin.out
-echo STEP6 >> testxmlin.err
+echo "test 8: " >> testxmlin.out
 $comm --skip=p -x folia1.xml --testdir=xmltests -X folia1.out.xml --KANON >> testxmlin.out
-echo STEP7 >> testxmlin.err
+echo "test 9: " >> testxmlin.out
 $comm --skip=p --KANON -x --testdir=xmltests --xmldir=./output
-echo STEP8 >> testxmlin.err
 cat ./output/folia1.xml >> testxmlin.out
+echo "test 9a: " >> testxmlin.out
 cat ./output/folia2.xml >> testxmlin.out
+echo "test 9b: " >> testxmlin.out
 cat ./output/folia3.xml >> testxmlin.out
+echo "test 9c: " >> testxmlin.out
 cat ./output/folia4.xml >> testxmlin.out
+echo "test 10: " >> testxmlin.out
 $comm -x xmltests/folia4.xml -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
+echo "test 11: " >> testxmlin.out
 $comm --skip=p -x --testdir=zipxmltests --xmldir=./zipoutput
 ls ./zipoutput/folia* >> testxmlin.out
+echo "test 12: " >> testxmlin.out
+$comm -x --testdir=strangefolia --xmldir=./strangeout --outputdir=./strangeout
+ls -l ./strangeout/ | awk '{print $5"\t\t"$9}' >> testxmlin.out
