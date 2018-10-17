@@ -6,6 +6,7 @@
 rm ./output/*
 rm *.out.xml*
 rm ./zipoutput/*
+rm ./strangeout/*
 
 echo "test 1: " > testxmlin.out
 $comm --skip=p -x folia1.xml -X folia1.out.xml --KANON
@@ -43,4 +44,7 @@ $comm -x xmltests/folia4.xml -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
 echo "test 11: " >> testxmlin.out
 $comm --skip=p -x --testdir=zipxmltests --xmldir=./zipoutput
+ls ./zipoutput/folia* >> testxmlin.out
+echo "test 12: " >> testxmlin.out
+$comm -x --testdir=strangefolia --xmldir=./strangeout
 ls ./zipoutput/folia* >> testxmlin.out
