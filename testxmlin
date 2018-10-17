@@ -46,5 +46,5 @@ echo "test 11: " >> testxmlin.out
 $comm --skip=p -x --testdir=zipxmltests --xmldir=./zipoutput
 ls ./zipoutput/folia* >> testxmlin.out
 echo "test 12: " >> testxmlin.out
-$comm -x --testdir=strangefolia --xmldir=./strangeout
-ls ./zipoutput/folia* >> testxmlin.out
+$comm -x --testdir=strangefolia --xmldir=./strangeout --outputdir=./strangeout
+ls -l ./strangeout/ | awk '{print $5"\t\t"$9}' >> testxmlin.out
