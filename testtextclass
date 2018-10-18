@@ -21,3 +21,11 @@ cat textproblem3.out.xml >> testtextclass.out
 echo "test 4: " >> testtextclass.out
 $comm --skip=nmcp --textclass=OCR -X textproblem4.out.xml --KANON textproblem.xml
 cat textproblem4.out.xml >> testtextclass.out
+
+echo "test 5: " >> testtextclass.out
+$comm --skip=nmcp --inputclass=OCR -X textproblem5.out.xml --KANON textproblem.xml
+cat textproblem5.out.xml >> testtextclass.out
+
+echo "test 6: " >> testtextclass.out
+$comm --skip=nmcp --inputclass=OCR --outputclass=TEST -X textproblem6.out.xml --KANON textproblem.xml
+cat textproblem6.out.xml >> testtextclass.out
