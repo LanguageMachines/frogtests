@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+rm ./output/*
+rm *.out.xml*
+
+echo "test 1: " > testtextclass.out
+$comm --skip=nmcp -x textproblem.xml -X textproblem1.out.xml --KANON
+cat textproblem1.out.xml >> testtextclass.out
+
+echo "test 2: " >> testtextclass.out
+$comm --skip=nmcp --textclass=OCR -x textproblem.xml -X textproblem2.out.xml --KANON
+cat textproblem2.out.xml >> testtextclass.out
+
+echo "test 3: " >> testtextclass.out
+$comm --skip=nmcp -X textproblem3.out.xml --KANON textproblem.xml
+cat textproblem3.out.xml >> testtextclass.out
+
+echo "test 4: " >> testtextclass.out
+$comm --skip=nmcp --textclass=OCR -X textproblem4.out.xml --KANON textproblem.xml
+cat textproblem4.out.xml >> testtextclass.out
