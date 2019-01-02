@@ -22,9 +22,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-12-20T17:06:26" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-12-20T17:06:26" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-12-20T17:06:26" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T15:20:54" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-02T15:20:54" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-02T15:20:54" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
   </metadata>
   <text xml:id="text">
@@ -196,9 +196,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-12-20T17:06:27" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-12-20T17:06:27" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-12-20T17:06:27" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T15:20:55" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-02T15:20:55" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-02T15:20:55" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -258,6 +258,18 @@
       <p xml:id="p2">
         <s xml:id="s2">
           <t>This isn't dutch.</t>
+          <w xml:id="s2.w.1" class="WORD">
+            <t>This</t>
+          </w>
+          <w xml:id="s2.w.2" class="WORD-WITHSUFFIX">
+            <t>isn't</t>
+          </w>
+          <w xml:id="s2.w.3" class="WORD" space="no">
+            <t>dutch</t>
+          </w>
+          <w xml:id="s2.w.4" class="PUNCTUATION">
+            <t>.</t>
+          </w>
           <lang class="eng"/>
         </s>
       </p>
@@ -327,11 +339,11 @@
 4	test	test			N(soort,ev,basis,zijd,stan)	0.903055								
 5	.	.			LET()	1.000000								
 
-1	This	this			SPEC(vreemd)	1.000000								
-2	is	zijn			WW(pv,tgw,ev)	0.999447								
-3	n't	n't			ADJ(vrij,comp,zonder)	0.395742								
-4	dutch	dutch			SPEC(vreemd)	1.000000								
-5	.	.			LET()	1.000000								
+1	This						1.000000								
+2	is						1.000000								
+3	n't						1.000000								
+4	dutch						1.000000								
+5	.						1.000000								
 
 1	En	en			VG(neven)	0.992995								
 2	dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
@@ -346,10 +358,10 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-12-20T17:06:28" set="tokconfig-nld"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-12-20T17:06:28" set="tokconfig-eng"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-12-20T17:06:28" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-12-20T17:06:28" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T15:20:56" set="tokconfig-nld"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T15:20:56" set="tokconfig-eng"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-02T15:20:56" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-02T15:20:56" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -411,40 +423,18 @@
           <t>This isn't dutch.</t>
           <w xml:id="s2.w.1" class="WORD" set="tokconfig-eng">
             <t>This</t>
-            <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
-              <feat class="vreemd" subset="spectype"/>
-            </pos>
-            <lemma class="this"/>
           </w>
           <w xml:id="s2.w.2" class="WORD" set="tokconfig-eng" space="no">
             <t>is</t>
-            <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
-              <feat class="pv" subset="wvorm"/>
-              <feat class="tgw" subset="pvtijd"/>
-              <feat class="ev" subset="pvagr"/>
-            </pos>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="s2.w.3" class="SUFFIX" set="tokconfig-eng">
             <t>n't</t>
-            <pos class="ADJ(vrij,comp,zonder)" confidence="0.395742" head="ADJ">
-              <feat class="vrij" subset="positie"/>
-              <feat class="comp" subset="graad"/>
-              <feat class="zonder" subset="buiging"/>
-            </pos>
-            <lemma class="n't"/>
           </w>
           <w xml:id="s2.w.4" class="WORD" set="tokconfig-eng" space="no">
             <t>dutch</t>
-            <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
-              <feat class="vreemd" subset="spectype"/>
-            </pos>
-            <lemma class="dutch"/>
           </w>
           <w xml:id="s2.w.5" class="PUNCTUATION" set="tokconfig-eng">
             <t>.</t>
-            <pos class="LET()" confidence="1" head="LET"/>
-            <lemma class="."/>
           </w>
           <lang class="eng"/>
         </s>
@@ -515,11 +505,11 @@
 4	test	test			N(soort,ev,basis,zijd,stan)	0.903055								
 5	.	.			LET()	1.000000								
 
-1	This	this			SPEC(vreemd)	1.000000								
-2	is	zijn			WW(pv,tgw,ev)	0.999447								
-3	n't	n't			ADJ(vrij,comp,zonder)	0.395742								
-4	dutch	dutch			SPEC(vreemd)	1.000000								
-5	.	.			LET()	1.000000								
+1	This						1.000000								
+2	is						1.000000								
+3	n't						1.000000								
+4	dutch						1.000000								
+5	.						1.000000								
 
 1	En	en			VG(neven)	0.992995								
 2	dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
@@ -533,12 +523,11 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="folia-lang.txt" generator="libfolia-v1.16" version="1.5.1">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-12-20T17:06:30"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T15:20:58" set="tokconfig-nld"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T15:20:58" set="tokconfig-eng"/>
       <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-12-20T17:06:30" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-12-20T17:06:30" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="now" set="tokconfig-nld"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="now" set="tokconfig-eng"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-02T15:20:58" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-02T15:20:58" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
   </metadata>
   <text xml:id="folia-lang.txt.text">
@@ -594,43 +583,23 @@
     </p>
     <p xml:id="folia-lang.txt.p.2">
       <s xml:id="folia-lang.txt.p.2.s.1">
+        <t>This isn't dutch.</t>
         <w xml:id="folia-lang.txt.p.2.s.1.w.1" class="WORD" set="tokconfig-eng">
           <t>This</t>
-          <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
-            <feat class="vreemd" subset="spectype"/>
-          </pos>
-          <lemma class="this"/>
         </w>
         <w xml:id="folia-lang.txt.p.2.s.1.w.2" class="WORD" set="tokconfig-eng" space="no">
           <t>is</t>
-          <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
-            <feat class="pv" subset="wvorm"/>
-            <feat class="tgw" subset="pvtijd"/>
-            <feat class="ev" subset="pvagr"/>
-          </pos>
-          <lemma class="zijn"/>
         </w>
         <w xml:id="folia-lang.txt.p.2.s.1.w.3" class="SUFFIX" set="tokconfig-eng">
           <t>n't</t>
-          <pos class="ADJ(vrij,comp,zonder)" confidence="0.395742" head="ADJ">
-            <feat class="vrij" subset="positie"/>
-            <feat class="comp" subset="graad"/>
-            <feat class="zonder" subset="buiging"/>
-          </pos>
-          <lemma class="n't"/>
         </w>
         <w xml:id="folia-lang.txt.p.2.s.1.w.4" class="WORD" set="tokconfig-eng" space="no">
           <t>dutch</t>
-          <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
-            <feat class="vreemd" subset="spectype"/>
-          </pos>
-          <lemma class="dutch"/>
         </w>
         <w xml:id="folia-lang.txt.p.2.s.1.w.5" class="PUNCTUATION" set="tokconfig-eng">
           <t>.</t>
-          <pos class="LET()" confidence="1" head="LET"/>
-          <lemma class="."/>
         </w>
+        <lang class="eng"/>
       </s>
     </p>
     <p xml:id="folia-lang.txt.p.3">
