@@ -1,20 +1,31 @@
 1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085						
 2	is	zijn		WW(pv,tgw,ev)	0.999891						
 3	een	een		LID(onbep,stan,agr)	0.999113						
-4	test	test		N(soort,ev,basis,zijd,stan)	0.903055						
-5	.	.		LET()	1.000000						
+4	test	test		N(soort,ev,basis,zijd,stan)	0.956522						
+5	met	met		VZ(init)	0.999761						
+6	een	een		LID(onbep,stan,agr)	0.999573						
+7	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
+8	in	in		VZ(init)	0.998278						
+9	het	het		LID(bep,stan,evon)	0.978417						
+10	nederlands	nederlands		ADJ(prenom,basis,zonder)	0.493151						
+11	.	.		LET()	1.000000						
 
 1	This	This		SPEC(vreemd)	1.000000						
 2	isn't	isn't		SPEC(vreemd)	1.000000						
 3	dutch	dutch		SPEC(vreemd)	1.000000						
-4	.	.		LET()	1.000000						
+4	,	,		LET()	1.000000						
+5	but	but		SPEC(vreemd)	1.000000						
+6	English	English		SPEC(vreemd)	1.000000						
+7	.	.		LET()	1.000000						
 
 1	En	en		VG(neven)	0.992995						
 2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
 3	is	zijn		WW(pv,tgw,ev)	0.999447						
 4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
-5	2	2		TW(hoofd,vrij)	0.890855						
-6	.	.		LET()	1.000000						
+5	twee	twee		TW(hoofd,vrij)	0.532609						
+6	in	in		VZ(init)	0.931125						
+7	Nederlands	Nederlands		SPEC(deeleigen)	1.000000						
+8	.	.		LET()	1.000000						
 
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.16" version="0.8">
@@ -22,16 +33,16 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T10:10:00" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-02T10:10:00" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-02T10:10:00" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:44:52" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T11:44:52" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T11:44:52" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
   </metadata>
   <text xml:id="text">
     <div xml:id="div">
       <p xml:id="p1">
         <s xml:id="s1">
-          <t>Dit is een test.</t>
+          <t>Dit is een test met een zin in het nederlands.</t>
           <w xml:id="s1.w.1" class="WORD">
             <t>Dit</t>
             <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
@@ -62,9 +73,9 @@
             </pos>
             <lemma class="een"/>
           </w>
-          <w xml:id="s1.w.4" class="WORD" space="no">
+          <w xml:id="s1.w.4" class="WORD">
             <t>test</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.903055" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.956522" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -73,7 +84,59 @@
             </pos>
             <lemma class="test"/>
           </w>
-          <w xml:id="s1.w.5" class="PUNCTUATION">
+          <w xml:id="s1.w.5" class="WORD">
+            <t>met</t>
+            <pos class="VZ(init)" confidence="0.999761" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="met"/>
+          </w>
+          <w xml:id="s1.w.6" class="WORD">
+            <t>een</t>
+            <pos class="LID(onbep,stan,agr)" confidence="0.999573" head="LID">
+              <feat class="onbep" subset="lwtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="agr" subset="npagr"/>
+            </pos>
+            <lemma class="een"/>
+          </w>
+          <w xml:id="s1.w.7" class="WORD">
+            <t>zin</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="zin"/>
+          </w>
+          <w xml:id="s1.w.8" class="WORD">
+            <t>in</t>
+            <pos class="VZ(init)" confidence="0.998278" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="in"/>
+          </w>
+          <w xml:id="s1.w.9" class="WORD">
+            <t>het</t>
+            <pos class="LID(bep,stan,evon)" confidence="0.978417" head="LID">
+              <feat class="bep" subset="lwtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="evon" subset="npagr"/>
+            </pos>
+            <lemma class="het"/>
+          </w>
+          <w xml:id="s1.w.10" class="WORD" space="no">
+            <t>nederlands</t>
+            <pos class="ADJ(prenom,basis,zonder)" confidence="0.493151" head="ADJ">
+              <feat class="prenom" subset="positie"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="nederlands"/>
+          </w>
+          <w xml:id="s1.w.11" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
@@ -82,7 +145,7 @@
       </p>
       <p xml:id="p2">
         <s xml:id="s2">
-          <t>This isn't dutch.</t>
+          <t>This isn't dutch, but English.</t>
           <w xml:id="s2.w.1" class="WORD">
             <t>This</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
@@ -105,6 +168,25 @@
             <lemma class="dutch"/>
           </w>
           <w xml:id="s2.w.4" class="PUNCTUATION">
+            <t>,</t>
+            <pos class="LET()" confidence="1" head="LET"/>
+            <lemma class=","/>
+          </w>
+          <w xml:id="s2.w.5" class="WORD">
+            <t>but</t>
+            <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+              <feat class="vreemd" subset="spectype"/>
+            </pos>
+            <lemma class="but"/>
+          </w>
+          <w xml:id="s2.w.6" class="WORD" space="no">
+            <t>English</t>
+            <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+              <feat class="vreemd" subset="spectype"/>
+            </pos>
+            <lemma class="English"/>
+          </w>
+          <w xml:id="s2.w.7" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
@@ -114,7 +196,7 @@
       </p>
       <p xml:id="p3">
         <s xml:id="s3">
-          <t>En dit is zin 2.</t>
+          <t>En dit is zin twee in Nederlands.</t>
           <w xml:id="s3.w.1" class="WORD">
             <t>En</t>
             <pos class="VG(neven)" confidence="0.992995" head="VG">
@@ -154,15 +236,29 @@
             </pos>
             <lemma class="zin"/>
           </w>
-          <w xml:id="s3.w.5" class="NUMBER" space="no">
-            <t>2</t>
-            <pos class="TW(hoofd,vrij)" confidence="0.890855" head="TW">
+          <w xml:id="s3.w.5" class="WORD">
+            <t>twee</t>
+            <pos class="TW(hoofd,vrij)" confidence="0.532609" head="TW">
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
-            <lemma class="2"/>
+            <lemma class="twee"/>
           </w>
-          <w xml:id="s3.w.6" class="PUNCTUATION">
+          <w xml:id="s3.w.6" class="WORD">
+            <t>in</t>
+            <pos class="VZ(init)" confidence="0.931125" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="in"/>
+          </w>
+          <w xml:id="s3.w.7" class="WORD" space="no">
+            <t>Nederlands</t>
+            <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="Nederlands"/>
+          </w>
+          <w xml:id="s3.w.8" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
@@ -175,15 +271,23 @@
 1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085						
 2	is	zijn		WW(pv,tgw,ev)	0.999891						
 3	een	een		LID(onbep,stan,agr)	0.999113						
-4	test	test		N(soort,ev,basis,zijd,stan)	0.903055						
-5	.	.		LET()	1.000000						
+4	test	test		N(soort,ev,basis,zijd,stan)	0.956522						
+5	met	met		VZ(init)	0.999761						
+6	een	een		LID(onbep,stan,agr)	0.999573						
+7	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
+8	in	in		VZ(init)	0.998278						
+9	het	het		LID(bep,stan,evon)	0.978417						
+10	nederlands	nederlands		ADJ(prenom,basis,zonder)	0.493151						
+11	.	.		LET()	1.000000						
 
 1	En	en		VG(neven)	0.992995						
 2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
 3	is	zijn		WW(pv,tgw,ev)	0.999447						
 4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
-5	2	2		TW(hoofd,vrij)	0.890855						
-6	.	.		LET()	1.000000						
+5	twee	twee		TW(hoofd,vrij)	0.532609						
+6	in	in		VZ(init)	0.931125						
+7	Nederlands	Nederlands		SPEC(deeleigen)	1.000000						
+8	.	.		LET()	1.000000						
 
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.16" version="0.8">
@@ -191,9 +295,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T10:10:01" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-02T10:10:01" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-02T10:10:01" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:44:53" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T11:44:53" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T11:44:53" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -201,7 +305,7 @@
     <div xml:id="div">
       <p xml:id="p1">
         <s xml:id="s1">
-          <t>Dit is een test.</t>
+          <t>Dit is een test met een zin in het nederlands.</t>
           <w xml:id="s1.w.1" class="WORD">
             <t>Dit</t>
             <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
@@ -232,9 +336,9 @@
             </pos>
             <lemma class="een"/>
           </w>
-          <w xml:id="s1.w.4" class="WORD" space="no">
+          <w xml:id="s1.w.4" class="WORD">
             <t>test</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.903055" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.956522" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -243,7 +347,59 @@
             </pos>
             <lemma class="test"/>
           </w>
-          <w xml:id="s1.w.5" class="PUNCTUATION">
+          <w xml:id="s1.w.5" class="WORD">
+            <t>met</t>
+            <pos class="VZ(init)" confidence="0.999761" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="met"/>
+          </w>
+          <w xml:id="s1.w.6" class="WORD">
+            <t>een</t>
+            <pos class="LID(onbep,stan,agr)" confidence="0.999573" head="LID">
+              <feat class="onbep" subset="lwtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="agr" subset="npagr"/>
+            </pos>
+            <lemma class="een"/>
+          </w>
+          <w xml:id="s1.w.7" class="WORD">
+            <t>zin</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="zin"/>
+          </w>
+          <w xml:id="s1.w.8" class="WORD">
+            <t>in</t>
+            <pos class="VZ(init)" confidence="0.998278" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="in"/>
+          </w>
+          <w xml:id="s1.w.9" class="WORD">
+            <t>het</t>
+            <pos class="LID(bep,stan,evon)" confidence="0.978417" head="LID">
+              <feat class="bep" subset="lwtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="evon" subset="npagr"/>
+            </pos>
+            <lemma class="het"/>
+          </w>
+          <w xml:id="s1.w.10" class="WORD" space="no">
+            <t>nederlands</t>
+            <pos class="ADJ(prenom,basis,zonder)" confidence="0.493151" head="ADJ">
+              <feat class="prenom" subset="positie"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="nederlands"/>
+          </w>
+          <w xml:id="s1.w.11" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
@@ -252,13 +408,13 @@
       </p>
       <p xml:id="p2">
         <s xml:id="s2">
-          <t>This isn't dutch.</t>
+          <t>This isn't dutch, but English.</t>
           <lang class="eng"/>
         </s>
       </p>
       <p xml:id="p3">
         <s xml:id="s3">
-          <t>En dit is zin 2.</t>
+          <t>En dit is zin twee in Nederlands.</t>
           <w xml:id="s3.w.1" class="WORD">
             <t>En</t>
             <pos class="VG(neven)" confidence="0.992995" head="VG">
@@ -298,15 +454,29 @@
             </pos>
             <lemma class="zin"/>
           </w>
-          <w xml:id="s3.w.5" class="NUMBER" space="no">
-            <t>2</t>
-            <pos class="TW(hoofd,vrij)" confidence="0.890855" head="TW">
+          <w xml:id="s3.w.5" class="WORD">
+            <t>twee</t>
+            <pos class="TW(hoofd,vrij)" confidence="0.532609" head="TW">
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
-            <lemma class="2"/>
+            <lemma class="twee"/>
           </w>
-          <w xml:id="s3.w.6" class="PUNCTUATION">
+          <w xml:id="s3.w.6" class="WORD">
+            <t>in</t>
+            <pos class="VZ(init)" confidence="0.931125" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="in"/>
+          </w>
+          <w xml:id="s3.w.7" class="WORD" space="no">
+            <t>Nederlands</t>
+            <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="Nederlands"/>
+          </w>
+          <w xml:id="s3.w.8" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
@@ -319,21 +489,32 @@
 1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085						
 2	is	zijn		WW(pv,tgw,ev)	0.999891						
 3	een	een		LID(onbep,stan,agr)	0.999113						
-4	test	test		N(soort,ev,basis,zijd,stan)	0.903055						
-5	.	.		LET()	1.000000						
+4	test	test		N(soort,ev,basis,zijd,stan)	0.956522						
+5	met	met		VZ(init)	0.999761						
+6	een	een		LID(onbep,stan,agr)	0.999573						
+7	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
+8	in	in		VZ(init)	0.998278						
+9	het	het		LID(bep,stan,evon)	0.978417						
+10	nederlands	nederlands		ADJ(prenom,basis,zonder)	0.493151						
+11	.	.		LET()	1.000000						
 
 1	This	this		SPEC(vreemd)	1.000000						
 2	is	zijn		WW(pv,tgw,ev)	0.999447						
 3	n't	n't		ADJ(vrij,comp,zonder)	0.395742						
 4	dutch	dutch		SPEC(vreemd)	1.000000						
-5	.	.		LET()	1.000000						
+5	,	,		LET()	1.000000						
+6	but	but		SPEC(vreemd)	1.000000						
+7	English	english		SPEC(vreemd)	1.000000						
+8	.	.		LET()	1.000000						
 
 1	En	en		VG(neven)	0.992995						
 2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
 3	is	zijn		WW(pv,tgw,ev)	0.999447						
 4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
-5	2	2		TW(hoofd,vrij)	0.890855						
-6	.	.		LET()	1.000000						
+5	twee	twee		TW(hoofd,vrij)	0.532609						
+6	in	in		VZ(init)	0.931125						
+7	Nederlands	nederlands		SPEC(deeleigen)	1.000000						
+8	.	.		LET()	1.000000						
 
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.16" version="0.8">
@@ -341,10 +522,10 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T10:10:02" set="tokconfig-nld"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T10:10:02" set="tokconfig-eng"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-02T10:10:02" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-02T10:10:02" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:44:54" set="tokconfig-nld"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:44:54" set="tokconfig-eng"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T11:44:54" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T11:44:54" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -352,7 +533,7 @@
     <div xml:id="div">
       <p xml:id="p1">
         <s xml:id="s1">
-          <t>Dit is een test.</t>
+          <t>Dit is een test met een zin in het nederlands.</t>
           <w xml:id="s1.w.1" class="WORD" set="tokconfig-nld">
             <t>Dit</t>
             <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
@@ -383,9 +564,9 @@
             </pos>
             <lemma class="een"/>
           </w>
-          <w xml:id="s1.w.4" class="WORD" set="tokconfig-nld" space="no">
+          <w xml:id="s1.w.4" class="WORD" set="tokconfig-nld">
             <t>test</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.903055" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.956522" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -394,7 +575,59 @@
             </pos>
             <lemma class="test"/>
           </w>
-          <w xml:id="s1.w.5" class="PUNCTUATION" set="tokconfig-nld">
+          <w xml:id="s1.w.5" class="WORD" set="tokconfig-nld">
+            <t>met</t>
+            <pos class="VZ(init)" confidence="0.999761" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="met"/>
+          </w>
+          <w xml:id="s1.w.6" class="WORD" set="tokconfig-nld">
+            <t>een</t>
+            <pos class="LID(onbep,stan,agr)" confidence="0.999573" head="LID">
+              <feat class="onbep" subset="lwtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="agr" subset="npagr"/>
+            </pos>
+            <lemma class="een"/>
+          </w>
+          <w xml:id="s1.w.7" class="WORD" set="tokconfig-nld">
+            <t>zin</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="zin"/>
+          </w>
+          <w xml:id="s1.w.8" class="WORD" set="tokconfig-nld">
+            <t>in</t>
+            <pos class="VZ(init)" confidence="0.998278" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="in"/>
+          </w>
+          <w xml:id="s1.w.9" class="WORD" set="tokconfig-nld">
+            <t>het</t>
+            <pos class="LID(bep,stan,evon)" confidence="0.978417" head="LID">
+              <feat class="bep" subset="lwtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="evon" subset="npagr"/>
+            </pos>
+            <lemma class="het"/>
+          </w>
+          <w xml:id="s1.w.10" class="WORD" set="tokconfig-nld" space="no">
+            <t>nederlands</t>
+            <pos class="ADJ(prenom,basis,zonder)" confidence="0.493151" head="ADJ">
+              <feat class="prenom" subset="positie"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="nederlands"/>
+          </w>
+          <w xml:id="s1.w.11" class="PUNCTUATION" set="tokconfig-nld">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
@@ -403,7 +636,7 @@
       </p>
       <p xml:id="p2">
         <s xml:id="s2">
-          <t>This isn't dutch.</t>
+          <t>This isn't dutch, but English.</t>
           <w xml:id="s2.w.1" class="WORD" set="tokconfig-eng">
             <t>This</t>
             <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
@@ -437,6 +670,25 @@
             <lemma class="dutch"/>
           </w>
           <w xml:id="s2.w.5" class="PUNCTUATION" set="tokconfig-eng">
+            <t>,</t>
+            <pos class="LET()" confidence="1" head="LET"/>
+            <lemma class=","/>
+          </w>
+          <w xml:id="s2.w.6" class="WORD" set="tokconfig-eng">
+            <t>but</t>
+            <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+              <feat class="vreemd" subset="spectype"/>
+            </pos>
+            <lemma class="but"/>
+          </w>
+          <w xml:id="s2.w.7" class="WORD" set="tokconfig-eng" space="no">
+            <t>English</t>
+            <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+              <feat class="vreemd" subset="spectype"/>
+            </pos>
+            <lemma class="english"/>
+          </w>
+          <w xml:id="s2.w.8" class="PUNCTUATION" set="tokconfig-eng">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
@@ -446,7 +698,7 @@
       </p>
       <p xml:id="p3">
         <s xml:id="s3">
-          <t>En dit is zin 2.</t>
+          <t>En dit is zin twee in Nederlands.</t>
           <w xml:id="s3.w.1" class="WORD" set="tokconfig-nld">
             <t>En</t>
             <pos class="VG(neven)" confidence="0.992995" head="VG">
@@ -486,15 +738,29 @@
             </pos>
             <lemma class="zin"/>
           </w>
-          <w xml:id="s3.w.5" class="NUMBER" set="tokconfig-nld" space="no">
-            <t>2</t>
-            <pos class="TW(hoofd,vrij)" confidence="0.890855" head="TW">
+          <w xml:id="s3.w.5" class="WORD" set="tokconfig-nld">
+            <t>twee</t>
+            <pos class="TW(hoofd,vrij)" confidence="0.532609" head="TW">
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
-            <lemma class="2"/>
+            <lemma class="twee"/>
           </w>
-          <w xml:id="s3.w.6" class="PUNCTUATION" set="tokconfig-nld">
+          <w xml:id="s3.w.6" class="WORD" set="tokconfig-nld">
+            <t>in</t>
+            <pos class="VZ(init)" confidence="0.931125" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="in"/>
+          </w>
+          <w xml:id="s3.w.7" class="WORD" set="tokconfig-nld" space="no">
+            <t>Nederlands</t>
+            <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="nederlands"/>
+          </w>
+          <w xml:id="s3.w.8" class="PUNCTUATION" set="tokconfig-nld">
             <t>.</t>
             <pos class="LET()" confidence="1" head="LET"/>
             <lemma class="."/>
@@ -507,32 +773,40 @@
 1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085						
 2	is	zijn		WW(pv,tgw,ev)	0.999891						
 3	een	een		LID(onbep,stan,agr)	0.999113						
-4	test	test		N(soort,ev,basis,zijd,stan)	0.903055						
-5	.	.		LET()	1.000000						
+4	test	test		N(soort,ev,basis,zijd,stan)	0.979167						
+5	in	in		VZ(init)	0.998011						
+6	het	het		LID(bep,stan,evon)	0.978417						
+7	nederlands	nederlands		ADJ(prenom,basis,zonder)	0.493151						
+8	.	.		LET()	1.000000						
 
 1	This				1.000000						
 2	is				1.000000						
 3	n't				1.000000						
-4	dutch				1.000000						
-5	.				1.000000						
+4	Dutch				1.000000						
+5	,				1.000000						
+6	but				1.000000						
+7	English				1.000000						
+8	.				1.000000						
 
 1	En	en		VG(neven)	0.992995						
 2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906						
-3	is	zijn		WW(pv,tgw,ev)	0.999447						
-4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
-5	2	2		TW(hoofd,vrij)	0.890855						
-6	.	.		LET()	1.000000						
+3	is	zijn		WW(pv,tgw,ev)	0.999966						
+4	nog	nog		BW()	0.999820						
+5	een	een		LID(onbep,stan,agr)	0.995147						
+6	nederlandse	nederlands		ADJ(prenom,basis,met-e,stan)	0.999745						
+7	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610						
+8	.	.		LET()	1.000000						
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="folia-lang.txt" generator="libfolia-v1.16" version="1.5.1">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T10:10:04" set="tokconfig-nld"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-02T10:10:04" set="tokconfig-eng"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:44:55" set="tokconfig-nld"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:44:55" set="tokconfig-eng"/>
       <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-02T10:10:04" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-02T10:10:04" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T11:44:55" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T11:44:55" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -569,9 +843,9 @@
           </pos>
           <lemma class="een"/>
         </w>
-        <w xml:id="folia-lang.txt.p.1.s.1.w.4" class="WORD" set="tokconfig-nld" space="no">
+        <w xml:id="folia-lang.txt.p.1.s.1.w.4" class="WORD" set="tokconfig-nld">
           <t>test</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.903055" head="N">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.979167" head="N">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -580,7 +854,32 @@
           </pos>
           <lemma class="test"/>
         </w>
-        <w xml:id="folia-lang.txt.p.1.s.1.w.5" class="PUNCTUATION" set="tokconfig-nld">
+        <w xml:id="folia-lang.txt.p.1.s.1.w.5" class="WORD" set="tokconfig-nld">
+          <t>in</t>
+          <pos class="VZ(init)" confidence="0.998011" head="VZ">
+            <feat class="init" subset="vztype"/>
+          </pos>
+          <lemma class="in"/>
+        </w>
+        <w xml:id="folia-lang.txt.p.1.s.1.w.6" class="WORD" set="tokconfig-nld">
+          <t>het</t>
+          <pos class="LID(bep,stan,evon)" confidence="0.978417" head="LID">
+            <feat class="bep" subset="lwtype"/>
+            <feat class="stan" subset="naamval"/>
+            <feat class="evon" subset="npagr"/>
+          </pos>
+          <lemma class="het"/>
+        </w>
+        <w xml:id="folia-lang.txt.p.1.s.1.w.7" class="WORD" set="tokconfig-nld" space="no">
+          <t>nederlands</t>
+          <pos class="ADJ(prenom,basis,zonder)" confidence="0.493151" head="ADJ">
+            <feat class="prenom" subset="positie"/>
+            <feat class="basis" subset="graad"/>
+            <feat class="zonder" subset="buiging"/>
+          </pos>
+          <lemma class="nederlands"/>
+        </w>
+        <w xml:id="folia-lang.txt.p.1.s.1.w.8" class="PUNCTUATION" set="tokconfig-nld">
           <t>.</t>
           <pos class="LET()" confidence="1" head="LET"/>
           <lemma class="."/>
@@ -599,9 +898,18 @@
           <t>n't</t>
         </w>
         <w xml:id="folia-lang.txt.p.2.s.1.w.4" class="WORD" set="tokconfig-eng" space="no">
-          <t>dutch</t>
+          <t>Dutch</t>
         </w>
         <w xml:id="folia-lang.txt.p.2.s.1.w.5" class="PUNCTUATION" set="tokconfig-eng">
+          <t>,</t>
+        </w>
+        <w xml:id="folia-lang.txt.p.2.s.1.w.6" class="WORD" set="tokconfig-eng">
+          <t>but</t>
+        </w>
+        <w xml:id="folia-lang.txt.p.2.s.1.w.7" class="WORD" set="tokconfig-eng" space="no">
+          <t>English</t>
+        </w>
+        <w xml:id="folia-lang.txt.p.2.s.1.w.8" class="PUNCTUATION" set="tokconfig-eng">
           <t>.</t>
         </w>
         <lang class="eng"/>
@@ -630,7 +938,7 @@
         </w>
         <w xml:id="folia-lang.txt.p.3.s.1.w.3" class="WORD" set="tokconfig-nld">
           <t>is</t>
-          <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
+          <pos class="WW(pv,tgw,ev)" confidence="0.999966" head="WW">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
@@ -638,6 +946,30 @@
           <lemma class="zijn"/>
         </w>
         <w xml:id="folia-lang.txt.p.3.s.1.w.4" class="WORD" set="tokconfig-nld">
+          <t>nog</t>
+          <pos class="BW()" confidence="0.99982" head="BW"/>
+          <lemma class="nog"/>
+        </w>
+        <w xml:id="folia-lang.txt.p.3.s.1.w.5" class="WORD" set="tokconfig-nld">
+          <t>een</t>
+          <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
+            <feat class="onbep" subset="lwtype"/>
+            <feat class="stan" subset="naamval"/>
+            <feat class="agr" subset="npagr"/>
+          </pos>
+          <lemma class="een"/>
+        </w>
+        <w xml:id="folia-lang.txt.p.3.s.1.w.6" class="WORD" set="tokconfig-nld">
+          <t>nederlandse</t>
+          <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.999745" head="ADJ">
+            <feat class="prenom" subset="positie"/>
+            <feat class="basis" subset="graad"/>
+            <feat class="met-e" subset="buiging"/>
+            <feat class="stan" subset="naamval"/>
+          </pos>
+          <lemma class="nederlands"/>
+        </w>
+        <w xml:id="folia-lang.txt.p.3.s.1.w.7" class="WORD" set="tokconfig-nld" space="no">
           <t>zin</t>
           <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
             <feat class="soort" subset="ntype"/>
@@ -648,15 +980,7 @@
           </pos>
           <lemma class="zin"/>
         </w>
-        <w xml:id="folia-lang.txt.p.3.s.1.w.5" class="NUMBER" set="tokconfig-nld" space="no">
-          <t>2</t>
-          <pos class="TW(hoofd,vrij)" confidence="0.890855" head="TW">
-            <feat class="hoofd" subset="numtype"/>
-            <feat class="vrij" subset="positie"/>
-          </pos>
-          <lemma class="2"/>
-        </w>
-        <w xml:id="folia-lang.txt.p.3.s.1.w.6" class="PUNCTUATION" set="tokconfig-nld">
+        <w xml:id="folia-lang.txt.p.3.s.1.w.8" class="PUNCTUATION" set="tokconfig-nld">
           <t>.</t>
           <pos class="LET()" confidence="1" head="LET"/>
           <lemma class="."/>
