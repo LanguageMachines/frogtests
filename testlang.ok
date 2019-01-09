@@ -33,9 +33,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T10:26:37" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T10:26:37" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T10:26:37" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:22:20" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T11:22:20" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T11:22:20" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
   </metadata>
   <text xml:id="text">
@@ -303,9 +303,9 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T10:26:38" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T10:26:38" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T10:26:38" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:22:21" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T11:22:21" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T11:22:21" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -551,10 +551,10 @@
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T10:26:39" set="tokconfig-nld"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T10:26:39" set="tokconfig-eng"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T10:26:39" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T10:26:39" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:22:22" set="tokconfig-nld"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-01-09T11:22:22" set="tokconfig-eng"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-01-09T11:22:22" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-01-09T11:22:22" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <meta id="language">nld</meta>
   </metadata>
@@ -770,12 +770,18 @@
 1	Dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
 2	is	zijn			WW(pv,tgw,ev)	0.999891								
 3	een	een			LID(onbep,stan,agr)	0.999113								
-4	test	test			N(soort,ev,basis,zijd,stan)	0.903055								
-5	.	.			LET()	1.000000								
+4	test	test			N(soort,ev,basis,zijd,stan)	0.979167								
+5	in	in			VZ(init)	0.998011								
+6	het	het			LID(bep,stan,evon)	0.978417								
+7	nederlands	nederlands			ADJ(prenom,basis,zonder)	0.493151								
+8	.	.			LET()	1.000000								
 
 1	This						1.000000								
 2	is						1.000000								
 3	n't						1.000000								
-4	dutch						1.000000								
-5	.						1.000000								
+4	Dutch						1.000000								
+5	,						1.000000								
+6	but						1.000000								
+7	English						1.000000								
+8	.						1.000000								
 
