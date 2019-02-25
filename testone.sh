@@ -13,6 +13,8 @@ ACCEPTABLE="\033[1;34m  ACCEPTABLE DIFF  \033[0m"
 export comm="$VG $frog_bin/frog"
 export mbma="$VG $frog_bin/mbma"
 export mblem="$VG $frog_bin/mblem"
+export folialint="$VG $frog_bin/folialint"
+export foliadiff="$VG $frog_bin/foliadiff.sh"
 
 errcnt=0
 

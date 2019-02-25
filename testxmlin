@@ -48,3 +48,5 @@ ls ./zipoutput/folia* >> testxmlin.out
 echo "test 12: " >> testxmlin.out
 $comm -x --testdir=strangefolia --xmldir=./strangeout --outputdir=./strangeout
 ls -l ./strangeout/ | awk '{print $5"\t\t"$9}' >> testxmlin.out
+$foliadiff ./strangeout/issue064b.xml issue064b.ok
+$foliadiff ./strangeout/issue064c.xml issue064c.ok

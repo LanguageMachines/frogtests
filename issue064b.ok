@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="bug" generator="libfolia-v1.16" version="1.5">
+  <metadata type="native">
+    <annotations>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-05-26T04:47:24" set="tokconfig-nld"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
+    </annotations>
+  </metadata>
+  <text xml:id="bug.text">
+    <div xml:id="bug.text.div.2">
+      <t>Kinderjaren.</t>
+      <head xml:id="bug.text.div.2.head.1">
+        <t>Kinderjaren.</t>
+        <s xml:id="bug.text.div.2.head.1.s.1">
+          <w xml:id="bug.text.div.2.head.1.s.1.w.1" class="WORD" space="no">
+            <t>Kinderjaren</t>
+            <pos class="WW(inf,vrij,zonder)" confidence="0.507519" head="WW">
+              <feat class="inf" subset="wvorm"/>
+              <feat class="vrij" subset="positie"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="kinderjaren"/>
+            <morphology>
+              <morpheme>
+                <t>kinderjaren</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="bug.text.div.2.head.1.s.1.w.2" class="PUNCTUATION">
+            <t>.</t>
+            <pos class="LET()" confidence="1" head="LET"/>
+            <lemma class="."/>
+            <morphology>
+              <morpheme>
+                <t>.</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <chunking xml:id="bug.text.div.2.head.1.s.1.chunking.1">
+            <chunk xml:id="bug.text.div.2.head.1.s.1.chunking.1.chunk.1" class="VP" confidence="0.586975">
+              <wref id="bug.text.div.2.head.1.s.1.w.1" t="Kinderjaren"/>
+            </chunk>
+          </chunking>
+          <dependencies xml:id="bug.text.div.2.head.1.s.1.dependencies.1">
+            <dependency xml:id="bug.text.div.2.head.1.s.1.dependencies.1.dependency.1" class="punct">
+              <hd>
+                <wref id="bug.text.div.2.head.1.s.1.w.1" t="Kinderjaren"/>
+              </hd>
+              <dep>
+                <wref id="bug.text.div.2.head.1.s.1.w.2" t="."/>
+              </dep>
+            </dependency>
+          </dependencies>
+        </s>
+      </head>
+    </div>
+  </text>
+</FoLiA>
