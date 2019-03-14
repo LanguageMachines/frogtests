@@ -91,7 +91,7 @@
 3	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	2	obj1
 4	worden	worden	[word][en]	WW(pv,tgw,mv)	1.000000	O	B-VP	0	ROOT
 5	uitgevoerd	uitvoeren	[uit][ge][voer][d]	WW(vd,vrij,zonder)	0.999154	O	I-VP	4	vc
-6	met_behulp_van	met_behulp_van	[met]_[behulp]_[van]	VZ(init)_N(soort,ev,basis,onz,stan)_VZ(init)	0.808651	O_O_O	B-PP_I-PP_I-PP	5	mod
+6	met_behulp_van	met_behulp_van	[met]_[behulp]_[van]	VZ(init)_N(soort,ev,basis,onz,stan)_VZ(init)	0.808650	O_O_O	B-PP_I-PP_I-PP	5	mod
 7	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	8	det
 8	algoritme	algoritme	[algoritme]	N(soort,ev,basis,onz,stan)	0.900000	O	I-NP	6	obj1
 9	waardoor	waardoor	[waar][door]	BW()	0.993007	O	B-PP	8	mod
@@ -198,17 +198,18 @@
 21	.	.	[.]	LET()	1.000000	O	O	20	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.16" version="0.8">
   <metadata type="imdi">
     <annotations>
       <division-annotation annotator="ucto" annotatortype="auto" set="div"/>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2018-08-30T11:16:48" set="tokconfig-nld"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2018-08-30T11:16:48" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2018-08-30T11:16:48" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2018-08-30T11:16:48" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2018-08-30T11:16:48" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2018-08-30T11:16:48" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2018-08-30T11:16:48" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation annotator="ucto" annotatortype="auto" datetime="2019-03-14T10:51:47" set="tokconfig-nld"/>
+      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-03-14T10:51:47" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-03-14T10:51:47" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2019-03-14T10:51:47" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2019-03-14T10:51:47" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2019-03-14T10:51:47" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2019-03-14T10:51:47" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
       <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
     </annotations>
   </metadata>
@@ -345,7 +346,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </entity>
           </entities>
-          <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1">
+          <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1" textclass="OCR">
             <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.1" class="su" textclass="OCR">
               <hd>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3"/>

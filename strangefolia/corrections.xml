@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="id" generator="libfolia-v1.20" version="1.5.1">
+  <metadata type="native">
+    <annotations/>
+  </metadata>
+  <text xml:id="t1">
+    <div>
+      <p xml:id="p1">
+	<s xml:id="s1">
+          <w xml:id="w1">
+	    <t>Een</t>
+	  </w>
+          <w xml:id="w2">
+	    <correction>
+	      <new>
+		<t>korte</t>
+	      </new>
+	      <original>
+		<t>lange</t>
+	      </original>
+	    </correction>
+	  </w>
+          <w xml:id="w3">
+	    <t>zin</t>
+	  </w>
+	</s>
+	<s xml:id="s2">
+          <w xml:id="s2.w1">
+	    <t>Een</t>
+	  </w>
+	  <correction>
+            <new>
+	      <w xml:id="s2.w2-a">
+		<t>lange</t>
+	      </w>
+	    </new>
+            <original>
+	      <w xml:id="s2.w2-b">
+		<t>lange</t>
+	      </w>
+	    </original>
+	  </correction>
+          <w xml:id="s2.w3">
+	    <t>zin</t>
+	  </w>
+	</s>
+      </p>
+    </div>
+  </text>
+</FoLiA>

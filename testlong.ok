@@ -332,7 +332,7 @@
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	I-VP	0	ROOT
 3	prima	prima	[prima]	ADJ(vrij,basis,zonder)	0.969697	O	B-ADJP	2	predc
 4	,	,	[,]	LET()	1.000000	O	O	3	punct
-5	maar_dan	maar_dan	[maar]_[dan]	VG(neven)_BW()	0.981804	O_O	B-PP_B-ADVP	0	ROOT
+5	maar_dan	maar_dan	[maar]_[dan]	VG(neven)_BW()	0.981805	O_O	B-PP_B-ADVP	0	ROOT
 6	moet	moeten	[moet]	WW(pv,tgw,ev)	0.999794	O	B-VP	0	ROOT
 7	ze	ze	[ze]	VNW(pers,pron,stan,red,3,mv)	0.500000	O	B-NP	11	su
 8	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	11	mod
@@ -444,7 +444,7 @@
 8	omdat	omdat	[omdat]	VG(onder)	0.999886	O	B-SBAR	5	su
 9	ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999844	O	B-NP	14	su
 10	niet	niet	[niet]	BW()	0.999918	O	B-ADVP	14	mod
-11	zo_gauw_een	zo_gauw_een	[zo]_[gauw]_[een]	BW()_ADJ(vrij,basis,zonder)_LID(onbep,stan,agr)	0.978137	O_O_O	B-ADJP_I-ADJP_B-NP	13	det
+11	zo_gauw_een	zo_gauw_een	[zo]_[gauw]_[een]	BW()_ADJ(vrij,basis,zonder)_LID(onbep,stan,agr)	0.978136	O_O_O	B-ADJP_I-ADJP_B-NP	13	det
 12	betere	goed	[goed][er][e]	ADJ(prenom,comp,met-e,stan)	0.998656	O	I-NP	13	mod
 13	tekst	tekst	[tekst]	N(soort,ev,basis,zijd,stan)	0.994624	O	I-NP	14	obj1
 14	weet	weten	[weet]	WW(pv,tgw,ev)	0.999318	O	B-VP	8	body
@@ -788,7 +788,7 @@
 1	Hun	hun	[hun]	VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)	0.928571	O	B-NP	2	det
 2	houdbaarheidsdatum	houdbaarheidsdatum	[houd][baar][heid][s][datum]	N(soort,ev,basis,zijd,stan)	0.999042	O	I-NP	3	su
 3	komt	komen	[kom][t]	WW(pv,tgw,met-t)	0.999725	O	B-VP	0	ROOT
-4	in_plaats_daarvan	in_plaats_daarvan	[in]_[plaats]_[daar][van]	VZ(init)_N(soort,ev,basis,zijd,stan)_BW()	0.989849	O_O_O	B-NP_I-NP_B-PP	3	mod
+4	in_plaats_daarvan	in_plaats_daarvan	[in]_[plaats]_[daar][van]	VZ(init)_N(soort,ev,basis,zijd,stan)_BW()	0.989848	O_O_O	B-NP_I-NP_B-PP	3	mod
 5	met	met	[met]	VZ(init)	0.999820	O	B-PP	3	pc
 6	de	de	[de]	LID(bep,stan,rest)	0.999643	O	B-NP	7	det
 7	dag	dag	[dag]	N(soort,ev,basis,zijd,stan)	0.999163	O	I-NP	8	me
@@ -1835,7 +1835,7 @@
 2	moeder	moeder	[moeder]	N(soort,ev,basis,zijd,stan)	0.997481	O	I-NP	3	su
 3	heeft	hebben	[heb][t]	WW(pv,tgw,met-t)	0.999599	O	B-VP	0	ROOT
 4	gisteren	gisteren	[gisteren]	BW()	0.996954	O	B-ADVP	3	mod
-5	op_de_markt	op_de_markt	[op]_[de]_[markt]	VZ(init)_LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)	0.978271	O_O_O	B-PP_B-NP_I-NP	7	svp
+5	op_de_markt	op_de_markt	[op]_[de]_[markt]	VZ(init)_LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)	0.978272	O_O_O	B-PP_B-NP_I-NP	7	svp
 6	appels	appel	[appel][s]	N(soort,mv,basis)	0.999613	O	I-NP	7	obj1
 7	gekocht	kopen	[ge][koop][t]	WW(vd,vrij,zonder)	0.988636	O	B-VP	3	vc
 8	Ik	ik	[ik]	VNW(pers,pron,nomin,vol,1,ev)	0.999791	O	B-NP	9	su
@@ -2417,7 +2417,7 @@
 8	zonder	zonder	[zonder]	VZ(init)	0.992248	O	B-PP	21	mod
 9	machines	machine	[machine][s]	N(soort,mv,basis)	0.998020	O	B-NP	8	obj1
 10	stenen	steen	[steen][en]	N(soort,mv,basis)	0.985714	O	I-NP	9	mod
-11	van_de_grond	van_de_grond	[van]_[de]_[grond]	VZ(init)_LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)	0.998684	O_O_O	B-PP_B-NP_I-NP	14	None
+11	van_de_grond	van_de_grond	[van]_[de]_[grond]	VZ(init)_LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)	0.998685	O_O_O	B-PP_B-NP_I-NP	14	None
 12	te	te	[te]	VZ(init)	0.999976	O	B-VP	11	pc
 13	krijgen	krijgen	[krijg][en]	WW(inf,vrij,zonder)	1.000000	O	I-VP	12	body
 14	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.717391	O	B-SBAR	10	mod
@@ -2849,7 +2849,7 @@
 5	hij	hij	[hij]	VNW(pers,pron,nomin,vol,3,ev,masc)	0.996840	O	B-NP	6	su
 6	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP	4	cnj
 7	best	best	[goed][st]	ADJ(vrij,sup,zonder)	0.736486	O	B-ADVP	4	cnj
-8	onder_de_indruk	onder_de_indruk	[onder]_[de]_[in][druk]	VZ(init)_LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)	0.997059	O_O_O	B-PP_B-NP_I-NP	14	svp
+8	onder_de_indruk	onder_de_indruk	[onder]_[de]_[in][druk]	VZ(init)_LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)	0.997058	O_O_O	B-PP_B-NP_I-NP	14	svp
 9	maar	maar	[maar]	VG(neven)	0.800000	O	B-CONJP	13	mod
 10	zijn	zijn	[zijn]	VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)	0.961538	O	B-NP	12	det
 11	stoere	stoer	[stoer][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP	12	mod
@@ -3209,19 +3209,19 @@
 
 1	Before	Before	[Before]	SPEC(vreemd)	1.000000	O	B-NP	2	su
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	I-NP	0	ROOT
-3	Taro’s	Taro	[Taro's]	SPEC(deeleigen)	1.000000	B-MISC	I-NP	2	su
-4	name	naam	[naam]	N(soort,ev,basis,dat)	0.997620	O	B-ADVP	0	ROOT
-5	on	on	[on]	SPEC(vreemd)	1.000000	O	B-NP	6	mod
-6	textbook	textbook	[textbook]	SPEC(vreemd)	1.000000	O	I-NP	0	ROOT
-7	but	but	[but]	SPEC(vreemd)	1.000000	O	I-NP	0	ROOT
-8	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085	O	B-NP	9	su
+3	Taro’s	Taro	[Taro's]	SPEC(deeleigen)	1.000000	B-PRO	I-NP	2	su
+4	name	naam	[naam]	N(soort,ev,basis,dat)	0.997620	I-PRO	B-ADVP	0	ROOT
+5	on	on	[on]	SPEC(vreemd)	1.000000	I-PRO	B-NP	6	mod
+6	textbook	textbook	[textbook]	SPEC(vreemd)	1.000000	I-PRO	I-NP	0	ROOT
+7	but	but	[but]	SPEC(vreemd)	1.000000	I-PRO	I-NP	0	ROOT
+8	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085	I-PRO	B-NP	9	su
 9	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999966	O	B-VP	0	ROOT
 10	allesbehalve	allesbehalve	[alles][behalve]	BW()	0.999464	O	B-ADJP	9	mod
 11	een	een	[een]	LID(onbep,stan,agr)	0.999780	O	I-ADJP	13	det
 12	onmogelijk	onmogelijk	[on][mogelijk]	ADJ(prenom,basis,zonder)	0.951613	O	B-NP	13	mod
 13	plan	plan	[plan]	N(soort,ev,basis,onz,stan)	0.998561	O	I-NP	9	predc
 14	,	,	[,]	LET()	1.000000	O	O	13	punct
-15	met_uitzondering_van	met_uitzondering_van	[met]_[uitzonder][ing]_[van]	VZ(init)_N(soort,ev,basis,zijd,stan)_VZ(init)	0.999271	O_O_O	B-PP_I-PP_I-PP	13	mod
+15	met_uitzondering_van	met_uitzondering_van	[met]_[uitzonder][ing]_[van]	VZ(init)_N(soort,ev,basis,zijd,stan)_VZ(init)	0.999272	O_O_O	B-PP_I-PP_I-PP	13	mod
 16	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP	17	det
 17	decompunder	decompunder	[decom][punder]	N(soort,ev,basis,zijd,stan)	0.764725	O	I-NP	15	obj1
 18	.	.	[.]	LET()	1.000000	O	O	17	punct
