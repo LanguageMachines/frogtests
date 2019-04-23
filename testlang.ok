@@ -33,20 +33,21 @@
     <annotations>
       <division-annotation annotator="ucto" set="div"/>
       <lang-annotation annotator="ko" annotatortype="manual"/>
-      <token-annotation set="tokconfig-nld">
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T12:12:18" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T12:12:18" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T16:56:05" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T16:56:05" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-04-23T12:12:18" host="bonus" name="ucto" user="sloot" version="0.16">
+      <processor xml:id="ucto.1" begindatetime="2019-04-23T16:56:05" host="bonus" name="ucto" user="sloot" version="0.16">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" begindatetime="2019-04-23T12:12:18" host="bonus" name="uctodata" type="datasource" user="sloot" version="0.8">
+        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
         </processor>
       </processor>
     </provenance>
+    <meta id="language">nld</meta>
   </metadata>
   <text xml:id="text">
     <div xml:id="div">
@@ -316,13 +317,13 @@
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T12:13:11" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T12:13:11" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T16:56:07" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T16:56:07" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-04-23T12:13:11" host="bonus" name="ucto" user="sloot" version="0.16">
+      <processor xml:id="ucto.1" begindatetime="2019-04-23T16:56:07" host="bonus" name="ucto" user="sloot" version="0.16">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" begindatetime="2019-04-23T12:13:11" host="bonus" name="uctodata" type="datasource" user="sloot" version="0.8">
+        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
         </processor>
       </processor>
@@ -577,13 +578,13 @@
       <token-annotation alias="tokconfig-eng" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-eng.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T12:13:47" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T12:13:47" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T16:56:08" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T16:56:08" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-04-23T12:13:47" host="bonus" name="ucto" user="sloot" version="0.16">
+      <processor xml:id="ucto.1" begindatetime="2019-04-23T16:56:08" host="bonus" name="ucto" user="sloot" version="0.16">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" begindatetime="2019-04-23T12:13:47" host="bonus" name="uctodata" type="datasource" user="sloot" version="0.8">
+        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           <processor xml:id="ucto.1.1.2" name="tokconfig-eng" type="datasource" version="0.2"/>
         </processor>
@@ -841,11 +842,11 @@
       <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset">
         <annotator processor="ucto.1"/>
       </lang-annotation>
-      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T12:14:10" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T12:14:10" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T16:56:09" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T16:56:09" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-04-23T12:14:10" host="bonus" name="ucto" user="sloot" version="0.16">
+      <processor xml:id="ucto.1" begindatetime="2019-04-23T16:56:09" host="bonus" name="ucto" user="sloot" version="0.16">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
         <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
