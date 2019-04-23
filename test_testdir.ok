@@ -18,27 +18,28 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v1.20" version="2.0.3">
   <metadata type="native">
     <annotations>
-      <token-annotation set="tokconfig-nld">
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
       <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset">
         <annotator processor="ucto.1"/>
       </lang-annotation>
-      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-04-18T17:34:52" host="kokos" name="ucto" user="sloot" version="0.16">
+      <processor xml:id="ucto.1" begindatetime="2019-04-23T12:19:33" host="bonus" name="ucto" user="sloot" version="0.16">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" name="uctodata" type="datasource">
+        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
         </processor>
       </processor>
     </provenance>
+    <meta id="language">nld</meta>
   </metadata>
   <text xml:id="frog.text">
     <p xml:id="frog.p.1">
@@ -162,27 +163,28 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v1.20" version="2.0.3">
   <metadata type="native">
     <annotations>
-      <token-annotation set="tokconfig-nld">
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
       <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset">
         <annotator processor="ucto.1"/>
       </lang-annotation>
-      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" datetime="2019-04-18T17:34:52" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
+      <pos-annotation annotator="frog-mbpos-1.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <morphological-annotation annotator="frog-mbma-1.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
+      <entity-annotation annotator="frog-ner-2.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
+      <chunking-annotation annotator="frog-chunker-2.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
+      <entity-annotation annotator="frog-mwu-1.0" datetime="2019-04-23T12:19:33" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-04-18T17:34:52" host="kokos" name="ucto" user="sloot" version="0.16">
+      <processor xml:id="ucto.1" begindatetime="2019-04-23T12:19:33" host="bonus" name="ucto" user="sloot" version="0.16">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" name="uctodata" type="datasource">
+        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
         </processor>
       </processor>
     </provenance>
+    <meta id="language">nld</meta>
   </metadata>
   <text xml:id="frog.text">
     <p xml:id="frog.p.1">
