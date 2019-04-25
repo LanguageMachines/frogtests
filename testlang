@@ -5,13 +5,18 @@
 
 rm lang*.xml
 
-$comm --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON > testlang.out
+echo "testlang test 1" > testlang.out
+$comm --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON >> testlang.out
 cat lang1.xml >> testlang.out
+
+echo "testlang test 2" >> testlang.out
 $comm --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON >> testlang.out
 cat lang2.xml >> testlang.out
 
+echo "testlang test 3" >> testlang.out
 $comm --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON >> testlang.out
 cat lang3.xml >> testlang.out
 
+echo "testlang test 4" >> testlang.out
 $comm --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON >> testlang.out
 cat lang4.xml >> testlang.out
