@@ -41,10 +41,12 @@ testlang test 1
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-05-01T12:52:40" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T12:52:40" host="bonus" name="ucto" user="sloot" version="0.15">
+      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:26" host="bonus" name="ucto" user="sloot" version="0.15">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
         <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
@@ -52,6 +54,9 @@ testlang test 1
       </processor>
       <processor xml:id="tagger.1" name="tagger" version="1.0">
         <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="mblem.1" name="mblem" version="1.1">
+        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -284,10 +289,12 @@ testlang test 2
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-05-01T12:52:41" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T12:52:41" host="bonus" name="ucto" user="sloot" version="0.15">
+      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:27" host="bonus" name="ucto" user="sloot" version="0.15">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
         <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
@@ -295,6 +302,9 @@ testlang test 2
       </processor>
       <processor xml:id="tagger.1" name="tagger" version="1.0">
         <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="mblem.1" name="mblem" version="1.1">
+        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -539,10 +549,12 @@ testlang test 3
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-05-01T12:52:42" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T12:52:42" host="bonus" name="ucto" user="sloot" version="0.15">
+      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:28" host="bonus" name="ucto" user="sloot" version="0.15">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
         <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
@@ -551,6 +563,9 @@ testlang test 3
       </processor>
       <processor xml:id="tagger.1" name="tagger" version="1.0">
         <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="mblem.1" name="mblem" version="1.1">
+        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -818,10 +833,12 @@ testlang test 4
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
-      <lemma-annotation annotator="frog-mblem-1.1" datetime="2019-05-01T12:52:44" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T12:52:44" host="bonus" name="ucto" user="sloot" version="0.15">
+      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:30" host="bonus" name="ucto" user="sloot" version="0.15">
         <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
         <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
           <processor xml:id="ucto.1.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
@@ -830,6 +847,9 @@ testlang test 4
       </processor>
       <processor xml:id="tagger.1" name="tagger" version="1.0">
         <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="mblem.1" name="mblem" version="1.1">
+        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>

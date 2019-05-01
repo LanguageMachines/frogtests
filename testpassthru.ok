@@ -1,0 +1,3673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="folia.xsl"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v1.20" version="2.0.3">
+  <metadata type="native">
+    <annotations>
+      <token-annotation set="passthru">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <annotator processor="NER.1"/>
+      </entity-annotation>
+      <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
+        <annotator processor="IOB.1"/>
+      </chunking-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+        <annotator processor="mwu.1"/>
+      </entity-annotation>
+    </annotations>
+    <provenance>
+      <processor xml:id="ucto.1" begindatetime="2019-05-01T15:55:58" host="bonus" name="ucto" user="sloot" version="0.15">
+        <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="tagger.1" name="tagger" version="1.0">
+        <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="mblem.1" name="mblem" version="1.1">
+        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="mbma.1" name="mbma" version="1.0">
+        <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="NER.1" name="NER" version="2.0">
+        <processor xml:id="NER.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="IOB.1" name="IOB" version="2.0">
+        <processor xml:id="IOB.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+      <processor xml:id="mwu.1" name="mwu" version="1.0">
+        <processor xml:id="mwu.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+      </processor>
+    </provenance>
+  </metadata>
+  <text xml:id="teststandard.txt.text">
+    <s xml:id="teststandard.txt.text.s.1">
+      <w xml:id="teststandard.txt.text.s.1.w.1" class="WORD">
+        <t>De</t>
+        <pos class="LID(bep,stan,rest)" confidence="0.999701" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="de"/>
+        <morphology>
+          <morpheme>
+            <t>de</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.2" class="WORD">
+        <t>oprichter</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.999694" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="oprichter"/>
+        <morphology>
+          <morpheme>
+            <t>op</t>
+          </morpheme>
+          <morpheme>
+            <t>richt</t>
+          </morpheme>
+          <morpheme>
+            <t>er</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.3" class="WORD">
+        <t>van</t>
+        <pos class="VZ(init)" confidence="0.95931" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="van"/>
+        <morphology>
+          <morpheme>
+            <t>van</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.4" class="UNKNOWN">
+        <t>Wikipedia,</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Wikipedia,"/>
+        <morphology>
+          <morpheme>
+            <t>Wikipedia,</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.5" class="WORD">
+        <t>Jimmy</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Jimmy"/>
+        <morphology>
+          <morpheme>
+            <t>Jimmy</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.6" class="UNKNOWN">
+        <t>Wales,</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Wales,"/>
+        <morphology>
+          <morpheme>
+            <t>Wales,</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.7" class="WORD">
+        <t>wil</t>
+        <pos class="WW(pv,tgw,ev)" confidence="0.994536" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="willen"/>
+        <morphology>
+          <morpheme>
+            <t>wil</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.8" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.9" class="WORD">
+        <t>nieuwe</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.975869" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="nieuw"/>
+        <morphology>
+          <morpheme>
+            <t>nieuw</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.10" class="WORD">
+        <t>zoekmachine</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.997691" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="zoekmachine"/>
+        <morphology>
+          <morpheme>
+            <t>zoek</t>
+          </morpheme>
+          <morpheme>
+            <t>machine</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.11" class="UNKNOWN">
+        <t>lanceren.</t>
+        <pos class="WW(pv,tgw,mv)" confidence="0.443084" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="mv" subset="pvagr"/>
+        </pos>
+        <lemma class="lanceren."/>
+        <morphology>
+          <morpheme>
+            <t>lanceer</t>
+          </morpheme>
+          <morpheme>
+            <t>en.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.12" class="WORD">
+        <t>Dit</t>
+        <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.993902" head="VNW">
+          <feat class="aanw" subset="vwtype"/>
+          <feat class="pron" subset="pdtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="vol" subset="status"/>
+          <feat class="3o" subset="persoon"/>
+          <feat class="ev" subset="getal"/>
+        </pos>
+        <lemma class="dit"/>
+        <morphology>
+          <morpheme>
+            <t>dit</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.13" class="WORD">
+        <t>meldt</t>
+        <pos class="WW(pv,tgw,met-t)" confidence="0.998566" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="met-t" subset="pvagr"/>
+        </pos>
+        <lemma class="melden"/>
+        <morphology>
+          <morpheme>
+            <t>meld</t>
+          </morpheme>
+          <morpheme>
+            <t>t</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.14" class="WORD">
+        <t>de</t>
+        <pos class="LID(bep,stan,rest)" confidence="0.999811" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="de"/>
+        <morphology>
+          <morpheme>
+            <t>de</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.15" class="WORD">
+        <t>Britse</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.981205" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="britse"/>
+        <morphology>
+          <morpheme>
+            <t>brits</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.16" class="WORD">
+        <t>krant</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.971014" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="krant"/>
+        <morphology>
+          <morpheme>
+            <t>krant</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.17" class="WORD">
+        <t>The</t>
+        <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+          <feat class="vreemd" subset="spectype"/>
+        </pos>
+        <lemma class="The"/>
+        <morphology>
+          <morpheme>
+            <t>The</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.18" class="UNKNOWN">
+        <t>Times.</t>
+        <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+          <feat class="vreemd" subset="spectype"/>
+        </pos>
+        <lemma class="Times."/>
+        <morphology>
+          <morpheme>
+            <t>Times.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.19" class="WORD">
+        <t>Wales</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Wales"/>
+        <morphology>
+          <morpheme>
+            <t>Wales</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.20" class="WORD">
+        <t>hoopt</t>
+        <pos class="WW(pv,tgw,met-t)" confidence="0.997207" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="met-t" subset="pvagr"/>
+        </pos>
+        <lemma class="hopen"/>
+        <morphology>
+          <morpheme>
+            <t>hoop</t>
+          </morpheme>
+          <morpheme>
+            <t>t</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.21" class="WORD">
+        <t>dat</t>
+        <pos class="VG(onder)" confidence="0.962882" head="VG">
+          <feat class="onder" subset="conjtype"/>
+        </pos>
+        <lemma class="dat"/>
+        <morphology>
+          <morpheme>
+            <t>dat</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.22" class="WORD">
+        <t>de</t>
+        <pos class="LID(bep,stan,rest)" confidence="0.999844" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="de"/>
+        <morphology>
+          <morpheme>
+            <t>de</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.23" class="WORD">
+        <t>nieuwe</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.975869" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="nieuw"/>
+        <morphology>
+          <morpheme>
+            <t>nieuw</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.24" class="UNKNOWN">
+        <t>zoekmachine,</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.467234" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="zoekmachine,"/>
+        <morphology>
+          <morpheme>
+            <t>zoek</t>
+          </morpheme>
+          <morpheme>
+            <t>machine,</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.25" class="WORD">
+        <t>genaamd</t>
+        <pos class="ADJ(vrij,basis,zonder)" confidence="0.509804" head="ADJ">
+          <feat class="vrij" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="genaamd"/>
+        <morphology>
+          <morpheme>
+            <t>ge</t>
+          </morpheme>
+          <morpheme>
+            <t>naamd</t>
+          </morpheme>
+        </morphology>
+        <alt xml:id="teststandard.txt.text.s.1.w.25.alt-mor.1" auth="no">
+          <morphology>
+            <morpheme>
+              <t>genaamd</t>
+            </morpheme>
+          </morphology>
+        </alt>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.26" class="UNKNOWN">
+        <t>Wikiasari,</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Wikiasari,"/>
+        <morphology>
+          <morpheme>
+            <t>Wikiasari,</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.27" class="WORD">
+        <t>kan</t>
+        <pos class="WW(pv,tgw,ev)" confidence="0.998017" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="kunnen"/>
+        <morphology>
+          <morpheme>
+            <t>kan</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.28" class="WORD">
+        <t>concurreren</t>
+        <pos class="WW(inf,vrij,zonder)" confidence="0.738241" head="WW">
+          <feat class="inf" subset="wvorm"/>
+          <feat class="vrij" subset="positie"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="concurreren"/>
+        <morphology>
+          <morpheme>
+            <t>concurreer</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.29" class="WORD">
+        <t>met</t>
+        <pos class="VZ(init)" confidence="0.999574" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="met"/>
+        <morphology>
+          <morpheme>
+            <t>met</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.30" class="WORD">
+        <t>Google</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Google"/>
+        <morphology>
+          <morpheme>
+            <t>Google</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.31" class="WORD">
+        <t>en</t>
+        <pos class="VG(neven)" confidence="0.999194" head="VG">
+          <feat class="neven" subset="conjtype"/>
+        </pos>
+        <lemma class="en"/>
+        <morphology>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.1.w.32" class="UNKNOWN">
+        <t>Yahoo!.</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Yahoo!."/>
+        <morphology>
+          <morpheme>
+            <t>Yahoo!.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <chunking xml:id="teststandard.txt.text.s.1.chunking.1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.1" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.1" t="De"/>
+          <wref id="teststandard.txt.text.s.1.w.2" t="oprichter"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.2" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.3" t="van"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.3" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.4" t="Wikipedia,"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.4" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.5" t="Jimmy"/>
+          <wref id="teststandard.txt.text.s.1.w.6" t="Wales,"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.5" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.7" t="wil"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.6" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.8" t="een"/>
+          <wref id="teststandard.txt.text.s.1.w.9" t="nieuwe"/>
+          <wref id="teststandard.txt.text.s.1.w.10" t="zoekmachine"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.7" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.11" t="lanceren."/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.8" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.12" t="Dit"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.9" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.13" t="meldt"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.10" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.14" t="de"/>
+          <wref id="teststandard.txt.text.s.1.w.15" t="Britse"/>
+          <wref id="teststandard.txt.text.s.1.w.16" t="krant"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.11" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.17" t="The"/>
+          <wref id="teststandard.txt.text.s.1.w.18" t="Times."/>
+          <wref id="teststandard.txt.text.s.1.w.19" t="Wales"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.12" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.20" t="hoopt"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.13" class="SBAR" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.21" t="dat"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.14" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.22" t="de"/>
+          <wref id="teststandard.txt.text.s.1.w.23" t="nieuwe"/>
+          <wref id="teststandard.txt.text.s.1.w.24" t="zoekmachine,"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.15" class="ADJP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.25" t="genaamd"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.16" class="NP" confidence="0.857248">
+          <wref id="teststandard.txt.text.s.1.w.26" t="Wikiasari,"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.17" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.27" t="kan"/>
+          <wref id="teststandard.txt.text.s.1.w.28" t="concurreren"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.18" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.29" t="met"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.19" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.30" t="Google"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.20" class="CONJP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.31" t="en"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.21" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.1.w.32" t="Yahoo!."/>
+        </chunk>
+      </chunking>
+      <entities xml:id="teststandard.txt.text.s.1.entities.1">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+          <wref id="teststandard.txt.text.s.1.w.4" t="Wikipedia,"/>
+          <wref id="teststandard.txt.text.s.1.w.5" t="Jimmy"/>
+          <wref id="teststandard.txt.text.s.1.w.6" t="Wales,"/>
+        </entity>
+      </entities>
+      <entities xml:id="teststandard.txt.text.s.1.entities.2">
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.1" class="loc" confidence="0.536394" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.1.w.4" t="Wikipedia,"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.2" class="per" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.1.w.5" t="Jimmy"/>
+          <wref id="teststandard.txt.text.s.1.w.6" t="Wales,"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.3" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.1.w.15" t="Britse"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.4" class="pro" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.1.w.17" t="The"/>
+          <wref id="teststandard.txt.text.s.1.w.18" t="Times."/>
+          <wref id="teststandard.txt.text.s.1.w.19" t="Wales"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.5" class="per" confidence="0.274192" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.1.w.26" t="Wikiasari,"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.6" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.1.w.30" t="Google"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.7" class="org" confidence="0.682683" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.1.w.32" t="Yahoo!."/>
+        </entity>
+      </entities>
+    </s>
+    <s xml:id="teststandard.txt.text.s.2">
+      <w xml:id="teststandard.txt.text.s.2.w.1" class="WORD">
+        <t>Wikiasari</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Wikiasari"/>
+        <morphology>
+          <morpheme>
+            <t>Wikiasari</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.2.w.2" class="WORD">
+        <t>maakt</t>
+        <pos class="WW(pv,tgw,met-t)" confidence="0.99937" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="met-t" subset="pvagr"/>
+        </pos>
+        <lemma class="maken"/>
+        <morphology>
+          <morpheme>
+            <t>maak</t>
+          </morpheme>
+          <morpheme>
+            <t>t</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.2.w.3" class="WORD">
+        <t>gebruik</t>
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.998108" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="onz" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="gebruik"/>
+        <alt xml:id="teststandard.txt.text.s.2.w.3.alt-lem.1" auth="no">
+          <lemma class="gebruiken"/>
+        </alt>
+        <morphology>
+          <morpheme>
+            <t>gebruik</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.2.w.4" class="WORD">
+        <t>van</t>
+        <pos class="VZ(init)" confidence="0.95931" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="van"/>
+        <morphology>
+          <morpheme>
+            <t>van</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.2.w.5" class="WORD">
+        <t>dezelfde</t>
+        <pos class="ADJ(prenom,basis,zonder)" confidence="0.982473" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="dezelfde"/>
+        <morphology>
+          <morpheme>
+            <t>dezelfde</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.2.w.6" class="UNKNOWN">
+        <t>user-based</t>
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.812838" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="onz" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="user-based"/>
+        <morphology>
+          <morpheme>
+            <t>user-based</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.2.w.7" class="WORD">
+        <t>technologie</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.997772" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="technologie"/>
+        <morphology>
+          <morpheme>
+            <t>technologisch</t>
+          </morpheme>
+          <morpheme>
+            <t>ie</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.2.w.8" class="WORD">
+        <t>als</t>
+        <pos class="VG(onder)" confidence="0.720588" head="VG">
+          <feat class="onder" subset="conjtype"/>
+        </pos>
+        <lemma class="als"/>
+        <morphology>
+          <morpheme>
+            <t>als</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.2.w.9" class="WORD">
+        <t>Wikipedia</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Wikipedia"/>
+        <morphology>
+          <morpheme>
+            <t>Wikipedia</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.2.w.10" class="UNKNOWN">
+        <t>zelf.</t>
+        <pos class="SPEC(afk)" confidence="1" head="SPEC">
+          <feat class="afk" subset="spectype"/>
+        </pos>
+        <lemma class="zelf."/>
+        <morphology>
+          <morpheme>
+            <t>zelf.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <chunking xml:id="teststandard.txt.text.s.2.chunking.1">
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.1" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.2.w.1" t="Wikiasari"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.2" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.2.w.2" t="maakt"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.3" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.2.w.3" t="gebruik"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.4" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.2.w.4" t="van"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.5" class="NP" confidence="0.521007">
+          <wref id="teststandard.txt.text.s.2.w.5" t="dezelfde"/>
+          <wref id="teststandard.txt.text.s.2.w.6" t="user-based"/>
+          <wref id="teststandard.txt.text.s.2.w.7" t="technologie"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.6" class="SBAR" confidence="1">
+          <wref id="teststandard.txt.text.s.2.w.8" t="als"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.7" class="NP" confidence="0.724438">
+          <wref id="teststandard.txt.text.s.2.w.9" t="Wikipedia"/>
+          <wref id="teststandard.txt.text.s.2.w.10" t="zelf."/>
+        </chunk>
+      </chunking>
+      <entities xml:id="teststandard.txt.text.s.2.entities.1">
+        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.1" class="per" confidence="0.385802" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.2.w.1" t="Wikiasari"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.2" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.2.w.9" t="Wikipedia"/>
+        </entity>
+      </entities>
+    </s>
+    <s xml:id="teststandard.txt.text.s.3">
+      <w xml:id="teststandard.txt.text.s.3.w.1" class="UNKNOWN">
+        <t>"Google</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.762794" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="&quot;google"/>
+        <morphology>
+          <morpheme>
+            <t>"google</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.2" class="WORD">
+        <t>is</t>
+        <pos class="WW(pv,tgw,ev)" confidence="0.998276" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="zijn"/>
+        <morphology>
+          <morpheme>
+            <t>zijn</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.3" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.997219" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.4" class="WORD">
+        <t>zeer</t>
+        <pos class="BW()" confidence="0.978124" head="BW"/>
+        <lemma class="zeer"/>
+        <morphology>
+          <morpheme>
+            <t>zeer</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.5" class="WORD">
+        <t>goede</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.998739" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="goed"/>
+        <morphology>
+          <morpheme>
+            <t>goed</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.6" class="WORD">
+        <t>zoekmachine</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.997718" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="zoekmachine"/>
+        <morphology>
+          <morpheme>
+            <t>zoek</t>
+          </morpheme>
+          <morpheme>
+            <t>machine</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.7" class="WORD">
+        <t>maar</t>
+        <pos class="VG(neven)" confidence="0.862069" head="VG">
+          <feat class="neven" subset="conjtype"/>
+        </pos>
+        <lemma class="maar"/>
+        <morphology>
+          <morpheme>
+            <t>maar</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.8" class="WORD">
+        <t>vaak</t>
+        <pos class="ADJ(vrij,basis,zonder)" confidence="0.883333" head="ADJ">
+          <feat class="vrij" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="vaak"/>
+        <morphology>
+          <morpheme>
+            <t>vaak</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.9" class="WORD">
+        <t>levert</t>
+        <pos class="WW(pv,tgw,met-t)" confidence="0.999485" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="met-t" subset="pvagr"/>
+        </pos>
+        <lemma class="leveren"/>
+        <morphology>
+          <morpheme>
+            <t>lever</t>
+          </morpheme>
+          <morpheme>
+            <t>t</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.10" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.11" class="WORD">
+        <t>zoekresultaat</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.796666" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="zoekresultaat"/>
+        <morphology>
+          <morpheme>
+            <t>zoe</t>
+          </morpheme>
+          <morpheme>
+            <t>k</t>
+          </morpheme>
+          <morpheme>
+            <t>resulteer</t>
+          </morpheme>
+          <morpheme>
+            <t>aat</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.12" class="WORD">
+        <t>niets</t>
+        <pos class="VNW(onbep,pron,stan,vol,3o,ev)" confidence="0.997921" head="VNW">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="pron" subset="pdtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="vol" subset="status"/>
+          <feat class="3o" subset="persoon"/>
+          <feat class="ev" subset="getal"/>
+        </pos>
+        <lemma class="niets"/>
+        <morphology>
+          <morpheme>
+            <t>niets</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.13" class="WORD">
+        <t>meer</t>
+        <pos class="VNW(onbep,grad,stan,vrij,zonder,comp)" confidence="0.986742" head="VNW">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="grad" subset="pdtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="vrij" subset="positie"/>
+          <feat class="zonder" subset="buiging"/>
+          <feat class="comp" subset="graad"/>
+        </pos>
+        <lemma class="veel"/>
+        <morphology>
+          <morpheme>
+            <t>meer</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.14" class="WORD">
+        <t>op</t>
+        <pos class="VZ(fin)" confidence="0.85" head="VZ">
+          <feat class="fin" subset="vztype"/>
+        </pos>
+        <lemma class="op"/>
+        <morphology>
+          <morpheme>
+            <t>op</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.15" class="WORD">
+        <t>dan</t>
+        <pos class="BW()" confidence="0.770408" head="BW"/>
+        <lemma class="dan"/>
+        <morphology>
+          <morpheme>
+            <t>dan</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.16" class="WORD">
+        <t>spam</t>
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.996587" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="onz" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="spam"/>
+        <morphology>
+          <morpheme>
+            <t>spam</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.17" class="WORD">
+        <t>en</t>
+        <pos class="VG(neven)" confidence="0.999194" head="VG">
+          <feat class="neven" subset="conjtype"/>
+        </pos>
+        <lemma class="en"/>
+        <morphology>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.18" class="WORD">
+        <t>andere</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.990544" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="ander"/>
+        <morphology>
+          <morpheme>
+            <t>ander</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.19" class="WORD">
+        <t>onnodige</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.990169" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="onnodig"/>
+        <morphology>
+          <morpheme>
+            <t>on</t>
+          </morpheme>
+          <morpheme>
+            <t>nodig</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.20" class="UNKNOWN">
+        <t>informatie",</t>
+        <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+          <feat class="vreemd" subset="spectype"/>
+        </pos>
+        <lemma class="informatie&quot;,"/>
+        <morphology>
+          <morpheme>
+            <t>informatie",</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.21" class="WORD">
+        <t>aldus</t>
+        <pos class="BW()" confidence="0.997264" head="BW"/>
+        <lemma class="aldus"/>
+        <morphology>
+          <morpheme>
+            <t>al</t>
+          </morpheme>
+          <morpheme>
+            <t>dus</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.3.w.22" class="UNKNOWN">
+        <t>Wales.</t>
+        <pos class="SPEC(symb)" confidence="1" head="SPEC">
+          <feat class="symb" subset="spectype"/>
+        </pos>
+        <lemma class="Wales."/>
+        <morphology>
+          <morpheme>
+            <t>Wales.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <chunking xml:id="teststandard.txt.text.s.3.chunking.1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.1" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.1" t="&quot;Google"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.2" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.2" t="is"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.3" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.3" t="een"/>
+          <wref id="teststandard.txt.text.s.3.w.4" t="zeer"/>
+          <wref id="teststandard.txt.text.s.3.w.5" t="goede"/>
+          <wref id="teststandard.txt.text.s.3.w.6" t="zoekmachine"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.4" class="CONJP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.7" t="maar"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.5" class="ADVP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.8" t="vaak"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.6" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.9" t="levert"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.7" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.10" t="een"/>
+          <wref id="teststandard.txt.text.s.3.w.11" t="zoekresultaat"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.8" class="NP" confidence="0.770499">
+          <wref id="teststandard.txt.text.s.3.w.12" t="niets"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.9" class="ADVP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.13" t="meer"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.10" class="PP" confidence="0.58554">
+          <wref id="teststandard.txt.text.s.3.w.14" t="op"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.11" class="ADVP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.15" t="dan"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.12" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.16" t="spam"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.13" class="CONJP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.17" t="en"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.14" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.3.w.18" t="andere"/>
+          <wref id="teststandard.txt.text.s.3.w.19" t="onnodige"/>
+          <wref id="teststandard.txt.text.s.3.w.20" t="informatie&quot;,"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.15" class="ADVP" confidence="0.803405">
+          <wref id="teststandard.txt.text.s.3.w.21" t="aldus"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.16" class="NP" confidence="0.947285">
+          <wref id="teststandard.txt.text.s.3.w.22" t="Wales."/>
+        </chunk>
+      </chunking>
+    </s>
+    <s xml:id="teststandard.txt.text.s.4">
+      <w xml:id="teststandard.txt.text.s.4.w.1" class="WORD">
+        <t>Het</t>
+        <pos class="LID(bep,stan,evon)" confidence="0.998917" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="evon" subset="npagr"/>
+        </pos>
+        <lemma class="het"/>
+        <morphology>
+          <morpheme>
+            <t>het</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.2" class="WORD">
+        <t>algoritmische</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.990169" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="algoritmisch"/>
+        <morphology>
+          <morpheme>
+            <t>algoritme</t>
+          </morpheme>
+          <morpheme>
+            <t>isch</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.3" class="WORD">
+        <t>zoekprogramma</t>
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="1" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="onz" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="zoekprogramma"/>
+        <morphology>
+          <morpheme>
+            <t>zoek</t>
+          </morpheme>
+          <morpheme>
+            <t>programma</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.4" class="WORD">
+        <t>van</t>
+        <pos class="VZ(init)" confidence="0.973586" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="van"/>
+        <morphology>
+          <morpheme>
+            <t>van</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.5" class="WORD">
+        <t>Google</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Google"/>
+        <morphology>
+          <morpheme>
+            <t>Google</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.6" class="WORD">
+        <t>zou</t>
+        <pos class="WW(pv,verl,ev)" confidence="0.999947" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="verl" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="zullen"/>
+        <morphology>
+          <morpheme>
+            <t>zal</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.7" class="WORD">
+        <t>volgens</t>
+        <pos class="VZ(init)" confidence="0.998616" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="volgens"/>
+        <morphology>
+          <morpheme>
+            <t>volgens</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.8" class="WORD">
+        <t>Wales</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Wales"/>
+        <morphology>
+          <morpheme>
+            <t>Wales</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.9" class="WORD">
+        <t>makkelijk</t>
+        <pos class="ADJ(vrij,basis,zonder)" confidence="0.995289" head="ADJ">
+          <feat class="vrij" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="makkelijk"/>
+        <morphology>
+          <morpheme>
+            <t>mak</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+          <morpheme>
+            <t>lijk</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.10" class="WORD">
+        <t>te</t>
+        <pos class="VZ(init)" confidence="0.999928" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="te"/>
+        <morphology>
+          <morpheme>
+            <t>te</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.11" class="WORD">
+        <t>beïnvloeden</t>
+        <pos class="WW(inf,vrij,zonder)" confidence="0.979167" head="WW">
+          <feat class="inf" subset="wvorm"/>
+          <feat class="vrij" subset="positie"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="beïnvloeden"/>
+        <morphology>
+          <morpheme>
+            <t>be</t>
+          </morpheme>
+          <morpheme>
+            <t>invloed</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.12" class="WORD">
+        <t>zijn</t>
+        <pos class="WW(pv,tgw,mv)" confidence="0.666667" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="mv" subset="pvagr"/>
+        </pos>
+        <lemma class="zijn"/>
+        <morphology>
+          <morpheme>
+            <t>zijn</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.13" class="WORD">
+        <t>door</t>
+        <pos class="VZ(init)" confidence="0.998841" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="door"/>
+        <morphology>
+          <morpheme>
+            <t>door</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.14" class="WORD">
+        <t>spammers</t>
+        <pos class="N(soort,mv,basis)" confidence="0.99765" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="spammer"/>
+        <morphology>
+          <morpheme>
+            <t>spammer</t>
+          </morpheme>
+          <morpheme>
+            <t>s</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.15" class="WORD">
+        <t>en</t>
+        <pos class="VG(neven)" confidence="0.999342" head="VG">
+          <feat class="neven" subset="conjtype"/>
+        </pos>
+        <lemma class="en"/>
+        <morphology>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.16" class="WORD">
+        <t>commerciële</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.990169" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="commercieel"/>
+        <morphology>
+          <morpheme>
+            <t>commercie</t>
+          </morpheme>
+          <morpheme>
+            <t>eel</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.17" class="UNKNOWN">
+        <t>ondernemingen.</t>
+        <pos class="WW(pv,tgw,mv)" confidence="0.332966" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="mv" subset="pvagr"/>
+        </pos>
+        <lemma class="ondernemingen."/>
+        <morphology>
+          <morpheme>
+            <t>ondernemingen.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.18" class="WORD">
+        <t>Zoekopdrachten</t>
+        <pos class="N(soort,mv,basis)" confidence="0.738938" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="zoekopdracht"/>
+        <morphology>
+          <morpheme>
+            <t>zoe</t>
+          </morpheme>
+          <morpheme>
+            <t>kopdracht</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.19" class="WORD">
+        <t>bij</t>
+        <pos class="VZ(init)" confidence="0.989796" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="bij"/>
+        <morphology>
+          <morpheme>
+            <t>bij</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.20" class="WORD">
+        <t>Google</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Google"/>
+        <morphology>
+          <morpheme>
+            <t>Google</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.21" class="WORD">
+        <t>worden</t>
+        <pos class="WW(pv,tgw,mv)" confidence="1" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="mv" subset="pvagr"/>
+        </pos>
+        <lemma class="worden"/>
+        <morphology>
+          <morpheme>
+            <t>word</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.22" class="WORD">
+        <t>uitgevoerd</t>
+        <pos class="WW(vd,vrij,zonder)" confidence="0.999154" head="WW">
+          <feat class="vd" subset="wvorm"/>
+          <feat class="vrij" subset="positie"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="uitvoeren"/>
+        <morphology>
+          <morpheme>
+            <t>uit</t>
+          </morpheme>
+          <morpheme>
+            <t>ge</t>
+          </morpheme>
+          <morpheme>
+            <t>voer</t>
+          </morpheme>
+          <morpheme>
+            <t>d</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.23" class="WORD">
+        <t>met</t>
+        <pos class="VZ(init)" confidence="0.99948" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="met"/>
+        <morphology>
+          <morpheme>
+            <t>met</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.24" class="WORD">
+        <t>behulp</t>
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.809524" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="onz" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="behulp"/>
+        <morphology>
+          <morpheme>
+            <t>behulp</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.25" class="WORD">
+        <t>van</t>
+        <pos class="VZ(init)" confidence="0.999441" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="van"/>
+        <morphology>
+          <morpheme>
+            <t>van</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.26" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.27" class="WORD">
+        <t>algoritme</t>
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.9" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="onz" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="algoritme"/>
+        <morphology>
+          <morpheme>
+            <t>algoritme</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.28" class="WORD">
+        <t>waardoor</t>
+        <pos class="BW()" confidence="0.993007" head="BW"/>
+        <lemma class="waardoor"/>
+        <morphology>
+          <morpheme>
+            <t>waar</t>
+          </morpheme>
+          <morpheme>
+            <t>door</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.29" class="WORD">
+        <t>het</t>
+        <pos class="LID(bep,stan,evon)" confidence="0.996942" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="evon" subset="npagr"/>
+        </pos>
+        <lemma class="het"/>
+        <morphology>
+          <morpheme>
+            <t>het</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.30" class="WORD">
+        <t>eerste</t>
+        <pos class="TW(rang,prenom,stan)" confidence="0.998547" head="TW">
+          <feat class="rang" subset="numtype"/>
+          <feat class="prenom" subset="positie"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="een"/>
+        <alt xml:id="teststandard.txt.text.s.4.w.30.alt-lem.1" auth="no">
+          <lemma class="eerste"/>
+        </alt>
+        <alt xml:id="teststandard.txt.text.s.4.w.30.alt-lem.2" auth="no">
+          <lemma class="één"/>
+        </alt>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+          <morpheme>
+            <t>ste</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.31" class="WORD">
+        <t>resultaat</t>
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.982759" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="onz" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="resultaat"/>
+        <morphology>
+          <morpheme>
+            <t>resulteer</t>
+          </morpheme>
+          <morpheme>
+            <t>aat</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.32" class="WORD">
+        <t>altijd</t>
+        <pos class="BW()" confidence="0.999919" head="BW"/>
+        <lemma class="altijd"/>
+        <morphology>
+          <morpheme>
+            <t>altijd</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.33" class="WORD">
+        <t>de</t>
+        <pos class="LID(bep,stan,rest)" confidence="0.999665" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="de"/>
+        <morphology>
+          <morpheme>
+            <t>de</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.34" class="WORD">
+        <t>website</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.999295" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="website"/>
+        <morphology>
+          <morpheme>
+            <t>website</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.35" class="WORD">
+        <t>met</t>
+        <pos class="VZ(init)" confidence="0.99982" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="met"/>
+        <morphology>
+          <morpheme>
+            <t>met</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.36" class="WORD">
+        <t>de</t>
+        <pos class="LID(bep,stan,rest)" confidence="0.981886" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="de"/>
+        <morphology>
+          <morpheme>
+            <t>de</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.37" class="WORD">
+        <t>meeste</t>
+        <pos class="VNW(onbep,grad,stan,prenom,met-e,agr,sup)" confidence="0.997028" head="VNW">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="grad" subset="pdtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="prenom" subset="positie"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="agr" subset="npagr"/>
+          <feat class="sup" subset="graad"/>
+        </pos>
+        <lemma class="meest"/>
+        <alt xml:id="teststandard.txt.text.s.4.w.37.alt-lem.1" auth="no">
+          <lemma class="meeste"/>
+        </alt>
+        <alt xml:id="teststandard.txt.text.s.4.w.37.alt-lem.2" auth="no">
+          <lemma class="veel"/>
+        </alt>
+        <morphology>
+          <morpheme>
+            <t>meeste</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.38" class="WORD">
+        <t>verwijzingen</t>
+        <pos class="N(soort,mv,basis)" confidence="0.99802" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="verwijzing"/>
+        <morphology>
+          <morpheme>
+            <t>ver</t>
+          </morpheme>
+          <morpheme>
+            <t>wijs</t>
+          </morpheme>
+          <morpheme>
+            <t>ing</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.4.w.39" class="UNKNOWN">
+        <t>is.</t>
+        <pos class="N(soort,mv,basis)" confidence="0.41525" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="is."/>
+        <morphology>
+          <morpheme>
+            <t>is.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <chunking xml:id="teststandard.txt.text.s.4.chunking.1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.1" class="NP" confidence="0.98642">
+          <wref id="teststandard.txt.text.s.4.w.1" t="Het"/>
+          <wref id="teststandard.txt.text.s.4.w.2" t="algoritmische"/>
+          <wref id="teststandard.txt.text.s.4.w.3" t="zoekprogramma"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.2" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.4" t="van"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.3" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.5" t="Google"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.4" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.6" t="zou"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.5" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.7" t="volgens"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.6" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.8" t="Wales"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.7" class="ADVP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.9" t="makkelijk"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.8" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.10" t="te"/>
+          <wref id="teststandard.txt.text.s.4.w.11" t="beïnvloeden"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.9" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.12" t="zijn"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.10" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.13" t="door"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.11" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.14" t="spammers"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.12" class="CONJP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.15" t="en"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.13" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.16" t="commerciële"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.14" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.17" t="ondernemingen."/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.15" class="NP" confidence="0.949871">
+          <wref id="teststandard.txt.text.s.4.w.18" t="Zoekopdrachten"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.16" class="PP" confidence="0.876309">
+          <wref id="teststandard.txt.text.s.4.w.19" t="bij"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.17" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.20" t="Google"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.18" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.21" t="worden"/>
+          <wref id="teststandard.txt.text.s.4.w.22" t="uitgevoerd"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.19" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.23" t="met"/>
+          <wref id="teststandard.txt.text.s.4.w.24" t="behulp"/>
+          <wref id="teststandard.txt.text.s.4.w.25" t="van"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.20" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.26" t="een"/>
+          <wref id="teststandard.txt.text.s.4.w.27" t="algoritme"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.21" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.28" t="waardoor"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.22" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.29" t="het"/>
+          <wref id="teststandard.txt.text.s.4.w.30" t="eerste"/>
+          <wref id="teststandard.txt.text.s.4.w.31" t="resultaat"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.23" class="ADVP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.32" t="altijd"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.24" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.33" t="de"/>
+          <wref id="teststandard.txt.text.s.4.w.34" t="website"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.25" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.35" t="met"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.26" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.4.w.36" t="de"/>
+          <wref id="teststandard.txt.text.s.4.w.37" t="meeste"/>
+          <wref id="teststandard.txt.text.s.4.w.38" t="verwijzingen"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.27" class="NP" confidence="0.64665">
+          <wref id="teststandard.txt.text.s.4.w.39" t="is."/>
+        </chunk>
+      </chunking>
+      <entities xml:id="teststandard.txt.text.s.4.entities.1">
+        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+          <wref id="teststandard.txt.text.s.4.w.23" t="met"/>
+          <wref id="teststandard.txt.text.s.4.w.24" t="behulp"/>
+          <wref id="teststandard.txt.text.s.4.w.25" t="van"/>
+        </entity>
+      </entities>
+      <entities xml:id="teststandard.txt.text.s.4.entities.2">
+        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.1" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.4.w.5" t="Google"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.2" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.4.w.8" t="Wales"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.3" class="loc" confidence="0.622464" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.4.w.18" t="Zoekopdrachten"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.4" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.4.w.20" t="Google"/>
+        </entity>
+      </entities>
+    </s>
+    <s xml:id="teststandard.txt.text.s.5">
+      <w xml:id="teststandard.txt.text.s.5.w.1" class="UNKNOWN">
+        <t>"De</t>
+        <pos class="SPEC(symb)" confidence="1" head="SPEC">
+          <feat class="symb" subset="spectype"/>
+        </pos>
+        <lemma class="&quot;De"/>
+        <morphology>
+          <morpheme>
+            <t>"De</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.2" class="WORD">
+        <t>eerste</t>
+        <pos class="TW(rang,prenom,stan)" confidence="0.997796" head="TW">
+          <feat class="rang" subset="numtype"/>
+          <feat class="prenom" subset="positie"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="een"/>
+        <alt xml:id="teststandard.txt.text.s.5.w.2.alt-lem.1" auth="no">
+          <lemma class="eerste"/>
+        </alt>
+        <alt xml:id="teststandard.txt.text.s.5.w.2.alt-lem.2" auth="no">
+          <lemma class="één"/>
+        </alt>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+          <morpheme>
+            <t>ste</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.3" class="WORD">
+        <t>taak</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.999602" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="taak"/>
+        <morphology>
+          <morpheme>
+            <t>taak</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.4" class="WORD">
+        <t>van</t>
+        <pos class="VZ(init)" confidence="0.999667" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="van"/>
+        <morphology>
+          <morpheme>
+            <t>van</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.5" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.999038" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.6" class="WORD">
+        <t>zoekmachine</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.997743" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="zoekmachine"/>
+        <morphology>
+          <morpheme>
+            <t>zoek</t>
+          </morpheme>
+          <morpheme>
+            <t>machine</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.7" class="WORD">
+        <t>is</t>
+        <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="zijn"/>
+        <morphology>
+          <morpheme>
+            <t>zijn</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.8" class="WORD">
+        <t>het</t>
+        <pos class="LID(bep,stan,evon)" confidence="0.5" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="evon" subset="npagr"/>
+        </pos>
+        <lemma class="het"/>
+        <morphology>
+          <morpheme>
+            <t>het</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.9" class="WORD">
+        <t>maken</t>
+        <pos class="WW(inf,nom,zonder,zonder-n)" confidence="1" head="WW">
+          <feat class="inf" subset="wvorm"/>
+          <feat class="nom" subset="positie"/>
+          <feat class="zonder" subset="buiging"/>
+          <feat class="zonder-n" subset="getal-n"/>
+        </pos>
+        <lemma class="maken"/>
+        <morphology>
+          <morpheme>
+            <t>maak</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.10" class="WORD">
+        <t>van</t>
+        <pos class="VZ(init)" confidence="0.999441" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="van"/>
+        <morphology>
+          <morpheme>
+            <t>van</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.11" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.12" class="UNKNOWN">
+        <t>keuze.</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.541239" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="keuze."/>
+        <morphology>
+          <morpheme>
+            <t>keuse.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.13" class="WORD">
+        <t>Deze</t>
+        <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.80678" head="VNW">
+          <feat class="aanw" subset="vwtype"/>
+          <feat class="det" subset="pdtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="prenom" subset="positie"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="deze"/>
+        <morphology>
+          <morpheme>
+            <t>deze</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.14" class="WORD">
+        <t>pagina</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998006" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="pagina"/>
+        <morphology>
+          <morpheme>
+            <t>pagina</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.15" class="WORD">
+        <t>is</t>
+        <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="zijn"/>
+        <morphology>
+          <morpheme>
+            <t>zijn</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.16" class="WORD">
+        <t>goed</t>
+        <pos class="ADJ(vrij,basis,zonder)" confidence="0.934383" head="ADJ">
+          <feat class="vrij" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="goed"/>
+        <morphology>
+          <morpheme>
+            <t>goed</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.17" class="WORD">
+        <t>en</t>
+        <pos class="VG(neven)" confidence="0.999194" head="VG">
+          <feat class="neven" subset="conjtype"/>
+        </pos>
+        <lemma class="en"/>
+        <morphology>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.18" class="WORD">
+        <t>deze</t>
+        <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+          <feat class="aanw" subset="vwtype"/>
+          <feat class="det" subset="pdtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="prenom" subset="positie"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="deze"/>
+        <morphology>
+          <morpheme>
+            <t>deze</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.19" class="WORD">
+        <t>pagina</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.997691" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="pagina"/>
+        <morphology>
+          <morpheme>
+            <t>pagina</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.20" class="UNKNOWN">
+        <t>'sucks'",</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="'sucks'&quot;,"/>
+        <morphology>
+          <morpheme>
+            <t>'sucks'",</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.21" class="WORD">
+        <t>verklaart</t>
+        <pos class="WW(pv,tgw,met-t)" confidence="0.998566" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="met-t" subset="pvagr"/>
+        </pos>
+        <lemma class="verklaren"/>
+        <morphology>
+          <morpheme>
+            <t>ver</t>
+          </morpheme>
+          <morpheme>
+            <t>klaar</t>
+          </morpheme>
+          <morpheme>
+            <t>t</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.22" class="WORD">
+        <t>de</t>
+        <pos class="LID(bep,stan,rest)" confidence="0.999844" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="de"/>
+        <morphology>
+          <morpheme>
+            <t>de</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.23" class="UNKNOWN">
+        <t>40-jarige</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.988152" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="40-jarig"/>
+        <morphology>
+          <morpheme>
+            <t>40-jaar</t>
+          </morpheme>
+          <morpheme>
+            <t>ig</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.24" class="WORD">
+        <t>voormalige</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.990169" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="voormalig"/>
+        <morphology>
+          <morpheme>
+            <t>voor</t>
+          </morpheme>
+          <morpheme>
+            <t>maal</t>
+          </morpheme>
+          <morpheme>
+            <t>ig</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.25" class="UNKNOWN">
+        <t>effectenhandelaar.</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.320616" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="effectenhandelaar."/>
+        <morphology>
+          <morpheme>
+            <t>effectenhandelaar.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.26" class="UNKNOWN">
+        <t>"Computers</t>
+        <pos class="N(soort,mv,basis)" confidence="1" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="&quot;computer"/>
+        <morphology>
+          <morpheme>
+            <t>"computer</t>
+          </morpheme>
+          <morpheme>
+            <t>s</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.27" class="WORD">
+        <t>kunnen</t>
+        <pos class="WW(pv,tgw,mv)" confidence="0.911765" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="mv" subset="pvagr"/>
+        </pos>
+        <lemma class="kunnen"/>
+        <morphology>
+          <morpheme>
+            <t>kan</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.28" class="WORD">
+        <t>nu</t>
+        <pos class="BW()" confidence="0.99682" head="BW"/>
+        <lemma class="nu"/>
+        <morphology>
+          <morpheme>
+            <t>nu</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.29" class="WORD">
+        <t>eenmaal</t>
+        <pos class="BW()" confidence="0.998755" head="BW"/>
+        <lemma class="eenmaal"/>
+        <morphology>
+          <morpheme>
+            <t>eenmaal</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.30" class="WORD">
+        <t>niet</t>
+        <pos class="BW()" confidence="0.999918" head="BW"/>
+        <lemma class="niet"/>
+        <morphology>
+          <morpheme>
+            <t>niet</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.31" class="WORD">
+        <t>dergelijke</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.999143" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="dergelijk"/>
+        <morphology>
+          <morpheme>
+            <t>dergelijk</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.32" class="WORD">
+        <t>keuzes</t>
+        <pos class="N(soort,mv,basis)" confidence="0.99802" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="keuze"/>
+        <morphology>
+          <morpheme>
+            <t>keuze</t>
+          </morpheme>
+          <morpheme>
+            <t>s</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.5.w.33" class="UNKNOWN">
+        <t>maken.</t>
+        <pos class="WW(pv,tgw,mv)" confidence="0.347918" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="mv" subset="pvagr"/>
+        </pos>
+        <lemma class="maken."/>
+        <morphology>
+          <morpheme>
+            <t>maken.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <chunking xml:id="teststandard.txt.text.s.5.chunking.1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.1" class="NP" confidence="0.532599">
+          <wref id="teststandard.txt.text.s.5.w.1" t="&quot;De"/>
+          <wref id="teststandard.txt.text.s.5.w.2" t="eerste"/>
+          <wref id="teststandard.txt.text.s.5.w.3" t="taak"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.2" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.4" t="van"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.3" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.5" t="een"/>
+          <wref id="teststandard.txt.text.s.5.w.6" t="zoekmachine"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.4" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.7" t="is"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.5" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.8" t="het"/>
+          <wref id="teststandard.txt.text.s.5.w.9" t="maken"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.6" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.10" t="van"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.7" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.11" t="een"/>
+          <wref id="teststandard.txt.text.s.5.w.12" t="keuze."/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.8" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.13" t="Deze"/>
+          <wref id="teststandard.txt.text.s.5.w.14" t="pagina"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.9" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.15" t="is"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.10" class="ADJP" confidence="0.701936">
+          <wref id="teststandard.txt.text.s.5.w.16" t="goed"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.11" class="CONJP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.17" t="en"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.12" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.18" t="deze"/>
+          <wref id="teststandard.txt.text.s.5.w.19" t="pagina"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.13" class="NP" confidence="0.947841">
+          <wref id="teststandard.txt.text.s.5.w.20" t="'sucks'&quot;,"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.14" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.21" t="verklaart"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.15" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.22" t="de"/>
+          <wref id="teststandard.txt.text.s.5.w.23" t="40-jarige"/>
+          <wref id="teststandard.txt.text.s.5.w.24" t="voormalige"/>
+          <wref id="teststandard.txt.text.s.5.w.25" t="effectenhandelaar."/>
+          <wref id="teststandard.txt.text.s.5.w.26" t="&quot;Computers"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.16" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.27" t="kunnen"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.17" class="ADVP" confidence="0.745062">
+          <wref id="teststandard.txt.text.s.5.w.28" t="nu"/>
+          <wref id="teststandard.txt.text.s.5.w.29" t="eenmaal"/>
+          <wref id="teststandard.txt.text.s.5.w.30" t="niet"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.18" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.31" t="dergelijke"/>
+          <wref id="teststandard.txt.text.s.5.w.32" t="keuzes"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.19" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.5.w.33" t="maken."/>
+        </chunk>
+      </chunking>
+      <entities xml:id="teststandard.txt.text.s.5.entities.1">
+        <entity xml:id="teststandard.txt.text.s.5.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+          <wref id="teststandard.txt.text.s.5.w.28" t="nu"/>
+          <wref id="teststandard.txt.text.s.5.w.29" t="eenmaal"/>
+        </entity>
+      </entities>
+    </s>
+    <s xml:id="teststandard.txt.text.s.6">
+      <w xml:id="teststandard.txt.text.s.6.w.1" class="WORD">
+        <t>Meestal</t>
+        <pos class="BW()" confidence="0.998992" head="BW"/>
+        <lemma class="meestal"/>
+        <morphology>
+          <morpheme>
+            <t>meest</t>
+          </morpheme>
+          <morpheme>
+            <t>al</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.2" class="WORD">
+        <t>is</t>
+        <pos class="WW(pv,tgw,ev)" confidence="0.999891" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="zijn"/>
+        <morphology>
+          <morpheme>
+            <t>zijn</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.3" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.99956" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.4" class="WORD">
+        <t>seconde</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.996386" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="seconde"/>
+        <morphology>
+          <morpheme>
+            <t>seconde</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.5" class="WORD">
+        <t>genoeg</t>
+        <pos class="BW()" confidence="0.999172" head="BW"/>
+        <lemma class="genoeg"/>
+        <morphology>
+          <morpheme>
+            <t>genoeg</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.6" class="WORD">
+        <t>om</t>
+        <pos class="VZ(init)" confidence="0.897527" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="om"/>
+        <morphology>
+          <morpheme>
+            <t>om</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.7" class="WORD">
+        <t>te</t>
+        <pos class="VZ(init)" confidence="0.999179" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="te"/>
+        <morphology>
+          <morpheme>
+            <t>te</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.8" class="WORD">
+        <t>bepalen</t>
+        <pos class="WW(inf,vrij,zonder)" confidence="0.990566" head="WW">
+          <feat class="inf" subset="wvorm"/>
+          <feat class="vrij" subset="positie"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="bepalen"/>
+        <morphology>
+          <morpheme>
+            <t>be</t>
+          </morpheme>
+          <morpheme>
+            <t>paal</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.9" class="WORD">
+        <t>of</t>
+        <pos class="VG(neven)" confidence="0.924051" head="VG">
+          <feat class="neven" subset="conjtype"/>
+        </pos>
+        <lemma class="of"/>
+        <morphology>
+          <morpheme>
+            <t>of</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.10" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.99956" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.11" class="WORD">
+        <t>website</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.995781" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="website"/>
+        <morphology>
+          <morpheme>
+            <t>website</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.12" class="WORD">
+        <t>goed</t>
+        <pos class="ADJ(vrij,basis,zonder)" confidence="0.996139" head="ADJ">
+          <feat class="vrij" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="goed"/>
+        <morphology>
+          <morpheme>
+            <t>goed</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.13" class="WORD">
+        <t>is</t>
+        <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="zijn"/>
+        <morphology>
+          <morpheme>
+            <t>zijn</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.14" class="WORD">
+        <t>of</t>
+        <pos class="VG(neven)" confidence="0.855677" head="VG">
+          <feat class="neven" subset="conjtype"/>
+        </pos>
+        <lemma class="of"/>
+        <morphology>
+          <morpheme>
+            <t>of</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.6.w.15" class="UNKNOWN">
+        <t>niet."</t>
+        <pos class="N(soort,mv,basis)" confidence="0.545883" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="niet.&quot;"/>
+        <morphology>
+          <morpheme>
+            <t>niet."</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <chunking xml:id="teststandard.txt.text.s.6.chunking.1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.1" class="ADVP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.1" t="Meestal"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.2" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.2" t="is"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.3" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.3" t="een"/>
+          <wref id="teststandard.txt.text.s.6.w.4" t="seconde"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.4" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.5" t="genoeg"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.5" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.6" t="om"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.6" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.7" t="te"/>
+          <wref id="teststandard.txt.text.s.6.w.8" t="bepalen"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.7" class="SBAR" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.9" t="of"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.8" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.10" t="een"/>
+          <wref id="teststandard.txt.text.s.6.w.11" t="website"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.9" class="ADVP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.12" t="goed"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.10" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.13" t="is"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.11" class="CONJP" confidence="1">
+          <wref id="teststandard.txt.text.s.6.w.14" t="of"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.12" class="NP" confidence="0.951278">
+          <wref id="teststandard.txt.text.s.6.w.15" t="niet.&quot;"/>
+        </chunk>
+      </chunking>
+    </s>
+    <s xml:id="teststandard.txt.text.s.7">
+      <w xml:id="teststandard.txt.text.s.7.w.1" class="WORD">
+        <t>Voor</t>
+        <pos class="VZ(init)" confidence="0.95053" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="voor"/>
+        <morphology>
+          <morpheme>
+            <t>voor</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.2" class="WORD">
+        <t>het</t>
+        <pos class="LID(bep,stan,evon)" confidence="0.994595" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="evon" subset="npagr"/>
+        </pos>
+        <lemma class="het"/>
+        <morphology>
+          <morpheme>
+            <t>het</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.3" class="WORD">
+        <t>nieuwe</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.975869" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="nieuw"/>
+        <morphology>
+          <morpheme>
+            <t>nieuw</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.4" class="WORD">
+        <t>project</t>
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.998223" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="onz" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="project"/>
+        <morphology>
+          <morpheme>
+            <t>project</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.5" class="WORD">
+        <t>hoopt</t>
+        <pos class="WW(pv,tgw,met-t)" confidence="0.998984" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="met-t" subset="pvagr"/>
+        </pos>
+        <lemma class="hopen"/>
+        <morphology>
+          <morpheme>
+            <t>hoop</t>
+          </morpheme>
+          <morpheme>
+            <t>t</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.6" class="WORD">
+        <t>Wales</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Wales"/>
+        <morphology>
+          <morpheme>
+            <t>Wales</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.7" class="WORD">
+        <t>gebruik</t>
+        <pos class="WW(pv,tgw,ev)" confidence="0.5" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="gebruiken"/>
+        <morphology>
+          <morpheme>
+            <t>gebruik</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.8" class="WORD">
+        <t>te</t>
+        <pos class="VZ(init)" confidence="0.907459" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="te"/>
+        <morphology>
+          <morpheme>
+            <t>te</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.9" class="WORD">
+        <t>kunnen</t>
+        <pos class="WW(inf,vrij,zonder)" confidence="0.914286" head="WW">
+          <feat class="inf" subset="wvorm"/>
+          <feat class="vrij" subset="positie"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="kunnen"/>
+        <morphology>
+          <morpheme>
+            <t>kan</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.10" class="WORD">
+        <t>maken</t>
+        <pos class="WW(inf,vrij,zonder)" confidence="0.580078" head="WW">
+          <feat class="inf" subset="wvorm"/>
+          <feat class="vrij" subset="positie"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="maken"/>
+        <morphology>
+          <morpheme>
+            <t>maak</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.11" class="WORD">
+        <t>van</t>
+        <pos class="VZ(init)" confidence="0.998982" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="van"/>
+        <morphology>
+          <morpheme>
+            <t>van</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.12" class="WORD">
+        <t>de</t>
+        <pos class="LID(bep,stan,rest)" confidence="0.999852" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="de"/>
+        <morphology>
+          <morpheme>
+            <t>de</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.13" class="WORD">
+        <t>gebruikers</t>
+        <pos class="N(soort,mv,basis)" confidence="0.999597" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="gebruiker"/>
+        <morphology>
+          <morpheme>
+            <t>gebruik</t>
+          </morpheme>
+          <morpheme>
+            <t>er</t>
+          </morpheme>
+          <morpheme>
+            <t>s</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.14" class="WORD">
+        <t>die</t>
+        <pos class="VNW(betr,pron,stan,vol,persoon,getal)" confidence="0.969697" head="VNW">
+          <feat class="betr" subset="vwtype"/>
+          <feat class="pron" subset="pdtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="vol" subset="status"/>
+          <feat class="persoon" subset="persoon"/>
+          <feat class="getal" subset="getal"/>
+        </pos>
+        <lemma class="die"/>
+        <morphology>
+          <morpheme>
+            <t>die</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.15" class="WORD">
+        <t>Wikipedia</t>
+        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
+        </pos>
+        <lemma class="Wikipedia"/>
+        <morphology>
+          <morpheme>
+            <t>Wikipedia</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.16" class="WORD">
+        <t>tot</t>
+        <pos class="VZ(init)" confidence="0.998379" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="tot"/>
+        <morphology>
+          <morpheme>
+            <t>tot</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.17" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.999386" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.18" class="WORD">
+        <t>wereldwijd</t>
+        <pos class="ADJ(prenom,basis,zonder)" confidence="0.978684" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zonder" subset="buiging"/>
+        </pos>
+        <lemma class="wereldwijd"/>
+        <morphology>
+          <morpheme>
+            <t>wereld</t>
+          </morpheme>
+          <morpheme>
+            <t>wijd</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.19" class="WORD">
+        <t>succes</t>
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.998985" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="onz" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="succes"/>
+        <morphology>
+          <morpheme>
+            <t>succes</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.20" class="WORD">
+        <t>hebben</t>
+        <pos class="WW(pv,tgw,mv)" confidence="0.79039" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="mv" subset="pvagr"/>
+        </pos>
+        <lemma class="hebben"/>
+        <morphology>
+          <morpheme>
+            <t>heb</t>
+          </morpheme>
+          <morpheme>
+            <t>en</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.21" class="UNKNOWN">
+        <t>gemaakt.</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.525939" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="gemaakt."/>
+        <morphology>
+          <morpheme>
+            <t>gemaakt.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.22" class="WORD">
+        <t>De</t>
+        <pos class="LID(bep,stan,rest)" confidence="0.992095" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="de"/>
+        <morphology>
+          <morpheme>
+            <t>de</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.23" class="WORD">
+        <t>goede</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.997314" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="goed"/>
+        <morphology>
+          <morpheme>
+            <t>goed</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.24" class="WORD">
+        <t>reputatie</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.999455" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="reputatie"/>
+        <morphology>
+          <morpheme>
+            <t>reputatie</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.25" class="WORD">
+        <t>die</t>
+        <pos class="VNW(betr,pron,stan,vol,persoon,getal)" confidence="0.966981" head="VNW">
+          <feat class="betr" subset="vwtype"/>
+          <feat class="pron" subset="pdtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="vol" subset="status"/>
+          <feat class="persoon" subset="persoon"/>
+          <feat class="getal" subset="getal"/>
+        </pos>
+        <lemma class="die"/>
+        <morphology>
+          <morpheme>
+            <t>die</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.26" class="WORD">
+        <t>zij</t>
+        <pos class="VNW(pers,pron,nomin,vol,3p,mv)" confidence="0.527279" head="VNW">
+          <feat class="pers" subset="vwtype"/>
+          <feat class="pron" subset="pdtype"/>
+          <feat class="nomin" subset="naamval"/>
+          <feat class="vol" subset="status"/>
+          <feat class="3p" subset="persoon"/>
+          <feat class="mv" subset="getal"/>
+        </pos>
+        <lemma class="zij"/>
+        <morphology>
+          <morpheme>
+            <t>zij</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.27" class="UNKNOWN">
+        <t>hebben,</t>
+        <pos class="N(soort,mv,basis)" confidence="0.405593" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="hebben,"/>
+        <morphology>
+          <morpheme>
+            <t>hebben,</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.28" class="WORD">
+        <t>samen</t>
+        <pos class="BW()" confidence="0.998251" head="BW"/>
+        <lemma class="samen"/>
+        <morphology>
+          <morpheme>
+            <t>samen</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.29" class="WORD">
+        <t>met</t>
+        <pos class="VZ(init)" confidence="0.99982" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="met"/>
+        <morphology>
+          <morpheme>
+            <t>met</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.30" class="WORD">
+        <t>de</t>
+        <pos class="LID(bep,stan,rest)" confidence="0.999805" head="LID">
+          <feat class="bep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="rest" subset="npagr"/>
+        </pos>
+        <lemma class="de"/>
+        <morphology>
+          <morpheme>
+            <t>de</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.31" class="WORD">
+        <t>duidelijke</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.990169" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="duidelijk"/>
+        <morphology>
+          <morpheme>
+            <t>duid</t>
+          </morpheme>
+          <morpheme>
+            <t>elijk</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.32" class="UNKNOWN">
+        <t>technologie,</t>
+        <pos class="N(soort,mv,basis)" confidence="0.818707" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+        </pos>
+        <lemma class="technologie,"/>
+        <morphology>
+          <morpheme>
+            <t>technologie,</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.33" class="WORD">
+        <t>moet</t>
+        <pos class="WW(pv,tgw,ev)" confidence="0.999794" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="ev" subset="pvagr"/>
+        </pos>
+        <lemma class="moeten"/>
+        <morphology>
+          <morpheme>
+            <t>moet</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.34" class="WORD">
+        <t>garant</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.8" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="garant"/>
+        <morphology>
+          <morpheme>
+            <t>garant</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.35" class="WORD">
+        <t>staan</t>
+        <pos class="WW(pv,tgw,mv)" confidence="1" head="WW">
+          <feat class="pv" subset="wvorm"/>
+          <feat class="tgw" subset="pvtijd"/>
+          <feat class="mv" subset="pvagr"/>
+        </pos>
+        <lemma class="staan"/>
+        <morphology>
+          <morpheme>
+            <t>sta</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.36" class="WORD">
+        <t>voor</t>
+        <pos class="VZ(init)" confidence="0.991935" head="VZ">
+          <feat class="init" subset="vztype"/>
+        </pos>
+        <lemma class="voor"/>
+        <morphology>
+          <morpheme>
+            <t>voor</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.37" class="WORD">
+        <t>een</t>
+        <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
+          <feat class="onbep" subset="lwtype"/>
+          <feat class="stan" subset="naamval"/>
+          <feat class="agr" subset="npagr"/>
+        </pos>
+        <lemma class="een"/>
+        <morphology>
+          <morpheme>
+            <t>een</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.38" class="WORD">
+        <t>betrouwbare</t>
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.990169" head="ADJ">
+          <feat class="prenom" subset="positie"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="met-e" subset="buiging"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="betrouwbaar"/>
+        <morphology>
+          <morpheme>
+            <t>be</t>
+          </morpheme>
+          <morpheme>
+            <t>trouw</t>
+          </morpheme>
+          <morpheme>
+            <t>baar</t>
+          </morpheme>
+          <morpheme>
+            <t>e</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <w xml:id="teststandard.txt.text.s.7.w.39" class="UNKNOWN">
+        <t>zoekmachine.</t>
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.665544" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="ev" subset="getal"/>
+          <feat class="basis" subset="graad"/>
+          <feat class="zijd" subset="genus"/>
+          <feat class="stan" subset="naamval"/>
+        </pos>
+        <lemma class="zoekmachine."/>
+        <morphology>
+          <morpheme>
+            <t>zoek</t>
+          </morpheme>
+          <morpheme>
+            <t>machine.</t>
+          </morpheme>
+        </morphology>
+      </w>
+      <chunking xml:id="teststandard.txt.text.s.7.chunking.1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.1" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.1" t="Voor"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.2" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.2" t="het"/>
+          <wref id="teststandard.txt.text.s.7.w.3" t="nieuwe"/>
+          <wref id="teststandard.txt.text.s.7.w.4" t="project"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.3" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.5" t="hoopt"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.4" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.6" t="Wales"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.5" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.7" t="gebruik"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.6" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.8" t="te"/>
+          <wref id="teststandard.txt.text.s.7.w.9" t="kunnen"/>
+          <wref id="teststandard.txt.text.s.7.w.10" t="maken"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.7" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.11" t="van"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.8" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.12" t="de"/>
+          <wref id="teststandard.txt.text.s.7.w.13" t="gebruikers"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.9" class="SBAR" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.14" t="die"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.10" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.15" t="Wikipedia"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.11" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.16" t="tot"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.12" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.17" t="een"/>
+          <wref id="teststandard.txt.text.s.7.w.18" t="wereldwijd"/>
+          <wref id="teststandard.txt.text.s.7.w.19" t="succes"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.13" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.20" t="hebben"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.14" class="NP" confidence="0.947828">
+          <wref id="teststandard.txt.text.s.7.w.21" t="gemaakt."/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.15" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.22" t="De"/>
+          <wref id="teststandard.txt.text.s.7.w.23" t="goede"/>
+          <wref id="teststandard.txt.text.s.7.w.24" t="reputatie"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.16" class="SBAR" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.25" t="die"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.17" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.26" t="zij"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.18" class="NP" confidence="0.949649">
+          <wref id="teststandard.txt.text.s.7.w.27" t="hebben,"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.19" class="ADVP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.28" t="samen"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.20" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.29" t="met"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.21" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.30" t="de"/>
+          <wref id="teststandard.txt.text.s.7.w.31" t="duidelijke"/>
+          <wref id="teststandard.txt.text.s.7.w.32" t="technologie,"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.22" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.33" t="moet"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.23" class="VAST" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.34" t="garant"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.24" class="VP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.35" t="staan"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.25" class="PP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.36" t="voor"/>
+        </chunk>
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.26" class="NP" confidence="1">
+          <wref id="teststandard.txt.text.s.7.w.37" t="een"/>
+          <wref id="teststandard.txt.text.s.7.w.38" t="betrouwbare"/>
+          <wref id="teststandard.txt.text.s.7.w.39" t="zoekmachine."/>
+        </chunk>
+      </chunking>
+      <entities xml:id="teststandard.txt.text.s.7.entities.1">
+        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.1" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.7.w.6" t="Wales"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.2" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <wref id="teststandard.txt.text.s.7.w.15" t="Wikipedia"/>
+        </entity>
+      </entities>
+    </s>
+  </text>
+</FoLiA>
+1	De	de	[de]	LID(bep,stan,rest)	0.999701	O	B-NP				
+2	oprichter	oprichter	[op][richt][er]	N(soort,ev,basis,zijd,stan)	0.999694	O	I-NP				
+3	van	van	[van]	VZ(init)	0.959310	O	B-PP				
+4	Wikipedia,_Jimmy_Wales,	Wikipedia,_Jimmy_Wales,	[Wikipedia,]_[Jimmy]_[Wales,]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-LOC_B-PER_I-PER	B-NP_B-NP_I-NP				
+5	wil	willen	[wil]	WW(pv,tgw,ev)	0.994536	O	B-VP				
+6	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
+7	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
+8	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP				
+9	lanceren.	lanceren.	[lanceer][en.]	WW(pv,tgw,mv)	0.443084	O	B-VP				
+10	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.993902	O	B-NP				
+11	meldt	melden	[meld][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP				
+12	de	de	[de]	LID(bep,stan,rest)	0.999811	O	B-NP				
+13	Britse	britse	[brits][e]	ADJ(prenom,basis,met-e,stan)	0.981205	B-LOC	I-NP				
+14	krant	krant	[krant]	N(soort,ev,basis,zijd,stan)	0.971014	O	I-NP				
+15	The	The	[The]	SPEC(vreemd)	1.000000	B-PRO	B-NP				
+16	Times.	Times.	[Times.]	SPEC(vreemd)	1.000000	I-PRO	I-NP				
+17	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	I-PRO	I-NP				
+18	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.997207	O	B-VP				
+19	dat	dat	[dat]	VG(onder)	0.962882	O	B-SBAR				
+20	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP				
+21	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
+22	zoekmachine,	zoekmachine,	[zoek][machine,]	N(soort,ev,basis,zijd,stan)	0.467234	O	I-NP				
+23	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP				
+24	Wikiasari,	Wikiasari,	[Wikiasari,]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
+25	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP				
+26	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP				
+27	met	met	[met]	VZ(init)	0.999574	O	B-PP				
+28	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+29	en	en	[en]	VG(neven)	0.999194	O	B-CONJP				
+30	Yahoo!.	Yahoo!.	[Yahoo!.]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+
+1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
+2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP				
+3	gebruik	gebruik	[gebruik]	N(soort,ev,basis,onz,stan)	0.998108	O	B-NP				
+4	van	van	[van]	VZ(init)	0.959310	O	B-PP				
+5	dezelfde	dezelfde	[dezelfde]	ADJ(prenom,basis,zonder)	0.982473	O	B-NP				
+6	user-based	user-based	[user-based]	N(soort,ev,basis,onz,stan)	0.812838	O	I-NP				
+7	technologie	technologie	[technologisch][ie]	N(soort,ev,basis,zijd,stan)	0.997772	O	I-NP				
+8	als	als	[als]	VG(onder)	0.720588	O	B-SBAR				
+9	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+10	zelf.	zelf.	[zelf.]	SPEC(afk)	1.000000	O	I-NP				
+
+1	"Google	"google	["google]	N(soort,ev,basis,zijd,stan)	0.762794	O	B-NP				
+2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.998276	O	B-VP				
+3	een	een	[een]	LID(onbep,stan,agr)	0.997219	O	B-NP				
+4	zeer	zeer	[zeer]	BW()	0.978124	O	I-NP				
+5	goede	goed	[goed][e]	ADJ(prenom,basis,met-e,stan)	0.998739	O	I-NP				
+6	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997718	O	I-NP				
+7	maar	maar	[maar]	VG(neven)	0.862069	O	B-CONJP				
+8	vaak	vaak	[vaak]	ADJ(vrij,basis,zonder)	0.883333	O	B-ADVP				
+9	levert	leveren	[lever][t]	WW(pv,tgw,met-t)	0.999485	O	B-VP				
+10	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
+11	zoekresultaat	zoekresultaat	[zoe][k][resulteer][aat]	N(soort,ev,basis,zijd,stan)	0.796666	O	I-NP				
+12	niets	niets	[niets]	VNW(onbep,pron,stan,vol,3o,ev)	0.997921	O	B-NP				
+13	meer	veel	[meer]	VNW(onbep,grad,stan,vrij,zonder,comp)	0.986742	O	B-ADVP				
+14	op	op	[op]	VZ(fin)	0.850000	O	B-PP				
+15	dan	dan	[dan]	BW()	0.770408	O	B-ADVP				
+16	spam	spam	[spam]	N(soort,ev,basis,onz,stan)	0.996587	O	B-NP				
+17	en	en	[en]	VG(neven)	0.999194	O	B-CONJP				
+18	andere	ander	[ander][e]	ADJ(prenom,basis,met-e,stan)	0.990544	O	B-NP				
+19	onnodige	onnodig	[on][nodig][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
+20	informatie",	informatie",	[informatie",]	SPEC(vreemd)	1.000000	O	I-NP				
+21	aldus	aldus	[al][dus]	BW()	0.997264	O	B-ADVP				
+22	Wales.	Wales.	[Wales.]	SPEC(symb)	1.000000	O	B-NP				
+
+1	Het	het	[het]	LID(bep,stan,evon)	0.998917	O	B-NP				
+2	algoritmische	algoritmisch	[algoritme][isch][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
+3	zoekprogramma	zoekprogramma	[zoek][programma]	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP				
+4	van	van	[van]	VZ(init)	0.973586	O	B-PP				
+5	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+6	zou	zullen	[zal]	WW(pv,verl,ev)	0.999947	O	B-VP				
+7	volgens	volgens	[volgens]	VZ(init)	0.998616	O	B-PP				
+8	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+9	makkelijk	makkelijk	[mak][e][lijk]	ADJ(vrij,basis,zonder)	0.995289	O	B-ADVP				
+10	te	te	[te]	VZ(init)	0.999928	O	B-VP				
+11	beïnvloeden	beïnvloeden	[be][invloed][en]	WW(inf,vrij,zonder)	0.979167	O	I-VP				
+12	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.666667	O	B-VP				
+13	door	door	[door]	VZ(init)	0.998841	O	B-PP				
+14	spammers	spammer	[spammer][s]	N(soort,mv,basis)	0.997650	O	B-NP				
+15	en	en	[en]	VG(neven)	0.999342	O	B-CONJP				
+16	commerciële	commercieel	[commercie][eel][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	B-NP				
+17	ondernemingen.	ondernemingen.	[ondernemingen.]	WW(pv,tgw,mv)	0.332966	O	B-VP				
+18	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.738938	B-LOC	B-NP				
+19	bij	bij	[bij]	VZ(init)	0.989796	O	B-PP				
+20	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+21	worden	worden	[word][en]	WW(pv,tgw,mv)	1.000000	O	B-VP				
+22	uitgevoerd	uitvoeren	[uit][ge][voer][d]	WW(vd,vrij,zonder)	0.999154	O	I-VP				
+23	met_behulp_van	met_behulp_van	[met]_[behulp]_[van]	VZ(init)_N(soort,ev,basis,onz,stan)_VZ(init)	0.808650	O_O_O	B-PP_I-PP_I-PP				
+24	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
+25	algoritme	algoritme	[algoritme]	N(soort,ev,basis,onz,stan)	0.900000	O	I-NP				
+26	waardoor	waardoor	[waar][door]	BW()	0.993007	O	B-PP				
+27	het	het	[het]	LID(bep,stan,evon)	0.996942	O	B-NP				
+28	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.998547	O	I-NP				
+29	resultaat	resultaat	[resulteer][aat]	N(soort,ev,basis,onz,stan)	0.982759	O	I-NP				
+30	altijd	altijd	[altijd]	BW()	0.999919	O	B-ADVP				
+31	de	de	[de]	LID(bep,stan,rest)	0.999665	O	B-NP				
+32	website	website	[website]	N(soort,ev,basis,zijd,stan)	0.999295	O	I-NP				
+33	met	met	[met]	VZ(init)	0.999820	O	B-PP				
+34	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP				
+35	meeste	meest	[meeste]	VNW(onbep,grad,stan,prenom,met-e,agr,sup)	0.997028	O	I-NP				
+36	verwijzingen	verwijzing	[ver][wijs][ing][en]	N(soort,mv,basis)	0.998020	O	I-NP				
+37	is.	is.	[is.]	N(soort,mv,basis)	0.415250	O	B-NP				
+
+1	"De	"De	["De]	SPEC(symb)	1.000000	O	B-NP				
+2	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.997796	O	I-NP				
+3	taak	taak	[taak]	N(soort,ev,basis,zijd,stan)	0.999602	O	I-NP				
+4	van	van	[van]	VZ(init)	0.999667	O	B-PP				
+5	een	een	[een]	LID(onbep,stan,agr)	0.999038	O	B-NP				
+6	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997743	O	I-NP				
+7	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP				
+8	het	het	[het]	LID(bep,stan,evon)	0.500000	O	B-NP				
+9	maken	maken	[maak][en]	WW(inf,nom,zonder,zonder-n)	1.000000	O	I-NP				
+10	van	van	[van]	VZ(init)	0.999441	O	B-PP				
+11	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
+12	keuze.	keuze.	[keuse.]	N(soort,ev,basis,zijd,stan)	0.541239	O	I-NP				
+13	Deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780	O	B-NP				
+14	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998006	O	I-NP				
+15	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP				
+16	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.934383	O	B-ADJP				
+17	en	en	[en]	VG(neven)	0.999194	O	B-CONJP				
+18	deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.999113	O	B-NP				
+19	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP				
+20	'sucks'",	'sucks'",	['sucks'",]	SPEC(deeleigen)	1.000000	O	B-NP				
+21	verklaart	verklaren	[ver][klaar][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP				
+22	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP				
+23	40-jarige	40-jarig	[40-jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	0.988152	O	I-NP				
+24	voormalige	voormalig	[voor][maal][ig][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
+25	effectenhandelaar.	effectenhandelaar.	[effectenhandelaar.]	ADJ(prenom,basis,met-e,stan)	0.320616	O	I-NP				
+26	"Computers	"computer	["computer][s]	N(soort,mv,basis)	1.000000	O	I-NP				
+27	kunnen	kunnen	[kan][en]	WW(pv,tgw,mv)	0.911765	O	B-VP				
+28	nu_eenmaal	nu_eenmaal	[nu]_[eenmaal]	BW()_BW()	0.995579	O_O	B-ADVP_I-ADVP				
+29	niet	niet	[niet]	BW()	0.999918	O	I-ADVP				
+30	dergelijke	dergelijk	[dergelijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP				
+31	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.998020	O	I-NP				
+32	maken.	maken.	[maken.]	WW(pv,tgw,mv)	0.347918	O	B-VP				
+
+1	Meestal	meestal	[meest][al]	BW()	0.998992	O	B-ADVP				
+2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP				
+3	een	een	[een]	LID(onbep,stan,agr)	0.999560	O	B-NP				
+4	seconde	seconde	[seconde]	N(soort,ev,basis,zijd,stan)	0.996386	O	I-NP				
+5	genoeg	genoeg	[genoeg]	BW()	0.999172	O	B-NP				
+6	om	om	[om]	VZ(init)	0.897527	O	B-PP				
+7	te	te	[te]	VZ(init)	0.999179	O	B-VP				
+8	bepalen	bepalen	[be][paal][en]	WW(inf,vrij,zonder)	0.990566	O	I-VP				
+9	of	of	[of]	VG(neven)	0.924051	O	B-SBAR				
+10	een	een	[een]	LID(onbep,stan,agr)	0.999560	O	B-NP				
+11	website	website	[website]	N(soort,ev,basis,zijd,stan)	0.995781	O	I-NP				
+12	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.996139	O	B-ADVP				
+13	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP				
+14	of	of	[of]	VG(neven)	0.855677	O	B-CONJP				
+15	niet."	niet."	[niet."]	N(soort,mv,basis)	0.545883	O	B-NP				
+
+1	Voor	voor	[voor]	VZ(init)	0.950530	O	B-PP				
+2	het	het	[het]	LID(bep,stan,evon)	0.994595	O	B-NP				
+3	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
+4	project	project	[project]	N(soort,ev,basis,onz,stan)	0.998223	O	I-NP				
+5	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.998984	O	B-VP				
+6	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+7	gebruik	gebruiken	[gebruik]	WW(pv,tgw,ev)	0.500000	O	B-VP				
+8	te	te	[te]	VZ(init)	0.907459	O	B-VP				
+9	kunnen	kunnen	[kan][en]	WW(inf,vrij,zonder)	0.914286	O	I-VP				
+10	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.580078	O	I-VP				
+11	van	van	[van]	VZ(init)	0.998982	O	B-PP				
+12	de	de	[de]	LID(bep,stan,rest)	0.999852	O	B-NP				
+13	gebruikers	gebruiker	[gebruik][er][s]	N(soort,mv,basis)	0.999597	O	I-NP				
+14	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.969697	O	B-SBAR				
+15	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+16	tot	tot	[tot]	VZ(init)	0.998379	O	B-PP				
+17	een	een	[een]	LID(onbep,stan,agr)	0.999386	O	B-NP				
+18	wereldwijd	wereldwijd	[wereld][wijd]	ADJ(prenom,basis,zonder)	0.978684	O	I-NP				
+19	succes	succes	[succes]	N(soort,ev,basis,onz,stan)	0.998985	O	I-NP				
+20	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.790390	O	B-VP				
+21	gemaakt.	gemaakt.	[gemaakt.]	N(soort,ev,basis,zijd,stan)	0.525939	O	B-NP				
+22	De	de	[de]	LID(bep,stan,rest)	0.992095	O	B-NP				
+23	goede	goed	[goed][e]	ADJ(prenom,basis,met-e,stan)	0.997314	O	I-NP				
+24	reputatie	reputatie	[reputatie]	N(soort,ev,basis,zijd,stan)	0.999455	O	I-NP				
+25	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.966981	O	B-SBAR				
+26	zij	zij	[zij]	VNW(pers,pron,nomin,vol,3p,mv)	0.527279	O	B-NP				
+27	hebben,	hebben,	[hebben,]	N(soort,mv,basis)	0.405593	O	B-NP				
+28	samen	samen	[samen]	BW()	0.998251	O	B-ADVP				
+29	met	met	[met]	VZ(init)	0.999820	O	B-PP				
+30	de	de	[de]	LID(bep,stan,rest)	0.999805	O	B-NP				
+31	duidelijke	duidelijk	[duid][elijk][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
+32	technologie,	technologie,	[technologie,]	N(soort,mv,basis)	0.818707	O	I-NP				
+33	moet	moeten	[moet]	WW(pv,tgw,ev)	0.999794	O	B-VP				
+34	garant	garant	[garant]	N(soort,ev,basis,zijd,stan)	0.800000	O	B-VAST				
+35	staan	staan	[sta]	WW(pv,tgw,mv)	1.000000	O	B-VP				
+36	voor	voor	[voor]	VZ(init)	0.991935	O	B-PP				
+37	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
+38	betrouwbare	betrouwbaar	[be][trouw][baar][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
+39	zoekmachine.	zoekmachine.	[zoek][machine.]	N(soort,ev,basis,zijd,stan)	0.665544	O	I-NP				
+
