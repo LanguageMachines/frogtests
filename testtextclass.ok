@@ -29,20 +29,23 @@ test 1:
       </morphological-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:46" host="bonus" name="ucto" user="sloot" version="0.15">
-        <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-          <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-05-02T11:08:37" command="--skip=nmcp -x textproblem.xml -X textproblem1.out.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" name="ucto" version="0.15">
+          <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
         </processor>
-      </processor>
-      <processor xml:id="tagger.1" name="tagger" version="1.0">
-        <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mblem.1" name="mblem" version="1.1">
-        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mbma.1" name="mbma" version="1.0">
-        <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="tagger.1" name="tagger" version="1.0">
+          <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mblem.1" name="mblem" version="1.1">
+          <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mbma.1" name="mbma" version="1.0">
+          <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -115,20 +118,23 @@ test 2:
       </morphological-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:47" host="bonus" name="ucto" user="sloot" version="0.15">
-        <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-          <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-05-02T11:08:38" command="--skip=nmcp --textclass=OCR -x textproblem.xml -X textproblem2.out.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" name="ucto" version="0.15">
+          <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
         </processor>
-      </processor>
-      <processor xml:id="tagger.1" name="tagger" version="1.0">
-        <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mblem.1" name="mblem" version="1.1">
-        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mbma.1" name="mbma" version="1.0">
-        <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="tagger.1" name="tagger" version="1.0">
+          <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mblem.1" name="mblem" version="1.1">
+          <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mbma.1" name="mbma" version="1.0">
+          <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -201,20 +207,23 @@ test 3:
       </morphological-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:49" host="bonus" name="ucto" user="sloot" version="0.15">
-        <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-          <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-05-02T11:08:40" command="--skip=nmcp -X textproblem3.out.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" name="ucto" version="0.15">
+          <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
         </processor>
-      </processor>
-      <processor xml:id="tagger.1" name="tagger" version="1.0">
-        <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mblem.1" name="mblem" version="1.1">
-        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mbma.1" name="mbma" version="1.0">
-        <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="tagger.1" name="tagger" version="1.0">
+          <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mblem.1" name="mblem" version="1.1">
+          <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mbma.1" name="mbma" version="1.0">
+          <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -287,20 +296,23 @@ test 4:
       </morphological-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:50" host="bonus" name="ucto" user="sloot" version="0.15">
-        <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-          <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-05-02T11:08:41" command="--skip=nmcp --textclass=OCR -X textproblem4.out.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" name="ucto" version="0.15">
+          <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
         </processor>
-      </processor>
-      <processor xml:id="tagger.1" name="tagger" version="1.0">
-        <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mblem.1" name="mblem" version="1.1">
-        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mbma.1" name="mbma" version="1.0">
-        <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="tagger.1" name="tagger" version="1.0">
+          <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mblem.1" name="mblem" version="1.1">
+          <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mbma.1" name="mbma" version="1.0">
+          <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -373,20 +385,23 @@ test 5:
       </morphological-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:51" host="bonus" name="ucto" user="sloot" version="0.15">
-        <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-          <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-05-02T11:08:43" command="--skip=nmcp --inputclass=OCR -X textproblem5.out.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" name="ucto" version="0.15">
+          <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
         </processor>
-      </processor>
-      <processor xml:id="tagger.1" name="tagger" version="1.0">
-        <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mblem.1" name="mblem" version="1.1">
-        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mbma.1" name="mbma" version="1.0">
-        <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="tagger.1" name="tagger" version="1.0">
+          <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mblem.1" name="mblem" version="1.1">
+          <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mbma.1" name="mbma" version="1.0">
+          <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -459,20 +474,23 @@ test 6:
       </morphological-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="ucto.1" begindatetime="2019-05-01T14:39:53" host="bonus" name="ucto" user="sloot" version="0.15">
-        <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-          <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-05-02T11:08:44" command="--skip=nmcp --inputclass=OCR --outputclass=TEST -X textproblem6.out.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" name="ucto" version="0.15">
+          <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
         </processor>
-      </processor>
-      <processor xml:id="tagger.1" name="tagger" version="1.0">
-        <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mblem.1" name="mblem" version="1.1">
-        <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-      </processor>
-      <processor xml:id="mbma.1" name="mbma" version="1.0">
-        <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="tagger.1" name="tagger" version="1.0">
+          <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mblem.1" name="mblem" version="1.1">
+          <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
+        <processor xml:id="mbma.1" name="mbma" version="1.0">
+          <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
+        </processor>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
