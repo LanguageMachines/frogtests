@@ -240,35 +240,20 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T11:04:11" command="-x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser.xml" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-02T13:29:27" command="-x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser.xml" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
         <processor xml:id="ucto.1" name="ucto" version="0.15">
-          <processor xml:id="ucto.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" name="tagger" version="1.0">
-          <processor xml:id="tagger.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        </processor>
-        <processor xml:id="mblem.1" name="mblem" version="1.1">
-          <processor xml:id="mblem.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        </processor>
-        <processor xml:id="mbma.1" name="mbma" version="1.0">
-          <processor xml:id="mbma.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        </processor>
-        <processor xml:id="IOB.1" name="IOB" version="2.0">
-          <processor xml:id="IOB.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        </processor>
-        <processor xml:id="NER.1" name="NER" version="2.0">
-          <processor xml:id="NER.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        </processor>
-        <processor xml:id="mwu.1" name="mwu" version="1.0">
-          <processor xml:id="mwu.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        </processor>
-        <processor xml:id="dep-parser.1" name="dep-parser" version="1.0">
-          <processor xml:id="dep-parser.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        </processor>
+        <processor xml:id="tagger.1" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" name="NER" version="2.0"/>
+        <processor xml:id="mwu.1" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
