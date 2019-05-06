@@ -240,20 +240,20 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T18:01:19" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser.xml" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-06T09:36:03" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser.xml" host="kokos" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T18:01:19" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-06T09:36:03" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T18:01:19" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T18:01:19" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T18:01:19" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-02T18:01:19" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-02T18:01:19" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-02T18:01:19" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-05-02T18:01:19" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-06T09:36:03" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-06T09:36:03" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-06T09:36:03" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-06T09:36:03" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-06T09:36:03" name="NER" version="2.0"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-06T09:36:03" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-05-06T09:36:03" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -397,7 +397,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="is"/>
               </hd>
               <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2"/>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="dit"/>
               </dep>
             </dependency>
             <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.2" class="det" textclass="OCR">
@@ -405,7 +405,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
               </hd>
               <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4"/>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="een"/>
               </dep>
             </dependency>
             <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.3" class="su" textclass="OCR">
@@ -413,7 +413,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
               </hd>
               <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5"/>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
               </dep>
             </dependency>
             <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.4" class="mod" textclass="OCR">
@@ -421,7 +421,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
               </hd>
               <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7"/>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
               </dep>
             </dependency>
             <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.5" class="obj1" textclass="OCR">
@@ -429,7 +429,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
               </hd>
               <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8"/>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
               </dep>
             </dependency>
             <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.6" class="punct" textclass="OCR">
@@ -437,7 +437,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
               </hd>
               <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.9"/>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.9" t="."/>
               </dep>
             </dependency>
           </dependencies>
