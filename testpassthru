@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# defaults:
+#
+
+$comm --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml
+cat testpassthru.xml >> testpassthru.out
+cat testpassthru.txt >> testpassthru.out
