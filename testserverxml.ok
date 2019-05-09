@@ -26,6 +26,7 @@
 8	?	?	[?]	LET()	1.000000	O	O				
 
 READY
+
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="WR-P-E-J-0000000001" version="0.8" generator="libfolia-v0.4">
   <metadata type="imdi">
@@ -55,6 +56,7 @@ READY
 9	?	?	[?]	LET()	1.000000	O	O				
 
 READY
+
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="WR-P-E-J-0000000001" version="0.8" generator="libfolia-v0.4">
   <metadata type="imdi">
@@ -90,9 +92,6 @@ READY
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
-        <annotator processor="ucto.1"/>
-      </lang-annotation>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
@@ -122,19 +121,19 @@ READY
       </entity-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T15:40:38" command="frog -x  -X  --KANON --skip=p -S 7000" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-09T11:30:49" command="frog -x  -X  --KANON --skip=p -S 7000" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T15:40:38" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-09T11:30:49" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T15:40:38" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T15:40:38" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T15:40:38" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-02T15:40:38" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-02T15:40:38" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-02T15:40:38" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-09T11:30:49" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-09T11:30:49" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-09T11:30:49" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-09T11:30:49" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-09T11:30:49" name="NER" version="2.0"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-09T11:30:49" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -284,6 +283,7 @@ READY
   </text>
 </FoLiA>
 READY
+
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="WR-P-E-J-0000000001" version="0.8" generator="libfolia-v0.4">
   <metadata type="imdi">
@@ -320,9 +320,6 @@ READY
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
-        <annotator processor="ucto.1"/>
-      </lang-annotation>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
@@ -352,19 +349,19 @@ READY
       </entity-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T15:40:38" command="frog -x  -X  --KANON --skip=p -S 7000" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-09T11:30:49" command="frog -x  -X  --KANON --skip=p -S 7000" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T15:40:38" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-09T11:30:49" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T15:40:38" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T15:40:38" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T15:40:38" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-02T15:40:38" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-02T15:40:38" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-02T15:40:38" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-09T11:30:49" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-09T11:30:49" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-09T11:30:49" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-09T11:30:49" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-09T11:30:49" name="NER" version="2.0"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-09T11:30:49" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -533,3 +530,4 @@ READY
   </text>
 </FoLiA>
 READY
+

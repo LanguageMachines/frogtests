@@ -13,9 +13,6 @@
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
-        <annotator processor="ucto.1"/>
-      </lang-annotation>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
@@ -39,16 +36,16 @@
       </pos-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T15:38:13" command="frog --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-09T11:28:15" command="frog --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T15:38:13" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-09T11:28:15" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T15:38:13" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T15:38:13" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T15:38:13" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-09T11:28:15" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-09T11:28:15" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-09T11:28:15" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -412,9 +409,6 @@
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
-        <annotator processor="ucto.1"/>
-      </lang-annotation>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
@@ -438,16 +432,16 @@
       </pos-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T15:38:14" command="frog --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-09T11:28:16" command="frog --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T15:38:14" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-09T11:28:16" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T15:38:14" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T15:38:14" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T15:38:14" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-09T11:28:16" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-09T11:28:16" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-09T11:28:16" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -5573,9 +5567,6 @@
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
-        <annotator processor="ucto.1"/>
-      </lang-annotation>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
@@ -5599,16 +5590,16 @@
       </pos-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T15:38:16" command="frog --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-09T11:28:18" command="frog --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T15:38:16" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-09T11:28:18" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T15:38:16" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T15:38:16" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T15:38:16" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-09T11:28:18" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-09T11:28:18" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-09T11:28:18" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -11243,9 +11234,6 @@
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
-        <annotator processor="ucto.1"/>
-      </lang-annotation>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
@@ -11269,16 +11257,16 @@
       </pos-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T15:38:17" command="frog --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-09T11:28:19" command="frog --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T15:38:17" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-09T11:28:19" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T15:38:17" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T15:38:17" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T15:38:17" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-09T11:28:19" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-09T11:28:19" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-09T11:28:19" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -14173,9 +14161,6 @@
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
-        <annotator processor="ucto.1"/>
-      </lang-annotation>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
@@ -14211,20 +14196,20 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T15:38:20" command="frog -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-09T11:28:22" command="frog -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T15:38:20" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-09T11:28:22" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T15:38:20" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T15:38:20" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T15:38:20" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-02T15:38:20" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-02T15:38:20" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-02T15:38:20" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-05-02T15:38:20" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-09T11:28:22" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-09T11:28:22" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-09T11:28:22" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-09T11:28:22" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-09T11:28:22" name="NER" version="2.0"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-09T11:28:22" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-05-09T11:28:22" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -14574,9 +14559,6 @@
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
-        <annotator processor="ucto.1"/>
-      </lang-annotation>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
@@ -14600,16 +14582,16 @@
       </pos-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T15:38:23" command="frog --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-09T11:28:25" command="frog --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T15:38:23" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-09T11:28:25" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T15:38:23" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T15:38:23" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T15:38:23" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-09T11:28:25" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-09T11:28:25" name="mblem" version="1.1"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-09T11:28:25" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
