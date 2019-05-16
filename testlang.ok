@@ -24,37 +24,38 @@ testlang test 1
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="native">
     <annotations>
-      <division-annotation annotator="ucto" set="div"/>
-      <lang-annotation annotator="ko" annotatortype="manual"/>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
+      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <lang-annotation annotator="ko" annotatortype="manual"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-09T13:18:26" command="frog --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-16T16:57:48" command="frog --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-09T13:18:26" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-16T16:57:48" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-09T13:18:26" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-09T13:18:26" name="mblem" version="1.1"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-16T16:57:48" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-16T16:57:48" name="mblem" version="1.1"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -270,37 +271,38 @@ testlang test 2
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="native">
     <annotations>
-      <division-annotation annotator="ucto" set="div"/>
-      <lang-annotation annotator="ko" annotatortype="manual"/>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
+      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <lang-annotation annotator="ko" annotatortype="manual"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-09T13:18:27" command="frog --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-16T16:57:50" command="frog --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-09T13:18:27" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-16T16:57:50" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-09T13:18:27" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-09T13:18:27" name="mblem" version="1.1"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-16T16:57:50" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-16T16:57:50" name="mblem" version="1.1"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -525,41 +527,42 @@ testlang test 3
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
   <metadata type="native">
     <annotations>
-      <division-annotation annotator="ucto" set="div"/>
-      <lang-annotation annotator="ko" annotatortype="manual"/>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <token-annotation alias="tokconfig-eng" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-eng.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
+      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <lang-annotation annotator="ko" annotatortype="manual"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-09T13:18:28" command="frog --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-16T16:57:51" command="frog --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-09T13:18:28" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-16T16:57:51" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
             <processor xml:id="ucto.1.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-09T13:18:28" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-09T13:18:28" name="mblem" version="1.1"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-16T16:57:51" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-16T16:57:51" name="mblem" version="1.1"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -806,6 +809,7 @@ testlang test 4
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="folia-lang.txt" generator="libfolia-v1.20" version="2.0.3">
   <metadata type="native">
     <annotations>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <token-annotation alias="tokconfig-eng" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-eng.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
@@ -818,30 +822,30 @@ testlang test 4
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset">
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </lang-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-09T13:18:29" command="frog --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+      <processor xml:id="frog.1" begindatetime="2019-05-16T16:57:52" command="frog --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
         <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-09T13:18:29" name="ucto" version="0.15">
+        <processor xml:id="ucto.1" begindatetime="2019-05-16T16:57:52" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
             <processor xml:id="ucto.1.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-09T13:18:29" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-09T13:18:29" name="mblem" version="1.1"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-16T16:57:52" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-16T16:57:52" name="mblem" version="1.1"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
