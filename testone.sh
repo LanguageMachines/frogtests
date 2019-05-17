@@ -26,7 +26,7 @@ do if test -x $file
       \rm -f $file.out
       echo -n "Frogging $file "
       bash ./$file > $file.err 2>&1
-      diff -w -B --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*" --ignore-matching-lines=".*begindatetime=.*" $file.out $file.ok >& $file.diff
+      diff -w -B --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*" --ignore-matching-lines=".*begindatetime=.*"  --ignore-matching-lines=".*version=.*" $file.out $file.ok >& $file.diff
       err=$?
       if [ $err -ne 0 ]
       then
@@ -34,7 +34,7 @@ do if test -x $file
 	  do
 	      if  test -e $file.$vari.ok
 	      then
-		  diff -w -B --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*" --ignore-matching-lines=".*begindatetime=.*"  $file.out $file.$vari.ok >& $file.diff
+		  diff -w -B --ignore-matching-lines=".?*-annotation .?*" --ignore-matching-lines=".*generator=.*"  --ignore-matching-lines=".*version=.*" --ignore-matching-lines=".*begindatetime=.*"  $file.out $file.$vari.ok >& $file.diff
 		  if [ $? -eq 0 ]
 		  then
 		      err=0
