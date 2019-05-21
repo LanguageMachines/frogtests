@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v1.20" version="2.0.3">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v1.20" version="2.1.0">
   <metadata type="native">
     <annotations>
       <token-annotation set="passthru">
@@ -24,17 +24,18 @@
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-02T15:30:47" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" host="bonus" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-02T15:30:47" name="ucto" version="0.15"/>
-        <processor xml:id="tagger.1" begindatetime="2019-05-02T15:30:47" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-02T15:30:47" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-02T15:30:47" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-02T15:30:47" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-02T15:30:47" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-02T15:30:47" name="mwu" version="1.0"/>
+      <processor xml:id="frog.1" begindatetime="2019-05-21T18:10:09" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:10:09" name="ucto" version="0.15"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:10:09" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:10:09" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-21T18:10:09" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-21T18:10:09" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-21T18:10:09" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-21T18:10:09" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -78,7 +79,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.3" class="WORD">
         <t>van</t>
-        <pos class="VZ(init)" confidence="0.95931" head="VZ">
+        <pos class="VZ(init)" confidence="0.959310" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="van"/>
@@ -90,7 +91,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.4" class="UNKNOWN">
         <t>Wikipedia,</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Wikipedia,"/>
@@ -102,7 +103,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.5" class="WORD">
         <t>Jimmy</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Jimmy"/>
@@ -114,7 +115,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.6" class="UNKNOWN">
         <t>Wales,</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Wales,"/>
@@ -290,7 +291,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.17" class="WORD">
         <t>The</t>
-        <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+        <pos class="SPEC(vreemd)" confidence="1.000000" head="SPEC">
           <feat class="vreemd" subset="spectype"/>
         </pos>
         <lemma class="The"/>
@@ -302,7 +303,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.18" class="UNKNOWN">
         <t>Times.</t>
-        <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+        <pos class="SPEC(vreemd)" confidence="1.000000" head="SPEC">
           <feat class="vreemd" subset="spectype"/>
         </pos>
         <lemma class="Times."/>
@@ -314,7 +315,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.19" class="WORD">
         <t>Wales</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Wales"/>
@@ -430,7 +431,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.26" class="UNKNOWN">
         <t>Wikiasari,</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Wikiasari,"/>
@@ -485,7 +486,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.30" class="WORD">
         <t>Google</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Google"/>
@@ -509,7 +510,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.32" class="UNKNOWN">
         <t>Yahoo!.</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Yahoo!."/>
@@ -520,78 +521,78 @@
         </morphology>
       </w>
       <chunking xml:id="teststandard.txt.text.s.1.chunking.1">
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.1" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.1" t="De"/>
           <wref id="teststandard.txt.text.s.1.w.2" t="oprichter"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.2" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.2" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.3" t="van"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.3" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.3" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.4" t="Wikipedia,"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.4" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.4" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.5" t="Jimmy"/>
           <wref id="teststandard.txt.text.s.1.w.6" t="Wales,"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.5" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.5" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.7" t="wil"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.6" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.6" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.8" t="een"/>
           <wref id="teststandard.txt.text.s.1.w.9" t="nieuwe"/>
           <wref id="teststandard.txt.text.s.1.w.10" t="zoekmachine"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.7" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.7" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.11" t="lanceren."/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.8" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.8" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.12" t="Dit"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.9" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.9" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.13" t="meldt"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.10" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.10" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.14" t="de"/>
           <wref id="teststandard.txt.text.s.1.w.15" t="Britse"/>
           <wref id="teststandard.txt.text.s.1.w.16" t="krant"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.11" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.11" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.17" t="The"/>
           <wref id="teststandard.txt.text.s.1.w.18" t="Times."/>
           <wref id="teststandard.txt.text.s.1.w.19" t="Wales"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.12" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.12" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.20" t="hoopt"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.13" class="SBAR" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.13" class="SBAR" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.21" t="dat"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.14" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.14" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.22" t="de"/>
           <wref id="teststandard.txt.text.s.1.w.23" t="nieuwe"/>
           <wref id="teststandard.txt.text.s.1.w.24" t="zoekmachine,"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.15" class="ADJP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.15" class="ADJP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.25" t="genaamd"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.16" class="NP" confidence="0.857248">
           <wref id="teststandard.txt.text.s.1.w.26" t="Wikiasari,"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.17" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.17" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.27" t="kan"/>
           <wref id="teststandard.txt.text.s.1.w.28" t="concurreren"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.18" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.18" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.29" t="met"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.19" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.19" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.30" t="Google"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.20" class="CONJP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.20" class="CONJP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.31" t="en"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.21" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.1.chunking.1.chunk.21" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.1.w.32" t="Yahoo!."/>
         </chunk>
       </chunking>
@@ -606,14 +607,14 @@
         <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.1" class="loc" confidence="0.536394" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.4" t="Wikipedia,"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.2" class="per" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.2" class="per" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.5" t="Jimmy"/>
           <wref id="teststandard.txt.text.s.1.w.6" t="Wales,"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.3" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.3" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.15" t="Britse"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.4" class="pro" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.4" class="pro" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.17" t="The"/>
           <wref id="teststandard.txt.text.s.1.w.18" t="Times."/>
           <wref id="teststandard.txt.text.s.1.w.19" t="Wales"/>
@@ -621,7 +622,7 @@
         <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.5" class="per" confidence="0.274192" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.26" t="Wikiasari,"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.6" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.6" class="org" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.30" t="Google"/>
         </entity>
         <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.7" class="org" confidence="0.682683" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
@@ -632,7 +633,7 @@
     <s xml:id="teststandard.txt.text.s.2">
       <w xml:id="teststandard.txt.text.s.2.w.1" class="WORD">
         <t>Wikiasari</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Wikiasari"/>
@@ -644,7 +645,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.2.w.2" class="WORD">
         <t>maakt</t>
-        <pos class="WW(pv,tgw,met-t)" confidence="0.99937" head="WW">
+        <pos class="WW(pv,tgw,met-t)" confidence="0.999370" head="WW">
           <feat class="pv" subset="wvorm"/>
           <feat class="tgw" subset="pvtijd"/>
           <feat class="met-t" subset="pvagr"/>
@@ -680,7 +681,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.2.w.4" class="WORD">
         <t>van</t>
-        <pos class="VZ(init)" confidence="0.95931" head="VZ">
+        <pos class="VZ(init)" confidence="0.959310" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="van"/>
@@ -753,7 +754,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.2.w.9" class="WORD">
         <t>Wikipedia</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Wikipedia"/>
@@ -765,7 +766,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.2.w.10" class="UNKNOWN">
         <t>zelf.</t>
-        <pos class="SPEC(afk)" confidence="1" head="SPEC">
+        <pos class="SPEC(afk)" confidence="1.000000" head="SPEC">
           <feat class="afk" subset="spectype"/>
         </pos>
         <lemma class="zelf."/>
@@ -776,16 +777,16 @@
         </morphology>
       </w>
       <chunking xml:id="teststandard.txt.text.s.2.chunking.1">
-        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.1" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.1" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.2.w.1" t="Wikiasari"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.2" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.2" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.2.w.2" t="maakt"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.3" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.3" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.2.w.3" t="gebruik"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.4" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.4" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.2.w.4" t="van"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.5" class="NP" confidence="0.521007">
@@ -793,7 +794,7 @@
           <wref id="teststandard.txt.text.s.2.w.6" t="user-based"/>
           <wref id="teststandard.txt.text.s.2.w.7" t="technologie"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.6" class="SBAR" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.6" class="SBAR" confidence="1.000000">
           <wref id="teststandard.txt.text.s.2.w.8" t="als"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.2.chunking.1.chunk.7" class="NP" confidence="0.724438">
@@ -805,7 +806,7 @@
         <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.1" class="per" confidence="0.385802" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.2.w.1" t="Wikiasari"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.2" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.2" class="org" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.2.w.9" t="Wikipedia"/>
         </entity>
       </entities>
@@ -1020,7 +1021,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.3.w.14" class="WORD">
         <t>op</t>
-        <pos class="VZ(fin)" confidence="0.85" head="VZ">
+        <pos class="VZ(fin)" confidence="0.850000" head="VZ">
           <feat class="fin" subset="vztype"/>
         </pos>
         <lemma class="op"/>
@@ -1109,7 +1110,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.3.w.20" class="UNKNOWN">
         <t>informatie",</t>
-        <pos class="SPEC(vreemd)" confidence="1" head="SPEC">
+        <pos class="SPEC(vreemd)" confidence="1.000000" head="SPEC">
           <feat class="vreemd" subset="spectype"/>
         </pos>
         <lemma class="informatie&quot;,"/>
@@ -1134,7 +1135,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.3.w.22" class="UNKNOWN">
         <t>Wales.</t>
-        <pos class="SPEC(symb)" confidence="1" head="SPEC">
+        <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
           <feat class="symb" subset="spectype"/>
         </pos>
         <lemma class="Wales."/>
@@ -1145,50 +1146,50 @@
         </morphology>
       </w>
       <chunking xml:id="teststandard.txt.text.s.3.chunking.1">
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.1" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.1" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.1" t="&quot;Google"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.2" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.2" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.2" t="is"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.3" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.3" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.3" t="een"/>
           <wref id="teststandard.txt.text.s.3.w.4" t="zeer"/>
           <wref id="teststandard.txt.text.s.3.w.5" t="goede"/>
           <wref id="teststandard.txt.text.s.3.w.6" t="zoekmachine"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.4" class="CONJP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.4" class="CONJP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.7" t="maar"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.5" class="ADVP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.5" class="ADVP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.8" t="vaak"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.6" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.6" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.9" t="levert"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.7" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.7" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.10" t="een"/>
           <wref id="teststandard.txt.text.s.3.w.11" t="zoekresultaat"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.8" class="NP" confidence="0.770499">
           <wref id="teststandard.txt.text.s.3.w.12" t="niets"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.9" class="ADVP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.9" class="ADVP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.13" t="meer"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.10" class="PP" confidence="0.58554">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.10" class="PP" confidence="0.585540">
           <wref id="teststandard.txt.text.s.3.w.14" t="op"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.11" class="ADVP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.11" class="ADVP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.15" t="dan"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.12" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.12" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.16" t="spam"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.13" class="CONJP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.13" class="CONJP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.17" t="en"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.14" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.3.chunking.1.chunk.14" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.3.w.18" t="andere"/>
           <wref id="teststandard.txt.text.s.3.w.19" t="onnodige"/>
           <wref id="teststandard.txt.text.s.3.w.20" t="informatie&quot;,"/>
@@ -1239,7 +1240,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.3" class="WORD">
         <t>zoekprogramma</t>
-        <pos class="N(soort,ev,basis,onz,stan)" confidence="1" head="N">
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="1.000000" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="ev" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -1270,7 +1271,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.5" class="WORD">
         <t>Google</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Google"/>
@@ -1308,7 +1309,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.8" class="WORD">
         <t>Wales</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Wales"/>
@@ -1398,7 +1399,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.14" class="WORD">
         <t>spammers</t>
-        <pos class="N(soort,mv,basis)" confidence="0.99765" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.997650" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -1494,7 +1495,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.20" class="WORD">
         <t>Google</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Google"/>
@@ -1506,7 +1507,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.21" class="WORD">
         <t>worden</t>
-        <pos class="WW(pv,tgw,mv)" confidence="1" head="WW">
+        <pos class="WW(pv,tgw,mv)" confidence="1.000000" head="WW">
           <feat class="pv" subset="wvorm"/>
           <feat class="tgw" subset="pvtijd"/>
           <feat class="mv" subset="pvagr"/>
@@ -1546,7 +1547,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.23" class="WORD">
         <t>met</t>
-        <pos class="VZ(init)" confidence="0.99948" head="VZ">
+        <pos class="VZ(init)" confidence="0.999480" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="met"/>
@@ -1600,7 +1601,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.27" class="WORD">
         <t>algoritme</t>
-        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.9" head="N">
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.900000" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="ev" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -1725,7 +1726,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.35" class="WORD">
         <t>met</t>
-        <pos class="VZ(init)" confidence="0.99982" head="VZ">
+        <pos class="VZ(init)" confidence="0.999820" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="met"/>
@@ -1775,7 +1776,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.38" class="WORD">
         <t>verwijzingen</t>
-        <pos class="N(soort,mv,basis)" confidence="0.99802" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.998020" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -1798,7 +1799,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.39" class="UNKNOWN">
         <t>is.</t>
-        <pos class="N(soort,mv,basis)" confidence="0.41525" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.415250" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -1811,49 +1812,49 @@
         </morphology>
       </w>
       <chunking xml:id="teststandard.txt.text.s.4.chunking.1">
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.1" class="NP" confidence="0.98642">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.1" class="NP" confidence="0.986420">
           <wref id="teststandard.txt.text.s.4.w.1" t="Het"/>
           <wref id="teststandard.txt.text.s.4.w.2" t="algoritmische"/>
           <wref id="teststandard.txt.text.s.4.w.3" t="zoekprogramma"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.2" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.2" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.4" t="van"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.3" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.3" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.5" t="Google"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.4" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.4" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.6" t="zou"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.5" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.5" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.7" t="volgens"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.6" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.6" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.8" t="Wales"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.7" class="ADVP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.7" class="ADVP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.9" t="makkelijk"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.8" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.8" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.10" t="te"/>
           <wref id="teststandard.txt.text.s.4.w.11" t="beïnvloeden"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.9" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.9" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.12" t="zijn"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.10" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.10" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.13" t="door"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.11" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.11" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.14" t="spammers"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.12" class="CONJP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.12" class="CONJP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.15" t="en"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.13" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.13" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.16" t="commerciële"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.14" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.14" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.17" t="ondernemingen."/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.15" class="NP" confidence="0.949871">
@@ -1862,46 +1863,46 @@
         <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.16" class="PP" confidence="0.876309">
           <wref id="teststandard.txt.text.s.4.w.19" t="bij"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.17" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.17" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.20" t="Google"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.18" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.18" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.21" t="worden"/>
           <wref id="teststandard.txt.text.s.4.w.22" t="uitgevoerd"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.19" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.19" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.23" t="met"/>
           <wref id="teststandard.txt.text.s.4.w.24" t="behulp"/>
           <wref id="teststandard.txt.text.s.4.w.25" t="van"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.20" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.20" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.26" t="een"/>
           <wref id="teststandard.txt.text.s.4.w.27" t="algoritme"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.21" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.21" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.28" t="waardoor"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.22" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.22" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.29" t="het"/>
           <wref id="teststandard.txt.text.s.4.w.30" t="eerste"/>
           <wref id="teststandard.txt.text.s.4.w.31" t="resultaat"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.23" class="ADVP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.23" class="ADVP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.32" t="altijd"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.24" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.24" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.33" t="de"/>
           <wref id="teststandard.txt.text.s.4.w.34" t="website"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.25" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.25" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.35" t="met"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.26" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.26" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.4.w.36" t="de"/>
           <wref id="teststandard.txt.text.s.4.w.37" t="meeste"/>
           <wref id="teststandard.txt.text.s.4.w.38" t="verwijzingen"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.27" class="NP" confidence="0.64665">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.27" class="NP" confidence="0.646650">
           <wref id="teststandard.txt.text.s.4.w.39" t="is."/>
         </chunk>
       </chunking>
@@ -1913,16 +1914,16 @@
         </entity>
       </entities>
       <entities xml:id="teststandard.txt.text.s.4.entities.2">
-        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.1" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.1" class="org" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.4.w.5" t="Google"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.2" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.2" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.4.w.8" t="Wales"/>
         </entity>
         <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.3" class="loc" confidence="0.622464" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.4.w.18" t="Zoekopdrachten"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.4" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.4" class="org" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.4.w.20" t="Google"/>
         </entity>
       </entities>
@@ -1930,7 +1931,7 @@
     <s xml:id="teststandard.txt.text.s.5">
       <w xml:id="teststandard.txt.text.s.5.w.1" class="UNKNOWN">
         <t>"De</t>
-        <pos class="SPEC(symb)" confidence="1" head="SPEC">
+        <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
           <feat class="symb" subset="spectype"/>
         </pos>
         <lemma class="&quot;De"/>
@@ -2040,7 +2041,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.8" class="WORD">
         <t>het</t>
-        <pos class="LID(bep,stan,evon)" confidence="0.5" head="LID">
+        <pos class="LID(bep,stan,evon)" confidence="0.500000" head="LID">
           <feat class="bep" subset="lwtype"/>
           <feat class="stan" subset="naamval"/>
           <feat class="evon" subset="npagr"/>
@@ -2054,7 +2055,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.9" class="WORD">
         <t>maken</t>
-        <pos class="WW(inf,nom,zonder,zonder-n)" confidence="1" head="WW">
+        <pos class="WW(inf,nom,zonder,zonder-n)" confidence="1.000000" head="WW">
           <feat class="inf" subset="wvorm"/>
           <feat class="nom" subset="positie"/>
           <feat class="zonder" subset="buiging"/>
@@ -2114,7 +2115,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.13" class="WORD">
         <t>Deze</t>
-        <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.80678" head="VNW">
+        <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.806780" head="VNW">
           <feat class="aanw" subset="vwtype"/>
           <feat class="det" subset="pdtype"/>
           <feat class="stan" subset="naamval"/>
@@ -2220,7 +2221,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.20" class="UNKNOWN">
         <t>'sucks'",</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="'sucks'&quot;,"/>
@@ -2326,7 +2327,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.26" class="UNKNOWN">
         <t>"Computers</t>
-        <pos class="N(soort,mv,basis)" confidence="1" head="N">
+        <pos class="N(soort,mv,basis)" confidence="1.000000" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -2360,7 +2361,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.28" class="WORD">
         <t>nu</t>
-        <pos class="BW()" confidence="0.99682" head="BW"/>
+        <pos class="BW()" confidence="0.996820" head="BW"/>
         <lemma class="nu"/>
         <morphology>
           <morpheme>
@@ -2408,7 +2409,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.32" class="WORD">
         <t>keuzes</t>
-        <pos class="N(soort,mv,basis)" confidence="0.99802" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.998020" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -2443,58 +2444,58 @@
           <wref id="teststandard.txt.text.s.5.w.2" t="eerste"/>
           <wref id="teststandard.txt.text.s.5.w.3" t="taak"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.2" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.2" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.4" t="van"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.3" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.3" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.5" t="een"/>
           <wref id="teststandard.txt.text.s.5.w.6" t="zoekmachine"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.4" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.4" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.7" t="is"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.5" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.5" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.8" t="het"/>
           <wref id="teststandard.txt.text.s.5.w.9" t="maken"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.6" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.6" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.10" t="van"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.7" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.7" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.11" t="een"/>
           <wref id="teststandard.txt.text.s.5.w.12" t="keuze."/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.8" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.8" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.13" t="Deze"/>
           <wref id="teststandard.txt.text.s.5.w.14" t="pagina"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.9" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.9" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.15" t="is"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.10" class="ADJP" confidence="0.701936">
           <wref id="teststandard.txt.text.s.5.w.16" t="goed"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.11" class="CONJP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.11" class="CONJP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.17" t="en"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.12" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.12" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.18" t="deze"/>
           <wref id="teststandard.txt.text.s.5.w.19" t="pagina"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.13" class="NP" confidence="0.947841">
           <wref id="teststandard.txt.text.s.5.w.20" t="'sucks'&quot;,"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.14" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.14" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.21" t="verklaart"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.15" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.15" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.22" t="de"/>
           <wref id="teststandard.txt.text.s.5.w.23" t="40-jarige"/>
           <wref id="teststandard.txt.text.s.5.w.24" t="voormalige"/>
           <wref id="teststandard.txt.text.s.5.w.25" t="effectenhandelaar."/>
           <wref id="teststandard.txt.text.s.5.w.26" t="&quot;Computers"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.16" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.16" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.27" t="kunnen"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.17" class="ADVP" confidence="0.745062">
@@ -2502,11 +2503,11 @@
           <wref id="teststandard.txt.text.s.5.w.29" t="eenmaal"/>
           <wref id="teststandard.txt.text.s.5.w.30" t="niet"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.18" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.18" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.31" t="dergelijke"/>
           <wref id="teststandard.txt.text.s.5.w.32" t="keuzes"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.19" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.5.chunking.1.chunk.19" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.5.w.33" t="maken."/>
         </chunk>
       </chunking>
@@ -2547,7 +2548,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.6.w.3" class="WORD">
         <t>een</t>
-        <pos class="LID(onbep,stan,agr)" confidence="0.99956" head="LID">
+        <pos class="LID(onbep,stan,agr)" confidence="0.999560" head="LID">
           <feat class="onbep" subset="lwtype"/>
           <feat class="stan" subset="naamval"/>
           <feat class="agr" subset="npagr"/>
@@ -2643,7 +2644,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.6.w.10" class="WORD">
         <t>een</t>
-        <pos class="LID(onbep,stan,agr)" confidence="0.99956" head="LID">
+        <pos class="LID(onbep,stan,agr)" confidence="0.999560" head="LID">
           <feat class="onbep" subset="lwtype"/>
           <feat class="stan" subset="naamval"/>
           <feat class="agr" subset="npagr"/>
@@ -2726,40 +2727,40 @@
         </morphology>
       </w>
       <chunking xml:id="teststandard.txt.text.s.6.chunking.1">
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.1" class="ADVP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.1" class="ADVP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.1" t="Meestal"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.2" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.2" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.2" t="is"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.3" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.3" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.3" t="een"/>
           <wref id="teststandard.txt.text.s.6.w.4" t="seconde"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.4" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.4" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.5" t="genoeg"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.5" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.5" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.6" t="om"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.6" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.6" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.7" t="te"/>
           <wref id="teststandard.txt.text.s.6.w.8" t="bepalen"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.7" class="SBAR" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.7" class="SBAR" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.9" t="of"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.8" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.8" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.10" t="een"/>
           <wref id="teststandard.txt.text.s.6.w.11" t="website"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.9" class="ADVP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.9" class="ADVP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.12" t="goed"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.10" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.10" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.13" t="is"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.11" class="CONJP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.11" class="CONJP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.6.w.14" t="of"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.6.chunking.1.chunk.12" class="NP" confidence="0.951278">
@@ -2770,7 +2771,7 @@
     <s xml:id="teststandard.txt.text.s.7">
       <w xml:id="teststandard.txt.text.s.7.w.1" class="WORD">
         <t>Voor</t>
-        <pos class="VZ(init)" confidence="0.95053" head="VZ">
+        <pos class="VZ(init)" confidence="0.950530" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="voor"/>
@@ -2847,7 +2848,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.6" class="WORD">
         <t>Wales</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Wales"/>
@@ -2859,7 +2860,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.7" class="WORD">
         <t>gebruik</t>
-        <pos class="WW(pv,tgw,ev)" confidence="0.5" head="WW">
+        <pos class="WW(pv,tgw,ev)" confidence="0.500000" head="WW">
           <feat class="pv" subset="wvorm"/>
           <feat class="tgw" subset="pvtijd"/>
           <feat class="ev" subset="pvagr"/>
@@ -2982,7 +2983,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.15" class="WORD">
         <t>Wikipedia</t>
-        <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+        <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
           <feat class="deeleigen" subset="spectype"/>
         </pos>
         <lemma class="Wikipedia"/>
@@ -3053,7 +3054,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.20" class="WORD">
         <t>hebben</t>
-        <pos class="WW(pv,tgw,mv)" confidence="0.79039" head="WW">
+        <pos class="WW(pv,tgw,mv)" confidence="0.790390" head="WW">
           <feat class="pv" subset="wvorm"/>
           <feat class="tgw" subset="pvtijd"/>
           <feat class="mv" subset="pvagr"/>
@@ -3192,7 +3193,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.29" class="WORD">
         <t>met</t>
-        <pos class="VZ(init)" confidence="0.99982" head="VZ">
+        <pos class="VZ(init)" confidence="0.999820" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="met"/>
@@ -3267,7 +3268,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.34" class="WORD">
         <t>garant</t>
-        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.8" head="N">
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.800000" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="ev" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -3283,7 +3284,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.35" class="WORD">
         <t>staan</t>
-        <pos class="WW(pv,tgw,mv)" confidence="1" head="WW">
+        <pos class="WW(pv,tgw,mv)" confidence="1.000000" head="WW">
           <feat class="pv" subset="wvorm"/>
           <feat class="tgw" subset="pvtijd"/>
           <feat class="mv" subset="pvagr"/>
@@ -3365,103 +3366,103 @@
         </morphology>
       </w>
       <chunking xml:id="teststandard.txt.text.s.7.chunking.1">
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.1" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.1" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.1" t="Voor"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.2" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.2" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.2" t="het"/>
           <wref id="teststandard.txt.text.s.7.w.3" t="nieuwe"/>
           <wref id="teststandard.txt.text.s.7.w.4" t="project"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.3" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.3" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.5" t="hoopt"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.4" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.4" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.6" t="Wales"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.5" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.5" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.7" t="gebruik"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.6" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.6" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.8" t="te"/>
           <wref id="teststandard.txt.text.s.7.w.9" t="kunnen"/>
           <wref id="teststandard.txt.text.s.7.w.10" t="maken"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.7" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.7" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.11" t="van"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.8" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.8" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.12" t="de"/>
           <wref id="teststandard.txt.text.s.7.w.13" t="gebruikers"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.9" class="SBAR" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.9" class="SBAR" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.14" t="die"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.10" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.10" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.15" t="Wikipedia"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.11" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.11" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.16" t="tot"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.12" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.12" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.17" t="een"/>
           <wref id="teststandard.txt.text.s.7.w.18" t="wereldwijd"/>
           <wref id="teststandard.txt.text.s.7.w.19" t="succes"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.13" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.13" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.20" t="hebben"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.14" class="NP" confidence="0.947828">
           <wref id="teststandard.txt.text.s.7.w.21" t="gemaakt."/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.15" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.15" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.22" t="De"/>
           <wref id="teststandard.txt.text.s.7.w.23" t="goede"/>
           <wref id="teststandard.txt.text.s.7.w.24" t="reputatie"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.16" class="SBAR" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.16" class="SBAR" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.25" t="die"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.17" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.17" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.26" t="zij"/>
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.18" class="NP" confidence="0.949649">
           <wref id="teststandard.txt.text.s.7.w.27" t="hebben,"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.19" class="ADVP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.19" class="ADVP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.28" t="samen"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.20" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.20" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.29" t="met"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.21" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.21" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.30" t="de"/>
           <wref id="teststandard.txt.text.s.7.w.31" t="duidelijke"/>
           <wref id="teststandard.txt.text.s.7.w.32" t="technologie,"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.22" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.22" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.33" t="moet"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.23" class="VAST" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.23" class="VAST" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.34" t="garant"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.24" class="VP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.24" class="VP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.35" t="staan"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.25" class="PP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.25" class="PP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.36" t="voor"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.26" class="NP" confidence="1">
+        <chunk xml:id="teststandard.txt.text.s.7.chunking.1.chunk.26" class="NP" confidence="1.000000">
           <wref id="teststandard.txt.text.s.7.w.37" t="een"/>
           <wref id="teststandard.txt.text.s.7.w.38" t="betrouwbare"/>
           <wref id="teststandard.txt.text.s.7.w.39" t="zoekmachine."/>
         </chunk>
       </chunking>
       <entities xml:id="teststandard.txt.text.s.7.entities.1">
-        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.1" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.7.w.6" t="Wales"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.2" class="org" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.2" class="org" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.7.w.15" t="Wikipedia"/>
         </entity>
       </entities>

@@ -15,7 +15,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v1.20" version="2.0.3">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v1.20" version="2.1.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -51,19 +51,19 @@
       </quote-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-16T16:56:20" command="frog --skip=p --testdir=./subdir --outputdir=./output --xmldir=./output --id=frog --KANON" host="bonus" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-16T16:56:20" name="ucto" version="0.15">
+      <processor xml:id="frog.1" begindatetime="2019-05-21T18:08:14" command="frog --skip=p --testdir=./subdir --outputdir=./output --xmldir=./output --id=frog --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:08:14" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-16T16:56:20" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-16T16:56:20" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-16T16:56:20" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-16T16:56:20" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-16T16:56:20" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-16T16:56:20" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:08:14" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:08:14" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-21T18:08:14" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-21T18:08:14" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-21T18:08:14" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-21T18:08:14" name="mwu" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -160,7 +160,7 @@
         </w>
         <w xml:id="frog.p.1.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1" head="LET"/>
+          <pos class="LET()" confidence="1.000000" head="LET"/>
           <morphology>
             <morpheme>
               <t>.</t>
@@ -169,13 +169,13 @@
           <lemma class="."/>
         </w>
         <chunking xml:id="frog.p.1.s.1.chunking.1">
-          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="1">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
             <wref id="frog.p.1.s.1.w.1" t="Dit"/>
           </chunk>
-          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.2" class="VP" confidence="1">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.000000">
             <wref id="frog.p.1.s.1.w.2" t="is"/>
           </chunk>
-          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.3" class="NP" confidence="1">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.000000">
             <wref id="frog.p.1.s.1.w.3" t="de"/>
             <wref id="frog.p.1.s.1.w.4" t="eerste"/>
             <wref id="frog.p.1.s.1.w.5" t="testfile"/>
@@ -187,7 +187,7 @@
 </FoLiA>
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v1.20" version="2.0.3">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="frog" generator="libfolia-v1.20" version="2.1.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -223,19 +223,19 @@
       </quote-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-16T16:56:21" command="frog --skip=p --testdir=./subdir --outputdir=./output --xmldir=./output --id=frog --KANON" host="bonus" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-16T16:56:21" name="ucto" version="0.15">
+      <processor xml:id="frog.1" begindatetime="2019-05-21T18:08:14" command="frog --skip=p --testdir=./subdir --outputdir=./output --xmldir=./output --id=frog --KANON" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:08:14" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-16T16:56:21" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-16T16:56:21" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-16T16:56:21" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-16T16:56:21" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-16T16:56:21" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-16T16:56:21" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:08:14" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:08:14" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-21T18:08:14" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-21T18:08:14" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-21T18:08:14" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-21T18:08:14" name="mwu" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -341,7 +341,7 @@
         </w>
         <w xml:id="frog.p.1.s.1.w.7" class="PUNCTUATION">
           <t>!</t>
-          <pos class="LET()" confidence="1" head="LET"/>
+          <pos class="LET()" confidence="1.000000" head="LET"/>
           <morphology>
             <morpheme>
               <t>!</t>
@@ -350,16 +350,16 @@
           <lemma class="!"/>
         </w>
         <chunking xml:id="frog.p.1.s.1.chunking.1">
-          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.1" class="PP" confidence="1">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.1" class="PP" confidence="1.000000">
             <wref id="frog.p.1.s.1.w.1" t="En"/>
           </chunk>
-          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.2" class="NP" confidence="1">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.2" class="NP" confidence="1.000000">
             <wref id="frog.p.1.s.1.w.2" t="dit"/>
           </chunk>
-          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.3" class="VP" confidence="1">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.3" class="VP" confidence="1.000000">
             <wref id="frog.p.1.s.1.w.3" t="is"/>
           </chunk>
-          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.4" class="NP" confidence="1">
+          <chunk xml:id="frog.p.1.s.1.chunking.1.chunk.4" class="NP" confidence="1.000000">
             <wref id="frog.p.1.s.1.w.4" t="een"/>
             <wref id="frog.p.1.s.1.w.5" t="tweede"/>
             <wref id="frog.p.1.s.1.w.6" t="testfile"/>

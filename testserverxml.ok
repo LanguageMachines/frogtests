@@ -122,19 +122,19 @@ READY
       </quote-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-17T10:19:14" command="frog -x  -X  --KANON --skip=p -S 7000" host="kokos" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.0.4" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-17T10:19:14" name="ucto" version="0.15">
+      <processor xml:id="frog.1" begindatetime="2019-05-21T18:09:14" command="frog -x  -X  --KANON --skip=p -S 7000" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:09:14" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-17T10:19:14" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-17T10:19:14" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-17T10:19:14" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-17T10:19:14" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-17T10:19:14" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-17T10:19:14" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:09:14" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:09:14" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-21T18:09:14" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-21T18:09:14" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-21T18:09:14" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-21T18:09:14" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -206,7 +206,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD">
             <t>van</t>
-            <pos class="VZ(init)" confidence="0.95931" head="VZ">
+            <pos class="VZ(init)" confidence="0.959310" head="VZ">
               <feat class="init" subset="vztype"/>
             </pos>
             <morphology>
@@ -218,7 +218,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>FoLia</t>
-            <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <morphology>
@@ -230,7 +230,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" space="no">
             <t>input</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.5" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.500000" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -246,7 +246,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="PUNCTUATION">
             <t>?</t>
-            <pos class="LET()" confidence="1" head="LET"/>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
             <morphology>
               <morpheme>
                 <t>?</t>
@@ -255,25 +255,25 @@ READY
             <lemma class="?"/>
           </w>
           <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="FoLia"/>
             </entity>
           </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="een"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="test"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="PP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="PP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="van"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="FoLia"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="input"/>
             </chunk>
@@ -351,19 +351,19 @@ READY
       </quote-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-17T10:19:14" command="frog -x  -X  --KANON --skip=p -S 7000" host="kokos" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.0.4" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-17T10:19:14" name="ucto" version="0.15">
+      <processor xml:id="frog.1" begindatetime="2019-05-21T18:09:14" command="frog -x  -X  --KANON --skip=p -S 7000" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:09:14" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-17T10:19:14" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-17T10:19:14" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-17T10:19:14" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-17T10:19:14" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-17T10:19:14" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-17T10:19:14" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:09:14" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:09:14" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-21T18:09:14" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-21T18:09:14" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-21T18:09:14" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-21T18:09:14" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -419,7 +419,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD">
             <t>andere</t>
-            <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.91034" head="ADJ">
+            <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.910340" head="ADJ">
               <feat class="prenom" subset="positie"/>
               <feat class="basis" subset="graad"/>
               <feat class="met-e" subset="buiging"/>
@@ -453,7 +453,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>van</t>
-            <pos class="VZ(init)" confidence="0.95931" head="VZ">
+            <pos class="VZ(init)" confidence="0.959310" head="VZ">
               <feat class="init" subset="vztype"/>
             </pos>
             <morphology>
@@ -465,7 +465,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD">
             <t>FoLia</t>
-            <pos class="SPEC(deeleigen)" confidence="1" head="SPEC">
+            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <morphology>
@@ -477,7 +477,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no">
             <t>input</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.5" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.500000" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -493,7 +493,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
             <t>?</t>
-            <pos class="LET()" confidence="1" head="LET"/>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
             <morphology>
               <morpheme>
                 <t>?</t>
@@ -502,26 +502,26 @@ READY
             <lemma class="?"/>
           </w>
           <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="FoLia"/>
             </entity>
           </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="een"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="andere"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="test"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="PP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="PP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="van"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="FoLia"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="input"/>
             </chunk>

@@ -238,20 +238,20 @@
       </quote-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-16T16:55:24" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml" host="bonus" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-16T16:55:24" name="ucto" version="0.15">
+      <processor xml:id="frog.1" begindatetime="2019-05-21T18:07:19" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:07:19" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-16T16:55:24" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-16T16:55:24" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-16T16:55:24" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-16T16:55:24" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-16T16:55:24" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-16T16:55:24" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-05-16T16:55:24" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:07:19" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:07:19" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-21T18:07:19" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-21T18:07:19" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-21T18:07:19" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-21T18:07:19" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-05-21T18:07:19" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -308,7 +308,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" textclass="OCR">
             <t class="OCR">een</t>
-            <pos class="LID(onbep,stan,agr)" confidence="0.99956" head="LID" textclass="OCR">
+            <pos class="LID(onbep,stan,agr)" confidence="0.999560" head="LID" textclass="OCR">
               <feat class="onbep" subset="lwtype"/>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
@@ -322,7 +322,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD" textclass="OCR">
             <t class="OCR">klasse</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.97006" head="N" textclass="OCR">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.970060" head="N" textclass="OCR">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -338,7 +338,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD" textclass="OCR">
             <t class="OCR">test</t>
-            <pos class="WW(pv,tgw,ev)" confidence="0.75" head="WW" textclass="OCR">
+            <pos class="WW(pv,tgw,ev)" confidence="0.750000" head="WW" textclass="OCR">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
@@ -364,7 +364,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no" textclass="OCR">
             <t class="OCR">Nijmegen</t>
-            <pos class="SPEC(deeleigen)" confidence="1" head="SPEC" textclass="OCR">
+            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" textclass="OCR">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <morphology>
@@ -376,7 +376,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION" textclass="OCR">
             <t class="OCR">.</t>
-            <pos class="LET()" confidence="1" head="LET" textclass="OCR"/>
+            <pos class="LET()" confidence="1.000000" head="LET" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">.</t>
@@ -385,7 +385,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <lemma class="." textclass="OCR"/>
           </w>
           <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="OCR">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </entity>
           </entities>
@@ -440,26 +440,26 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </dependency>
           </dependencies>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="1" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="1.000000" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="En"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="NP" confidence="1" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="NP" confidence="1.000000" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="dit"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="VP" confidence="1" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="VP" confidence="1.000000" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="is"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="NP" confidence="1" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="NP" confidence="1.000000" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="een"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="VP" confidence="1" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="VP" confidence="1.000000" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="PP" confidence="1" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="PP" confidence="1.000000" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="NP" confidence="1" textclass="OCR">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="NP" confidence="1.000000" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </chunk>
           </chunking>
@@ -509,20 +509,20 @@ Gaat deze datum: 28-11-2011 goed?</t>
       </quote-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-16T16:55:28" command="frog -x folia1.xml --nostdout --KANON -X testparser2.xml" host="bonus" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.0.3" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-16T16:55:28" name="ucto" version="0.15">
+      <processor xml:id="frog.1" begindatetime="2019-05-21T18:07:22" command="frog -x folia1.xml --nostdout --KANON -X testparser2.xml" host="bonus" name="frog" user="sloot" version="0.16">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
+        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:07:22" name="ucto" version="0.15">
           <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-16T16:55:28" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-16T16:55:28" name="mblem" version="1.1"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-16T16:55:28" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-16T16:55:28" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-16T16:55:28" name="NER" version="2.0"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-16T16:55:28" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-05-16T16:55:28" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:07:22" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:07:22" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-05-21T18:07:22" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-05-21T18:07:22" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-05-21T18:07:22" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-05-21T18:07:22" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-05-21T18:07:22" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -644,7 +644,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="PUNCTUATION">
             <t>.</t>
-            <pos class="LET()" confidence="1" head="LET"/>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
             <morphology>
               <morpheme>
                 <t>.</t>
@@ -688,7 +688,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
             <t>datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -704,7 +704,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
             <t>:</t>
-            <pos class="LET()" confidence="1" head="LET"/>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
             <morphology>
               <morpheme>
                 <t>:</t>
@@ -714,7 +714,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="DATE">
             <t>28-11-2011</t>
-            <pos class="SPEC(symb)" confidence="1" head="SPEC">
+            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
               <feat class="symb" subset="spectype"/>
             </pos>
             <morphology>
@@ -740,7 +740,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.15" class="PUNCTUATION">
             <t>?</t>
-            <pos class="LET()" confidence="1" head="LET"/>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
             <morphology>
               <morpheme>
                 <t>?</t>
@@ -842,7 +842,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </dependency>
           </dependencies>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
             </chunk>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="0.537779">
@@ -851,18 +851,18 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="een"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="test"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="VP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="VP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.9" t="Gaat"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.10" t="deze"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="datum"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.13" t="28-11-2011"/>
             </chunk>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756469">
