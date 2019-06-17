@@ -1,0 +1,30 @@
+#/bin/sh
+
+
+$comm --skip=t issue71/issue71_b.xml -o issue71_b.out -X issue71_b_out.xml
+cat issue71_b.out > testissue71.out
+cat issue71_b_out.xml >> testissue71.out
+$comm issue71/issue71_b.xml -o issue71_b.out -X issue71_b_out.xml
+cat issue71_b.out >> testissue71.out
+cat issue71_b_out.xml >> testissue71.out
+
+$comm --skip=t issue71/issue71_c.xml -o issue71_c.out -X issue71_c_out.xml
+cat issue71_c.out >> testissue71.out
+cat issue71_c_out.xml >> testissue71.out
+$comm issue71/issue71_c.xml -o issue71_c.out -X issue71_c_out.xml
+cat issue71_c.out >> testissue71.out
+cat issue71_c_out.xml >> testissue71.out
+
+$comm --skip=t issue71/issue71_d.xml -o issue71_d.out -X issue71_d_out.xml
+cat issue71_d.out >> testissue71.out
+cat issue71_d_out.xml >> testissue71.out
+$comm issue71/issue71_d.xml -o issue71_d.out -X issue71_d_out.xml
+cat issue71_d.out >> testissue71.out
+cat issue71_d_out.xml >> testissue71.out
+
+$comm --skip=t issue71/issue71_e.xml -o issue71_e.out -X issue71_e_out.xml
+cat issue71_e.out >> testissue71.out
+cat issue71_e_out.xml >> testissue71.out
+$comm issue71/issue71_e.xml -o issue71_e.out -X issue71_e_out.xml
+cat issue71_e.out >> testissue71.out
+cat issue71_e_out.xml >> testissue71.out
