@@ -3,6 +3,7 @@
 \rm -f *.diff
 \rm -f *.tmp
 \rm -f *.out*
+\rm -f frog.*.debug
 
 if [ "$frog_bin" = "" ];
 then echo "frog_bin not set";
