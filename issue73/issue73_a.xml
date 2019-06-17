@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" generator="foliapy-v2.1.4" version="2.1.0" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311">
+  <metadata type="native">
+    <annotations>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <phon-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/phon.foliaset.ttl"/>
+      <gap-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/gap"/>
+      <style-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/style"/>
+      
+      <part-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/part"/>
+      <paragraph-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/paragraph">
+        <annotator processor="proc.unspecified.878fa02e"/>
+      </paragraph-annotation>
+      <correction-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/correction"/>
+      <note-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/note"/>
+      <string-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/string"/>
+      <division-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/division">
+        <annotator processor="proc.unspecified.878fa02e"/>
+      </division-annotation>
+      <linebreak-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/linebreak">
+        <annotator processor="proc.unspecified.878fa02e"/>
+      </linebreak-annotation>
+      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset">
+        <annotator processor="proc.ucto.9ae4f8b9"/>
+      </lang-annotation>
+      <token-annotation set="tokconfig-nld">
+        <annotator processor="proc.ucto.9ae4f8b9"/>
+      </token-annotation>
+      <token-annotation set="tokconfig-lat">
+        <annotator processor="proc.ucto.9ae4f8b9"/>
+      </token-annotation>
+      <sentence-annotation/>
+      <head-annotation/>
+    </annotations>
+    <provenance>
+      <processor folia_version="1.5" type="datasource" format="text/folia+xml" name="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.pre-upgrade" src="file://input/HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.folia.xml" xml:id="proc.huygensing-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.pre-upgrade.b05e984c" host="mlp09.science.ru.nl"/>
+      <processor folia_version="2.1.0" begindatetime="2019-06-14T21:46:45" name="foliaupgrade" type="auto" src="https://github.com/proycon/foliatools" xml:id="proc.foliaupgrade.af72d1d8" host="mlp09.science.ru.nl" user="proycon" version="2.1.7" command="foliaupgrade -n input/HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.folia.xml">
+        <processor folia_version="2.1.0" type="generator" xml:id="proc.foliaupgrade.af72d1d8.generator" name="foliapy" src="https://github.com/proycon/foliapy" version="2.1.4"/>
+        <processor name="unspecified" type="auto" xml:id="proc.unspecified.878fa02e"/>
+        <processor name="ucto" type="auto" xml:id="proc.ucto.9ae4f8b9"/>
+      </processor>
+    </provenance>
+    <meta id="authorLevel1">Verwey, Albert</meta>
+    <meta id="categoryLevel1">uitgave</meta>
+    <meta id="categoryLevel2">uitgave</meta>
+    <meta id="copyrightHolder">Huygens ING</meta>
+    <meta id="copyrightOwner">Huygens ING</meta>
+    <meta id="corpusProvenance">HuygensING-brieven-correspondenten-1900</meta>
+    <meta id="editionLevel1">1</meta>
+    <meta id="editionLevel2">1</meta>
+    <meta id="editorLevel1">Annemarie Kets</meta>
+    <meta id="editorLevel2">Annemarie Kets</meta>
+    <meta id="factualityLevel1">non-fictie</meta>
+    <meta id="factualityLevel2">non-fictie</meta>
+    <meta id="genreLevel1">egodocumenten</meta>
+    <meta id="genreLevel2">egodocumenten</meta>
+    <meta id="ingestTime">2018-05-31T12:08</meta>
+    <meta id="language">nld</meta>
+    <meta id="localization_countryLevel1">Nederland</meta>
+    <meta id="localization_kloekecodeLevel1">E131p</meta>
+    <meta id="localization_placeLevel1">Noordwijk aan Zee</meta>
+    <meta id="localization_provinceLevel1">Zuid-Holland</meta>
+    <meta id="mediumLevel1">digitale uitgave</meta>
+    <meta id="mediumLevel2">digitale uitgave</meta>
+    <meta id="pid">INT_d5cb802c-5b00-452a-ac7c-f12121bed311</meta>
+    <meta id="primaryLanguageLevel1">nld</meta>
+    <meta id="primaryLanguageLevel2">deu|eng|fra|nld</meta>
+    <meta id="processingMethod">born digital</meta>
+    <meta id="pubYearLevel1_from">2016</meta>
+    <meta id="pubYearLevel1_to">2016</meta>
+    <meta id="pubYearLevel2_from">2016</meta>
+    <meta id="pubYearLevel2_to">2016</meta>
+    <meta id="publisherLevel1">Huygens ING</meta>
+    <meta id="publisherLevel2">Huygens ING</meta>
+    <meta id="resourceURILevel1">http://brieven-correspondenten-1900.huygens.knaw.nl/edition/search</meta>
+    <meta id="resourceURILevel2">http://brieven-correspondenten-1900.huygens.knaw.nl/edition/search</meta>
+    <meta id="sourceID">brieven-correspondenten-1900:3159</meta>
+    <meta id="statusTextLevel1">geen vertaling</meta>
+    <meta id="statusTextLevel2">geen vertaling</meta>
+    <meta id="subgenreLevel1">brieven</meta>
+    <meta id="subgenreLevel2">brieven</meta>
+    <meta id="subtitleLevel2">Digitale editie</meta>
+    <meta id="textDayLevel1_from">01</meta>
+    <meta id="textDayLevel1_to">01</meta>
+    <meta id="textDayLevel2_from">12</meta>
+    <meta id="textDayLevel2_to">24</meta>
+    <meta id="textMonthLevel1_from">01</meta>
+    <meta id="textMonthLevel1_to">01</meta>
+    <meta id="textMonthLevel2_from">02</meta>
+    <meta id="textMonthLevel2_to">11</meta>
+    <meta id="textYearLevel1_from">1895</meta>
+    <meta id="textYearLevel1_to">1895</meta>
+    <meta id="textYearLevel2_from">1877</meta>
+    <meta id="textYearLevel2_to">1925</meta>
+    <meta id="titleLevel1">Verwey, Albert aan Alberdingk Thijm, Karel Joan Lodewijk | 1895-01-01</meta>
+    <meta id="titleLevel2">Brieven en Correspondenten rond 1900</meta>
+    <meta id="witnessDayLevel1_from">01</meta>
+    <meta id="witnessDayLevel1_to">01</meta>
+    <meta id="witnessDayLevel2_from">12</meta>
+    <meta id="witnessDayLevel2_to">24</meta>
+    <meta id="witnessMonthLevel1_from">01</meta>
+    <meta id="witnessMonthLevel1_to">01</meta>
+    <meta id="witnessMonthLevel2_from">02</meta>
+    <meta id="witnessMonthLevel2_to">11</meta>
+    <meta id="witnessYearLevel1_from">1895</meta>
+    <meta id="witnessYearLevel1_to">1895</meta>
+    <meta id="witnessYearLevel2_from">1877</meta>
+    <meta id="witnessYearLevel2_to">1925</meta>
+  </metadata>
+  <text xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.TEI.1">
+    <div>
+      <div class="body">
+        <p class="p" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.3">
+          <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Amice,</t>
+          <lang class="lat"/>
+          <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.3.s.1">
+            <lang class="lat" annotator="ucto" annotatortype="auto"/>
+            <w class="WORD" datetime="2018-06-19T12:08:18" space="no" set="tokconfig-lat" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.3.s.1.w.1">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Amice</t>
+            </w>
+            <w class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-lat" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.3.s.1.w.2">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">,</t>
+            </w>
+          </s>
+        </p>
+        <p class="p" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4">
+          <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Hoe zou je 't vinden als we heel gauw de Koo vroegen om een stuk voor het Maartnummer. Wij hebben veel kopie, maar er mag wel wat varieteit in. Alles goeds in het nieuwe jaar, van ons aan jullie. Schrijf jij de K.? Of meld mij anders waar hij woont.</t>
+          <lang class="nld" annotator="ucto" annotatortype="auto"/>
+          <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1">
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.1">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Hoe</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.2">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">zou</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.3">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">je</t>
+            </w>
+            <w class="WORD-TOKEN" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.4">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">'t</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.5">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">vinden</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.6">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">als</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.7">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">we</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.8">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">heel</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.9">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">gauw</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.10">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">de</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.11">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Koo</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.12">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">vroegen</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.13">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">om</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.14">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">een</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.15">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">stuk</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.16">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">voor</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.17">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">het</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" space="no" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.18">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Maartnummer</t>
+            </w>
+            <w class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.19">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">.</t>
+            </w>
+          </s>
+          <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2">
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.1">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Wij</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.2">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">hebben</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.3">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">veel</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" space="no" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.4">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">kopie</t>
+            </w>
+            <w class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.5">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">,</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.6">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">maar</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.7">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">er</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.8">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">mag</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.9">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">wel</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.10">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">wat</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.11">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">varieteit</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" space="no" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.12">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">in</t>
+            </w>
+            <w class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.13">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">.</t>
+            </w>
+          </s>
+          <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3">
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.1">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Alles</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.2">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">goeds</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.3">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">in</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.4">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">het</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.5">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">nieuwe</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" space="no" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.6">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">jaar</t>
+            </w>
+            <w class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.7">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">,</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.8">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">van</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.9">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">ons</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.10">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">aan</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" space="no" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.11">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">jullie</t>
+            </w>
+            <w class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.12">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">.</t>
+            </w>
+          </s>
+          <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4">
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.1">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Schrijf</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.2">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">jij</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.3">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">de</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" space="no" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.4">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">K</t>
+            </w>
+            <w class="PUNCTUATION" datetime="2018-06-19T12:08:18" space="no" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.5">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">.</t>
+            </w>
+            <w class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.6">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">?</t>
+            </w>
+          </s>
+          <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5">
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.1">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">Of</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.2">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">meld</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.3">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">mij</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.4">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">anders</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.5">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">waar</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.6">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">hij</t>
+            </w>
+            <w class="WORD" datetime="2018-06-19T12:08:18" space="no" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.7">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">woont</t>
+            </w>
+            <w class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.8">
+              <t set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl">.</t>
+            </w>
+          </s>
+        </p>
+      </div>
+    </div>
+  </text>
+</FoLiA>
+
