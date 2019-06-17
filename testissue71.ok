@@ -42,16 +42,16 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-17T11:01:43" command="frog --skip=t -o issue71_b.out -X issue71_b_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-06-17T12:26:11" command="frog --skip=t -o issue71_b.out -X issue71_b_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-17T11:01:43" name="ucto" version="0.17"/>
-        <processor xml:id="tagger.1" begindatetime="2019-06-17T11:01:43" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-17T11:01:43" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-17T11:01:43" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-17T11:01:43" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-17T11:01:43" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-17T11:01:43" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T11:01:43" name="dep-parser" version="1.0"/>
+        <processor xml:id="ucto.1" begindatetime="2019-06-17T12:26:11" name="ucto" version="0.17"/>
+        <processor xml:id="tagger.1" begindatetime="2019-06-17T12:26:11" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-06-17T12:26:11" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-06-17T12:26:11" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-06-17T12:26:11" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-06-17T12:26:11" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-06-17T12:26:11" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T12:26:11" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -64,26 +64,121 @@
         <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1">
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" class="WORD" datetime="2018-06-19T11:53:23" set="tokconfig-nld" space="no">
             <t>Baarn</t>
+            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="Baarn"/>
+            <morphology>
+              <morpheme>
+                <t>Baarn</t>
+              </morpheme>
+            </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.2" class="PUNCTUATION" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
             <t>,</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=","/>
+            <morphology>
+              <morpheme>
+                <t>,</t>
+              </morpheme>
+            </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" class="NUMBER" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
             <t>16</t>
+            <pos class="TW(hoofd,vrij)" confidence="0.794118" head="TW">
+              <feat class="hoofd" subset="numtype"/>
+              <feat class="vrij" subset="positie"/>
+            </pos>
+            <lemma class="16"/>
+            <morphology>
+              <morpheme>
+                <t>16</t>
+              </morpheme>
+            </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" class="WORD" datetime="2018-06-19T11:53:23" set="tokconfig-nld" space="no">
             <t>Dec</t>
+            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="Dec"/>
+            <morphology>
+              <morpheme>
+                <t>Dec</t>
+              </morpheme>
+            </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.5" class="PUNCTUATION" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
             <t>.</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
+            <morphology>
+              <morpheme>
+                <t>.</t>
+              </morpheme>
+            </morphology>
           </w>
+          <entities xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.entities.1">
+            <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+            </entity>
+            <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.entities.1.entity.2" class="per" confidence="0.476071" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+            </entity>
+          </entities>
+          <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1">
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+            </chunk>
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1.chunk.2" class="NP" confidence="1.000000">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" t="16"/>
+            </chunk>
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1.chunk.3" class="NP" confidence="0.610528">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+            </chunk>
+          </chunking>
+          <dependencies xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1">
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.1" class="punct">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.2" t=","/>
+              </dep>
+            </dependency>
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.2" class="det">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" t="16"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.3" class="mod">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.4" class="punct">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.5" t="."/>
+              </dep>
+            </dependency>
+          </dependencies>
         </s>
       </p>
       <p xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6" class="p">
         <t>1893</t>
         <lang class="UNKNOWN"/>
         <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1">
-          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="passthru">
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="tokconfig-nld">
             <t>1893</t>
             <pos class="TW(hoofd,vrij)" confidence="0.992711" head="TW">
               <feat class="hoofd" subset="numtype"/>
@@ -153,20 +248,20 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-17T11:01:47" command="frog -o issue71_b.out -X issue71_b_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-06-17T12:26:15" command="frog -o issue71_b.out -X issue71_b_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-17T11:01:47" name="ucto" version="0.17">
+        <processor xml:id="ucto.1" begindatetime="2019-06-17T12:26:15" name="ucto" version="0.17">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-17T11:01:47" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-17T11:01:47" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-17T11:01:47" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-17T11:01:47" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-17T11:01:47" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-17T11:01:47" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T11:01:47" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-06-17T12:26:15" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-06-17T12:26:15" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-06-17T12:26:15" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-06-17T12:26:15" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-06-17T12:26:15" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-06-17T12:26:15" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T12:26:15" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -365,15 +460,15 @@
         <processor xml:id="proc.unspecified.55a5653d" name="unspecified"/>
         <processor xml:id="proc.ucto.f6836ea3" name="ucto"/>
       </processor>
-      <processor xml:id="frog.1" begindatetime="2019-06-17T11:01:51" command="frog --skip=t -o issue71_c.out -X issue71_c_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-06-17T12:26:19" command="frog --skip=t -o issue71_c.out -X issue71_c_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="tagger.1" begindatetime="2019-06-17T11:01:51" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-17T11:01:51" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-17T11:01:51" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-17T11:01:51" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-17T11:01:51" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-17T11:01:51" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T11:01:51" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-06-17T12:26:19" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-06-17T12:26:19" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-06-17T12:26:19" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-06-17T12:26:19" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-06-17T12:26:19" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-06-17T12:26:19" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T12:26:19" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -384,7 +479,7 @@
         <t>1893</t>
         <lang class="UNKNOWN"/>
         <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1">
-          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="passthru">
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="tokconfig-nld">
             <t>1893</t>
             <pos class="TW(hoofd,vrij)" confidence="0.992711" head="TW">
               <feat class="hoofd" subset="numtype"/>
@@ -456,15 +551,15 @@
         <processor xml:id="proc.unspecified.55a5653d" name="unspecified"/>
         <processor xml:id="proc.ucto.f6836ea3" name="ucto"/>
       </processor>
-      <processor xml:id="frog.1" begindatetime="2019-06-17T11:01:55" command="frog -o issue71_c.out -X issue71_c_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-06-17T12:26:23" command="frog -o issue71_c.out -X issue71_c_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="tagger.1" begindatetime="2019-06-17T11:01:55" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-17T11:01:55" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-17T11:01:55" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-17T11:01:55" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-17T11:01:55" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-17T11:01:55" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T11:01:55" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-06-17T12:26:23" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-06-17T12:26:23" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-06-17T12:26:23" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-06-17T12:26:23" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-06-17T12:26:23" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-06-17T12:26:23" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T12:26:23" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -475,7 +570,7 @@
         <t>1893</t>
         <lang class="UNKNOWN"/>
         <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1">
-          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="passthru">
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="tokconfig-nld">
             <t>1893</t>
             <pos class="TW(hoofd,vrij)" confidence="0.992711" head="TW">
               <feat class="hoofd" subset="numtype"/>
@@ -537,16 +632,16 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-17T11:01:58" command="frog --skip=t -o issue71_d.out -X issue71_d_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-06-17T12:26:27" command="frog --skip=t -o issue71_d.out -X issue71_d_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-17T11:01:58" name="ucto" version="0.17"/>
-        <processor xml:id="tagger.1" begindatetime="2019-06-17T11:01:58" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-17T11:01:58" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-17T11:01:58" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-17T11:01:58" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-17T11:01:58" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-17T11:01:58" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T11:01:58" name="dep-parser" version="1.0"/>
+        <processor xml:id="ucto.1" begindatetime="2019-06-17T12:26:27" name="ucto" version="0.17"/>
+        <processor xml:id="tagger.1" begindatetime="2019-06-17T12:26:27" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-06-17T12:26:27" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-06-17T12:26:27" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-06-17T12:26:27" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-06-17T12:26:27" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-06-17T12:26:27" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T12:26:27" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -557,7 +652,7 @@
         <t>1893</t>
         <lang class="UNKNOWN"/>
         <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1">
-          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="passthru">
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="tokconfig-nld">
             <t>1893</t>
             <pos class="TW(hoofd,vrij)" confidence="0.992711" head="TW">
               <feat class="hoofd" subset="numtype"/>
@@ -621,20 +716,20 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-17T11:02:03" command="frog -o issue71_d.out -X issue71_d_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-06-17T12:26:30" command="frog -o issue71_d.out -X issue71_d_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-17T11:02:03" name="ucto" version="0.17">
+        <processor xml:id="ucto.1" begindatetime="2019-06-17T12:26:30" name="ucto" version="0.17">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-17T11:02:03" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-17T11:02:03" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-17T11:02:03" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-17T11:02:03" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-17T11:02:03" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-17T11:02:03" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T11:02:03" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-06-17T12:26:30" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-06-17T12:26:30" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-06-17T12:26:30" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-06-17T12:26:30" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-06-17T12:26:30" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-06-17T12:26:30" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T12:26:30" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -713,16 +808,16 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-17T11:02:07" command="frog --skip=t -o issue71_e.out -X issue71_e_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-06-17T12:26:34" command="frog --skip=t -o issue71_e.out -X issue71_e_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-17T11:02:07" name="ucto" version="0.17"/>
-        <processor xml:id="tagger.1" begindatetime="2019-06-17T11:02:07" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-17T11:02:07" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-17T11:02:07" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-17T11:02:07" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-17T11:02:07" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-17T11:02:07" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T11:02:07" name="dep-parser" version="1.0"/>
+        <processor xml:id="ucto.1" begindatetime="2019-06-17T12:26:34" name="ucto" version="0.17"/>
+        <processor xml:id="tagger.1" begindatetime="2019-06-17T12:26:34" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-06-17T12:26:34" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-06-17T12:26:34" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-06-17T12:26:34" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-06-17T12:26:34" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-06-17T12:26:34" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T12:26:34" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -735,26 +830,121 @@
         <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1">
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" class="WORD" datetime="2018-06-19T11:53:23" set="tokconfig-nld" space="no">
             <t>Baarn</t>
+            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="Baarn"/>
+            <morphology>
+              <morpheme>
+                <t>Baarn</t>
+              </morpheme>
+            </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.2" class="PUNCTUATION" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
             <t>,</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=","/>
+            <morphology>
+              <morpheme>
+                <t>,</t>
+              </morpheme>
+            </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" class="NUMBER" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
             <t>16</t>
+            <pos class="TW(hoofd,vrij)" confidence="0.794118" head="TW">
+              <feat class="hoofd" subset="numtype"/>
+              <feat class="vrij" subset="positie"/>
+            </pos>
+            <lemma class="16"/>
+            <morphology>
+              <morpheme>
+                <t>16</t>
+              </morpheme>
+            </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" class="WORD" datetime="2018-06-19T11:53:23" set="tokconfig-nld" space="no">
             <t>Dec</t>
+            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="Dec"/>
+            <morphology>
+              <morpheme>
+                <t>Dec</t>
+              </morpheme>
+            </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.5" class="PUNCTUATION" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
             <t>.</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
+            <morphology>
+              <morpheme>
+                <t>.</t>
+              </morpheme>
+            </morphology>
           </w>
+          <entities xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.entities.1">
+            <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+            </entity>
+            <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.entities.1.entity.2" class="per" confidence="0.476071" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+            </entity>
+          </entities>
+          <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1">
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+            </chunk>
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1.chunk.2" class="NP" confidence="1.000000">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" t="16"/>
+            </chunk>
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1.chunk.3" class="NP" confidence="0.610528">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+            </chunk>
+          </chunking>
+          <dependencies xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1">
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.1" class="punct">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.2" t=","/>
+              </dep>
+            </dependency>
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.2" class="det">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" t="16"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.3" class="mod">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.4" class="punct">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.5" t="."/>
+              </dep>
+            </dependency>
+          </dependencies>
         </s>
       </p>
       <p xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6" class="p">
         <t>1893</t>
         <lang class="UNKNOWN"/>
         <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1">
-          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="passthru">
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="tokconfig-nld">
             <t>1893</t>
             <pos class="TW(hoofd,vrij)" confidence="0.992711" head="TW">
               <feat class="hoofd" subset="numtype"/>
@@ -824,20 +1014,20 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-17T11:02:12" command="frog -o issue71_e.out -X issue71_e_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-06-17T12:26:39" command="frog -o issue71_e.out -X issue71_e_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-17T11:02:12" name="ucto" version="0.17">
+        <processor xml:id="ucto.1" begindatetime="2019-06-17T12:26:39" name="ucto" version="0.17">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-17T11:02:12" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-17T11:02:12" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-17T11:02:12" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-17T11:02:12" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-17T11:02:12" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-17T11:02:12" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T11:02:12" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-06-17T12:26:39" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-06-17T12:26:39" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-06-17T12:26:39" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-06-17T12:26:39" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-06-17T12:26:39" name="NER" version="2.1"/>
+        <processor xml:id="mwu.1" begindatetime="2019-06-17T12:26:39" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-06-17T12:26:39" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
