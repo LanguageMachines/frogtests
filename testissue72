@@ -1,5 +1,8 @@
 #/bin/sh
 
-$comm --skip=t issue72/issue72_a.xml -o issue72_1.out -X issue72_a_out.xml
+$comm --skip=tmp --language=nld issue72/issue72_a.xml -o issue72_1.out -X issue72_a_out.xml
+cat issue72_1.out > testissue72.out
+cat issue72_a_out.xml >> testissue72.out
+$comm --skip=mp issue72/issue72_a.xml -o issue72_1.out -X issue72_a_out.xml
 cat issue72_1.out > testissue72.out
 cat issue72_a_out.xml >> testissue72.out
