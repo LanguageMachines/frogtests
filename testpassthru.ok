@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v2.0" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v2.2" version="2.1.0">
   <metadata type="native">
     <annotations>
       <token-annotation set="passthru">
@@ -28,15 +28,15 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-22T17:51:08" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" host="bonus" name="frog" user="sloot" version="0.17">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.0"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-22T17:51:08" name="ucto" version="0.16"/>
-        <processor xml:id="tagger.1" begindatetime="2019-05-22T17:51:08" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-22T17:51:08" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-05-22T17:51:08" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-05-22T17:51:08" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-05-22T17:51:08" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-05-22T17:51:08" name="mwu" version="1.0"/>
+      <processor xml:id="frog.1" begindatetime="2019-06-19T16:25:30" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-06-19T16:25:30" name="ucto" version="0.17"/>
+        <processor xml:id="tagger.1" begindatetime="2019-06-19T16:25:30" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-06-19T16:25:30" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-06-19T16:25:30" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-06-19T16:25:30" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-06-19T16:25:30" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-06-19T16:25:30" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -605,7 +605,7 @@
         </entity>
       </entities>
       <entities xml:id="teststandard.txt.text.s.1.entities.2">
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.1" class="loc" confidence="0.536394" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.1" class="loc" confidence="0.569395" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.4" t="Wikipedia,"/>
         </entity>
         <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.2" class="per" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
@@ -620,13 +620,13 @@
           <wref id="teststandard.txt.text.s.1.w.18" t="Times."/>
           <wref id="teststandard.txt.text.s.1.w.19" t="Wales"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.5" class="per" confidence="0.274192" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.5" class="org" confidence="0.355002" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.26" t="Wikiasari,"/>
         </entity>
         <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.6" class="org" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.30" t="Google"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.7" class="org" confidence="0.682683" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.7" class="org" confidence="0.469529" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.1.w.32" t="Yahoo!."/>
         </entity>
       </entities>
@@ -804,11 +804,9 @@
         </chunk>
       </chunking>
       <entities xml:id="teststandard.txt.text.s.2.entities.1">
-        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.1" class="per" confidence="0.385802" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
-          <wref id="teststandard.txt.text.s.2.w.1" t="Wikiasari"/>
-        </entity>
-        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.2" class="org" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.1" class="org" confidence="0.780145" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.2.w.9" t="Wikipedia"/>
+          <wref id="teststandard.txt.text.s.2.w.10" t="zelf."/>
         </entity>
       </entities>
     </s>
@@ -1921,7 +1919,7 @@
         <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.2" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.4.w.8" t="Wales"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.3" class="loc" confidence="0.622464" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.3" class="org" confidence="0.328212" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
           <wref id="teststandard.txt.text.s.4.w.18" t="Zoekopdrachten"/>
         </entity>
         <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.4" class="org" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
@@ -3493,7 +3491,7 @@
 21	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
 22	zoekmachine,	zoekmachine,	[zoek][machine,]	N(soort,ev,basis,zijd,stan)	0.467234	O	I-NP				
 23	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP				
-24	Wikiasari,	Wikiasari,	[Wikiasari,]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
+24	Wikiasari,	Wikiasari,	[Wikiasari,]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 25	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP				
 26	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP				
 27	met	met	[met]	VZ(init)	0.999574	O	B-PP				
@@ -3501,7 +3499,7 @@
 29	en	en	[en]	VG(neven)	0.999194	O	B-CONJP				
 30	Yahoo!.	Yahoo!.	[Yahoo!.]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 
-1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
+1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	O	B-NP				
 2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP				
 3	gebruik	gebruik	[gebruik]	N(soort,ev,basis,onz,stan)	0.998108	O	B-NP				
 4	van	van	[van]	VZ(init)	0.959310	O	B-PP				
@@ -3510,7 +3508,7 @@
 7	technologie	technologie	[technologisch][ie]	N(soort,ev,basis,zijd,stan)	0.997772	O	I-NP				
 8	als	als	[als]	VG(onder)	0.720588	O	B-SBAR				
 9	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
-10	zelf.	zelf.	[zelf.]	SPEC(afk)	1.000000	O	I-NP				
+10	zelf.	zelf.	[zelf.]	SPEC(afk)	1.000000	I-ORG	I-NP				
 
 1	"Google	"google	["google]	N(soort,ev,basis,zijd,stan)	0.762794	O	B-NP				
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.998276	O	B-VP				
@@ -3552,7 +3550,7 @@
 15	en	en	[en]	VG(neven)	0.999342	O	B-CONJP				
 16	commerciële	commercieel	[commercie][eel][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	B-NP				
 17	ondernemingen.	ondernemingen.	[ondernemingen.]	WW(pv,tgw,mv)	0.332966	O	B-VP				
-18	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.738938	B-LOC	B-NP				
+18	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.738938	B-ORG	B-NP				
 19	bij	bij	[bij]	VZ(init)	0.989796	O	B-PP				
 20	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 21	worden	worden	[word][en]	WW(pv,tgw,mv)	1.000000	O	B-VP				

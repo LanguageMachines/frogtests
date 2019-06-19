@@ -30,7 +30,7 @@ STRING 1
 6	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999633	O	I-NP	11	su
 7	,	,	[,]	LET()	1.000000	O	O	6	punct
 8	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP	6	mod
-9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	8	obj1
+9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	8	obj1
 10	,	,	[,]	LET()	1.000000	O	O	9	punct
 11	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP	3	body
 12	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP	11	vc
@@ -41,7 +41,7 @@ STRING 1
 17	!	!	[!]	LET()	1.000000	I-ORG	I-NP	16	punct
 18	.	.	[.]	LET()	1.000000	O	O	16	punct
 
-1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
+1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	O	B-NP	2	su
 2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP	0	ROOT
 3	gebruik	gebruik	[gebruik]	N(soort,ev,basis,onz,stan)	0.998108	O	B-NP	2	obj1
 4	van	van	[van]	VZ(init)	0.959310	O	B-PP	2	pc
@@ -261,7 +261,7 @@ STRING 2
 6	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999633	O	I-NP	11	su
 7	,	,	[,]	LET()	1.000000	O	O	6	punct
 8	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP	6	mod
-9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	8	obj1
+9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-ORG	B-NP	8	obj1
 10	,	,	[,]	LET()	1.000000	O	O	9	punct
 11	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP	3	body
 12	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP	11	vc
@@ -272,7 +272,7 @@ STRING 2
 17	!	!	[!]	LET()	1.000000	I-ORG	I-NP	16	punct
 18	.	.	[.]	LET()	1.000000	O	O	16	punct
 
-1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP	2	su
+1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	O	B-NP	2	su
 2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP	0	ROOT
 3	gebruik	gebruik	[gebruik]	N(soort,ev,basis,onz,stan)	0.998108	O	B-NP	2	obj1
 4	van	van	[van]	VZ(init)	0.959310	O	B-PP	2	pc
@@ -1092,7 +1092,7 @@ STRING 1
 5	polytheen	polytheen	[poly][etheen]	N(soort,mv,basis)	0.992037	O	B-NP				
 6	.	.	[.]	LET()	1.000000	O	O				
 
-1	postmortale	postmortaal	[postmortale]	ADJ(prenom,basis,met-e,stan)	1.000000	O	B-NP				
+1	postmortale	postmortaal	[postmortale]	ADJ(prenom,basis,met-e,stan)	1.000000	B-LOC	B-NP				
 2	verwondingen	verwonding	[ver][wond][ing][en]	N(soort,mv,basis)	0.999588	O	I-NP				
 3	.	.	[.]	LET()	1.000000	O	O				
 
@@ -1227,7 +1227,7 @@ STRING 2
 5	polytheen	polytheen	[poly][etheen]	N(soort,mv,basis)	0.992037	O	B-NP				
 6	.	.	[.]	LET()	1.000000	O	O				
 
-1	postmortale	postmortaal	[postmortale]	ADJ(prenom,basis,met-e,stan)	1.000000	O	B-NP				
+1	postmortale	postmortaal	[postmortale]	ADJ(prenom,basis,met-e,stan)	1.000000	B-LOC	B-NP				
 2	verwondingen	verwonding	[ver][wond][ing][en]	N(soort,mv,basis)	0.999588	O	I-NP				
 3	.	.	[.]	LET()	1.000000	O	O				
 
@@ -1646,8 +1646,8 @@ STRING 1
 6	.	.	[.]	LET()	1.000000	O	O				
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
-2	en	en	[en]	VG(neven)	0.993989	I-PER	B-CONJP				
-3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	I-PER	B-NP				
+2	en	en	[en]	VG(neven)	0.993989	O	B-CONJP				
+3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
 4	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.991803	O	B-VP				
 5	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP				
 6	expediënten	expediënt	[expedieer][ent][en]	N(soort,mv,basis)	0.635838	O	I-NP				
@@ -1844,8 +1844,8 @@ STRING 2
 6	.	.	[.]	LET()	1.000000	O	O				
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
-2	en	en	[en]	VG(neven)	0.993989	I-PER	B-CONJP				
-3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	I-PER	B-NP				
+2	en	en	[en]	VG(neven)	0.993989	O	B-CONJP				
+3	Piet	Piet	[Piet]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
 4	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.991803	O	B-VP				
 5	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP				
 6	expediënten	expediënt	[expedieer][ent][en]	N(soort,mv,basis)	0.635838	O	I-NP				
