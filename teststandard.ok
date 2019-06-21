@@ -11,6 +11,7 @@
 11	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP				
 12	lanceren	lanceren	[lanceer][en]	WW(inf,vrij,zonder)	0.791045	O	B-VP				
 13	.	.	[.]	LET()	1.000000	O	O				
+
 1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.993865	O	B-NP				
 2	meldt	melden	[meld][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP				
 3	de	de	[de]	LID(bep,stan,rest)	0.999811	O	B-NP				
@@ -19,6 +20,7 @@
 6	The	The	[The]	SPEC(vreemd)	1.000000	B-PRO	B-NP				
 7	Times	Times	[Times]	SPEC(vreemd)	1.000000	I-PRO	I-NP				
 8	.	.	[.]	LET()	1.000000	O	O				
+
 1	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
 2	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.997207	O	B-VP				
 3	dat	dat	[dat]	VG(onder)	0.962882	O	B-SBAR				
@@ -27,7 +29,7 @@
 6	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999633	O	I-NP				
 7	,	,	[,]	LET()	1.000000	O	O				
 8	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP				
-9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
+9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 10	,	,	[,]	LET()	1.000000	O	O				
 11	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP				
 12	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP				
@@ -37,7 +39,8 @@
 16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 17	!	!	[!]	LET()	1.000000	I-ORG	I-NP				
 18	.	.	[.]	LET()	1.000000	O	O				
-1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
+
+1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	O	B-NP				
 2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP				
 3	gebruik	gebruik	[gebruik]	N(soort,ev,basis,onz,stan)	0.998108	O	B-NP				
 4	van	van	[van]	VZ(init)	0.959310	O	B-PP				
@@ -48,6 +51,7 @@
 9	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 10	zelf	zelf	[zelf]	BW()	0.996918	O	B-ADVP				
 11	.	.	[.]	LET()	1.000000	O	O				
+
 1	"	"	["]	LET()	1.000000	O	O				
 2	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP				
@@ -74,6 +78,7 @@
 24	aldus	aldus	[al][dus]	BW()	0.997264	O	B-PP				
 25	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
 26	.	.	[.]	LET()	1.000000	O	O				
+
 1	Het	het	[het]	LID(bep,stan,evon)	0.998917	O	B-NP				
 2	algoritmische	algoritmisch	[algoritme][isch][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
 3	zoekprogramma	zoekprogramma	[zoek][programma]	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP				
@@ -92,6 +97,7 @@
 16	commerciële	commercieel	[commercie][eel][e]	ADJ(prenom,basis,met-e,stan)	0.999790	O	B-NP				
 17	ondernemingen	onderneming	[onderneem][ing][en]	N(soort,mv,basis)	0.999588	O	I-NP				
 18	.	.	[.]	LET()	1.000000	O	O				
+
 1	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.964035	O	B-NP				
 2	bij	bij	[bij]	VZ(init)	0.989796	O	B-PP				
 3	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
@@ -113,6 +119,7 @@
 19	verwijzingen	verwijzing	[ver][wijs][ing][en]	N(soort,mv,basis)	0.997677	O	I-NP				
 20	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999662	O	B-VP				
 21	.	.	[.]	LET()	1.000000	O	O				
+
 1	"	"	["]	LET()	1.000000	O	O				
 2	De	de	[de]	LID(bep,stan,rest)	0.877577	O	B-NP				
 3	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.997796	O	I-NP				
@@ -127,6 +134,7 @@
 12	een	een	[een]	LID(onbep,stan,agr)	0.999038	O	B-NP				
 13	keuze	keuze	[keuze]	N(soort,ev,basis,zijd,stan)	0.998077	O	I-NP				
 14	.	.	[.]	LET()	1.000000	O	O				
+
 1	Deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780	O	B-NP				
 2	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998006	O	I-NP				
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP				
@@ -145,6 +153,7 @@
 16	voormalige	voormalig	[voor][maal][ig][e]	ADJ(prenom,basis,met-e,stan)	0.999763	O	I-NP				
 17	effectenhandelaar	effectenhandelaar	[effect][en][handel][aar]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP				
 18	.	.	[.]	LET()	1.000000	O	O				
+
 1	"	"	["]	LET()	1.000000	O	O				
 2	Computers	computer	[computer][s]	N(soort,mv,basis)	0.862385	O	B-NP				
 3	kunnen	kunnen	[kan][en]	WW(pv,tgw,mv)	0.911765	O	B-VP				
@@ -154,6 +163,7 @@
 7	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.999466	O	I-NP				
 8	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.727273	O	B-VP				
 9	.	.	[.]	LET()	1.000000	O	O				
+
 1	Meestal	meestal	[meest][al]	BW()	0.998992	O	B-ADVP				
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP				
 3	een	een	[een]	LID(onbep,stan,agr)	0.999560	O	B-NP				
@@ -171,6 +181,7 @@
 15	niet	niet	[niet]	BW()	0.999881	O	B-ADVP				
 16	.	.	[.]	LET()	1.000000	O	O				
 17	"	"	["]	LET()	1.000000	O	O				
+
 1	Voor	voor	[voor]	VZ(init)	0.950530	O	B-PP				
 2	het	het	[het]	LID(bep,stan,evon)	0.994595	O	B-NP				
 3	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
@@ -193,6 +204,7 @@
 20	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.600000	O	B-VP				
 21	gemaakt	maken	[ge][maak][t]	WW(vd,vrij,zonder)	0.999127	O	I-VP				
 22	.	.	[.]	LET()	1.000000	O	O				
+
 1	De	de	[de]	LID(bep,stan,rest)	0.992095	O	B-NP				
 2	goede	goed	[goed][e]	ADJ(prenom,basis,met-e,stan)	0.997314	O	I-NP				
 3	reputatie	reputatie	[reputatie]	N(soort,ev,basis,zijd,stan)	0.999455	O	I-NP				
@@ -214,3 +226,4 @@
 19	betrouwbare	betrouwbaar	[be][trouw][baar][e]	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP				
 20	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP				
 21	.	.	[.]	LET()	1.000000	O	O				
+
