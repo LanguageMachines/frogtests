@@ -19,7 +19,7 @@ for file in teststandard testencoding testunits testslash testapostroph \
 	    test_testdir testxmlin testserverxml testmbma testmblem \
 	    testmblemproblems testmbmaproblems testlong testlang \
 	    testapi testtextclass testpassthru \
-	    testissue71 testissue72 testissue73 # testquotes
+	    testissue71 testissue72 testissue73 testissue77 # testquotes
 do ./testone.sh $file
    if [ $? -ne 0 ];
    then
