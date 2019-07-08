@@ -3,23 +3,49 @@
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <phon-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/phon.foliaset.ttl"/>
+      <gap-annotation set="unknown"/>
+      <style-annotation set="unknown">
+        <annotator processor="proc.unspecified.8c3cd94f"/>
+      </style-annotation>
+      <part-annotation set="unknown">
+        <annotator processor="proc.unspecified.8c3cd94f"/>
+      </part-annotation>
       <paragraph-annotation set="unknown">
         <annotator processor="proc.unspecified.8c3cd94f"/>
       </paragraph-annotation>
+      <correction-annotation set="unknown">
+        <annotator processor="proc.unspecified.8c3cd94f"/>
+      </correction-annotation>
+      <string-annotation set="unknown"/>
       <division-annotation set="unknown">
         <annotator processor="proc.unspecified.8c3cd94f"/>
       </division-annotation>
       <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset">
         <annotator processor="proc.ucto.ebf337aa"/>
       </lang-annotation>
+      <token-annotation set="tokconfig-nld">
+        <annotator processor="proc.ucto.ebf337aa"/>
+      </token-annotation>
       <token-annotation set="tokconfig-lat">
         <annotator processor="proc.ucto.ebf337aa"/>
       </token-annotation>
       <token-annotation set="tokconfig-deu">
         <annotator processor="proc.ucto.ebf337aa"/>
       </token-annotation>
+      <token-annotation set="tokconfig-eng">
+        <annotator processor="proc.ucto.ebf337aa"/>
+      </token-annotation>
+      <token-annotation set="tokconfig-fra">
+        <annotator processor="proc.ucto.ebf337aa"/>
+      </token-annotation>
+      <linebreak-annotation set="unknown"/>
       <sentence-annotation/>
+      <head-annotation/>
       <note-annotation/>
+      <metric-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/nederlab-metrics.foliaset.ttl">
+        <annotator processor="FoLiA-wordtranslate.1"/>
+      </metric-annotation>
       <lemma-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmaid_withcompounds.foliaset.ttl">
         <annotator processor="FoLiA-wordtranslate.1"/>
       </lemma-annotation>
@@ -59,137 +85,374 @@
       <processor xml:id="FoLiA-wordtranslate.1" begindatetime="2019-06-22T10:37:30" command="FoLiA-wordtranslate -l nld --outputclass=contemporary -t 4 -d lexicon.1637-2010.250.lexserv.vandale.tsv -p preservation2010.txt -r rules.machine -H int_historisch_lexicon.txt" folia_version="2.1.0" host="mlp08.science.ru.nl" name="FoLiA-wordtranslate" user="proycon" version="0.13">
         <processor xml:id="FoLiA-wordtranslate.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
       </processor>
-      <processor xml:id="frog.1" begindatetime="2019-07-08T12:58:34" command="frog --textclass=contemporary -o issue77.out -X issue77_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+      <processor xml:id="frog.1" begindatetime="2019-07-08T18:07:39" command="frog --textclass=contemporary -o issue77.out -X issue77_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="tagger.1" begindatetime="2019-07-08T12:58:34" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-08T12:58:34" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-08T12:58:34" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-07-08T12:58:34" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-07-08T12:58:34" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2019-07-08T12:58:34" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-07-08T12:58:34" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-08T18:07:39" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-08T18:07:39" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-08T18:07:39" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-08T18:07:39" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-08T18:07:39" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-08T18:07:39" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-07-08T18:07:39" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
   </metadata>
   <text xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text">
-    <div xml:id="div1" class="div">
-      <s xml:id="sent">
-        <t class="contemporary">Dit is een test</t>
-        <w xml:id="sent.w.1" class="WORD" set="passthru" textclass="contemporary">
-          <t class="contemporary">Dit</t>
-          <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW" textclass="contemporary">
-            <feat class="aanw" subset="vwtype"/>
-            <feat class="pron" subset="pdtype"/>
-            <feat class="stan" subset="naamval"/>
-            <feat class="vol" subset="status"/>
-            <feat class="3o" subset="persoon"/>
-            <feat class="ev" subset="getal"/>
-          </pos>
-          <lemma class="dit" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
-          <morphology>
-            <morpheme>
-              <t class="contemporary">dit</t>
-            </morpheme>
-          </morphology>
-        </w>
-        <w xml:id="sent.w.2" class="WORD" set="passthru" textclass="contemporary">
-          <t class="contemporary">is</t>
-          <pos class="WW(pv,tgw,ev)" confidence="0.999891" head="WW" textclass="contemporary">
-            <feat class="pv" subset="wvorm"/>
-            <feat class="tgw" subset="pvtijd"/>
-            <feat class="ev" subset="pvagr"/>
-          </pos>
-          <lemma class="zijn" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
-          <morphology>
-            <morpheme>
-              <t class="contemporary">zijn</t>
-            </morpheme>
-          </morphology>
-        </w>
-        <w xml:id="sent.w.3" class="WORD" set="passthru" textclass="contemporary">
-          <t class="contemporary">een</t>
-          <pos class="LID(onbep,stan,agr)" confidence="0.999113" head="LID" textclass="contemporary">
-            <feat class="onbep" subset="lwtype"/>
-            <feat class="stan" subset="naamval"/>
-            <feat class="agr" subset="npagr"/>
-          </pos>
-          <lemma class="een" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
-          <morphology>
-            <morpheme>
-              <t class="contemporary">een</t>
-            </morpheme>
-          </morphology>
-        </w>
-        <w xml:id="sent.w.4" class="WORD" set="passthru" textclass="contemporary">
-          <t class="contemporary">test</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.789112" head="N" textclass="contemporary">
-            <feat class="soort" subset="ntype"/>
-            <feat class="ev" subset="getal"/>
-            <feat class="basis" subset="graad"/>
-            <feat class="zijd" subset="genus"/>
-            <feat class="stan" subset="naamval"/>
-          </pos>
-          <lemma class="test" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
-          <morphology>
-            <morpheme>
-              <t class="contemporary">test</t>
-            </morpheme>
-          </morphology>
-        </w>
-        <chunking xml:id="sent.chunking.1">
-          <chunk xml:id="sent.chunking.1.chunk.1" class="NP" confidence="1.000000" textclass="contemporary">
-            <wref id="sent.w.1" t="Dit"/>
-          </chunk>
-          <chunk xml:id="sent.chunking.1.chunk.2" class="VP" confidence="1.000000" textclass="contemporary">
-            <wref id="sent.w.2" t="is"/>
-          </chunk>
-          <chunk xml:id="sent.chunking.1.chunk.3" class="NP" confidence="1.000000" textclass="contemporary">
-            <wref id="sent.w.3" t="een"/>
-            <wref id="sent.w.4" t="test"/>
-          </chunk>
-        </chunking>
-        <dependencies xml:id="sent.dependencies.1">
-          <dependency xml:id="sent.dependencies.1.dependency.1" class="su" textclass="contemporary">
-            <hd>
-              <wref id="sent.w.2" t="is"/>
-            </hd>
-            <dep>
-              <wref id="sent.w.1" t="Dit"/>
-            </dep>
-          </dependency>
-          <dependency xml:id="sent.dependencies.1.dependency.2" class="det" textclass="contemporary">
-            <hd>
-              <wref id="sent.w.4" t="test"/>
-            </hd>
-            <dep>
-              <wref id="sent.w.3" t="een"/>
-            </dep>
-          </dependency>
-          <dependency xml:id="sent.dependencies.1.dependency.3" class="predc" textclass="contemporary">
-            <hd>
-              <wref id="sent.w.2" t="is"/>
-            </hd>
-            <dep>
-              <wref id="sent.w.4" t="test"/>
-            </dep>
-          </dependency>
-        </dependencies>
-      </s>
-      <note xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1">
-        <t>september.</t>
-        <lang class="lat"/>
-        <s xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1.s.2">
-          <t>september.</t>
-          <lang class="lat"/>
-          <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1.s.2.w.2" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-lat" space="no">
-            <t>september</t>
-          </w>
-          <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1.s.2.w.3" class="PUNCTUATION" datetime="2017-06-27T14:09:02" set="tokconfig-lat">
-            <t>.</t>
-          </w>
-        </s>
-      </note>
-    </div>
+    <part xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1" class="bodymatter">
+      <div xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3" class="div2">
+        <div xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1" class="div3">
+          <p xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7">
+            <t>de ambassadeur</t>
+            <lang class="nld"/>
+            <s xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2">
+              <t>de ambassadeur</t>
+              <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.w.4" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                <t>de</t>
+                <t class="contemporary">de</t>
+                <lemma class="WNT:M013198" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmaid_withcompounds.foliaset.ttl"/>
+                <lemma class="de" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmatext_withcompounds.foliaset.ttl"/>
+                <metric class="modernisationsource" value="preservationlexicon"/>
+                <pos class="LID(bep,stan,rest)" confidence="0.999665" head="LID" textclass="contemporary">
+                  <feat class="bep" subset="lwtype"/>
+                  <feat class="stan" subset="naamval"/>
+                  <feat class="rest" subset="npagr"/>
+                </pos>
+                <lemma class="de" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                <morphology>
+                  <morpheme>
+                    <t class="contemporary">de</t>
+                  </morpheme>
+                </morphology>
+              </w>
+              <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.w.5" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                <t>ambassadeur</t>
+                <t class="contemporary">ambassadeur</t>
+                <lemma class="WNT:M003723" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmaid_withcompounds.foliaset.ttl"/>
+                <lemma class="ambassadeur" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmatext_withcompounds.foliaset.ttl"/>
+                <metric class="modernisationsource" value="inthistlexicon"/>
+                <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.997691" head="N" textclass="contemporary">
+                  <feat class="soort" subset="ntype"/>
+                  <feat class="ev" subset="getal"/>
+                  <feat class="basis" subset="graad"/>
+                  <feat class="zijd" subset="genus"/>
+                  <feat class="stan" subset="naamval"/>
+                </pos>
+                <lemma class="ambassadeur" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                <morphology>
+                  <morpheme>
+                    <t class="contemporary">ambassadee</t>
+                  </morpheme>
+                  <morpheme>
+                    <t class="contemporary">ur</t>
+                  </morpheme>
+                </morphology>
+              </w>
+              <chunking xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.chunking.1">
+                <chunk xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.chunking.1.chunk.1" class="NP" confidence="1.000000" textclass="contemporary">
+                  <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.w.4" t="de"/>
+                  <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.w.5" t="ambassadeur"/>
+                </chunk>
+              </chunking>
+              <dependencies xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.dependencies.1">
+                <dependency xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.dependencies.1.dependency.1" class="det" textclass="contemporary">
+                  <hd>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.w.5" t="ambassadeur"/>
+                  </hd>
+                  <dep>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.s.2.w.4" t="de"/>
+                  </dep>
+                </dependency>
+              </dependencies>
+            </s>
+          </p>
+          <note xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1">
+            <t>september.<br/></t>
+            <lang class="lat"/>
+            <s xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1.s.2">
+              <t>september.</t>
+              <lang class="lat"/>
+              <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1.s.2.w.2" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-lat" space="no">
+                <t>september</t>
+              </w>
+              <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1.s.2.w.3" class="PUNCTUATION" datetime="2017-06-27T14:09:02" set="tokconfig-lat">
+                <t>.</t>
+              </w>
+            </s>
+          </note>
+          <p xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1">
+            <t>secretaris Stellingwerf.</t>
+            <lang class="nld"/>
+            <s xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1">
+              <t>secretaris Stellingwerf.</t>
+              <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.9" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                <t>secretaris</t>
+                <t class="contemporary">secretaris</t>
+                <lemma class="WNT:M063424" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmaid_withcompounds.foliaset.ttl"/>
+                <lemma class="secretaris" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmatext_withcompounds.foliaset.ttl"/>
+                <metric class="modernisationsource" value="preservationlexicon"/>
+                <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998952" head="N" textclass="contemporary">
+                  <feat class="soort" subset="ntype"/>
+                  <feat class="ev" subset="getal"/>
+                  <feat class="basis" subset="graad"/>
+                  <feat class="zijd" subset="genus"/>
+                  <feat class="stan" subset="naamval"/>
+                </pos>
+                <lemma class="secretaris" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                <morphology>
+                  <morpheme>
+                    <t class="contemporary">secretaris</t>
+                  </morpheme>
+                </morphology>
+              </w>
+              <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.10" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld" space="no">
+                <t>Stellingwerf</t>
+                <t class="contemporary">Stellingwerf</t>
+                <metric class="modernisationsource" value="none"/>
+                <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" textclass="contemporary">
+                  <feat class="deeleigen" subset="spectype"/>
+                </pos>
+                <lemma class="Stellingwerf" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                <morphology>
+                  <morpheme>
+                    <t class="contemporary">Stellingwerf</t>
+                  </morpheme>
+                </morphology>
+              </w>
+              <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.12" class="PUNCTUATION" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                <t>.</t>
+                <t class="contemporary">.</t>
+                <metric class="modernisationsource" value="preservationlexicon"/>
+                <pos class="LET()" confidence="1.000000" head="LET" textclass="contemporary"/>
+                <lemma class="." set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                <morphology>
+                  <morpheme>
+                    <t class="contemporary">.</t>
+                  </morpheme>
+                </morphology>
+              </w>
+              <entities xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.entities.1">
+                <entity xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.entities.1.entity.1" class="per" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="contemporary">
+                  <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.10" t="Stellingwerf"/>
+                </entity>
+              </entities>
+              <chunking xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.chunking.1">
+                <chunk xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000" textclass="contemporary">
+                  <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.9" t="secretaris"/>
+                </chunk>
+                <chunk xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.chunking.1.chunk.2" class="NP" confidence="0.952433" textclass="contemporary">
+                  <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.10" t="Stellingwerf"/>
+                </chunk>
+              </chunking>
+              <dependencies xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.dependencies.1">
+                <dependency xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.dependencies.1.dependency.1" class="app" textclass="contemporary">
+                  <hd>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.9" t="secretaris"/>
+                  </hd>
+                  <dep>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.10" t="Stellingwerf"/>
+                  </dep>
+                </dependency>
+                <dependency xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.dependencies.1.dependency.2" class="punct" textclass="contemporary">
+                  <hd>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.10" t="Stellingwerf"/>
+                  </hd>
+                  <dep>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.p.1.s.1.w.12" t="."/>
+                  </dep>
+                </dependency>
+              </dependencies>
+            </s>
+          </p>
+          <div xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1" class="div2">
+            <head xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1">
+              <t>
+              <t-style class="italic">Woensdag 8 december 1632 nanoen</t-style>
+            </t>
+              <lang class="nld"/>
+              <s xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1">
+                <t>Woensdag 8 december 1632 nanoen</t>
+                <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.1" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                  <t>Woensdag</t>
+                  <t class="contemporary">Woensdag</t>
+                  <lemma class="MNW:74176" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmaid_withcompounds.foliaset.ttl"/>
+                  <lemma class="woensdag" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmatext_withcompounds.foliaset.ttl"/>
+                  <metric class="modernisationsource" value="inthistlexicon"/>
+                  <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" textclass="contemporary">
+                    <feat class="deeleigen" subset="spectype"/>
+                  </pos>
+                  <lemma class="Woensdag" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                  <morphology>
+                    <morpheme>
+                      <t class="contemporary">Woensdag</t>
+                    </morpheme>
+                  </morphology>
+                </w>
+                <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.2" class="NUMBER" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                  <t>8</t>
+                  <t class="contemporary">8</t>
+                  <metric class="modernisationsource" value="none"/>
+                  <pos class="TW(hoofd,vrij)" confidence="0.849057" head="TW" textclass="contemporary">
+                    <feat class="hoofd" subset="numtype"/>
+                    <feat class="vrij" subset="positie"/>
+                  </pos>
+                  <lemma class="8" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                  <morphology>
+                    <morpheme>
+                      <t class="contemporary">8</t>
+                    </morpheme>
+                  </morphology>
+                </w>
+                <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.3" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                  <t>december</t>
+                  <t class="contemporary">december</t>
+                  <lemma class="WNT:M013211" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmaid_withcompounds.foliaset.ttl"/>
+                  <lemma class="december" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmatext_withcompounds.foliaset.ttl"/>
+                  <metric class="modernisationsource" value="inthistlexicon"/>
+                  <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" textclass="contemporary">
+                    <feat class="deeleigen" subset="spectype"/>
+                  </pos>
+                  <lemma class="december" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                  <morphology>
+                    <morpheme>
+                      <t class="contemporary">december</t>
+                    </morpheme>
+                  </morphology>
+                </w>
+                <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.4" class="NUMBER" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                  <t>1632</t>
+                  <t class="contemporary">1632</t>
+                  <metric class="modernisationsource" value="none"/>
+                  <pos class="TW(hoofd,vrij)" confidence="0.993492" head="TW" textclass="contemporary">
+                    <feat class="hoofd" subset="numtype"/>
+                    <feat class="vrij" subset="positie"/>
+                  </pos>
+                  <lemma class="1632" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                  <morphology>
+                    <morpheme>
+                      <t class="contemporary">1632</t>
+                    </morpheme>
+                  </morphology>
+                </w>
+                <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.5" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                  <t>nanoen</t>
+                  <t class="contemporary">nanoen</t>
+                  <lemma class="WNT:M040664" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmaid_withcompounds.foliaset.ttl"/>
+                  <lemma class="nanoen" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmatext_withcompounds.foliaset.ttl"/>
+                  <metric class="modernisationsource" value="inthistlexicon"/>
+                  <pos class="N(soort,mv,basis)" confidence="0.524690" head="N" textclass="contemporary">
+                    <feat class="soort" subset="ntype"/>
+                    <feat class="mv" subset="getal"/>
+                    <feat class="basis" subset="graad"/>
+                  </pos>
+                  <lemma class="nanoen" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                  <morphology>
+                    <morpheme>
+                      <t class="contemporary">na</t>
+                    </morpheme>
+                    <morpheme>
+                      <t class="contemporary">noen</t>
+                    </morpheme>
+                  </morphology>
+                </w>
+                <chunking xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.chunking.1">
+                  <chunk xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="0.730949" textclass="contemporary">
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.1" t="Woensdag"/>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.2" t="8"/>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.3" t="december"/>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.4" t="1632"/>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.5" t="nanoen"/>
+                  </chunk>
+                </chunking>
+                <dependencies xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.dependencies.1">
+                  <dependency xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.dependencies.1.dependency.1" class="det" textclass="contemporary">
+                    <hd>
+                      <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.3" t="december"/>
+                    </hd>
+                    <dep>
+                      <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.2" t="8"/>
+                    </dep>
+                  </dependency>
+                  <dependency xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.dependencies.1.dependency.2" class="mod" textclass="contemporary">
+                    <hd>
+                      <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.1" t="Woensdag"/>
+                    </hd>
+                    <dep>
+                      <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.3" t="december"/>
+                    </dep>
+                  </dependency>
+                  <dependency xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.dependencies.1.dependency.3" class="mod" textclass="contemporary">
+                    <hd>
+                      <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.3" t="december"/>
+                    </hd>
+                    <dep>
+                      <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.1.head.1.s.1.w.4" t="1632"/>
+                    </dep>
+                  </dependency>
+                </dependencies>
+              </s>
+            </head>
+          </div>
+          <div xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2" class="div2">
+            <head xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1">
+              <t>
+              <t-style class="italic">Donderdag 9 december 1632 voornoen</t-style>
+            </t>
+              <lang class="nld"/>
+              <s xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1">
+                <t>Donderdag 9</t>
+                <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.w.1" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                  <t>Donderdag</t>
+                  <t class="contemporary">Donderdag</t>
+                  <lemma class="WNT:M013967" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmaid_withcompounds.foliaset.ttl"/>
+                  <lemma class="donderdag" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmatext_withcompounds.foliaset.ttl"/>
+                  <metric class="modernisationsource" value="inthistlexicon"/>
+                  <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" textclass="contemporary">
+                    <feat class="deeleigen" subset="spectype"/>
+                  </pos>
+                  <lemma class="Donderdag" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                  <morphology>
+                    <morpheme>
+                      <t class="contemporary">Donderdag</t>
+                    </morpheme>
+                  </morphology>
+                </w>
+                <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.w.2" class="NUMBER" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+                  <t>9</t>
+                  <t class="contemporary">9</t>
+                  <metric class="modernisationsource" value="none"/>
+                  <pos class="TW(hoofd,vrij)" confidence="0.970339" head="TW" textclass="contemporary">
+                    <feat class="hoofd" subset="numtype"/>
+                    <feat class="vrij" subset="positie"/>
+                  </pos>
+                  <lemma class="9" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl" textclass="contemporary"/>
+                  <morphology>
+                    <morpheme>
+                      <t class="contemporary">9</t>
+                    </morpheme>
+                  </morphology>
+                </w>
+                <chunking xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.chunking.1">
+                  <chunk xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="0.846154" textclass="contemporary">
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.w.1" t="Donderdag"/>
+                    <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.w.2" t="9"/>
+                  </chunk>
+                </chunking>
+                <dependencies xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.dependencies.1">
+                  <dependency xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.dependencies.1.dependency.1" class="mod" textclass="contemporary">
+                    <hd>
+                      <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.w.1" t="Donderdag"/>
+                    </hd>
+                    <dep>
+                      <wref id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.2.head.1.s.1.w.2" t="9"/>
+                    </dep>
+                  </dependency>
+                </dependencies>
+              </s>
+            </head>
+          </div>
+        </div>
+      </div>
+    </part>
   </text>
 </FoLiA>
