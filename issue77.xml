@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83" generator="libfolia-v2.1" version="2.1.0">
+  <metadata type="native">
+    <annotations>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <paragraph-annotation set="unknown">
+        <annotator processor="proc.unspecified.8c3cd94f"/>
+      </paragraph-annotation>
+      <division-annotation set="unknown">
+        <annotator processor="proc.unspecified.8c3cd94f"/>
+      </division-annotation>
+      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset">
+        <annotator processor="proc.ucto.ebf337aa"/>
+      </lang-annotation>
+      <token-annotation set="tokconfig-lat">
+        <annotator processor="proc.ucto.ebf337aa"/>
+      </token-annotation>
+      <token-annotation set="tokconfig-deu">
+        <annotator processor="proc.ucto.ebf337aa"/>
+      </token-annotation>
+      <sentence-annotation/>
+      <note-annotation/>
+      <lemma-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmaid_withcompounds.foliaset.ttl">
+        <annotator processor="FoLiA-wordtranslate.1"/>
+      </lemma-annotation>
+      <lemma-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/int_lemmatext_withcompounds.foliaset.ttl">
+        <annotator processor="FoLiA-wordtranslate.1"/>
+      </lemma-annotation>
+    </annotations>
+    <provenance>
+      <processor xml:id="proc.huygensing-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.pre-upgrade.df007495" folia_version="1.5.1" format="text/folia+xml" host="mlp08.science.ru.nl" name="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.pre-upgrade" src="file://input/HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.folia.xml" type="datasource"/>
+      <processor xml:id="proc.foliaupgrade.25be78b1" begindatetime="2019-06-21T20:14:53" command="foliaupgrade -n input/HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.folia.xml" folia_version="2.1.0" host="mlp08.science.ru.nl" name="foliaupgrade" src="https://github.com/proycon/foliatools" user="proycon" version="2.1.7">
+        <processor xml:id="proc.foliaupgrade.25be78b1.generator" folia_version="2.1.0" name="foliapy" src="https://github.com/proycon/foliapy" type="generator" version="2.1.4"/>
+        <processor xml:id="proc.unspecified.8c3cd94f" name="unspecified"/>
+        <processor xml:id="proc.ucto.ebf337aa" name="ucto"/>
+      </processor>
+      <processor xml:id="FoLiA-wordtranslate.1" begindatetime="2019-06-22T10:37:30" command="FoLiA-wordtranslate -l nld --outputclass=contemporary -t 4 -d lexicon.1637-2010.250.lexserv.vandale.tsv -p preservation2010.txt -r rules.machine -H int_historisch_lexicon.txt" folia_version="2.1.0" host="mlp08.science.ru.nl" name="FoLiA-wordtranslate" user="proycon" version="0.13">
+        <processor xml:id="FoLiA-wordtranslate.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
+      </processor>
+    </provenance>
+  </metadata>
+  <text xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text">
+    <div xml:id="div1" class="div">
+      <s xml:id="sent">
+	<t class="contemporary">Dit is een test</t>
+      </s>
+      <note xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1">
+        <t>september.</t>
+        <lang class="lat"/>
+        <s xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1.s.2">
+          <t>september.</t>
+          <lang class="lat"/>
+          <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1.s.2.w.2" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-lat" space="no">
+            <t>september</t>
+          </w>
+          <w xml:id="HuygensING-stellingwerff-1-1_62beb0b1-1ddd-4ef2-866d-21362b73ab83.text.text.1.body.1.div1.1.div2.3.div3.1.p.7.note.1.s.2.w.3" class="PUNCTUATION" datetime="2017-06-27T14:09:02" set="tokconfig-lat">
+            <t>.</t>
+          </w>
+        </s>
+      </note>
+    </div>
+  </text>
+</FoLiA>
