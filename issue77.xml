@@ -3,62 +3,37 @@
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
-      <style-annotation set="unknown"/>
-      <paragraph-annotation set="unknown"/>
-      <division-annotation set="unknown"/>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
       <token-annotation set="tokconfig-nld" />
-      <linebreak-annotation set="unknown"/>
-      <sentence-annotation/>
-      <head-annotation/>
-      <note-annotation/>
     </annotations>
   </metadata>
   <text xml:id="bug1.text">
-    <div xml:id="bug1.textdiv.1" class="div3">
-      <p xml:id="bug1.textdiv.1.p.7">
-        <t>de ambassadeur</t>
-        <lang class="nld"/>
-        <s xml:id="bug1.textdiv.1.p.7.s.2">
-          <t>de ambassadeur</t>
-          <w xml:id="bug1.textdiv.1.p.7.s.2.w.4" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
+    <div xml:id="bug1.textdiv.1">
+      <p xml:id="bug1.textdiv.1.p.1">
+        <t>de</t>
+        <s xml:id="bug1.textdiv.1.p.1.s.1">
+          <t>de</t>
+          <w xml:id="bug1.textdiv.1.p.1.s.1.w.1" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
             <t>de</t>
             <t class="contemporary">de</t>
           </w>
-          <w xml:id="bug1.textdiv.1.p.7.s.2.w.5" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
-            <t>ambassadeur</t>
-            <t class="contemporary">ambassadeur</t>
-          </w>
         </s>
       </p>
-      <note xml:id="bug1.textdiv.1.p.7.note.1">
-        <t>september.<br/></t>
-        <s xml:id="bug1.textdiv.1.p.7.note.1.s.2">
-          <t>september.</t>
-          <w xml:id="bug1.textdiv.1.p.7.note.1.s.2.w.2" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld" space="no">
+      <note xml:id="bug1.textdiv.1.p.1.note.1">
+        <t>september</t>
+        <s xml:id="bug1.textdiv.1.p.1.note.1.s.1">
+          <t>september</t>
+          <w xml:id="bug1.textdiv.1.p.1.note.1.s.1.w.1" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld" space="no">
             <t>september</t>
-          </w>
-          <w xml:id="bug1.textdiv.1.p.7.note.1.s.2.w.3" class="PUNCTUATION" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
-            <t>.</t>
           </w>
         </s>
       </note>
       <p xml:id="bug1.text1.div1.1.p.1">
-        <t>secretaris Stellingwerf.</t>
-        <lang class="nld"/>
+        <t>secretaris</t>
         <s xml:id="bug1.text1.div1.1.p.1.s.1">
-          <t>secretaris Stellingwerf.</t>
+          <t>secretaris</t>
           <w xml:id="bug1.text1.div1.1.p.1.s.1.w.9" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
             <t>secretaris</t>
             <t class="contemporary">secretaris</t>
-          </w>
-          <w xml:id="bug1.text1.div1.1.p.1.s.1.w.10" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld" space="no">
-            <t>Stellingwerf</t>
-            <t class="contemporary">Stellingwerf</t>
-          </w>
-          <w xml:id="bug1.text1.div1.1.p.1.s.1.w.12" class="PUNCTUATION" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
-            <t>.</t>
-            <t class="contemporary">.</t>
           </w>
         </s>
       </p>
