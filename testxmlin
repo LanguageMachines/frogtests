@@ -39,6 +39,8 @@ echo "test 9b: " >> testxmlin.out
 cat ./output/folia3.xml >> testxmlin.out
 echo "test 9c: " >> testxmlin.out
 cat ./output/folia4.xml >> testxmlin.out
+echo "test 9d: " >> testxmlin.out
+cat ./output/spaces.xml >> testxmlin.out
 echo "test 10: " >> testxmlin.out
 $comm -x xmltests/folia4.xml -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
