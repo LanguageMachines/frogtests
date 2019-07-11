@@ -1,25 +1,31 @@
 test 1:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.1" version="2.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="2.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -29,28 +35,22 @@ test 1:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:20" command="frog --skip=p -x folia1.xml -X folia1.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:20" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:47:55" command="frog --skip=p -x folia1.xml -X folia1.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:47:55" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:20" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:20" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:20" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:20" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:20" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:20" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:47:55" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:47:55" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:47:55" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:47:55" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:47:55" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:47:55" name="mwu" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -72,12 +72,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t>dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -86,24 +86,24 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn"/>
             <morphology>
               <morpheme>
                 <t>zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
             <t>als</t>
             <pos class="VG(onder)" confidence="0.966667" head="VG">
               <feat class="onder" subset="conjtype"/>
             </pos>
+            <lemma class="als"/>
             <morphology>
               <morpheme>
                 <t>als</t>
               </morpheme>
             </morphology>
-            <lemma class="als"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD">
             <t>het</t>
@@ -116,12 +116,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="ev" subset="getal"/>
               <feat class="onz" subset="genus"/>
             </pos>
+            <lemma class="het"/>
             <morphology>
               <morpheme>
                 <t>het</t>
               </morpheme>
             </morphology>
-            <lemma class="het"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD">
             <t>ware</t>
@@ -130,15 +130,15 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="conj" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="waar"/>
+            <alt xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5.alt-lem.1" auth="no">
+              <lemma class="zijn"/>
+            </alt>
             <morphology>
               <morpheme>
                 <t>ware</t>
               </morpheme>
             </morphology>
-            <lemma class="waar"/>
-            <alt xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5.alt-lem.1" auth="no">
-              <lemma class="zijn"/>
-            </alt>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>een</t>
@@ -147,12 +147,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
+            <lemma class="een"/>
             <morphology>
               <morpheme>
                 <t>een</t>
               </morpheme>
             </morphology>
-            <lemma class="een"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" space="no">
             <t>test</t>
@@ -163,126 +163,23 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t>test</t>
               </morpheme>
             </morphology>
-            <lemma class="test"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
             <morphology>
               <morpheme>
                 <t>.</t>
               </morpheme>
             </morphology>
-            <lemma class="."/>
           </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD">
-            <t>Gaat</t>
-            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
-              <feat class="pv" subset="wvorm"/>
-              <feat class="tgw" subset="pvtijd"/>
-              <feat class="met-t" subset="pvagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>ga</t>
-              </morpheme>
-              <morpheme>
-                <t>t</t>
-              </morpheme>
-            </morphology>
-            <lemma class="gaan"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD">
-            <t>deze</t>
-            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
-              <feat class="aanw" subset="vwtype"/>
-              <feat class="det" subset="pdtype"/>
-              <feat class="stan" subset="naamval"/>
-              <feat class="prenom" subset="positie"/>
-              <feat class="met-e" subset="buiging"/>
-              <feat class="rest" subset="npagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>deze</t>
-              </morpheme>
-            </morphology>
-            <lemma class="deze"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
-            <t>datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
-              <feat class="soort" subset="ntype"/>
-              <feat class="ev" subset="getal"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zijd" subset="genus"/>
-              <feat class="stan" subset="naamval"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>datum</t>
-              </morpheme>
-            </morphology>
-            <lemma class="datum"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
-            <t>:</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>:</t>
-              </morpheme>
-            </morphology>
-            <lemma class=":"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="DATE">
-            <t>28-11-2011</t>
-            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
-              <feat class="symb" subset="spectype"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>28-11-2011</t>
-              </morpheme>
-            </morphology>
-            <lemma class="28-11-2011"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="WORD" space="no">
-            <t>goed</t>
-            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
-              <feat class="vrij" subset="positie"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zonder" subset="buiging"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>goed</t>
-              </morpheme>
-            </morphology>
-            <lemma class="goed"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.15" class="PUNCTUATION">
-            <t>?</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>?</t>
-              </morpheme>
-            </morphology>
-            <lemma class="?"/>
-          </w>
-          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
-            </entity>
-          </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
@@ -311,6 +208,109 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
             </chunk>
           </chunking>
+          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
+            </entity>
+          </entities>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD">
+            <t>Gaat</t>
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="met-t" subset="pvagr"/>
+            </pos>
+            <lemma class="gaan"/>
+            <morphology>
+              <morpheme>
+                <t>ga</t>
+              </morpheme>
+              <morpheme>
+                <t>t</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD">
+            <t>deze</t>
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+              <feat class="aanw" subset="vwtype"/>
+              <feat class="det" subset="pdtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="prenom" subset="positie"/>
+              <feat class="met-e" subset="buiging"/>
+              <feat class="rest" subset="npagr"/>
+            </pos>
+            <lemma class="deze"/>
+            <morphology>
+              <morpheme>
+                <t>deze</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
+            <t>datum</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="datum"/>
+            <morphology>
+              <morpheme>
+                <t>datum</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
+            <t>:</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=":"/>
+            <morphology>
+              <morpheme>
+                <t>:</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="DATE">
+            <t>28-11-2011</t>
+            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
+              <feat class="symb" subset="spectype"/>
+            </pos>
+            <lemma class="28-11-2011"/>
+            <morphology>
+              <morpheme>
+                <t>28-11-2011</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="WORD" space="no">
+            <t>goed</t>
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+              <feat class="vrij" subset="positie"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="goed"/>
+            <morphology>
+              <morpheme>
+                <t>goed</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.15" class="PUNCTUATION">
+            <t>?</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="?"/>
+            <morphology>
+              <morpheme>
+                <t>?</t>
+              </morpheme>
+            </morphology>
+          </w>
         </s>
       </head>
     </div>
@@ -318,26 +318,32 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 2:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.1" version="2.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="2.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -347,27 +353,21 @@ test 2:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:23" command="frog --skip=p -x folia1.xml --inputclass=OCR -X folia2.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:23" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:47:58" command="frog --skip=p -x folia1.xml --inputclass=OCR -X folia2.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:47:58" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:23" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:23" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:23" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:23" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:23" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:23" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:47:58" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:47:58" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:47:58" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:47:58" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:47:58" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:47:58" name="mwu" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -384,12 +384,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <pos class="VG(neven)" confidence="0.992995" head="VG" textclass="OCR">
               <feat class="neven" subset="conjtype"/>
             </pos>
+            <lemma class="en" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">en</t>
               </morpheme>
             </morphology>
-            <lemma class="en" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD" textclass="OCR">
             <t class="OCR">dit</t>
@@ -401,12 +401,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD" textclass="OCR">
             <t class="OCR">is</t>
@@ -415,12 +415,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" textclass="OCR">
             <t class="OCR">een</t>
@@ -429,12 +429,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
+            <lemma class="een" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">een</t>
               </morpheme>
             </morphology>
-            <lemma class="een" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD" textclass="OCR">
             <t class="OCR">klasse</t>
@@ -445,12 +445,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="klasse" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">klasse</t>
               </morpheme>
             </morphology>
-            <lemma class="klasse" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD" textclass="OCR">
             <t class="OCR">test</t>
@@ -459,52 +459,47 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="testen" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">test</t>
               </morpheme>
             </morphology>
-            <lemma class="testen" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" textclass="OCR">
             <t class="OCR">in</t>
             <pos class="VZ(init)" confidence="0.998321" head="VZ" textclass="OCR">
               <feat class="init" subset="vztype"/>
             </pos>
+            <lemma class="in" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">in</t>
               </morpheme>
             </morphology>
-            <lemma class="in" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no" textclass="OCR">
             <t class="OCR">Nijmegen</t>
             <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" textclass="OCR">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
+            <lemma class="Nijmegen" textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">Nijmegen</t>
               </morpheme>
             </morphology>
-            <lemma class="Nijmegen" textclass="OCR"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION" textclass="OCR">
             <t class="OCR">.</t>
             <pos class="LET()" confidence="1.000000" head="LET" textclass="OCR"/>
+            <lemma class="." textclass="OCR"/>
             <morphology>
               <morpheme>
                 <t class="OCR">.</t>
               </morpheme>
             </morphology>
-            <lemma class="." textclass="OCR"/>
           </w>
-          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="OCR">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
-            </entity>
-          </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="1.000000" textclass="OCR">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="En"/>
@@ -529,6 +524,11 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </chunk>
           </chunking>
+          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
+            </entity>
+          </entities>
         </s>
       </head>
     </div>
@@ -546,26 +546,32 @@ test 3:
 9	.	.	[.]	LET()	1.000000	O	O
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.1" version="2.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="2.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -575,27 +581,21 @@ test 3:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:26" command="frog --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:26" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:02" command="frog --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:02" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:26" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:26" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:26" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:26" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:26" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:26" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:02" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:02" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:02" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:02" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:02" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:02" name="mwu" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -612,12 +612,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <pos class="VG(neven)" confidence="0.992995" head="VG" textclass="NEW">
               <feat class="neven" subset="conjtype"/>
             </pos>
+            <lemma class="en" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">en</t>
               </morpheme>
             </morphology>
-            <lemma class="en" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD" textclass="NEW">
             <t class="NEW">dit</t>
@@ -629,12 +629,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD" textclass="NEW">
             <t class="NEW">is</t>
@@ -643,12 +643,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" textclass="NEW">
             <t class="NEW">een</t>
@@ -657,12 +657,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
+            <lemma class="een" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">een</t>
               </morpheme>
             </morphology>
-            <lemma class="een" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD" textclass="NEW">
             <t class="NEW">klasse</t>
@@ -673,12 +673,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="klasse" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">klasse</t>
               </morpheme>
             </morphology>
-            <lemma class="klasse" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD" textclass="NEW">
             <t class="NEW">test</t>
@@ -687,52 +687,47 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="testen" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">test</t>
               </morpheme>
             </morphology>
-            <lemma class="testen" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" textclass="NEW">
             <t class="NEW">in</t>
             <pos class="VZ(init)" confidence="0.998321" head="VZ" textclass="NEW">
               <feat class="init" subset="vztype"/>
             </pos>
+            <lemma class="in" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">in</t>
               </morpheme>
             </morphology>
-            <lemma class="in" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no" textclass="NEW">
             <t class="NEW">Nijmegen</t>
             <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" textclass="NEW">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
+            <lemma class="Nijmegen" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">Nijmegen</t>
               </morpheme>
             </morphology>
-            <lemma class="Nijmegen" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION" textclass="NEW">
             <t class="NEW">.</t>
             <pos class="LET()" confidence="1.000000" head="LET" textclass="NEW"/>
+            <lemma class="." textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">.</t>
               </morpheme>
             </morphology>
-            <lemma class="." textclass="NEW"/>
           </w>
-          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="NEW">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
-            </entity>
-          </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="1.000000" textclass="NEW">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="En"/>
@@ -757,6 +752,11 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
             </chunk>
           </chunking>
+          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="NEW">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
+            </entity>
+          </entities>
         </s>
       </head>
     </div>
@@ -764,26 +764,32 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 4:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.1" version="2.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="2.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -793,28 +799,22 @@ test 4:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:29" command="frog --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:29" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:05" command="frog --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:05" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:29" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:29" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:29" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:29" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:29" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:29" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:05" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:05" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:05" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:05" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:05" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:05" name="mwu" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -836,12 +836,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD" textclass="NEW">
             <t class="NEW">is</t>
@@ -850,24 +850,24 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD" textclass="NEW">
             <t class="NEW">als</t>
             <pos class="VG(onder)" confidence="0.966667" head="VG" textclass="NEW">
               <feat class="onder" subset="conjtype"/>
             </pos>
+            <lemma class="als" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">als</t>
               </morpheme>
             </morphology>
-            <lemma class="als" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" textclass="NEW">
             <t class="NEW">het</t>
@@ -880,12 +880,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="ev" subset="getal"/>
               <feat class="onz" subset="genus"/>
             </pos>
+            <lemma class="het" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">het</t>
               </morpheme>
             </morphology>
-            <lemma class="het" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD" textclass="NEW">
             <t class="NEW">ware</t>
@@ -894,15 +894,15 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="conj" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="waar" textclass="NEW"/>
+            <alt xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5.alt-lem.1" auth="no">
+              <lemma class="zijn" textclass="NEW"/>
+            </alt>
             <morphology>
               <morpheme>
                 <t class="NEW">ware</t>
               </morpheme>
             </morphology>
-            <lemma class="waar" textclass="NEW"/>
-            <alt xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5.alt-lem.1" auth="no">
-              <lemma class="zijn" textclass="NEW"/>
-            </alt>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD" textclass="NEW">
             <t class="NEW">een</t>
@@ -911,12 +911,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
+            <lemma class="een" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">een</t>
               </morpheme>
             </morphology>
-            <lemma class="een" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" space="no" textclass="NEW">
             <t class="NEW">test</t>
@@ -927,126 +927,23 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test" textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">test</t>
               </morpheme>
             </morphology>
-            <lemma class="test" textclass="NEW"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="PUNCTUATION" textclass="NEW">
             <t class="NEW">.</t>
             <pos class="LET()" confidence="1.000000" head="LET" textclass="NEW"/>
+            <lemma class="." textclass="NEW"/>
             <morphology>
               <morpheme>
                 <t class="NEW">.</t>
               </morpheme>
             </morphology>
-            <lemma class="." textclass="NEW"/>
           </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD" textclass="NEW">
-            <t class="NEW">Gaat</t>
-            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW" textclass="NEW">
-              <feat class="pv" subset="wvorm"/>
-              <feat class="tgw" subset="pvtijd"/>
-              <feat class="met-t" subset="pvagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t class="NEW">ga</t>
-              </morpheme>
-              <morpheme>
-                <t class="NEW">t</t>
-              </morpheme>
-            </morphology>
-            <lemma class="gaan" textclass="NEW"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD" textclass="NEW">
-            <t class="NEW">deze</t>
-            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW" textclass="NEW">
-              <feat class="aanw" subset="vwtype"/>
-              <feat class="det" subset="pdtype"/>
-              <feat class="stan" subset="naamval"/>
-              <feat class="prenom" subset="positie"/>
-              <feat class="met-e" subset="buiging"/>
-              <feat class="rest" subset="npagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t class="NEW">deze</t>
-              </morpheme>
-            </morphology>
-            <lemma class="deze" textclass="NEW"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no" textclass="NEW">
-            <t class="NEW">datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N" textclass="NEW">
-              <feat class="soort" subset="ntype"/>
-              <feat class="ev" subset="getal"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zijd" subset="genus"/>
-              <feat class="stan" subset="naamval"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t class="NEW">datum</t>
-              </morpheme>
-            </morphology>
-            <lemma class="datum" textclass="NEW"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION" textclass="NEW">
-            <t class="NEW">:</t>
-            <pos class="LET()" confidence="1.000000" head="LET" textclass="NEW"/>
-            <morphology>
-              <morpheme>
-                <t class="NEW">:</t>
-              </morpheme>
-            </morphology>
-            <lemma class=":" textclass="NEW"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="DATE" textclass="NEW">
-            <t class="NEW">28-11-2011</t>
-            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC" textclass="NEW">
-              <feat class="symb" subset="spectype"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t class="NEW">28-11-2011</t>
-              </morpheme>
-            </morphology>
-            <lemma class="28-11-2011" textclass="NEW"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="WORD" space="no" textclass="NEW">
-            <t class="NEW">goed</t>
-            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ" textclass="NEW">
-              <feat class="vrij" subset="positie"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zonder" subset="buiging"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t class="NEW">goed</t>
-              </morpheme>
-            </morphology>
-            <lemma class="goed" textclass="NEW"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.15" class="PUNCTUATION" textclass="NEW">
-            <t class="NEW">?</t>
-            <pos class="LET()" confidence="1.000000" head="LET" textclass="NEW"/>
-            <morphology>
-              <morpheme>
-                <t class="NEW">?</t>
-              </morpheme>
-            </morphology>
-            <lemma class="?" textclass="NEW"/>
-          </w>
-          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl" textclass="NEW">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
-            </entity>
-          </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000" textclass="NEW">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
@@ -1075,6 +972,109 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
             </chunk>
           </chunking>
+          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl" textclass="NEW">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
+            </entity>
+          </entities>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD" textclass="NEW">
+            <t class="NEW">Gaat</t>
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW" textclass="NEW">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="met-t" subset="pvagr"/>
+            </pos>
+            <lemma class="gaan" textclass="NEW"/>
+            <morphology>
+              <morpheme>
+                <t class="NEW">ga</t>
+              </morpheme>
+              <morpheme>
+                <t class="NEW">t</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD" textclass="NEW">
+            <t class="NEW">deze</t>
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW" textclass="NEW">
+              <feat class="aanw" subset="vwtype"/>
+              <feat class="det" subset="pdtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="prenom" subset="positie"/>
+              <feat class="met-e" subset="buiging"/>
+              <feat class="rest" subset="npagr"/>
+            </pos>
+            <lemma class="deze" textclass="NEW"/>
+            <morphology>
+              <morpheme>
+                <t class="NEW">deze</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no" textclass="NEW">
+            <t class="NEW">datum</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N" textclass="NEW">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="datum" textclass="NEW"/>
+            <morphology>
+              <morpheme>
+                <t class="NEW">datum</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION" textclass="NEW">
+            <t class="NEW">:</t>
+            <pos class="LET()" confidence="1.000000" head="LET" textclass="NEW"/>
+            <lemma class=":" textclass="NEW"/>
+            <morphology>
+              <morpheme>
+                <t class="NEW">:</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="DATE" textclass="NEW">
+            <t class="NEW">28-11-2011</t>
+            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC" textclass="NEW">
+              <feat class="symb" subset="spectype"/>
+            </pos>
+            <lemma class="28-11-2011" textclass="NEW"/>
+            <morphology>
+              <morpheme>
+                <t class="NEW">28-11-2011</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="WORD" space="no" textclass="NEW">
+            <t class="NEW">goed</t>
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ" textclass="NEW">
+              <feat class="vrij" subset="positie"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="goed" textclass="NEW"/>
+            <morphology>
+              <morpheme>
+                <t class="NEW">goed</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.15" class="PUNCTUATION" textclass="NEW">
+            <t class="NEW">?</t>
+            <pos class="LET()" confidence="1.000000" head="LET" textclass="NEW"/>
+            <lemma class="?" textclass="NEW"/>
+            <morphology>
+              <morpheme>
+                <t class="NEW">?</t>
+              </morpheme>
+            </morphology>
+          </w>
         </s>
       </head>
     </div>
@@ -1082,26 +1082,31 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 5:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.1" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
   <metadata type="imdi">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -1111,28 +1116,23 @@ test 5:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:33" command="frog --skip=p -t folia1.xml.gz -X folia1.out1.xml.gz --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:33" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:09" command="frog --skip=p -t folia1.xml.gz -X folia1.out1.xml.gz --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:09" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:33" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:33" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:33" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:33" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:33" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:33" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:09" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:09" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:09" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:09" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:09" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:09" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -1153,12 +1153,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t>dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -1167,24 +1167,24 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn"/>
             <morphology>
               <morpheme>
                 <t>zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
             <t>als</t>
             <pos class="VG(onder)" confidence="0.966667" head="VG">
               <feat class="onder" subset="conjtype"/>
             </pos>
+            <lemma class="als"/>
             <morphology>
               <morpheme>
                 <t>als</t>
               </morpheme>
             </morphology>
-            <lemma class="als"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD">
             <t>het</t>
@@ -1197,12 +1197,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="ev" subset="getal"/>
               <feat class="onz" subset="genus"/>
             </pos>
+            <lemma class="het"/>
             <morphology>
               <morpheme>
                 <t>het</t>
               </morpheme>
             </morphology>
-            <lemma class="het"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD">
             <t>ware</t>
@@ -1211,15 +1211,15 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="conj" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="waar"/>
+            <alt xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5.alt-lem.1" auth="no">
+              <lemma class="zijn"/>
+            </alt>
             <morphology>
               <morpheme>
                 <t>ware</t>
               </morpheme>
             </morphology>
-            <lemma class="waar"/>
-            <alt xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5.alt-lem.1" auth="no">
-              <lemma class="zijn"/>
-            </alt>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>een</t>
@@ -1228,12 +1228,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
+            <lemma class="een"/>
             <morphology>
               <morpheme>
                 <t>een</t>
               </morpheme>
             </morphology>
-            <lemma class="een"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" space="no">
             <t>test</t>
@@ -1244,126 +1244,23 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t>test</t>
               </morpheme>
             </morphology>
-            <lemma class="test"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
             <morphology>
               <morpheme>
                 <t>.</t>
               </morpheme>
             </morphology>
-            <lemma class="."/>
           </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD">
-            <t>Gaat</t>
-            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
-              <feat class="pv" subset="wvorm"/>
-              <feat class="tgw" subset="pvtijd"/>
-              <feat class="met-t" subset="pvagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>ga</t>
-              </morpheme>
-              <morpheme>
-                <t>t</t>
-              </morpheme>
-            </morphology>
-            <lemma class="gaan"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD">
-            <t>deze</t>
-            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
-              <feat class="aanw" subset="vwtype"/>
-              <feat class="det" subset="pdtype"/>
-              <feat class="stan" subset="naamval"/>
-              <feat class="prenom" subset="positie"/>
-              <feat class="met-e" subset="buiging"/>
-              <feat class="rest" subset="npagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>deze</t>
-              </morpheme>
-            </morphology>
-            <lemma class="deze"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
-            <t>datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
-              <feat class="soort" subset="ntype"/>
-              <feat class="ev" subset="getal"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zijd" subset="genus"/>
-              <feat class="stan" subset="naamval"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>datum</t>
-              </morpheme>
-            </morphology>
-            <lemma class="datum"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
-            <t>:</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>:</t>
-              </morpheme>
-            </morphology>
-            <lemma class=":"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="DATE">
-            <t>28-11-2011</t>
-            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
-              <feat class="symb" subset="spectype"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>28-11-2011</t>
-              </morpheme>
-            </morphology>
-            <lemma class="28-11-2011"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="WORD" space="no">
-            <t>goed</t>
-            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
-              <feat class="vrij" subset="positie"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zonder" subset="buiging"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>goed</t>
-              </morpheme>
-            </morphology>
-            <lemma class="goed"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.15" class="PUNCTUATION">
-            <t>?</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>?</t>
-              </morpheme>
-            </morphology>
-            <lemma class="?"/>
-          </w>
-          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
-            </entity>
-          </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
@@ -1392,6 +1289,109 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
             </chunk>
           </chunking>
+          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
+            </entity>
+          </entities>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD">
+            <t>Gaat</t>
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="met-t" subset="pvagr"/>
+            </pos>
+            <lemma class="gaan"/>
+            <morphology>
+              <morpheme>
+                <t>ga</t>
+              </morpheme>
+              <morpheme>
+                <t>t</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD">
+            <t>deze</t>
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+              <feat class="aanw" subset="vwtype"/>
+              <feat class="det" subset="pdtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="prenom" subset="positie"/>
+              <feat class="met-e" subset="buiging"/>
+              <feat class="rest" subset="npagr"/>
+            </pos>
+            <lemma class="deze"/>
+            <morphology>
+              <morpheme>
+                <t>deze</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
+            <t>datum</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="datum"/>
+            <morphology>
+              <morpheme>
+                <t>datum</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
+            <t>:</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=":"/>
+            <morphology>
+              <morpheme>
+                <t>:</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="DATE">
+            <t>28-11-2011</t>
+            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
+              <feat class="symb" subset="spectype"/>
+            </pos>
+            <lemma class="28-11-2011"/>
+            <morphology>
+              <morpheme>
+                <t>28-11-2011</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="WORD" space="no">
+            <t>goed</t>
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+              <feat class="vrij" subset="positie"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="goed"/>
+            <morphology>
+              <morpheme>
+                <t>goed</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.15" class="PUNCTUATION">
+            <t>?</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="?"/>
+            <morphology>
+              <morpheme>
+                <t>?</t>
+              </morpheme>
+            </morphology>
+          </w>
         </s>
       </head>
     </div>
@@ -1399,26 +1399,31 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 6:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.1" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
   <metadata type="imdi">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -1428,28 +1433,23 @@ test 6:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:36" command="frog --skip=p -t folia1.xml.bz2 -X folia1.out1.xml.bz2 --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:36" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:13" command="frog --skip=p -t folia1.xml.bz2 -X folia1.out1.xml.bz2 --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:13" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:36" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:36" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:36" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:36" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:36" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:36" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:13" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:13" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:13" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:13" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:13" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:13" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -1470,12 +1470,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t>dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -1484,24 +1484,24 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn"/>
             <morphology>
               <morpheme>
                 <t>zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
             <t>als</t>
             <pos class="VG(onder)" confidence="0.966667" head="VG">
               <feat class="onder" subset="conjtype"/>
             </pos>
+            <lemma class="als"/>
             <morphology>
               <morpheme>
                 <t>als</t>
               </morpheme>
             </morphology>
-            <lemma class="als"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD">
             <t>het</t>
@@ -1514,12 +1514,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="ev" subset="getal"/>
               <feat class="onz" subset="genus"/>
             </pos>
+            <lemma class="het"/>
             <morphology>
               <morpheme>
                 <t>het</t>
               </morpheme>
             </morphology>
-            <lemma class="het"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD">
             <t>ware</t>
@@ -1528,15 +1528,15 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="conj" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="waar"/>
+            <alt xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5.alt-lem.1" auth="no">
+              <lemma class="zijn"/>
+            </alt>
             <morphology>
               <morpheme>
                 <t>ware</t>
               </morpheme>
             </morphology>
-            <lemma class="waar"/>
-            <alt xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5.alt-lem.1" auth="no">
-              <lemma class="zijn"/>
-            </alt>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>een</t>
@@ -1545,12 +1545,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
+            <lemma class="een"/>
             <morphology>
               <morpheme>
                 <t>een</t>
               </morpheme>
             </morphology>
-            <lemma class="een"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" space="no">
             <t>test</t>
@@ -1561,126 +1561,23 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t>test</t>
               </morpheme>
             </morphology>
-            <lemma class="test"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
             <morphology>
               <morpheme>
                 <t>.</t>
               </morpheme>
             </morphology>
-            <lemma class="."/>
           </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD">
-            <t>Gaat</t>
-            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
-              <feat class="pv" subset="wvorm"/>
-              <feat class="tgw" subset="pvtijd"/>
-              <feat class="met-t" subset="pvagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>ga</t>
-              </morpheme>
-              <morpheme>
-                <t>t</t>
-              </morpheme>
-            </morphology>
-            <lemma class="gaan"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD">
-            <t>deze</t>
-            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
-              <feat class="aanw" subset="vwtype"/>
-              <feat class="det" subset="pdtype"/>
-              <feat class="stan" subset="naamval"/>
-              <feat class="prenom" subset="positie"/>
-              <feat class="met-e" subset="buiging"/>
-              <feat class="rest" subset="npagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>deze</t>
-              </morpheme>
-            </morphology>
-            <lemma class="deze"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
-            <t>datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
-              <feat class="soort" subset="ntype"/>
-              <feat class="ev" subset="getal"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zijd" subset="genus"/>
-              <feat class="stan" subset="naamval"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>datum</t>
-              </morpheme>
-            </morphology>
-            <lemma class="datum"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
-            <t>:</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>:</t>
-              </morpheme>
-            </morphology>
-            <lemma class=":"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="DATE">
-            <t>28-11-2011</t>
-            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
-              <feat class="symb" subset="spectype"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>28-11-2011</t>
-              </morpheme>
-            </morphology>
-            <lemma class="28-11-2011"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="WORD" space="no">
-            <t>goed</t>
-            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
-              <feat class="vrij" subset="positie"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zonder" subset="buiging"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>goed</t>
-              </morpheme>
-            </morphology>
-            <lemma class="goed"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.15" class="PUNCTUATION">
-            <t>?</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>?</t>
-              </morpheme>
-            </morphology>
-            <lemma class="?"/>
-          </w>
-          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
-            </entity>
-          </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
@@ -1709,6 +1606,109 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
             </chunk>
           </chunking>
+          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
+            </entity>
+          </entities>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD">
+            <t>Gaat</t>
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="met-t" subset="pvagr"/>
+            </pos>
+            <lemma class="gaan"/>
+            <morphology>
+              <morpheme>
+                <t>ga</t>
+              </morpheme>
+              <morpheme>
+                <t>t</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD">
+            <t>deze</t>
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+              <feat class="aanw" subset="vwtype"/>
+              <feat class="det" subset="pdtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="prenom" subset="positie"/>
+              <feat class="met-e" subset="buiging"/>
+              <feat class="rest" subset="npagr"/>
+            </pos>
+            <lemma class="deze"/>
+            <morphology>
+              <morpheme>
+                <t>deze</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
+            <t>datum</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="datum"/>
+            <morphology>
+              <morpheme>
+                <t>datum</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
+            <t>:</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=":"/>
+            <morphology>
+              <morpheme>
+                <t>:</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="DATE">
+            <t>28-11-2011</t>
+            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
+              <feat class="symb" subset="spectype"/>
+            </pos>
+            <lemma class="28-11-2011"/>
+            <morphology>
+              <morpheme>
+                <t>28-11-2011</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="WORD" space="no">
+            <t>goed</t>
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+              <feat class="vrij" subset="positie"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="goed"/>
+            <morphology>
+              <morpheme>
+                <t>goed</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.15" class="PUNCTUATION">
+            <t>?</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="?"/>
+            <morphology>
+              <morpheme>
+                <t>?</t>
+              </morpheme>
+            </morphology>
+          </w>
         </s>
       </head>
     </div>
@@ -1733,26 +1733,31 @@ test 7:
 test 8:
 test 9:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.1" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
   <metadata type="imdi">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -1762,27 +1767,22 @@ test 9:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:42" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:42" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:20" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:20" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:42" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:42" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:42" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:42" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:42" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:42" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:20" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:20" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:20" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:20" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:20" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:20" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -1802,12 +1802,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t>dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -1816,12 +1816,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn"/>
             <morphology>
               <morpheme>
                 <t>zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
             <t>test</t>
@@ -1832,12 +1832,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t>test</t>
               </morpheme>
             </morphology>
-            <lemma class="test"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="NUMBER" space="no">
             <t>1</t>
@@ -1845,118 +1845,22 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
+            <lemma class="1"/>
             <morphology>
               <morpheme>
                 <t>1</t>
               </morpheme>
             </morphology>
-            <lemma class="1"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
             <morphology>
               <morpheme>
                 <t>.</t>
               </morpheme>
             </morphology>
-            <lemma class="."/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
-            <t>Gaat</t>
-            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
-              <feat class="pv" subset="wvorm"/>
-              <feat class="tgw" subset="pvtijd"/>
-              <feat class="met-t" subset="pvagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>ga</t>
-              </morpheme>
-              <morpheme>
-                <t>t</t>
-              </morpheme>
-            </morphology>
-            <lemma class="gaan"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD">
-            <t>deze</t>
-            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
-              <feat class="aanw" subset="vwtype"/>
-              <feat class="det" subset="pdtype"/>
-              <feat class="stan" subset="naamval"/>
-              <feat class="prenom" subset="positie"/>
-              <feat class="met-e" subset="buiging"/>
-              <feat class="rest" subset="npagr"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>deze</t>
-              </morpheme>
-            </morphology>
-            <lemma class="deze"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no">
-            <t>datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
-              <feat class="soort" subset="ntype"/>
-              <feat class="ev" subset="getal"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zijd" subset="genus"/>
-              <feat class="stan" subset="naamval"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>datum</t>
-              </morpheme>
-            </morphology>
-            <lemma class="datum"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
-            <t>:</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>:</t>
-              </morpheme>
-            </morphology>
-            <lemma class=":"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="DATE">
-            <t>28-11-2011</t>
-            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
-              <feat class="symb" subset="spectype"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>28-11-2011</t>
-              </morpheme>
-            </morphology>
-            <lemma class="28-11-2011"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
-            <t>goed</t>
-            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
-              <feat class="vrij" subset="positie"/>
-              <feat class="basis" subset="graad"/>
-              <feat class="zonder" subset="buiging"/>
-            </pos>
-            <morphology>
-              <morpheme>
-                <t>goed</t>
-              </morpheme>
-            </morphology>
-            <lemma class="goed"/>
-          </w>
-          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
-            <t>?</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
-            <morphology>
-              <morpheme>
-                <t>?</t>
-              </morpheme>
-            </morphology>
-            <lemma class="?"/>
           </w>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
@@ -1983,6 +1887,102 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="goed"/>
             </chunk>
           </chunking>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
+            <t>Gaat</t>
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="met-t" subset="pvagr"/>
+            </pos>
+            <lemma class="gaan"/>
+            <morphology>
+              <morpheme>
+                <t>ga</t>
+              </morpheme>
+              <morpheme>
+                <t>t</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD">
+            <t>deze</t>
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+              <feat class="aanw" subset="vwtype"/>
+              <feat class="det" subset="pdtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="prenom" subset="positie"/>
+              <feat class="met-e" subset="buiging"/>
+              <feat class="rest" subset="npagr"/>
+            </pos>
+            <lemma class="deze"/>
+            <morphology>
+              <morpheme>
+                <t>deze</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no">
+            <t>datum</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="datum"/>
+            <morphology>
+              <morpheme>
+                <t>datum</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
+            <t>:</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=":"/>
+            <morphology>
+              <morpheme>
+                <t>:</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="DATE">
+            <t>28-11-2011</t>
+            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
+              <feat class="symb" subset="spectype"/>
+            </pos>
+            <lemma class="28-11-2011"/>
+            <morphology>
+              <morpheme>
+                <t>28-11-2011</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
+            <t>goed</t>
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+              <feat class="vrij" subset="positie"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="goed"/>
+            <morphology>
+              <morpheme>
+                <t>goed</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="PUNCTUATION">
+            <t>?</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="?"/>
+            <morphology>
+              <morpheme>
+                <t>?</t>
+              </morpheme>
+            </morphology>
+          </w>
         </s>
       </head>
     </div>
@@ -1990,26 +1990,31 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 9a:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.1" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
   <metadata type="imdi">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -2019,27 +2024,22 @@ test 9a:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:42" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:42" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:21" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:21" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:42" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:42" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:42" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:42" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:42" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:42" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:21" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:21" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:21" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:21" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:21" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:21" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -2059,12 +2059,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t>dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -2073,12 +2073,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn"/>
             <morphology>
               <morpheme>
                 <t>zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.3" class="WORD">
             <t>test</t>
@@ -2089,12 +2089,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test"/>
             <morphology>
               <morpheme>
                 <t>test</t>
               </morpheme>
             </morphology>
-            <lemma class="test"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.4" class="NUMBER" space="no">
             <t>2</t>
@@ -2102,22 +2102,22 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
+            <lemma class="2"/>
             <morphology>
               <morpheme>
                 <t>2</t>
               </morpheme>
             </morphology>
-            <lemma class="2"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.5" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
             <morphology>
               <morpheme>
                 <t>.</t>
               </morpheme>
             </morphology>
-            <lemma class="."/>
           </w>
           <chunking xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
@@ -2140,6 +2140,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="met-t" subset="pvagr"/>
             </pos>
+            <lemma class="gaan"/>
             <morphology>
               <morpheme>
                 <t>ga</t>
@@ -2148,7 +2149,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t>t</t>
               </morpheme>
             </morphology>
-            <lemma class="gaan"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.2" class="WORD">
             <t>deze</t>
@@ -2160,12 +2160,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="met-e" subset="buiging"/>
               <feat class="rest" subset="npagr"/>
             </pos>
+            <lemma class="deze"/>
             <morphology>
               <morpheme>
                 <t>deze</t>
               </morpheme>
             </morphology>
-            <lemma class="deze"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.3" class="WORD" space="no">
             <t>datum</t>
@@ -2176,34 +2176,34 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="datum"/>
             <morphology>
               <morpheme>
                 <t>datum</t>
               </morpheme>
             </morphology>
-            <lemma class="datum"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.4" class="PUNCTUATION">
             <t>:</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=":"/>
             <morphology>
               <morpheme>
                 <t>:</t>
               </morpheme>
             </morphology>
-            <lemma class=":"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.5" class="DATE">
             <t>28-11-2011</t>
             <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
               <feat class="symb" subset="spectype"/>
             </pos>
+            <lemma class="28-11-2011"/>
             <morphology>
               <morpheme>
                 <t>28-11-2011</t>
               </morpheme>
             </morphology>
-            <lemma class="28-11-2011"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.6" class="WORD" space="no">
             <t>goed</t>
@@ -2212,22 +2212,22 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="basis" subset="graad"/>
               <feat class="zonder" subset="buiging"/>
             </pos>
+            <lemma class="goed"/>
             <morphology>
               <morpheme>
                 <t>goed</t>
               </morpheme>
             </morphology>
-            <lemma class="goed"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.7" class="PUNCTUATION">
             <t>?</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="?"/>
             <morphology>
               <morpheme>
                 <t>?</t>
               </morpheme>
             </morphology>
-            <lemma class="?"/>
           </w>
           <chunking xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1.chunk.1" class="VP" confidence="1.000000">
@@ -2251,26 +2251,31 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 9b:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.1" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
   <metadata type="imdi">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -2280,27 +2285,22 @@ test 9b:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:42" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:42" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:21" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:21" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:42" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:42" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:42" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:42" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:42" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:42" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:21" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:21" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:21" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:21" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:21" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:21" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
@@ -2320,12 +2320,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="3o" subset="persoon"/>
               <feat class="ev" subset="getal"/>
             </pos>
+            <lemma class="dit"/>
             <morphology>
               <morpheme>
                 <t>dit</t>
               </morpheme>
             </morphology>
-            <lemma class="dit"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.2" class="WORD">
             <t>is</t>
@@ -2334,12 +2334,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
+            <lemma class="zijn"/>
             <morphology>
               <morpheme>
                 <t>zijn</t>
               </morpheme>
             </morphology>
-            <lemma class="zijn"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.3" class="STRING-NUMBER">
             <t>test3</t>
@@ -2350,22 +2350,22 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="test3"/>
             <morphology>
               <morpheme>
                 <t>test3</t>
               </morpheme>
             </morphology>
-            <lemma class="test3"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.4" class="PUNCTUATION">
             <t>.</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
             <morphology>
               <morpheme>
                 <t>.</t>
               </morpheme>
             </morphology>
-            <lemma class="."/>
           </w>
           <chunking xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="0.993750">
@@ -2387,6 +2387,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="met-t" subset="pvagr"/>
             </pos>
+            <lemma class="gaan"/>
             <morphology>
               <morpheme>
                 <t>ga</t>
@@ -2395,7 +2396,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <t>t</t>
               </morpheme>
             </morphology>
-            <lemma class="gaan"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.2" class="WORD">
             <t>deze</t>
@@ -2407,12 +2407,12 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="met-e" subset="buiging"/>
               <feat class="rest" subset="npagr"/>
             </pos>
+            <lemma class="deze"/>
             <morphology>
               <morpheme>
                 <t>deze</t>
               </morpheme>
             </morphology>
-            <lemma class="deze"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.3" class="WORD" space="no">
             <t>datum</t>
@@ -2423,34 +2423,34 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="zijd" subset="genus"/>
               <feat class="stan" subset="naamval"/>
             </pos>
+            <lemma class="datum"/>
             <morphology>
               <morpheme>
                 <t>datum</t>
               </morpheme>
             </morphology>
-            <lemma class="datum"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.4" class="PUNCTUATION">
             <t>:</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=":"/>
             <morphology>
               <morpheme>
                 <t>:</t>
               </morpheme>
             </morphology>
-            <lemma class=":"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.5" class="DATE">
             <t>28-11-2011</t>
             <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
               <feat class="symb" subset="spectype"/>
             </pos>
+            <lemma class="28-11-2011"/>
             <morphology>
               <morpheme>
                 <t>28-11-2011</t>
               </morpheme>
             </morphology>
-            <lemma class="28-11-2011"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.6" class="WORD" space="no">
             <t>goed</t>
@@ -2459,22 +2459,22 @@ Gaat deze datum: 28-11-2011 goed?</t>
               <feat class="basis" subset="graad"/>
               <feat class="zonder" subset="buiging"/>
             </pos>
+            <lemma class="goed"/>
             <morphology>
               <morpheme>
                 <t>goed</t>
               </morpheme>
             </morphology>
-            <lemma class="goed"/>
           </w>
           <w xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.7" class="PUNCTUATION">
             <t>?</t>
             <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="?"/>
             <morphology>
               <morpheme>
                 <t>?</t>
               </morpheme>
             </morphology>
-            <lemma class="?"/>
           </w>
           <chunking xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1">
             <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1.chunk.1" class="VP" confidence="1.000000">
@@ -2498,10 +2498,9 @@ Gaat deze datum: 28-11-2011 goed?</t>
 </FoLiA>
 test 9c:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v2.1" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v2.2" version="0.8">
   <metadata type="native">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
@@ -2511,12 +2510,18 @@ test 9c:
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -2526,27 +2531,22 @@ test 9c:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:42" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:42" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:21" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:21" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:42" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:42" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:42" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:42" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:42" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:42" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:21" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:21" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:21" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:21" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:21" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:21" name="mwu" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -2561,12 +2561,12 @@ test 9c:
             <feat class="stan" subset="naamval"/>
             <feat class="agr" subset="npagr"/>
           </pos>
+          <lemma class="een"/>
           <morphology>
             <morpheme>
               <t>een</t>
             </morpheme>
           </morphology>
-          <lemma class="een"/>
         </w>
         <w xml:id="w.2">
           <t>multi word</t>
@@ -2577,12 +2577,12 @@ test 9c:
             <feat class="onz" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="multi_word"/>
           <morphology>
             <morpheme>
               <t>multi_word</t>
             </morpheme>
           </morphology>
-          <lemma class="multi_word"/>
         </w>
         <w xml:id="w.3">
           <t>test</t>
@@ -2593,12 +2593,12 @@ test 9c:
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="test"/>
           <morphology>
             <morpheme>
               <t>test</t>
             </morpheme>
           </morphology>
-          <lemma class="test"/>
         </w>
         <chunking xml:id="s.1.chunking.1">
           <chunk xml:id="s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
@@ -2617,23 +2617,29 @@ test 9d:
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
-      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.tt
-l">
+      <division-annotation set="unknown"/>
+      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation set="unknown"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -2643,35 +2649,28 @@ l">
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
-      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-10T17:24:28" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2
-.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:21" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
         <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-10T17:24:28" name="ucto" version="0.18">
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:21" name="ucto" version="0.18">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-10T17:24:28" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-10T17:24:28" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-10T17:24:28" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-07-10T17:24:28" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-07-10T17:24:28" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2019-07-10T17:24:28" name="mwu" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:21" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:21" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:21" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:21" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:21" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:21" name="mwu" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
   </metadata>
   <text xml:id="spaces.text">
     <p xml:id="spaces.text.p.1">
+      <lang class="nld"/>
       <s xml:id="spaces.text.p.1.s.1">
         <w xml:id="spaces.text.p.1.s.1.w.1" class="WORD" datetime="2017-06-27T14:09:02">
           <t>Zit ting</t>
@@ -2682,6 +2681,7 @@ l">
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="zit_ting"/>
           <morphology>
             <morpheme>
               <t>zit_</t>
@@ -2693,7 +2693,6 @@ l">
               <t>ing</t>
             </morpheme>
           </morphology>
-          <lemma class="zit_ting"/>
         </w>
         <w xml:id="spaces.text.p.1.s.1.w.2" class="WORD-COMPOUND" datetime="2017-06-27T14:09:02">
           <t>8-23</t>
@@ -2701,24 +2700,24 @@ l">
             <feat class="hoofd" subset="numtype"/>
             <feat class="vrij" subset="positie"/>
           </pos>
+          <lemma class="8-23"/>
           <morphology>
             <morpheme>
               <t>8-23</t>
             </morpheme>
           </morphology>
-          <lemma class="8-23"/>
         </w>
         <w xml:id="spaces.text.p.1.s.1.w.3" class="WORD" datetime="2017-06-27T14:09:02">
           <t>december</t>
           <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
+          <lemma class="december"/>
           <morphology>
             <morpheme>
               <t>december</t>
             </morpheme>
           </morphology>
-          <lemma class="december"/>
         </w>
         <w xml:id="spaces.text.p.1.s.1.w.4" class="NUMBER" datetime="2017-06-27T14:09:02">
           <t>1632</t>
@@ -2726,12 +2725,12 @@ l">
             <feat class="hoofd" subset="numtype"/>
             <feat class="vrij" subset="positie"/>
           </pos>
+          <lemma class="1632"/>
           <morphology>
             <morpheme>
               <t>1632</t>
             </morpheme>
           </morphology>
-          <lemma class="1632"/>
         </w>
         <chunking xml:id="spaces.text.p.1.s.1.chunking.1">
           <chunk xml:id="spaces.text.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
@@ -2744,9 +2743,9 @@ l">
           </chunk>
         </chunking>
       </s>
-      <lang class="nld"/>
     </p>
     <p xml:id="spaces.text.p.2">
+      <lang class="nld"/>
       <s xml:id="spaces.text.p.2.s.1">
         <w xml:id="spaces.text.p.2.s.1.w.1" class="WORD" datetime="2017-06-27T14:09:02">
           <t>dat</t>
@@ -2758,12 +2757,12 @@ l">
             <feat class="3o" subset="persoon"/>
             <feat class="ev" subset="getal"/>
           </pos>
+          <lemma class="dat"/>
           <morphology>
             <morpheme>
               <t>dat</t>
             </morpheme>
           </morphology>
-          <lemma class="dat"/>
         </w>
         <w xml:id="spaces.text.p.2.s.1.w.2" class="WORD" datetime="2017-06-27T14:09:02">
           <t>op die</t>
@@ -2774,12 +2773,12 @@ l">
             <feat class="onz" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="op_die"/>
           <morphology>
             <morpheme>
               <t>op_die</t>
             </morpheme>
           </morphology>
-          <lemma class="op_die"/>
         </w>
         <w xml:id="spaces.text.p.2.s.1.w.3" class="WORD" datetime="2017-06-27T14:09:02">
           <t>noodinge</t>
@@ -2789,12 +2788,12 @@ l">
             <feat class="met-e" subset="buiging"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="noodinge"/>
           <morphology>
             <morpheme>
               <t>noodinge</t>
             </morpheme>
           </morphology>
-          <lemma class="noodinge"/>
         </w>
         <w xml:id="spaces.text.p.2.s.1.w.4" class="WORD" datetime="2017-06-27T14:09:02">
           <t>van de</t>
@@ -2805,6 +2804,7 @@ l">
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="van_de"/>
           <morphology>
             <morpheme>
               <t>van_</t>
@@ -2813,7 +2813,6 @@ l">
               <t>de</t>
             </morpheme>
           </morphology>
-          <lemma class="van_de"/>
         </w>
         <w xml:id="spaces.text.p.2.s.1.w.5" class="WORD" datetime="2017-06-27T14:09:02">
           <t>de ese</t>
@@ -2823,12 +2822,12 @@ l">
             <feat class="met-e" subset="buiging"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="de_ese"/>
           <morphology>
             <morpheme>
               <t>de_ese</t>
             </morpheme>
           </morphology>
-          <lemma class="de_ese"/>
         </w>
         <w xml:id="spaces.text.p.2.s.1.w.6" class="WORD" datetime="2017-06-27T14:09:02" space="no">
           <t>zij de</t>
@@ -2839,6 +2838,7 @@ l">
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="zij_de"/>
           <morphology>
             <morpheme>
               <t>zij_</t>
@@ -2847,7 +2847,6 @@ l">
               <t>de</t>
             </morpheme>
           </morphology>
-          <lemma class="zij_de"/>
         </w>
         <chunking xml:id="spaces.text.p.2.s.1.chunking.1">
           <chunk xml:id="spaces.text.p.2.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
@@ -2866,16 +2865,14 @@ l">
           </chunk>
         </chunking>
       </s>
-      <lang class="nld"/>
     </p>
   </text>
 </FoLiA>
 test 10:
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v2.1" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v2.2" version="0.8">
   <metadata type="native">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
@@ -2885,12 +2882,18 @@ test 10:
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -2900,31 +2903,26 @@ test 10:
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
-      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
-        <annotator processor="mbma.1"/>
-      </morphological-annotation>
       <dependency-annotation set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl">
         <annotator processor="dep-parser.1"/>
       </dependency-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-03T15:39:45" command="frog -x xmltests/folia4.xml -X folia4.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.18">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.1"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-03T15:39:45" name="ucto" version="0.17">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:48:24" command="frog -x xmltests/folia4.xml -X folia4.out.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:48:24" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-06-03T15:39:45" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-03T15:39:45" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-03T15:39:45" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-03T15:39:45" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-03T15:39:45" name="NER" version="2.1"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-03T15:39:45" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-06-03T15:39:45" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:48:24" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:48:24" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:48:24" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:48:24" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-07-11T15:48:24" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:48:24" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-07-11T15:48:24" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -2939,12 +2937,12 @@ test 10:
             <feat class="stan" subset="naamval"/>
             <feat class="agr" subset="npagr"/>
           </pos>
+          <lemma class="een"/>
           <morphology>
             <morpheme>
               <t>een</t>
             </morpheme>
           </morphology>
-          <lemma class="een"/>
         </w>
         <w xml:id="w.2">
           <t>multi word</t>
@@ -2955,12 +2953,12 @@ test 10:
             <feat class="onz" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="multi_word"/>
           <morphology>
             <morpheme>
               <t>multi_word</t>
             </morpheme>
           </morphology>
-          <lemma class="multi_word"/>
         </w>
         <w xml:id="w.3">
           <t>test</t>
@@ -2971,13 +2969,20 @@ test 10:
             <feat class="zijd" subset="genus"/>
             <feat class="stan" subset="naamval"/>
           </pos>
+          <lemma class="test"/>
           <morphology>
             <morpheme>
               <t>test</t>
             </morpheme>
           </morphology>
-          <lemma class="test"/>
         </w>
+        <chunking xml:id="s.1.chunking.1">
+          <chunk xml:id="s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
+            <wref id="w.1" t="Een"/>
+            <wref id="w.2" t="multi word"/>
+            <wref id="w.3" t="test"/>
+          </chunk>
+        </chunking>
         <dependencies xml:id="s.1.dependencies.1">
           <dependency xml:id="s.1.dependencies.1.dependency.1" class="det">
             <hd>
@@ -2988,13 +2993,6 @@ test 10:
             </dep>
           </dependency>
         </dependencies>
-        <chunking xml:id="s.1.chunking.1">
-          <chunk xml:id="s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
-            <wref id="w.1" t="Een"/>
-            <wref id="w.2" t="multi word"/>
-            <wref id="w.3" t="test"/>
-          </chunk>
-        </chunking>
       </s>
     </div>
   </text>
@@ -3009,11 +3007,11 @@ test 12:
 400		corrections.xml.out
 50681		folia-head.xml
 2841		folia-head.xml.out
-5314		issue064b.xml
+5271		issue064b.xml
 121		issue064b.xml.out
 8117		issue064c.xml
 278		issue064c.xml.out
-469465		longsent.xml
+469422		longsent.xml
 37166		longsent.xml.out
 4646		nbsp.xml
 49		nbsp.xml.out

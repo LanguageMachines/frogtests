@@ -1,61 +1,61 @@
 testlang test 1
-1	Dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
-2	is	zijn			WW(pv,tgw,ev)	0.999891								
-3	een	een			LID(onbep,stan,agr)	0.999113								
-4	test	test			N(soort,ev,basis,zijd,stan)	0.956522								
-5	met	met			VZ(init)	0.999761								
-6	een	een			LID(onbep,stan,agr)	0.999573								
-7	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
-8	in	in			VZ(init)	0.998278								
-9	het	het			LID(bep,stan,evon)	0.978417								
-10	nederlands	nederlands			ADJ(prenom,basis,zonder)	0.493151								
-11	.	.			LET()	1.000000								
+1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
+2	is	zijn		WW(pv,tgw,ev)	0.999891								
+3	een	een		LID(onbep,stan,agr)	0.999113								
+4	test	test		N(soort,ev,basis,zijd,stan)	0.956522								
+5	met	met		VZ(init)	0.999761								
+6	een	een		LID(onbep,stan,agr)	0.999573								
+7	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610								
+8	in	in		VZ(init)	0.998278								
+9	het	het		LID(bep,stan,evon)	0.978417								
+10	nederlands	nederlands		ADJ(prenom,basis,zonder)	0.493151								
+11	.	.		LET()	1.000000								
 
-1	En	en			VG(neven)	0.992995								
-2	dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
-3	is	zijn			WW(pv,tgw,ev)	0.999447								
-4	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
-5	twee	twee			TW(hoofd,vrij)	0.532609								
-6	in	in			VZ(init)	0.931125								
-7	Nederlands	Nederlands			SPEC(deeleigen)	1.000000								
-8	.	.			LET()	1.000000								
+1	En	en		VG(neven)	0.992995								
+2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
+3	is	zijn		WW(pv,tgw,ev)	0.999447								
+4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610								
+5	twee	twee		TW(hoofd,vrij)	0.532609								
+6	in	in		VZ(init)	0.931125								
+7	Nederlands	Nederlands		SPEC(deeleigen)	1.000000								
+8	.	.		LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
   <metadata type="native">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
+      <lang-annotation annotator="ko" annotatortype="manual"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
-      <lang-annotation annotator="ko" annotatortype="manual"/>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-21T18:09:40" command="frog --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:09:40" name="ucto" version="0.15">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:41:32" command="frog --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:41:32" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:09:40" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:09:40" name="mblem" version="1.2"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:41:32" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:41:32" name="mblem" version="1.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -246,63 +246,63 @@ testlang test 1
   </text>
 </FoLiA>
 testlang test 2
-1	Dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
-2	is	zijn			WW(pv,tgw,ev)	0.999891								
-3	een	een			LID(onbep,stan,agr)	0.999113								
-4	test	test			N(soort,ev,basis,zijd,stan)	0.956522								
-5	met	met			VZ(init)	0.999761								
-6	een	een			LID(onbep,stan,agr)	0.999573								
-7	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
-8	in	in			VZ(init)	0.998278								
-9	het	het			LID(bep,stan,evon)	0.978417								
-10	nederlands	nederlands			ADJ(prenom,basis,zonder)	0.493151								
-11	.	.			LET()	1.000000								
+1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
+2	is	zijn		WW(pv,tgw,ev)	0.999891								
+3	een	een		LID(onbep,stan,agr)	0.999113								
+4	test	test		N(soort,ev,basis,zijd,stan)	0.956522								
+5	met	met		VZ(init)	0.999761								
+6	een	een		LID(onbep,stan,agr)	0.999573								
+7	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610								
+8	in	in		VZ(init)	0.998278								
+9	het	het		LID(bep,stan,evon)	0.978417								
+10	nederlands	nederlands		ADJ(prenom,basis,zonder)	0.493151								
+11	.	.		LET()	1.000000								
 
-1	En	en			VG(neven)	0.992995								
-2	dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
-3	is	zijn			WW(pv,tgw,ev)	0.999447								
-4	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
-5	twee	twee			TW(hoofd,vrij)	0.532609								
-6	in	in			VZ(init)	0.931125								
-7	Nederlands	Nederlands			SPEC(deeleigen)	1.000000								
-8	.	.			LET()	1.000000								
+1	En	en		VG(neven)	0.992995								
+2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
+3	is	zijn		WW(pv,tgw,ev)	0.999447								
+4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610								
+5	twee	twee		TW(hoofd,vrij)	0.532609								
+6	in	in		VZ(init)	0.931125								
+7	Nederlands	Nederlands		SPEC(deeleigen)	1.000000								
+8	.	.		LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
   <metadata type="native">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
+      <lang-annotation annotator="ko" annotatortype="manual"/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
-      <lang-annotation annotator="ko" annotatortype="manual"/>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-21T18:09:42" command="frog --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:09:42" name="ucto" version="0.15">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:41:33" command="frog --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:41:33" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:09:42" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:09:42" name="mblem" version="1.2"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:41:33" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:41:33" name="mblem" version="1.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -493,76 +493,76 @@ testlang test 2
   </text>
 </FoLiA>
 testlang test 3
-1	Dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
-2	is	zijn			WW(pv,tgw,ev)	0.999891								
-3	een	een			LID(onbep,stan,agr)	0.999113								
-4	test	test			N(soort,ev,basis,zijd,stan)	0.956522								
-5	met	met			VZ(init)	0.999761								
-6	een	een			LID(onbep,stan,agr)	0.999573								
-7	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
-8	in	in			VZ(init)	0.998278								
-9	het	het			LID(bep,stan,evon)	0.978417								
-10	nederlands	nederlands			ADJ(prenom,basis,zonder)	0.493151								
-11	.	.			LET()	1.000000								
+1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
+2	is	zijn		WW(pv,tgw,ev)	0.999891								
+3	een	een		LID(onbep,stan,agr)	0.999113								
+4	test	test		N(soort,ev,basis,zijd,stan)	0.956522								
+5	met	met		VZ(init)	0.999761								
+6	een	een		LID(onbep,stan,agr)	0.999573								
+7	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610								
+8	in	in		VZ(init)	0.998278								
+9	het	het		LID(bep,stan,evon)	0.978417								
+10	nederlands	nederlands		ADJ(prenom,basis,zonder)	0.493151								
+11	.	.		LET()	1.000000								
 
-1	This						1.000000								
-2	is						1.000000								
-3	n't						1.000000								
-4	dutch						1.000000								
-5	,						1.000000								
-6	but						1.000000								
-7	English						1.000000								
-8	.						1.000000								
+1	This					1.000000								
+2	is					1.000000								
+3	n't					1.000000								
+4	dutch					1.000000								
+5	,					1.000000								
+6	but					1.000000								
+7	English					1.000000								
+8	.					1.000000								
 
-1	En	en			VG(neven)	0.992995								
-2	dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
-3	is	zijn			WW(pv,tgw,ev)	0.999447								
-4	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
-5	twee	twee			TW(hoofd,vrij)	0.532609								
-6	in	in			VZ(init)	0.931125								
-7	Nederlands	nederlands			SPEC(deeleigen)	1.000000								
-8	.	.			LET()	1.000000								
+1	En	en		VG(neven)	0.992995								
+2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
+3	is	zijn		WW(pv,tgw,ev)	0.999447								
+4	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610								
+5	twee	twee		TW(hoofd,vrij)	0.532609								
+6	in	in		VZ(init)	0.931125								
+7	Nederlands	nederlands		SPEC(deeleigen)	1.000000								
+8	.	.		LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v1.20" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
   <metadata type="native">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
+      <lang-annotation annotator="ko" annotatortype="manual"/>
       <token-annotation alias="tokconfig-eng" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-eng.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <division-annotation annotator="ucto" set="div"/>
       <paragraph-annotation>
         <annotator processor="ucto.1"/>
       </paragraph-annotation>
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
-      <lang-annotation annotator="ko" annotatortype="manual"/>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-21T18:09:43" command="frog --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:09:43" name="ucto" version="0.15">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
-            <processor xml:id="ucto.1.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:41:34" command="frog --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:41:34" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
+            <processor xml:id="uctodata.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:09:43" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:09:43" name="mblem" version="1.1"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:41:34" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:41:34" name="mblem" version="1.1"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -675,6 +675,7 @@ testlang test 3
       <p xml:id="p2">
         <s xml:id="s2">
           <t>This isn't dutch, but English.</t>
+          <lang class="eng"/>
           <w xml:id="s2.w.1" class="WORD" set="tokconfig-eng">
             <t>This</t>
           </w>
@@ -699,7 +700,6 @@ testlang test 3
           <w xml:id="s2.w.8" class="PUNCTUATION" set="tokconfig-eng">
             <t>.</t>
           </w>
-          <lang class="eng"/>
         </s>
       </p>
       <p xml:id="p3">
@@ -777,39 +777,38 @@ testlang test 3
   </text>
 </FoLiA>
 testlang test 4
-1	Dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
-2	is	zijn			WW(pv,tgw,ev)	0.999891								
-3	een	een			LID(onbep,stan,agr)	0.999113								
-4	test	test			N(soort,ev,basis,zijd,stan)	0.979167								
-5	in	in			VZ(init)	0.998011								
-6	het	het			LID(bep,stan,evon)	0.978417								
-7	nederlands	nederlands			ADJ(prenom,basis,zonder)	0.493151								
-8	.	.			LET()	1.000000								
+1	Dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
+2	is	zijn		WW(pv,tgw,ev)	0.999891								
+3	een	een		LID(onbep,stan,agr)	0.999113								
+4	test	test		N(soort,ev,basis,zijd,stan)	0.979167								
+5	in	in		VZ(init)	0.998011								
+6	het	het		LID(bep,stan,evon)	0.978417								
+7	nederlands	nederlands		ADJ(prenom,basis,zonder)	0.493151								
+8	.	.		LET()	1.000000								
 
-1	This						1.000000								
-2	is						1.000000								
-3	n't						1.000000								
-4	Dutch						1.000000								
-5	,						1.000000								
-6	but						1.000000								
-7	English						1.000000								
-8	.						1.000000								
+1	This					1.000000								
+2	is					1.000000								
+3	n't					1.000000								
+4	Dutch					1.000000								
+5	,					1.000000								
+6	but					1.000000								
+7	English					1.000000								
+8	.					1.000000								
 
-1	En	en			VG(neven)	0.992995								
-2	dit	dit			VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
-3	is	zijn			WW(pv,tgw,ev)	0.999966								
-4	nog	nog			BW()	0.999820								
-5	een	een			LID(onbep,stan,agr)	0.995147								
-6	nederlandse	nederlands			ADJ(prenom,basis,met-e,stan)	0.999745								
-7	zin	zin			N(soort,ev,basis,zijd,stan)	0.998610								
-8	.	.			LET()	1.000000								
+1	En	en		VG(neven)	0.992995								
+2	dit	dit		VNW(aanw,pron,stan,vol,3o,ev)	0.996906								
+3	is	zijn		WW(pv,tgw,ev)	0.999966								
+4	nog	nog		BW()	0.999820								
+5	een	een		LID(onbep,stan,agr)	0.995147								
+6	nederlandse	nederlands		ADJ(prenom,basis,met-e,stan)	0.999745								
+7	zin	zin		N(soort,ev,basis,zijd,stan)	0.998610								
+8	.	.		LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="folia-lang.txt" generator="libfolia-v1.20" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="folia-lang.txt" generator="libfolia-v2.2" version="2.1.0">
   <metadata type="native">
     <annotations>
-      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <token-annotation alias="tokconfig-eng" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-eng.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
@@ -822,30 +821,31 @@ testlang test 4
       <sentence-annotation>
         <annotator processor="ucto.1"/>
       </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
       <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
         <annotator processor="mblem.1"/>
       </lemma-annotation>
-      <quote-annotation>
-        <annotator processor="ucto.1"/>
-      </quote-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </lang-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-05-21T18:09:44" command="frog --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON" host="bonus" name="frog" user="sloot" version="0.16">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="1.20"/>
-        <processor xml:id="ucto.1" begindatetime="2019-05-21T18:09:44" name="ucto" version="0.15">
-          <processor xml:id="ucto.1.1" name="uctodata" type="datasource" version="0.8">
-            <processor xml:id="ucto.1.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
-            <processor xml:id="ucto.1.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-07-11T15:41:36" command="frog --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:41:36" name="ucto" version="0.18">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
+            <processor xml:id="uctodata.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-05-21T18:09:44" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-05-21T18:09:44" name="mblem" version="1.2"/>
+        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:41:36" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:41:36" name="mblem" version="1.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
