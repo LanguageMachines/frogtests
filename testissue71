@@ -10,7 +10,7 @@ cat issue71_b_out.xml >> testissue71.out
 
 $comm --skip=t issue71/issue71_c.xml -o issue71_c.out -X issue71_c_out.xml
 cat issue71_c.out >> testissue71.out
-cat issue71_c_out.xml >> testissue71.out
+cat issue71_c_out.xml >> testissue71.out >> testissue71.out
 $comm issue71/issue71_c.xml -o issue71_c.out -X issue71_c_out.xml
 cat issue71_c.out >> testissue71.out
 cat issue71_c_out.xml >> testissue71.out
