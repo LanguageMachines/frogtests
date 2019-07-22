@@ -1,0 +1,27 @@
+# /bin/bash
+
+\rm -f *.diff
+\rm -f *.tmp
+\rm -f *.out*
+\rm -f frog.*.debug
+
+if [ "$frog_bin" = "" ];
+then echo "frog_bin not set";
+     exit;
+fi
+
+errcnt=0
+
+for file in testapostroph2 testoption_config testsmurf \
+    	    testoption_n testnormalize \
+    	    testparser testskipt2 testserver testserver-n \
+	    test_testdir testxmlin testserverxml testmbma testmblem \
+	    testlang \
+	    testapi testtextclass testpassthru
+do ./testone.sh $file
+   if [ $? -ne 0 ];
+   then
+	errcnt=$((errcnt+1))
+   fi
+done
+exit $errcnt
