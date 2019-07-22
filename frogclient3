@@ -24,4 +24,5 @@ send "  </text>\n"
 send "</FoLiA>\n"
 send "\n"
 expect "READY"
+send_log "\r\n"
 log_file

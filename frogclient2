@@ -7,4 +7,5 @@ expect "Escape character is '^]'."
 log_file -noappend testserver2.out
 send "Dit nog zo'n boeiende test.\r"
 expect "READY"
-log_file 
+send_log "\r\n"
+log_file
