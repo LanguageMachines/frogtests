@@ -16,7 +16,7 @@ for file in testapostroph2 testoption_config testsmurf \
     	    testoption_n testnormalize \
     	    testparser testskipt2 testserver testserver-n \
 	    test_testdir testxmlin testserverxml testmbma testmblem \
-	    testlang \
+	    testlang testissue71 testissue76 testissue77 \
 	    testapi testtextclass testpassthru
 do ./testone.sh $file
    if [ $? -ne 0 ];
