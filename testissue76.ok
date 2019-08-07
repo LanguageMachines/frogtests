@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v2.3" version="1.4.987">
+  <metadata type="native">
+    <annotations>
+      <string-annotation set="alto"/>
+      <correction-annotation annotator="TICCL" datetime="2013-06-26T18:28:58" set="Ticcl-Set"/>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="ucto.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="ucto.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2019-08-07T12:16:08" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.2.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.2.0" name="libfolia" type="generator" version="2.3"/>
+        <processor xml:id="ucto.1" begindatetime="2019-08-07T12:16:08" name="ucto" version="0.19">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
+        </processor>
+        <processor xml:id="tagger.1" begindatetime="2019-08-07T12:16:08" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-08-07T12:16:08" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-08-07T12:16:08" name="mbma" version="1.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
+  </metadata>
+  <text xml:id="text">
+    <p xml:id="p1">
+      <t/>
+    </p>
+    <p xml:id="p2">
+      <t>Een tekst.</t>
+      <s xml:id="p2.s.1">
+        <w xml:id="p2.s.1.w.1" class="WORD">
+          <t>Een</t>
+          <pos class="LID(onbep,stan,agr)" confidence="0.981771" head="LID">
+            <feat class="onbep" subset="lwtype"/>
+            <feat class="stan" subset="naamval"/>
+            <feat class="agr" subset="npagr"/>
+          </pos>
+          <lemma class="een"/>
+          <morphology>
+            <morpheme>
+              <t>een</t>
+            </morpheme>
+          </morphology>
+        </w>
+        <w xml:id="p2.s.1.w.2" class="WORD" space="no">
+          <t>tekst</t>
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998077" head="N">
+            <feat class="soort" subset="ntype"/>
+            <feat class="ev" subset="getal"/>
+            <feat class="basis" subset="graad"/>
+            <feat class="zijd" subset="genus"/>
+            <feat class="stan" subset="naamval"/>
+          </pos>
+          <lemma class="tekst"/>
+          <morphology>
+            <morpheme>
+              <t>tekst</t>
+            </morpheme>
+          </morphology>
+        </w>
+        <w xml:id="p2.s.1.w.3" class="PUNCTUATION">
+          <t>.</t>
+          <pos class="LET()" confidence="1.000000" head="LET"/>
+          <lemma class="."/>
+          <morphology>
+            <morpheme>
+              <t>.</t>
+            </morpheme>
+          </morphology>
+        </w>
+      </s>
+    </p>
+    <p xml:id="p3">
+      <t/>
+    </p>
+  </text>
+</FoLiA>
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.3" version="0.8">
+  <metadata type="native">
+    <annotations>
+      <division-annotation annotator="ucto" set="div"/>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="uctodata.1.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="uctodata.1.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="uctodata.1.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="uctodata.1.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2019-08-07T12:16:08" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.2.0" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.2.0" name="libfolia" type="generator" version="2.3"/>
+        <processor xml:id="tagger.1" begindatetime="2019-08-07T12:16:08" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-08-07T12:16:08" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-08-07T12:16:08" name="mbma" version="1.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
+  </metadata>
+  <text xml:id="WR-P-E-J-0000000001.text">
+    <div xml:id="WR-P-E-J-0000000001.div0.1" class="test">
+      <head xml:id="WR-P-E-J-0000000001.head.1">
+        <s xml:id="WR-P-E-J-0000000001.head.1.s.1">
+          <t>Dit is een ligatuur: æ.
+Gaat deze datum: 28-11-2011 goed?</t>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.1" class="WORD">
+            <t>Dit</t>
+            <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
+              <feat class="aanw" subset="vwtype"/>
+              <feat class="pron" subset="pdtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="vol" subset="status"/>
+              <feat class="3o" subset="persoon"/>
+              <feat class="ev" subset="getal"/>
+            </pos>
+            <lemma class="dit"/>
+            <morphology>
+              <morpheme>
+                <t>dit</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
+            <t>is</t>
+            <pos class="WW(pv,tgw,ev)" confidence="0.999891" head="WW">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="ev" subset="pvagr"/>
+            </pos>
+            <lemma class="zijn"/>
+            <morphology>
+              <morpheme>
+                <t>zijn</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
+            <t>een</t>
+            <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
+              <feat class="onbep" subset="lwtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="agr" subset="npagr"/>
+            </pos>
+            <lemma class="een"/>
+            <morphology>
+              <morpheme>
+                <t>een</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" space="no">
+            <t>ligatuur</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="ligatuur"/>
+            <morphology>
+              <morpheme>
+                <t>ligatuur</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="PUNCTUATION">
+            <t>:</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=":"/>
+            <morphology>
+              <morpheme>
+                <t>:</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD" space="no">
+            <t>æ</t>
+            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
+              <feat class="symb" subset="spectype"/>
+            </pos>
+            <lemma class="æ"/>
+            <morphology>
+              <morpheme>
+                <t>æ</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="PUNCTUATION">
+            <t>.</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
+            <morphology>
+              <morpheme>
+                <t>.</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD">
+            <t>Gaat</t>
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="met-t" subset="pvagr"/>
+            </pos>
+            <lemma class="gaan"/>
+            <morphology>
+              <morpheme>
+                <t>ga</t>
+              </morpheme>
+              <morpheme>
+                <t>t</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD">
+            <t>deze</t>
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+              <feat class="aanw" subset="vwtype"/>
+              <feat class="det" subset="pdtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="prenom" subset="positie"/>
+              <feat class="met-e" subset="buiging"/>
+              <feat class="rest" subset="npagr"/>
+            </pos>
+            <lemma class="deze"/>
+            <morphology>
+              <morpheme>
+                <t>deze</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD" space="no">
+            <t>datum</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="datum"/>
+            <morphology>
+              <morpheme>
+                <t>datum</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="PUNCTUATION">
+            <t>:</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=":"/>
+            <morphology>
+              <morpheme>
+                <t>:</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="DATE">
+            <t>28-11-2011</t>
+            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
+              <feat class="symb" subset="spectype"/>
+            </pos>
+            <lemma class="28-11-2011"/>
+            <morphology>
+              <morpheme>
+                <t>28-11-2011</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="WORD" space="no">
+            <t>goed</t>
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+              <feat class="vrij" subset="positie"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zonder" subset="buiging"/>
+            </pos>
+            <lemma class="goed"/>
+            <morphology>
+              <morpheme>
+                <t>goed</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="PUNCTUATION">
+            <t>?</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="?"/>
+            <morphology>
+              <morpheme>
+                <t>?</t>
+              </morpheme>
+            </morphology>
+          </w>
+        </s>
+      </head>
+    </div>
+  </text>
+</FoLiA>

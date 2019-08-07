@@ -2,3 +2,6 @@
 
 /rm -i issue76_out
 $comm --skip=mpcn --xmldir=issue76_out -x --testdir=issue76
+cat issue76_out/empty.xml > testissue76.out
+cat issue76_out/filter.xml >> testissue76.out
+cat issue76_out/folia1.xml >> testissue76.out
