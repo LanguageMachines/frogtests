@@ -1,0 +1,4 @@
+#/bin/sh
+
+/rm -i issue76_out
+$comm --skip=mpcn --xmldir=issue76_out -x --testdir=issue76
