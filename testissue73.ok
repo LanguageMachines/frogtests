@@ -62,7 +62,7 @@
 8	.	.	[.]	LET()	1.000000	O	O				
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311" generator="libfolia-v2.3" version="2.1.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -93,7 +93,9 @@
       </token-annotation>
       <sentence-annotation/>
       <head-annotation/>
-      <token-annotation annotator="ucto" set="passthru"/>
+      <token-annotation set="passthru">
+        <annotator processor="proc.ucto.9ae4f8b9"/>
+      </token-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
@@ -118,13 +120,13 @@
         <processor xml:id="proc.unspecified.878fa02e" name="unspecified"/>
         <processor xml:id="proc.ucto.9ae4f8b9" name="ucto"/>
       </processor>
-      <processor xml:id="frog.1" begindatetime="2019-06-19T16:26:13" command="frog --skip=tmp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="tagger.1" begindatetime="2019-06-19T16:26:13" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-19T16:26:13" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-19T16:26:13" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-19T16:26:13" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-19T16:26:13" name="NER" version="2.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-08-20T13:03:58" command="frog --skip=tmp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.2.0" host="kokos" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.2.0" name="libfolia" type="generator" version="2.3"/>
+        <processor xml:id="tagger.1" begindatetime="2019-08-20T13:03:58" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-08-20T13:03:58" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-08-20T13:03:58" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-08-20T13:03:58" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-08-20T13:03:58" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="authorLevel1">Verwey, Albert</meta>
@@ -1264,7 +1266,7 @@
 8	.	.	[.]	LET()	1.000000	O	O				
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311" generator="libfolia-v2.3" version="2.1.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -1295,7 +1297,9 @@
       </token-annotation>
       <sentence-annotation/>
       <head-annotation/>
-      <token-annotation annotator="ucto" set="passthru"/>
+      <token-annotation set="passthru">
+        <annotator processor="proc.ucto.9ae4f8b9"/>
+      </token-annotation>
       <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
         <annotator processor="tagger.1"/>
       </pos-annotation>
@@ -1320,13 +1324,13 @@
         <processor xml:id="proc.unspecified.878fa02e" name="unspecified"/>
         <processor xml:id="proc.ucto.9ae4f8b9" name="ucto"/>
       </processor>
-      <processor xml:id="frog.1" begindatetime="2019-06-19T16:26:16" command="frog --skip=mp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="tagger.1" begindatetime="2019-06-19T16:26:16" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-19T16:26:16" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-19T16:26:16" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-19T16:26:16" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-19T16:26:16" name="NER" version="2.2"/>
+      <processor xml:id="frog.1" begindatetime="2019-08-20T13:04:01" command="frog --skip=mp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.2.0" host="kokos" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.2.0" name="libfolia" type="generator" version="2.3"/>
+        <processor xml:id="tagger.1" begindatetime="2019-08-20T13:04:01" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-08-20T13:04:01" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-08-20T13:04:01" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-08-20T13:04:01" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-08-20T13:04:01" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="authorLevel1">Verwey, Albert</meta>
