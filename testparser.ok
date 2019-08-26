@@ -198,7 +198,7 @@
 21	.	.	[.]	LET()	1.000000	O	O	20	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="2.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.3" version="2.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -236,22 +236,23 @@
       <dependency-annotation set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl">
         <annotator processor="dep-parser.1"/>
       </dependency-annotation>
+      <head-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:38:52" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:38:52" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-08-26T15:40:07" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.3"/>
+        <processor xml:id="ucto.1" begindatetime="2019-08-26T15:40:07" name="ucto" version="0.19">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:38:52" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:38:52" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:38:52" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:38:52" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-07-11T15:38:52" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:38:52" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-07-11T15:38:52" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-08-26T15:40:07" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-08-26T15:40:07" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-08-26T15:40:07" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-08-26T15:40:07" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-08-26T15:40:07" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-08-26T15:40:07" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-08-26T15:40:07" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -469,7 +470,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
   </text>
 </FoLiA>
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="2.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.3" version="2.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -507,23 +508,24 @@ Gaat deze datum: 28-11-2011 goed?</t>
       <dependency-annotation set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl">
         <annotator processor="dep-parser.1"/>
       </dependency-annotation>
+      <head-annotation/>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:38:57" command="frog -x folia1.xml --nostdout --KANON -X testparser2.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:38:57" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2019-08-26T15:40:12" command="frog -x folia1.xml --nostdout --KANON -X testparser2.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.3"/>
+        <processor xml:id="ucto.1" begindatetime="2019-08-26T15:40:12" name="ucto" version="0.19">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:38:57" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:38:57" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:38:57" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:38:57" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-07-11T15:38:57" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:38:57" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-07-11T15:38:57" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2019-08-26T15:40:12" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-08-26T15:40:12" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-08-26T15:40:12" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-08-26T15:40:12" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-08-26T15:40:12" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-08-26T15:40:12" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-08-26T15:40:12" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>

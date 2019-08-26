@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v2.3" version="2.2.1">
   <metadata type="native">
     <annotations>
       <token-annotation set="passthru">
@@ -24,19 +24,20 @@
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
         <annotator processor="mwu.1"/>
       </entity-annotation>
+      <sentence-annotation/>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-06-19T16:25:30" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-06-19T16:25:30" name="ucto" version="0.17"/>
-        <processor xml:id="tagger.1" begindatetime="2019-06-19T16:25:30" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-06-19T16:25:30" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-06-19T16:25:30" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-06-19T16:25:30" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-06-19T16:25:30" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2019-06-19T16:25:30" name="mwu" version="1.0"/>
+      <processor xml:id="frog.1" begindatetime="2019-08-26T15:43:01" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.19">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.3"/>
+        <processor xml:id="ucto.1" begindatetime="2019-08-26T15:43:01" name="ucto" version="0.19"/>
+        <processor xml:id="tagger.1" begindatetime="2019-08-26T15:43:01" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-08-26T15:43:01" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-08-26T15:43:01" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-08-26T15:43:01" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-08-26T15:43:01" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-08-26T15:43:01" name="mwu" version="1.0"/>
       </processor>
     </provenance>
   </metadata>
