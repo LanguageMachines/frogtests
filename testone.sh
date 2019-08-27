@@ -1,6 +1,6 @@
 #/bin/bash
 
-if [ "$frog_bin" = "" ];
+if [ "$frog_bin" == "" ];
 then echo "frog_bin not set";
      exit;
 fi

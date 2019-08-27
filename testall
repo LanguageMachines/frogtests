@@ -5,10 +5,21 @@
 \rm -f *.out*
 \rm -f frog.*.debug
 
-if [ "$frog_bin" = "" ];
-then echo "frog_bin not set";
-     exit;
+if [ "$frog_bin" == "" ];
+then
+  frog_bin=/home/sloot/usr/local/bin
+  if [ ! -d $frog_bin ];
+  then
+     frog_bin=/exp/sloot/usr/local/bin
+     if [ ! -d $frog_bin ];
+     then
+       echo "cannot find executables "
+       exit
+     fi
+  fi
 fi
+
+export frog_bin=$frog_bin
 
 errcnt=0
 
