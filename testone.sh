@@ -11,6 +11,7 @@ KNOWNFAIL="\033[1;33m  KNOWN FAILURES  \033[0m"
 ACCEPTABLE="\033[1;34m  ACCEPTABLE DIFF  \033[0m"
 
 #export comm="$VG $frog_bin/frog -c /home/sloot/git/frogdata/config/nld/frog-mbtserver.cfg"
+#export comm="$VG $frog_bin/frog -c /home/sloot/git/frogdata/config/nld/frog-timblservers.cfg"
 export comm="$VG $frog_bin/frog"
 export mbma="$VG $frog_bin/mbma"
 export mblem="$VG $frog_bin/mblem"
