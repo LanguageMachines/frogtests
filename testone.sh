@@ -1,9 +1,20 @@
-#/bin/bash
+#!/bin/bash
 
 if [ "$frog_bin" == "" ];
-then echo "frog_bin not set";
-     exit;
+then
+  frog_bin=/home/sloot/usr/local/bin
+  if [ ! -d $frog_bin ];
+  then
+     frog_bin=/exp/sloot/usr/local/bin
+     if [ ! -d $frog_bin ];
+     then
+       echo "cannot find executables "
+       exit
+     fi
+  fi
 fi
+
+export frog_bin=$frog_bin
 
 OK="\033[1;32m OK  \033[0m"
 FAIL="\033[1;31m  FAILED  \033[0m"
@@ -11,7 +22,8 @@ KNOWNFAIL="\033[1;33m  KNOWN FAILURES  \033[0m"
 ACCEPTABLE="\033[1;34m  ACCEPTABLE DIFF  \033[0m"
 
 #export comm="$VG $frog_bin/frog -c /home/sloot/git/frogdata/config/nld/frog-mbtserver.cfg"
-export comm="$VG $frog_bin/frog"
+export comm="$VG $frog_bin/frog -c /home/sloot/git/frogdata/config/nld/frog-timblservers.cfg"
+#export comm="$VG $frog_bin/frog"
 export mbma="$VG $frog_bin/mbma"
 export mblem="$VG $frog_bin/mblem"
 export folialint="$VG $frog_bin/folialint"
