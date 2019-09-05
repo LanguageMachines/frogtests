@@ -1,9 +1,20 @@
-#/bin/bash
+#!/bin/bash
 
 if [ "$frog_bin" == "" ];
-then echo "frog_bin not set";
-     exit;
+then
+  frog_bin=/home/sloot/usr/local/bin
+  if [ ! -d $frog_bin ];
+  then
+     frog_bin=/exp/sloot/usr/local/bin
+     if [ ! -d $frog_bin ];
+     then
+       echo "cannot find executables "
+       exit
+     fi
+  fi
 fi
+
+export frog_bin=$frog_bin
 
 OK="\033[1;32m OK  \033[0m"
 FAIL="\033[1;31m  FAILED  \033[0m"
