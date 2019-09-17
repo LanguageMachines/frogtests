@@ -24,7 +24,9 @@ ACCEPTABLE="\033[1;34m  ACCEPTABLE DIFF  \033[0m"
 #export comm="$VG $frog_bin/frog -c /home/sloot/git/frogdata/config/nld/frog-mbtserver.cfg"
 #export comm="$VG $frog_bin/frog -c /home/sloot/git/frogdata/config/nld/frog-timblservers.cfg"
 #export comm="$VG $frog_bin/frog -c /home/sloot/git/frogdata/config/nld/frog-parser.cfg"
+#export comm="$VG $frog_bin/frog -c /home/sloot/git/frogdata/config/nld/frog-servers.cfg"
 export comm="$VG $frog_bin/frog"
+
 export mbma="$VG $frog_bin/mbma"
 export mblem="$VG $frog_bin/mblem"
 export folialint="$VG $frog_bin/folialint"
@@ -35,8 +37,8 @@ errcnt=0
 for file in $1
 do if test -x $file
    then
-#      \rm -f $file.diff
-#      \rm -f $file.err
+      \rm -f $file.diff
+      \rm -f $file.err
       \rm -f $file.out
       echo -n "Frogging $file "
       bash ./$file > $file.err 2>&1
@@ -69,7 +71,7 @@ do if test -x $file
 		  else
 		      echo -e $KNOWNFAIL
 		      \rm -f $file.diff
-		      \rm $file.err
+#		      \rm $file.err
 		  fi
 	      else
 		  echo -e $FAIL
@@ -79,12 +81,12 @@ do if test -x $file
 	  else
 	      echo -e $OK "(variant=$vari)"
 	      rm $file.diff
-	      rm $file.err
+#	      rm $file.err
 	  fi
       else
 	  echo -e $OK
 	  rm $file.diff
-	  rm $file.err
+#	  rm $file.err
       fi
    else
        echo "file $file not found"
