@@ -12,10 +12,9 @@ fi
 
 errcnt=0
 
-for file in testoption_n testnormalize \
-    	    testparser testskipt2 testserver testserver-n \
+for file in testoption_n testparser testskipt2 testserver \
 	    test_testdir testxmlin testmbma testmblem \
-	    testlang testissue71 testissue76 testissue77 \
+	    testlang testissue76 testissue77 \
 	    testapi testtextclass testpassthru
 do ./testone.sh $file
    if [ $? -ne 0 ];
