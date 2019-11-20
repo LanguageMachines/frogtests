@@ -1,17 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="bug" generator="libfolia-v1.16" version="1.5">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="bug" generator="libfolia-v2.4" version="1.5">
   <metadata type="native">
     <annotations>
-      <token-annotation annotator="ucto" annotatortype="auto" datetime="2015-05-26T04:47:24" set="tokconfig-nld"/>
-      <lang-annotation annotator="ucto" set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
-      <pos-annotation annotator="frog-mbpos-1.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
-      <lemma-annotation annotator="frog-mblem-1.1" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl"/>
-      <morphological-annotation annotator="frog-mbma-1.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl"/>
-      <chunking-annotation annotator="frog-chunker-2.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl"/>
-      <entity-annotation annotator="frog-ner-2.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl"/>
-      <entity-annotation annotator="frog-mwu-1.0" annotatortype="auto" datetime="2019-02-25T12:35:35" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl"/>
-      <dependency-annotation annotator="frog-depparse-1.0" annotatortype="auto" set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl"/>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="ucto.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="ucto.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
+        <annotator processor="IOB.1"/>
+      </chunking-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <annotator processor="NER.1"/>
+      </entity-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+        <annotator processor="mwu.1"/>
+      </entity-annotation>
+      <dependency-annotation set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl">
+        <annotator processor="dep-parser.1"/>
+      </dependency-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2019-11-20T13:35:54" command="frog -x  --testdir=strangefolia --xmldir=./strangeout --outputdir=./strangeout" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2019-11-20T13:35:54" name="ucto" version="0.20">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
+        </processor>
+        <processor xml:id="tagger.1" begindatetime="2019-11-20T13:35:54" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2019-11-20T13:35:54" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2019-11-20T13:35:54" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2019-11-20T13:35:54" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2019-11-20T13:35:54" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2019-11-20T13:35:54" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2019-11-20T13:35:54" name="dep-parser" version="1.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
   </metadata>
   <text xml:id="bug.text">
     <div xml:id="bug.text.div.2">
@@ -35,7 +78,7 @@
           </w>
           <w xml:id="bug.text.div.2.head.1.s.1.w.2" class="PUNCTUATION">
             <t>.</t>
-            <pos class="LET()" confidence="1" head="LET"/>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
             <lemma class="."/>
             <morphology>
               <morpheme>
