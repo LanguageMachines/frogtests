@@ -1,0 +1,538 @@
+1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
+2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891								
+3	een	een	[een]	LID(onbep,stan,agr)	0.999113								
+4	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.903766								
+5	!	!	[!]	LET()	1.000000								
+
+1	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.789112								
+2	2	2	[2]	TW(hoofd,vrij)	0.890698								
+3	;	;	[;]	LET()	1.000000								
+4	met	met	[met]	VZ(init)	0.999761								
+5	een	een	[een]	LID(onbep,stan,agr)	0.999052								
+6	datum	datum	[datum]	N(soort,ev,basis,zijd,stan)	0.998230								
+7	:	:	[:]	LET()	1.000000								
+8	04-02-1954	04-02-1954	[04-02-1954]	SPEC(symb)	1.000000								
+9	!	!	[!]	LET()	1.000000								
+
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.4" version="2.2">
+  <metadata type="native">
+    <annotations>
+      <lang-annotation set="iso"/>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <token-annotation set="folia-correct"/>
+      <sentence-annotation set="folia-correct"/>
+      <paragraph-annotation set="folia-correct"/>
+      <correction-annotation set="folia-correct"/>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="ucto.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="ucto.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2020-01-13T17:43:36" command="frog --skip=mpcn --correctwords -x folia-correct.xml -X folia-corrected-2.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-01-13T17:43:36" name="ucto" version="0.21">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
+        </processor>
+        <processor xml:id="tagger.1" begindatetime="2020-01-13T17:43:36" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-01-13T17:43:36" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-01-13T17:43:36" name="mbma" version="1.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
+  </metadata>
+  <text xml:id="text">
+    <p xml:id="p1" set="folia-correct">
+      <s xml:id="s1" set="folia-correct">
+        <lang class="nld"/>
+        <correction xml:id="s1.correction.1">
+          <new>
+            <w xml:id="w1.tokenized.1" class="WORD" set="tokconfig-nld">
+              <t>Dit</t>
+              <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
+                <feat class="aanw" subset="vwtype"/>
+                <feat class="pron" subset="pdtype"/>
+                <feat class="stan" subset="naamval"/>
+                <feat class="vol" subset="status"/>
+                <feat class="3o" subset="persoon"/>
+                <feat class="ev" subset="getal"/>
+              </pos>
+              <lemma class="dit"/>
+              <morphology>
+                <morpheme>
+                  <t>dit</t>
+                </morpheme>
+              </morphology>
+            </w>
+          </new>
+          <original auth="no">
+            <w xml:id="w1" set="folia-correct">
+              <t>Dit</t>
+            </w>
+          </original>
+        </correction>
+        <correction xml:id="s1.correction.2">
+          <new>
+            <w xml:id="w2.tokenized.1" class="WORD" set="tokconfig-nld">
+              <t>is</t>
+              <pos class="WW(pv,tgw,ev)" confidence="0.999891" head="WW">
+                <feat class="pv" subset="wvorm"/>
+                <feat class="tgw" subset="pvtijd"/>
+                <feat class="ev" subset="pvagr"/>
+              </pos>
+              <lemma class="zijn"/>
+              <morphology>
+                <morpheme>
+                  <t>zijn</t>
+                </morpheme>
+              </morphology>
+            </w>
+          </new>
+          <original auth="no">
+            <w xml:id="w2" set="folia-correct">
+              <t>is</t>
+            </w>
+          </original>
+        </correction>
+        <correction xml:id="s1.correction.3">
+          <new>
+            <w xml:id="w3.tokenized.1" class="WORD" set="tokconfig-nld">
+              <t>een</t>
+              <pos class="LID(onbep,stan,agr)" confidence="0.999113" head="LID">
+                <feat class="onbep" subset="lwtype"/>
+                <feat class="stan" subset="naamval"/>
+                <feat class="agr" subset="npagr"/>
+              </pos>
+              <lemma class="een"/>
+              <morphology>
+                <morpheme>
+                  <t>een</t>
+                </morpheme>
+              </morphology>
+            </w>
+          </new>
+          <original auth="no">
+            <w xml:id="w3" set="folia-correct">
+              <t>een</t>
+            </w>
+          </original>
+        </correction>
+        <correction xml:id="s1.correction.4">
+          <new>
+            <w xml:id="w4.tokenized.1" class="WORD" set="tokconfig-nld" space="no">
+              <t>test</t>
+              <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.903766" head="N">
+                <feat class="soort" subset="ntype"/>
+                <feat class="ev" subset="getal"/>
+                <feat class="basis" subset="graad"/>
+                <feat class="zijd" subset="genus"/>
+                <feat class="stan" subset="naamval"/>
+              </pos>
+              <lemma class="test"/>
+              <morphology>
+                <morpheme>
+                  <t>test</t>
+                </morpheme>
+              </morphology>
+            </w>
+            <w xml:id="w4.tokenized.2" class="PUNCTUATION" set="tokconfig-nld">
+              <t>!</t>
+              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <lemma class="!"/>
+              <morphology>
+                <morpheme>
+                  <t>!</t>
+                </morpheme>
+              </morphology>
+            </w>
+          </new>
+          <original auth="no">
+            <w xml:id="w4" set="folia-correct">
+              <t>test!</t>
+            </w>
+          </original>
+        </correction>
+      </s>
+    </p>
+    <p xml:id="p2" set="folia-correct">
+      <correction xml:id="p2.correction.1">
+        <new>
+          <w xml:id="p2.w1.tokenized.1" class="WORD" set="tokconfig-nld">
+            <t>test</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.789112" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="test"/>
+            <morphology>
+              <morpheme>
+                <t>test</t>
+              </morpheme>
+            </morphology>
+          </w>
+        </new>
+        <original auth="no">
+          <w xml:id="p2.w1" set="folia-correct">
+            <t>test</t>
+          </w>
+        </original>
+      </correction>
+      <correction xml:id="p2.correction.2">
+        <new>
+          <w xml:id="p2.w2.tokenized.1" class="NUMBER" set="tokconfig-nld" space="no">
+            <t>2</t>
+            <pos class="TW(hoofd,vrij)" confidence="0.890698" head="TW">
+              <feat class="hoofd" subset="numtype"/>
+              <feat class="vrij" subset="positie"/>
+            </pos>
+            <lemma class="2"/>
+            <morphology>
+              <morpheme>
+                <t>2</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="p2.w2.tokenized.2" class="PUNCTUATION" set="tokconfig-nld">
+            <t>;</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=";"/>
+            <morphology>
+              <morpheme>
+                <t>;</t>
+              </morpheme>
+            </morphology>
+          </w>
+        </new>
+        <original auth="no">
+          <w xml:id="p2.w2" set="folia-correct">
+            <t>2;</t>
+          </w>
+        </original>
+      </correction>
+      <correction xml:id="p2.correction.3">
+        <new>
+          <w xml:id="p2.w3.tokenized.1" class="WORD" set="tokconfig-nld">
+            <t>met</t>
+            <pos class="VZ(init)" confidence="0.999761" head="VZ">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="met"/>
+            <morphology>
+              <morpheme>
+                <t>met</t>
+              </morpheme>
+            </morphology>
+          </w>
+        </new>
+        <original auth="no">
+          <w xml:id="p2.w3" set="folia-correct">
+            <t>met</t>
+          </w>
+        </original>
+      </correction>
+      <correction xml:id="p2.correction.4">
+        <new>
+          <w xml:id="p2.w4.tokenized.1" class="WORD" set="tokconfig-nld">
+            <t>een</t>
+            <pos class="LID(onbep,stan,agr)" confidence="0.999052" head="LID">
+              <feat class="onbep" subset="lwtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="agr" subset="npagr"/>
+            </pos>
+            <lemma class="een"/>
+            <morphology>
+              <morpheme>
+                <t>een</t>
+              </morpheme>
+            </morphology>
+          </w>
+        </new>
+        <original auth="no">
+          <w xml:id="p2.w4" set="folia-correct">
+            <t>een</t>
+          </w>
+        </original>
+      </correction>
+      <correction xml:id="p2.correction.5">
+        <new>
+          <w xml:id="p2.w5.tokenized.1" class="WORD" set="tokconfig-nld" space="no">
+            <t>datum</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="datum"/>
+            <morphology>
+              <morpheme>
+                <t>datum</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="p2.w5.tokenized.2" class="PUNCTUATION" set="tokconfig-nld">
+            <t>:</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=":"/>
+            <morphology>
+              <morpheme>
+                <t>:</t>
+              </morpheme>
+            </morphology>
+          </w>
+        </new>
+        <original auth="no">
+          <w xml:id="p2.w5" set="folia-correct">
+            <t>datum:</t>
+          </w>
+        </original>
+      </correction>
+      <correction xml:id="p2.correction.6">
+        <new>
+          <w xml:id="p2.w6.tokenized.1" class="DATE" set="tokconfig-nld" space="no">
+            <t>04-02-1954</t>
+            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
+              <feat class="symb" subset="spectype"/>
+            </pos>
+            <lemma class="04-02-1954"/>
+            <morphology>
+              <morpheme>
+                <t>04-02-1954</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="p2.w6.tokenized.2" class="PUNCTUATION" set="tokconfig-nld">
+            <t>!</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="!"/>
+            <morphology>
+              <morpheme>
+                <t>!</t>
+              </morpheme>
+            </morphology>
+          </w>
+        </new>
+        <original auth="no">
+          <w xml:id="p2.w6" set="folia-correct">
+            <t>04-02-1954!</t>
+          </w>
+        </original>
+      </correction>
+    </p>
+  </text>
+</FoLiA>
+1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
+2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447								
+3	één	een	[één]	TW(hoofd,vrij)	0.918033								
+4	.	.	[.]	LET()	1.000000								
+5	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.903055								
+6	.	.	[.]	LET()	1.000000								
+
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.4" version="2.2">
+  <metadata type="native">
+    <annotations>
+      <lang-annotation set="iso"/>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <token-annotation set="folia-correct"/>
+      <sentence-annotation set="folia-correct"/>
+      <paragraph-annotation set="folia-correct"/>
+      <correction-annotation set="folia-correct"/>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="ucto.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="ucto.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <alternative-annotation/>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2020-01-13T17:43:38" command="frog --skip=mpcn --correctwords -x folia-correct-corrected.xml -X folia-corrected-3.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-01-13T17:43:38" name="ucto" version="0.21">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
+        </processor>
+        <processor xml:id="tagger.1" begindatetime="2020-01-13T17:43:38" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-01-13T17:43:38" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-01-13T17:43:38" name="mbma" version="1.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
+  </metadata>
+  <text xml:id="text">
+    <p xml:id="p1" set="folia-correct">
+      <s xml:id="s1" set="folia-correct">
+        <lang class="nld"/>
+        <correction xml:id="s1.correction.1">
+          <new>
+            <w xml:id="w1.tokenized.1" class="WORD" set="tokconfig-nld">
+              <t>Dit</t>
+              <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
+                <feat class="aanw" subset="vwtype"/>
+                <feat class="pron" subset="pdtype"/>
+                <feat class="stan" subset="naamval"/>
+                <feat class="vol" subset="status"/>
+                <feat class="3o" subset="persoon"/>
+                <feat class="ev" subset="getal"/>
+              </pos>
+              <lemma class="dit"/>
+              <morphology>
+                <morpheme>
+                  <t>dit</t>
+                </morpheme>
+              </morphology>
+            </w>
+          </new>
+          <original auth="no">
+            <w xml:id="w1" set="folia-correct">
+              <t>Dit</t>
+            </w>
+          </original>
+        </correction>
+        <correction xml:id="s1.correction.2">
+          <new>
+            <w xml:id="w2.tokenized.1" class="WORD" set="tokconfig-nld">
+              <t>is</t>
+              <pos class="WW(pv,tgw,ev)" confidence="0.999447" head="WW">
+                <feat class="pv" subset="wvorm"/>
+                <feat class="tgw" subset="pvtijd"/>
+                <feat class="ev" subset="pvagr"/>
+              </pos>
+              <lemma class="zijn"/>
+              <morphology>
+                <morpheme>
+                  <t>zijn</t>
+                </morpheme>
+              </morphology>
+            </w>
+          </new>
+          <original auth="no">
+            <w xml:id="w2" set="folia-correct">
+              <t>is</t>
+            </w>
+          </original>
+        </correction>
+        <correction xml:id="s1.correction.3">
+          <new>
+            <w xml:id="w3.cor.tokenized.1" class="WORD" set="tokconfig-nld" space="no">
+              <t>één</t>
+              <pos class="TW(hoofd,vrij)" confidence="0.918033" head="TW">
+                <feat class="hoofd" subset="numtype"/>
+                <feat class="vrij" subset="positie"/>
+              </pos>
+              <lemma class="een"/>
+              <alt xml:id="w3.cor.tokenized.1.alt-lem.1" auth="no">
+                <lemma class="één"/>
+              </alt>
+              <morphology>
+                <morpheme>
+                  <t>één</t>
+                </morpheme>
+              </morphology>
+            </w>
+            <w xml:id="w3.cor.tokenized.2" class="PUNCTUATION" set="tokconfig-nld">
+              <t>.</t>
+              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <lemma class="."/>
+              <morphology>
+                <morpheme>
+                  <t>.</t>
+                </morpheme>
+              </morphology>
+            </w>
+          </new>
+          <original auth="no">
+            <correction xml:id="cor1">
+              <new>
+                <w xml:id="w3.cor" set="folia-correct">
+                  <t>één.</t>
+                </w>
+              </new>
+              <original auth="no">
+                <w xml:id="w3" set="folia-correct">
+                  <t>een.</t>
+                </w>
+              </original>
+            </correction>
+          </original>
+        </correction>
+        <correction xml:id="s1.correction.4">
+          <new>
+            <w xml:id="w4.tokenized.1" class="WORD" set="tokconfig-nld" space="no">
+              <t>test</t>
+              <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.903055" head="N">
+                <feat class="soort" subset="ntype"/>
+                <feat class="ev" subset="getal"/>
+                <feat class="basis" subset="graad"/>
+                <feat class="zijd" subset="genus"/>
+                <feat class="stan" subset="naamval"/>
+              </pos>
+              <lemma class="test"/>
+              <morphology>
+                <morpheme>
+                  <t>test</t>
+                </morpheme>
+              </morphology>
+            </w>
+            <w xml:id="w4.tokenized.2" class="PUNCTUATION" set="tokconfig-nld">
+              <t>.</t>
+              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <lemma class="."/>
+              <morphology>
+                <morpheme>
+                  <t>.</t>
+                </morpheme>
+              </morphology>
+            </w>
+          </new>
+          <original auth="no">
+            <w xml:id="w4" set="folia-correct">
+              <t>test.</t>
+            </w>
+          </original>
+        </correction>
+      </s>
+    </p>
+  </text>
+</FoLiA>

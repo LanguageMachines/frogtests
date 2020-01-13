@@ -1,0 +1,10 @@
+#/bin/sh -x
+
+$comm --skip=mpcn -x folia-correct.xml -X folia-corrected-1.xml > testcorrect.out
+cat folia-corrected-1.xml >> testcorrect.out
+
+$comm --skip=mpcn --correctwords -x folia-correct.xml -X folia-corrected-2.xml >> testcorrect.out
+cat folia-corrected-2.xml >> testcorrect.out
+
+$comm --skip=mpcn --correctwords -x folia-correct-corrected.xml -X folia-corrected-3.xml >> testcorrect.out
+cat folia-corrected-3.xml >> testcorrect.out
