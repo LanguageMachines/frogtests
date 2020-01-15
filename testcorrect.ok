@@ -20,19 +20,12 @@
     <annotations>
       <lang-annotation set="iso"/>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
-      <token-annotation set="folia-correct"/>
-      <sentence-annotation set="folia-correct"/>
-      <paragraph-annotation set="folia-correct"/>
-      <correction-annotation set="folia-correct"/>
+      <token-annotation/>
+      <sentence-annotation/>
+      <paragraph-annotation/>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <paragraph-annotation>
-        <annotator processor="ucto.1"/>
-      </paragraph-annotation>
-      <sentence-annotation>
-        <annotator processor="ucto.1"/>
-      </sentence-annotation>
       <quote-annotation>
         <annotator processor="ucto.1"/>
       </quote-annotation>
@@ -45,25 +38,28 @@
       <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
         <annotator processor="mbma.1"/>
       </morphological-annotation>
+      <correction-annotation set="tokconfig-nld">
+        <annotator processor="ucto.1"/>
+      </correction-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2020-01-13T17:43:36" command="frog --skip=mpcn --correctwords -x folia-correct.xml -X folia-corrected-2.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+      <processor xml:id="frog.1" begindatetime="2020-01-15T12:00:26" command="frog --skip=mpcn --correctwords -x folia-correct.xml -X folia-corrected-2.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
         <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
-        <processor xml:id="ucto.1" begindatetime="2020-01-13T17:43:36" name="ucto" version="0.21">
+        <processor xml:id="ucto.1" begindatetime="2020-01-15T12:00:26" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2020-01-13T17:43:36" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2020-01-13T17:43:36" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2020-01-13T17:43:36" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-01-15T12:00:26" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-01-15T12:00:26" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-01-15T12:00:26" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
   </metadata>
   <text xml:id="text">
-    <p xml:id="p1" set="folia-correct">
-      <s xml:id="s1" set="folia-correct">
+    <p xml:id="p1">
+      <s xml:id="s1">
         <lang class="nld"/>
         <correction xml:id="s1.correction.1">
           <new>
@@ -86,7 +82,7 @@
             </w>
           </new>
           <original auth="no">
-            <w xml:id="w1" set="folia-correct">
+            <w xml:id="w1">
               <t>Dit</t>
             </w>
           </original>
@@ -109,7 +105,7 @@
             </w>
           </new>
           <original auth="no">
-            <w xml:id="w2" set="folia-correct">
+            <w xml:id="w2">
               <t>is</t>
             </w>
           </original>
@@ -132,7 +128,7 @@
             </w>
           </new>
           <original auth="no">
-            <w xml:id="w3" set="folia-correct">
+            <w xml:id="w3">
               <t>een</t>
             </w>
           </original>
@@ -167,14 +163,14 @@
             </w>
           </new>
           <original auth="no">
-            <w xml:id="w4" set="folia-correct">
+            <w xml:id="w4">
               <t>test!</t>
             </w>
           </original>
         </correction>
       </s>
     </p>
-    <p xml:id="p2" set="folia-correct">
+    <p xml:id="p2">
       <correction xml:id="p2.correction.1">
         <new>
           <w xml:id="p2.w1.tokenized.1" class="WORD" set="tokconfig-nld">
@@ -195,7 +191,7 @@
           </w>
         </new>
         <original auth="no">
-          <w xml:id="p2.w1" set="folia-correct">
+          <w xml:id="p2.w1">
             <t>test</t>
           </w>
         </original>
@@ -227,7 +223,7 @@
           </w>
         </new>
         <original auth="no">
-          <w xml:id="p2.w2" set="folia-correct">
+          <w xml:id="p2.w2">
             <t>2;</t>
           </w>
         </original>
@@ -248,7 +244,7 @@
           </w>
         </new>
         <original auth="no">
-          <w xml:id="p2.w3" set="folia-correct">
+          <w xml:id="p2.w3">
             <t>met</t>
           </w>
         </original>
@@ -271,7 +267,7 @@
           </w>
         </new>
         <original auth="no">
-          <w xml:id="p2.w4" set="folia-correct">
+          <w xml:id="p2.w4">
             <t>een</t>
           </w>
         </original>
@@ -306,7 +302,7 @@
           </w>
         </new>
         <original auth="no">
-          <w xml:id="p2.w5" set="folia-correct">
+          <w xml:id="p2.w5">
             <t>datum:</t>
           </w>
         </original>
@@ -337,7 +333,7 @@
           </w>
         </new>
         <original auth="no">
-          <w xml:id="p2.w6" set="folia-correct">
+          <w xml:id="p2.w6">
             <t>04-02-1954!</t>
           </w>
         </original>
@@ -358,19 +354,15 @@
     <annotations>
       <lang-annotation set="iso"/>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
-      <token-annotation set="folia-correct"/>
-      <sentence-annotation set="folia-correct"/>
-      <paragraph-annotation set="folia-correct"/>
-      <correction-annotation set="folia-correct"/>
+      <token-annotation/>
+      <sentence-annotation/>
+      <paragraph-annotation/>
+      <correction-annotation set="folia-correct">
+        <annotator processor="FoLiA-correct.1"/>
+      </correction-annotation>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
         <annotator processor="ucto.1"/>
       </token-annotation>
-      <paragraph-annotation>
-        <annotator processor="ucto.1"/>
-      </paragraph-annotation>
-      <sentence-annotation>
-        <annotator processor="ucto.1"/>
-      </sentence-annotation>
       <quote-annotation>
         <annotator processor="ucto.1"/>
       </quote-annotation>
@@ -383,28 +375,34 @@
       <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
         <annotator processor="mbma.1"/>
       </morphological-annotation>
+      <correction-annotation set="tokconfig-nld">
+        <annotator processor="ucto.1"/>
+      </correction-annotation>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2020-01-13T17:43:38" command="frog --skip=mpcn --correctwords -x folia-correct-corrected.xml -X folia-corrected-3.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+      <processor xml:id="FoLiA-correct.1" begindatetime="2020-01-06T12:08:30" command="FoLiA-correct --punct=punct.punct --unk=unk.unk --rank=rank.ranked --clear --inputclass=Test --ngram=3 -v  -v " folia_version="2.2.1" host="bonus" name="FoLiA-correct" user="sloot" version="0.14">
+        <processor xml:id="FoLiA-correct.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+      </processor>
+      <processor xml:id="frog.1" begindatetime="2020-01-15T12:00:27" command="frog --skip=mpcn --correctwords -x folia-correct-corrected.xml -X folia-corrected-3.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
         <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
-        <processor xml:id="ucto.1" begindatetime="2020-01-13T17:43:38" name="ucto" version="0.21">
+        <processor xml:id="ucto.1" begindatetime="2020-01-15T12:00:27" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2020-01-13T17:43:38" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2020-01-13T17:43:38" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2020-01-13T17:43:38" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-01-15T12:00:27" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-01-15T12:00:27" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-01-15T12:00:27" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
   </metadata>
   <text xml:id="text">
-    <p xml:id="p1" set="folia-correct">
-      <s xml:id="s1" set="folia-correct">
+    <p xml:id="p1">
+      <s xml:id="s1">
         <lang class="nld"/>
-        <correction xml:id="s1.correction.1">
+        <correction xml:id="s1.correction.1" set="tokconfig-nld">
           <new>
             <w xml:id="w1.tokenized.1" class="WORD" set="tokconfig-nld">
               <t>Dit</t>
@@ -425,12 +423,12 @@
             </w>
           </new>
           <original auth="no">
-            <w xml:id="w1" set="folia-correct">
+            <w xml:id="w1">
               <t>Dit</t>
             </w>
           </original>
         </correction>
-        <correction xml:id="s1.correction.2">
+        <correction xml:id="s1.correction.2" set="tokconfig-nld">
           <new>
             <w xml:id="w2.tokenized.1" class="WORD" set="tokconfig-nld">
               <t>is</t>
@@ -448,12 +446,12 @@
             </w>
           </new>
           <original auth="no">
-            <w xml:id="w2" set="folia-correct">
+            <w xml:id="w2">
               <t>is</t>
             </w>
           </original>
         </correction>
-        <correction xml:id="s1.correction.3">
+        <correction xml:id="s1.correction.3" set="tokconfig-nld">
           <new>
             <w xml:id="w3.cor.tokenized.1" class="WORD" set="tokconfig-nld" space="no">
               <t>één</t>
@@ -483,21 +481,21 @@
             </w>
           </new>
           <original auth="no">
-            <correction xml:id="cor1">
-              <new>
-                <w xml:id="w3.cor" set="folia-correct">
+            <correction xml:id="cor1" set="folia-correct">
+              <new set="folia-correct">
+                <w xml:id="w3.cor">
                   <t>één.</t>
                 </w>
               </new>
-              <original auth="no">
-                <w xml:id="w3" set="folia-correct">
+              <original auth="no" set="folia-correct">
+                <w xml:id="w3">
                   <t>een.</t>
                 </w>
               </original>
             </correction>
           </original>
         </correction>
-        <correction xml:id="s1.correction.4">
+        <correction xml:id="s1.correction.4" set="tokconfig-nld">
           <new>
             <w xml:id="w4.tokenized.1" class="WORD" set="tokconfig-nld" space="no">
               <t>test</t>
@@ -527,7 +525,7 @@
             </w>
           </new>
           <original auth="no">
-            <w xml:id="w4" set="folia-correct">
+            <w xml:id="w4">
               <t>test.</t>
             </w>
           </original>
