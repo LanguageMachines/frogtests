@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642" generator="libfolia-v2.4" version="2.1.0">
+  <metadata type="native">
+    <annotations>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <paragraph-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/paragraph"/>
+      <division-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/division"/>
+      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation set="tokconfig-nld"/>
+      <sentence-annotation/>
+      <token-annotation set="passthru">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
+        <annotator processor="IOB.1"/>
+      </chunking-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <annotator processor="NER.1"/>
+      </entity-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+        <annotator processor="mwu.1"/>
+      </entity-annotation>
+      <dependency-annotation set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl">
+        <annotator processor="dep-parser.1"/>
+      </dependency-annotation>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2020-02-03T15:19:53" command="frog --skip=t -o issue71_d_1.out -X issue71_d_1_out.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-03T15:19:53" name="ucto" version="0.21"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-03T15:19:53" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-03T15:19:53" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-03T15:19:53" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2020-02-03T15:19:53" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2020-02-03T15:19:53" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2020-02-03T15:19:53" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2020-02-03T15:19:53" name="dep-parser" version="1.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
+  </metadata>
+  <text xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.TEI.1">
+    <div>
+      <p xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6" class="p">
+        <t>1893</t>
+        <lang class="UNKNOWN"/>
+        <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1">
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="passthru">
+            <t>1893</t>
+            <pos class="TW(hoofd,vrij)" confidence="0.992711" head="TW">
+              <feat class="hoofd" subset="numtype"/>
+              <feat class="vrij" subset="positie"/>
+            </pos>
+            <lemma class="1893"/>
+            <morphology>
+              <morpheme>
+                <t>1893</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.chunking.1">
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" t="1893"/>
+            </chunk>
+          </chunking>
+          <dependencies xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.dependencies.1"/>
+        </s>
+      </p>
+    </div>
+  </text>
+</FoLiA>

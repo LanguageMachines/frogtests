@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642" generator="libfolia-v2.4" version="2.1.0">
+  <metadata type="native">
+    <annotations>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <paragraph-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/paragraph"/>
+      <division-annotation set="http://rdf.ivdnt.org/nederlab/folia/sets/division"/>
+      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl"/>
+      <sentence-annotation/>
+      <token-annotation set="passthru">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
+        <annotator processor="IOB.1"/>
+      </chunking-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <annotator processor="NER.1"/>
+      </entity-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+        <annotator processor="mwu.1"/>
+      </entity-annotation>
+      <dependency-annotation set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl">
+        <annotator processor="dep-parser.1"/>
+      </dependency-annotation>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2020-02-03T15:06:38" command="frog --skip=t -o issue71_b_1.out -X issue71_b_1_out.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-03T15:06:38" name="ucto" version="0.21"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-03T15:06:38" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-03T15:06:38" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-03T15:06:38" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2020-02-03T15:06:38" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2020-02-03T15:06:38" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2020-02-03T15:06:38" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2020-02-03T15:06:38" name="dep-parser" version="1.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
+  </metadata>
+  <text xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.TEI.1">
+    <div>
+      <p xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5" class="p">
+        <t>Baarn, 16 Dec.</t>
+        <lang class="nld"/>
+        <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1">
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" class="WORD" datetime="2018-06-19T11:53:23" set="tokconfig-nld" space="no">
+            <t>Baarn</t>
+            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="Baarn"/>
+            <morphology>
+              <morpheme>
+                <t>Baarn</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.2" class="PUNCTUATION" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
+            <t>,</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class=","/>
+            <morphology>
+              <morpheme>
+                <t>,</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" class="NUMBER" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
+            <t>16</t>
+            <pos class="TW(hoofd,vrij)" confidence="0.794118" head="TW">
+              <feat class="hoofd" subset="numtype"/>
+              <feat class="vrij" subset="positie"/>
+            </pos>
+            <lemma class="16"/>
+            <morphology>
+              <morpheme>
+                <t>16</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" class="WORD" datetime="2018-06-19T11:53:23" set="tokconfig-nld" space="no">
+            <t>Dec</t>
+            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="Dec"/>
+            <morphology>
+              <morpheme>
+                <t>Dec</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.5" class="PUNCTUATION" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
+            <t>.</t>
+            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <lemma class="."/>
+            <morphology>
+              <morpheme>
+                <t>.</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <entities xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.entities.1">
+            <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.entities.1.entity.1" class="loc" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+            </entity>
+            <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.entities.1.entity.2" class="per" confidence="0.631780" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+            </entity>
+          </entities>
+          <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1">
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+            </chunk>
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1.chunk.2" class="NP" confidence="1.000000">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" t="16"/>
+            </chunk>
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.chunking.1.chunk.3" class="NP" confidence="0.610528">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+            </chunk>
+          </chunking>
+          <dependencies xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1">
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.1" class="punct">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.2" t=","/>
+              </dep>
+            </dependency>
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.2" class="det">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" t="16"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.3" class="mod">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" t="Baarn"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.dependencies.1.dependency.4" class="punct">
+              <hd>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" t="Dec"/>
+              </hd>
+              <dep>
+                <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.5" t="."/>
+              </dep>
+            </dependency>
+          </dependencies>
+        </s>
+      </p>
+      <p xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6" class="p">
+        <t>1893</t>
+        <lang class="UNKNOWN"/>
+        <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1">
+          <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="passthru">
+            <t>1893</t>
+            <pos class="TW(hoofd,vrij)" confidence="0.992711" head="TW">
+              <feat class="hoofd" subset="numtype"/>
+              <feat class="vrij" subset="positie"/>
+            </pos>
+            <lemma class="1893"/>
+            <morphology>
+              <morpheme>
+                <t>1893</t>
+              </morpheme>
+            </morphology>
+          </w>
+          <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.chunking.1">
+            <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
+              <wref id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" t="1893"/>
+            </chunk>
+          </chunking>
+          <dependencies xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.dependencies.1"/>
+        </s>
+      </p>
+    </div>
+  </text>
+</FoLiA>
