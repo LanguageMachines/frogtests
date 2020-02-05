@@ -31,4 +31,4 @@ $foliadiff issue71_e_1_out.xml issue71_e_1_out.ok.xml >> testissue71.out
 
 $comm issue71/issue71_e.xml -o issue71_e_2.out -X issue71_e_2_out.xml
 cat issue71_e_2.out >> testissue71.out
-$foliadiff issue71_e_2_out.xml issue71_e_2.out.ok.xml >> testissue71.out
+$foliadiff issue71_e_2_out.xml issue71_e_2_out.ok.xml >> testissue71.out
