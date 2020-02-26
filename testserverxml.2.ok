@@ -204,7 +204,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD">
             <t>van</t>
-            <pos class="VZ(init)" confidence="0.959310" head="VZ">
+            <pos class="VZ(init)" confidence="0.95931" head="VZ">
               <feat class="init" subset="vztype"/>
             </pos>
             <morphology>
@@ -216,7 +216,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>FoLia</t>
-            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <morphology>
@@ -228,7 +228,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" space="no">
             <t>input</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.500000" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.5" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -244,7 +244,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="PUNCTUATION">
             <t>?</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <morphology>
               <morpheme>
                 <t>?</t>
@@ -258,20 +258,20 @@ READY
             </entity>
           </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="een"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="test"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="PP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="PP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="van"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="FoLia"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="input"/>
             </chunk>
@@ -417,7 +417,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD">
             <t>andere</t>
-            <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.910340" head="ADJ">
+            <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.91034" head="ADJ">
               <feat class="prenom" subset="positie"/>
               <feat class="basis" subset="graad"/>
               <feat class="met-e" subset="buiging"/>
@@ -451,7 +451,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD">
             <t>van</t>
-            <pos class="VZ(init)" confidence="0.959310" head="VZ">
+            <pos class="VZ(init)" confidence="0.95931" head="VZ">
               <feat class="init" subset="vztype"/>
             </pos>
             <morphology>
@@ -463,7 +463,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD">
             <t>FoLia</t>
-            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <morphology>
@@ -475,7 +475,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no">
             <t>input</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.500000" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.5" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -491,7 +491,7 @@ READY
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION">
             <t>?</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <morphology>
               <morpheme>
                 <t>?</t>
@@ -505,21 +505,21 @@ READY
             </entity>
           </entities>
           <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="een"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="andere"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="test"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="PP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="PP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="van"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1.000000">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="FoLia"/>
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="input"/>
             </chunk>

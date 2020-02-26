@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v2.3" version="1.4.987">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v2.4" version="1.4.987">
   <metadata type="native">
     <annotations>
       <string-annotation set="alto"/>
@@ -28,16 +28,16 @@
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-08-07T14:42:07" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.2.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.2.0" name="libfolia" type="generator" version="2.3"/>
-        <processor xml:id="ucto.1" begindatetime="2019-08-07T14:42:07" name="ucto" version="0.19">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:49:16" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:49:16" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-08-07T14:42:07" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-08-07T14:42:07" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-08-07T14:42:07" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:49:16" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:49:16" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:49:16" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -81,7 +81,7 @@
         </w>
         <w xml:id="p2.s.1.w.3" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET"/>
+          <pos class="LET()" confidence="1.0" head="LET"/>
           <lemma class="."/>
           <morphology>
             <morpheme>
@@ -97,14 +97,14 @@
   </text>
 </FoLiA>
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="id" generator="libfolia-v2.3" version="1.4.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="id" generator="libfolia-v2.4" version="1.4.0">
   <metadata type="native">
     <annotations/>
   </metadata>
   <text xml:id="text"/>
 </FoLiA>
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.3" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.4" version="0.8">
   <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" set="div"/>
@@ -132,16 +132,16 @@
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-08-07T14:42:07" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.2.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.2.0" name="libfolia" type="generator" version="2.3"/>
-        <processor xml:id="ucto.1" begindatetime="2019-08-07T14:42:07" name="ucto" version="0.19">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:49:16" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:49:16" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-08-07T14:42:07" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-08-07T14:42:07" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-08-07T14:42:07" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:49:16" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:49:16" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:49:16" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -199,7 +199,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" space="no">
             <t>ligatuur</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -215,7 +215,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="PUNCTUATION">
             <t>:</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class=":"/>
             <morphology>
               <morpheme>
@@ -225,7 +225,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD" space="no">
             <t>æ</t>
-            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
+            <pos class="SPEC(symb)" confidence="1.0" head="SPEC">
               <feat class="symb" subset="spectype"/>
             </pos>
             <lemma class="æ"/>
@@ -237,7 +237,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="PUNCTUATION">
             <t>.</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class="."/>
             <morphology>
               <morpheme>
@@ -281,7 +281,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD" space="no">
             <t>datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998230" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -297,7 +297,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="PUNCTUATION">
             <t>:</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class=":"/>
             <morphology>
               <morpheme>
@@ -307,7 +307,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="DATE">
             <t>28-11-2011</t>
-            <pos class="SPEC(symb)" confidence="1.000000" head="SPEC">
+            <pos class="SPEC(symb)" confidence="1.0" head="SPEC">
               <feat class="symb" subset="spectype"/>
             </pos>
             <lemma class="28-11-2011"/>
@@ -333,7 +333,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="PUNCTUATION">
             <t>?</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class="?"/>
             <morphology>
               <morpheme>

@@ -7,7 +7,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="bons" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="bons" generator="libfolia-v2.4" version="2.2.1">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -38,16 +38,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:33:00" command="frog --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:33:00" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:44:45" command="frog --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:44:45" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:33:00" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:33:00" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:33:00" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:44:45" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:44:45" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:44:45" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -193,7 +193,7 @@
         </w>
         <w xml:id="bons.p.1.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -405,7 +405,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="torture" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="torture" generator="libfolia-v2.4" version="2.2.1">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -436,16 +436,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:33:02" command="frog --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:33:02" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:44:47" command="frog --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:44:47" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:33:02" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:33:02" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:33:02" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:44:47" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:44:47" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:44:47" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -506,7 +506,7 @@
         </w>
         <w xml:id="torture.p.1.s.1.w.3" class="WORD">
           <t>abituriënten</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -561,7 +561,7 @@
         </w>
         <w xml:id="torture.p.1.s.1.w.4" class="WORD">
           <t>bakkeleien</t>
-          <pos class="WW(pv,tgw,mv)" confidence="0.900000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,tgw,mv)" confidence="0.9" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -627,7 +627,7 @@
         </w>
         <w xml:id="torture.p.1.s.1.w.7" class="WORD" space="no">
           <t>aspiratieniveau</t>
-          <pos class="N(soort,ev,basis,onz,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,onz,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -675,7 +675,7 @@
         </w>
         <w xml:id="torture.p.1.s.1.w.8" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -760,7 +760,7 @@
         </w>
         <w xml:id="torture.p.2.s.1.w.4" class="WORD">
           <t>bacteriënvrees</t>
-          <pos class="N(soort,mv,basis)" confidence="0.646080" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.64608" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -889,7 +889,7 @@
         </w>
         <w xml:id="torture.p.2.s.1.w.8" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -926,7 +926,7 @@
         </w>
         <w xml:id="torture.p.3.s.1.w.2" class="WORD">
           <t>bedieningsmachinisten</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -1062,7 +1062,7 @@
         </w>
         <w xml:id="torture.p.3.s.1.w.6" class="WORD" space="no">
           <t>bedieningspanelen</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -1123,7 +1123,7 @@
         </w>
         <w xml:id="torture.p.3.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -1293,7 +1293,7 @@
         </w>
         <w xml:id="torture.p.4.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -1389,7 +1389,7 @@
         </w>
         <w xml:id="torture.p.5.s.1.w.4" class="WORD">
           <t>gebruiken</t>
-          <pos class="WW(inf,vrij,zonder)" confidence="0.782340" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(inf,vrij,zonder)" confidence="0.78234" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="inf" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -1405,7 +1405,7 @@
         </w>
         <w xml:id="torture.p.5.s.1.w.5" class="WORD" space="no">
           <t>catechumenenolie</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -1449,7 +1449,7 @@
         </w>
         <w xml:id="torture.p.5.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -1782,7 +1782,7 @@
         </w>
         <w xml:id="torture.p.6.s.1.w.10" class="WORD" space="no">
           <t>toe</t>
-          <pos class="VZ(fin)" confidence="0.998680" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(fin)" confidence="0.99868" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="fin" subset="vztype"/>
           </pos>
           <lemma class="toe"/>
@@ -1804,7 +1804,7 @@
         </w>
         <w xml:id="torture.p.6.s.1.w.11" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -1841,7 +1841,7 @@
         </w>
         <w xml:id="torture.p.7.s.1.w.2" class="WORD">
           <t>differentiaalquotiënten</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -1994,7 +1994,7 @@
         </w>
         <w xml:id="torture.p.7.s.1.w.6" class="WORD">
           <t>met</t>
-          <pos class="VZ(init)" confidence="0.999480" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.99948" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="met"/>
@@ -2016,7 +2016,7 @@
         </w>
         <w xml:id="torture.p.7.s.1.w.7" class="WORD">
           <t>evangeliënharmonieën</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2117,7 +2117,7 @@
         </w>
         <w xml:id="torture.p.7.s.1.w.10" class="WORD">
           <t>zeloten</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2218,7 +2218,7 @@
         </w>
         <w xml:id="torture.p.7.s.1.w.14" class="WORD" space="no">
           <t>herendienst</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2271,7 +2271,7 @@
         </w>
         <w xml:id="torture.p.7.s.1.w.15" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -2308,7 +2308,7 @@
         </w>
         <w xml:id="torture.p.8.s.1.w.2" class="WORD">
           <t>kandidatentoernooien</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2400,7 +2400,7 @@
         </w>
         <w xml:id="torture.p.8.s.1.w.5" class="WORD" space="no">
           <t>keiengroeven</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2436,7 +2436,7 @@
         </w>
         <w xml:id="torture.p.8.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -2580,7 +2580,7 @@
         </w>
         <w xml:id="torture.p.9.s.1.w.6" class="WORD" space="no">
           <t>leliënbed</t>
-          <pos class="N(soort,ev,basis,onz,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,onz,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2624,7 +2624,7 @@
         </w>
         <w xml:id="torture.p.9.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -2640,7 +2640,7 @@
       <s xml:id="torture.p.10.s.1">
         <w xml:id="torture.p.10.s.1.w.1" class="WORD">
           <t>Zenuwpatiënten</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2707,7 +2707,7 @@
         </w>
         <w xml:id="torture.p.10.s.1.w.3" class="WORD">
           <t>in</t>
-          <pos class="VZ(init)" confidence="0.998790" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.99879" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="in"/>
@@ -2801,7 +2801,7 @@
         </w>
         <w xml:id="torture.p.10.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -2817,7 +2817,7 @@
       <s xml:id="torture.p.11.s.1">
         <w xml:id="torture.p.11.s.1.w.1" class="WORD">
           <t>Ziekenfondspatiënten</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2976,7 +2976,7 @@
         </w>
         <w xml:id="torture.p.11.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -3043,7 +3043,7 @@
         </w>
         <w xml:id="torture.p.12.s.1.w.3" class="WORD" space="no">
           <t>ziekenhuisvoorziening</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -3104,7 +3104,7 @@
         </w>
         <w xml:id="torture.p.12.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -3226,7 +3226,7 @@
         </w>
         <w xml:id="torture.p.13.s.1.w.5" class="WORD">
           <t>pagaaiende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.768520" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.76852" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -3256,7 +3256,7 @@
         </w>
         <w xml:id="torture.p.13.s.1.w.6" class="WORD">
           <t>patiënten</t>
-          <pos class="N(soort,mv,basis)" confidence="0.998020" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.99802" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -3284,7 +3284,7 @@
         </w>
         <w xml:id="torture.p.13.s.1.w.7" class="WORD" space="no">
           <t>pierenwaaiende</t>
-          <pos class="WW(pv,verl,ev)" confidence="1.000000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,verl,ev)" confidence="1.0" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="verl" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
@@ -3323,7 +3323,7 @@
         </w>
         <w xml:id="torture.p.13.s.1.w.8" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -3437,7 +3437,7 @@
         </w>
         <w xml:id="torture.p.14.s.1.w.5" class="PUNCTUATION">
           <t>?</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="?"/>
           <morphology>
             <morpheme class="stem">
@@ -3474,7 +3474,7 @@
         </w>
         <w xml:id="torture.p.15.s.1.w.2" class="WORD">
           <t>psychohygiënische</t>
-          <pos class="ADJ(prenom,basis,met-e,stan)" confidence="1.000000" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(prenom,basis,met-e,stan)" confidence="1.0" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="prenom" subset="positie"/>
             <feat class="basis" subset="graad"/>
             <feat class="met-e" subset="buiging"/>
@@ -3514,7 +3514,7 @@
         </w>
         <w xml:id="torture.p.15.s.1.w.3" class="WORD" space="no">
           <t>regeringsdienst</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -3576,7 +3576,7 @@
         </w>
         <w xml:id="torture.p.15.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -3662,7 +3662,7 @@
         </w>
         <w xml:id="torture.p.16.s.1.w.3" class="WORD">
           <t>een</t>
-          <pos class="LID(onbep,stan,agr)" confidence="0.999560" head="LID" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="LID(onbep,stan,agr)" confidence="0.99956" head="LID" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="onbep" subset="lwtype"/>
             <feat class="stan" subset="naamval"/>
             <feat class="agr" subset="npagr"/>
@@ -3774,7 +3774,7 @@
         </w>
         <w xml:id="torture.p.16.s.1.w.7" class="WORD">
           <t>al</t>
-          <pos class="BW()" confidence="0.903830" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="BW()" confidence="0.90383" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="al"/>
           <morphology>
             <morpheme class="complex">
@@ -3842,7 +3842,7 @@
         </w>
         <w xml:id="torture.p.16.s.1.w.10" class="WORD">
           <t>skiënde</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.524140" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.52414" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -3872,7 +3872,7 @@
         </w>
         <w xml:id="torture.p.16.s.1.w.11" class="WORD" space="no">
           <t>schaliëndekker</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -3917,7 +3917,7 @@
         </w>
         <w xml:id="torture.p.16.s.1.w.12" class="PUNCTUATION">
           <t>,</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class=","/>
           <morphology>
             <morpheme class="stem">
@@ -3974,7 +3974,7 @@
         </w>
         <w xml:id="torture.p.16.s.1.w.15" class="WORD" space="no">
           <t>verfoeienswaardig</t>
-          <pos class="ADJ(vrij,basis,zonder)" confidence="1.000000" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(vrij,basis,zonder)" confidence="1.0" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="vrij" subset="positie"/>
             <feat class="basis" subset="graad"/>
             <feat class="zonder" subset="buiging"/>
@@ -4021,7 +4021,7 @@
         </w>
         <w xml:id="torture.p.16.s.1.w.16" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -4150,7 +4150,7 @@
         </w>
         <w xml:id="torture.p.17.s.1.w.6" class="WORD">
           <t>maliënkolders</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -4212,7 +4212,7 @@
         </w>
         <w xml:id="torture.p.17.s.1.w.8" class="WORD">
           <t>markeringsboeien</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -4298,7 +4298,7 @@
         </w>
         <w xml:id="torture.p.17.s.1.w.10" class="WORD">
           <t>we</t>
-          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.999170" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.99917" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pers" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="nomin" subset="naamval"/>
@@ -4322,7 +4322,7 @@
         </w>
         <w xml:id="torture.p.17.s.1.w.11" class="WORD">
           <t>milieuhygiënisch</t>
-          <pos class="ADJ(vrij,basis,zonder)" confidence="1.000000" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(vrij,basis,zonder)" confidence="1.0" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="vrij" subset="positie"/>
             <feat class="basis" subset="graad"/>
             <feat class="zonder" subset="buiging"/>
@@ -4425,7 +4425,7 @@
         </w>
         <w xml:id="torture.p.17.s.1.w.15" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -4579,7 +4579,7 @@
         </w>
         <w xml:id="torture.p.18.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -4668,7 +4668,7 @@
         </w>
         <w xml:id="torture.p.19.s.1.w.4" class="WORD">
           <t>met</t>
-          <pos class="VZ(init)" confidence="0.999820" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.99982" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="met"/>
@@ -4711,7 +4711,7 @@
         </w>
         <w xml:id="torture.p.19.s.1.w.6" class="WORD">
           <t>opruiende</t>
-          <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.875000" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.875" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="prenom" subset="positie"/>
             <feat class="basis" subset="graad"/>
             <feat class="met-e" subset="buiging"/>
@@ -4781,7 +4781,7 @@
         </w>
         <w xml:id="torture.p.19.s.1.w.8" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -4891,7 +4891,7 @@
         </w>
         <w xml:id="torture.p.20.s.1.w.5" class="WORD">
           <t>we</t>
-          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.999170" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.99917" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pers" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="nomin" subset="naamval"/>
@@ -5032,7 +5032,7 @@
         </w>
         <w xml:id="torture.p.20.s.1.w.10" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -5048,7 +5048,7 @@
       <s xml:id="torture.p.21.s.1">
         <w xml:id="torture.p.21.s.1.w.1" class="WORD">
           <t>Dat</t>
-          <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.868670" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.86867" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="aanw" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="stan" subset="naamval"/>
@@ -5093,7 +5093,7 @@
         </w>
         <w xml:id="torture.p.21.s.1.w.3" class="WORD">
           <t>we</t>
-          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.999170" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.99917" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pers" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="nomin" subset="naamval"/>
@@ -5162,7 +5162,7 @@
         </w>
         <w xml:id="torture.p.21.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -5178,7 +5178,7 @@
       <s xml:id="torture.p.22.s.1">
         <w xml:id="torture.p.22.s.1.w.1" class="WORD">
           <t>Jan</t>
-          <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
           <lemma class="Jan"/>
@@ -5211,7 +5211,7 @@
         </w>
         <w xml:id="torture.p.22.s.1.w.3" class="WORD">
           <t>Piet</t>
-          <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
           <lemma class="Piet"/>
@@ -5300,7 +5300,7 @@
         </w>
         <w xml:id="torture.p.22.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -5565,7 +5565,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="tortuur" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="tortuur" generator="libfolia-v2.4" version="2.2.1">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -5596,16 +5596,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:33:03" command="frog --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:33:03" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:44:48" command="frog --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:44:48" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:33:03" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:33:03" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:33:03" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:44:48" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:44:48" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:44:48" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -5668,7 +5668,7 @@
         </w>
         <w xml:id="tortuur.p.1.s.1.w.3" class="WORD">
           <t>academiën</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -5758,7 +5758,7 @@
         </w>
         <w xml:id="tortuur.p.1.s.1.w.6" class="WORD">
           <t>abbreviëren</t>
-          <pos class="WW(inf,nom,zonder,zonder-n)" confidence="1.000000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(inf,nom,zonder,zonder-n)" confidence="1.0" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="inf" subset="wvorm"/>
             <feat class="nom" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -5875,7 +5875,7 @@
         </w>
         <w xml:id="tortuur.p.1.s.1.w.11" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -6006,7 +6006,7 @@
         </w>
         <w xml:id="tortuur.p.2.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -6113,7 +6113,7 @@
         </w>
         <w xml:id="tortuur.p.3.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -6148,7 +6148,7 @@
         </w>
         <w xml:id="tortuur.p.4.s.1.w.2" class="WORD">
           <t>wij</t>
-          <pos class="VNW(pers,pron,nomin,vol,1,mv)" confidence="0.998490" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(pers,pron,nomin,vol,1,mv)" confidence="0.99849" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pers" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="nomin" subset="naamval"/>
@@ -6172,7 +6172,7 @@
         </w>
         <w xml:id="tortuur.p.4.s.1.w.3" class="WORD">
           <t>ambiëren</t>
-          <pos class="WW(inf,vrij,zonder)" confidence="0.875000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(inf,vrij,zonder)" confidence="0.875" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="inf" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -6269,7 +6269,7 @@
         </w>
         <w xml:id="tortuur.p.4.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -6285,7 +6285,7 @@
       <s xml:id="tortuur.p.5.s.1">
         <w xml:id="tortuur.p.5.s.1.w.1" class="WORD">
           <t>Deze</t>
-          <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.806780" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.80678" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="aanw" subset="vwtype"/>
             <feat class="det" subset="pdtype"/>
             <feat class="stan" subset="naamval"/>
@@ -6334,7 +6334,7 @@
         </w>
         <w xml:id="tortuur.p.5.s.1.w.3" class="WORD">
           <t>hebben</t>
-          <pos class="WW(pv,tgw,mv)" confidence="0.984000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,tgw,mv)" confidence="0.984" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -6381,7 +6381,7 @@
         </w>
         <w xml:id="tortuur.p.5.s.1.w.5" class="WORD">
           <t>arteriële</t>
-          <pos class="ADJ(prenom,basis,met-e,stan)" confidence="1.000000" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(prenom,basis,met-e,stan)" confidence="1.0" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="prenom" subset="positie"/>
             <feat class="basis" subset="graad"/>
             <feat class="met-e" subset="buiging"/>
@@ -6452,7 +6452,7 @@
         </w>
         <w xml:id="tortuur.p.5.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -6599,7 +6599,7 @@
         </w>
         <w xml:id="tortuur.p.6.s.1.w.5" class="PUNCTUATION">
           <t>?</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="?"/>
           <morphology>
             <morpheme class="stem">
@@ -6660,7 +6660,7 @@
         </w>
         <w xml:id="tortuur.p.7.s.1.w.3" class="WORD">
           <t>we</t>
-          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.999170" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.99917" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pers" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="nomin" subset="naamval"/>
@@ -6719,7 +6719,7 @@
         </w>
         <w xml:id="tortuur.p.7.s.1.w.5" class="WORD">
           <t>in</t>
-          <pos class="VZ(init)" confidence="0.999350" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.99935" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="in"/>
@@ -6759,7 +6759,7 @@
         </w>
         <w xml:id="tortuur.p.7.s.1.w.7" class="WORD">
           <t>concipiërende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.910700" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.9107" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -6824,7 +6824,7 @@
         </w>
         <w xml:id="tortuur.p.7.s.1.w.9" class="PUNCTUATION">
           <t>?</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="?"/>
           <morphology>
             <morpheme class="stem">
@@ -6854,7 +6854,7 @@
         </w>
         <w xml:id="tortuur.p.8.s.1.w.2" class="WORD">
           <t>we</t>
-          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.999170" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.99917" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pers" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="nomin" subset="naamval"/>
@@ -6929,7 +6929,7 @@
         </w>
         <w xml:id="tortuur.p.8.s.1.w.5" class="WORD" space="no">
           <t>certifiëren</t>
-          <pos class="WW(inf,vrij,zonder)" confidence="1.000000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(inf,vrij,zonder)" confidence="1.0" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="inf" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -6954,7 +6954,7 @@
         </w>
         <w xml:id="tortuur.p.8.s.1.w.6" class="PUNCTUATION">
           <t>,</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class=","/>
           <morphology>
             <morpheme class="stem">
@@ -7011,7 +7011,7 @@
         </w>
         <w xml:id="tortuur.p.8.s.1.w.9" class="WORD">
           <t>het</t>
-          <pos class="VNW(pers,pron,stan,red,3,ev,onz)" confidence="1.000000" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(pers,pron,stan,red,3,ev,onz)" confidence="1.0" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pers" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="stan" subset="naamval"/>
@@ -7062,7 +7062,7 @@
         </w>
         <w xml:id="tortuur.p.8.s.1.w.11" class="PUNCTUATION">
           <t>?</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="?"/>
           <morphology>
             <morpheme class="stem">
@@ -7099,7 +7099,7 @@
         </w>
         <w xml:id="tortuur.p.9.s.1.w.2" class="WORD">
           <t>conciliën</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -7257,7 +7257,7 @@
         </w>
         <w xml:id="tortuur.p.9.s.1.w.9" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -7393,7 +7393,7 @@
         </w>
         <w xml:id="tortuur.p.10.s.1.w.6" class="WORD" space="no">
           <t>onderwerpen</t>
-          <pos class="N(soort,mv,basis)" confidence="0.996470" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.99647" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -7409,7 +7409,7 @@
         </w>
         <w xml:id="tortuur.p.10.s.1.w.7" class="PUNCTUATION">
           <t>!</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="!"/>
           <morphology>
             <morpheme class="stem">
@@ -7545,7 +7545,7 @@
         </w>
         <w xml:id="tortuur.p.11.s.1.w.6" class="WORD" space="no">
           <t>onderwerpen</t>
-          <pos class="N(soort,mv,basis)" confidence="0.996470" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.99647" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -7561,7 +7561,7 @@
         </w>
         <w xml:id="tortuur.p.11.s.1.w.7" class="PUNCTUATION">
           <t>!</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="!"/>
           <morphology>
             <morpheme class="stem">
@@ -7640,7 +7640,7 @@
         </w>
         <w xml:id="tortuur.p.12.s.1.w.4" class="WORD">
           <t>nog</t>
-          <pos class="BW()" confidence="0.999930" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="BW()" confidence="0.99993" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="nog"/>
           <morphology>
             <morpheme class="complex">
@@ -7782,7 +7782,7 @@
         </w>
         <w xml:id="tortuur.p.12.s.1.w.10" class="WORD">
           <t>van</t>
-          <pos class="VZ(init)" confidence="0.959310" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.95931" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="van"/>
@@ -7822,7 +7822,7 @@
         </w>
         <w xml:id="tortuur.p.12.s.1.w.12" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -7838,7 +7838,7 @@
       <s xml:id="tortuur.p.13.s.1">
         <w xml:id="tortuur.p.13.s.1.w.1" class="WORD">
           <t>Deze</t>
-          <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.806780" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.80678" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="aanw" subset="vwtype"/>
             <feat class="det" subset="pdtype"/>
             <feat class="stan" subset="naamval"/>
@@ -7862,7 +7862,7 @@
         </w>
         <w xml:id="tortuur.p.13.s.1.w.2" class="WORD">
           <t>zaken</t>
-          <pos class="N(soort,mv,basis)" confidence="0.998020" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.99802" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -7954,7 +7954,7 @@
         </w>
         <w xml:id="tortuur.p.13.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -7994,7 +7994,7 @@
         </w>
         <w xml:id="tortuur.p.14.s.1.w.2" class="WORD">
           <t>definiëren</t>
-          <pos class="WW(pv,tgw,mv)" confidence="1.000000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,tgw,mv)" confidence="1.0" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -8130,7 +8130,7 @@
         </w>
         <w xml:id="tortuur.p.14.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -8167,7 +8167,7 @@
         </w>
         <w xml:id="tortuur.p.15.s.1.w.2" class="WORD">
           <t>differentiëringsproces</t>
-          <pos class="N(soort,ev,basis,onz,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,onz,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -8301,7 +8301,7 @@
         </w>
         <w xml:id="tortuur.p.15.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -8367,7 +8367,7 @@
         </w>
         <w xml:id="tortuur.p.16.s.1.w.3" class="WORD">
           <t>discussiëren</t>
-          <pos class="WW(inf,vrij,zonder)" confidence="0.892100" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(inf,vrij,zonder)" confidence="0.8921" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="inf" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -8430,7 +8430,7 @@
         </w>
         <w xml:id="tortuur.p.16.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -8516,7 +8516,7 @@
         </w>
         <w xml:id="tortuur.p.17.s.1.w.4" class="WORD">
           <t>domiciliën</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -8587,7 +8587,7 @@
         </w>
         <w xml:id="tortuur.p.17.s.1.w.7" class="PUNCTUATION">
           <t>?</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="?"/>
           <morphology>
             <morpheme class="stem">
@@ -8729,7 +8729,7 @@
         </w>
         <w xml:id="tortuur.p.18.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -8829,7 +8829,7 @@
         </w>
         <w xml:id="tortuur.p.19.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -8954,7 +8954,7 @@
         </w>
         <w xml:id="tortuur.p.20.s.1.w.3" class="WORD">
           <t>expatriëren</t>
-          <pos class="WW(inf,vrij,zonder)" confidence="1.000000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(inf,vrij,zonder)" confidence="1.0" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="inf" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -8998,7 +8998,7 @@
         </w>
         <w xml:id="tortuur.p.20.s.1.w.5" class="WORD" space="no">
           <t>Zimbabwe</t>
-          <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
           <lemma class="Zimbabwe"/>
@@ -9012,7 +9012,7 @@
         </w>
         <w xml:id="tortuur.p.20.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -9079,7 +9079,7 @@
         </w>
         <w xml:id="tortuur.p.21.s.1.w.3" class="WORD" space="no">
           <t>baliekluivers</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -9120,7 +9120,7 @@
         </w>
         <w xml:id="tortuur.p.21.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -9287,7 +9287,7 @@
         </w>
         <w xml:id="tortuur.p.22.s.1.w.7" class="WORD">
           <t>medewerkers</t>
-          <pos class="N(soort,mv,basis)" confidence="0.998020" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.99802" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -9421,7 +9421,7 @@
         </w>
         <w xml:id="tortuur.p.22.s.1.w.9" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -9514,7 +9514,7 @@
         </w>
         <w xml:id="tortuur.p.23.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -9628,7 +9628,7 @@
         </w>
         <w xml:id="tortuur.p.24.s.1.w.5" class="WORD">
           <t>van</t>
-          <pos class="VZ(init)" confidence="0.959310" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.95931" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="van"/>
@@ -9650,7 +9650,7 @@
         </w>
         <w xml:id="tortuur.p.24.s.1.w.6" class="WORD" space="no">
           <t>ganglion</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.663000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.663" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -9676,7 +9676,7 @@
         </w>
         <w xml:id="tortuur.p.24.s.1.w.7" class="PUNCTUATION">
           <t>?</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="?"/>
           <morphology>
             <morpheme class="stem">
@@ -9692,7 +9692,7 @@
       <s xml:id="tortuur.p.25.s.1">
         <w xml:id="tortuur.p.25.s.1.w.1" class="WORD">
           <t>Jan</t>
-          <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
           <lemma class="Jan"/>
@@ -9834,7 +9834,7 @@
         </w>
         <w xml:id="tortuur.p.25.s.1.w.4" class="PUNCTUATION">
           <t>?</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="?"/>
           <morphology>
             <morpheme class="stem">
@@ -9920,7 +9920,7 @@
         </w>
         <w xml:id="tortuur.p.26.s.1.w.4" class="WORD" space="no">
           <t>geraakt</t>
-          <pos class="WW(vd,vrij,zonder)" confidence="0.800000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(vd,vrij,zonder)" confidence="0.8" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="vd" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -9972,7 +9972,7 @@
         </w>
         <w xml:id="tortuur.p.26.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -10070,7 +10070,7 @@
         </w>
         <w xml:id="tortuur.p.27.s.1.w.4" class="WORD">
           <t>aan</t>
-          <pos class="VZ(init)" confidence="0.999180" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.99918" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="aan"/>
@@ -10136,7 +10136,7 @@
         </w>
         <w xml:id="tortuur.p.27.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -10333,7 +10333,7 @@
         </w>
         <w xml:id="tortuur.p.28.s.1.w.8" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -10349,7 +10349,7 @@
       <s xml:id="tortuur.p.29.s.1">
         <w xml:id="tortuur.p.29.s.1.w.1" class="WORD">
           <t>Dit</t>
-          <pos class="VNW(aanw,det,stan,prenom,zonder,evon)" confidence="1.000000" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(aanw,det,stan,prenom,zonder,evon)" confidence="1.0" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="aanw" subset="vwtype"/>
             <feat class="det" subset="pdtype"/>
             <feat class="stan" subset="naamval"/>
@@ -10458,7 +10458,7 @@
         </w>
         <w xml:id="tortuur.p.29.s.1.w.5" class="WORD">
           <t>nog</t>
-          <pos class="BW()" confidence="0.999930" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="BW()" confidence="0.99993" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="nog"/>
           <morphology>
             <morpheme class="complex">
@@ -10475,7 +10475,7 @@
         </w>
         <w xml:id="tortuur.p.29.s.1.w.6" class="WORD">
           <t>surreëler</t>
-          <pos class="ADJ(vrij,comp,zonder)" confidence="1.000000" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(vrij,comp,zonder)" confidence="1.0" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="vrij" subset="positie"/>
             <feat class="comp" subset="graad"/>
             <feat class="zonder" subset="buiging"/>
@@ -10500,7 +10500,7 @@
         </w>
         <w xml:id="tortuur.p.29.s.1.w.7" class="WORD">
           <t>dan</t>
-          <pos class="BW()" confidence="0.600000" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="BW()" confidence="0.6" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="dan"/>
           <morphology>
             <morpheme class="complex">
@@ -10568,7 +10568,7 @@
         </w>
         <w xml:id="tortuur.p.29.s.1.w.9" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -10636,7 +10636,7 @@
         </w>
         <w xml:id="tortuur.p.30.s.1.w.3" class="WORD">
           <t>zijn</t>
-          <pos class="WW(pv,tgw,mv)" confidence="1.000000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,tgw,mv)" confidence="1.0" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -10786,7 +10786,7 @@
         </w>
         <w xml:id="tortuur.p.30.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -10886,7 +10886,7 @@
         </w>
         <w xml:id="tortuur.p.31.s.1.w.4" class="WORD">
           <t>in</t>
-          <pos class="VZ(init)" confidence="0.999350" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.99935" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="in"/>
@@ -10965,7 +10965,7 @@
         </w>
         <w xml:id="tortuur.p.31.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -11073,7 +11073,7 @@
         </w>
         <w xml:id="tortuur.p.32.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -11234,7 +11234,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="compounds" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="compounds" generator="libfolia-v2.4" version="2.2.1">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -11265,16 +11265,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:33:05" command="frog --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:33:05" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:44:50" command="frog --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:44:50" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:33:05" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:33:05" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:33:05" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:44:50" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:44:50" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:44:50" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -11344,7 +11344,7 @@
         </w>
         <w xml:id="compounds.p.1.s.1.w.3" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -11441,7 +11441,7 @@
         </w>
         <w xml:id="compounds.p.2.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -11588,7 +11588,7 @@
         </w>
         <w xml:id="compounds.p.3.s.1.w.5" class="PUNCTUATION">
           <t>?</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="?"/>
           <morphology>
             <morpheme class="stem">
@@ -11727,7 +11727,7 @@
         </w>
         <w xml:id="compounds.p.4.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -11790,7 +11790,7 @@
         </w>
         <w xml:id="compounds.p.5.s.1.w.3" class="WORD">
           <t>van</t>
-          <pos class="VZ(init)" confidence="0.959310" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.95931" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="van"/>
@@ -11845,7 +11845,7 @@
         </w>
         <w xml:id="compounds.p.5.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -11962,7 +11962,7 @@
         </w>
         <w xml:id="compounds.p.6.s.1.w.4" class="PUNCTUATION">
           <t>!</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="!"/>
           <morphology>
             <morpheme class="stem">
@@ -11978,7 +11978,7 @@
       <s xml:id="compounds.p.7.s.1">
         <w xml:id="compounds.p.7.s.1.w.1" class="WORD">
           <t>Jan</t>
-          <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
           <lemma class="Jan"/>
@@ -12063,7 +12063,7 @@
         </w>
         <w xml:id="compounds.p.7.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -12168,7 +12168,7 @@
         </w>
         <w xml:id="compounds.p.8.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -12305,7 +12305,7 @@
         </w>
         <w xml:id="compounds.p.9.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -12428,7 +12428,7 @@
         </w>
         <w xml:id="compounds.p.10.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -12444,7 +12444,7 @@
       <s xml:id="compounds.p.11.s.1">
         <w xml:id="compounds.p.11.s.1.w.1" class="WORD">
           <t>Jan</t>
-          <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
           <lemma class="Jan"/>
@@ -12547,7 +12547,7 @@
         </w>
         <w xml:id="compounds.p.11.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -12628,7 +12628,7 @@
         </w>
         <w xml:id="compounds.p.12.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -12692,7 +12692,7 @@
         </w>
         <w xml:id="compounds.p.13.s.1.w.3" class="WORD">
           <t>dat</t>
-          <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.984520" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.98452" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="aanw" subset="vwtype"/>
             <feat class="pron" subset="pdtype"/>
             <feat class="stan" subset="naamval"/>
@@ -12752,7 +12752,7 @@
         </w>
         <w xml:id="compounds.p.13.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -12834,7 +12834,7 @@
         </w>
         <w xml:id="compounds.p.14.s.1.w.4" class="PUNCTUATION">
           <t>!</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="!"/>
           <morphology>
             <morpheme class="stem">
@@ -12925,7 +12925,7 @@
         </w>
         <w xml:id="compounds.p.15.s.1.w.4" class="WORD-COMPOUND" space="no">
           <t>niet-roken</t>
-          <pos class="N(soort,ev,basis,onz,stan)" confidence="0.500000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,onz,stan)" confidence="0.5" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -12943,7 +12943,7 @@
         </w>
         <w xml:id="compounds.p.15.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -12983,7 +12983,7 @@
         </w>
         <w xml:id="compounds.p.16.s.1.w.2" class="WORD">
           <t>kom</t>
-          <pos class="WW(pv,tgw,ev)" confidence="0.850000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,tgw,ev)" confidence="0.85" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
@@ -13084,7 +13084,7 @@
         </w>
         <w xml:id="compounds.p.16.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -13229,7 +13229,7 @@
         </w>
         <w xml:id="compounds.p.17.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -13245,7 +13245,7 @@
       <s xml:id="compounds.p.18.s.1">
         <w xml:id="compounds.p.18.s.1.w.1" class="WORD">
           <t>Bovenop</t>
-          <pos class="BW()" confidence="0.800000" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="BW()" confidence="0.8" head="BW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="bovenop"/>
           <morphology>
             <morpheme class="stem">
@@ -13304,7 +13304,7 @@
         </w>
         <w xml:id="compounds.p.18.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -13427,7 +13427,7 @@
         </w>
         <w xml:id="compounds.p.19.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -13443,7 +13443,7 @@
       <s xml:id="compounds.p.20.s.1">
         <w xml:id="compounds.p.20.s.1.w.1" class="WORD">
           <t>Jan</t>
-          <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
           <lemma class="Jan"/>
@@ -13537,7 +13537,7 @@
         </w>
         <w xml:id="compounds.p.20.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -13678,7 +13678,7 @@
         </w>
         <w xml:id="compounds.p.21.s.1.w.5" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -13694,7 +13694,7 @@
       <s xml:id="compounds.p.22.s.1">
         <w xml:id="compounds.p.22.s.1.w.1" class="WORD">
           <t>Jan</t>
-          <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
           <lemma class="Jan"/>
@@ -13805,7 +13805,7 @@
         </w>
         <w xml:id="compounds.p.22.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -13840,7 +13840,7 @@
         </w>
         <w xml:id="compounds.p.23.s.1.w.2" class="WORD">
           <t>een</t>
-          <pos class="LID(onbep,stan,agr)" confidence="0.999560" head="LID" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="LID(onbep,stan,agr)" confidence="0.99956" head="LID" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="onbep" subset="lwtype"/>
             <feat class="stan" subset="naamval"/>
             <feat class="agr" subset="npagr"/>
@@ -13894,7 +13894,7 @@
         </w>
         <w xml:id="compounds.p.23.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -14035,7 +14035,7 @@
         </w>
         <w xml:id="compounds.p.24.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -14141,7 +14141,7 @@
         </w>
         <w xml:id="compounds.p.25.s.1.w.4" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -14163,7 +14163,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="mwu.txt" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="mwu.txt" generator="libfolia-v2.4" version="2.2.1">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -14206,20 +14206,20 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:33:08" command="frog -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:33:08" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:44:52" command="frog -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:44:52" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:33:08" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:33:08" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:33:08" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-07-11T15:33:08" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-07-11T15:33:08" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2019-07-11T15:33:08" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-07-11T15:33:08" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:44:52" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:44:52" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:44:52" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2020-02-26T12:44:52" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2020-02-26T12:44:52" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2020-02-26T12:44:52" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2020-02-26T12:44:52" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -14407,7 +14407,7 @@
         </w>
         <w xml:id="mwu.txt.p.1.s.1.w.7" class="WORD" space="no">
           <t>Kerstmis</t>
-          <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="deeleigen" subset="spectype"/>
           </pos>
           <lemma class="Kerstmis"/>
@@ -14421,7 +14421,7 @@
         </w>
         <w xml:id="mwu.txt.p.1.s.1.w.8" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -14432,19 +14432,19 @@
           </morphology>
         </w>
         <chunking xml:id="mwu.txt.p.1.s.1.chunking.1">
-          <chunk xml:id="mwu.txt.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.000000">
+          <chunk xml:id="mwu.txt.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.0">
             <wref id="mwu.txt.p.1.s.1.w.1" t="Het"/>
           </chunk>
-          <chunk xml:id="mwu.txt.p.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.000000">
+          <chunk xml:id="mwu.txt.p.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.0">
             <wref id="mwu.txt.p.1.s.1.w.2" t="gebeurde"/>
           </chunk>
-          <chunk xml:id="mwu.txt.p.1.s.1.chunking.1.chunk.3" class="PP" confidence="1.000000">
+          <chunk xml:id="mwu.txt.p.1.s.1.chunking.1.chunk.3" class="PP" confidence="1.0">
             <wref id="mwu.txt.p.1.s.1.w.3" t="aan"/>
             <wref id="mwu.txt.p.1.s.1.w.4" t="de"/>
             <wref id="mwu.txt.p.1.s.1.w.5" t="vooravond"/>
             <wref id="mwu.txt.p.1.s.1.w.6" t="van"/>
           </chunk>
-          <chunk xml:id="mwu.txt.p.1.s.1.chunking.1.chunk.4" class="NP" confidence="1.000000">
+          <chunk xml:id="mwu.txt.p.1.s.1.chunking.1.chunk.4" class="NP" confidence="1.0">
             <wref id="mwu.txt.p.1.s.1.w.7" t="Kerstmis"/>
           </chunk>
         </chunking>
@@ -14457,7 +14457,7 @@
           </entity>
         </entities>
         <entities xml:id="mwu.txt.p.1.s.1.entities.2">
-          <entity xml:id="mwu.txt.p.1.s.1.entities.2.entity.1" class="eve" confidence="1.000000" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+          <entity xml:id="mwu.txt.p.1.s.1.entities.2.entity.1" class="eve" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
             <wref id="mwu.txt.p.1.s.1.w.7" t="Kerstmis"/>
           </entity>
         </entities>
@@ -14563,7 +14563,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="fixtest" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="fixtest" generator="libfolia-v2.4" version="2.2.1">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -14594,16 +14594,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:33:10" command="frog --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:33:10" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:44:55" command="frog --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:44:55" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:33:10" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:33:10" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-07-11T15:33:10" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:44:55" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:44:55" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:44:55" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -14634,7 +14634,7 @@
         </w>
         <w xml:id="fixtest.p.1.s.1.w.2" class="WORD">
           <t>fabrieksschoorsteen</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -14774,7 +14774,7 @@
         </w>
         <w xml:id="fixtest.p.1.s.1.w.6" class="WORD" space="no">
           <t>annexatieplan</t>
-          <pos class="N(soort,ev,basis,onz,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,onz,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -14831,7 +14831,7 @@
         </w>
         <w xml:id="fixtest.p.1.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -14868,7 +14868,7 @@
         </w>
         <w xml:id="fixtest.p.2.s.1.w.2" class="WORD">
           <t>arrestatiegroepen</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -14924,7 +14924,7 @@
         </w>
         <w xml:id="fixtest.p.2.s.1.w.3" class="WORD">
           <t>lijden</t>
-          <pos class="WW(inf,vrij,zonder)" confidence="0.900000" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(inf,vrij,zonder)" confidence="0.9" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="inf" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -14949,7 +14949,7 @@
         </w>
         <w xml:id="fixtest.p.2.s.1.w.4" class="WORD">
           <t>aan</t>
-          <pos class="VZ(init)" confidence="0.983740" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="VZ(init)" confidence="0.98374" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="init" subset="vztype"/>
           </pos>
           <lemma class="aan"/>
@@ -15030,7 +15030,7 @@
         </w>
         <w xml:id="fixtest.p.2.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -15291,7 +15291,7 @@
         </w>
         <w xml:id="fixtest.p.3.s.1.w.8" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -15328,7 +15328,7 @@
         </w>
         <w xml:id="fixtest.p.4.s.1.w.2" class="WORD">
           <t>debiteurenadministratie</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -15503,7 +15503,7 @@
         </w>
         <w xml:id="fixtest.p.4.s.1.w.6" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -15540,7 +15540,7 @@
         </w>
         <w xml:id="fixtest.p.5.s.1.w.2" class="WORD">
           <t>automatiseringsadviseuse</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -15764,7 +15764,7 @@
         </w>
         <w xml:id="fixtest.p.5.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -15780,7 +15780,7 @@
       <s xml:id="fixtest.p.6.s.1">
         <w xml:id="fixtest.p.6.s.1.w.1" class="WORD">
           <t>Tabaksfermentatie</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -15889,7 +15889,7 @@
         </w>
         <w xml:id="fixtest.p.6.s.1.w.4" class="WORD">
           <t>kunstmanifestatie</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -15980,7 +15980,7 @@
         </w>
         <w xml:id="fixtest.p.6.s.1.w.7" class="WORD" space="no">
           <t>internaatssituatie</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -16051,7 +16051,7 @@
         </w>
         <w xml:id="fixtest.p.6.s.1.w.8" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">
@@ -16089,7 +16089,7 @@
         </w>
         <w xml:id="fixtest.p.7.s.1.w.2" class="WORD">
           <t>relativeringen</t>
-          <pos class="N(soort,mv,basis)" confidence="1.000000" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -16238,7 +16238,7 @@
         </w>
         <w xml:id="fixtest.p.7.s.1.w.7" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
             <morpheme class="stem">

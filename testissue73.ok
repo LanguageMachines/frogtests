@@ -62,7 +62,7 @@
 8	.	.	[.]	LET()	1.000000	O	O				
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311" generator="libfolia-v2.3" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311" generator="libfolia-v2.4" version="2.1.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -120,13 +120,13 @@
         <processor xml:id="proc.unspecified.878fa02e" name="unspecified"/>
         <processor xml:id="proc.ucto.9ae4f8b9" name="ucto"/>
       </processor>
-      <processor xml:id="frog.1" begindatetime="2019-08-20T13:03:58" command="frog --skip=tmp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.2.0" host="kokos" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.2.0" name="libfolia" type="generator" version="2.3"/>
-        <processor xml:id="tagger.1" begindatetime="2019-08-20T13:03:58" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-08-20T13:03:58" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-08-20T13:03:58" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-08-20T13:03:58" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-08-20T13:03:58" name="NER" version="2.2"/>
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:49:11" command="frog --skip=tmp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:49:11" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:49:11" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:49:11" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2020-02-26T12:49:11" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2020-02-26T12:49:11" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="authorLevel1">Verwey, Albert</meta>
@@ -294,7 +294,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.6" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>als</t>
-              <pos class="VG(onder)" confidence="0.800000" head="VG">
+              <pos class="VG(onder)" confidence="0.8" head="VG">
                 <feat class="onder" subset="conjtype"/>
               </pos>
               <lemma class="als"/>
@@ -306,7 +306,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.7" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>we</t>
-              <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.999170" head="VNW">
+              <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.99917" head="VNW">
                 <feat class="pers" subset="vwtype"/>
                 <feat class="pron" subset="pdtype"/>
                 <feat class="nomin" subset="naamval"/>
@@ -365,7 +365,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.11" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>Koo</t>
-              <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
                 <feat class="deeleigen" subset="spectype"/>
               </pos>
               <lemma class="Koo"/>
@@ -462,7 +462,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.18" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" space="no">
               <t>Maartnummer</t>
-              <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
                 <feat class="deeleigen" subset="spectype"/>
               </pos>
               <lemma class="Maartnummer"/>
@@ -474,7 +474,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.19" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -483,58 +483,58 @@
               </morphology>
             </w>
             <entities xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1">
-              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1.entity.1" class="per" confidence="1.000000">
+              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1.entity.1" class="per" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.10" t="de"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.11" t="Koo"/>
               </entity>
-              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1.entity.2" class="loc" confidence="1.000000">
+              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1.entity.2" class="loc" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.18" t="Maartnummer"/>
               </entity>
             </entities>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.1" class="SBAR" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.1" class="SBAR" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.1" t="Hoe"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.2" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.2" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.2" t="zou"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.3" t="je"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.4" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.4" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.4" t="'t"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.5" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.5" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.5" t="vinden"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.6" class="SBAR" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.6" class="SBAR" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.6" t="als"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.7" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.7" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.7" t="we"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.8" class="ADJP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.8" class="ADJP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.8" t="heel"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.9" t="gauw"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.9" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.9" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.10" t="de"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.11" t="Koo"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.10" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.10" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.12" t="vroegen"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.11" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.11" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.13" t="om"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.12" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.12" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.14" t="een"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.15" t="stuk"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.13" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.13" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.16" t="voor"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.14" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.14" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.17" t="het"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.18" t="Maartnummer"/>
               </chunk>
@@ -611,7 +611,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.5" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>,</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class=","/>
               <morphology>
                 <morpheme>
@@ -674,7 +674,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.10" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>wat</t>
-              <pos class="VNW(onbep,pron,stan,vol,3o,ev)" confidence="0.875000" head="VNW">
+              <pos class="VNW(onbep,pron,stan,vol,3o,ev)" confidence="0.875" head="VNW">
                 <feat class="onbep" subset="lwtype"/>
                 <feat class="pron" subset="pdtype"/>
                 <feat class="stan" subset="naamval"/>
@@ -719,7 +719,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.13" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -728,29 +728,29 @@
               </morphology>
             </w>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.1" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.1" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.1" t="Wij"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.2" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.2" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.2" t="hebben"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.3" t="veel"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.4" t="kopie"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.4" class="CONJP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.4" class="CONJP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.6" t="maar"/>
               </chunk>
               <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.5" class="ADVP" confidence="0.821609">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.7" t="er"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.6" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.6" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.8" t="mag"/>
               </chunk>
               <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.7" class="ADVP" confidence="0.820826">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.9" t="wel"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.8" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.8" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.10" t="wat"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.11" t="varieteit"/>
               </chunk>
@@ -850,7 +850,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.7" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>,</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class=","/>
               <morphology>
                 <morpheme>
@@ -860,7 +860,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.8" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>van</t>
-              <pos class="VZ(init)" confidence="0.959310" head="VZ">
+              <pos class="VZ(init)" confidence="0.95931" head="VZ">
                 <feat class="init" subset="vztype"/>
               </pos>
               <lemma class="van"/>
@@ -872,7 +872,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.9" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>ons</t>
-              <pos class="VNW(pr,pron,obl,vol,1,mv)" confidence="0.975000" head="VNW">
+              <pos class="VNW(pr,pron,obl,vol,1,mv)" confidence="0.975" head="VNW">
                 <feat class="pr" subset="vwtype"/>
                 <feat class="pron" subset="pdtype"/>
                 <feat class="obl" subset="naamval"/>
@@ -918,7 +918,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.12" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -927,28 +927,28 @@
               </morphology>
             </w>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.1" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.1" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.1" t="Alles"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.2" t="goeds"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.2" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.2" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.3" t="in"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.4" t="het"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.5" t="nieuwe"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.6" t="jaar"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.4" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.4" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.8" t="van"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.5" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.5" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.9" t="ons"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.6" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.6" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.10" t="aan"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.7" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.7" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.11" t="jullie"/>
               </chunk>
             </chunking>
@@ -1001,7 +1001,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.4" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" space="no">
               <t>K</t>
-              <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
                 <feat class="deeleigen" subset="spectype"/>
               </pos>
               <lemma class="K"/>
@@ -1013,7 +1013,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.5" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld" space="no">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -1023,7 +1023,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.6" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>?</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="?"/>
               <morphology>
                 <morpheme>
@@ -1032,19 +1032,19 @@
               </morphology>
             </w>
             <entities xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.entities.1">
-              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.entities.1.entity.1" class="per" confidence="0.750000">
+              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.entities.1.entity.1" class="per" confidence="0.75">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.4" t="K"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.5" t="."/>
               </entity>
             </entities>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.1" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.1" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.1" t="Schrijf"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.2" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.2" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.2" t="jij"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.3" t="de"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.4" t="K"/>
               </chunk>
@@ -1079,7 +1079,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.3" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>mij</t>
-              <pos class="VNW(pr,pron,obl,vol,1,ev)" confidence="0.998090" head="VNW">
+              <pos class="VNW(pr,pron,obl,vol,1,ev)" confidence="0.99809" head="VNW">
                 <feat class="pr" subset="vwtype"/>
                 <feat class="pron" subset="pdtype"/>
                 <feat class="obl" subset="naamval"/>
@@ -1096,7 +1096,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.4" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>anders</t>
-              <pos class="ADJ(postnom,basis,met-s)" confidence="0.750000" head="ADJ">
+              <pos class="ADJ(postnom,basis,met-s)" confidence="0.75" head="ADJ">
                 <feat class="postnom" subset="positie"/>
                 <feat class="basis" subset="graad"/>
                 <feat class="met-s" subset="buiging"/>
@@ -1165,7 +1165,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.8" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -1174,13 +1174,13 @@
               </morphology>
             </w>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.1" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.1" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.1" t="Of"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.2" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.2" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.2" t="meld"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.3" t="mij"/>
               </chunk>
               <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.4" class="ADJP" confidence="0.663917">
@@ -1189,10 +1189,10 @@
               <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.5" class="SBAR" confidence="0.589536">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.5" t="waar"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.6" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.6" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.6" t="hij"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.7" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.7" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.7" t="woont"/>
               </chunk>
             </chunking>
@@ -1266,7 +1266,7 @@
 8	.	.	[.]	LET()	1.000000	O	O				
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311" generator="libfolia-v2.3" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311" generator="libfolia-v2.4" version="2.1.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -1324,13 +1324,13 @@
         <processor xml:id="proc.unspecified.878fa02e" name="unspecified"/>
         <processor xml:id="proc.ucto.9ae4f8b9" name="ucto"/>
       </processor>
-      <processor xml:id="frog.1" begindatetime="2019-08-20T13:04:01" command="frog --skip=mp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.2.0" host="kokos" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.2.0" name="libfolia" type="generator" version="2.3"/>
-        <processor xml:id="tagger.1" begindatetime="2019-08-20T13:04:01" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-08-20T13:04:01" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-08-20T13:04:01" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-08-20T13:04:01" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-08-20T13:04:01" name="NER" version="2.2"/>
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:49:14" command="frog --skip=mp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:49:14" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:49:14" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:49:14" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2020-02-26T12:49:14" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2020-02-26T12:49:14" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="authorLevel1">Verwey, Albert</meta>
@@ -1498,7 +1498,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.6" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>als</t>
-              <pos class="VG(onder)" confidence="0.800000" head="VG">
+              <pos class="VG(onder)" confidence="0.8" head="VG">
                 <feat class="onder" subset="conjtype"/>
               </pos>
               <lemma class="als"/>
@@ -1510,7 +1510,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.7" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>we</t>
-              <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.999170" head="VNW">
+              <pos class="VNW(pers,pron,nomin,red,1,mv)" confidence="0.99917" head="VNW">
                 <feat class="pers" subset="vwtype"/>
                 <feat class="pron" subset="pdtype"/>
                 <feat class="nomin" subset="naamval"/>
@@ -1569,7 +1569,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.11" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>Koo</t>
-              <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
                 <feat class="deeleigen" subset="spectype"/>
               </pos>
               <lemma class="Koo"/>
@@ -1666,7 +1666,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.18" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" space="no">
               <t>Maartnummer</t>
-              <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
                 <feat class="deeleigen" subset="spectype"/>
               </pos>
               <lemma class="Maartnummer"/>
@@ -1678,7 +1678,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.19" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -1687,58 +1687,58 @@
               </morphology>
             </w>
             <entities xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1">
-              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1.entity.1" class="per" confidence="1.000000">
+              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1.entity.1" class="per" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.10" t="de"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.11" t="Koo"/>
               </entity>
-              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1.entity.2" class="loc" confidence="1.000000">
+              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.entities.1.entity.2" class="loc" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.18" t="Maartnummer"/>
               </entity>
             </entities>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.1" class="SBAR" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.1" class="SBAR" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.1" t="Hoe"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.2" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.2" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.2" t="zou"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.3" t="je"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.4" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.4" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.4" t="'t"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.5" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.5" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.5" t="vinden"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.6" class="SBAR" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.6" class="SBAR" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.6" t="als"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.7" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.7" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.7" t="we"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.8" class="ADJP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.8" class="ADJP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.8" t="heel"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.9" t="gauw"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.9" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.9" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.10" t="de"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.11" t="Koo"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.10" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.10" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.12" t="vroegen"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.11" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.11" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.13" t="om"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.12" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.12" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.14" t="een"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.15" t="stuk"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.13" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.13" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.16" t="voor"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.14" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.chunking.1.chunk.14" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.17" t="het"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.1.w.18" t="Maartnummer"/>
               </chunk>
@@ -1815,7 +1815,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.5" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>,</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class=","/>
               <morphology>
                 <morpheme>
@@ -1878,7 +1878,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.10" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>wat</t>
-              <pos class="VNW(onbep,pron,stan,vol,3o,ev)" confidence="0.875000" head="VNW">
+              <pos class="VNW(onbep,pron,stan,vol,3o,ev)" confidence="0.875" head="VNW">
                 <feat class="onbep" subset="lwtype"/>
                 <feat class="pron" subset="pdtype"/>
                 <feat class="stan" subset="naamval"/>
@@ -1923,7 +1923,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.13" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -1932,29 +1932,29 @@
               </morphology>
             </w>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.1" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.1" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.1" t="Wij"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.2" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.2" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.2" t="hebben"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.3" t="veel"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.4" t="kopie"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.4" class="CONJP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.4" class="CONJP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.6" t="maar"/>
               </chunk>
               <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.5" class="ADVP" confidence="0.821609">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.7" t="er"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.6" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.6" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.8" t="mag"/>
               </chunk>
               <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.7" class="ADVP" confidence="0.820826">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.9" t="wel"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.8" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.chunking.1.chunk.8" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.10" t="wat"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.2.w.11" t="varieteit"/>
               </chunk>
@@ -2054,7 +2054,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.7" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>,</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class=","/>
               <morphology>
                 <morpheme>
@@ -2064,7 +2064,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.8" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>van</t>
-              <pos class="VZ(init)" confidence="0.959310" head="VZ">
+              <pos class="VZ(init)" confidence="0.95931" head="VZ">
                 <feat class="init" subset="vztype"/>
               </pos>
               <lemma class="van"/>
@@ -2076,7 +2076,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.9" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>ons</t>
-              <pos class="VNW(pr,pron,obl,vol,1,mv)" confidence="0.975000" head="VNW">
+              <pos class="VNW(pr,pron,obl,vol,1,mv)" confidence="0.975" head="VNW">
                 <feat class="pr" subset="vwtype"/>
                 <feat class="pron" subset="pdtype"/>
                 <feat class="obl" subset="naamval"/>
@@ -2122,7 +2122,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.12" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -2131,28 +2131,28 @@
               </morphology>
             </w>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.1" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.1" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.1" t="Alles"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.2" t="goeds"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.2" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.2" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.3" t="in"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.4" t="het"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.5" t="nieuwe"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.6" t="jaar"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.4" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.4" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.8" t="van"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.5" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.5" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.9" t="ons"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.6" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.6" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.10" t="aan"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.7" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.chunking.1.chunk.7" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.3.w.11" t="jullie"/>
               </chunk>
             </chunking>
@@ -2205,7 +2205,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.4" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld" space="no">
               <t>K</t>
-              <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+              <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
                 <feat class="deeleigen" subset="spectype"/>
               </pos>
               <lemma class="K"/>
@@ -2217,7 +2217,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.5" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld" space="no">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -2227,7 +2227,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.6" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>?</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="?"/>
               <morphology>
                 <morpheme>
@@ -2236,19 +2236,19 @@
               </morphology>
             </w>
             <entities xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.entities.1">
-              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.entities.1.entity.1" class="per" confidence="0.750000">
+              <entity xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.entities.1.entity.1" class="per" confidence="0.75">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.4" t="K"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.5" t="."/>
               </entity>
             </entities>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.1" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.1" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.1" t="Schrijf"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.2" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.2" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.2" t="jij"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.3" t="de"/>
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.4.w.4" t="K"/>
               </chunk>
@@ -2283,7 +2283,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.3" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>mij</t>
-              <pos class="VNW(pr,pron,obl,vol,1,ev)" confidence="0.998090" head="VNW">
+              <pos class="VNW(pr,pron,obl,vol,1,ev)" confidence="0.99809" head="VNW">
                 <feat class="pr" subset="vwtype"/>
                 <feat class="pron" subset="pdtype"/>
                 <feat class="obl" subset="naamval"/>
@@ -2300,7 +2300,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.4" class="WORD" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>anders</t>
-              <pos class="ADJ(postnom,basis,met-s)" confidence="0.750000" head="ADJ">
+              <pos class="ADJ(postnom,basis,met-s)" confidence="0.75" head="ADJ">
                 <feat class="postnom" subset="positie"/>
                 <feat class="basis" subset="graad"/>
                 <feat class="met-s" subset="buiging"/>
@@ -2369,7 +2369,7 @@
             </w>
             <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.8" class="PUNCTUATION" datetime="2018-06-19T12:08:18" set="tokconfig-nld">
               <t>.</t>
-              <pos class="LET()" confidence="1.000000" head="LET"/>
+              <pos class="LET()" confidence="1.0" head="LET"/>
               <lemma class="."/>
               <morphology>
                 <morpheme>
@@ -2378,13 +2378,13 @@
               </morphology>
             </w>
             <chunking xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1">
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.1" class="PP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.1" class="PP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.1" t="Of"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.2" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.2" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.2" t="meld"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.3" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.3" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.3" t="mij"/>
               </chunk>
               <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.4" class="ADJP" confidence="0.663917">
@@ -2393,10 +2393,10 @@
               <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.5" class="SBAR" confidence="0.589536">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.5" t="waar"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.6" class="NP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.6" class="NP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.6" t="hij"/>
               </chunk>
-              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.7" class="VP" confidence="1.000000">
+              <chunk xml:id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.chunking.1.chunk.7" class="VP" confidence="1.0">
                 <wref id="HuygensING-brieven-correspondenten-1900-1-1_d5cb802c-5b00-452a-ac7c-f12121bed311.text.1.body.1.p.4.s.5.w.7" t="woont"/>
               </chunk>
             </chunking>

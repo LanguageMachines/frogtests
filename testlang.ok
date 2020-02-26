@@ -21,7 +21,7 @@ testlang test 1
 8	.	.		LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.4" version="0.8">
   <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" set="div"/>
@@ -47,15 +47,15 @@ testlang test 1
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:41:32" command="frog --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:41:32" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:47:55" command="frog --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:47:55" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:41:32" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:41:32" name="mblem" version="1.2"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:47:55" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:47:55" name="mblem" version="1.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -124,7 +124,7 @@ testlang test 1
           </w>
           <w xml:id="s1.w.7" class="WORD">
             <t>zin</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998610" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -160,7 +160,7 @@ testlang test 1
           </w>
           <w xml:id="s1.w.11" class="PUNCTUATION">
             <t>.</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class="."/>
           </w>
         </s>
@@ -204,7 +204,7 @@ testlang test 1
           </w>
           <w xml:id="s3.w.4" class="WORD">
             <t>zin</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998610" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -230,14 +230,14 @@ testlang test 1
           </w>
           <w xml:id="s3.w.7" class="WORD" space="no">
             <t>Nederlands</t>
-            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <lemma class="Nederlands"/>
           </w>
           <w xml:id="s3.w.8" class="PUNCTUATION">
             <t>.</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class="."/>
           </w>
         </s>
@@ -268,7 +268,7 @@ testlang test 2
 8	.	.		LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.4" version="0.8">
   <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" set="div"/>
@@ -294,15 +294,15 @@ testlang test 2
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:41:33" command="frog --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:41:33" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:47:57" command="frog --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:47:57" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:41:33" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:41:33" name="mblem" version="1.2"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:47:57" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:47:57" name="mblem" version="1.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -371,7 +371,7 @@ testlang test 2
           </w>
           <w xml:id="s1.w.7" class="WORD">
             <t>zin</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998610" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -407,7 +407,7 @@ testlang test 2
           </w>
           <w xml:id="s1.w.11" class="PUNCTUATION">
             <t>.</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class="."/>
           </w>
         </s>
@@ -451,7 +451,7 @@ testlang test 2
           </w>
           <w xml:id="s3.w.4" class="WORD">
             <t>zin</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998610" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -477,14 +477,14 @@ testlang test 2
           </w>
           <w xml:id="s3.w.7" class="WORD" space="no">
             <t>Nederlands</t>
-            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <lemma class="Nederlands"/>
           </w>
           <w xml:id="s3.w.8" class="PUNCTUATION">
             <t>.</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class="."/>
           </w>
         </s>
@@ -524,7 +524,7 @@ testlang test 3
 8	.	.		LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.2" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.4" version="0.8">
   <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" set="div"/>
@@ -553,16 +553,16 @@ testlang test 3
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:41:34" command="frog --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:41:34" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:47:58" command="frog --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:47:58" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
             <processor xml:id="uctodata.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:41:34" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:41:34" name="mblem" version="1.1"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:47:58" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:47:58" name="mblem" version="1.1"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -631,7 +631,7 @@ testlang test 3
           </w>
           <w xml:id="s1.w.7" class="WORD" set="tokconfig-nld">
             <t>zin</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998610" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -667,7 +667,7 @@ testlang test 3
           </w>
           <w xml:id="s1.w.11" class="PUNCTUATION" set="tokconfig-nld">
             <t>.</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class="."/>
           </w>
         </s>
@@ -735,7 +735,7 @@ testlang test 3
           </w>
           <w xml:id="s3.w.4" class="WORD" set="tokconfig-nld">
             <t>zin</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998610" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -761,14 +761,14 @@ testlang test 3
           </w>
           <w xml:id="s3.w.7" class="WORD" set="tokconfig-nld" space="no">
             <t>Nederlands</t>
-            <pos class="SPEC(deeleigen)" confidence="1.000000" head="SPEC">
+            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <lemma class="nederlands"/>
           </w>
           <w xml:id="s3.w.8" class="PUNCTUATION" set="tokconfig-nld">
             <t>.</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET"/>
             <lemma class="."/>
           </w>
         </s>
@@ -806,7 +806,7 @@ testlang test 4
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="folia-lang.txt" generator="libfolia-v2.2" version="2.1.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="folia-lang.txt" generator="libfolia-v2.4" version="2.2.1">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-eng" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-eng.foliaset.ttl">
@@ -836,16 +836,16 @@ testlang test 4
       </lang-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-07-11T15:41:36" command="frog --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON" folia_version="2.1.0" host="bonus" name="frog" user="sloot" version="0.19">
-        <processor xml:id="frog.1.generator" folia_version="2.1.0" name="libfolia" type="generator" version="2.2"/>
-        <processor xml:id="ucto.1" begindatetime="2019-07-11T15:41:36" name="ucto" version="0.18">
+      <processor xml:id="frog.1" begindatetime="2020-02-26T12:47:59" command="frog --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
+        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:47:59" name="ucto" version="0.21">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
             <processor xml:id="uctodata.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-07-11T15:41:36" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-07-11T15:41:36" name="mblem" version="1.2"/>
+        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:47:59" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:47:59" name="mblem" version="1.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -921,7 +921,7 @@ testlang test 4
         </w>
         <w xml:id="folia-lang.txt.p.1.s.1.w.8" class="PUNCTUATION" set="tokconfig-nld">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET"/>
+          <pos class="LET()" confidence="1.0" head="LET"/>
           <lemma class="."/>
         </w>
       </s>
@@ -987,7 +987,7 @@ testlang test 4
         </w>
         <w xml:id="folia-lang.txt.p.3.s.1.w.4" class="WORD" set="tokconfig-nld">
           <t>nog</t>
-          <pos class="BW()" confidence="0.999820" head="BW"/>
+          <pos class="BW()" confidence="0.99982" head="BW"/>
           <lemma class="nog"/>
         </w>
         <w xml:id="folia-lang.txt.p.3.s.1.w.5" class="WORD" set="tokconfig-nld">
@@ -1011,7 +1011,7 @@ testlang test 4
         </w>
         <w xml:id="folia-lang.txt.p.3.s.1.w.7" class="WORD" set="tokconfig-nld" space="no">
           <t>zin</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998610" head="N">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99861" head="N">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -1022,7 +1022,7 @@ testlang test 4
         </w>
         <w xml:id="folia-lang.txt.p.3.s.1.w.8" class="PUNCTUATION" set="tokconfig-nld">
           <t>.</t>
-          <pos class="LET()" confidence="1.000000" head="LET"/>
+          <pos class="LET()" confidence="1.0" head="LET"/>
           <lemma class="."/>
         </w>
       </s>
