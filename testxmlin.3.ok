@@ -544,8 +544,8 @@ test 3:
 5	klasse	klasse	[klasse]	N(soort,ev,basis,zijd,stan)	0.970060	O	I-NP
 6	test	testen	[test]	WW(pv,tgw,ev)	0.750000	O	B-VP
 7	in	in	[in]	VZ(init)	0.998321	O	B-PP
-8	Nijmegen	Nijmegen	[Nijmegen]	SPEC(deeleigen)	1.0	B-LOC	B-NP
-9	.	.	[.]	LET()	1.0	O	O
+8	Nijmegen	Nijmegen	[Nijmegen]	SPEC(deeleigen)	1.000000	B-LOC	B-NP
+9	.	.	[.]	LET()	1.000000	O	O
 
 <?xml version="1.0" encoding="UTF-8"?>
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.3" version="2.0">
@@ -1724,15 +1724,15 @@ test 7:
 3	als_het_ware	als_het_waar	[als]_[het]_[ware]	VG(onder)_VNW(pers,pron,stan,red,3,ev,onz)_WW(pv,conj,ev)	0.680452	O_O_O	I-VP_I-VP_I-VP
 4	een	een	[een]	LID(onbep,stan,agr)	0.999113	O	B-NP
 5	test	test	[test]	N(soort,ev,basis,zijd,stan)	0.903055	O	I-NP
-6	.	.	[.]	LET()	1.0	O	O
+6	.	.	[.]	LET()	1.000000	O	O
 
 1	Gaat	gaan	[ga][t]	WW(pv,tgw,met-t)	0.996998	O	B-VP
 2	deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.999113	O	B-NP
 3	datum	datum	[datum]	N(soort,ev,basis,zijd,stan)	0.998230	O	I-NP
-4	:	:	[:]	LET()	1.0	O	O
-5	28-11-2011	28-11-2011	[28-11-2011]	SPEC(symb)	1.0	O	B-NP
+4	:	:	[:]	LET()	1.000000	O	O
+5	28-11-2011	28-11-2011	[28-11-2011]	SPEC(symb)	1.000000	O	B-NP
 6	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.995449	O	B-ADJP
-7	?	?	[?]	LET()	1.0	O	O
+7	?	?	[?]	LET()	1.000000	O	O
 
 test 8:
 test 9:
@@ -3015,7 +3015,7 @@ test 12:
 121		issue064b.xml.out
 8049		issue064c.xml
 278		issue064c.xml.out
-467102		longsent.xml
+467103		longsent.xml
 37166		longsent.xml.out
 4629		nbsp.xml
 49		nbsp.xml.out
