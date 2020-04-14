@@ -1,0 +1,13 @@
+#!/usr/bin/expect -f
+#
+spawn telnet localhost 7000
+expect "Trying 127.0.0.1..."
+expect "Connected to localhost."
+expect "Escape character is '^]'."
+log_file -noappend testjsonserver2.out
+send { [{"sentence":"Dit nog zo'n boeiende test."}] }
+send "\n"
+expect -re ".*\n" # the send json
+expect -re ".*\n" # the received json
+expect -re ".*\n" # the received json
+log_file

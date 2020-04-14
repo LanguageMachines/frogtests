@@ -1,0 +1,46 @@
+#!/bin/bash -x
+
+$frog_bin/frog -S 7000 --JSONin --JSONout=2 > testjsonserver.log 2>&1  &
+pid=`echo $!`
+
+if [ `uname` = Darwin ]
+then
+    sleep 30
+else
+  count="0"
+  stat="0"
+  while [ $stat -ne 1 ]
+  do
+      #    echo `lsof -i :7000 |grep -c LISTEN`
+      stat=`lsof -i :7000 |grep -c LISTEN`
+      echo count=$count
+      echo status=$stat
+      count=$((count+1))
+      if [ $count -ge 20 ]; then
+	  echo "unable to start server in time..."
+	  exit 1
+      fi
+      sleep 1
+  done
+fi
+
+./frogjsonclient1 &
+pids[0]=$!
+./frogjsonclient2 &
+pids[1]=$!
+
+echo "created PID's: ${pids[*]}"
+for sub_pid in ${pids[*]}
+do
+    wait $sub_pid
+done
+
+echo "done waiting"
+sleep 10
+
+cat testjsonserver1.out > testjsonserver.out
+cat testjsonserver2.out >> testjsonserver.out
+
+kill $pid
+
+wait $pid

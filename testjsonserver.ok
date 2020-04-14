@@ -1,0 +1,241 @@
+ [{"sentence":"Dit is een test."}] 
+[
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 1,
+    "lemma": "dit",
+    "morph": "[dit]",
+    "parse": {
+      "parse_index": 2,
+      "parse_role": "su"
+    },
+    "pos": {
+      "confidence": 0.7770847770847771,
+      "tag": "VNW(aanw,pron,stan,vol,3o,ev)"
+    },
+    "ucto": {
+      "new_paragraph": true,
+      "token": "WORD"
+    },
+    "word": "Dit"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-VP"
+    },
+    "index": 2,
+    "lemma": "zijn",
+    "morph": "[zijn]",
+    "parse": {
+      "parse_index": 0,
+      "parse_role": "ROOT"
+    },
+    "pos": {
+      "confidence": 0.9998905788379473,
+      "tag": "WW(pv,tgw,ev)"
+    },
+    "ucto": {
+      "token": "WORD"
+    },
+    "word": "is"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 3,
+    "lemma": "een",
+    "morph": "[een]",
+    "parse": {
+      "parse_index": 4,
+      "parse_role": "det"
+    },
+    "pos": {
+      "confidence": 0.9991126885536823,
+      "tag": "LID(onbep,stan,agr)"
+    },
+    "ucto": {
+      "token": "WORD"
+    },
+    "word": "een"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "I-NP"
+    },
+    "index": 4,
+    "lemma": "test",
+    "morph": "[test]",
+    "parse": {
+      "parse_index": 2,
+      "parse_role": "predc"
+    },
+    "pos": {
+      "confidence": 0.9030552291421856,
+      "tag": "N(soort,ev,basis,zijd,stan)"
+    },
+    "ucto": {
+      "space": false,
+      "token": "WORD"
+    },
+    "word": "test"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "O"
+    },
+    "index": 5,
+    "lemma": ".",
+    "morph": "[.]",
+    "parse": {
+      "parse_index": 4,
+      "parse_role": "punct"
+    },
+    "pos": {
+      "confidence": 1.0,
+      "tag": "LET()"
+    },
+    "ucto": {
+      "token": "PUNCTUATION"
+    },
+    "word": "."
+  }
+]
+ [{"sentence":"Dit nog zo'n boeiende test."}] 
+[
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 1,
+    "lemma": "dit",
+    "morph": "[dit]",
+    "parse": {
+      "parse_index": 0,
+      "parse_role": "ROOT"
+    },
+    "pos": {
+      "confidence": 0.9393939393939394,
+      "tag": "VNW(aanw,pron,stan,vol,3o,ev)"
+    },
+    "ucto": {
+      "new_paragraph": true,
+      "token": "WORD"
+    },
+    "word": "Dit"
+  },
+  {
+    "chunking": {
+      "confidence": 0.8367024822866252,
+      "tag": "B-ADVP"
+    },
+    "index": 2,
+    "lemma": "nog",
+    "morph": "[nog]",
+    "parse": {
+      "parse_index": 1,
+      "parse_role": "mod"
+    },
+    "pos": {
+      "confidence": 0.9999296839292621,
+      "tag": "BW()"
+    },
+    "ucto": {
+      "token": "WORD"
+    },
+    "word": "nog"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 3,
+    "lemma": "zo'n",
+    "morph": "[zo'n]",
+    "parse": {
+      "parse_index": 5,
+      "parse_role": "det"
+    },
+    "pos": {
+      "confidence": 0.9972897008632805,
+      "tag": "VNW(aanw,det,stan,prenom,zonder,agr)"
+    },
+    "ucto": {
+      "token": "WORD-WITHSUFFIX"
+    },
+    "word": "zo'n"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "I-NP"
+    },
+    "index": 4,
+    "lemma": "boeien",
+    "morph": "[boei][end][e]",
+    "parse": {
+      "parse_index": 5,
+      "parse_role": "mod"
+    },
+    "pos": {
+      "confidence": 0.79,
+      "tag": "WW(od,prenom,met-e)"
+    },
+    "ucto": {
+      "token": "WORD"
+    },
+    "word": "boeiende"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "I-NP"
+    },
+    "index": 5,
+    "lemma": "test",
+    "morph": "[test]",
+    "parse": {
+      "parse_index": 0,
+      "parse_role": "ROOT"
+    },
+    "pos": {
+      "confidence": 0.9030552291421856,
+      "tag": "N(soort,ev,basis,zijd,stan)"
+    },
+    "ucto": {
+      "space": false,
+      "token": "WORD"
+    },
+    "word": "test"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "O"
+    },
+    "index": 6,
+    "lemma": ".",
+    "morph": "[.]",
+    "parse": {
+      "parse_index": 5,
+      "parse_role": "punct"
+    },
+    "pos": {
+      "confidence": 1.0,
+      "tag": "LET()"
+    },
+    "ucto": {
+      "token": "PUNCTUATION"
+    },
+    "word": "."
+  }
+]
