@@ -21,23 +21,19 @@
       <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
         <annotator processor="NER.1"/>
       </entity-annotation>
-      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
-        <annotator processor="mwu.1"/>
-      </entity-annotation>
       <sentence-annotation/>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2020-02-26T12:48:29" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
+      <processor xml:id="frog.1" begindatetime="2020-04-14T14:21:40" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.2.1" host="kokos" name="frog" user="sloot" version="0.20">
         <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
-        <processor xml:id="ucto.1" begindatetime="2020-02-26T12:48:29" name="ucto" version="0.21"/>
-        <processor xml:id="tagger.1" begindatetime="2020-02-26T12:48:29" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2020-02-26T12:48:29" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2020-02-26T12:48:29" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2020-02-26T12:48:29" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2020-02-26T12:48:29" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2020-02-26T12:48:29" name="mwu" version="1.0"/>
+        <processor xml:id="ucto.1" begindatetime="2020-04-14T14:21:40" name="ucto" version="0.21"/>
+        <processor xml:id="tagger.1" begindatetime="2020-04-14T14:21:40" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2020-04-14T14:21:40" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2020-04-14T14:21:40" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2020-04-14T14:21:40" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2020-04-14T14:21:40" name="NER" version="2.2"/>
       </processor>
     </provenance>
   </metadata>
@@ -599,35 +595,28 @@
         </chunk>
       </chunking>
       <entities xml:id="teststandard.txt.text.s.1.entities.1">
-        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.1" class="loc" confidence="0.569395">
           <wref id="teststandard.txt.text.s.1.w.4" t="Wikipedia,"/>
+        </entity>
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.2" class="per" confidence="1.0">
           <wref id="teststandard.txt.text.s.1.w.5" t="Jimmy"/>
           <wref id="teststandard.txt.text.s.1.w.6" t="Wales,"/>
         </entity>
-      </entities>
-      <entities xml:id="teststandard.txt.text.s.1.entities.2">
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.1" class="loc" confidence="0.569395" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
-          <wref id="teststandard.txt.text.s.1.w.4" t="Wikipedia,"/>
-        </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.2" class="per" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
-          <wref id="teststandard.txt.text.s.1.w.5" t="Jimmy"/>
-          <wref id="teststandard.txt.text.s.1.w.6" t="Wales,"/>
-        </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.3" class="loc" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.3" class="loc" confidence="1.0">
           <wref id="teststandard.txt.text.s.1.w.15" t="Britse"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.4" class="pro" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.4" class="pro" confidence="1.0">
           <wref id="teststandard.txt.text.s.1.w.17" t="The"/>
           <wref id="teststandard.txt.text.s.1.w.18" t="Times."/>
           <wref id="teststandard.txt.text.s.1.w.19" t="Wales"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.5" class="org" confidence="0.355002" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.5" class="org" confidence="0.355002">
           <wref id="teststandard.txt.text.s.1.w.26" t="Wikiasari,"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.6" class="org" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.6" class="org" confidence="1.0">
           <wref id="teststandard.txt.text.s.1.w.30" t="Google"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.2.entity.7" class="org" confidence="0.469529" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.7" class="org" confidence="0.469529">
           <wref id="teststandard.txt.text.s.1.w.32" t="Yahoo!."/>
         </entity>
       </entities>
@@ -805,7 +794,7 @@
         </chunk>
       </chunking>
       <entities xml:id="teststandard.txt.text.s.2.entities.1">
-        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.1" class="org" confidence="0.780145" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.1" class="org" confidence="0.780145">
           <wref id="teststandard.txt.text.s.2.w.9" t="Wikipedia"/>
           <wref id="teststandard.txt.text.s.2.w.10" t="zelf."/>
         </entity>
@@ -1907,23 +1896,16 @@
         </chunk>
       </chunking>
       <entities xml:id="teststandard.txt.text.s.4.entities.1">
-        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
-          <wref id="teststandard.txt.text.s.4.w.23" t="met"/>
-          <wref id="teststandard.txt.text.s.4.w.24" t="behulp"/>
-          <wref id="teststandard.txt.text.s.4.w.25" t="van"/>
-        </entity>
-      </entities>
-      <entities xml:id="teststandard.txt.text.s.4.entities.2">
-        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.1" class="org" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.1" class="org" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.5" t="Google"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.2" class="loc" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.2" class="loc" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.8" t="Wales"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.3" class="org" confidence="0.328212" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.3" class="org" confidence="0.328212">
           <wref id="teststandard.txt.text.s.4.w.18" t="Zoekopdrachten"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.4.entities.2.entity.4" class="org" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.4" class="org" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.20" t="Google"/>
         </entity>
       </entities>
@@ -2511,12 +2493,6 @@
           <wref id="teststandard.txt.text.s.5.w.33" t="maken."/>
         </chunk>
       </chunking>
-      <entities xml:id="teststandard.txt.text.s.5.entities.1">
-        <entity xml:id="teststandard.txt.text.s.5.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
-          <wref id="teststandard.txt.text.s.5.w.28" t="nu"/>
-          <wref id="teststandard.txt.text.s.5.w.29" t="eenmaal"/>
-        </entity>
-      </entities>
     </s>
     <s xml:id="teststandard.txt.text.s.6">
       <w xml:id="teststandard.txt.text.s.6.w.1" class="WORD">
@@ -3459,10 +3435,10 @@
         </chunk>
       </chunking>
       <entities xml:id="teststandard.txt.text.s.7.entities.1">
-        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.1" class="loc" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.1" class="loc" confidence="1.0">
           <wref id="teststandard.txt.text.s.7.w.6" t="Wales"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.2" class="org" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <entity xml:id="teststandard.txt.text.s.7.entities.1.entity.2" class="org" confidence="1.0">
           <wref id="teststandard.txt.text.s.7.w.15" t="Wikipedia"/>
         </entity>
       </entities>
@@ -3472,33 +3448,35 @@
 1	De	de	[de]	LID(bep,stan,rest)	0.999701	O	B-NP				
 2	oprichter	oprichter	[op][richt][er]	N(soort,ev,basis,zijd,stan)	0.999694	O	I-NP				
 3	van	van	[van]	VZ(init)	0.959310	O	B-PP				
-4	Wikipedia,_Jimmy_Wales,	Wikipedia,_Jimmy_Wales,	[Wikipedia,]_[Jimmy]_[Wales,]	SPEC(deeleigen)_SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-LOC_B-PER_I-PER	B-NP_B-NP_I-NP				
-5	wil	willen	[wil]	WW(pv,tgw,ev)	0.994536	O	B-VP				
-6	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
-7	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
-8	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP				
-9	lanceren.	lanceren.	[lanceer][en.]	WW(pv,tgw,mv)	0.443084	O	B-VP				
-10	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.993902	O	B-NP				
-11	meldt	melden	[meld][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP				
-12	de	de	[de]	LID(bep,stan,rest)	0.999811	O	B-NP				
-13	Britse	britse	[brits][e]	ADJ(prenom,basis,met-e,stan)	0.981205	B-LOC	I-NP				
-14	krant	krant	[krant]	N(soort,ev,basis,zijd,stan)	0.971014	O	I-NP				
-15	The	The	[The]	SPEC(vreemd)	1.000000	B-PRO	B-NP				
-16	Times.	Times.	[Times.]	SPEC(vreemd)	1.000000	I-PRO	I-NP				
-17	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	I-PRO	I-NP				
-18	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.997207	O	B-VP				
-19	dat	dat	[dat]	VG(onder)	0.962882	O	B-SBAR				
-20	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP				
-21	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
-22	zoekmachine,	zoekmachine,	[zoek][machine,]	N(soort,ev,basis,zijd,stan)	0.467234	O	I-NP				
-23	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP				
-24	Wikiasari,	Wikiasari,	[Wikiasari,]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
-25	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP				
-26	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP				
-27	met	met	[met]	VZ(init)	0.999574	O	B-PP				
-28	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
-29	en	en	[en]	VG(neven)	0.999194	O	B-CONJP				
-30	Yahoo!.	Yahoo!.	[Yahoo!.]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+4	Wikipedia,	Wikipedia,	[Wikipedia,]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+5	Jimmy	Jimmy	[Jimmy]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
+6	Wales,	Wales,	[Wales,]	SPEC(deeleigen)	1.000000	I-PER	I-NP				
+7	wil	willen	[wil]	WW(pv,tgw,ev)	0.994536	O	B-VP				
+8	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
+9	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
+10	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP				
+11	lanceren.	lanceren.	[lanceer][en.]	WW(pv,tgw,mv)	0.443084	O	B-VP				
+12	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.993902	O	B-NP				
+13	meldt	melden	[meld][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP				
+14	de	de	[de]	LID(bep,stan,rest)	0.999811	O	B-NP				
+15	Britse	britse	[brits][e]	ADJ(prenom,basis,met-e,stan)	0.981205	B-LOC	I-NP				
+16	krant	krant	[krant]	N(soort,ev,basis,zijd,stan)	0.971014	O	I-NP				
+17	The	The	[The]	SPEC(vreemd)	1.000000	B-PRO	B-NP				
+18	Times.	Times.	[Times.]	SPEC(vreemd)	1.000000	I-PRO	I-NP				
+19	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	I-PRO	I-NP				
+20	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.997207	O	B-VP				
+21	dat	dat	[dat]	VG(onder)	0.962882	O	B-SBAR				
+22	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP				
+23	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
+24	zoekmachine,	zoekmachine,	[zoek][machine,]	N(soort,ev,basis,zijd,stan)	0.467234	O	I-NP				
+25	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP				
+26	Wikiasari,	Wikiasari,	[Wikiasari,]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+27	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP				
+28	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP				
+29	met	met	[met]	VZ(init)	0.999574	O	B-PP				
+30	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+31	en	en	[en]	VG(neven)	0.999194	O	B-CONJP				
+32	Yahoo!.	Yahoo!.	[Yahoo!.]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 
 1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	O	B-NP				
 2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP				
@@ -3556,21 +3534,23 @@
 20	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 21	worden	worden	[word][en]	WW(pv,tgw,mv)	1.000000	O	B-VP				
 22	uitgevoerd	uitvoeren	[uit][ge][voer][d]	WW(vd,vrij,zonder)	0.999154	O	I-VP				
-23	met_behulp_van	met_behulp_van	[met]_[behulp]_[van]	VZ(init)_N(soort,ev,basis,onz,stan)_VZ(init)	0.808650	O_O_O	B-PP_I-PP_I-PP				
-24	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
-25	algoritme	algoritme	[algoritme]	N(soort,ev,basis,onz,stan)	0.900000	O	I-NP				
-26	waardoor	waardoor	[waar][door]	BW()	0.993007	O	B-PP				
-27	het	het	[het]	LID(bep,stan,evon)	0.996942	O	B-NP				
-28	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.998547	O	I-NP				
-29	resultaat	resultaat	[resulteer][aat]	N(soort,ev,basis,onz,stan)	0.982759	O	I-NP				
-30	altijd	altijd	[altijd]	BW()	0.999919	O	B-ADVP				
-31	de	de	[de]	LID(bep,stan,rest)	0.999665	O	B-NP				
-32	website	website	[website]	N(soort,ev,basis,zijd,stan)	0.999295	O	I-NP				
-33	met	met	[met]	VZ(init)	0.999820	O	B-PP				
-34	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP				
-35	meeste	meest	[meeste]	VNW(onbep,grad,stan,prenom,met-e,agr,sup)	0.997028	O	I-NP				
-36	verwijzingen	verwijzing	[ver][wijs][ing][en]	N(soort,mv,basis)	0.998020	O	I-NP				
-37	is.	is.	[is.]	N(soort,mv,basis)	0.415250	O	B-NP				
+23	met	met	[met]	VZ(init)	0.999480	O	B-PP				
+24	behulp	behulp	[behulp]	N(soort,ev,basis,onz,stan)	0.809524	O	I-PP				
+25	van	van	[van]	VZ(init)	0.999441	O	I-PP				
+26	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
+27	algoritme	algoritme	[algoritme]	N(soort,ev,basis,onz,stan)	0.900000	O	I-NP				
+28	waardoor	waardoor	[waar][door]	BW()	0.993007	O	B-PP				
+29	het	het	[het]	LID(bep,stan,evon)	0.996942	O	B-NP				
+30	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.998547	O	I-NP				
+31	resultaat	resultaat	[resulteer][aat]	N(soort,ev,basis,onz,stan)	0.982759	O	I-NP				
+32	altijd	altijd	[altijd]	BW()	0.999919	O	B-ADVP				
+33	de	de	[de]	LID(bep,stan,rest)	0.999665	O	B-NP				
+34	website	website	[website]	N(soort,ev,basis,zijd,stan)	0.999295	O	I-NP				
+35	met	met	[met]	VZ(init)	0.999820	O	B-PP				
+36	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP				
+37	meeste	meest	[meeste]	VNW(onbep,grad,stan,prenom,met-e,agr,sup)	0.997028	O	I-NP				
+38	verwijzingen	verwijzing	[ver][wijs][ing][en]	N(soort,mv,basis)	0.998020	O	I-NP				
+39	is.	is.	[is.]	N(soort,mv,basis)	0.415250	O	B-NP				
 
 1	"De	"De	["De]	SPEC(symb)	1.000000	O	B-NP				
 2	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.997796	O	I-NP				
@@ -3599,11 +3579,12 @@
 25	effectenhandelaar.	effectenhandelaar.	[effectenhandelaar.]	ADJ(prenom,basis,met-e,stan)	0.320616	O	I-NP				
 26	"Computers	"computer	["computer][s]	N(soort,mv,basis)	1.000000	O	I-NP				
 27	kunnen	kunnen	[kan][en]	WW(pv,tgw,mv)	0.911765	O	B-VP				
-28	nu_eenmaal	nu_eenmaal	[nu]_[eenmaal]	BW()_BW()	0.995579	O_O	B-ADVP_I-ADVP				
-29	niet	niet	[niet]	BW()	0.999918	O	I-ADVP				
-30	dergelijke	dergelijk	[dergelijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP				
-31	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.998020	O	I-NP				
-32	maken.	maken.	[maken.]	WW(pv,tgw,mv)	0.347918	O	B-VP				
+28	nu	nu	[nu]	BW()	0.996820	O	B-ADVP				
+29	eenmaal	eenmaal	[eenmaal]	BW()	0.998755	O	I-ADVP				
+30	niet	niet	[niet]	BW()	0.999918	O	I-ADVP				
+31	dergelijke	dergelijk	[dergelijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP				
+32	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.998020	O	I-NP				
+33	maken.	maken.	[maken.]	WW(pv,tgw,mv)	0.347918	O	B-VP				
 
 1	Meestal	meestal	[meest][al]	BW()	0.998992	O	B-ADVP				
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP				
