@@ -3,7 +3,6 @@
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
-      <division-annotation set="unknown"/>
       <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset"/>
       <token-annotation set="tokconfig-nld"/>
     </annotations>
@@ -12,23 +11,25 @@
       <p xml:id="spaces.text.p.1">
         <lang class="nld"/>
         <s xml:id="spaces.text.p.1.s.1">
+	  <t>Zit ting 8-23 december 1632</t>
           <w xml:id="spaces.text.p.1.s.1.w.1" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
-            <t>Zit ting</t>
+            <t offset="0" >Zit ting</t>
           </w>
           <w xml:id="spaces.text.p.1.s.1.w.2" class="WORD-COMPOUND" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
-            <t>8-23</t>
+            <t offset="9">8-23</t>
           </w>
           <w xml:id="spaces.text.p.1.s.1.w.3" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
-            <t>december</t>
+            <t offset="14">december</t>
           </w>
           <w xml:id="spaces.text.p.1.s.1.w.4" class="NUMBER" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
-            <t>1632</t>
+            <t offset="23">1632</t>
           </w>
         </s>
       </p>
       <p xml:id="spaces.text.p.2">
         <lang class="nld"/>
         <s xml:id="spaces.text.p.2.s.1">
+	  <t>dat op die noodinge van de de ese zij de</t>
           <w xml:id="spaces.text.p.2.s.1.w.1" class="WORD" datetime="2017-06-27T14:09:02" set="tokconfig-nld">
             <t>dat</t>
           </w>
