@@ -1,5 +1,6 @@
 #!/bin/bash
 
 ./testall.sh
-echo "::set-output name=status::$?"
+export TEST_STAT=$?
+echo "::set-output name=status::$TEST_STAT"
 exit 0
