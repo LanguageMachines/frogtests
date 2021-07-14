@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Running testaction script!"
-. ./testall.sh
+./testall.sh
 TEST_STAT=$?
 echo $TEST_STAT > status.tmp
 exit 0
