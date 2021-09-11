@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v2.4" version="2.2.1">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v2.10" version="2.5.1">
   <metadata type="native">
     <annotations>
       <token-annotation set="passthru">
@@ -26,14 +26,14 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2020-04-14T14:21:40" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.2.1" host="kokos" name="frog" user="sloot" version="0.20">
-        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
-        <processor xml:id="ucto.1" begindatetime="2020-04-14T14:21:40" name="ucto" version="0.21"/>
-        <processor xml:id="tagger.1" begindatetime="2020-04-14T14:21:40" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2020-04-14T14:21:40" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2020-04-14T14:21:40" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2020-04-14T14:21:40" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2020-04-14T14:21:40" name="NER" version="2.2"/>
+      <processor xml:id="frog.1" begindatetime="2021-09-11T10:02:21" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
+        <processor xml:id="ucto.1" begindatetime="2021-09-11T10:02:21" name="ucto" version="0.24"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-11T10:02:21" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-11T10:02:21" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-11T10:02:21" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-11T10:02:21" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-11T10:02:21" name="NER" version="2.2"/>
       </processor>
     </provenance>
   </metadata>
@@ -77,7 +77,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.3" class="WORD">
         <t>van</t>
-        <pos class="VZ(init)" confidence="0.95931" head="VZ">
+        <pos class="VZ(init)" confidence="0.959312" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="van"/>
@@ -190,7 +190,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.11" class="UNKNOWN">
         <t>lanceren.</t>
-        <pos class="WW(pv,tgw,mv)" confidence="0.443084" head="WW">
+        <pos class="WW(pv,tgw,mv)" confidence="0.436529" head="WW">
           <feat class="pv" subset="wvorm"/>
           <feat class="tgw" subset="pvtijd"/>
           <feat class="mv" subset="pvagr"/>
@@ -386,12 +386,10 @@
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.24" class="UNKNOWN">
         <t>zoekmachine,</t>
-        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.467234" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.506516" head="N">
           <feat class="soort" subset="ntype"/>
-          <feat class="ev" subset="getal"/>
+          <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
-          <feat class="zijd" subset="genus"/>
-          <feat class="stan" subset="naamval"/>
         </pos>
         <lemma class="zoekmachine,"/>
         <morphology>
@@ -672,7 +670,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.2.w.4" class="WORD">
         <t>van</t>
-        <pos class="VZ(init)" confidence="0.95931" head="VZ">
+        <pos class="VZ(init)" confidence="0.959312" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="van"/>
@@ -698,7 +696,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.2.w.6" class="UNKNOWN">
         <t>user-based</t>
-        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.812838" head="N">
+        <pos class="N(soort,ev,basis,onz,stan)" confidence="0.812492" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="ev" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -803,7 +801,7 @@
     <s xml:id="teststandard.txt.text.s.3">
       <w xml:id="teststandard.txt.text.s.3.w.1" class="UNKNOWN">
         <t>"Google</t>
-        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.762794" head="N">
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.763145" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="ev" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -951,7 +949,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.3.w.11" class="WORD">
         <t>zoekresultaat</t>
-        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.796666" head="N">
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.79659" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="ev" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -1111,7 +1109,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.3.w.21" class="WORD">
         <t>aldus</t>
-        <pos class="BW()" confidence="0.997264" head="BW"/>
+        <pos class="BW()" confidence="0.997265" head="BW"/>
         <lemma class="aldus"/>
         <morphology>
           <morpheme>
@@ -1248,7 +1246,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.4" class="WORD">
         <t>van</t>
-        <pos class="VZ(init)" confidence="0.973586" head="VZ">
+        <pos class="VZ(init)" confidence="0.973592" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="van"/>
@@ -1388,7 +1386,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.14" class="WORD">
         <t>spammers</t>
-        <pos class="N(soort,mv,basis)" confidence="0.99765" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.997651" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -1438,41 +1436,39 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.17" class="UNKNOWN">
         <t>ondernemingen.</t>
-        <pos class="WW(pv,tgw,mv)" confidence="0.332966" head="WW">
-          <feat class="pv" subset="wvorm"/>
-          <feat class="tgw" subset="pvtijd"/>
-          <feat class="mv" subset="pvagr"/>
+        <pos class="N(soort,mv,basis)" confidence="0.350593" head="N">
+          <feat class="soort" subset="ntype"/>
+          <feat class="mv" subset="getal"/>
+          <feat class="basis" subset="graad"/>
         </pos>
         <lemma class="ondernemingen."/>
         <morphology>
           <morpheme>
-            <t>ondernemingen.</t>
+            <t>onderneem</t>
+          </morpheme>
+          <morpheme>
+            <t>ing</t>
+          </morpheme>
+          <morpheme>
+            <t>en.</t>
           </morpheme>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.18" class="WORD">
         <t>Zoekopdrachten</t>
-        <pos class="N(soort,mv,basis)" confidence="0.738938" head="N">
-          <feat class="soort" subset="ntype"/>
-          <feat class="mv" subset="getal"/>
-          <feat class="basis" subset="graad"/>
+        <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
+          <feat class="deeleigen" subset="spectype"/>
         </pos>
-        <lemma class="zoekopdracht"/>
+        <lemma class="Zoekopdrachten"/>
         <morphology>
           <morpheme>
-            <t>zoe</t>
-          </morpheme>
-          <morpheme>
-            <t>kopdracht</t>
-          </morpheme>
-          <morpheme>
-            <t>en</t>
+            <t>Zoekopdrachten</t>
           </morpheme>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.19" class="WORD">
         <t>bij</t>
-        <pos class="VZ(init)" confidence="0.989796" head="VZ">
+        <pos class="VZ(init)" confidence="0.989744" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="bij"/>
@@ -1496,10 +1492,10 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.21" class="WORD">
         <t>worden</t>
-        <pos class="WW(pv,tgw,mv)" confidence="1.0" head="WW">
-          <feat class="pv" subset="wvorm"/>
-          <feat class="tgw" subset="pvtijd"/>
-          <feat class="mv" subset="pvagr"/>
+        <pos class="WW(inf,vrij,zonder)" confidence="0.5" head="WW">
+          <feat class="inf" subset="wvorm"/>
+          <feat class="vrij" subset="positie"/>
+          <feat class="zonder" subset="buiging"/>
         </pos>
         <lemma class="worden"/>
         <morphology>
@@ -1727,7 +1723,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.36" class="WORD">
         <t>de</t>
-        <pos class="LID(bep,stan,rest)" confidence="0.981886" head="LID">
+        <pos class="LID(bep,stan,rest)" confidence="0.981887" head="LID">
           <feat class="bep" subset="lwtype"/>
           <feat class="stan" subset="naamval"/>
           <feat class="rest" subset="npagr"/>
@@ -1788,7 +1784,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.39" class="UNKNOWN">
         <t>is.</t>
-        <pos class="N(soort,mv,basis)" confidence="0.41525" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.413358" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -1842,56 +1838,54 @@
         </chunk>
         <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.13" class="NP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.16" t="commerciële"/>
-        </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.14" class="VP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.17" t="ondernemingen."/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.15" class="NP" confidence="0.949871">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.14" class="NP" confidence="0.839971">
           <wref id="teststandard.txt.text.s.4.w.18" t="Zoekopdrachten"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.16" class="PP" confidence="0.876309">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.15" class="PP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.19" t="bij"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.17" class="NP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.16" class="NP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.20" t="Google"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.18" class="VP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.17" class="VP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.21" t="worden"/>
           <wref id="teststandard.txt.text.s.4.w.22" t="uitgevoerd"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.19" class="PP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.18" class="PP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.23" t="met"/>
           <wref id="teststandard.txt.text.s.4.w.24" t="behulp"/>
           <wref id="teststandard.txt.text.s.4.w.25" t="van"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.20" class="NP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.19" class="NP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.26" t="een"/>
           <wref id="teststandard.txt.text.s.4.w.27" t="algoritme"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.21" class="PP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.20" class="PP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.28" t="waardoor"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.22" class="NP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.21" class="NP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.29" t="het"/>
           <wref id="teststandard.txt.text.s.4.w.30" t="eerste"/>
           <wref id="teststandard.txt.text.s.4.w.31" t="resultaat"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.23" class="ADVP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.22" class="ADVP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.32" t="altijd"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.24" class="NP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.23" class="NP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.33" t="de"/>
           <wref id="teststandard.txt.text.s.4.w.34" t="website"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.25" class="PP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.24" class="PP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.35" t="met"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.26" class="NP" confidence="1.0">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.25" class="NP" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.36" t="de"/>
           <wref id="teststandard.txt.text.s.4.w.37" t="meeste"/>
           <wref id="teststandard.txt.text.s.4.w.38" t="verwijzingen"/>
         </chunk>
-        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.27" class="NP" confidence="0.64665">
+        <chunk xml:id="teststandard.txt.text.s.4.chunking.1.chunk.26" class="NP" confidence="0.64665">
           <wref id="teststandard.txt.text.s.4.w.39" t="is."/>
         </chunk>
       </chunking>
@@ -1902,7 +1896,7 @@
         <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.2" class="loc" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.8" t="Wales"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.3" class="org" confidence="0.328212">
+        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.3" class="loc" confidence="0.614845">
           <wref id="teststandard.txt.text.s.4.w.18" t="Zoekopdrachten"/>
         </entity>
         <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.4" class="org" confidence="1.0">
@@ -2081,7 +2075,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.12" class="UNKNOWN">
         <t>keuze.</t>
-        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.541239" head="N">
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.536986" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="ev" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -2294,7 +2288,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.25" class="UNKNOWN">
         <t>effectenhandelaar.</t>
-        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.320616" head="ADJ">
+        <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.251875" head="ADJ">
           <feat class="prenom" subset="positie"/>
           <feat class="basis" subset="graad"/>
           <feat class="met-e" subset="buiging"/>
@@ -2408,7 +2402,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.33" class="UNKNOWN">
         <t>maken.</t>
-        <pos class="WW(pv,tgw,mv)" confidence="0.347918" head="WW">
+        <pos class="WW(pv,tgw,mv)" confidence="0.348695" head="WW">
           <feat class="pv" subset="wvorm"/>
           <feat class="tgw" subset="pvtijd"/>
           <feat class="mv" subset="pvagr"/>
@@ -2690,7 +2684,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.6.w.15" class="UNKNOWN">
         <t>niet."</t>
-        <pos class="N(soort,mv,basis)" confidence="0.545883" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.555621" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -2850,7 +2844,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.8" class="WORD">
         <t>te</t>
-        <pos class="VZ(init)" confidence="0.907459" head="VZ">
+        <pos class="VZ(init)" confidence="0.907461" head="VZ">
           <feat class="init" subset="vztype"/>
         </pos>
         <lemma class="te"/>
@@ -2879,7 +2873,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.10" class="WORD">
         <t>maken</t>
-        <pos class="WW(inf,vrij,zonder)" confidence="0.580078" head="WW">
+        <pos class="WW(inf,vrij,zonder)" confidence="0.578947" head="WW">
           <feat class="inf" subset="wvorm"/>
           <feat class="vrij" subset="positie"/>
           <feat class="zonder" subset="buiging"/>
@@ -3047,7 +3041,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.21" class="UNKNOWN">
         <t>gemaakt.</t>
-        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.525939" head="N">
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.519805" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="ev" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -3145,7 +3139,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.27" class="UNKNOWN">
         <t>hebben,</t>
-        <pos class="N(soort,mv,basis)" confidence="0.405593" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.404599" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -3216,7 +3210,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.32" class="UNKNOWN">
         <t>technologie,</t>
-        <pos class="N(soort,mv,basis)" confidence="0.818707" head="N">
+        <pos class="N(soort,mv,basis)" confidence="0.818924" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="mv" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -3324,7 +3318,7 @@
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.39" class="UNKNOWN">
         <t>zoekmachine.</t>
-        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.665544" head="N">
+        <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.664634" head="N">
           <feat class="soort" subset="ntype"/>
           <feat class="ev" subset="getal"/>
           <feat class="basis" subset="graad"/>
@@ -3447,7 +3441,7 @@
 </FoLiA>
 1	De	de	[de]	LID(bep,stan,rest)	0.999701	O	B-NP				
 2	oprichter	oprichter	[op][richt][er]	N(soort,ev,basis,zijd,stan)	0.999694	O	I-NP				
-3	van	van	[van]	VZ(init)	0.959310	O	B-PP				
+3	van	van	[van]	VZ(init)	0.959312	O	B-PP				
 4	Wikipedia,	Wikipedia,	[Wikipedia,]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
 5	Jimmy	Jimmy	[Jimmy]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
 6	Wales,	Wales,	[Wales,]	SPEC(deeleigen)	1.000000	I-PER	I-NP				
@@ -3455,7 +3449,7 @@
 8	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
 9	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
 10	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.997691	O	I-NP				
-11	lanceren.	lanceren.	[lanceer][en.]	WW(pv,tgw,mv)	0.443084	O	B-VP				
+11	lanceren.	lanceren.	[lanceer][en.]	WW(pv,tgw,mv)	0.436529	O	B-VP				
 12	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.993902	O	B-NP				
 13	meldt	melden	[meld][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP				
 14	de	de	[de]	LID(bep,stan,rest)	0.999811	O	B-NP				
@@ -3468,7 +3462,7 @@
 21	dat	dat	[dat]	VG(onder)	0.962882	O	B-SBAR				
 22	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP				
 23	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
-24	zoekmachine,	zoekmachine,	[zoek][machine,]	N(soort,ev,basis,zijd,stan)	0.467234	O	I-NP				
+24	zoekmachine,	zoekmachine,	[zoek][machine,]	N(soort,mv,basis)	0.506516	O	I-NP				
 25	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP				
 26	Wikiasari,	Wikiasari,	[Wikiasari,]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 27	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP				
@@ -3481,15 +3475,15 @@
 1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	O	B-NP				
 2	maakt	maken	[maak][t]	WW(pv,tgw,met-t)	0.999370	O	B-VP				
 3	gebruik	gebruik	[gebruik]	N(soort,ev,basis,onz,stan)	0.998108	O	B-NP				
-4	van	van	[van]	VZ(init)	0.959310	O	B-PP				
+4	van	van	[van]	VZ(init)	0.959312	O	B-PP				
 5	dezelfde	dezelfde	[dezelfde]	ADJ(prenom,basis,zonder)	0.982473	O	B-NP				
-6	user-based	user-based	[user-based]	N(soort,ev,basis,onz,stan)	0.812838	O	I-NP				
+6	user-based	user-based	[user-based]	N(soort,ev,basis,onz,stan)	0.812492	O	I-NP				
 7	technologie	technologie	[technologisch][ie]	N(soort,ev,basis,zijd,stan)	0.997772	O	I-NP				
 8	als	als	[als]	VG(onder)	0.720588	O	B-SBAR				
 9	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 10	zelf.	zelf.	[zelf.]	SPEC(afk)	1.000000	I-ORG	I-NP				
 
-1	"Google	"google	["google]	N(soort,ev,basis,zijd,stan)	0.762794	O	B-NP				
+1	"Google	"google	["google]	N(soort,ev,basis,zijd,stan)	0.763145	O	B-NP				
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.998276	O	B-VP				
 3	een	een	[een]	LID(onbep,stan,agr)	0.997219	O	B-NP				
 4	zeer	zeer	[zeer]	BW()	0.978124	O	I-NP				
@@ -3499,7 +3493,7 @@
 8	vaak	vaak	[vaak]	ADJ(vrij,basis,zonder)	0.883333	O	B-ADVP				
 9	levert	leveren	[lever][t]	WW(pv,tgw,met-t)	0.999485	O	B-VP				
 10	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
-11	zoekresultaat	zoekresultaat	[zoe][k][resulteer][aat]	N(soort,ev,basis,zijd,stan)	0.796666	O	I-NP				
+11	zoekresultaat	zoekresultaat	[zoe][k][resulteer][aat]	N(soort,ev,basis,zijd,stan)	0.796590	O	I-NP				
 12	niets	niets	[niets]	VNW(onbep,pron,stan,vol,3o,ev)	0.997921	O	B-NP				
 13	meer	veel	[meer]	VNW(onbep,grad,stan,vrij,zonder,comp)	0.986742	O	B-ADVP				
 14	op	op	[op]	VZ(fin)	0.850000	O	B-PP				
@@ -3509,13 +3503,13 @@
 18	andere	ander	[ander][e]	ADJ(prenom,basis,met-e,stan)	0.990544	O	B-NP				
 19	onnodige	onnodig	[on][nodig][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
 20	informatie",	informatie",	[informatie",]	SPEC(vreemd)	1.000000	O	I-NP				
-21	aldus	aldus	[al][dus]	BW()	0.997264	O	B-ADVP				
+21	aldus	aldus	[al][dus]	BW()	0.997265	O	B-ADVP				
 22	Wales.	Wales.	[Wales.]	SPEC(symb)	1.000000	O	B-NP				
 
 1	Het	het	[het]	LID(bep,stan,evon)	0.998917	O	B-NP				
 2	algoritmische	algoritmisch	[algoritme][isch][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
 3	zoekprogramma	zoekprogramma	[zoek][programma]	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP				
-4	van	van	[van]	VZ(init)	0.973586	O	B-PP				
+4	van	van	[van]	VZ(init)	0.973592	O	B-PP				
 5	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
 6	zou	zullen	[zal]	WW(pv,verl,ev)	0.999947	O	B-VP				
 7	volgens	volgens	[volgens]	VZ(init)	0.998616	O	B-PP				
@@ -3525,14 +3519,14 @@
 11	beïnvloeden	beïnvloeden	[be][invloed][en]	WW(inf,vrij,zonder)	0.979167	O	I-VP				
 12	zijn	zijn	[zijn]	WW(pv,tgw,mv)	0.666667	O	B-VP				
 13	door	door	[door]	VZ(init)	0.998841	O	B-PP				
-14	spammers	spammer	[spammer][s]	N(soort,mv,basis)	0.997650	O	B-NP				
+14	spammers	spammer	[spammer][s]	N(soort,mv,basis)	0.997651	O	B-NP				
 15	en	en	[en]	VG(neven)	0.999342	O	B-CONJP				
 16	commerciële	commercieel	[commercie][eel][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	B-NP				
-17	ondernemingen.	ondernemingen.	[ondernemingen.]	WW(pv,tgw,mv)	0.332966	O	B-VP				
-18	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.738938	B-ORG	B-NP				
-19	bij	bij	[bij]	VZ(init)	0.989796	O	B-PP				
+17	ondernemingen.	ondernemingen.	[onderneem][ing][en.]	N(soort,mv,basis)	0.350593	O	I-NP				
+18	Zoekopdrachten	Zoekopdrachten	[Zoekopdrachten]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+19	bij	bij	[bij]	VZ(init)	0.989744	O	B-PP				
 20	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
-21	worden	worden	[word][en]	WW(pv,tgw,mv)	1.000000	O	B-VP				
+21	worden	worden	[word][en]	WW(inf,vrij,zonder)	0.500000	O	B-VP				
 22	uitgevoerd	uitvoeren	[uit][ge][voer][d]	WW(vd,vrij,zonder)	0.999154	O	I-VP				
 23	met	met	[met]	VZ(init)	0.999480	O	B-PP				
 24	behulp	behulp	[behulp]	N(soort,ev,basis,onz,stan)	0.809524	O	I-PP				
@@ -3547,10 +3541,10 @@
 33	de	de	[de]	LID(bep,stan,rest)	0.999665	O	B-NP				
 34	website	website	[website]	N(soort,ev,basis,zijd,stan)	0.999295	O	I-NP				
 35	met	met	[met]	VZ(init)	0.999820	O	B-PP				
-36	de	de	[de]	LID(bep,stan,rest)	0.981886	O	B-NP				
+36	de	de	[de]	LID(bep,stan,rest)	0.981887	O	B-NP				
 37	meeste	meest	[meeste]	VNW(onbep,grad,stan,prenom,met-e,agr,sup)	0.997028	O	I-NP				
 38	verwijzingen	verwijzing	[ver][wijs][ing][en]	N(soort,mv,basis)	0.998020	O	I-NP				
-39	is.	is.	[is.]	N(soort,mv,basis)	0.415250	O	B-NP				
+39	is.	is.	[is.]	N(soort,mv,basis)	0.413358	O	B-NP				
 
 1	"De	"De	["De]	SPEC(symb)	1.000000	O	B-NP				
 2	eerste	een	[een][ste]	TW(rang,prenom,stan)	0.997796	O	I-NP				
@@ -3563,7 +3557,7 @@
 9	maken	maken	[maak][en]	WW(inf,nom,zonder,zonder-n)	1.000000	O	I-NP				
 10	van	van	[van]	VZ(init)	0.999441	O	B-PP				
 11	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
-12	keuze.	keuze.	[keuse.]	N(soort,ev,basis,zijd,stan)	0.541239	O	I-NP				
+12	keuze.	keuze.	[keuse.]	N(soort,ev,basis,zijd,stan)	0.536986	O	I-NP				
 13	Deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780	O	B-NP				
 14	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998006	O	I-NP				
 15	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP				
@@ -3576,7 +3570,7 @@
 22	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP				
 23	40-jarige	40-jarig	[40-jaar][ig][e]	ADJ(prenom,basis,met-e,stan)	0.988152	O	I-NP				
 24	voormalige	voormalig	[voor][maal][ig][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
-25	effectenhandelaar.	effectenhandelaar.	[effectenhandelaar.]	ADJ(prenom,basis,met-e,stan)	0.320616	O	I-NP				
+25	effectenhandelaar.	effectenhandelaar.	[effectenhandelaar.]	ADJ(prenom,basis,met-e,stan)	0.251875	O	I-NP				
 26	"Computers	"computer	["computer][s]	N(soort,mv,basis)	1.000000	O	I-NP				
 27	kunnen	kunnen	[kan][en]	WW(pv,tgw,mv)	0.911765	O	B-VP				
 28	nu	nu	[nu]	BW()	0.996820	O	B-ADVP				
@@ -3584,7 +3578,7 @@
 30	niet	niet	[niet]	BW()	0.999918	O	I-ADVP				
 31	dergelijke	dergelijk	[dergelijk][e]	ADJ(prenom,basis,met-e,stan)	0.999143	O	B-NP				
 32	keuzes	keuze	[keuze][s]	N(soort,mv,basis)	0.998020	O	I-NP				
-33	maken.	maken.	[maken.]	WW(pv,tgw,mv)	0.347918	O	B-VP				
+33	maken.	maken.	[maken.]	WW(pv,tgw,mv)	0.348695	O	B-VP				
 
 1	Meestal	meestal	[meest][al]	BW()	0.998992	O	B-ADVP				
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP				
@@ -3600,7 +3594,7 @@
 12	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.996139	O	B-ADVP				
 13	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999447	O	B-VP				
 14	of	of	[of]	VG(neven)	0.855677	O	B-CONJP				
-15	niet."	niet."	[niet."]	N(soort,mv,basis)	0.545883	O	B-NP				
+15	niet."	niet."	[niet."]	N(soort,mv,basis)	0.555621	O	B-NP				
 
 1	Voor	voor	[voor]	VZ(init)	0.950530	O	B-PP				
 2	het	het	[het]	LID(bep,stan,evon)	0.994595	O	B-NP				
@@ -3609,9 +3603,9 @@
 5	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.998984	O	B-VP				
 6	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
 7	gebruik	gebruiken	[gebruik]	WW(pv,tgw,ev)	0.500000	O	B-VP				
-8	te	te	[te]	VZ(init)	0.907459	O	B-VP				
+8	te	te	[te]	VZ(init)	0.907461	O	B-VP				
 9	kunnen	kunnen	[kan][en]	WW(inf,vrij,zonder)	0.914286	O	I-VP				
-10	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.580078	O	I-VP				
+10	maken	maken	[maak][en]	WW(inf,vrij,zonder)	0.578947	O	I-VP				
 11	van	van	[van]	VZ(init)	0.998982	O	B-PP				
 12	de	de	[de]	LID(bep,stan,rest)	0.999852	O	B-NP				
 13	gebruikers	gebruiker	[gebruik][er][s]	N(soort,mv,basis)	0.999597	O	I-NP				
@@ -3622,23 +3616,23 @@
 18	wereldwijd	wereldwijd	[wereld][wijd]	ADJ(prenom,basis,zonder)	0.978684	O	I-NP				
 19	succes	succes	[succes]	N(soort,ev,basis,onz,stan)	0.998985	O	I-NP				
 20	hebben	hebben	[heb][en]	WW(pv,tgw,mv)	0.790390	O	B-VP				
-21	gemaakt.	gemaakt.	[gemaakt.]	N(soort,ev,basis,zijd,stan)	0.525939	O	B-NP				
+21	gemaakt.	gemaakt.	[gemaakt.]	N(soort,ev,basis,zijd,stan)	0.519805	O	B-NP				
 22	De	de	[de]	LID(bep,stan,rest)	0.992095	O	B-NP				
 23	goede	goed	[goed][e]	ADJ(prenom,basis,met-e,stan)	0.997314	O	I-NP				
 24	reputatie	reputatie	[reputatie]	N(soort,ev,basis,zijd,stan)	0.999455	O	I-NP				
 25	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.966981	O	B-SBAR				
 26	zij	zij	[zij]	VNW(pers,pron,nomin,vol,3p,mv)	0.527279	O	B-NP				
-27	hebben,	hebben,	[hebben,]	N(soort,mv,basis)	0.405593	O	B-NP				
+27	hebben,	hebben,	[hebben,]	N(soort,mv,basis)	0.404599	O	B-NP				
 28	samen	samen	[samen]	BW()	0.998251	O	B-ADVP				
 29	met	met	[met]	VZ(init)	0.999820	O	B-PP				
 30	de	de	[de]	LID(bep,stan,rest)	0.999805	O	B-NP				
 31	duidelijke	duidelijk	[duid][elijk][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
-32	technologie,	technologie,	[technologie,]	N(soort,mv,basis)	0.818707	O	I-NP				
+32	technologie,	technologie,	[technologie,]	N(soort,mv,basis)	0.818924	O	I-NP				
 33	moet	moeten	[moet]	WW(pv,tgw,ev)	0.999794	O	B-VP				
 34	garant	garant	[garant]	N(soort,ev,basis,zijd,stan)	0.800000	O	B-VAST				
 35	staan	staan	[sta]	WW(pv,tgw,mv)	1.000000	O	B-VP				
 36	voor	voor	[voor]	VZ(init)	0.991935	O	B-PP				
 37	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
 38	betrouwbare	betrouwbaar	[be][trouw][baar][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
-39	zoekmachine.	zoekmachine.	[zoek][machine.]	N(soort,ev,basis,zijd,stan)	0.665544	O	I-NP				
+39	zoekmachine.	zoekmachine.	[zoek][machine.]	N(soort,ev,basis,zijd,stan)	0.664634	O	I-NP				
 
