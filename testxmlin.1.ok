@@ -36,18 +36,18 @@ test 1:
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:05" command="frog --skip=p -x folia1.xml -X folia1.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:39:44" command="frog --skip=p -x folia1.xml -X folia1.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:05" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:39:44" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:05" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:05" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:05" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:05" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:05" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:39:44" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:39:44" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:39:44" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:39:44" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:39:44" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -201,7 +201,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.13" t="28-11-2011"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756469">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756465">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
             </chunk>
           </chunking>
@@ -343,18 +343,18 @@ test 2:
       <head-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:09" command="frog --skip=p -x folia1.xml --inputclass=OCR -X folia2.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:39:47" command="frog --skip=p -x folia1.xml --inputclass=OCR -X folia2.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:09" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:39:47" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:09" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:09" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:09" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:09" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:09" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:39:47" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:39:47" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:39:47" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:39:47" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:39:47" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -568,18 +568,18 @@ test 3:
       <head-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:12" command="frog --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:39:51" command="frog --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:12" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:39:51" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:12" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:12" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:12" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:12" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:12" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:39:51" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:39:51" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:39:51" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:39:51" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:39:51" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -784,18 +784,18 @@ test 4:
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:15" command="frog --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:39:54" command="frog --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:15" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:39:54" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:15" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:15" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:15" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:15" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:15" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:39:54" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:39:54" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:39:54" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:39:54" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:39:54" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -949,7 +949,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1.0" textclass="NEW">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.13" t="28-11-2011"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756469" textclass="NEW">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756465" textclass="NEW">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
             </chunk>
           </chunking>
@@ -1091,18 +1091,18 @@ test 5:
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:19" command="frog --skip=p -t folia1.xml.gz -X folia1.out1.xml.gz --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:39:57" command="frog --skip=p -t folia1.xml.gz -X folia1.out1.xml.gz --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:19" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:39:57" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:19" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:19" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:19" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:19" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:19" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:39:57" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:39:57" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:39:57" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:39:57" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:39:57" name="NER" version="2.2"/>
       </processor>
     </provenance>
   </metadata>
@@ -1255,7 +1255,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.13" t="28-11-2011"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756469">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756465">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
             </chunk>
           </chunking>
@@ -1397,18 +1397,18 @@ test 6:
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:22" command="frog --skip=p -t folia1.xml.bz2 -X folia1.out1.xml.bz2 --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:40:01" command="frog --skip=p -t folia1.xml.bz2 -X folia1.out1.xml.bz2 --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:22" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:40:01" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:22" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:22" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:22" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:22" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:22" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:40:01" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:40:01" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:40:01" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:40:01" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:40:01" name="NER" version="2.2"/>
       </processor>
     </provenance>
   </metadata>
@@ -1561,7 +1561,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.13" t="28-11-2011"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756469">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756465">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
             </chunk>
           </chunking>
@@ -1721,18 +1721,18 @@ test 9:
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:29" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:40:08" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:29" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:40:08" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:29" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:29" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:29" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:29" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:29" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:40:08" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:40:08" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:40:08" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:40:08" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:40:08" name="NER" version="2.2"/>
       </processor>
     </provenance>
   </metadata>
@@ -1833,7 +1833,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.10" t="28-11-2011"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756469">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756465">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="goed"/>
             </chunk>
           </chunking>
@@ -1974,18 +1974,18 @@ test 9a:
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:30" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:40:08" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:30" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:40:08" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:30" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:30" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:30" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:30" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:30" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:40:08" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:40:08" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:40:08" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:40:08" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:40:08" name="NER" version="2.2"/>
       </processor>
     </provenance>
   </metadata>
@@ -2186,7 +2186,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1.chunk.3" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.5" t="28-11-2011"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1.chunk.4" class="ADJP" confidence="0.756469">
+            <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1.chunk.4" class="ADJP" confidence="0.756465">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.6" t="goed"/>
             </chunk>
           </chunking>
@@ -2231,18 +2231,18 @@ test 9b:
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:30" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:40:08" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:30" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:40:08" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:30" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:30" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:30" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:30" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:30" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:40:08" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:40:08" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:40:08" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:40:08" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:40:08" name="NER" version="2.2"/>
       </processor>
     </provenance>
   </metadata>
@@ -2316,7 +2316,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.chunking.1.chunk.2" class="VP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.2" t="is"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.chunking.1.chunk.3" class="NP" confidence="0.952604">
+            <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.1.chunking.1.chunk.3" class="NP" confidence="0.95267">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.1.w.3" t="test3"/>
             </chunk>
           </chunking>
@@ -2429,7 +2429,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1.chunk.3" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.5" t="28-11-2011"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1.chunk.4" class="ADJP" confidence="0.756469">
+            <chunk xml:id="WR-P-E-J-0000000001.div0.1.p.1.s.2.chunking.1.chunk.4" class="ADJP" confidence="0.756465">
               <wref id="WR-P-E-J-0000000001.div0.1.p.1.s.2.w.6" t="goed"/>
             </chunk>
           </chunking>
@@ -2473,18 +2473,18 @@ test 9c:
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:30" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:40:08" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:30" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:40:08" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:30" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:30" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:30" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:30" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:30" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:40:08" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:40:08" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:40:08" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:40:08" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:40:08" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -2585,18 +2585,18 @@ test 9d:
       </entity-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:30" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:40:08" command="frog --skip=p --KANON -x  --testdir=xmltests --xmldir=./output" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:30" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:40:08" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:30" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:30" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:30" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:30" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:30" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:40:08" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:40:08" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:40:08" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:40:08" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:40:08" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -2670,7 +2670,7 @@ test 9d:
           <chunk xml:id="spaces.text.p.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.0">
             <wref id="spaces.text.p.1.s.1.w.1" t="Zit ting"/>
           </chunk>
-          <chunk xml:id="spaces.text.p.1.s.1.chunking.1.chunk.2" class="NP" confidence="0.833142">
+          <chunk xml:id="spaces.text.p.1.s.1.chunking.1.chunk.2" class="NP" confidence="0.833161">
             <wref id="spaces.text.p.1.s.1.w.2" t="8-23"/>
             <wref id="spaces.text.p.1.s.1.w.3" t="december"/>
             <wref id="spaces.text.p.1.s.1.w.4" t="1632"/>
@@ -2785,10 +2785,10 @@ test 9d:
           <chunk xml:id="spaces.text.p.2.s.1.chunking.1.chunk.1" class="NP" confidence="1.0">
             <wref id="spaces.text.p.2.s.1.w.1" t="dat"/>
           </chunk>
-          <chunk xml:id="spaces.text.p.2.s.1.chunking.1.chunk.2" class="NP" confidence="0.608349">
+          <chunk xml:id="spaces.text.p.2.s.1.chunking.1.chunk.2" class="NP" confidence="0.608375">
             <wref id="spaces.text.p.2.s.1.w.2" t="op die"/>
           </chunk>
-          <chunk xml:id="spaces.text.p.2.s.1.chunking.1.chunk.3" class="NP" confidence="0.682838">
+          <chunk xml:id="spaces.text.p.2.s.1.chunking.1.chunk.3" class="NP" confidence="0.682755">
             <wref id="spaces.text.p.2.s.1.w.3" t="noodinge"/>
             <wref id="spaces.text.p.2.s.1.w.4" t="van de"/>
             <wref id="spaces.text.p.2.s.1.w.5" t="de ese"/>
@@ -2842,20 +2842,20 @@ test 10:
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-11T18:01:32" command="frog -x xmltests/folia4.xml -X folia4.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T13:40:12" command="frog -x xmltests/folia4.xml -X folia4.out.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-11T18:01:32" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:40:12" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-11T18:01:32" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-11T18:01:32" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-11T18:01:32" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-11T18:01:32" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-11T18:01:32" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2021-09-11T18:01:32" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2021-09-11T18:01:32" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:40:12" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:40:12" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:40:12" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:40:12" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T13:40:12" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2021-09-23T13:40:12" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2021-09-23T13:40:12" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -2944,7 +2944,7 @@ test 12:
 121		issue064b.xml.out
 8046		issue064c.xml
 278		issue064c.xml.out
-467423		longsent.xml
+467407		longsent.xml
 37201		longsent.xml.out
 4624		nbsp.xml
 49		nbsp.xml.out
