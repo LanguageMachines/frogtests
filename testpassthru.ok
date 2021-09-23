@@ -26,14 +26,14 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-23T13:42:00" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-23T15:07:03" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-23T13:42:00" name="ucto" version="0.24"/>
-        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:42:00" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:42:00" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:42:00" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:42:00" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-23T13:42:00" name="NER" version="2.2"/>
+        <processor xml:id="ucto.1" begindatetime="2021-09-23T15:07:03" name="ucto" version="0.24"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-23T15:07:03" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-23T15:07:03" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-23T15:07:03" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-23T15:07:03" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-23T15:07:03" name="NER" version="2.2"/>
       </processor>
     </provenance>
   </metadata>
@@ -593,7 +593,7 @@
         </chunk>
       </chunking>
       <entities xml:id="teststandard.txt.text.s.1.entities.1">
-        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.1" class="loc" confidence="0.569395">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.1" class="loc" confidence="0.569502">
           <wref id="teststandard.txt.text.s.1.w.4" t="Wikipedia,"/>
         </entity>
         <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.2" class="per" confidence="1.0">
@@ -608,13 +608,13 @@
           <wref id="teststandard.txt.text.s.1.w.18" t="Times."/>
           <wref id="teststandard.txt.text.s.1.w.19" t="Wales"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.5" class="org" confidence="0.355002">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.5" class="org" confidence="0.306527">
           <wref id="teststandard.txt.text.s.1.w.26" t="Wikiasari,"/>
         </entity>
         <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.6" class="org" confidence="1.0">
           <wref id="teststandard.txt.text.s.1.w.30" t="Google"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.7" class="org" confidence="0.469529">
+        <entity xml:id="teststandard.txt.text.s.1.entities.1.entity.7" class="org" confidence="0.469839">
           <wref id="teststandard.txt.text.s.1.w.32" t="Yahoo!."/>
         </entity>
       </entities>
@@ -792,7 +792,7 @@
         </chunk>
       </chunking>
       <entities xml:id="teststandard.txt.text.s.2.entities.1">
-        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.1" class="org" confidence="0.780145">
+        <entity xml:id="teststandard.txt.text.s.2.entities.1.entity.1" class="org" confidence="0.779923">
           <wref id="teststandard.txt.text.s.2.w.9" t="Wikipedia"/>
           <wref id="teststandard.txt.text.s.2.w.10" t="zelf."/>
         </entity>
@@ -1896,7 +1896,7 @@
         <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.2" class="loc" confidence="1.0">
           <wref id="teststandard.txt.text.s.4.w.8" t="Wales"/>
         </entity>
-        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.3" class="loc" confidence="0.614845">
+        <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.3" class="loc" confidence="0.614639">
           <wref id="teststandard.txt.text.s.4.w.18" t="Zoekopdrachten"/>
         </entity>
         <entity xml:id="teststandard.txt.text.s.4.entities.1.entity.4" class="org" confidence="1.0">
