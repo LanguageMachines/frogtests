@@ -6,7 +6,7 @@
 6	,	,	[,]	LET()	1.000000	O	O				
 7	maar	maar	[maar]	BW()	0.500000	O	B-NP				
 8	1	1	[1]	TW(hoofd,vrij)	0.698220	O	I-NP				
-9	KiB	KiB	[KiB]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+9	KiB	KiB	[KiB]	SPEC(deeleigen)	1.000000	B-loc	B-NP				
 10	is	zijn	[zijn]	WW(pv,tgw,ev)	0.997290	O	B-VP				
 11	1024	1024	[1024]	TW(hoofd,vrij)	0.698220	O	B-NP				
 12	bytes	byte	[byte][s]	N(soort,mv,basis)	0.943948	O	B-NP				
@@ -20,7 +20,7 @@
 20	geschreven	schrijven	[ge][schrijf][en]	WW(vd,vrij,zonder)	0.991826	O	B-VP				
 21	.	.	[.]	LET()	1.000000	O	O				
 
-1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
+1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-per	B-NP				
 2	fietst	fietsen	[fiets][t]	WW(pv,tgw,met-t)	0.998984	O	B-VP				
 3	100	100	[100]	TW(hoofd,prenom,stan)	0.677411	O	B-NP				
 4	km	km	[km]	SPEC(afk)	1.000000	O	I-NP				

@@ -1,9 +1,9 @@
 1	De	de	[de]	LID(bep,stan,rest)	0.999701	O	B-NP				
 2	oprichter	oprichter	[op][richt][er]	N(soort,ev,basis,zijd,stan)	0.999694	O	I-NP				
 3	van	van	[van]	VZ(init)	0.999155	O	B-NP				
-4	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	I-NP				
+4	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-org	I-NP				
 5	,	,	[,]	LET()	1.000000	O	O				
-6	Jimmy_Wales	Jimmy_Wales	[Jimmy]_[Wales]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-PER_B-LOC	B-NP_I-NP				
+6	Jimmy_Wales	Jimmy_Wales	[Jimmy]_[Wales]	SPEC(deeleigen)_SPEC(deeleigen)	1.000000	B-per_B-loc	B-NP_I-NP				
 7	,	,	[,]	LET()	1.000000	O	O				
 8	wil	willen	[wil]	WW(pv,tgw,ev)	0.994536	O	B-VP				
 9	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP				
@@ -15,13 +15,13 @@
 1	Dit	dit	[dit]	VNW(aanw,pron,stan,vol,3o,ev)	0.993865	O	B-NP				
 2	meldt	melden	[meld][t]	WW(pv,tgw,met-t)	0.998566	O	B-VP				
 3	de	de	[de]	LID(bep,stan,rest)	0.999811	O	B-NP				
-4	Britse	britse	[brits][e]	ADJ(prenom,basis,met-e,stan)	0.981205	B-LOC	I-NP				
+4	Britse	britse	[brits][e]	ADJ(prenom,basis,met-e,stan)	0.981205	B-loc	I-NP				
 5	krant	krant	[krant]	N(soort,ev,basis,zijd,stan)	0.971014	O	I-NP				
-6	The	The	[The]	SPEC(vreemd)	1.000000	B-PRO	B-NP				
-7	Times	Times	[Times]	SPEC(vreemd)	1.000000	I-PRO	I-NP				
+6	The	The	[The]	SPEC(vreemd)	1.000000	B-pro	B-NP				
+7	Times	Times	[Times]	SPEC(vreemd)	1.000000	I-pro	I-NP				
 8	.	.	[.]	LET()	1.000000	O	O				
 
-1	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+1	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-loc	B-NP				
 2	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.997207	O	B-VP				
 3	dat	dat	[dat]	VG(onder)	0.962882	O	B-SBAR				
 4	de	de	[de]	LID(bep,stan,rest)	0.999844	O	B-NP				
@@ -29,15 +29,15 @@
 6	zoekmachine	zoekmachine	[zoek][machine]	N(soort,ev,basis,zijd,stan)	0.999633	O	I-NP				
 7	,	,	[,]	LET()	1.000000	O	O				
 8	genaamd	genaamd	[ge][naamd]	ADJ(vrij,basis,zonder)	0.509804	O	B-ADJP				
-9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+9	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	B-org	B-NP				
 10	,	,	[,]	LET()	1.000000	O	O				
 11	kan	kunnen	[kan]	WW(pv,tgw,ev)	0.998017	O	B-VP				
 12	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP				
 13	met	met	[met]	VZ(init)	0.999574	O	B-PP				
-14	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+14	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-org	B-NP				
 15	en	en	[en]	VG(neven)	0.994836	O	B-CONJP				
-16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
-17	!	!	[!]	LET()	1.000000	I-ORG	I-NP				
+16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	B-org	B-NP				
+17	!	!	[!]	LET()	1.000000	I-org	I-NP				
 18	.	.	[.]	LET()	1.000000	O	O				
 
 1	Wikiasari	Wikiasari	[Wikiasari]	SPEC(deeleigen)	1.000000	O	B-NP				
@@ -48,12 +48,12 @@
 6	user-based	user-based	[user-based]	N(soort,ev,basis,onz,stan)	0.812492	O	I-NP				
 7	technologie	technologie	[technologisch][ie]	N(soort,ev,basis,zijd,stan)	0.997772	O	I-NP				
 8	als	als	[als]	VG(onder)	0.833333	O	B-SBAR				
-9	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+9	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-org	B-NP				
 10	zelf	zelf	[zelf]	BW()	0.996918	O	B-ADVP				
 11	.	.	[.]	LET()	1.000000	O	O				
 
 1	"	"	["]	LET()	1.000000	O	O				
-2	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+2	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-org	B-NP				
 3	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999891	O	B-VP				
 4	een	een	[een]	LID(onbep,stan,agr)	0.997219	O	B-NP				
 5	zeer	zeer	[zeer]	BW()	0.978124	O	I-NP				
@@ -76,17 +76,17 @@
 22	"	"	["]	LET()	1.000000	O	O				
 23	,	,	[,]	LET()	1.000000	O	O				
 24	aldus	aldus	[al][dus]	BW()	0.997265	O	B-PP				
-25	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+25	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-loc	B-NP				
 26	.	.	[.]	LET()	1.000000	O	O				
 
 1	Het	het	[het]	LID(bep,stan,evon)	0.998917	O	B-NP				
 2	algoritmische	algoritmisch	[algoritme][isch][e]	ADJ(prenom,basis,met-e,stan)	0.990169	O	I-NP				
 3	zoekprogramma	zoekprogramma	[zoek][programma]	N(soort,ev,basis,onz,stan)	1.000000	O	I-NP				
 4	van	van	[van]	VZ(init)	0.973592	O	B-PP				
-5	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+5	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-org	B-NP				
 6	zou	zullen	[zal]	WW(pv,verl,ev)	0.999947	O	B-VP				
 7	volgens	volgens	[volgens]	VZ(init)	0.998616	O	B-PP				
-8	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+8	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-loc	B-NP				
 9	makkelijk	makkelijk	[mak][e][lijk]	ADJ(vrij,basis,zonder)	0.995289	O	B-ADVP				
 10	te	te	[te]	VZ(init)	0.999928	O	B-VP				
 11	beïnvloeden	beïnvloeden	[be][invloed][en]	WW(inf,vrij,zonder)	0.979167	O	I-VP				
@@ -100,7 +100,7 @@
 
 1	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.963584	O	B-NP				
 2	bij	bij	[bij]	VZ(init)	0.989796	O	B-PP				
-3	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+3	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-org	B-NP				
 4	worden	worden	[word][en]	WW(pv,tgw,mv)	1.000000	O	B-VP				
 5	uitgevoerd	uitvoeren	[uit][ge][voer][d]	WW(vd,vrij,zonder)	0.999154	O	I-VP				
 6	met_behulp_van	met_behulp_van	[met]_[behulp]_[van]	VZ(init)_N(soort,ev,basis,onz,stan)_VZ(init)	0.808650	O_O_O	B-PP_I-PP_I-PP				
@@ -187,7 +187,7 @@
 3	nieuwe	nieuw	[nieuw][e]	ADJ(prenom,basis,met-e,stan)	0.975869	O	I-NP				
 4	project	project	[project]	N(soort,ev,basis,onz,stan)	0.998223	O	I-NP				
 5	hoopt	hopen	[hoop][t]	WW(pv,tgw,met-t)	0.998984	O	B-VP				
-6	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+6	Wales	Wales	[Wales]	SPEC(deeleigen)	1.000000	B-loc	B-NP				
 7	gebruik	gebruiken	[gebruik]	WW(pv,tgw,ev)	0.500000	O	B-VP				
 8	te	te	[te]	VZ(init)	0.907461	O	B-VP				
 9	kunnen	kunnen	[kan][en]	WW(inf,vrij,zonder)	0.914286	O	I-VP				
@@ -196,7 +196,7 @@
 12	de	de	[de]	LID(bep,stan,rest)	0.999852	O	B-NP				
 13	gebruikers	gebruiker	[gebruik][er][s]	N(soort,mv,basis)	0.999597	O	I-NP				
 14	die	die	[die]	VNW(betr,pron,stan,vol,persoon,getal)	0.969697	O	B-SBAR				
-15	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
+15	Wikipedia	Wikipedia	[Wikipedia]	SPEC(deeleigen)	1.000000	B-org	B-NP				
 16	tot	tot	[tot]	VZ(init)	0.998379	O	B-PP				
 17	een	een	[een]	LID(onbep,stan,agr)	0.999386	O	B-NP				
 18	wereldwijd	wereldwijd	[wereld][wijd]	ADJ(prenom,basis,zonder)	0.978684	O	I-NP				

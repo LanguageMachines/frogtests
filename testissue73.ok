@@ -7,15 +7,15 @@
 7	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP				
 8	heel	heel	[heel]	ADJ(vrij,basis,zonder)	0.998943	O	B-ADJP				
 9	gauw	gauw	[gauw]	ADJ(vrij,basis,zonder)	0.977778	O	I-ADJP				
-10	de	de	[de]	LID(bep,stan,rest)	0.981887	B-PER	B-NP				
-11	Koo	Koo	[Koo]	SPEC(deeleigen)	1.000000	I-PER	I-NP				
+10	de	de	[de]	LID(bep,stan,rest)	0.981887	B-per	B-NP				
+11	Koo	Koo	[Koo]	SPEC(deeleigen)	1.000000	I-per	I-NP				
 12	vroegen	vragen	[vraag][en]	WW(pv,verl,mv)	0.998744	O	B-VP				
 13	om	om	[om]	VZ(init)	0.999556	O	B-PP				
 14	een	een	[een]	LID(onbep,stan,agr)	0.995984	O	B-NP				
 15	stuk	stuk	[stuk]	N(soort,ev,basis,onz,stan)	0.982301	O	I-NP				
 16	voor	voor	[voor]	VZ(init)	0.999218	O	B-PP				
 17	het	het	[het]	LID(bep,stan,evon)	0.702074	O	B-NP				
-18	Maartnummer	Maartnummer	[Maartnummer]	SPEC(deeleigen)	1.000000	B-LOC	I-NP				
+18	Maartnummer	Maartnummer	[Maartnummer]	SPEC(deeleigen)	1.000000	B-loc	I-NP				
 19	.	.	[.]	LET()	1.000000	O	O				
 
 1	Wij	wij	[wij]	VNW(pers,pron,nomin,vol,1,mv)	0.998082	O	B-NP				
@@ -48,8 +48,8 @@
 1	Schrijf	schrijven	[schrijf]	WW(pv,tgw,ev)	0.993151	O	B-VP				
 2	jij	jij	[jij]	VNW(pers,pron,nomin,vol,2v,ev)	0.999016	O	B-NP				
 3	de	de	[de]	LID(bep,stan,rest)	0.981887	O	B-NP				
-4	K	K	[K]	SPEC(deeleigen)	1.000000	B-PER	I-NP				
-5	.	.	[.]	LET()	1.000000	I-PER	O				
+4	K	K	[K]	SPEC(deeleigen)	1.000000	B-per	I-NP				
+5	.	.	[.]	LET()	1.000000	I-per	O				
 6	?	?	[?]	LET()	1.000000	O	O				
 
 1	Of	of	[of]	VG(neven)	0.900891	O	B-PP				
@@ -120,13 +120,13 @@
         <processor xml:id="proc.unspecified.878fa02e" name="unspecified"/>
         <processor xml:id="proc.ucto.9ae4f8b9" name="ucto"/>
       </processor>
-      <processor xml:id="frog.1" begindatetime="2021-09-23T13:42:45" command="frog --skip=tmp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-27T15:19:11" command="frog --skip=tmp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:42:45" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:42:45" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:42:45" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:42:45" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-23T13:42:45" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-27T15:19:11" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-27T15:19:11" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-27T15:19:11" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-27T15:19:11" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-27T15:19:11" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="authorLevel1">Verwey, Albert</meta>
@@ -1211,15 +1211,15 @@
 7	we	we	[we]	VNW(pers,pron,nomin,red,1,mv)	0.999170	O	B-NP				
 8	heel	heel	[heel]	ADJ(vrij,basis,zonder)	0.998943	O	B-ADJP				
 9	gauw	gauw	[gauw]	ADJ(vrij,basis,zonder)	0.977778	O	I-ADJP				
-10	de	de	[de]	LID(bep,stan,rest)	0.981887	B-PER	B-NP				
-11	Koo	Koo	[Koo]	SPEC(deeleigen)	1.000000	I-PER	I-NP				
+10	de	de	[de]	LID(bep,stan,rest)	0.981887	B-per	B-NP				
+11	Koo	Koo	[Koo]	SPEC(deeleigen)	1.000000	I-per	I-NP				
 12	vroegen	vragen	[vraag][en]	WW(pv,verl,mv)	0.998744	O	B-VP				
 13	om	om	[om]	VZ(init)	0.999556	O	B-PP				
 14	een	een	[een]	LID(onbep,stan,agr)	0.995984	O	B-NP				
 15	stuk	stuk	[stuk]	N(soort,ev,basis,onz,stan)	0.982301	O	I-NP				
 16	voor	voor	[voor]	VZ(init)	0.999218	O	B-PP				
 17	het	het	[het]	LID(bep,stan,evon)	0.702074	O	B-NP				
-18	Maartnummer	Maartnummer	[Maartnummer]	SPEC(deeleigen)	1.000000	B-LOC	I-NP				
+18	Maartnummer	Maartnummer	[Maartnummer]	SPEC(deeleigen)	1.000000	B-loc	I-NP				
 19	.	.	[.]	LET()	1.000000	O	O				
 
 1	Wij	wij	[wij]	VNW(pers,pron,nomin,vol,1,mv)	0.998082	O	B-NP				
@@ -1252,8 +1252,8 @@
 1	Schrijf	schrijven	[schrijf]	WW(pv,tgw,ev)	0.993151	O	B-VP				
 2	jij	jij	[jij]	VNW(pers,pron,nomin,vol,2v,ev)	0.999016	O	B-NP				
 3	de	de	[de]	LID(bep,stan,rest)	0.981887	O	B-NP				
-4	K	K	[K]	SPEC(deeleigen)	1.000000	B-PER	I-NP				
-5	.	.	[.]	LET()	1.000000	I-PER	O				
+4	K	K	[K]	SPEC(deeleigen)	1.000000	B-per	I-NP				
+5	.	.	[.]	LET()	1.000000	I-per	O				
 6	?	?	[?]	LET()	1.000000	O	O				
 
 1	Of	of	[of]	VG(neven)	0.900891	O	B-PP				
@@ -1324,13 +1324,13 @@
         <processor xml:id="proc.unspecified.878fa02e" name="unspecified"/>
         <processor xml:id="proc.ucto.9ae4f8b9" name="ucto"/>
       </processor>
-      <processor xml:id="frog.1" begindatetime="2021-09-23T13:42:50" command="frog --skip=mp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-09-27T15:19:14" command="frog --skip=mp --language=nld -o issue73_1.out -X issue73_a_out.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="tagger.1" begindatetime="2021-09-23T13:42:50" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-23T13:42:50" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-23T13:42:50" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-23T13:42:50" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-23T13:42:50" name="NER" version="2.2"/>
+        <processor xml:id="tagger.1" begindatetime="2021-09-27T15:19:14" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-09-27T15:19:14" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-09-27T15:19:14" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-09-27T15:19:14" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-09-27T15:19:14" name="NER" version="2.2"/>
       </processor>
     </provenance>
     <meta id="authorLevel1">Verwey, Albert</meta>

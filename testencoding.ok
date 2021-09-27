@@ -16,7 +16,7 @@
 16	het	het	[het]	LID(bep,stan,evon)	0.997424	O	B-NP				
 17	ministerie	ministerie	[minister][ie]	N(soort,ev,basis,onz,stan)	0.999008	O	I-NP				
 18	van	van	[van]	VZ(init)	0.990421	O	B-PP				
-19	Landbouw	Landbouw	[Landbouw]	SPEC(deeleigen)	1.000000	B-MISC	B-NP				
+19	Landbouw	Landbouw	[Landbouw]	SPEC(deeleigen)	1.000000	B-misc	B-NP				
 20	in	in	[in]	VZ(init)	0.999033	O	B-PP				
 21	principe	principe	[principe]	N(soort,ev,basis,onz,stan)	0.996804	O	B-NP				
 22	hun	hun	[hun]	VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)	0.918501	O	B-NP				
@@ -37,11 +37,11 @@
 
 1	Voorzitter	voorzitter	[voor][zit][er]	N(soort,ev,basis,zijd,stan)	0.992385	O	B-NP				
 2	C.	C.	[C.]	SPEC(deeleigen)	1.000000	O	B-NP				
-3	van	van	[van]	SPEC(deeleigen)	1.000000	B-PER	I-NP				
-4	Gisbergen	Gisbergen	[Gisbergen]	SPEC(deeleigen)	1.000000	I-PER	I-NP				
+3	van	van	[van]	SPEC(deeleigen)	1.000000	B-per	I-NP				
+4	Gisbergen	Gisbergen	[Gisbergen]	SPEC(deeleigen)	1.000000	I-per	I-NP				
 5	van	van	[van]	VZ(init)	0.963788	O	B-PP				
 6	de	de	[de]	LID(bep,stan,rest)	0.981887	O	B-NP				
-7	LTO-vakgroep	lto-vakgroep	[lto-vak][groep]	N(soort,ev,basis,zijd,stan)	0.585723	B-MISC	I-NP				
+7	LTO-vakgroep	lto-vakgroep	[lto-vak][groep]	N(soort,ev,basis,zijd,stan)	0.585723	B-misc	I-NP				
 8	varkenshouderij	varkenshouderij	[varken][s][houd][erij]	N(soort,ev,basis,zijd,stan)	0.995338	O	B-NP				
 9	zegt	zeggen	[zeg][t]	WW(pv,tgw,met-t)	0.999565	O	B-VP				
 10	dat	dat	[dat]	VG(onder)	0.857143	O	B-SBAR				
@@ -149,9 +149,9 @@
 13	'	'	[']	LET()	1.000000	O	O				
 
 1	Door	door	[door]	VZ(init)	0.978335	O	B-PP				
-2	Guus	Guus	[Guus]	SPEC(deeleigen)	1.000000	B-PER	B-NP				
-3	Spijkers	Spijkers	[Spijkers]	SPEC(deeleigen)	1.000000	I-PER	I-NP				
-4	TILBURG	TILBURG	[TILBURG]	SPEC(deeleigen)	1.000000	I-PER	I-NP				
+2	Guus	Guus	[Guus]	SPEC(deeleigen)	1.000000	B-per	B-NP				
+3	Spijkers	Spijkers	[Spijkers]	SPEC(deeleigen)	1.000000	I-per	I-NP				
+4	TILBURG	TILBURG	[TILBURG]	SPEC(deeleigen)	1.000000	I-per	I-NP				
 5	-	-	[-]	LET()	1.000000	O	O				
 6	Slechts	slechts	[slechts]	BW()	0.995867	O	B-NP				
 7	enkele	enkel	[enkele]	VNW(onbep,det,stan,prenom,met-e,rest)	0.998946	O	I-NP				
@@ -160,8 +160,8 @@
 10	de	de	[de]	LID(bep,stan,rest)	0.999852	O	B-NP				
 11	spelers	speler	[speel][er][s]	N(soort,mv,basis)	0.999668	O	I-NP				
 12	van	van	[van]	VZ(init)	0.959312	O	B-PP				
-13	CVT	CVT	[CVT]	SPEC(deeleigen)	1.000000	B-ORG	B-NP				
-14	Trappers	Trappers	[Trappers]	SPEC(deeleigen)	1.000000	I-ORG	I-NP				
+13	CVT	CVT	[CVT]	SPEC(deeleigen)	1.000000	B-org	B-NP				
+14	Trappers	Trappers	[Trappers]	SPEC(deeleigen)	1.000000	I-org	I-NP				
 15	tijd	tijd	[tijd]	N(soort,ev,basis,zijd,stan)	0.999884	O	I-NP				
 16	gehad	hebben	[ge][heb][d]	WW(vd,vrij,zonder)	0.999777	O	B-VP				
 17	te	te	[te]	VZ(init)	0.907461	O	I-VP				
@@ -172,7 +172,7 @@
 22	driedaagse	driedaags	[drie][dag][s][e]	ADJ(prenom,basis,met-e,stan)	0.885728	O	I-NP				
 23	ijshockeytoernooi	ijshockeytoernooi	[ijs][hockeytoernooi]	N(soort,ev,basis,zijd,stan)	0.671444	O	I-NP				
 24	in	in	[in]	VZ(init)	0.999588	O	B-PP				
-25	Tilburg	Tilburg	[Tilburg]	SPEC(deeleigen)	1.000000	B-LOC	B-NP				
+25	Tilburg	Tilburg	[Tilburg]	SPEC(deeleigen)	1.000000	B-loc	B-NP				
 26	dat	dat	[dat]	VNW(betr,pron,stan,vol,3,ev)	0.500000	O	B-SBAR				
 27	met	met	[met]	VZ(init)	0.999728	O	B-PP				
 28	winst	winst	[win][st]	N(soort,ev,basis,zijd,stan)	0.998935	O	B-NP				
