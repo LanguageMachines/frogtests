@@ -35,7 +35,7 @@
 12	concurreren	concurreren	[concurreer][en]	WW(inf,vrij,zonder)	0.738241	O	I-VP	11	vc
 13	met	met	[met]	VZ(init)	0.999574	O	B-PP	12	pc
 14	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-org	B-NP	15	cnj
-15	en	en	[en]	VG(neven)	0.994836	O	B-CONJP	13	obj1
+15	en	en	[en]	VG(neven)	0.994834	O	B-CONJP	13	obj1
 16	Yahoo	Yahoo	[Yahoo]	SPEC(deeleigen)	1.000000	B-org	B-NP	15	cnj
 17	!	!	[!]	LET()	1.000000	I-org	I-NP	16	punct
 18	.	.	[.]	LET()	1.000000	O	O	16	punct
@@ -51,7 +51,7 @@
 9	vaak	vaak	[vaak]	ADJ(vrij,basis,zonder)	0.883333	O	B-ADVP	10	mod
 10	levert	leveren	[lever][t]	WW(pv,tgw,met-t)	0.999485	O	B-VP	8	cnj
 11	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	B-NP	12	det
-12	zoekresultaat	zoekresultaat	[zoe][k][resulteer][aat]	N(soort,ev,basis,zijd,stan)	0.796590	O	I-NP	10	su
+12	zoekresultaat	zoekresultaat	[zoe][k][resulteer][aat]	N(soort,ev,basis,zijd,stan)	0.796575	O	I-NP	10	su
 13	niets	niets	[niets]	VNW(onbep,pron,stan,vol,3o,ev)	0.997921	O	B-NP	3	su
 14	meer	veel	[meer]	VNW(onbep,grad,stan,vrij,zonder,comp)	0.986742	O	B-ADVP	13	mod
 15	op	op	[op]	VZ(fin)	0.850000	O	B-PP	16	pc
@@ -86,7 +86,7 @@
 17	ondernemingen	onderneming	[onderneem][ing][en]	N(soort,mv,basis)	0.999588	O	I-NP	15	cnj
 18	.	.	[.]	LET()	1.000000	O	O	17	punct
 
-1	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.963584	O	B-NP	4	su
+1	Zoekopdrachten	zoekopdracht	[zoe][kopdracht][en]	N(soort,mv,basis)	0.963743	O	B-NP	4	su
 2	bij	bij	[bij]	VZ(init)	0.989796	O	B-PP	1	mod
 3	Google	Google	[Google]	SPEC(deeleigen)	1.000000	B-org	B-NP	2	obj1
 4	worden	worden	[word][en]	WW(pv,tgw,mv)	1.000000	O	B-VP	0	ROOT
@@ -129,7 +129,7 @@
 4	goed	goed	[goed]	ADJ(vrij,basis,zonder)	0.934383	O	B-ADJP	3	predc
 5	en	en	[en]	VG(neven)	0.999194	O	B-CONJP	0	ROOT
 6	deze	deze	[deze]	VNW(aanw,det,stan,prenom,met-e,rest)	0.999113	O	B-NP	7	det
-7	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998231	O	I-NP	13	su
+7	pagina	pagina	[pagina]	N(soort,ev,basis,zijd,stan)	0.998230	O	I-NP	13	su
 8	'	'	[']	LET()	1.000000	O	O	7	punct
 9	sucks	sucks	[sucks]	SPEC(vreemd)	1.000000	O	B-NP	7	app
 10	'	'	[']	LET()	1.000000	O	O	9	punct
@@ -239,20 +239,20 @@
       <head-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-27T15:09:51" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-10-19T15:34:45" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-27T15:09:51" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-10-19T15:34:45" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-27T15:09:51" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-27T15:09:51" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-27T15:09:51" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-27T15:09:51" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-27T15:09:51" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2021-09-27T15:09:51" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2021-09-27T15:09:51" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2021-10-19T15:34:45" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-10-19T15:34:45" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-10-19T15:34:45" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-10-19T15:34:45" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-10-19T15:34:45" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2021-10-19T15:34:45" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2021-10-19T15:34:45" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -512,20 +512,20 @@ Gaat deze datum: 28-11-2011 goed?</t>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-27T15:09:55" command="frog -x folia1.xml --nostdout --KANON -X testparser2.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-10-19T15:34:49" command="frog -x folia1.xml --nostdout --KANON -X testparser2.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-27T15:09:55" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-10-19T15:34:49" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-27T15:09:55" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-27T15:09:55" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-27T15:09:55" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-27T15:09:55" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-27T15:09:55" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2021-09-27T15:09:55" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2021-09-27T15:09:55" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2021-10-19T15:34:49" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-10-19T15:34:49" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-10-19T15:34:49" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-10-19T15:34:49" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-10-19T15:34:49" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2021-10-19T15:34:49" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2021-10-19T15:34:49" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -679,7 +679,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
             <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1.0">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.13" t="28-11-2011"/>
             </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756465">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756471">
               <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
             </chunk>
           </chunking>
@@ -770,7 +770,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="WORD" space="no">
             <t>datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998231" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>

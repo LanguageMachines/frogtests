@@ -38,16 +38,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-27T14:55:05" command="frog --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-10-19T15:34:01" command="frog --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-27T14:55:05" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-10-19T15:34:01" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-27T14:55:05" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-27T14:55:05" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-27T14:55:05" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2021-10-19T15:34:01" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-10-19T15:34:01" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-10-19T15:34:01" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -208,7 +208,7 @@
   </text>
 </FoLiA>
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	aftaaiende	aftaaien	[[aftaai]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.841821								
+2	aftaaiende	aftaaien	[[aftaai]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.841869								
 3	abituriënten	abituriënt	[[[abituriënt]noun[e]]noun[n]/plural]noun	0	N(soort,mv,basis)	1.000000								
 4	bakkeleien	bakkeleien	[[bakkelei]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.900000								
 5	over	over	[over]preposition	0	VZ(init)	0.999393								
@@ -219,10 +219,10 @@
 1	Ze	ze	[ze]pronoun	0	VNW(pers,pron,stan,red,3,mv)	0.999366								
 2	leiden	leiden	[[leid]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.857143								
 3	aan	aan	[aan]preposition	0	VZ(init)	0.745129								
-4	bacteriënvrees	bacteriënvrees	[[bacterie]noun[en]/plural[vrees]noun/singular]noun	0	N(soort,mv,basis)	0.648026								
+4	bacteriënvrees	bacteriënvrees	[[bacterie]noun[en]/plural[vrees]noun/singular]noun	0	N(soort,mv,basis)	0.648076								
 5	vanwege	vanwege	[vanwege]preposition	0	VZ(init)	0.999078								
 6	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-7	bediendenbelastingen	bediendenbelasting	[[[bediende]noun[n][[[be][last]noun]verb[ing]]noun]noun[en]/plural]noun	NN-compound	N(soort,mv,basis)	0.903899								
+7	bediendenbelastingen	bediendenbelasting	[[[bediende]noun[n][[[be][last]noun]verb[ing]]noun]noun[en]/plural]noun	NN-compound	N(soort,mv,basis)	0.903950								
 8	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
@@ -234,14 +234,14 @@
 7	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	beoliënde	beoliënde	[beoliënde]noun	0	N(soort,ev,basis,zijd,stan)	0.378748								
+2	beoliënde	beoliënde	[beoliënde]noun	0	N(soort,ev,basis,zijd,stan)	0.378789								
 3	en	en	[en]conjunction	0	VG(neven)	0.999194								
-4	betraliënde	betraliënde	[[be][tralie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	ADJ(prenom,basis,met-e,stan)	0.591539								
+4	betraliënde	betraliënde	[[be][tralie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	ADJ(prenom,basis,met-e,stan)	0.591578								
 5	bezienswaardigheden	bezienswaardigheid	[[[be][zie]verb]verb[ns][[[waarde]noun[ig]]adjective[heid]]noun[en]/plural]noun	0	N(soort,mv,basis)	0.999588								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	braniënde	braniën	[[branie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.622994								
+2	braniënde	braniën	[[branie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.623095								
 3	buspatiënten	buspatiënt	[[[bus]noun[patiënt]noun]noun[en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 4	gebruiken	gebruiken	[gebruiken]verb	0	WW(inf,vrij,zonder)	0.782343								
 5	catechumenenolie	catechumenenolie	[[catechumeen]noun[en][olie]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
@@ -255,7 +255,7 @@
 6	hun	hun	[hun]pronoun	0	VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)	0.918501								
 7	dienstbodenkamertje	dienstbodenkamer	[[[dien]verb[st]]noun[[bode]noun[n][kamer]noun]noun[tje]/diminutive/singular]noun	NN-compound	N(soort,ev,dim,onz,stan)	0.999323								
 8	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-9	dienstverleningsaanbod	dienstverleningsaanbod	[[[[dien]verb[st]]noun[[ver][leen]verb]verb[ing]]noun[s][aanbod]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.935756								
+9	dienstverleningsaanbod	dienstverleningsaanbod	[[[[dien]verb[st]]noun[[ver][leen]verb]verb[ing]]noun[s][aanbod]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.935865								
 10	toe	toe	[toe]preposition/singular	0	VZ(fin)	0.998680								
 11	.	.	[.]	0	LET()	1.000000								
 
@@ -263,11 +263,11 @@
 2	differentiaalquotiënten	differentiaalquotiënt	[[[[[different]adjective[ie]]noun[aal]]noun[quotiënt]noun]noun[en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 3	werden	worden	[[word]verb[en]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.997831								
 4	in	in	[in]preposition	0	VZ(init)	0.931126								
-5	estafettendiensten	estafettendienst	[[[estafette]noun[n][[dien]verb[st]]noun]noun[en]/plural]noun	NN-compound	N(soort,mv,basis)	0.937841								
+5	estafettendiensten	estafettendienst	[[[estafette]noun[n][[dien]verb[st]]noun]noun[en]/plural]noun	NN-compound	N(soort,mv,basis)	0.937906								
 6	met	met	[met]preposition/singular	0	VZ(init)	0.999480								
 7	evangeliënharmonieën	evangeliënharmonie	[[[evangelie]noun[en][[harmon]adjective[ie]]noun]noun[en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 8	en	en	[en]conjunction	0	VG(neven)	0.999194								
-9	flikflooiende	flikflooien	[[flikflooi]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.582956								
+9	flikflooiende	flikflooien	[[flikflooi]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.582833								
 10	zeloten	zeloot	[[zeloot]noun[en]/plural]noun	0	N(soort,mv,basis)	1.000000								
 11	afgeleverd	afleveren	[[af]preposition[ge]/participle/past-tense[lever]verb[d]/participle/past-tense]verb	0	WW(vd,vrij,zonder)	0.998385								
 12	bij	bij	[bij]preposition	0	VZ(init)	0.998628								
@@ -283,8 +283,8 @@
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	klaspatienten	klaspatient	[[[klas]noun[patient]noun]noun[en]/plural]noun	NN-compound	N(soort,mv,basis)	0.890385								
-3	laveien	laveien	[[lavei]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.383783								
+2	klaspatienten	klaspatient	[[[klas]noun[patient]noun]noun[en]/plural]noun	NN-compound	N(soort,mv,basis)	0.890345								
+3	laveien	laveien	[[lavei]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.384086								
 4	door	door	[door]preposition/singular	0	VZ(init)	0.856675								
 5	het	het	[het]article	0	LID(bep,stan,evon)	0.702074								
 6	leliënbed	leliënbed	[[lelie]noun[en][bed]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	1.000000								
@@ -294,25 +294,25 @@
 2	lagen	liggen	[[lig]verb[en]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.689655								
 3	in	in	[in]preposition	0	VZ(init)	0.998790								
 4	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-5	zeswekendienst	zeswekendienst	[[zes]quantifier-numeral[week]noun[en][[dien]verb[st]]noun]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.818529								
+5	zeswekendienst	zeswekendienst	[[zes]quantifier-numeral[week]noun[en][[dien]verb[st]]noun]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.818502								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Ziekenfondspatiënten	ziekenfondspatiënt	[[[[zieke]noun[en][fonds]noun]noun[patiënt]noun]noun[en]/plural]noun	NNN-compound	N(soort,mv,basis)	1.000000								
 2	draaiden	draaien	[[draai]verb[den]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.993311								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	ziekenhuisdienst	ziekenhuisdienst	[[[zieke]noun[en][huis]noun]noun[[dien]verb[st]]noun/singular]noun	NN-compound	N(soort,ev,basis,zijd,stan)	0.913717								
+4	ziekenhuisdienst	ziekenhuisdienst	[[[zieke]noun[en][huis]noun]noun[[dien]verb[st]]noun/singular]noun	NN-compound	N(soort,ev,basis,zijd,stan)	0.913700								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771								
-2	neuriënde	neuriën	[[neurie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.992108								
+2	neuriënde	neuriën	[[neurie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.992111								
 3	ziekenhuisvoorziening	ziekenhuisvoorziening	[[[zieke]noun[en][huis]noun]noun[voor]adverb[[zie]verb[ing]]noun/singular]noun	0	N(soort,ev,basis,zijd,stan)	1.000000								
 4	.	.	[.]	0	LET()	1.000000								
 
 1	Alles	alles	[alles]pronoun	0	VNW(onbep,pron,stan,vol,3o,ev)	0.994808								
-2	overziende	overziende	[[over]preposition[zie]verb[nd]/participle/present-tense[e]/suffix-e]verb	PV-compound	WW(pv,verl,ev)	0.954421								
+2	overziende	overziende	[[over]preposition[zie]verb[nd]/participle/present-tense[e]/suffix-e]verb	PV-compound	WW(pv,verl,ev)	0.954401								
 3	zijn	zijn	[zijn]verb/infinitive	0	WW(inf,vrij,zonder)	0.666667								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-5	pagaaiende	pagaaien	[[pagaai]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.757989								
+5	pagaaiende	pagaaien	[[pagaai]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.758024								
 6	patiënten	patiënt	[[patiënt]noun[en]/plural]noun	0	N(soort,mv,basis)	0.998020								
 7	pierenwaaiende	pierenwaaiende	[[pier]noun[en][waai]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(pv,verl,ev)	1.000000								
 8	.	.	[.]	0	LET()	1.000000								
@@ -320,7 +320,7 @@
 1	Of	of	[of]conjunction	0	VG(neven)	0.900891								
 2	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.991297								
 3	ze	ze	[ze]pronoun	0	VNW(pers,pron,stan,red,3,mv)	0.670897								
-4	papegaaiende	papegaaiende	[[papegaai]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(pv,verl,ev)	0.785116								
+4	papegaaiende	papegaaiende	[[papegaai]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(pv,verl,ev)	0.785145								
 5	?	?	[?]	0	LET()	1.000000								
 
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771								
@@ -335,7 +335,7 @@
 5	en	en	[en]conjunction	0	VG(neven)	0.997774								
 6	zie	zien	[zie]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.997988								
 7	al	al	[al]adverb	0	BW()	0.903833								
-8	skiënde	skiënde	[[ski]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,vrij,zonder)	0.329681								
+8	skiënde	skiënde	[[ski]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,vrij,zonder)	0.329697								
 9	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
 10	skiënde	skiën	[[ski]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	1.000000								
 11	schaliëndekker	schaliëndekker	[[schalie]noun[en][dek]verb[er]]noun/singular	0	N(soort,ev,basis,zijd,stan)	1.000000								
@@ -347,7 +347,7 @@
 
 1	Al	al	[al]adverb	0	BW()	0.626101								
 2	neuriënd	neuriën	[[neurie]verb[end]/participle/present-tense]verb	0	WW(od,vrij,zonder)	0.996736								
-3	meniënde	meniënde	[[menie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(pv,verl,ev)	0.723932								
+3	meniënde	meniënde	[[menie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(pv,verl,ev)	0.724020								
 4	aan	aan	[aan]preposition	0	VZ(init)	0.996734								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
 6	maliënkolders	maliënkolder	[[[malie]noun[en][kolder]noun]noun[s]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
@@ -362,14 +362,14 @@
 15	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	monopoliënde	monopoliën	[[monopolie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.654614								
+2	monopoliënde	monopoliën	[[monopolie]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.654721								
 3	oliën	olie	[[olie]noun[en]/plural]noun	0	N(soort,mv,basis)	0.916667								
 4	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.597701								
 5	onhygiënisch	onhygiënisch	[[on][[hygiëne]noun[isch]]adjective/positive]adjective	0	ADJ(vrij,basis,zonder)	0.909402								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Wij	wij	[wij]pronoun	0	VNW(pers,pron,nomin,vol,1,mv)	0.998887								
-2	ontmoeien	ontmoeien	[[ontmoei]verb[en]/infinitive]verb	0	WW(pv,tgw,mv)	0.562387								
+2	ontmoeien	ontmoeien	[[ontmoei]verb[en]/infinitive]verb	0	WW(pv,tgw,mv)	0.562293								
 3	ons	ons	[ons]pronoun	0	VNW(pr,pron,obl,vol,1,mv)	0.979381								
 4	met	met	[met]preposition/singular	0	VZ(init)	0.999820								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
@@ -384,7 +384,7 @@
 5	we	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.999170								
 6	het	het	[het]article	0	LID(bep,stan,evon)	0.997424								
 7	dak	dak	[dak]noun/singular	0	N(soort,ev,basis,onz,stan)	0.996804								
-8	verleien	verleien	[[verlei]verb[en]/infinitive]verb	0	ADJ(vrij,basis,zonder)	0.322911								
+8	verleien	verleien	[[verlei]verb[en]/infinitive]verb	0	ADJ(vrij,basis,zonder)	0.323011								
 9	moesten	moeten	[[moet]verb[en]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.997888								
 10	.	.	[.]	0	LET()	1.000000								
 
@@ -400,7 +400,7 @@
 3	Piet	Piet	[Piet]	0	SPEC(deeleigen)	1.000000								
 4	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.991803								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-6	expediënten	expediënt	[[expedieer]noun[ent]/singular[en]/plural]noun	0	N(soort,mv,basis)	0.637161								
+6	expediënten	expediënt	[[expedieer]noun[ent]/singular[en]/plural]noun	0	N(soort,mv,basis)	0.637163								
 7	.	.	[.]	0	LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -436,16 +436,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-27T14:55:07" command="frog --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-10-19T15:34:03" command="frog --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-27T14:55:07" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-10-19T15:34:03" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-27T14:55:07" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-27T14:55:07" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-27T14:55:07" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2021-10-19T15:34:03" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-10-19T15:34:03" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-10-19T15:34:03" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -476,7 +476,7 @@
         </w>
         <w xml:id="torture.p.1.s.1.w.2" class="WORD">
           <t>aftaaiende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.841821" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.841869" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -760,7 +760,7 @@
         </w>
         <w xml:id="torture.p.2.s.1.w.4" class="WORD">
           <t>bacteriënvrees</t>
-          <pos class="N(soort,mv,basis)" confidence="0.648026" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.648076" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -828,7 +828,7 @@
         </w>
         <w xml:id="torture.p.2.s.1.w.7" class="WORD" space="no">
           <t>bediendenbelastingen</t>
-          <pos class="N(soort,mv,basis)" confidence="0.903899" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.90395" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -1160,7 +1160,7 @@
         </w>
         <w xml:id="torture.p.4.s.1.w.2" class="WORD">
           <t>beoliënde</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.378748" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.378789" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -1197,7 +1197,7 @@
         </w>
         <w xml:id="torture.p.4.s.1.w.4" class="WORD">
           <t>betraliënde</t>
-          <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.591539" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(prenom,basis,met-e,stan)" confidence="0.591578" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="prenom" subset="positie"/>
             <feat class="basis" subset="graad"/>
             <feat class="met-e" subset="buiging"/>
@@ -1330,7 +1330,7 @@
         </w>
         <w xml:id="torture.p.5.s.1.w.2" class="WORD">
           <t>braniënde</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.622994" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.623095" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -1716,7 +1716,7 @@
         </w>
         <w xml:id="torture.p.6.s.1.w.9" class="WORD">
           <t>dienstverleningsaanbod</t>
-          <pos class="N(soort,ev,basis,onz,stan)" confidence="0.935756" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,onz,stan)" confidence="0.935865" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -1954,7 +1954,7 @@
         </w>
         <w xml:id="torture.p.7.s.1.w.5" class="WORD">
           <t>estafettendiensten</t>
-          <pos class="N(soort,mv,basis)" confidence="0.937841" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.937906" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2099,7 +2099,7 @@
         </w>
         <w xml:id="torture.p.7.s.1.w.9" class="WORD">
           <t>flikflooiende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.582956" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.582833" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -2485,7 +2485,7 @@
         </w>
         <w xml:id="torture.p.9.s.1.w.2" class="WORD">
           <t>klaspatienten</t>
-          <pos class="N(soort,mv,basis)" confidence="0.890385" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.890345" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2523,7 +2523,7 @@
         </w>
         <w xml:id="torture.p.9.s.1.w.3" class="WORD">
           <t>laveien</t>
-          <pos class="WW(pv,tgw,mv)" confidence="0.383783" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,tgw,mv)" confidence="0.384086" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -2759,7 +2759,7 @@
         </w>
         <w xml:id="torture.p.10.s.1.w.5" class="WORD" space="no">
           <t>zeswekendienst</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.818529" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.818502" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -2930,7 +2930,7 @@
         </w>
         <w xml:id="torture.p.11.s.1.w.4" class="WORD" space="no">
           <t>ziekenhuisdienst</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.913717" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.9137" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -3025,7 +3025,7 @@
         </w>
         <w xml:id="torture.p.12.s.1.w.2" class="WORD">
           <t>neuriënde</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.992108" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.992111" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -3156,7 +3156,7 @@
         </w>
         <w xml:id="torture.p.13.s.1.w.2" class="WORD">
           <t>overziende</t>
-          <pos class="WW(pv,verl,ev)" confidence="0.954421" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,verl,ev)" confidence="0.954401" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="verl" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
@@ -3238,7 +3238,7 @@
         </w>
         <w xml:id="torture.p.13.s.1.w.5" class="WORD">
           <t>pagaaiende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.757989" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.758024" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -3419,7 +3419,7 @@
         </w>
         <w xml:id="torture.p.14.s.1.w.4" class="WORD" space="no">
           <t>papegaaiende</t>
-          <pos class="WW(pv,verl,ev)" confidence="0.785116" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,verl,ev)" confidence="0.785145" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="verl" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
@@ -3803,7 +3803,7 @@
         </w>
         <w xml:id="torture.p.16.s.1.w.8" class="WORD">
           <t>skiënde</t>
-          <pos class="WW(od,vrij,zonder)" confidence="0.329681" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,vrij,zonder)" confidence="0.329697" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -4092,7 +4092,7 @@
         </w>
         <w xml:id="torture.p.17.s.1.w.3" class="WORD">
           <t>meniënde</t>
-          <pos class="WW(pv,verl,ev)" confidence="0.723932" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,verl,ev)" confidence="0.72402" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="verl" subset="pvtijd"/>
             <feat class="ev" subset="pvagr"/>
@@ -4474,7 +4474,7 @@
         </w>
         <w xml:id="torture.p.18.s.1.w.2" class="WORD">
           <t>monopoliënde</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.654614" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.654721" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -4631,7 +4631,7 @@
         </w>
         <w xml:id="torture.p.19.s.1.w.2" class="WORD">
           <t>ontmoeien</t>
-          <pos class="WW(pv,tgw,mv)" confidence="0.562387" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,tgw,mv)" confidence="0.562293" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -4974,7 +4974,7 @@
         </w>
         <w xml:id="torture.p.20.s.1.w.8" class="WORD">
           <t>verleien</t>
-          <pos class="ADJ(vrij,basis,zonder)" confidence="0.322911" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(vrij,basis,zonder)" confidence="0.323011" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="vrij" subset="positie"/>
             <feat class="basis" subset="graad"/>
             <feat class="zonder" subset="buiging"/>
@@ -5283,7 +5283,7 @@
         </w>
         <w xml:id="torture.p.22.s.1.w.6" class="WORD" space="no">
           <t>expediënten</t>
-          <pos class="N(soort,mv,basis)" confidence="0.637161" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.637163" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -5328,7 +5328,7 @@
 </FoLiA>
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.991282								
 2	Tilburgse	tilburgs	[[til]noun[burgse]adjective/positive]adjective	NA-compound	ADJ(prenom,basis,met-e,stan)	0.981205								
-3	academiën	academie	[[[academ]adjective[isch]]noun[en]/plural]noun	0	N(soort,mv,basis)	0.905100								
+3	academiën	academie	[[[academ]adjective[isch]]noun[en]/plural]noun	0	N(soort,mv,basis)	0.905163								
 4	verkiezen	verkiezen	[[[ver][kies]verb]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.884615								
 5	het	het	[het]article	0	LID(bep,stan,evon)	0.702074								
 6	abbreviëren	abbreviëren	[[abbrevieer]verb[en]/infinitive]verb	0	WW(inf,nom,zonder,zonder-n)	1.000000								
@@ -5339,7 +5339,7 @@
 11	.	.	[.]	0	LET()	1.000000								
 
 1	Wij	wij	[wij]pronoun	0	VNW(pers,pron,nomin,vol,1,mv)	0.998887								
-2	affiliëren	affiliëren	[[affilieer]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.637363								
+2	affiliëren	affiliëren	[[affilieer]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.637275								
 3	ons	ons	[ons]pronoun	0	VNW(pr,pron,obl,vol,1,mv)	0.985222								
 4	niet	niet	[niet]adverb	0	BW()	0.999918								
 5	hiermee	hiermee	[[hier]adverb[mee]adverb]adverb	BB-compound	BW()	0.987097								
@@ -5379,7 +5379,7 @@
 4	bediscussiëren	bediscussiëren	[[[be][discussieer]verb]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.857143								
 5	in	in	[in]preposition	0	VZ(init)	0.999350								
 6	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-7	concipiërende	concipiëren	[[concipieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.910523								
+7	concipiërende	concipiëren	[[concipieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.910471								
 8	vergadering	vergadering	[[vergader]verb[ing]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998281								
 9	?	?	[?]	0	LET()	1.000000								
 
@@ -5402,23 +5402,23 @@
 5	dagen	dag	[[dag]noun[en]/plural]noun	0	N(soort,mv,basis)	0.995536								
 6	aan	aan	[aan]preposition	0	VZ(init)	0.996533								
 7	het	het	[het]article	0	LID(bep,stan,evon)	0.702074								
-8	conciliëren	conciliëren	[[concilieer]verb[en]/infinitive]verb	0	WW(inf,nom,zonder,zonder-n)	0.756861								
+8	conciliëren	conciliëren	[[concilieer]verb[en]/infinitive]verb	0	WW(inf,nom,zonder,zonder-n)	0.757060								
 9	.	.	[.]	0	LET()	1.000000								
 
 1	Ze	ze	[ze]pronoun	0	VNW(pers,pron,stan,red,3,mv)	0.514499								
-2	contrariëren	contrariëren	[[contrarieer]verb[en]/present-tense/plural]verb	0	WW(pv,verl,mv)	0.661011								
+2	contrariëren	contrariëren	[[contrarieer]verb[en]/present-tense/plural]verb	0	WW(pv,verl,mv)	0.660917								
 3	over	over	[over]preposition	0	VZ(init)	0.958333								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-5	contrariërende	contrariëren	[[contrarieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.743556								
-6	onderwerpen	onderwerp	[onderwerpen]noun	0	N(soort,mv,basis)	0.996471								
+5	contrariërende	contrariëren	[[contrarieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.743507								
+6	onderwerpen	onderwerp	[onderwerpen]noun	0	N(soort,mv,basis)	0.996470								
 7	!	!	[!]	0	LET()	1.000000								
 
 1	Ze	ze	[ze]pronoun	0	VNW(pers,pron,stan,red,3,mv)	0.514499								
-2	contrariëren	contrariëren	[[contrarieer]verb[en]/present-tense/plural]verb	0	WW(pv,verl,mv)	0.661011								
+2	contrariëren	contrariëren	[[contrarieer]verb[en]/present-tense/plural]verb	0	WW(pv,verl,mv)	0.660917								
 3	over	over	[over]preposition	0	VZ(init)	0.958333								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-5	contraveniërende	contraveniëren	[[contravenieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.743556								
-6	onderwerpen	onderwerp	[onderwerpen]noun	0	N(soort,mv,basis)	0.996471								
+5	contraveniërende	contraveniëren	[[contravenieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.743507								
+6	onderwerpen	onderwerp	[onderwerpen]noun	0	N(soort,mv,basis)	0.996470								
 7	!	!	[!]	0	LET()	1.000000								
 
 1	Maar	maar	[maar]conjunction	0	VG(neven)	0.994319								
@@ -5431,12 +5431,12 @@
 8	de	de	[de]article	0	LID(bep,stan,rest)	0.999647								
 9	spelling	spelling	[[spel]verb[ing]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999662								
 10	van	van	[van]preposition/singular	0	VZ(init)	0.959312								
-11	controversiëler	controversiëler	[controversiëler]noun	0	N(soort,ev,basis,onz,stan)	0.584208								
+11	controversiëler	controversiëler	[controversiëler]noun	0	N(soort,ev,basis,onz,stan)	0.584209								
 12	.	.	[.]	0	LET()	1.000000								
 
 1	Deze	deze	[deze]pronoun	0	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780								
 2	zaken	zaak	[[zaak]noun[en]/plural]noun	0	N(soort,mv,basis)	0.998020								
-3	conveniëren	conveniëren	[[convenieer]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.416862								
+3	conveniëren	conveniëren	[[convenieer]verb[en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.416741								
 4	ons	ons	[ons]pronoun	0	VNW(pr,pron,obl,vol,1,mv)	0.985222								
 5	niet	niet	[niet]adverb	0	BW()	0.999881								
 6	.	.	[.]	0	LET()	1.000000								
@@ -5477,7 +5477,7 @@
 6	.	.	[.]	0	LET()	1.000000								
 
 1	We	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.997215								
-2	excommuniëren	excommuniëren	[[[ex][communieer]verb]verb[en]/present-tense/plural]verb	0	WW(pv,verl,mv)	0.834151								
+2	excommuniëren	excommuniëren	[[[ex][communieer]verb]verb[en]/present-tense/plural]verb	0	WW(pv,verl,mv)	0.834196								
 3	hem	hem	[hem]pronoun	0	VNW(pers,pron,obl,vol,3,ev,masc)	0.989775								
 4	.	.	[.]	0	LET()	1.000000								
 
@@ -5489,7 +5489,7 @@
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	foliërende	foliëren	[[folieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.758898								
+2	foliërende	foliëren	[[folieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.758884								
 3	baliekluivers	baliekluiver	[[balie]noun[[kluif]verb[er]]noun[s]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 4	.	.	[.]	0	LET()	1.000000								
 
@@ -5498,27 +5498,27 @@
 3	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.662252								
 4	door	door	[door]preposition/singular	0	VZ(init)	0.998249								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-6	fotokopiërende	fotokopiëren	[[foto]noun[kopieer]verb[end]/participle/present-tense[e]/suffix-e]verb	NV-compound	WW(od,prenom,met-e)	0.629071								
+6	fotokopiërende	fotokopiëren	[[foto]noun[kopieer]verb[end]/participle/present-tense[e]/suffix-e]verb	NV-compound	WW(od,prenom,met-e)	0.629389								
 7	medewerkers	medewerker	[[mede]adverb[[werk]verb[er]]noun[s]/plural]noun	BN-compound	N(soort,mv,basis)	0.998020								
 8	verprutst	verprutsen	[[[ver][pruts]verb]verb[t]/participle/past-tense]verb	0	WW(vd,vrij,zonder)	0.802632								
 9	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	fructifiërende	fructifiëren	[[fructifieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.683664								
+2	fructifiërende	fructifiëren	[[fructifieer]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.683687								
 3	frou-frou	frou-frou	[frou-frou]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.997399								
 4	.	.	[.]	0	LET()	1.000000								
 
 1	Is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.996196								
-2	gangliën	ganglion	[[gangli]noun[on]/plural]noun	0	N(soort,mv,basis)	0.511962								
+2	gangliën	ganglion	[[gangli]noun[on]/plural]noun	0	N(soort,mv,basis)	0.512156								
 3	het	het	[het]article	0	LID(bep,stan,evon)	0.997424								
 4	meervoud	meervoud	[meervoud]noun/singular	0	N(soort,ev,basis,onz,stan)	0.999008								
 5	van	van	[van]preposition/singular	0	VZ(init)	0.959312								
-6	ganglion	ganglion	[ganglion]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.658204								
+6	ganglion	ganglion	[ganglion]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.658468								
 7	?	?	[?]	0	LET()	1.000000								
 
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999447								
-3	genaakt	genaken	[[ge]/participle/past-tense[naken]verb[t]/present-tense/singular/3rd-person-verb]verb	0	WW(vd,vrij,zonder)	0.906567								
+3	genaakt	genaken	[[ge]/participle/past-tense[naken]verb[t]/present-tense/singular/3rd-person-verb]verb	0	WW(vd,vrij,zonder)	0.906509								
 4	?	?	[?]	0	LET()	1.000000								
 
 1	Hij	hij	[hij]pronoun	0	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431								
@@ -5536,11 +5536,11 @@
 7	.	.	[.]	0	LET()	1.000000								
 
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771								
-2	gloriërend	gloriëren	[[glorieer]verb[end]/participle/present-tense]verb	0	WW(od,prenom,zonder)	0.733584								
+2	gloriërend	gloriëren	[[glorieer]verb[end]/participle/present-tense]verb	0	WW(od,prenom,zonder)	0.733600								
 3	moment	moment	[moment]noun/singular	0	N(soort,ev,basis,onz,stan)	0.997816								
 4	voor	voor	[voor]preposition/singular	0	VZ(init)	0.998512								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-6	jakhalzende	jakhalzen	[[jakhals]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.863224								
+6	jakhalzende	jakhalzen	[[jakhals]verb[end]/participle/present-tense[e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.863168								
 7	journalist	journalist	[[journaal]noun[ist]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998077								
 8	.	.	[.]	0	LET()	1.000000								
 
@@ -5562,7 +5562,7 @@
 6	niet	niet	[niet]adverb	0	BW()	0.999881								
 7	.	.	[.]	0	LET()	1.000000								
 
-1	Trocheeën	trochee	[[trocheus]noun[en]/plural]noun	0	N(soort,mv,basis)	0.955229								
+1	Trocheeën	trochee	[[trocheus]noun[en]/plural]noun	0	N(soort,mv,basis)	0.955247								
 2	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.875874								
 3	welbekend	welbekend	[[wel]adjective[bekend]adjective/positive]adjective	AA-compound	ADJ(vrij,basis,zonder)	0.981871								
 4	in	in	[in]preposition	0	VZ(init)	0.999350								
@@ -5608,16 +5608,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-27T14:55:09" command="frog --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-10-19T15:34:06" command="frog --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-27T14:55:09" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-10-19T15:34:06" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-27T14:55:09" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-27T14:55:09" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-27T14:55:09" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2021-10-19T15:34:06" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-10-19T15:34:06" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-10-19T15:34:06" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -5680,7 +5680,7 @@
         </w>
         <w xml:id="tortuur.p.1.s.1.w.3" class="WORD">
           <t>academiën</t>
-          <pos class="N(soort,mv,basis)" confidence="0.9051" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.905163" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -5927,7 +5927,7 @@
         </w>
         <w xml:id="tortuur.p.2.s.1.w.2" class="WORD">
           <t>affiliëren</t>
-          <pos class="WW(pv,tgw,mv)" confidence="0.637363" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,tgw,mv)" confidence="0.637275" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -6771,7 +6771,7 @@
         </w>
         <w xml:id="tortuur.p.7.s.1.w.7" class="WORD">
           <t>concipiërende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.910523" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.910471" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -7243,7 +7243,7 @@
         </w>
         <w xml:id="tortuur.p.9.s.1.w.8" class="WORD" space="no">
           <t>conciliëren</t>
-          <pos class="WW(inf,nom,zonder,zonder-n)" confidence="0.756861" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(inf,nom,zonder,zonder-n)" confidence="0.75706" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="inf" subset="wvorm"/>
             <feat class="nom" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -7309,7 +7309,7 @@
         </w>
         <w xml:id="tortuur.p.10.s.1.w.2" class="WORD">
           <t>contrariëren</t>
-          <pos class="WW(pv,verl,mv)" confidence="0.661011" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,verl,mv)" confidence="0.660917" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="verl" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -7375,7 +7375,7 @@
         </w>
         <w xml:id="tortuur.p.10.s.1.w.5" class="WORD">
           <t>contrariërende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.743556" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.743507" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -7405,7 +7405,7 @@
         </w>
         <w xml:id="tortuur.p.10.s.1.w.6" class="WORD" space="no">
           <t>onderwerpen</t>
-          <pos class="N(soort,mv,basis)" confidence="0.996471" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.99647" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -7461,7 +7461,7 @@
         </w>
         <w xml:id="tortuur.p.11.s.1.w.2" class="WORD">
           <t>contrariëren</t>
-          <pos class="WW(pv,verl,mv)" confidence="0.661011" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,verl,mv)" confidence="0.660917" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="verl" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -7527,7 +7527,7 @@
         </w>
         <w xml:id="tortuur.p.11.s.1.w.5" class="WORD">
           <t>contraveniërende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.743556" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.743507" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -7557,7 +7557,7 @@
         </w>
         <w xml:id="tortuur.p.11.s.1.w.6" class="WORD" space="no">
           <t>onderwerpen</t>
-          <pos class="N(soort,mv,basis)" confidence="0.996471" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.99647" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -7816,7 +7816,7 @@
         </w>
         <w xml:id="tortuur.p.12.s.1.w.11" class="WORD" space="no">
           <t>controversiëler</t>
-          <pos class="N(soort,ev,basis,onz,stan)" confidence="0.584208" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,onz,stan)" confidence="0.584209" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -7899,7 +7899,7 @@
         </w>
         <w xml:id="tortuur.p.13.s.1.w.3" class="WORD">
           <t>conveniëren</t>
-          <pos class="WW(pv,tgw,mv)" confidence="0.416862" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,tgw,mv)" confidence="0.416741" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="tgw" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -8781,7 +8781,7 @@
         </w>
         <w xml:id="tortuur.p.19.s.1.w.2" class="WORD">
           <t>excommuniëren</t>
-          <pos class="WW(pv,verl,mv)" confidence="0.834151" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(pv,verl,mv)" confidence="0.834196" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="pv" subset="wvorm"/>
             <feat class="verl" subset="pvtijd"/>
             <feat class="mv" subset="pvagr"/>
@@ -9061,7 +9061,7 @@
         </w>
         <w xml:id="tortuur.p.21.s.1.w.2" class="WORD">
           <t>foliërende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.758898" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.758884" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -9262,7 +9262,7 @@
         </w>
         <w xml:id="tortuur.p.22.s.1.w.6" class="WORD">
           <t>fotokopiërende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.629071" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.629389" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -9470,7 +9470,7 @@
         </w>
         <w xml:id="tortuur.p.23.s.1.w.2" class="WORD">
           <t>fructifiërende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.683664" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.683687" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -9568,7 +9568,7 @@
         </w>
         <w xml:id="tortuur.p.24.s.1.w.2" class="WORD">
           <t>gangliën</t>
-          <pos class="N(soort,mv,basis)" confidence="0.511962" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.512156" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -9662,7 +9662,7 @@
         </w>
         <w xml:id="tortuur.p.24.s.1.w.6" class="WORD" space="no">
           <t>ganglion</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.658204" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.658468" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -9744,7 +9744,7 @@
         </w>
         <w xml:id="tortuur.p.25.s.1.w.3" class="WORD" space="no">
           <t>genaakt</t>
-          <pos class="WW(vd,vrij,zonder)" confidence="0.906567" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(vd,vrij,zonder)" confidence="0.906509" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="vd" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -10185,7 +10185,7 @@
         </w>
         <w xml:id="tortuur.p.28.s.1.w.2" class="WORD">
           <t>gloriërend</t>
-          <pos class="WW(od,prenom,zonder)" confidence="0.733584" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,zonder)" confidence="0.7336" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -10280,7 +10280,7 @@
         </w>
         <w xml:id="tortuur.p.28.s.1.w.6" class="WORD">
           <t>jakhalzende</t>
-          <pos class="WW(od,prenom,met-e)" confidence="0.863224" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(od,prenom,met-e)" confidence="0.863168" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="od" subset="wvorm"/>
             <feat class="prenom" subset="positie"/>
             <feat class="met-e" subset="buiging"/>
@@ -10814,7 +10814,7 @@
       <s xml:id="tortuur.p.31.s.1">
         <w xml:id="tortuur.p.31.s.1.w.1" class="WORD">
           <t>Trocheeën</t>
-          <pos class="N(soort,mv,basis)" confidence="0.955229" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,mv,basis)" confidence="0.955247" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="mv" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -11100,7 +11100,7 @@
   </text>
 </FoLiA>
 1	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-2	waterkraan	waterkraan	[[water]noun[kraan]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.808697								
+2	waterkraan	waterkraan	[[water]noun[kraan]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.808704								
 3	.	.	[.]	0	LET()	1.000000								
 
 1	de	de	[de]article	0	LID(bep,stan,rest)	0.999805								
@@ -11124,12 +11124,12 @@
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771								
 2	plafond	plafond	[plafond]noun/singular	0	N(soort,ev,basis,onz,stan)	0.997959								
 3	van	van	[van]preposition/singular	0	VZ(init)	0.959312								
-4	zachtboard	zachtboard	[[zacht]adjective[board]noun/singular]noun	AN-compound	N(soort,ev,basis,zijd,stan)	0.564983								
+4	zachtboard	zachtboard	[[zacht]adjective[board]noun/singular]noun	AN-compound	N(soort,ev,basis,zijd,stan)	0.564982								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999791								
 2	ben	zijn	[zijn]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.999866								
-3	witheet	witheet	[[wit]adjective[heet]adjective/positive]adjective	AA-compound	ADJ(vrij,basis,zonder)	0.993504								
+3	witheet	witheet	[[wit]adjective[heet]adjective/positive]adjective	AA-compound	ADJ(vrij,basis,zonder)	0.993503								
 4	!	!	[!]	0	LET()	1.000000								
 
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
@@ -11159,7 +11159,7 @@
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999891								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	nietroker	nietroker	[[nie]adverb[[trook]verb[er]]noun/singular]noun	BN-compound	N(soort,ev,basis,zijd,stan)	0.950573								
+4	nietroker	nietroker	[[nie]adverb[[trook]verb[er]]noun/singular]noun	BN-compound	N(soort,ev,basis,zijd,stan)	0.950574								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Maar	maar	[maar]conjunction	0	VG(neven)	0.997961								
@@ -11179,7 +11179,7 @@
 3	trappen	trappen	[[trap]verb[en]/infinitive]verb	0	WW(inf,vrij,zonder)	0.510673								
 4	!	!	[!]	0	LET()	1.000000								
 
-1	Nietroken	nietroken	[nietroken]verb	0	WW(inf,vrij,zonder)	0.464753								
+1	Nietroken	nietroken	[nietroken]verb	0	WW(inf,vrij,zonder)	0.464728								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999817								
 3	eigenlijk	eigenlijk	[[eigen]noun[lijk]]adjective/positive	0	ADJ(vrij,basis,zonder)	0.997975								
 4	niet-roken	niet-roken	[niet-roken]noun	0	N(soort,ev,basis,onz,stan)	0.500000								
@@ -11211,7 +11211,7 @@
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999891								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	drinkeboer	drinkeboer	[[drinke]verb[boer]noun/singular]noun	VN-compound	N(soort,ev,basis,zijd,stan)	0.728868								
+4	drinkeboer	drinkeboer	[[drinke]verb[boer]noun/singular]noun	VN-compound	N(soort,ev,basis,zijd,stan)	0.728878								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.999701								
@@ -11236,11 +11236,11 @@
 2	klapwieken	klapwieken	[[klap]verb[wiek]verb[en]/infinitive]verb	VV-compound	WW(inf,vrij,zonder)	0.878378								
 3	door	door	[door]preposition/singular	0	VZ(init)	0.998249								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.999643								
-5	stad	stad	[stad]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998020								
+5	stad	stad	[stad]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998012								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	achterovergebogen	achterovergebogen	[[achter]preposition[over]preposition[ge]/participle/past-tense[buig]verb[en]/participle/past-tense]verb	PP-compound	ADJ(prenom,basis,zonder)	0.881827								
+2	achterovergebogen	achterovergebogen	[[achter]preposition[over]preposition[ge]/participle/past-tense[buig]verb[en]/participle/past-tense]verb	PP-compound	ADJ(prenom,basis,zonder)	0.881973								
 3	paal	paal	[paal]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.991561								
 4	.	.	[.]	0	LET()	1.000000								
 
@@ -11277,16 +11277,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-27T14:55:10" command="frog --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-10-19T15:34:08" command="frog --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-27T14:55:10" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-10-19T15:34:08" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-27T14:55:10" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-27T14:55:10" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-27T14:55:10" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2021-10-19T15:34:08" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-10-19T15:34:08" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-10-19T15:34:08" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -11317,7 +11317,7 @@
         </w>
         <w xml:id="compounds.p.1.s.1.w.2" class="WORD" space="no">
           <t>waterkraan</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.808697" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.808704" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -11824,7 +11824,7 @@
         </w>
         <w xml:id="compounds.p.5.s.1.w.4" class="WORD" space="no">
           <t>zachtboard</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.564983" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.564982" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -11943,7 +11943,7 @@
         </w>
         <w xml:id="compounds.p.6.s.1.w.3" class="WORD" space="no">
           <t>witheet</t>
-          <pos class="ADJ(vrij,basis,zonder)" confidence="0.993504" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(vrij,basis,zonder)" confidence="0.993503" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="vrij" subset="positie"/>
             <feat class="basis" subset="graad"/>
             <feat class="zonder" subset="buiging"/>
@@ -12517,7 +12517,7 @@
         </w>
         <w xml:id="compounds.p.11.s.1.w.4" class="WORD" space="no">
           <t>nietroker</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.950573" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.950574" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -12862,7 +12862,7 @@
       <s xml:id="compounds.p.15.s.1">
         <w xml:id="compounds.p.15.s.1.w.1" class="WORD">
           <t>Nietroken</t>
-          <pos class="WW(inf,vrij,zonder)" confidence="0.464753" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="WW(inf,vrij,zonder)" confidence="0.464728" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="inf" subset="wvorm"/>
             <feat class="vrij" subset="positie"/>
             <feat class="zonder" subset="buiging"/>
@@ -13516,7 +13516,7 @@
         </w>
         <w xml:id="compounds.p.20.s.1.w.4" class="WORD" space="no">
           <t>drinkeboer</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.728868" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.728878" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -14021,7 +14021,7 @@
         </w>
         <w xml:id="compounds.p.24.s.1.w.5" class="WORD" space="no">
           <t>stad</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99802" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998012" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -14084,7 +14084,7 @@
         </w>
         <w xml:id="compounds.p.25.s.1.w.2" class="WORD">
           <t>achterovergebogen</t>
-          <pos class="ADJ(prenom,basis,zonder)" confidence="0.881827" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="ADJ(prenom,basis,zonder)" confidence="0.881973" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="prenom" subset="positie"/>
             <feat class="basis" subset="graad"/>
             <feat class="zonder" subset="buiging"/>
@@ -14218,20 +14218,20 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-27T14:55:13" command="frog -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-10-19T15:34:11" command="frog -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-27T14:55:13" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-10-19T15:34:11" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-27T14:55:13" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-27T14:55:13" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-27T14:55:13" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-09-27T14:55:13" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-09-27T14:55:13" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2021-09-27T14:55:13" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2021-09-27T14:55:13" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2021-10-19T15:34:11" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-10-19T15:34:11" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-10-19T15:34:11" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2021-10-19T15:34:11" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2021-10-19T15:34:11" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2021-10-19T15:34:11" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2021-10-19T15:34:11" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -14535,7 +14535,7 @@
 1	Ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999791								
 2	zie	zien	[zie]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.954545								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	condensatiestreep	condensatiestreep	[[[[condens]noun[eer]]verb[atie]]noun[streep]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.789594								
+4	condensatiestreep	condensatiestreep	[[[[condens]noun[eer]]verb[atie]]noun[streep]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.789596								
 5	boven	boven	[boven]preposition	0	VZ(init)	0.532751								
 6	het	het	[het]article	0	LID(bep,stan,evon)	0.999914								
 7	consultatiebureau	consultatiebureau	[[[[consult]noun[eer]]verb[atie]]noun[bureau]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.996268								
@@ -14545,7 +14545,7 @@
 2	debiteurenadministratie	debiteurenadministratie	[[[[debiet]noun[eer]]verb[eur]]noun[en][[administreer]verb[atie]]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
 3	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.998276								
 4	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-5	regulatiemechanisme	regulatiemechanisme	[[[[regel]noun[eer]]verb[atie]]noun[mechanisme]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.729388								
+5	regulatiemechanisme	regulatiemechanisme	[[[[regel]noun[eer]]verb[atie]]noun[mechanisme]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.729400								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
@@ -14606,16 +14606,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-09-27T14:55:16" command="frog --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
+      <processor xml:id="frog.1" begindatetime="2021-10-19T15:34:14" command="frog --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-09-27T14:55:16" name="ucto" version="0.24">
+        <processor xml:id="ucto.1" begindatetime="2021-10-19T15:34:14" name="ucto" version="0.24">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2021-09-27T14:55:16" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-09-27T14:55:16" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-09-27T14:55:16" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2021-10-19T15:34:14" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2021-10-19T15:34:14" name="mblem" version="1.2"/>
+        <processor xml:id="mbma.1" begindatetime="2021-10-19T15:34:14" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -15149,7 +15149,7 @@
         </w>
         <w xml:id="fixtest.p.3.s.1.w.4" class="WORD">
           <t>condensatiestreep</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.789594" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.789596" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -15458,7 +15458,7 @@
         </w>
         <w xml:id="fixtest.p.4.s.1.w.5" class="WORD" space="no">
           <t>regulatiemechanisme</t>
-          <pos class="N(soort,ev,basis,onz,stan)" confidence="0.729388" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+          <pos class="N(soort,ev,basis,onz,stan)" confidence="0.7294" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
