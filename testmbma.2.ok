@@ -52,7 +52,7 @@ bezienswaardigheden {N(soort,mv,basis)}	[ [be]V_*V [zie]V [ns]A_V*A [waarde]N [i
 <utt>
 
 De {LID(bep,stan,rest)}	[ [de]D ]D
-braniënde {N(soort,ev,basis,zijd,stan)}	[braniënde]
+braniënde {WW(od,prenom,met-e)}	[ [branie]V [end]/pt [e]/E ]V
 buspatiënten {N(soort,mv,basis)}	[ [bus]N [patiënt]N [en]/m ]N NN-compound	NN
 gebruiken {WW(inf,vrij,zonder)}	[gebruiken]
 catechumenenolie {N(soort,ev,basis,zijd,stan)}	[ [catechumeen]N [en]N_N*N [olie]N 0/e ]N NN-compound	NN
@@ -155,7 +155,7 @@ regeringsdienst {N(soort,ev,basis,zijd,stan)}	[ [regeer]V [ing]N_V* [s]N_N*N [di
 <utt>
 
 Ik {VNW(pers,pron,nomin,vol,1,ev)}	[ [ik]O ]O
-ben {WW(pv,tgw,ev)}	[ [zijn]V 0/te2I ]V
+ben {WW(pv,tgw,ev)}	[ [zijn]V 0/te1 ]V
 een {LID(onbep,stan,agr)}	[ [een]D ]D
 skiër {N(soort,ev,basis,zijd,stan)}	[ [skiër]N 0/e ]N
 en {VG(neven)}	[ [en]C ]C
@@ -278,7 +278,7 @@ bezienswaardigheden {N(soort,mv,basis)}	[ [ [be]V_*V [zie]V ]V [ns]A_V*A [ [ [wa
 <utt>
 
 De {LID(bep,stan,rest)}	[ [de]D ]D
-braniënde {N(soort,ev,basis,zijd,stan)}	[braniënde]
+braniënde {WW(od,prenom,met-e)}	[ [branie]V [end]/pt [e]/E ]V
 buspatiënten {N(soort,mv,basis)}	[ [ [bus]N [patiënt]N ]N NN-compound [en]/m ]N NN-compound	NN
 gebruiken {WW(inf,vrij,zonder)}	[gebruiken]
 catechumenenolie {N(soort,ev,basis,zijd,stan)}	[ [ [catechumeen]N [en]N_N*N [olie]N ]N NN-compound 0/e ]N NN-compound	NN
@@ -465,3 +465,4 @@ de {LID(bep,stan,rest)}	[ [de]D ]D
 expediënten {N(soort,mv,basis)}	[ [expedieer]N [ent]/e [en]/m ]N
 . {LET()}	[.]
 <utt>
+
