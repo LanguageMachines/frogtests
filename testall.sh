@@ -29,8 +29,8 @@ for file in teststandard testencoding testunits testslash testapostroph \
     	    testparser testskipt testskipt2 testserver testserver-n \
 	    test_testdir testxmlin testserverxml testmbma testmblem \
 	    testmblemproblems testmbmaproblems testlong testlang \
-	    testapi testtextclass testpassthru \
-	    testissue71 testissue72 testissue73 testissue76 testissue77  # testquotes
+	    testapi testtextclass testpassthru testjsonserver \
+	    testissue71 testissue72 testissue73 testissue76 testissue77
 do ./testone.sh $file
    if [ $? -ne 0 ];
    then

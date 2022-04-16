@@ -16,7 +16,7 @@ else
       echo count=$count
       echo status=$stat
       count=$((count+1))
-      if [ $count -ge 20 ]; then
+      if [ $count -ge 30 ]; then
 	  echo "unable to start server in time..."
 	  exit 1
       fi
