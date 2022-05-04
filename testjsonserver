@@ -36,7 +36,7 @@ do
 done
 
 echo "done waiting"
-sleep 10
+sleep 20
 
 cat testjsonserver1.out > testjsonserver.out
 cat testjsonserver2.out >> testjsonserver.out
