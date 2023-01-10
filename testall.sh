@@ -30,7 +30,8 @@ for file in teststandard testencoding testunits testslash testapostroph \
 	    test_testdir testxmlin testserverxml testmbma testmblem \
 	    testmblemproblems testmbmaproblems testlong testlang \
 	    testapi testtextclass testpassthru testjsonserver \
-	    testissue71 testissue72 testissue73 testissue76 testissue77
+	    testissue71 testissue72 testissue73 testissue76 testissue77 \
+	    testissue98
 do ./testone.sh $file
    if [ $? -ne 0 ];
    then
