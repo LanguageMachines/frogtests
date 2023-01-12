@@ -10,4 +10,6 @@ send "\r"
 expect -re ".*\n" # the echoed send
 expect -re ".*\n" # the echoed return
 expect -re ".*\n" # the received json
+send "\r\n"
+send_log "\r\n"
 log_file
