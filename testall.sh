@@ -27,10 +27,11 @@ for file in teststandard testencoding testunits testslash testapostroph \
     	    testapostroph2 testoption_config testdaring testsmurf \
     	    testoption_n testnormalize testinternet testsmiley \
     	    testparser testskipt testskipt2 testserver testserver-n \
-	    test_testdir testxmlin testserverxml testmbma testmblem \
-	    testmblemproblems testmbmaproblems testlong testlang \
-	    testapi testtextclass testpassthru \
-	    testissue71 testissue72 testissue73 testissue76 testissue77  # testquotes
+	    testmbma testmblem \
+	    testmblemproblems testmbmaproblems testlang \
+	    testtextclass testpassthru \
+	    testissue71 testissue72 testissue73 testissue76 testissue77 \
+	    testapi testlong test_testdir testxmlin testserverxml  # testquotes
 do ./testone.sh $file
    if [ $? -ne 0 ];
    then
