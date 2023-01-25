@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v2.10" version="2.5.1">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="teststandard.txt" generator="libfolia-v2.13" version="2.5.1">
   <metadata type="native">
     <annotations>
       <token-annotation set="passthru">
@@ -15,6 +15,9 @@
       <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
         <annotator processor="mbma.1"/>
       </morphological-annotation>
+      <description-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </description-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -26,14 +29,14 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2021-10-19T15:51:06" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.5.1" host="kokos" name="frog" user="sloot" version="0.24">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.10"/>
-        <processor xml:id="ucto.1" begindatetime="2021-10-19T15:51:06" name="ucto" version="0.24"/>
-        <processor xml:id="tagger.1" begindatetime="2021-10-19T15:51:06" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2021-10-19T15:51:06" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2021-10-19T15:51:06" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2021-10-19T15:51:06" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2021-10-19T15:51:06" name="NER" version="2.2"/>
+      <processor xml:id="frog.1" begindatetime="2023-01-25T12:22:37" command="frog --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
+        <processor xml:id="ucto.1" begindatetime="2023-01-25T12:22:37" name="ucto" version="0.27"/>
+        <processor xml:id="tagger.1" begindatetime="2023-01-25T12:22:37" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-01-25T12:22:37" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-01-25T12:22:37" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2023-01-25T12:22:37" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2023-01-25T12:22:37" name="NER" version="2.2"/>
       </processor>
     </provenance>
   </metadata>
@@ -186,6 +189,7 @@
           <morpheme>
             <t>machine</t>
           </morpheme>
+          <desc>AN-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.11" class="UNKNOWN">
@@ -399,6 +403,7 @@
           <morpheme>
             <t>machine,</t>
           </morpheme>
+          <desc>AN-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.1.w.25" class="WORD">
@@ -888,6 +893,7 @@
           <morpheme>
             <t>machine</t>
           </morpheme>
+          <desc>AN-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.3.w.7" class="WORD">
@@ -1118,6 +1124,7 @@
           <morpheme>
             <t>dus</t>
           </morpheme>
+          <desc>BB-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.3.w.22" class="UNKNOWN">
@@ -1242,6 +1249,7 @@
           <morpheme>
             <t>programma</t>
           </morpheme>
+          <desc>VN-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.4" class="WORD">
@@ -1611,6 +1619,7 @@
           <morpheme>
             <t>door</t>
           </morpheme>
+          <desc>BB-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.4.w.29" class="WORD">
@@ -1999,6 +2008,7 @@
           <morpheme>
             <t>machine</t>
           </morpheme>
+          <desc>AN-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.7" class="WORD">
@@ -2284,6 +2294,7 @@
           <morpheme>
             <t>e</t>
           </morpheme>
+          <desc>PA-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.5.w.25" class="UNKNOWN">
@@ -2500,6 +2511,7 @@
           <morpheme>
             <t>al</t>
           </morpheme>
+          <desc>AB-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.6.w.2" class="WORD">
@@ -3004,6 +3016,7 @@
           <morpheme>
             <t>wijd</t>
           </morpheme>
+          <desc>NA-compound</desc>
         </morphology>
       </w>
       <w xml:id="teststandard.txt.text.s.7.w.19" class="WORD">
@@ -3333,6 +3346,7 @@
           <morpheme>
             <t>machine.</t>
           </morpheme>
+          <desc>AN-compound</desc>
         </morphology>
       </w>
       <chunking xml:id="teststandard.txt.text.s.7.chunking.1">
