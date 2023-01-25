@@ -24,9 +24,9 @@
       <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
         <annotator processor="mbma.1"/>
       </morphological-annotation>
-      <description-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
         <annotator processor="mbma.1"/>
-      </description-annotation>
+      </pos-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -43,20 +43,20 @@
       <note-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-25T12:23:35" command="frog --textclass=contemporary -o issue77.out -X issue77_out.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-01-25T17:30:14" command="frog --textclass=contemporary -o issue77.out -X issue77_out.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-25T12:23:35" name="ucto" version="0.27">
+        <processor xml:id="ucto.1" begindatetime="2023-01-25T17:30:14" name="ucto" version="0.27">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-25T12:23:35" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-25T12:23:35" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-25T12:23:35" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2023-01-25T12:23:35" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2023-01-25T12:23:35" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2023-01-25T12:23:35" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2023-01-25T12:23:35" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-01-25T17:30:14" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-01-25T17:30:14" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-01-25T17:30:14" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2023-01-25T17:30:14" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2023-01-25T17:30:14" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2023-01-25T17:30:14" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2023-01-25T17:30:14" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -70,15 +70,22 @@
           <w xml:id="bug1.textdiv.1.p.1.s.1.w.1" class="WORD" datetime="2017-06-27T14:09:02">
             <t>de</t>
             <t class="contemporary">de</t>
-            <pos class="LID(bep,stan,rest)" confidence="0.981887" head="LID" textclass="contemporary">
+            <pos class="LID(bep,stan,rest)" confidence="0.981887" head="LID" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="contemporary">
               <feat class="bep" subset="lwtype"/>
               <feat class="stan" subset="naamval"/>
               <feat class="rest" subset="npagr"/>
             </pos>
             <lemma class="de" textclass="contemporary"/>
             <morphology>
-              <morpheme>
+              <morpheme class="complex">
                 <t class="contemporary">de</t>
+                <feat class="[de]article" subset="structure"/>
+                <pos class="D" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t class="contemporary">de</t>
+                  <feat class="[de]article" subset="structure"/>
+                  <pos class="D" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>
@@ -105,7 +112,7 @@
           <w xml:id="bug1.text1.div1.1.p.1.s.1.w.9" class="WORD" datetime="2017-06-27T14:09:02">
             <t>secretaris</t>
             <t class="contemporary">secretaris</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.997691" head="N" textclass="contemporary">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.997691" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="contemporary">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -114,8 +121,18 @@
             </pos>
             <lemma class="secretaris" textclass="contemporary"/>
             <morphology>
-              <morpheme>
+              <morpheme class="complex">
                 <t class="contemporary">secretaris</t>
+                <feat class="[secretaris]noun/singular" subset="structure"/>
+                <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t class="contemporary">secretaris</t>
+                  <feat class="[secretaris]noun" subset="structure"/>
+                  <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="inflection">
+                  <feat class="singular" subset="inflection"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>

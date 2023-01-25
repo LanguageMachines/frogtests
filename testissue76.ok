@@ -25,22 +25,22 @@
       <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
         <annotator processor="mbma.1"/>
       </morphological-annotation>
-      <description-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
         <annotator processor="mbma.1"/>
-      </description-annotation>
+      </pos-annotation>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-25T12:23:32" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-01-25T17:30:10" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-25T12:23:32" name="ucto" version="0.27">
+        <processor xml:id="ucto.1" begindatetime="2023-01-25T17:30:10" name="ucto" version="0.27">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-25T12:23:32" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-25T12:23:32" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-25T12:23:32" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-01-25T17:30:10" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-01-25T17:30:10" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-01-25T17:30:10" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -54,21 +54,28 @@
       <s xml:id="p2.s.1">
         <w xml:id="p2.s.1.w.1" class="WORD">
           <t>Een</t>
-          <pos class="LID(onbep,stan,agr)" confidence="0.981771" head="LID">
+          <pos class="LID(onbep,stan,agr)" confidence="0.981771" head="LID" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="onbep" subset="lwtype"/>
             <feat class="stan" subset="naamval"/>
             <feat class="agr" subset="npagr"/>
           </pos>
           <lemma class="een"/>
           <morphology>
-            <morpheme>
+            <morpheme class="complex">
               <t>een</t>
+              <feat class="[een]article" subset="structure"/>
+              <pos class="D" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              <morpheme class="stem">
+                <t>een</t>
+                <feat class="[een]article" subset="structure"/>
+                <pos class="D" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
             </morpheme>
           </morphology>
         </w>
         <w xml:id="p2.s.1.w.2" class="WORD" space="no">
           <t>tekst</t>
-          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998077" head="N">
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.998077" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
             <feat class="soort" subset="ntype"/>
             <feat class="ev" subset="getal"/>
             <feat class="basis" subset="graad"/>
@@ -77,18 +84,30 @@
           </pos>
           <lemma class="tekst"/>
           <morphology>
-            <morpheme>
+            <morpheme class="complex">
               <t>tekst</t>
+              <feat class="[tekst]noun/singular" subset="structure"/>
+              <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              <morpheme class="stem">
+                <t>tekst</t>
+                <feat class="[tekst]noun" subset="structure"/>
+                <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+              <morpheme class="inflection">
+                <feat class="singular" subset="inflection"/>
+              </morpheme>
             </morpheme>
           </morphology>
         </w>
         <w xml:id="p2.s.1.w.3" class="PUNCTUATION">
           <t>.</t>
-          <pos class="LET()" confidence="1.0" head="LET"/>
+          <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
           <lemma class="."/>
           <morphology>
-            <morpheme>
+            <morpheme class="stem">
               <t>.</t>
+              <feat class="[.]" subset="structure"/>
+              <pos class="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
             </morpheme>
           </morphology>
         </w>
@@ -132,22 +151,22 @@
       <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
         <annotator processor="mbma.1"/>
       </morphological-annotation>
-      <description-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
         <annotator processor="mbma.1"/>
-      </description-annotation>
+      </pos-annotation>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-25T12:23:32" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-01-25T17:30:10" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-25T12:23:32" name="ucto" version="0.27">
+        <processor xml:id="ucto.1" begindatetime="2023-01-25T17:30:10" name="ucto" version="0.27">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-25T12:23:32" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-25T12:23:32" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-25T12:23:32" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-01-25T17:30:10" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-01-25T17:30:10" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-01-25T17:30:10" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -160,7 +179,7 @@
 Gaat deze datum: 28-11-2011 goed?</t>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.1" class="WORD">
             <t>Dit</t>
-            <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW">
+            <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.777085" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="aanw" subset="vwtype"/>
               <feat class="pron" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -170,42 +189,68 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </pos>
             <lemma class="dit"/>
             <morphology>
-              <morpheme>
+              <morpheme class="complex">
                 <t>dit</t>
+                <feat class="[dit]pronoun" subset="structure"/>
+                <pos class="O" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t>dit</t>
+                  <feat class="[dit]pronoun" subset="structure"/>
+                  <pos class="O" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD">
             <t>is</t>
-            <pos class="WW(pv,tgw,ev)" confidence="0.999891" head="WW">
+            <pos class="WW(pv,tgw,ev)" confidence="0.999891" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="ev" subset="pvagr"/>
             </pos>
             <lemma class="zijn"/>
             <morphology>
-              <morpheme>
-                <t>zijn</t>
+              <morpheme class="complex">
+                <t>is</t>
+                <feat class="[zijn]verb/present-tense/singular/3rd-person-verb" subset="structure"/>
+                <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t>zijn</t>
+                  <feat class="[zijn]verb" subset="structure"/>
+                  <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="inflection">
+                  <feat class="present-tense" subset="inflection"/>
+                  <feat class="singular" subset="inflection"/>
+                  <feat class="3rd-person-verb" subset="inflection"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD">
             <t>een</t>
-            <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID">
+            <pos class="LID(onbep,stan,agr)" confidence="0.995147" head="LID" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="onbep" subset="lwtype"/>
               <feat class="stan" subset="naamval"/>
               <feat class="agr" subset="npagr"/>
             </pos>
             <lemma class="een"/>
             <morphology>
-              <morpheme>
+              <morpheme class="complex">
                 <t>een</t>
+                <feat class="[een]article" subset="structure"/>
+                <pos class="D" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t>een</t>
+                  <feat class="[een]article" subset="structure"/>
+                  <pos class="D" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" space="no">
             <t>ligatuur</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="1.0" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -214,63 +259,89 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </pos>
             <lemma class="ligatuur"/>
             <morphology>
-              <morpheme>
+              <morpheme class="complex">
                 <t>ligatuur</t>
+                <feat class="[ligatuur]noun/singular" subset="structure"/>
+                <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t>ligatuur</t>
+                  <feat class="[ligatuur]noun" subset="structure"/>
+                  <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="inflection">
+                  <feat class="singular" subset="inflection"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="PUNCTUATION">
             <t>:</t>
-            <pos class="LET()" confidence="1.0" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
             <lemma class=":"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>:</t>
+                <feat class="[:]" subset="structure"/>
+                <pos class="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD" space="no">
             <t>æ</t>
-            <pos class="SPEC(symb)" confidence="1.0" head="SPEC">
+            <pos class="SPEC(symb)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="symb" subset="spectype"/>
             </pos>
             <lemma class="æ"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>æ</t>
+                <feat class="[æ]" subset="structure"/>
+                <pos class="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="PUNCTUATION">
             <t>.</t>
-            <pos class="LET()" confidence="1.0" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
             <lemma class="."/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>.</t>
+                <feat class="[.]" subset="structure"/>
+                <pos class="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD">
             <t>Gaat</t>
-            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW">
+            <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="pv" subset="wvorm"/>
               <feat class="tgw" subset="pvtijd"/>
               <feat class="met-t" subset="pvagr"/>
             </pos>
             <lemma class="gaan"/>
             <morphology>
-              <morpheme>
-                <t>ga</t>
-              </morpheme>
-              <morpheme>
-                <t>t</t>
+              <morpheme class="complex">
+                <t>gaat</t>
+                <feat class="[[ga]verb[t]/present-tense/singular/2nd-person-verb]verb" subset="structure"/>
+                <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t>ga</t>
+                  <feat class="[ga]verb" subset="structure"/>
+                  <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="inflection">
+                  <t>t</t>
+                  <feat class="present-tense" subset="inflection"/>
+                  <feat class="singular" subset="inflection"/>
+                  <feat class="2nd-person-verb" subset="inflection"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD">
             <t>deze</t>
-            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW">
+            <pos class="VNW(aanw,det,stan,prenom,met-e,rest)" confidence="0.999113" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="aanw" subset="vwtype"/>
               <feat class="det" subset="pdtype"/>
               <feat class="stan" subset="naamval"/>
@@ -280,14 +351,21 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </pos>
             <lemma class="deze"/>
             <morphology>
-              <morpheme>
+              <morpheme class="complex">
                 <t>deze</t>
+                <feat class="[deze]pronoun" subset="structure"/>
+                <pos class="O" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t>deze</t>
+                  <feat class="[deze]pronoun" subset="structure"/>
+                  <pos class="O" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.10" class="WORD" space="no">
             <t>datum</t>
-            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N">
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.99823" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="soort" subset="ntype"/>
               <feat class="ev" subset="getal"/>
               <feat class="basis" subset="graad"/>
@@ -296,54 +374,80 @@ Gaat deze datum: 28-11-2011 goed?</t>
             </pos>
             <lemma class="datum"/>
             <morphology>
-              <morpheme>
+              <morpheme class="complex">
                 <t>datum</t>
+                <feat class="[datum]noun/singular" subset="structure"/>
+                <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t>datum</t>
+                  <feat class="[datum]noun" subset="structure"/>
+                  <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="inflection">
+                  <feat class="singular" subset="inflection"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.11" class="PUNCTUATION">
             <t>:</t>
-            <pos class="LET()" confidence="1.0" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
             <lemma class=":"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>:</t>
+                <feat class="[:]" subset="structure"/>
+                <pos class="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.12" class="DATE">
             <t>28-11-2011</t>
-            <pos class="SPEC(symb)" confidence="1.0" head="SPEC">
+            <pos class="SPEC(symb)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="symb" subset="spectype"/>
             </pos>
             <lemma class="28-11-2011"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>28-11-2011</t>
+                <feat class="[28-11-2011]" subset="structure"/>
+                <pos class="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.13" class="WORD" space="no">
             <t>goed</t>
-            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ">
+            <pos class="ADJ(vrij,basis,zonder)" confidence="0.995449" head="ADJ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="vrij" subset="positie"/>
               <feat class="basis" subset="graad"/>
               <feat class="zonder" subset="buiging"/>
             </pos>
             <lemma class="goed"/>
             <morphology>
-              <morpheme>
+              <morpheme class="complex">
                 <t>goed</t>
+                <feat class="[goed]adjective/positive" subset="structure"/>
+                <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t>goed</t>
+                  <feat class="[goed]adjective" subset="structure"/>
+                  <pos class="A" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="inflection">
+                  <feat class="positive" subset="inflection"/>
+                </morpheme>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.14" class="PUNCTUATION">
             <t>?</t>
-            <pos class="LET()" confidence="1.0" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
             <lemma class="?"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>?</t>
+                <feat class="[?]" subset="structure"/>
+                <pos class="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>

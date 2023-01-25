@@ -20,9 +20,9 @@
       <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
         <annotator processor="mbma.1"/>
       </morphological-annotation>
-      <description-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
         <annotator processor="mbma.1"/>
-      </description-annotation>
+      </pos-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -37,16 +37,16 @@
       </dependency-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-25T12:23:08" command="frog --skip=t -o issue71_e_1.out -X issue71_e_1_out.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-01-25T17:51:51" command="frog --skip=t -o issue71_e_1.out -X issue71_e_1_out.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-25T12:23:08" name="ucto" version="0.27"/>
-        <processor xml:id="tagger.1" begindatetime="2023-01-25T12:23:08" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-25T12:23:08" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-25T12:23:08" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2023-01-25T12:23:08" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2023-01-25T12:23:08" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2023-01-25T12:23:08" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2023-01-25T12:23:08" name="dep-parser" version="1.0"/>
+        <processor xml:id="ucto.1" begindatetime="2023-01-25T17:51:51" name="ucto" version="0.27"/>
+        <processor xml:id="tagger.1" begindatetime="2023-01-25T17:51:51" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-01-25T17:51:51" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-01-25T17:51:51" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2023-01-25T17:51:51" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2023-01-25T17:51:51" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2023-01-25T17:51:51" name="mwu" version="1.0"/>
+        <processor xml:id="dep-parser.1" begindatetime="2023-01-25T17:51:51" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -59,58 +59,68 @@
         <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1">
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.1" class="WORD" datetime="2018-06-19T11:53:23" set="tokconfig-nld" space="no">
             <t>Baarn</t>
-            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
+            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <lemma class="Baarn"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>Baarn</t>
+                <feat class="[Baarn]" subset="structure"/>
+                <pos class="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.2" class="PUNCTUATION" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
             <t>,</t>
-            <pos class="LET()" confidence="1.0" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
             <lemma class=","/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>,</t>
+                <feat class="[,]" subset="structure"/>
+                <pos class="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.3" class="NUMBER" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
             <t>16</t>
-            <pos class="TW(hoofd,vrij)" confidence="0.794118" head="TW">
+            <pos class="TW(hoofd,vrij)" confidence="0.794118" head="TW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
             <lemma class="16"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>16</t>
+                <feat class="[16]quantifier-numeral" subset="structure"/>
+                <pos class="Q" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.4" class="WORD" datetime="2018-06-19T11:53:23" set="tokconfig-nld" space="no">
             <t>Dec</t>
-            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
+            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="deeleigen" subset="spectype"/>
             </pos>
             <lemma class="Dec"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>Dec</t>
+                <feat class="[Dec]" subset="structure"/>
+                <pos class="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.5.s.1.w.5" class="PUNCTUATION" datetime="2018-06-19T11:53:23" set="tokconfig-nld">
             <t>.</t>
-            <pos class="LET()" confidence="1.0" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
             <lemma class="."/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>.</t>
+                <feat class="[.]" subset="structure"/>
+                <pos class="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
@@ -175,14 +185,16 @@
         <s xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1">
           <w xml:id="HuygensING-brieven-correspondenten-1900-1-1_02ba32f1-34da-4c4b-b839-936e03ae1642.text.1.body.1.p.6.s.1.w.1" class="NUMBER" set="passthru">
             <t>1893</t>
-            <pos class="TW(hoofd,vrij)" confidence="0.992711" head="TW">
+            <pos class="TW(hoofd,vrij)" confidence="0.992711" head="TW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="hoofd" subset="numtype"/>
               <feat class="vrij" subset="positie"/>
             </pos>
             <lemma class="1893"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>1893</t>
+                <feat class="[1893]quantifier-numeral" subset="structure"/>
+                <pos class="Q" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
