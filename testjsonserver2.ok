@@ -1,0 +1,183 @@
+ [{"sentence":"Dit is een test."}] 
+[
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 1,
+    "lemma": "dit",
+    "morph": "[dit]pronoun",
+    "pos": {
+      "confidence": 0.7770847770847771,
+      "tag": "VNW(aanw,pron,stan,vol,3o,ev)"
+    },
+    "ucto": {
+      "new_paragraph": true,
+      "token": "WORD"
+    },
+    "word": "Dit"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-VP"
+    },
+    "index": 2,
+    "lemma": "zijn",
+    "morph": "[zijn]verb/present-tense/singular/3rd-person-verb",
+    "pos": {
+      "confidence": 0.9998905788379473,
+      "tag": "WW(pv,tgw,ev)"
+    },
+    "ucto": {
+      "token": "WORD"
+    },
+    "word": "is"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 3,
+    "lemma": "een",
+    "morph": "[een]article",
+    "pos": {
+      "confidence": 0.9991126885536823,
+      "tag": "LID(onbep,stan,agr)"
+    },
+    "ucto": {
+      "token": "WORD"
+    },
+    "word": "een"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "I-NP"
+    },
+    "index": 4,
+    "lemma": "test",
+    "morph": "[test]noun/singular",
+    "pos": {
+      "confidence": 0.9030552291421856,
+      "tag": "N(soort,ev,basis,zijd,stan)"
+    },
+    "ucto": {
+      "space": false,
+      "token": "WORD"
+    },
+    "word": "test"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "O"
+    },
+    "index": 5,
+    "lemma": ".",
+    "morph": "[.]",
+    "pos": {
+      "confidence": 1.0,
+      "tag": "LET()"
+    },
+    "ucto": {
+      "token": "PUNCTUATION"
+    },
+    "word": "."
+  }
+]
+
+ [{"sentence":"Dit nog zo'n samenstelling."}] 
+[
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 1,
+    "lemma": "dit",
+    "morph": "[dit]pronoun",
+    "pos": {
+      "confidence": 0.9393939393939394,
+      "tag": "VNW(aanw,pron,stan,vol,3o,ev)"
+    },
+    "ucto": {
+      "new_paragraph": true,
+      "token": "WORD"
+    },
+    "word": "Dit"
+  },
+  {
+    "chunking": {
+      "confidence": 0.8361522137241381,
+      "tag": "B-ADVP"
+    },
+    "index": 2,
+    "lemma": "nog",
+    "morph": "[nog]adverb",
+    "pos": {
+      "confidence": 0.9999296839292621,
+      "tag": "BW()"
+    },
+    "ucto": {
+      "token": "WORD"
+    },
+    "word": "nog"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 3,
+    "lemma": "zo'n",
+    "morph": "[zo'n]pronoun",
+    "pos": {
+      "confidence": 0.9978401727861771,
+      "tag": "VNW(aanw,det,stan,prenom,zonder,agr)"
+    },
+    "ucto": {
+      "token": "WORD-WITHSUFFIX"
+    },
+    "word": "zo'n"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "I-NP"
+    },
+    "compound": "BN",
+    "index": 4,
+    "lemma": "samenstelling",
+    "morph": "[ [samen]adverb [ [stel]verb [ing] ]noun/singular ]noun",
+    "pos": {
+      "confidence": 0.998077194966775,
+      "tag": "N(soort,ev,basis,zijd,stan)"
+    },
+    "ucto": {
+      "space": false,
+      "token": "WORD"
+    },
+    "word": "samenstelling"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "O"
+    },
+    "index": 5,
+    "lemma": ".",
+    "morph": "[.]",
+    "pos": {
+      "confidence": 1.0,
+      "tag": "LET()"
+    },
+    "ucto": {
+      "token": "PUNCTUATION"
+    },
+    "word": "."
+  }
+]
+

@@ -1,0 +1,50 @@
+#!/bin/bash -x
+
+\rm testserverjson12.out
+\rm testserverjson22.out
+
+$frog_bin/frog -S 8000 --JSONin --JSONout=2 --skip=mp --deep-morph > testjsonserver2.log 2>&1  &
+pid=`echo $!`
+
+if [ `uname` = Darwin ]
+then
+    sleep 30
+else
+  count="0"
+  stat="0"
+  while [ $stat -ne 1 ]
+  do
+      #    echo `lsof -i :8000 |grep -c LISTEN`
+      stat=`lsof -i :8000 |grep -c LISTEN`
+      echo count=$count
+      echo status=$stat
+      count=$((count+1))
+      if [ $count -ge 30 ]; then
+	  echo "unable to start server in time..."
+	  exit 1
+      fi
+      sleep 1
+  done
+fi
+
+./frogjsonclient12 &
+pids[0]=$!
+./frogjsonclient22 &
+pids[1]=$!
+
+echo "created PID's: ${pids[*]}"
+for sub_pid in ${pids[*]}
+do
+    echo "wait for $sub_pid"
+    wait $sub_pid
+done
+
+echo "done waiting"
+sleep 15
+
+cat testjsonserver12.out > testjsonserver2.out
+cat testjsonserver22.out >> testjsonserver2.out
+
+kill $pid
+
+wait $pid
