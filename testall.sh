@@ -33,7 +33,8 @@ for file in teststandard testencoding testunits testslash testapostroph \
 	    testissue71 testissue72 testissue73 testissue76 testissue77 \
 	    testissue98 \
 	    testapi testlong test_testdir testxmlin \
-	    testserver testserver-n testserverxml testjsonserver # testquotes
+	    testserver testserver-n testserverxml \
+	    testjsonserver testjsonserver2 # testquotes
 do ./testone.sh $file
    if [ $? -ne 0 ];
    then
