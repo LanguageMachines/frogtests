@@ -6,7 +6,12 @@ expect "Connected to localhost."
 expect "Escape character is '^]'."
 log_file -noappend testjsonserver1.out
 send { [{"sentence":"Dit is een test."}] }
-send "\r"
+send "\n"
+expect -re ".*\n" # the echoed json
+expect -re ".*\n" # the the echoed return
+expect -re ".*\n" # the received json
+send { [{"sentence":"Dit regel twee."}] }
+send "\n"
 expect -re ".*\n" # the echoed json
 expect -re ".*\n" # the the echoed return
 expect -re ".*\n" # the received json

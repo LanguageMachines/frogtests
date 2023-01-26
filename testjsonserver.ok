@@ -108,6 +108,95 @@
     "word": "."
   }
 ]
+ [{"sentence":"Dit regel twee."}] 
+[
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 1,
+    "lemma": "dit",
+    "morph": "[dit]",
+    "parse": {
+      "parse_index": 0,
+      "parse_role": "ROOT"
+    },
+    "pos": {
+      "confidence": 0.7770847770847771,
+      "tag": "VNW(aanw,pron,stan,vol,3o,ev)"
+    },
+    "ucto": {
+      "token": "WORD"
+    },
+    "word": "Dit"
+  },
+  {
+    "chunking": {
+      "confidence": 0.593617321935511,
+      "tag": "I-NP"
+    },
+    "index": 2,
+    "lemma": "regel",
+    "morph": "[regel]",
+    "parse": {
+      "parse_index": 0,
+      "parse_role": "ROOT"
+    },
+    "pos": {
+      "confidence": 0.875,
+      "tag": "N(soort,ev,basis,zijd,stan)"
+    },
+    "ucto": {
+      "token": "WORD"
+    },
+    "word": "regel"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "B-NP"
+    },
+    "index": 3,
+    "lemma": "twee",
+    "morph": "[twee]",
+    "parse": {
+      "parse_index": 2,
+      "parse_role": "app"
+    },
+    "pos": {
+      "confidence": 0.868421052631579,
+      "tag": "TW(hoofd,vrij)"
+    },
+    "ucto": {
+      "space": false,
+      "token": "WORD"
+    },
+    "word": "twee"
+  },
+  {
+    "chunking": {
+      "confidence": 1.0,
+      "tag": "O"
+    },
+    "index": 4,
+    "lemma": ".",
+    "morph": "[.]",
+    "parse": {
+      "parse_index": 3,
+      "parse_role": "punct"
+    },
+    "pos": {
+      "confidence": 1.0,
+      "tag": "LET()"
+    },
+    "ucto": {
+      "token": "PUNCTUATION"
+    },
+    "word": "."
+  }
+]
+
  [{"sentence":"Dit nog zo'n boeiende test."}] 
 [
   {
@@ -239,3 +328,4 @@
     "word": "."
   }
 ]
+
