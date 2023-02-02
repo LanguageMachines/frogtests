@@ -1,8 +1,8 @@
-1	presidents			[ [ [presideer]verb [ent] ]noun [s]noun/genitive/singular ]noun	0	N(soort,ev,basis,zijd,stan)	0.553279
+1	presidents			[ [ [presideer]verb [ent] ]noun [s]noun/genitive/singular ]noun	0	N(soort,ev,basis,zijd,stan)	0.553279								
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="issue98.txt" generator="libfolia-v2.13" version="2.5.1">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="issue98.txt" generator="libfolia-v2.14" version="2.5.1">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -29,15 +29,15 @@
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-10T20:59:48" command="frog --skip=plmcn --deep-morph -X issue98.deep.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-10T20:59:48" name="ucto" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-02-01T15:06:37" command="frog --skip=plmcn --deep-morph -X issue98.deep.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.14"/>
+        <processor xml:id="ucto.1" begindatetime="2023-02-01T15:06:37" name="ucto" version="0.28">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-10T20:59:48" name="tagger" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-10T20:59:48" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-02-01T15:06:37" name="tagger" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-02-01T15:06:37" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -57,7 +57,7 @@
           <morphology>
             <morpheme class="complex">
               <t>presidents</t>
-              <feat class="[[presideer]verb[ent]]noun/genitive/singular" subset="structure"/>
+              <feat class="[[presideer]verb[ent]]noun[s]/genitive/singular" subset="structure"/>
               <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               <morpheme class="complex">
                 <feat class="N_V*" subset="applied_rule"/>
