@@ -14,3 +14,11 @@ cat mbmaout/*.out >> testapi.out
 
 $comm --skip=p --TESTAPI --testdir xmltests --xmldir output/
 cat output/*.xml >> testapi.out
+
+cat <<EOF > dm.txt
+Een test met een verzekeringsagent.
+En een toevalstreffer.
+presidents
+EOF
+$comm --skip=p --TESTAPI --deep-morph -o output/dm.out dm.txt
+cat output/dm.out >> testapi.out
