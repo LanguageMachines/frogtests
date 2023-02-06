@@ -20,3 +20,7 @@ cat lang3.xml >> testlang.out
 echo "testlang test 4" >> testlang.out
 $comm --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON >> testlang.out
 cat lang4.xml >> testlang.out
+
+echo "testlang test 5" >> testlang.out
+$comm --skip=ampcn --language=dum -t dum.txt >> testlang.out
+$comm --skip=ampcn --language=dum,eng -t dum.txt >> testlang.out
