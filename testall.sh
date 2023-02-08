@@ -26,7 +26,8 @@ errcnt=0
 for file in teststandard testencoding testunits testslash testapostroph \
     	    testapostroph2 testoption_config testdaring testsmurf \
     	    testoption_n testnormalize testinternet testsmiley \
-    	    testparser testskipt testskipt2 testserver testserver-n \
+    	    testparser testparserxml \
+	    testskipt testskipt2 testserver testserver-n \
 	    test_testdir testxmlin testserverxml testmbma testmblem \
 	    testmblemproblems testmbmaproblems testlong testlang \
 	    testapi testtextclass testpassthru \
