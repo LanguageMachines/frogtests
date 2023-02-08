@@ -6,8 +6,8 @@
 rm ./mbmaout/*
 rm ./output/*
 
-$comm --TESTAPI -t teststandard.txt -o teststandard.out
-cat teststandard.out > testapi.out
+$comm --TESTAPI -t teststandard.txt -o testapi1.out
+cat testapi1.out > testapi.out
 
 $comm --skip=p --TESTAPI --testdir mbmaproblems --outputdir mbmaout
 cat mbmaout/*.out >> testapi.out
