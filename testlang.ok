@@ -47,15 +47,15 @@ testlang test 1
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-02-06T17:28:06" command="frog --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-02-08T08:40:29" command="frog --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.14"/>
-        <processor xml:id="ucto.1" begindatetime="2023-02-06T17:28:06" name="ucto" version="0.28">
+        <processor xml:id="ucto.1" begindatetime="2023-02-08T08:40:29" name="ucto" version="0.28">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-02-06T17:28:06" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-02-06T17:28:06" name="mblem" version="2.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-02-08T08:40:29" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-02-08T08:40:29" name="mblem" version="2.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -294,15 +294,15 @@ testlang test 2
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-02-06T17:28:08" command="frog --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-02-08T08:40:31" command="frog --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.14"/>
-        <processor xml:id="ucto.1" begindatetime="2023-02-06T17:28:08" name="ucto" version="0.28">
+        <processor xml:id="ucto.1" begindatetime="2023-02-08T08:40:31" name="ucto" version="0.28">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-02-06T17:28:08" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-02-06T17:28:08" name="mblem" version="2.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-02-08T08:40:31" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-02-08T08:40:31" name="mblem" version="2.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -553,16 +553,16 @@ testlang test 3
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-02-06T17:28:10" command="frog --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-02-08T08:40:33" command="frog --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.14"/>
-        <processor xml:id="ucto.1" begindatetime="2023-02-06T17:28:10" name="ucto" version="0.28">
+        <processor xml:id="ucto.1" begindatetime="2023-02-08T08:40:33" name="ucto" version="0.28">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
             <processor xml:id="uctodata.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-02-06T17:28:10" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-02-06T17:28:10" name="mblem" version="1.1"/>
+        <processor xml:id="tagger.1" begindatetime="2023-02-08T08:40:33" name="tagger" version="1.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-02-08T08:40:33" name="mblem" version="1.1"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -836,16 +836,16 @@ testlang test 4
       </lang-annotation>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-02-06T17:28:13" command="frog --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-02-08T08:40:35" command="frog --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
         <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.14"/>
-        <processor xml:id="ucto.1" begindatetime="2023-02-06T17:28:13" name="ucto" version="0.28">
+        <processor xml:id="ucto.1" begindatetime="2023-02-08T08:40:35" name="ucto" version="0.28">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
             <processor xml:id="uctodata.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-02-06T17:28:13" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-02-06T17:28:13" name="mblem" version="2.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-02-08T08:40:35" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-02-08T08:40:35" name="mblem" version="2.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -1029,26 +1029,121 @@ testlang test 4
     </p>
   </text>
 </FoLiA>
-testlang test 5
-1	de	de		LID(bep,met-e)	0.722543								
-2	helleuene	11		TW(hoofd,met-e)	0.973684								
-3	Scepenen	schepen		N(soort,mv,met-n)	0.997241								
-4	.	.		LET()	0.994570								
+testlang test 5 (should NOT run) 
+testlang test 6
+1	Ick	Ick		SPEC(vreemd)	1.000000								
+2	sie	sie		SPEC(vreemd)	1.000000								
+3	de	de		LID(bep,stan,rest)	0.981887								
+4	helleuene	helleuene		N(soort,ev,basis,zijd,stan)	0.582782								
+5	Scepenen	Scepenen		SPEC(deeleigen)	1.000000								
+6	.	.		LET()	1.000000								
 
-1	I	een		TW(hoofd,overig)	0.675621								
-2	see	zij		VNW(pers,3,mv)	0.388889								
-3	eleven	eleven		WW(hoofd,pv,tgw,met-n)	0.264753								
-4	ships	ships		VZ(zonder)⊕N(eigen,zonder)	0.284529								
-5	.	.		LET()	0.923077								
+1	I see eleven ships.					1.000000								
 
-1	de	de		LID(bep,met-e)	0.722543								
-2	helleuene	11		TW(hoofd,met-e)	0.973684								
-3	Scepenen	schepen		N(soort,mv,met-n)	0.997241								
-4	.	.		LET()	0.994570								
-
-1	I	een		TW(hoofd,overig)	0.675621								
-2	see	zij		VNW(pers,3,mv)	0.388889								
-3	eleven	eleven		WW(hoofd,pv,tgw,met-n)	0.264753								
-4	ships	ships		VZ(zonder)⊕N(eigen,zonder)	0.284529								
-5	.	.		LET()	0.923077								
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="folia.xsl"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="hel.txt" generator="libfolia-v2.14" version="2.5.1">
+  <metadata type="native">
+    <annotations>
+      <token-annotation alias="tokconfig-eng" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-eng.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <token-annotation set="undetermined">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="ucto.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="ucto.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </lang-annotation>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2023-02-08T08:40:38" command="frog --skip=ampcn --language=und,nld,eng -t hel.txt -X lang5.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
+        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.14"/>
+        <processor xml:id="ucto.1" begindatetime="2023-02-08T08:40:38" name="ucto" version="0.28">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
+            <processor xml:id="uctodata.1.1" name="tokconfig-eng" type="datasource" version="0.2"/>
+            <processor xml:id="uctodata.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
+        </processor>
+        <processor xml:id="tagger.1" begindatetime="2023-02-08T08:40:38" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-02-08T08:40:38" name="mblem" version="2.0"/>
+      </processor>
+    </provenance>
+  </metadata>
+  <text xml:id="hel.txt.text">
+    <p xml:id="hel.txt.p.1">
+      <s xml:id="hel.txt.p.1.s.1">
+        <w xml:id="hel.txt.p.1.s.1.w.1" class="WORD" set="tokconfig-nld">
+          <t>Ick</t>
+          <pos class="SPEC(vreemd)" confidence="1.0" head="SPEC">
+            <feat class="vreemd" subset="spectype"/>
+          </pos>
+          <lemma class="Ick"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.2" class="WORD" set="tokconfig-nld">
+          <t>sie</t>
+          <pos class="SPEC(vreemd)" confidence="1.0" head="SPEC">
+            <feat class="vreemd" subset="spectype"/>
+          </pos>
+          <lemma class="sie"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.3" class="WORD" set="tokconfig-nld">
+          <t>de</t>
+          <pos class="LID(bep,stan,rest)" confidence="0.981887" head="LID">
+            <feat class="bep" subset="lwtype"/>
+            <feat class="stan" subset="naamval"/>
+            <feat class="rest" subset="npagr"/>
+          </pos>
+          <lemma class="de"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.4" class="WORD" set="tokconfig-nld">
+          <t>helleuene</t>
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.582782" head="N">
+            <feat class="soort" subset="ntype"/>
+            <feat class="ev" subset="getal"/>
+            <feat class="basis" subset="graad"/>
+            <feat class="zijd" subset="genus"/>
+            <feat class="stan" subset="naamval"/>
+          </pos>
+          <lemma class="helleuene"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.5" class="WORD" set="tokconfig-nld" space="no">
+          <t>Scepenen</t>
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
+            <feat class="deeleigen" subset="spectype"/>
+          </pos>
+          <lemma class="Scepenen"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.6" class="PUNCTUATION" set="tokconfig-nld">
+          <t>.</t>
+          <pos class="LET()" confidence="1.0" head="LET"/>
+          <lemma class="."/>
+        </w>
+      </s>
+      <s xml:id="hel.txt.p.1.s.2">
+        <w xml:id="hel.txt.p.1.s.2.w.1" class="UNANALYZED" set="undetermined">
+          <t>I see eleven ships.</t>
+        </w>
+        <lang class="und"/>
+      </s>
+    </p>
+  </text>
+</FoLiA>

@@ -21,6 +21,10 @@ echo "testlang test 4" >> testlang.out
 $comm --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON >> testlang.out
 cat lang4.xml >> testlang.out
 
-echo "testlang test 5" >> testlang.out
+echo "testlang test 5 (should NOT run) " >> testlang.out
 $comm --skip=ampcn --language=dum -t dum.txt >> testlang.out
-$comm --skip=ampcn --language=dum,eng -t dum.txt >> testlang.out
+$comm --skip=ampcn --language=bla,eng -t dum.txt >> testlang.out
+
+echo "testlang test 6" >> testlang.out
+$comm --skip=ampcn --language=und,nld,eng -t hel.txt -X lang5.xml --KANON >> testlang.out
+cat lang5.xml >> testlang.out
