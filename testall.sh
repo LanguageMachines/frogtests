@@ -26,7 +26,7 @@ errcnt=0
 for file in teststandard testencoding testunits testslash testapostroph \
     	    testapostroph2 testoption_config testdaring testsmurf \
     	    testoption_n testnormalize testinternet testsmiley testlang \
-    	    testparser testskipt testskipt2 \
+    	    testparser testparserxml testskipt testskipt2 \
 	    testmbma testmblem \
 	    testmblemproblems testmbmaproblems \
 	    testtextclass testpassthru \
@@ -35,6 +35,7 @@ for file in teststandard testencoding testunits testslash testapostroph \
 	    testapi testlong test_testdir testxmlin \
 	    testserver testserver-n testserverxml \
 	    testjsonserver testjsonserver2 # testquotes
+
 do ./testone.sh $file
    if [ $? -ne 0 ];
    then
