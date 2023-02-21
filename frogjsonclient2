@@ -6,10 +6,11 @@ expect "Connected to localhost."
 expect "Escape character is '^]'."
 log_file -noappend testjsonserver2.out
 send { [{"sentence":"Dit nog zo'n boeiende test."}] }
-send "\n"
+send "\r"
 expect -re ".*\n" # the echoed send
 expect -re ".*\n" # the echoed return
 expect -re ".*\n" # the received json
-send "\r\n"
+send "\r"
 send_log "\r\n"
 log_file
+sleep 10

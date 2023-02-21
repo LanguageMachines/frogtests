@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
-\rm testserverjson12.out
-\rm testserverjson22.out
+\rm testjsonserver12.out
+\rm testjsonserver22.out
 
 $frog_bin/frog -S 8000 --JSONin --JSONout=2 --skip=mp --deep-morph > testjsonserver2.log 2>&1  &
 pid=`echo $!`
@@ -47,6 +47,9 @@ sleep 5
 cat testjsonserver12.out > testjsonserver2.out
 cat testjsonserver22.out >> testjsonserver2.out
 
+echo "stop Frog"
 kill $pid
 
+echo "wait for end of Frog"
 wait $pid
+echo "DONE"

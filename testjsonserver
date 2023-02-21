@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
-\rm testserverjson1.out
-\rm testserverjson2.out
+\rm testjsonserver1.out
+\rm testjsonserver2.out
 
 $frog_bin/frog -S 7000 --JSONin --JSONout=2 > testjsonserver.log 2>&1  &
 pid=`echo $!`
@@ -26,9 +26,6 @@ else
       sleep 1
   done
 fi
-
-rm testjsonserver1.out
-rm testjsonserver2.out
 
 ./frogjsonclient1 &
 pids[0]=$!
