@@ -27,6 +27,9 @@ else
   done
 fi
 
+rm testjsonserver12.out
+rm testjsonserver22.out
+
 ./frogjsonclient12 &
 pids[0]=$!
 ./frogjsonclient22 &
@@ -35,12 +38,11 @@ pids[1]=$!
 echo "created PID's: ${pids[*]}"
 for sub_pid in ${pids[*]}
 do
-    echo "wait for $sub_pid"
     wait $sub_pid
 done
 
 echo "done waiting"
-sleep 15
+sleep 5
 
 cat testjsonserver12.out > testjsonserver2.out
 cat testjsonserver22.out >> testjsonserver2.out
