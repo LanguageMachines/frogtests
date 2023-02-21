@@ -35,6 +35,7 @@ pids[0]=$!
 ./frogjsonclient22 &
 pids[1]=$!
 
+sleep 1
 echo "created PID's: ${pids[*]}"
 for sub_pid in ${pids[*]}
 do

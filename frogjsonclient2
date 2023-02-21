@@ -13,4 +13,3 @@ expect -re ".*\n" # the received json
 send "\r"
 send_log "\r\n"
 log_file
-sleep 10
