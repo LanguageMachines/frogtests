@@ -27,6 +27,9 @@ else
   done
 fi
 
+rm testjsonserver1.out
+rm testjsonserver2.out
+
 ./frogjsonclient1 &
 pids[0]=$!
 ./frogjsonclient2 &
@@ -39,11 +42,14 @@ do
 done
 
 echo "done waiting"
-sleep 10
+sleep 5
 
 cat testjsonserver1.out > testjsonserver.out
 cat testjsonserver2.out >> testjsonserver.out
 
+echo "stop Frog"
 kill $pid
 
+echo "wait for end of Frog"
 wait $pid
+echo "DONE"
