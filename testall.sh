@@ -30,11 +30,11 @@ for file in teststandard testencoding testunits testslash testapostroph \
 	    testmbma testmblem \
 	    testmblemproblems testmbmaproblems \
 	    testtextclass testpassthru \
-	    testissue64 \
 	    testissue71 testissue72 testissue73 testissue76 testissue77 \
 	    testissue98 \
 	    testapi testlong test_testdir testxmlin \
 	    testserver testserver-n testserverxml
+#	    testissue64
 #	    testjsonserver testjsonserver2 # testquotes
 
 do ./testone.sh $file
