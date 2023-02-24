@@ -1,0 +1,5 @@
+#/bin/sh
+
+
+$comm --skip=pacn issue64.xml -X issue64_out.xml
+cat issue64_out.xml >> testissue64.out
