@@ -71,7 +71,7 @@ do if test -x $file
 		  else
 		      echo -e $KNOWNFAIL
 		      \rm -f $file.diff
-#		      \rm $file.err
+		      \rm $file.err
 		  fi
 	      else
 		  echo -e $FAIL
@@ -81,12 +81,12 @@ do if test -x $file
 	  else
 	      echo -e $OK "(variant=$vari)"
 	      rm $file.diff
-#	      rm $file.err
+	      rm $file.err
 	  fi
       else
 	  echo -e $OK
 	  rm $file.diff
-#	  rm $file.err
+	  rm $file.err
       fi
    else
        echo "file $file not found"
