@@ -1098,25 +1098,23 @@
 7	nietroker	nietroker	[nie][trook][er]	N(soort,ev,basis,zijd,stan)	0.882591	O	I-NP	2	predc
 8	.	.	[.]	LET()	1.000000	O	O	7	punct
 
-1	Met	met	[met]	VZ(init)	0.995378	O	B-PP	5	mod
-2	behulp	behulp	[behulp]	N(soort,ev,basis,onz,stan)	0.812500	O	I-PP	1	obj1
-3	van	van	[van]	VZ(init)	0.973592	O	I-PP	2	mod
-4	Rogier	Rogier	[Rogier]	SPEC(deeleigen)	1.000000	B-per	B-NP	3	obj1
-5	komt	komen	[kom][t]	WW(pv,tgw,met-t)	0.999725	O	B-VP	0	ROOT
-6	Ko	Ko	[Ko]	SPEC(deeleigen)	1.000000	O	B-NP	5	mod
-7	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.990265	O	B-ADVP	5	mod
-8	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	5	mod
-9	uit	uit	[uit]	VZ(fin)	0.793103	O	O	5	svp
-10	,	,	[,]	LET()	1.000000	O	O	9	punct
-11	alhoewel	alhoewel	[alhoewel]	VG(onder)	0.997398	O	B-SBAR	9	vc
-12	het	het	[het]	VNW(pers,pron,stan,red,3,ev,onz)	0.987500	O	B-NP	17	su
-13	niet	niet	[niet]	BW()	0.999918	O	B-ADVP	14	mod
-14	a	a	[a]	SPEC(vreemd)	1.000000	O	B-ADVP	15	mod
-15	la	la	[la]	SPEC(vreemd)	1.000000	O	B-NP	16	mod
-16	minute	minute	[minute]	SPEC(vreemd)	1.000000	O	I-NP	17	su
-17	zal	zullen	[zal]	WW(pv,tgw,ev)	0.999710	O	B-VP	11	body
-18	zijn	zijn	[zijn]	WW(inf,vrij,zonder)	0.535714	O	I-VP	17	vc
-19	!	!	[!]	LET()	1.000000	O	O	18	punct
+1	Met_behulp_van	met_behulp_van	[met]_[behulp]_[van]	VZ(init)_N(soort,ev,basis,onz,stan)_VZ(init)	0.787387	O_O_O	B-PP_I-PP_I-PP	3	mod
+2	Rogier	Rogier	[Rogier]	SPEC(deeleigen)	1.000000	B-per	B-NP	1	obj1
+3	komt	komen	[kom][t]	WW(pv,tgw,met-t)	0.999725	O	B-VP	0	ROOT
+4	Ko	Ko	[Ko]	SPEC(deeleigen)	1.000000	O	B-NP	3	mod
+5	er	er	[er]	VNW(aanw,adv-pron,stan,red,3,getal)	0.990265	O	B-ADVP	3	mod
+6	wel	wel	[wel]	BW()	0.999831	O	B-ADVP	3	mod
+7	uit	uit	[uit]	VZ(fin)	0.793103	O	O	3	svp
+8	,	,	[,]	LET()	1.000000	O	O	7	punct
+9	alhoewel	alhoewel	[alhoewel]	VG(onder)	0.997398	O	B-SBAR	7	vc
+10	het	het	[het]	VNW(pers,pron,stan,red,3,ev,onz)	0.987500	O	B-NP	15	su
+11	niet	niet	[niet]	BW()	0.999918	O	B-ADVP	12	mod
+12	a	a	[a]	SPEC(vreemd)	1.000000	O	B-ADVP	13	mod
+13	la	la	[la]	SPEC(vreemd)	1.000000	O	B-NP	14	mod
+14	minute	minute	[minute]	SPEC(vreemd)	1.000000	O	I-NP	15	su
+15	zal	zullen	[zal]	WW(pv,tgw,ev)	0.999710	O	B-VP	9	body
+16	zijn	zijn	[zijn]	WW(inf,vrij,zonder)	0.535714	O	I-VP	15	vc
+17	!	!	[!]	LET()	1.000000	O	O	16	punct
 
 1	Jan	Jan	[Jan]	SPEC(deeleigen)	1.000000	B-per	B-NP	2	su
 2	is	zijn	[zijn]	WW(pv,tgw,ev)	0.999966	O	B-VP	0	ROOT
@@ -3285,12 +3283,9 @@
 4	huis	huis	[huis]	N(soort,ev,basis,onz,stan)	0.996553	O	I-NP	0	ROOT
 5	.	.	[.]	LET()	1.000000	O	O	4	punct
 
-1	Drie	drie	[drie]	TW(hoofd,prenom,stan)	1.000000	O	B-NP	2	cnj
-2	en	en	[en]	VG(neven)	0.999194	O	I-NP	0	ROOT
-3	een	een	[een]	LID(onbep,stan,agr)	0.995147	O	I-NP	5	det
-4	halve	half	[half][e]	ADJ(prenom,basis,met-e,stan)	0.999828	O	I-NP	5	mod
-5	liter	liter	[liter]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	2	cnj
-6	.	.	[.]	LET()	1.000000	O	O	5	punct
+1	Drie_en_een_halve	drie_en_een_half	[drie]_[en]_[een]_[half][e]	TW(hoofd,prenom,stan)_VG(neven)_LID(onbep,stan,agr)_ADJ(prenom,basis,met-e,stan)	0.994174	O_O_O_O	B-NP_I-NP_I-NP_I-NP	2	mod
+2	liter	liter	[liter]	N(soort,ev,basis,zijd,stan)	0.999705	O	I-NP	0	ROOT
+3	.	.	[.]	LET()	1.000000	O	O	2	punct
 
 1	Alle	al	[alle]	VNW(onbep,det,stan,prenom,met-e,agr)	0.988782	O	B-NP	2	det
 2	boeken	boek	[boek][en]	N(soort,mv,basis)	0.550275	O	I-NP	0	ROOT
