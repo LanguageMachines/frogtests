@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v2.13" version="1.4.987">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="doc" generator="libfolia-v2.15" version="1.4.987">
   <metadata type="native">
     <annotations>
       <string-annotation set="alto"/>
@@ -31,16 +31,16 @@
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-25T17:30:10" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-25T17:30:10" name="ucto" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-04-24T10:35:08" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.29">
+        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.15"/>
+        <processor xml:id="ucto.1" begindatetime="2023-04-24T10:35:08" name="ucto" version="0.30">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-25T17:30:10" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-25T17:30:10" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-25T17:30:10" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-04-24T10:35:08" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-04-24T10:35:08" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-04-24T10:35:08" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -119,14 +119,7 @@
   </text>
 </FoLiA>
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="id" generator="libfolia-v2.13" version="1.4.0">
-  <metadata type="native">
-    <annotations/>
-  </metadata>
-  <text xml:id="text"/>
-</FoLiA>
-<?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.13" version="0.8">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.15" version="0.8">
   <metadata type="native">
     <annotations>
       <division-annotation annotator="ucto" set="div"/>
@@ -157,16 +150,16 @@
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-25T17:30:10" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-25T17:30:10" name="ucto" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-04-24T10:35:08" command="frog --skip=mpcn --xmldir=issue76_out -x  --testdir=issue76" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.29">
+        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.15"/>
+        <processor xml:id="ucto.1" begindatetime="2023-04-24T10:35:08" name="ucto" version="0.30">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-25T17:30:10" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-25T17:30:10" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-25T17:30:10" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-04-24T10:35:08" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-04-24T10:35:08" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-04-24T10:35:08" name="mbma" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
