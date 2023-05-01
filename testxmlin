@@ -46,10 +46,10 @@ $comm -x xmltests/folia4.xml -X folia4.out.xml --KANON
 cat folia4.out.xml >> testxmlin.out
 echo "test 11: " >> testxmlin.out
 $comm --skip=p -x --testdir=zipxmltests --xmldir=./zipoutput
-$foliadiff ./zipoutput/folia1.xml.bz2 folia1.zip.ok
-$foliadiff ./zipoutput/folia2.xml.bz2 folia2.zip.ok
-$foliadiff ./zipoutput/folia3.xml.bz2 folia3.zip.ok
+$foliadiff ./zipoutput/folia1.xml.bz2 folia1.zip.ok.bz2 >> testxmlin.out
+$foliadiff ./zipoutput/folia2.xml.gz folia2.zip.ok.gz >> testxmlin.out
+$foliadiff ./zipoutput/folia3.xml.bz2 folia3.zip.ok.bz2 >> testxmlin.out
 echo "test 12: " >> testxmlin.out
 $comm -x --testdir=strangefolia --xmldir=./strangeout --outputdir=./strangeout
-$foliadiff ./strangeout/issue064b.xml issue064b.ok
-$foliadiff ./strangeout/issue064c.xml issue064c.ok
+$foliadiff ./strangeout/issue064b.xml issue064b.ok >> testxmlin.out
+$foliadiff ./strangeout/issue064c.xml issue064c.ok >> testxmlin.out
