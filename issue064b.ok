@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="bug" generator="libfolia-v2.4" version="1.5">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="bug" generator="libfolia-v2.15" version="1.5">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -23,6 +23,9 @@
       <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
         <annotator processor="mbma.1"/>
       </morphological-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
+        <annotator processor="mbma.1"/>
+      </pos-annotation>
       <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
         <annotator processor="IOB.1"/>
       </chunking-annotation>
@@ -38,20 +41,20 @@
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2019-11-20T13:35:54" command="frog -x  --testdir=strangefolia --xmldir=./strangeout --outputdir=./strangeout" folia_version="2.2.1" host="bonus" name="frog" user="sloot" version="0.20">
-        <processor xml:id="frog.1.generator" folia_version="2.2.1" name="libfolia" type="generator" version="2.4"/>
-        <processor xml:id="ucto.1" begindatetime="2019-11-20T13:35:54" name="ucto" version="0.20">
-          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.8">
+      <processor xml:id="frog.1" begindatetime="2023-05-01T16:50:05" command="frog -x  --testdir=strangefolia --xmldir=./strangeout --outputdir=./strangeout" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.29">
+        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.15"/>
+        <processor xml:id="ucto.1" begindatetime="2023-05-01T16:50:05" name="ucto" version="0.30">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2019-11-20T13:35:54" name="tagger" version="1.0"/>
-        <processor xml:id="mblem.1" begindatetime="2019-11-20T13:35:54" name="mblem" version="1.2"/>
-        <processor xml:id="mbma.1" begindatetime="2019-11-20T13:35:54" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2019-11-20T13:35:54" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2019-11-20T13:35:54" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2019-11-20T13:35:54" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2019-11-20T13:35:54" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-05-01T16:50:05" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-05-01T16:50:05" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-05-01T16:50:05" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2023-05-01T16:50:05" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2023-05-01T16:50:05" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2023-05-01T16:50:05" name="mwu" version="1.1"/>
+        <processor xml:id="dep-parser.1" begindatetime="2023-05-01T16:50:05" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -64,30 +67,34 @@
         <s xml:id="bug.text.div.2.head.1.s.1">
           <w xml:id="bug.text.div.2.head.1.s.1.w.1" class="WORD" space="no">
             <t>Kinderjaren</t>
-            <pos class="WW(inf,vrij,zonder)" confidence="0.507519" head="WW">
+            <pos class="WW(inf,vrij,zonder)" confidence="0.507271" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
               <feat class="inf" subset="wvorm"/>
               <feat class="vrij" subset="positie"/>
               <feat class="zonder" subset="buiging"/>
             </pos>
             <lemma class="kinderjaren"/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>kinderjaren</t>
+                <feat class="[kinderjaren]verb" subset="structure"/>
+                <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <w xml:id="bug.text.div.2.head.1.s.1.w.2" class="PUNCTUATION">
             <t>.</t>
-            <pos class="LET()" confidence="1.000000" head="LET"/>
+            <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn"/>
             <lemma class="."/>
             <morphology>
-              <morpheme>
+              <morpheme class="stem">
                 <t>.</t>
+                <feat class="[.]" subset="structure"/>
+                <pos class="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
               </morpheme>
             </morphology>
           </w>
           <chunking xml:id="bug.text.div.2.head.1.s.1.chunking.1">
-            <chunk xml:id="bug.text.div.2.head.1.s.1.chunking.1.chunk.1" class="VP" confidence="0.586975">
+            <chunk xml:id="bug.text.div.2.head.1.s.1.chunking.1.chunk.1" class="VP" confidence="0.547386">
               <wref id="bug.text.div.2.head.1.s.1.w.1" t="Kinderjaren"/>
             </chunk>
           </chunking>
