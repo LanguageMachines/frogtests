@@ -6,19 +6,15 @@
 rm ./mbmaout/*
 rm ./output/*
 
-$comm --TESTAPI -t teststandard.txt -o testapi1.out
-cat testapi1.out > testapi.out
+$comm --TESTAPI -t teststandard.txt > testapi.out
 
-$comm --skip=p --TESTAPI --testdir mbmaproblems --outputdir mbmaout
-cat mbmaout/*.out >> testapi.out
+$comm --skip=p --TESTAPI --testdir mbmaproblems >> testapi.out
 
-$comm --skip=p --TESTAPI --testdir xmltests --xmldir output/
-cat output/*.xml >> testapi.out
+$comm --skip=p --TESTAPI --testdir xmltests >> testapi.out
 
 cat <<EOF > dm.txt
 Een test met een verzekeringsagent.
 En een toevalstreffer.
 presidents
 EOF
-$comm --skip=p --TESTAPI --deep-morph -o output/dm.out dm.txt
-cat output/dm.out >> testapi.out
+$comm --skip=p --TESTAPI --deep-morph dm.txt >> testapi.out
