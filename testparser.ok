@@ -198,7 +198,7 @@
 21	.	.	[.]	LET()	1.000000	O	O	20	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.13" version="2.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.15" version="2.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -242,20 +242,20 @@
       <head-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-25T17:23:40" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-25T17:23:40" name="ucto" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-05-02T18:18:36" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.29">
+        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.15"/>
+        <processor xml:id="ucto.1" begindatetime="2023-05-02T18:18:36" name="ucto" version="0.30">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-25T17:23:40" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-25T17:23:40" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-25T17:23:40" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2023-01-25T17:23:40" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2023-01-25T17:23:40" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2023-01-25T17:23:40" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2023-01-25T17:23:40" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-05-02T18:18:36" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-05-02T18:18:36" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-05-02T18:18:36" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2023-05-02T18:18:36" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2023-05-02T18:18:36" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2023-05-02T18:18:36" name="mwu" version="1.1"/>
+        <processor xml:id="dep-parser.1" begindatetime="2023-05-02T18:18:36" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -539,7 +539,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
   </text>
 </FoLiA>
 <?xml version="1.0" encoding="UTF-8"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.13" version="2.0">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.15" version="2.0">
   <metadata type="native">
     <annotations>
       <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
@@ -584,20 +584,20 @@ Gaat deze datum: 28-11-2011 goed?</t>
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-25T17:23:44" command="frog -x folia1.xml --nostdout --KANON -X testparser2.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-25T17:23:44" name="ucto" version="0.27">
+      <processor xml:id="frog.1" begindatetime="2023-05-02T18:18:40" command="frog -x folia1.xml --nostdout --KANON -X testparser2.xml" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.29">
+        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.15"/>
+        <processor xml:id="ucto.1" begindatetime="2023-05-02T18:18:40" name="ucto" version="0.30">
           <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-25T17:23:44" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-25T17:23:44" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-25T17:23:44" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2023-01-25T17:23:44" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2023-01-25T17:23:44" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2023-01-25T17:23:44" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2023-01-25T17:23:44" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-05-02T18:18:40" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-05-02T18:18:40" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-05-02T18:18:40" name="mbma" version="1.0"/>
+        <processor xml:id="IOB.1" begindatetime="2023-05-02T18:18:40" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2023-05-02T18:18:40" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2023-05-02T18:18:40" name="mwu" version="1.1"/>
+        <processor xml:id="dep-parser.1" begindatetime="2023-05-02T18:18:40" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -781,85 +781,6 @@ Gaat deze datum: 28-11-2011 goed?</t>
               </morpheme>
             </morphology>
           </w>
-          <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.0">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="0.537779">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.0">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="een"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="test"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="VP" confidence="1.0">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.9" t="Gaat"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1.0">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.10" t="deze"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="datum"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1.0">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.13" t="28-11-2011"/>
-            </chunk>
-            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756471">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
-            </chunk>
-          </chunking>
-          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
-            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
-              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
-            </entity>
-          </entities>
-          <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1">
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.1" class="su">
-              <hd>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
-              </hd>
-              <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
-              </dep>
-            </dependency>
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.2" class="mod">
-              <hd>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
-              </hd>
-              <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
-              </dep>
-            </dependency>
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.3" class="det">
-              <hd>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="test"/>
-              </hd>
-              <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="een"/>
-              </dep>
-            </dependency>
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.4" class="predc">
-              <hd>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
-              </hd>
-              <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="test"/>
-              </dep>
-            </dependency>
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.5" class="punct">
-              <hd>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="test"/>
-              </hd>
-              <dep>
-                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="."/>
-              </dep>
-            </dependency>
-          </dependencies>
           <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="WORD">
             <t>Gaat</t>
             <pos class="WW(pv,tgw,met-t)" confidence="0.996998" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
@@ -999,8 +920,85 @@ Gaat deze datum: 28-11-2011 goed?</t>
               </morpheme>
             </morphology>
           </w>
-          <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.2">
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.2.dependency.1" class="det">
+          <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="NP" confidence="1.0">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="VP" confidence="0.537779">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="NP" confidence="1.0">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="een"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="test"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="VP" confidence="1.0">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.9" t="Gaat"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="NP" confidence="1.0">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.10" t="deze"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="datum"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="NP" confidence="1.0">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.13" t="28-11-2011"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="ADJP" confidence="0.756471">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
+            </chunk>
+          </chunking>
+          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
+            </entity>
+          </entities>
+          <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1">
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.1" class="su">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="Dit"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.2" class="mod">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="als"/>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="het"/>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="ware"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.3" class="det">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="test"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="een"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.4" class="predc">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="is"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="test"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.5" class="punct">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="test"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="."/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.6" class="det">
               <hd>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="datum"/>
               </hd>
@@ -1008,7 +1006,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.10" t="deze"/>
               </dep>
             </dependency>
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.2.dependency.2" class="su">
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.7" class="su">
               <hd>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.9" t="Gaat"/>
               </hd>
@@ -1016,7 +1014,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="datum"/>
               </dep>
             </dependency>
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.2.dependency.3" class="punct">
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.8" class="punct">
               <hd>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.11" t="datum"/>
               </hd>
@@ -1024,7 +1022,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.12" t=":"/>
               </dep>
             </dependency>
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.2.dependency.4" class="mod">
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.9" class="mod">
               <hd>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.13" t="28-11-2011"/>
               </hd>
@@ -1032,7 +1030,7 @@ Gaat deze datum: 28-11-2011 goed?</t>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
               </dep>
             </dependency>
-            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.2.dependency.5" class="punct">
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.10" class="punct">
               <hd>
                 <wref id="WR-P-E-J-0000000001.head.1.s.1.w.14" t="goed"/>
               </hd>

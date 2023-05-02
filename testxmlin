@@ -10,40 +10,43 @@ rm ./strangeout/*
 
 echo "test 1: " > testxmlin.out
 $comm --skip=p -x folia1.xml -X folia1.out.xml --KANON
-cat folia1.out.xml >> testxmlin.out
+$folialint folia1.out.xml >> testxmlin.out
 echo "test 2: " >> testxmlin.out
 $comm --skip=p -x folia1.xml --inputclass=OCR -X folia2.out.xml --KANON
-cat folia2.out.xml >> testxmlin.out
+$folialint folia2.out.xml >> testxmlin.out
 echo "test 3: " >> testxmlin.out
 $comm --skip=p -t folia1.xml --inputclass=OCR --outputclass=NEW -X folia3.out.xml --KANON >> testxmlin.out
-cat folia3.out.xml >> testxmlin.out
+$folialint folia3.out.xml >> testxmlin.out
 echo "test 4: " >> testxmlin.out
 $comm --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON
-cat folia4.out.xml >> testxmlin.out
+$folialint folia4.out.xml >> testxmlin.out
 echo "test 5: " >> testxmlin.out
-$comm --skip=p -t folia1.xml.gz -X folia1.out1.xml.gz --KANON
-gunzip -c folia1.out1.xml.gz >> testxmlin.out
+$comm --skip=p -t folia1.xml.gz -X folia1.out.5.xml.gz --KANON
+gunzip -c folia1.out.5.xml.gz >> testxmlin.out
+$folialint folia1.out.5.xml >> testxmlin.out
 echo "test 6: " >> testxmlin.out
-$comm --skip=p -t folia1.xml.bz2 -X folia1.out1.xml.bz2 --KANON
-bzcat folia1.out1.xml.bz2 >> testxmlin.out
+$comm --skip=p -t folia1.xml.bz2 -X folia1.out.6.xml.bz2 --KANON
+bzcat folia1.out.6.xml.bz2 >> testxmlin.out
+$folialint folia1.out1.xml.bz2 >> testxmlin.out
 echo "test 7: " >> testxmlin.out
-$comm --skip=p -t folia1.xml -X folia1.out1.xml --KANON >> testxmlin.out
+$comm --skip=p -t folia1.xml -X folia1.out.7.xml --KANON >> testxmlin.out
+$folialint --nooutput folia1.out.7.xml >> testxmlin.out
 echo "test 8: " >> testxmlin.out
-$comm --skip=p -x folia1.xml --testdir=xmltests -X folia1.out.xml --KANON >> testxmlin.out
+$comm --skip=p -x folia1.xml --testdir=xmltests -X folia1.out.8.xml --KANON >> testxmlin.out
 echo "test 9: " >> testxmlin.out
 $comm --skip=p --KANON -x --testdir=xmltests --xmldir=./output
-cat ./output/folia1.xml >> testxmlin.out
+$folialint ./output/folia1.xml >> testxmlin.out
 echo "test 9a: " >> testxmlin.out
-cat ./output/folia2.xml >> testxmlin.out
+$folialint ./output/folia2.xml >> testxmlin.out
 echo "test 9b: " >> testxmlin.out
-cat ./output/folia3.xml >> testxmlin.out
+$folialint ./output/folia3.xml >> testxmlin.out
 echo "test 9c: " >> testxmlin.out
-cat ./output/folia4.xml >> testxmlin.out
+$folialint ./output/folia4.xml >> testxmlin.out
 echo "test 9d: " >> testxmlin.out
-cat ./output/spaces.xml >> testxmlin.out
+$folialint ./output/spaces.xml >> testxmlin.out
 echo "test 10: " >> testxmlin.out
-$comm -x xmltests/folia4.xml -X folia4.out.xml --KANON
-cat folia4.out.xml >> testxmlin.out
+$comm -x xmltests/folia4.xml -X folia10.out.xml --KANON
+$folialint folia10.out.xml >> testxmlin.out
 echo "test 11: " >> testxmlin.out
 $comm --skip=p -x --testdir=zipxmltests --xmldir=./zipoutput
 $foliadiff ./zipoutput/folia1.xml.bz2 folia1.zip.ok.bz2 >> testxmlin.out
