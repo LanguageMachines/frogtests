@@ -26,8 +26,7 @@ gunzip -c folia1.out.5.xml.gz >> testxmlin.out
 $folialint folia1.out.5.xml >> testxmlin.out
 echo "test 6: " >> testxmlin.out
 $comm --skip=p -t folia1.xml.bz2 -X folia1.out.6.xml.bz2 --KANON
-bzcat folia1.out.6.xml.bz2 >> testxmlin.out
-$folialint folia1.out1.xml.bz2 >> testxmlin.out
+$folialint folia1.out.6.xml.bz2 >> testxmlin.out
 echo "test 7: " >> testxmlin.out
 $comm --skip=p -t folia1.xml -X folia1.out.7.xml --KANON >> testxmlin.out
 $folialint --nooutput folia1.out.7.xml >> testxmlin.out
