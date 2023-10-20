@@ -3,4 +3,7 @@
 # defaults:
 #
 
-$comm --skip=p -n -e LATIN1 -t testencoding.txt -o testencoding.out
+$comm --skip=p -n -e LATIN1 -t testencoding.txt -o testenc1.out
+cat testenc1.out > testencoding.out
+$comm --skip=p -n -e WINDOWS-1258 -t W1258.nl -o testenc2g.out
+cat testenc2.out >> testencoding.out

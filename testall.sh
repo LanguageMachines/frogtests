@@ -33,7 +33,7 @@ for file in teststandard testencoding testunits testslash testapostroph \
 	    testissue64 \
 	    testissue71 testissue72 testissue73 testissue76 testissue77 \
 	    testissue98 \
-	    testapi testlong test_testdir testxmlin \
+	    testapi test_testdir testxmlin testlong \
 	    testserver testserver-n testserverxml
 #	    testjsonserver testjsonserver2 # testquotes
 
