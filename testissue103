@@ -1,0 +1,5 @@
+#/bin/sh
+
+$comm --skip=pmcn testissue103.txt -o issue103.out -X issue103.xml
+cat issue103.out > testissue103.out
+$foliadiff issue103.xml issue103.ok.xml >> testissue103.out
