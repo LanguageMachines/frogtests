@@ -6,16 +6,53 @@
 6	.	.	[.]	LET()	1.000000								
 
 1	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.936508								
-2	derde	drie	[drie]	TW(rang,nom,zonder-n)	0.750000								
+2	derde	drie	[drie][de]	TW(rang,nom,zonder-n)	0.750000								
 3	heeft	hebben	[heb][t]	WW(pv,tgw,met-t)	0.998149								
 4	een	een	[een]	LID(onbep,stan,agr)	0.999560								
 5	aanspraak	aanspraak	[aan][spraak]	N(soort,ev,basis,zijd,stan)	0.998077								
 6	.	.	[.]	LET()	1.000000								
 
 1	die	die	[die]	VNW(aanw,det,stan,prenom,zonder,rest)	0.397185								
-2	derde-ordeling	derde-ordeling	[drie][orde][ling]	N(soort,ev,basis,zijd,stan)	1.000000								
+2	derde-ordeling	derde-ordeling	[drie][de][orde][ling]	N(soort,ev,basis,zijd,stan)	1.000000								
 3	heeft	hebben	[heb][t]	WW(pv,tgw,met-t)	0.998149								
 4	een	een	[een]	LID(onbep,stan,agr)	0.999560								
 5	aanspraak	aanspraak	[aan][spraak]	N(soort,ev,basis,zijd,stan)	0.998077								
 6	.	.	[.]	LET()	1.000000								
 
+226,229d225
+<               <morpheme class="affix">
+<                 <t>de</t>
+<                 <feat class="[de]" subset="structure"/>
+<               </morpheme>
+231c227
+<               <feat class="[[drie]quantifier-numeral[de]]quantifier-numeral" subset="structure"/>
+---
+>               <feat class="[drie]quantifier-numeral" subset="structure"/>
+370c366,367
+<                 <morpheme class="complex">
+---
+>                 <morpheme class="stem">
+>                   <t>drie</t>
+372,382c369
+<                   <morpheme class="stem">
+<                     <t>drie</t>
+<                     <pos class="Q" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+<                     <feat class="[drie]quantifier-numeral" subset="structure"/>
+<                   </morpheme>
+<                   <morpheme class="affix">
+<                     <t>de</t>
+<                     <feat class="[de]" subset="structure"/>
+<                   </morpheme>
+<                   <feat class="Q_Q*" subset="applied_rule"/>
+<                   <feat class="[[drie]quantifier-numeral[de]]quantifier-numeral" subset="structure"/>
+---
+>                   <feat class="[drie]quantifier-numeral" subset="structure"/>
+394c381
+<                 <feat class="[[[drie]quantifier-numeral[de]]quantifier-numeral[orde]noun[ling]]noun" subset="structure"/>
+---
+>                 <feat class="[[drie]quantifier-numeral[orde]noun[ling]]noun" subset="structure"/>
+399c386
+<               <feat class="[[[drie]quantifier-numeral[de]]quantifier-numeral[orde]noun[ling]]noun/singular" subset="structure"/>
+---
+>               <feat class="[[drie]quantifier-numeral[orde]noun[ling]]noun/singular" subset="structure"/>
+foliadiff.sh: differences in: issue103.xml issue103.ok.xml
