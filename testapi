@@ -8,7 +8,7 @@ rm ./output/*
 
 $comm --TESTAPI -t teststandard.txt > testapi.out
 
-$comm --skip=p --TESTAPI --testdir mbmaproblems >> testapi.out
+$comm --skip=p --TESTAPI mbmaproblems/vervelend mbmaproblems/compounds >> testapi.out
 
 $comm --skip=p --TESTAPI --testdir xmltests >> testapi.out
 
