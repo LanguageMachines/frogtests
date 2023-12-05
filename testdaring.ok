@@ -1,5 +1,5 @@
 1	We	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.997215								
-2	bonzen	bons	[ [bons]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.666667								
+2	bonzen	bons	[[bons]noun [en]/plural]noun	0	N(soort,mv,basis)	0.666667								
 3	op	op	[op]preposition	0	VZ(init)	0.996568								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.999964								
 5	deur	deur	[deur]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998077								
@@ -7,7 +7,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="bons" generator="libfolia-v2.13" version="2.5.1">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="bons" generator="libfolia-v2.18" version="2.5.4">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -38,16 +38,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-24T15:46:19" command="frog --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-24T15:46:19" name="ucto" version="0.27">
-          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
+      <processor xml:id="frog.1" begindatetime="2023-12-05T17:01:13" command="frog --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON" folia_version="2.5.4" host="kobus" name="frog" user="sloot" version="0.32">
+        <processor xml:id="frog.1.generator" folia_version="2.5.4" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2023-12-05T17:01:13" name="ucto" version="0.31">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.10">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-24T15:46:19" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-24T15:46:19" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-24T15:46:19" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-12-05T17:01:13" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-12-05T17:01:13" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-12-05T17:01:13" name="mbma" version="2.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -208,124 +208,124 @@
   </text>
 </FoLiA>
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	aftaaiende	aftaaien	[ [aftaai]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.841869								
-3	abituriënten	abituriënt	[ [ [abituriënt]noun [e] ]noun [n]/plural ]noun	0	N(soort,mv,basis)	1.000000								
-4	bakkeleien	bakkeleien	[ [bakkelei]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.900000								
+2	aftaaiende	aftaaien	[[aftaai]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.841869								
+3	abituriënten	abituriënt	[[[abituriënt]noun [e]]noun [n]/plural]noun	0	N(soort,mv,basis)	1.000000								
+4	bakkeleien	bakkeleien	[[bakkelei]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.900000								
 5	over	over	[over]preposition	0	VZ(init)	0.999393								
 6	het	het	[het]article	0	LID(bep,stan,evon)	0.702074								
-7	aspiratieniveau	aspiratieniveau	[ [ [aspireer]verb [atie] ]noun [niveau]noun ]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	1.000000								
+7	aspiratieniveau	aspiratieniveau	[[[aspireer]verb [atie]]noun [niveau]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	1.000000								
 8	.	.	[.]	0	LET()	1.000000								
 
 1	Ze	ze	[ze]pronoun	0	VNW(pers,pron,stan,red,3,mv)	0.999366								
-2	leiden	leiden	[ [leid]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.857143								
+2	leiden	leiden	[[leid]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.857143								
 3	aan	aan	[aan]preposition	0	VZ(init)	0.745129								
-4	bacteriënvrees	bacteriënvrees	[ [bacterie]noun [en]/plural [vrees]noun/singular ]noun	0	N(soort,mv,basis)	0.648076								
+4	bacteriënvrees	bacteriënvrees	[[bacterie]noun [en]/plural [vrees]noun/singular]noun	0	N(soort,mv,basis)	0.648076								
 5	vanwege	vanwege	[vanwege]preposition	0	VZ(init)	0.999078								
 6	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-7	bediendenbelastingen	bediendenbelasting	[ [ [bediende]noun [n] [ [ [be] [last]noun ]verb [ing] ]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	0.903950								
+7	bediendenbelastingen	bediendenbelasting	[[[bediende]noun [n][[[be][last]noun]verb [ing]]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	0.903950								
 8	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	bedieningsmachinisten	bedieningsmachinist	[ [ [ [ [be] [dien]verb ]verb [ing] ]noun [s] [ [machine]noun [ist] ]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
-3	zitten	zitten	[ [zit]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.857143								
+2	bedieningsmachinisten	bedieningsmachinist	[[[[[be][dien]verb]verb [ing]]noun [s][[machine]noun [ist]]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
+3	zitten	zitten	[[zit]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.857143								
 4	achter	achter	[achter]preposition	0	VZ(init)	0.997587								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-6	bedieningspanelen	bedieningspaneel	[ [ [ [ [be] [dien]verb ]verb [ing] ]noun [s] [paneel]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
+6	bedieningspanelen	bedieningspaneel	[[[[[be][dien]verb]verb [ing]]noun [s][paneel]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 7	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
 2	beoliënde	beoliënde	[beoliënde]noun	0	N(soort,ev,basis,zijd,stan)	0.378789								
 3	en	en	[en]conjunction	0	VG(neven)	0.999194								
-4	betraliënde	betraliënde	[ [be] [tralie]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	ADJ(prenom,basis,met-e,stan)	0.591578								
-5	bezienswaardigheden	bezienswaardigheid	[ [ [be] [zie]verb ]verb [ns] [ [ [waarde]noun [ig] ]adjective [heid] ]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.999588								
+4	betraliënde	betraliënde	[[be][tralie]verb [end]/participle/present-tense [e]/suffix-e]verb	0	ADJ(prenom,basis,met-e,stan)	0.591578								
+5	bezienswaardigheden	bezienswaardigheid	[[[be][zie]verb]verb [ns][[[waarde]noun [ig]]adjective [heid]]noun [en]/plural]noun	0	N(soort,mv,basis)	0.999588								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	braniënde	braniën	[ [branie]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.623095								
-3	buspatiënten	buspatiënt	[ [ [bus]noun [patiënt]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
+2	braniënde	braniën	[[branie]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.623095								
+3	buspatiënten	buspatiënt	[[[bus]noun [patiënt]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 4	gebruiken	gebruiken	[gebruiken]verb	0	WW(inf,vrij,zonder)	0.782343								
-5	catechumenenolie	catechumenenolie	[ [catechumeen]noun [en] [olie]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
+5	catechumenenolie	catechumenenolie	[[catechumeen]noun [en][olie]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999688								
 2	dien	die	[dien]pronoun	0	VNW(aanw,det,dial)	0.653768								
 3	de	de	[de]article	0	LID(bep,stan,rest)	0.999852								
-4	dienaressen	dienares	[ [ [ [dien]verb [aar] ]noun [es] ]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.998726								
+4	dienaressen	dienares	[[[[dien]verb [aar]]noun [es]]noun [en]/plural]noun	0	N(soort,mv,basis)	0.998726								
 5	in	in	[in]preposition	0	VZ(init)	0.931126								
 6	hun	hun	[hun]pronoun	0	VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)	0.918501								
-7	dienstbodenkamertje	dienstbodenkamer	[ [ [dien]verb [st] ]noun [ [bode]noun [n] [kamer]noun ]noun [tje]/diminutive/singular ]noun	NN-compound	N(soort,ev,dim,onz,stan)	0.999323								
+7	dienstbodenkamertje	dienstbodenkamer	[[[dien]verb [st]]noun [[bode]noun [n][kamer]noun]noun [tje]/diminutive/singular]noun	NN-compound	N(soort,ev,dim,onz,stan)	0.999323								
 8	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-9	dienstverleningsaanbod	dienstverleningsaanbod	[ [ [ [dien]verb [st] ]noun [ [ver] [leen]verb ]verb [ing] ]noun [s] [aanbod]noun ]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.935865								
+9	dienstverleningsaanbod	dienstverleningsaanbod	[[[[dien]verb [st]]noun [[ver][leen]verb]verb [ing]]noun [s][aanbod]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.935865								
 10	toe	toe	[toe]preposition/singular	0	VZ(fin)	0.998680								
 11	.	.	[.]	0	LET()	1.000000								
 
 1	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-2	differentiaalquotiënten	differentiaalquotiënt	[ [ [ [ [different]adjective [ie] ]noun [aal] ]noun [quotiënt]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
-3	werden	worden	[ [word]verb [en]/past-tense/plural ]verb	0	WW(pv,verl,mv)	0.997831								
+2	differentiaalquotiënten	differentiaalquotiënt	[[[[[different]adjective [ie]]noun [aal]]noun [quotiënt]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
+3	werden	worden	[[word]verb [en]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.997831								
 4	in	in	[in]preposition	0	VZ(init)	0.931126								
-5	estafettendiensten	estafettendienst	[ [ [estafette]noun [n] [ [dien]verb [st] ]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	0.937906								
+5	estafettendiensten	estafettendienst	[[[estafette]noun [n][[dien]verb [st]]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	0.937906								
 6	met	met	[met]preposition/singular	0	VZ(init)	0.999480								
-7	evangeliënharmonieën	evangeliënharmonie	[ [ [evangelie]noun [en] [ [harmon]adjective [ie] ]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
+7	evangeliënharmonieën	evangeliënharmonie	[[[evangelie]noun [en][[harmon]adjective [ie]]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 8	en	en	[en]conjunction	0	VG(neven)	0.999194								
-9	flikflooiende	flikflooien	[ [flikflooi]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.582833								
-10	zeloten	zeloot	[ [zeloot]noun [en]/plural ]noun	0	N(soort,mv,basis)	1.000000								
-11	afgeleverd	afleveren	[ [af]preposition [ge]/participle/past-tense [lever]verb [d]/participle/past-tense ]verb	0	WW(vd,vrij,zonder)	0.998385								
+9	flikflooiende	flikflooien	[[flikflooi]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.582833								
+10	zeloten	zeloot	[[zeloot]noun [en]/plural]noun	0	N(soort,mv,basis)	1.000000								
+11	afgeleverd	afleveren	[[af]preposition [ge]/participle/past-tense [lever]verb [d]/participle/past-tense]verb	0	WW(vd,vrij,zonder)	0.998385								
 12	bij	bij	[bij]preposition	0	VZ(init)	0.998628								
 13	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-14	herendienst	herendienst	[ [heer]noun [en] [ [dien]verb [st] ]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
+14	herendienst	herendienst	[[heer]noun [en][[dien]verb [st]]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
 15	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	kandidatentoernooien	kandidatentoernooi	[ [ [ [kandideer]verb [at] ]noun [en] [toernooi]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
+2	kandidatentoernooien	kandidatentoernooi	[[[[kandideer]verb [at]]noun [en][toernooi]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 3	in	in	[in]preposition	0	VZ(init)	0.998814								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-5	keiengroeven	keiengroef	[ [kei]noun [en] [groeven]noun ]noun	NN-compound	N(soort,mv,basis)	1.000000								
+5	keiengroeven	keiengroef	[[kei]noun [en][groeven]noun]noun	NN-compound	N(soort,mv,basis)	1.000000								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	klaspatienten	klaspatient	[ [ [klas]noun [patient]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	0.890345								
-3	laveien	laveien	[ [lavei]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.384086								
+2	klaspatienten	klaspatient	[[[klas]noun [patient]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	0.890345								
+3	laveien	laveien	[[lavei]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.384086								
 4	door	door	[door]preposition/singular	0	VZ(init)	0.856675								
 5	het	het	[het]article	0	LID(bep,stan,evon)	0.702074								
-6	leliënbed	leliënbed	[ [lelie]noun [en] [bed]noun ]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	1.000000								
+6	leliënbed	leliënbed	[[lelie]noun [en][bed]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	1.000000								
 7	.	.	[.]	0	LET()	1.000000								
 
-1	Zenuwpatiënten	zenuwpatiënt	[ [ [zenuw]noun [patiënt]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
-2	lagen	liggen	[ [lig]verb [en]/past-tense/plural ]verb	0	WW(pv,verl,mv)	0.689655								
+1	Zenuwpatiënten	zenuwpatiënt	[[[zenuw]noun [patiënt]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
+2	lagen	liggen	[[lig]verb [en]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.689655								
 3	in	in	[in]preposition	0	VZ(init)	0.998790								
 4	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-5	zeswekendienst	zeswekendienst	[ [zes]quantifier-numeral [week]noun [en] [ [dien]verb [st] ]noun ]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.818502								
+5	zeswekendienst	zeswekendienst	[[zes]quantifier-numeral [week]noun [en][[dien]verb [st]]noun]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.818502								
 6	.	.	[.]	0	LET()	1.000000								
 
-1	Ziekenfondspatiënten	ziekenfondspatiënt	[ [ [ [zieke]noun [en] [fonds]noun ]noun [patiënt]noun ]noun [en]/plural ]noun	NNN-compound	N(soort,mv,basis)	1.000000								
-2	draaiden	draaien	[ [draai]verb [den]/past-tense/plural ]verb	0	WW(pv,verl,mv)	0.993311								
+1	Ziekenfondspatiënten	ziekenfondspatiënt	[[[[zieke]noun [en][fonds]noun]noun [patiënt]noun]noun [en]/plural]noun	NNN-compound	N(soort,mv,basis)	1.000000								
+2	draaiden	draaien	[[draai]verb [den]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.993311								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	ziekenhuisdienst	ziekenhuisdienst	[ [ [zieke]noun [en] [huis]noun ]noun [ [dien]verb [st] ]noun/singular ]noun	NN-compound	N(soort,ev,basis,zijd,stan)	0.913700								
+4	ziekenhuisdienst	ziekenhuisdienst	[[[zieke]noun [en][huis]noun]noun [[dien]verb [st]]noun/singular]noun	NN-compound	N(soort,ev,basis,zijd,stan)	0.913700								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771								
-2	neuriënde	neuriën	[ [neurie]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.992111								
-3	ziekenhuisvoorziening	ziekenhuisvoorziening	[ [ [zieke]noun [en] [huis]noun ]noun [voor]adverb [ [zie]verb [ing] ]noun/singular ]noun	0	N(soort,ev,basis,zijd,stan)	1.000000								
+2	neuriënde	neuriën	[[neurie]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.992111								
+3	ziekenhuisvoorziening	ziekenhuisvoorziening	[[[zieke]noun [en][huis]noun]noun [voor]adverb [[zie]verb [ing]]noun/singular]noun	0	N(soort,ev,basis,zijd,stan)	1.000000								
 4	.	.	[.]	0	LET()	1.000000								
 
 1	Alles	alles	[alles]pronoun	0	VNW(onbep,pron,stan,vol,3o,ev)	0.994808								
-2	overziende	overziende	[ [over]preposition [zie]verb [nd]/participle/present-tense [e]/suffix-e ]verb	PV-compound	WW(pv,verl,ev)	0.954401								
+2	overziende	overziende	[[over]preposition [zie]verb [nd]/participle/present-tense [e]/suffix-e]verb	PV-compound	WW(pv,verl,ev)	0.954401								
 3	zijn	zijn	[zijn]verb/infinitive	0	WW(inf,vrij,zonder)	0.666667								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-5	pagaaiende	pagaaien	[ [pagaai]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.758024								
-6	patiënten	patiënt	[ [patiënt]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.998020								
-7	pierenwaaiende	pierenwaaiende	[ [pier]noun [en] [waai]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(pv,verl,ev)	1.000000								
+5	pagaaiende	pagaaien	[[pagaai]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.758024								
+6	patiënten	patiënt	[[patiënt]noun [en]/plural]noun	0	N(soort,mv,basis)	0.998020								
+7	pierenwaaiende	pierenwaaiende	[[pier]noun [en][waai]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(pv,verl,ev)	1.000000								
 8	.	.	[.]	0	LET()	1.000000								
 
 1	Of	of	[of]conjunction	0	VG(neven)	0.900891								
 2	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.991297								
 3	ze	ze	[ze]pronoun	0	VNW(pers,pron,stan,red,3,mv)	0.670897								
-4	papegaaiende	papegaaiende	[ [papegaai]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(pv,verl,ev)	0.785145								
+4	papegaaiende	papegaaiende	[[papegaai]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(pv,verl,ev)	0.785145								
 5	?	?	[?]	0	LET()	1.000000								
 
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771								
-2	psychohygiënische	psychohygiënisch	[ [psycho] [ [hygiëne]noun [isch] ]adjective [e]/suffix-e/positive ]adjective	0	ADJ(prenom,basis,met-e,stan)	1.000000								
-3	regeringsdienst	regeringsdienst	[ [ [regeer]verb [ing] ]noun [s] [ [dien]verb [st] ]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
+2	psychohygiënische	psychohygiënisch	[[psycho][[hygiëne]noun [isch]]adjective [e]/suffix-e/positive]adjective	0	ADJ(prenom,basis,met-e,stan)	1.000000								
+3	regeringsdienst	regeringsdienst	[[[regeer]verb [ing]]noun [s][[dien]verb [st]]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
 4	.	.	[.]	0	LET()	1.000000								
 
 1	Ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999791								
@@ -335,64 +335,64 @@
 5	en	en	[en]conjunction	0	VG(neven)	0.997774								
 6	zie	zien	[zie]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.997988								
 7	al	al	[al]adverb	0	BW()	0.903833								
-8	skiënde	skiënde	[ [ski]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,vrij,zonder)	0.329697								
+8	skiënde	skiënde	[[ski]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,vrij,zonder)	0.329697								
 9	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-10	skiënde	skiën	[ [ski]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	1.000000								
-11	schaliëndekker	schaliëndekker	[ [schalie]noun [en] [dek]verb [er] ]noun/singular	0	N(soort,ev,basis,zijd,stan)	1.000000								
+10	skiënde	skiën	[[ski]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	1.000000								
+11	schaliëndekker	schaliëndekker	[[schalie]noun [en][dek]verb [er]]noun/singular	0	N(soort,ev,basis,zijd,stan)	1.000000								
 12	,	,	[,]	0	LET()	1.000000								
 13	dat	dat	[dat]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.891473								
 14	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999447								
-15	verfoeienswaardig	verfoeienswaardig	[ [verfoei]verb [ens] [ [waarde]noun [ig] ]adjective ]adjective/positive	0	ADJ(vrij,basis,zonder)	1.000000								
+15	verfoeienswaardig	verfoeienswaardig	[[verfoei]verb [ens][[waarde]noun [ig]]adjective]adjective/positive	0	ADJ(vrij,basis,zonder)	1.000000								
 16	.	.	[.]	0	LET()	1.000000								
 
 1	Al	al	[al]adverb	0	BW()	0.626101								
-2	neuriënd	neuriën	[ [neurie]verb [end]/participle/present-tense ]verb	0	WW(od,vrij,zonder)	0.996736								
-3	meniënde	meniënde	[ [menie]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(pv,verl,ev)	0.724020								
+2	neuriënd	neuriën	[[neurie]verb [end]/participle/present-tense]verb	0	WW(od,vrij,zonder)	0.996736								
+3	meniënde	meniënde	[[menie]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(pv,verl,ev)	0.724020								
 4	aan	aan	[aan]preposition	0	VZ(init)	0.996734								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-6	maliënkolders	maliënkolder	[ [ [malie]noun [en] [kolder]noun ]noun [s]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
+6	maliënkolders	maliënkolder	[[[malie]noun [en][kolder]noun]noun [s]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 7	en	en	[en]conjunction	0	VG(neven)	0.999194								
-8	markeringsboeien	markeringsboei	[ [ [ [ [mark]noun [eer] ]verb [ing] ]noun [s] [boei]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
+8	markeringsboeien	markeringsboei	[[[[[mark]noun [eer]]verb [ing]]noun [s][boei]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 9	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.995415								
 10	we	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.999170								
-11	milieuhygiënisch	milieuhygiënisch	[ [milieu]noun [ [hygiëne]noun [isch] ]adjective/positive ]adjective	0	ADJ(vrij,basis,zonder)	1.000000								
+11	milieuhygiënisch	milieuhygiënisch	[[milieu]noun [[hygiëne]noun [isch]]adjective/positive]adjective	0	ADJ(vrij,basis,zonder)	1.000000								
 12	niet	niet	[niet]adverb	0	BW()	0.999918								
 13	goed	goed	[goed]adjective/positive	0	ADJ(vrij,basis,zonder)	0.990476								
 14	bezig	bezig	[bezig]adjective/positive	0	ADJ(vrij,basis,zonder)	0.998472								
 15	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	monopoliënde	monopoliën	[ [monopolie]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.654721								
-3	oliën	olie	[ [olie]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.916667								
+2	monopoliënde	monopoliën	[[monopolie]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.654721								
+3	oliën	olie	[[olie]noun [en]/plural]noun	0	N(soort,mv,basis)	0.916667								
 4	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.597701								
-5	onhygiënisch	onhygiënisch	[ [on] [ [hygiëne]noun [isch] ]adjective/positive ]adjective	0	ADJ(vrij,basis,zonder)	0.909402								
+5	onhygiënisch	onhygiënisch	[[on][[hygiëne]noun [isch]]adjective/positive]adjective	0	ADJ(vrij,basis,zonder)	0.909402								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Wij	wij	[wij]pronoun	0	VNW(pers,pron,nomin,vol,1,mv)	0.998887								
-2	ontmoeien	ontmoeien	[ [ontmoei]verb [en]/infinitive ]verb	0	WW(pv,tgw,mv)	0.562293								
+2	ontmoeien	ontmoeien	[[ontmoei]verb [en]/infinitive]verb	0	WW(pv,tgw,mv)	0.562293								
 3	ons	ons	[ons]pronoun	0	VNW(pr,pron,obl,vol,1,mv)	0.979381								
 4	met	met	[met]preposition/singular	0	VZ(init)	0.999820								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-6	opruiende	opruiend	[ [opruiend]adjective [e]/suffix-e ]adjective	0	ADJ(prenom,basis,met-e,stan)	0.875000								
-7	oriëntering	oriëntering	[ [ [Oriënt]noun [eer] ]verb [ing] ]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999705								
+6	opruiende	opruiend	[[opruiend]adjective [e]/suffix-e]adjective	0	ADJ(prenom,basis,met-e,stan)	0.875000								
+7	oriëntering	oriëntering	[[[Oriënt]noun [eer]]verb [ing]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999705								
 8	.	.	[.]	0	LET()	1.000000								
 
 1	We	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.997961								
-2	verdienden	verdienen	[ [verdien]verb [den]/past-tense/plural ]verb	0	WW(pv,verl,mv)	0.998744								
+2	verdienden	verdienen	[[verdien]verb [den]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.998744								
 3	het	het	[het]pronoun	0	VNW(pers,pron,stan,red,3,ev,onz)	0.917266								
 4	dat	dat	[dat]conjunction	0	VG(onder)	0.946787								
 5	we	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.999170								
 6	het	het	[het]article	0	LID(bep,stan,evon)	0.997424								
 7	dak	dak	[dak]noun/singular	0	N(soort,ev,basis,onz,stan)	0.996804								
-8	verleien	verleien	[ [verlei]verb [en]/infinitive ]verb	0	ADJ(vrij,basis,zonder)	0.323011								
-9	moesten	moeten	[ [moet]verb [en]/past-tense/plural ]verb	0	WW(pv,verl,mv)	0.997888								
+8	verleien	verleien	[[verlei]verb [en]/infinitive]verb	0	ADJ(vrij,basis,zonder)	0.323011								
+9	moesten	moeten	[[moet]verb [en]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.997888								
 10	.	.	[.]	0	LET()	1.000000								
 
 1	Dat	dat	[dat]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.868670								
-2	moesten	moeten	[ [moet]verb [en]/past-tense/plural ]verb	0	WW(pv,verl,mv)	0.997888								
+2	moesten	moeten	[[moet]verb [en]/past-tense/plural]verb	0	WW(pv,verl,mv)	0.997888								
 3	we	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.999170								
 4	wel	wel	[wel]adjective/positive	0	BW()	0.999831								
-5	uitkienen	uitkienen	[ [uitkien]verb [en]/infinitive ]verb	0	WW(inf,vrij,zonder)	0.972973								
+5	uitkienen	uitkienen	[[uitkien]verb [en]/infinitive]verb	0	WW(inf,vrij,zonder)	0.972973								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
@@ -400,12 +400,12 @@
 3	Piet	Piet	[Piet]	0	SPEC(deeleigen)	1.000000								
 4	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.991803								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-6	expediënten	expediënt	[ [expedieer]noun [ent]/singular [en]/plural ]noun	0	N(soort,mv,basis)	0.637163								
+6	expediënten	expediënt	[[expedieer]noun [ent]/singular [en]/plural]noun	0	N(soort,mv,basis)	0.637163								
 7	.	.	[.]	0	LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="torture" generator="libfolia-v2.13" version="2.5.1">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="torture" generator="libfolia-v2.18" version="2.5.4">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -436,16 +436,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-24T15:46:21" command="frog --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-24T15:46:21" name="ucto" version="0.27">
-          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
+      <processor xml:id="frog.1" begindatetime="2023-12-05T17:01:15" command="frog --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON" folia_version="2.5.4" host="kobus" name="frog" user="sloot" version="0.32">
+        <processor xml:id="frog.1.generator" folia_version="2.5.4" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2023-12-05T17:01:15" name="ucto" version="0.31">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.10">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-24T15:46:21" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-24T15:46:21" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-24T15:46:21" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-12-05T17:01:15" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-12-05T17:01:15" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-12-05T17:01:15" name="mbma" version="2.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -5287,11 +5287,11 @@
   </text>
 </FoLiA>
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.991282								
-2	Tilburgse	tilburgs	[ [til]noun [burgse]adjective/positive ]adjective	NA-compound	ADJ(prenom,basis,met-e,stan)	0.981205								
-3	academiën	academie	[ [ [academ]adjective [isch] ]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.905163								
-4	verkiezen	verkiezen	[ [ [ver] [kies]verb ]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.884615								
+2	Tilburgse	tilburgs	[[til]noun [burgse]adjective/positive]adjective	NA-compound	ADJ(prenom,basis,met-e,stan)	0.981205								
+3	academiën	academie	[[[academ]adjective [isch]]noun [en]/plural]noun	0	N(soort,mv,basis)	0.905163								
+4	verkiezen	verkiezen	[[[ver][kies]verb]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.884615								
 5	het	het	[het]article	0	LID(bep,stan,evon)	0.702074								
-6	abbreviëren	abbreviëren	[ [abbrevieer]verb [en]/infinitive ]verb	0	WW(inf,nom,zonder,zonder-n)	1.000000								
+6	abbreviëren	abbreviëren	[[abbrevieer]verb [en]/infinitive]verb	0	WW(inf,nom,zonder,zonder-n)	1.000000								
 7	van	van	[van]preposition/singular	0	VZ(init)	0.999333								
 8	universiteit	universiteit	[universiteit]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998069								
 9	tot	tot	[tot]preposition	0	VZ(init)	0.998379								
@@ -5299,85 +5299,85 @@
 11	.	.	[.]	0	LET()	1.000000								
 
 1	Wij	wij	[wij]pronoun	0	VNW(pers,pron,nomin,vol,1,mv)	0.998887								
-2	affiliëren	affiliëren	[ [affilieer]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.637275								
+2	affiliëren	affiliëren	[[affilieer]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.637275								
 3	ons	ons	[ons]pronoun	0	VNW(pr,pron,obl,vol,1,mv)	0.985222								
 4	niet	niet	[niet]adverb	0	BW()	0.999918								
-5	hiermee	hiermee	[ [hier]adverb [mee]adverb ]adverb	BB-compound	BW()	0.987097								
+5	hiermee	hiermee	[[hier]adverb [mee]adverb]adverb	BB-compound	BW()	0.987097								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Wij	wij	[wij]pronoun	0	VNW(pers,pron,nomin,vol,1,mv)	0.998887								
-2	associëren	associëren	[ [associeer]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.666667								
+2	associëren	associëren	[[associeer]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.666667								
 3	ons	ons	[ons]pronoun	0	VNW(pr,pron,obl,vol,1,mv)	0.985222								
 4	niet	niet	[niet]adverb	0	BW()	0.999881								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Want	want	[want]conjunction	0	VG(neven)	0.996817								
 2	wij	wij	[wij]pronoun	0	VNW(pers,pron,nomin,vol,1,mv)	0.998490								
-3	ambiëren	ambiëren	[ [ambieer]verb [en]/infinitive ]verb	0	WW(inf,vrij,zonder)	0.875000								
+3	ambiëren	ambiëren	[[ambieer]verb [en]/infinitive]verb	0	WW(inf,vrij,zonder)	0.875000								
 4	iets	iets	[iets]pronoun	0	VNW(onbep,pron,stan,vol,3o,ev)	0.998571								
-5	artificiële	artificieel	[ [artificieel]adjective [e]/suffix-e/positive ]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999763								
+5	artificiële	artificieel	[[artificieel]adjective [e]/suffix-e/positive]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999763								
 6	intelligentie	intelligentie	[intelligentie]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999705								
 7	.	.	[.]	0	LET()	1.000000								
 
 1	Deze	deze	[deze]pronoun	0	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780								
-2	arteriën	arterie	[ [arterie]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.999775								
-3	hebben	hebben	[ [heb]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.984000								
+2	arteriën	arterie	[[arterie]noun [en]/plural]noun	0	N(soort,mv,basis)	0.999775								
+3	hebben	hebben	[[heb]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.984000								
 4	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-5	arteriële	arterieel	[ [ [arterie]noun [eel] ]adjective [e]/suffix-e/positive ]adjective	0	ADJ(prenom,basis,met-e,stan)	1.000000								
-6	infectie	infectie	[ [infect]adjective [ie] ]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999705								
+5	arteriële	arterieel	[[[arterie]noun [eel]]adjective [e]/suffix-e/positive]adjective	0	ADJ(prenom,basis,met-e,stan)	1.000000								
+6	infectie	infectie	[[infect]adjective [ie]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999705								
 7	.	.	[.]	0	LET()	1.000000								
 
 1	Wat	wat	[wat]pronoun	0	VNW(vb,pron,stan,vol,3o,ev)	0.987835								
-2	betekent	betekenen	[ [be] [teken]verb [t]/present-tense/singular/2nd-person-verb ]verb	0	WW(pv,tgw,met-t)	0.998984								
-3	auctoriële	auctorieel	[ [auctorieel]adjective [e]/suffix-e/positive ]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999807								
-4	mensen	mens	[ [mens]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.999865								
+2	betekent	betekenen	[[be][teken]verb [t]/present-tense/singular/2nd-person-verb]verb	0	WW(pv,tgw,met-t)	0.998984								
+3	auctoriële	auctorieel	[[auctorieel]adjective [e]/suffix-e/positive]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999807								
+4	mensen	mens	[[mens]noun [en]/plural]noun	0	N(soort,mv,basis)	0.999865								
 5	?	?	[?]	0	LET()	1.000000								
 
 1	Dat	dat	[dat]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.995495								
-2	moeten	moeten	[ [moet]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.672768								
+2	moeten	moeten	[[moet]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.672768								
 3	we	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.999170								
-4	bediscussiëren	bediscussiëren	[ [ [be] [discussieer]verb ]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.857143								
+4	bediscussiëren	bediscussiëren	[[[be][discussieer]verb]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.857143								
 5	in	in	[in]preposition	0	VZ(init)	0.999350								
 6	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-7	concipiërende	concipiëren	[ [concipieer]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.910471								
-8	vergadering	vergadering	[ [vergader]verb [ing] ]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998281								
+7	concipiërende	concipiëren	[[concipieer]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.910471								
+8	vergadering	vergadering	[[vergader]verb [ing]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998281								
 9	?	?	[?]	0	LET()	1.000000								
 
 1	Zodat	zodat	[zodat]conjunction	0	VG(onder)	0.998089								
 2	we	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.999170								
 3	het	het	[het]pronoun	0	VNW(pers,pron,stan,red,3,ev,onz)	0.884615								
-4	kunnen	kunnen	[ [kan]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.534657								
-5	certifiëren	certifiëren	[ [certifieer]verb [en]/infinitive ]verb	0	WW(inf,vrij,zonder)	1.000000								
+4	kunnen	kunnen	[[kan]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.534657								
+5	certifiëren	certifiëren	[[certifieer]verb [en]/infinitive]verb	0	WW(inf,vrij,zonder)	1.000000								
 6	,	,	[,]	0	LET()	1.000000								
 7	of	of	[of]conjunction	0	VG(neven)	0.986413								
 8	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999447								
 9	het	het	[het]pronoun	0	VNW(pers,pron,stan,red,3,ev,onz)	1.000000								
-10	certificeren	certificeren	[ [certificeer]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.983607								
+10	certificeren	certificeren	[[certificeer]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.983607								
 11	?	?	[?]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	conciliën	concilie	[ [concilie]noun [n]/plural ]noun	0	N(soort,mv,basis)	1.000000								
+2	conciliën	concilie	[[concilie]noun [n]/plural]noun	0	N(soort,mv,basis)	1.000000								
 3	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.975831								
 4	al	al	[al]adverb	0	BW()	0.991537								
-5	dagen	dag	[ [dag]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.995536								
+5	dagen	dag	[[dag]noun [en]/plural]noun	0	N(soort,mv,basis)	0.995536								
 6	aan	aan	[aan]preposition	0	VZ(init)	0.996533								
 7	het	het	[het]article	0	LID(bep,stan,evon)	0.702074								
-8	conciliëren	conciliëren	[ [concilieer]verb [en]/infinitive ]verb	0	WW(inf,nom,zonder,zonder-n)	0.757060								
+8	conciliëren	conciliëren	[[concilieer]verb [en]/infinitive]verb	0	WW(inf,nom,zonder,zonder-n)	0.757060								
 9	.	.	[.]	0	LET()	1.000000								
 
 1	Ze	ze	[ze]pronoun	0	VNW(pers,pron,stan,red,3,mv)	0.514499								
-2	contrariëren	contrariëren	[ [contrarieer]verb [en]/present-tense/plural ]verb	0	WW(pv,verl,mv)	0.660917								
+2	contrariëren	contrariëren	[[contrarieer]verb [en]/present-tense/plural]verb	0	WW(pv,verl,mv)	0.660917								
 3	over	over	[over]preposition	0	VZ(init)	0.958333								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-5	contrariërende	contrariëren	[ [contrarieer]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.743507								
+5	contrariërende	contrariëren	[[contrarieer]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.743507								
 6	onderwerpen	onderwerp	[onderwerpen]noun	0	N(soort,mv,basis)	0.996470								
 7	!	!	[!]	0	LET()	1.000000								
 
 1	Ze	ze	[ze]pronoun	0	VNW(pers,pron,stan,red,3,mv)	0.514499								
-2	contrariëren	contrariëren	[ [contrarieer]verb [en]/present-tense/plural ]verb	0	WW(pv,verl,mv)	0.660917								
+2	contrariëren	contrariëren	[[contrarieer]verb [en]/present-tense/plural]verb	0	WW(pv,verl,mv)	0.660917								
 3	over	over	[over]preposition	0	VZ(init)	0.958333								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-5	contraveniërende	contraveniëren	[ [contravenieer]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.743507								
+5	contraveniërende	contraveniëren	[[contravenieer]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.743507								
 6	onderwerpen	onderwerp	[onderwerpen]noun	0	N(soort,mv,basis)	0.996470								
 7	!	!	[!]	0	LET()	1.000000								
 
@@ -5385,38 +5385,38 @@
 2	er	er	[er]pronoun	0	VNW(aanw,adv-pron,stan,red,3,getal)	0.996845								
 3	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.986083								
 4	nog	nog	[nog]adverb	0	BW()	0.999930								
-5	controversiëlere	controversieel	[ [ [controversie]noun [eel] ]adjective [er]/comparative [e]/suffix-e ]adjective	0	ADJ(prenom,comp,met-e,stan)	0.990385								
+5	controversiëlere	controversieel	[[[controversie]noun [eel]]adjective [er]/comparative [e]/suffix-e]adjective	0	ADJ(prenom,comp,met-e,stan)	0.990385								
 6	onderwerpen	onderwerp	[onderwerpen]noun	0	N(soort,mv,basis)	0.998911								
 7	dan	dan	[dan]conjunction	0	VG(onder)	0.727273								
 8	de	de	[de]article	0	LID(bep,stan,rest)	0.999647								
-9	spelling	spelling	[ [spel]verb [ing] ]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999662								
+9	spelling	spelling	[[spel]verb [ing]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999662								
 10	van	van	[van]preposition/singular	0	VZ(init)	0.959312								
 11	controversiëler	controversiëler	[controversiëler]noun	0	N(soort,ev,basis,onz,stan)	0.584209								
 12	.	.	[.]	0	LET()	1.000000								
 
 1	Deze	deze	[deze]pronoun	0	VNW(aanw,det,stan,prenom,met-e,rest)	0.806780								
-2	zaken	zaak	[ [zaak]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.998020								
-3	conveniëren	conveniëren	[ [convenieer]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.416741								
+2	zaken	zaak	[[zaak]noun [en]/plural]noun	0	N(soort,mv,basis)	0.998020								
+3	conveniëren	conveniëren	[[convenieer]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.416741								
 4	ons	ons	[ons]pronoun	0	VNW(pr,pron,obl,vol,1,mv)	0.985222								
 5	niet	niet	[niet]adverb	0	BW()	0.999881								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	We	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.997215								
-2	definiëren	definiëren	[ [definieer]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	1.000000								
+2	definiëren	definiëren	[[definieer]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	1.000000								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	differentiële	differentieel	[ [ [ [different]adjective [ie] ]noun [eel] ]adjective [e]/suffix-e/positive ]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999828								
-5	vergelijking	vergelijking	[ [ [ver] [gelijk]verb ]verb [ing] ]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999705								
+4	differentiële	differentieel	[[[[different]adjective [ie]]noun [eel]]adjective [e]/suffix-e/positive]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999828								
+5	vergelijking	vergelijking	[[[ver][gelijk]verb]verb [ing]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.999705								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Het	het	[het]article	0	LID(bep,stan,evon)	0.516709								
-2	differentiëringsproces	differentiëringsproces	[ [differentieer]adjective [ [ing] [s] [proces]noun ]noun/singular ]noun	AN-compound	N(soort,ev,basis,onz,stan)	1.000000								
-3	verloopt	verlopen	[ [ver] [loop]verb [t]/present-tense/singular/2nd-person-verb ]verb	0	WW(pv,tgw,met-t)	0.998984								
-4	eenvoudig	eenvoudig	[ [eenvoud]noun [ig] ]adjective/positive	0	ADJ(vrij,basis,zonder)	0.977273								
+2	differentiëringsproces	differentiëringsproces	[[differentieer]adjective [[ing][s][proces]noun]noun/singular]noun	AN-compound	N(soort,ev,basis,onz,stan)	1.000000								
+3	verloopt	verlopen	[[ver][loop]verb [t]/present-tense/singular/2nd-person-verb]verb	0	WW(pv,tgw,met-t)	0.998984								
+4	eenvoudig	eenvoudig	[[eenvoud]noun [ig]]adjective/positive	0	ADJ(vrij,basis,zonder)	0.977273								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Dit	dit	[dit]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.777085								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.996528								
-3	discussiëren	discussiëren	[ [discussieer]verb [en]/infinitive ]verb	0	WW(inf,vrij,zonder)	0.892100								
+3	discussiëren	discussiëren	[[discussieer]verb [en]/infinitive]verb	0	WW(inf,vrij,zonder)	0.892100								
 4	om	om	[om]preposition	0	VZ(init)	0.997222								
 5	niets	niets	[niets]pronoun	0	VNW(onbep,pron,stan,vol,3o,ev)	0.997921								
 6	.	.	[.]	0	LET()	1.000000								
@@ -5424,7 +5424,7 @@
 1	Wat	wat	[wat]pronoun	0	VNW(vb,pron,stan,vol,3o,ev)	0.903943								
 2	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.973699								
 3	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-4	domiciliën	domicilie	[ [domicilie]noun [en]/plural ]noun	0	N(soort,mv,basis)	1.000000								
+4	domiciliën	domicilie	[[domicilie]noun [en]/plural]noun	0	N(soort,mv,basis)	1.000000								
 5	van	van	[van]preposition/singular	0	VZ(init)	0.996226								
 6	jullie	jullie	[jullie]pronoun	0	VNW(pers,pron,stan,nadr,2v,mv)	0.984615								
 7	?	?	[?]	0	LET()	1.000000								
@@ -5432,44 +5432,44 @@
 1	Dat	dat	[dat]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.986464								
 2	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.973699								
 3	de	de	[de]article	0	LID(bep,stan,rest)	0.999805								
-4	essentiële	essentieel	[ [ [essentie]noun [eel] ]adjective [e]/suffix-e/positive ]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999769								
-5	zaken	zaak	[ [zaak]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.999588								
+4	essentiële	essentieel	[[[essentie]noun [eel]]adjective [e]/suffix-e/positive]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999769								
+5	zaken	zaak	[[zaak]noun [en]/plural]noun	0	N(soort,mv,basis)	0.999588								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	We	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.997215								
-2	excommuniëren	excommuniëren	[ [ [ex] [communieer]verb ]verb [en]/present-tense/plural ]verb	0	WW(pv,verl,mv)	0.834196								
+2	excommuniëren	excommuniëren	[[[ex][communieer]verb]verb [en]/present-tense/plural]verb	0	WW(pv,verl,mv)	0.834196								
 3	hem	hem	[hem]pronoun	0	VNW(pers,pron,obl,vol,3,ev,masc)	0.989775								
 4	.	.	[.]	0	LET()	1.000000								
 
 1	Hij	hij	[hij]pronoun	0	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431								
 2	moet	moeten	[moet]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.999794								
-3	expatriëren	expatriëren	[ [expatrieer]verb [en]/infinitive ]verb	0	WW(inf,vrij,zonder)	1.000000								
+3	expatriëren	expatriëren	[[expatrieer]verb [en]/infinitive]verb	0	WW(inf,vrij,zonder)	1.000000								
 4	naar	naar	[naar]preposition	0	VZ(init)	0.999197								
 5	Zimbabwe	Zimbabwe	[Zimbabwe]	0	SPEC(deeleigen)	1.000000								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	foliërende	foliëren	[ [folieer]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.758884								
-3	baliekluivers	baliekluiver	[ [balie]noun [ [kluif]verb [er] ]noun [s]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
+2	foliërende	foliëren	[[folieer]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.758884								
+3	baliekluivers	baliekluiver	[[balie]noun [[kluif]verb [er]]noun [s]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
 4	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.999577								
-2	fotokopieën	fotokopie	[ [fotokopie]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.999779								
+2	fotokopieën	fotokopie	[[fotokopie]noun [en]/plural]noun	0	N(soort,mv,basis)	0.999779								
 3	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.662252								
 4	door	door	[door]preposition/singular	0	VZ(init)	0.998249								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-6	fotokopiërende	fotokopiëren	[ [foto]noun [kopieer]verb [end]/participle/present-tense [e]/suffix-e ]verb	NV-compound	WW(od,prenom,met-e)	0.629389								
-7	medewerkers	medewerker	[ [mede]adverb [ [werk]verb [er] ]noun [s]/plural ]noun	BN-compound	N(soort,mv,basis)	0.998020								
-8	verprutst	verprutsen	[ [ [ver] [pruts]verb ]verb [t]/participle/past-tense ]verb	0	WW(vd,vrij,zonder)	0.802632								
+6	fotokopiërende	fotokopiëren	[[foto]noun [kopieer]verb [end]/participle/present-tense [e]/suffix-e]verb	NV-compound	WW(od,prenom,met-e)	0.629389								
+7	medewerkers	medewerker	[[mede]adverb [[werk]verb [er]]noun [s]/plural]noun	BN-compound	N(soort,mv,basis)	0.998020								
+8	verprutst	verprutsen	[[[ver][pruts]verb]verb [t]/participle/past-tense]verb	0	WW(vd,vrij,zonder)	0.802632								
 9	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	fructifiërende	fructifiëren	[ [fructifieer]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.683687								
+2	fructifiërende	fructifiëren	[[fructifieer]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.683687								
 3	frou-frou	frou-frou	[frou-frou]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.997399								
 4	.	.	[.]	0	LET()	1.000000								
 
 1	Is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.996196								
-2	gangliën	ganglion	[ [gangli]noun [on]/plural ]noun	0	N(soort,mv,basis)	0.512156								
+2	gangliën	ganglion	[[gangli]noun [on]/plural]noun	0	N(soort,mv,basis)	0.512156								
 3	het	het	[het]article	0	LID(bep,stan,evon)	0.997424								
 4	meervoud	meervoud	[meervoud]noun/singular	0	N(soort,ev,basis,onz,stan)	0.999008								
 5	van	van	[van]preposition/singular	0	VZ(init)	0.959312								
@@ -5478,66 +5478,66 @@
 
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999447								
-3	genaakt	genaken	[ [ge]/participle/past-tense [naken]verb [t]/present-tense/singular/3rd-person-verb ]verb	0	WW(vd,vrij,zonder)	0.906509								
+3	genaakt	genaken	[[ge]/participle/past-tense [naken]verb [t]/present-tense/singular/3rd-person-verb]verb	0	WW(vd,vrij,zonder)	0.906509								
 4	?	?	[?]	0	LET()	1.000000								
 
 1	Hij	hij	[hij]pronoun	0	VNW(pers,pron,nomin,vol,3,ev,masc)	0.999431								
 2	werd	worden	[word]verb/past-tense/singular	0	WW(pv,verl,ev)	0.998963								
 3	wel	wel	[wel]adjective/positive	0	BW()	0.999831								
-4	geraakt	geraken	[ [ge] [raken]verb [t]/participle/past-tense ]verb	0	WW(vd,vrij,zonder)	0.800000								
+4	geraakt	geraken	[[ge][raken]verb [t]/participle/past-tense]verb	0	WW(vd,vrij,zonder)	0.800000								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Met	met	[met]preposition/singular	0	VZ(init)	0.995378								
-2	volle	vol	[ [vol]adjective [e]/positive/suffix-e ]adjective	0	ADJ(prenom,basis,met-e,stan)	0.997947								
-3	overgave	overgave	[ [over]preposition [geefe]noun/singular ]noun	PN-compound	N(soort,ev,basis,zijd,stan)	0.999172								
+2	volle	vol	[[vol]adjective [e]/positive/suffix-e]adjective	0	ADJ(prenom,basis,met-e,stan)	0.997947								
+3	overgave	overgave	[[over]preposition [geefe]noun/singular]noun	PN-compound	N(soort,ev,basis,zijd,stan)	0.999172								
 4	aan	aan	[aan]preposition	0	VZ(init)	0.999180								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.999964								
 6	slag	slag	[slag]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998077								
 7	.	.	[.]	0	LET()	1.000000								
 
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771								
-2	gloriërend	gloriëren	[ [glorieer]verb [end]/participle/present-tense ]verb	0	WW(od,prenom,zonder)	0.733600								
+2	gloriërend	gloriëren	[[glorieer]verb [end]/participle/present-tense]verb	0	WW(od,prenom,zonder)	0.733600								
 3	moment	moment	[moment]noun/singular	0	N(soort,ev,basis,onz,stan)	0.997816								
 4	voor	voor	[voor]preposition/singular	0	VZ(init)	0.998512								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-6	jakhalzende	jakhalzen	[ [jakhals]verb [end]/participle/present-tense [e]/suffix-e ]verb	0	WW(od,prenom,met-e)	0.863168								
-7	journalist	journalist	[ [journaal]noun [ist] ]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998077								
+6	jakhalzende	jakhalzen	[[jakhals]verb [end]/participle/present-tense [e]/suffix-e]verb	0	WW(od,prenom,met-e)	0.863168								
+7	journalist	journalist	[[journaal]noun [ist]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998077								
 8	.	.	[.]	0	LET()	1.000000								
 
 1	Dit	dit	[dit]pronoun	0	VNW(aanw,det,stan,prenom,zonder,evon)	1.000000								
-2	reële	reëel	[ [reëel]adjective [e]/suffix-e/positive ]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999323								
-3	voorbeeld	voorbeeld	[ [voor]adverb [beeld]noun/singular ]noun	BN-compound	N(soort,ev,basis,onz,stan)	0.998006								
+2	reële	reëel	[[reëel]adjective [e]/suffix-e/positive]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999323								
+3	voorbeeld	voorbeeld	[[voor]adverb [beeld]noun/singular]noun	BN-compound	N(soort,ev,basis,onz,stan)	0.998006								
 4	bleek	blijken	[blijk]verb/past-tense/singular	0	WW(pv,verl,ev)	0.998808								
 5	nog	nog	[nog]adverb	0	BW()	0.999930								
-6	surreëler	surreëel	[ [surreëel]adjective [er]/comparative ]adjective	0	ADJ(vrij,comp,zonder)	1.000000								
+6	surreëler	surreëel	[[surreëel]adjective [er]/comparative]adjective	0	ADJ(vrij,comp,zonder)	1.000000								
 7	dan	dan	[dan]adverb	0	BW()	0.600000								
-8	gedacht	denken	[ [ge] [denk]verb [t]/participle/past-tense ]verb	0	WW(vd,vrij,zonder)	0.872274								
+8	gedacht	denken	[[ge][denk]verb [t]/participle/past-tense]verb	0	WW(vd,vrij,zonder)	0.872274								
 9	.	.	[.]	0	LET()	1.000000								
 
 1	Wat	wat	[wat]pronoun	0	VNW(vb,pron,stan,vol,3o,ev)	0.903943								
-2	spondeeën	spondee	[ [spondeus]noun [en]/plural ]noun	0	N(soort,mv,basis)	1.000000								
+2	spondeeën	spondee	[[spondeus]noun [en]/plural]noun	0	N(soort,mv,basis)	1.000000								
 3	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	1.000000								
 4	weet	weten	[weet]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.999734								
 5	ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999844								
 6	niet	niet	[niet]adverb	0	BW()	0.999881								
 7	.	.	[.]	0	LET()	1.000000								
 
-1	Trocheeën	trochee	[ [trocheus]noun [en]/plural ]noun	0	N(soort,mv,basis)	0.955247								
+1	Trocheeën	trochee	[[trocheus]noun [en]/plural]noun	0	N(soort,mv,basis)	0.955247								
 2	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.875874								
-3	welbekend	welbekend	[ [wel]adjective [bekend]adjective/positive ]adjective	AA-compound	ADJ(vrij,basis,zonder)	0.981871								
+3	welbekend	welbekend	[[wel]adjective [bekend]adjective/positive]adjective	AA-compound	ADJ(vrij,basis,zonder)	0.981871								
 4	in	in	[in]preposition	0	VZ(init)	0.999350								
 5	de	de	[de]article	0	LID(bep,stan,rest)	0.999964								
-6	taalkunde	taalkunde	[ [taal]noun [kunde]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.998077								
+6	taalkunde	taalkunde	[[taal]noun [kunde]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.998077								
 7	.	.	[.]	0	LET()	1.000000								
 
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771								
-2	financiële	financieel	[ [financiee]verb [l] [e]/suffix-e/positive ]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999837								
-3	tegenvaller	tegenvaller	[ [tegen]preposition [ [val]verb [er] ]noun/singular ]noun	0	N(soort,ev,basis,zijd,stan)	0.999705								
+2	financiële	financieel	[[financiee]verb [l][e]/suffix-e/positive]adjective	0	ADJ(prenom,basis,met-e,stan)	0.999837								
+3	tegenvaller	tegenvaller	[[tegen]preposition [[val]verb [er]]noun/singular]noun	0	N(soort,ev,basis,zijd,stan)	0.999705								
 4	.	.	[.]	0	LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="tortuur" generator="libfolia-v2.13" version="2.5.1">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="tortuur" generator="libfolia-v2.18" version="2.5.4">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -5568,16 +5568,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-24T15:46:24" command="frog --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-24T15:46:24" name="ucto" version="0.27">
-          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
+      <processor xml:id="frog.1" begindatetime="2023-12-05T17:01:18" command="frog --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON" folia_version="2.5.4" host="kobus" name="frog" user="sloot" version="0.32">
+        <processor xml:id="frog.1.generator" folia_version="2.5.4" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2023-12-05T17:01:18" name="ucto" version="0.31">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.10">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-24T15:46:24" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-24T15:46:24" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-24T15:46:24" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-12-05T17:01:18" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-12-05T17:01:18" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-12-05T17:01:18" name="mbma" version="2.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -11039,74 +11039,74 @@
   </text>
 </FoLiA>
 1	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-2	waterkraan	waterkraan	[ [water]noun [kraan]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.808704								
+2	waterkraan	waterkraan	[[water]noun [kraan]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.808704								
 3	.	.	[.]	0	LET()	1.000000								
 
 1	de	de	[de]article	0	LID(bep,stan,rest)	0.999805								
-2	kogelronde	kogelrond	[ [kogel]noun [rond]adjective [e]/suffix-e/positive ]adjective	NA-compound	ADJ(prenom,basis,met-e,stan)	0.999745								
+2	kogelronde	kogelrond	[[kogel]noun [rond]adjective [e]/suffix-e/positive]adjective	NA-compound	ADJ(prenom,basis,met-e,stan)	0.999745								
 3	bal	bal	[bal]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.973684								
 4	.	.	[.]	0	LET()	1.000000								
 
-1	Waarop	waarop	[ [waar]adverb [op]preposition ]adverb	BP-compound	BW()	0.998992								
-2	baseer	baseren	[ [basis]noun [eer] ]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.999442								
+1	Waarop	waarop	[[waar]adverb [op]preposition]adverb	BP-compound	BW()	0.998992								
+2	baseer	baseren	[[basis]noun [eer]]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.999442								
 3	je	je	[je]pronoun	0	VNW(pers,pron,nomin,red,2v,ev)	0.975281								
 4	dat	dat	[dat]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.992628								
 5	?	?	[?]	0	LET()	1.000000								
 
 1	We	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.997215								
-2	kijken	kijken	[ [kijk]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.892857								
+2	kijken	kijken	[[kijk]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.892857								
 3	naar	naar	[naar]preposition	0	VZ(init)	0.999495								
 4	het	het	[het]article	0	LID(bep,stan,evon)	0.702074								
-5	vendelzwaaien	vendelzwaaien	[ [vendel]noun [zwaai]verb [en]/infinitive ]verb	NV-compound	WW(inf,nom,zonder,zonder-n)	0.947368								
+5	vendelzwaaien	vendelzwaaien	[[vendel]noun [zwaai]verb [en]/infinitive]verb	NV-compound	WW(inf,nom,zonder,zonder-n)	0.947368								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Een	een	[een]article	0	LID(onbep,stan,agr)	0.981771								
 2	plafond	plafond	[plafond]noun/singular	0	N(soort,ev,basis,onz,stan)	0.997959								
 3	van	van	[van]preposition/singular	0	VZ(init)	0.959312								
-4	zachtboard	zachtboard	[ [zacht]adjective [board]noun/singular ]noun	AN-compound	N(soort,ev,basis,zijd,stan)	0.564982								
+4	zachtboard	zachtboard	[[zacht]adjective [board]noun/singular]noun	AN-compound	N(soort,ev,basis,zijd,stan)	0.564982								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999791								
 2	ben	zijn	[zijn]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.999866								
-3	witheet	witheet	[ [wit]adjective [heet]adjective/positive ]adjective	AA-compound	ADJ(vrij,basis,zonder)	0.993503								
+3	witheet	witheet	[[wit]adjective [heet]adjective/positive]adjective	AA-compound	ADJ(vrij,basis,zonder)	0.993503								
 4	!	!	[!]	0	LET()	1.000000								
 
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
-2	gaat	gaan	[ [ga]verb [t]/present-tense/singular/2nd-person-verb ]verb	0	WW(pv,tgw,met-t)	0.999673								
-3	vrijuit	vrijuit	[ [vrij]adjective [uit]adverb ]adverb	AB-compound	BW()	0.995597								
+2	gaat	gaan	[[ga]verb [t]/present-tense/singular/2nd-person-verb]verb	0	WW(pv,tgw,met-t)	0.999673								
+3	vrijuit	vrijuit	[[vrij]adjective [uit]adverb]adverb	AB-compound	BW()	0.995597								
 4	.	.	[.]	0	LET()	1.000000								
 
 1	Dat	dat	[dat]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.999022								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999966								
-3	hooguit	hooguit	[ [hoog]adjective [uit]adverb ]adverb	AB-compound	BW()	0.996201								
+3	hooguit	hooguit	[[hoog]adjective [uit]adverb]adverb	AB-compound	BW()	0.996201								
 4	drie	drie	[drie]quantifier-numeral	0	TW(hoofd,vrij)	0.586957								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Dat	dat	[dat]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.999022								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999966								
-3	stilaan	stilaan	[ [stil]adjective [aan]preposition ]adjective	AP-compound	BW()	0.997265								
-4	best	best	[ [goed]adjective [st]/superlative ]adjective	0	ADJ(vrij,sup,zonder)	0.982079								
+3	stilaan	stilaan	[[stil]adjective [aan]preposition]adjective	AP-compound	BW()	0.997265								
+4	best	best	[[goed]adjective [st]/superlative]adjective	0	ADJ(vrij,sup,zonder)	0.982079								
 5	goed	goed	[goed]adjective/positive	0	ADJ(vrij,basis,zonder)	0.996926								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	We	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.997215								
-2	zullen	zullen	[ [zal]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.983831								
+2	zullen	zullen	[[zal]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.983831								
 3	het	het	[het]pronoun	0	VNW(pers,pron,stan,red,3,ev,onz)	0.571429								
-4	rechttrekken	rechttrekken	[ [recht]adjective [trek]verb [en]/infinitive ]verb	AV-compound	WW(inf,vrij,zonder)	0.871795								
+4	rechttrekken	rechttrekken	[[recht]adjective [trek]verb [en]/infinitive]verb	AV-compound	WW(inf,vrij,zonder)	0.871795								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999891								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	nietroker	nietroker	[ [nie]adverb [ [trook]verb [er] ]noun/singular ]noun	BN-compound	N(soort,ev,basis,zijd,stan)	0.950574								
+4	nietroker	nietroker	[[nie]adverb [[trook]verb [er]]noun/singular]noun	BN-compound	N(soort,ev,basis,zijd,stan)	0.950574								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Maar	maar	[maar]conjunction	0	VG(neven)	0.997961								
 2	wel	wel	[wel]adjective/positive	0	BW()	0.999831								
-3	alomtegenwoordig	alomtegenwoordig	[ [alom]adverb [tegenwoordig]adjective/positive ]adjective	BA-compound	ADJ(vrij,basis,zonder)	0.997612								
+3	alomtegenwoordig	alomtegenwoordig	[[alom]adverb [tegenwoordig]adjective/positive]adjective	BA-compound	ADJ(vrij,basis,zonder)	0.997612								
 4	.	.	[.]	0	LET()	1.000000								
 
-1	Veeleer	veeleer	[ [veel]quantifier-numeral [eer]adverb ]adverb	0	BW()	0.998992								
+1	Veeleer	veeleer	[[veel]quantifier-numeral [eer]adverb]adverb	0	BW()	0.998992								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999447								
 3	dat	dat	[dat]pronoun	0	VNW(aanw,pron,stan,vol,3o,ev)	0.984520								
 4	niet	niet	[niet]adverb	0	BW()	0.999918								
@@ -11114,26 +11114,26 @@
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Niet	niet	[niet]adverb	0	BW()	0.984375								
-2	erin	erin	[ [er]adverb [in]preposition ]adverb	BP-compound	BW()	0.997265								
-3	trappen	trappen	[ [trap]verb [en]/infinitive ]verb	0	WW(inf,vrij,zonder)	0.510673								
+2	erin	erin	[[er]adverb [in]preposition]adverb	BP-compound	BW()	0.997265								
+3	trappen	trappen	[[trap]verb [en]/infinitive]verb	0	WW(inf,vrij,zonder)	0.510673								
 4	!	!	[!]	0	LET()	1.000000								
 
 1	Nietroken	nietroken	[nietroken]verb	0	WW(inf,vrij,zonder)	0.464728								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999817								
-3	eigenlijk	eigenlijk	[ [eigen]noun [lijk] ]adjective/positive	0	ADJ(vrij,basis,zonder)	0.997975								
-4	niet-roken	niet-roken	[niet-roken]noun	0	N(soort,ev,basis,onz,stan)	0.500000								
+3	eigenlijk	eigenlijk	[[eigen]noun [lijk]]adjective/positive	0	ADJ(vrij,basis,zonder)	0.997975								
+4	niet-roken	niet-roken	[[niet]adverb [roken]noun/singular]noun	BN-compound	N(soort,ev,basis,onz,stan)	0.500000								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999791								
 2	kom	komen	[kom]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.850000								
 3	tot	tot	[tot]preposition	0	VZ(init)	0.998273								
-4	inzicht	inzicht	[ [in]preposition [zicht]noun/singular ]noun	PN-compound	N(soort,ev,basis,onz,stan)	0.994052								
+4	inzicht	inzicht	[[in]preposition [zicht]noun/singular]noun	PN-compound	N(soort,ev,basis,onz,stan)	0.994052								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Morgen	morgen	[morgen]adverb	0	BW()	0.960938								
 2	ben	zijn	[zijn]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.999866								
 3	ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999857								
-4	uithuizig	uithuizig	[ [uit]preposition [huis]noun [ig] ]adjective/positive	PA-compound	ADJ(vrij,basis,zonder)	0.993597								
+4	uithuizig	uithuizig	[[uit]preposition [huis]noun [ig]]adjective/positive	PA-compound	ADJ(vrij,basis,zonder)	0.993597								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Bovenop	bovenop	[bovenop]adverb	0	BW()	0.800000								
@@ -11142,50 +11142,50 @@
 4	.	.	[.]	0	LET()	1.000000								
 
 1	We	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.997215								
-2	zullen	zullen	[ [zal]verb [en]/present-tense/plural ]verb	0	WW(pv,tgw,mv)	0.983831								
+2	zullen	zullen	[[zal]verb [en]/present-tense/plural]verb	0	WW(pv,tgw,mv)	0.983831								
 3	ze	ze	[ze]pronoun	0	VNW(pers,pron,stan,red,3,mv)	0.990826								
-4	inmaken	inmaken	[ [in]preposition [maak]verb [en]/present-tense/plural ]verb	PV-compound	WW(pv,tgw,mv)	0.983607								
+4	inmaken	inmaken	[[in]preposition [maak]verb [en]/present-tense/plural]verb	PV-compound	WW(pv,tgw,mv)	0.983607								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999891								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	drinkeboer	drinkeboer	[ [drinke]verb [boer]noun/singular ]noun	VN-compound	N(soort,ev,basis,zijd,stan)	0.728878								
+4	drinkeboer	drinkeboer	[[drinke]verb [boer]noun/singular]noun	VN-compound	N(soort,ev,basis,zijd,stan)	0.728878								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.999701								
 2	muziek	muziek	[muziek]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.997429								
-3	staat	staan	[ [sta]verb [t]/present-tense/singular/2nd-person-verb ]verb	0	WW(pv,tgw,met-t)	0.925532								
-4	loeihard	loeihard	[ [loei]verb [hard]adjective/positive ]adjective	VA-compound	ADJ(vrij,basis,zonder)	0.979899								
+3	staat	staan	[[sta]verb [t]/present-tense/singular/2nd-person-verb]verb	0	WW(pv,tgw,met-t)	0.925532								
+4	loeihard	loeihard	[[loei]verb [hard]adjective/positive]adjective	VA-compound	ADJ(vrij,basis,zonder)	0.979899								
 5	.	.	[.]	0	LET()	1.000000								
 
 1	Jan	Jan	[Jan]	0	SPEC(deeleigen)	1.000000								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.999791								
 3	ook	ook	[ook]adverb	0	BW()	0.999979								
 4	een	een	[een]article	0	LID(onbep,stan,agr)	0.999734								
-5	deugniet	deugniet	[ [deug]verb [niet]noun/singular ]noun	VN-compound	N(soort,ev,basis,zijd,stan)	0.998077								
+5	deugniet	deugniet	[[deug]verb [niet]noun/singular]noun	VN-compound	N(soort,ev,basis,zijd,stan)	0.998077								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	En	en	[en]conjunction	0	VG(neven)	0.992995								
 2	een	een	[een]article	0	LID(onbep,stan,agr)	0.999560								
-3	flapuit	flapuit	[ [flap]verb [uit]noun/singular ]noun	VN-compound	N(soort,ev,basis,zijd,stan)	0.998077								
+3	flapuit	flapuit	[[flap]verb [uit]noun/singular]noun	VN-compound	N(soort,ev,basis,zijd,stan)	0.998077								
 4	.	.	[.]	0	LET()	1.000000								
 
 1	We	we	[we]pronoun	0	VNW(pers,pron,nomin,red,1,mv)	0.997215								
-2	klapwieken	klapwieken	[ [klap]verb [wiek]verb [en]/infinitive ]verb	VV-compound	WW(inf,vrij,zonder)	0.878378								
+2	klapwieken	klapwieken	[[klap]verb [wiek]verb [en]/infinitive]verb	VV-compound	WW(inf,vrij,zonder)	0.878378								
 3	door	door	[door]preposition/singular	0	VZ(init)	0.998249								
 4	de	de	[de]article	0	LID(bep,stan,rest)	0.999643								
 5	stad	stad	[stad]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998012								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	achterovergebogen	achterovergebogen	[ [achter]preposition [over]preposition [ge]/participle/past-tense [buig]verb [en]/participle/past-tense ]verb	PP-compound	ADJ(prenom,basis,zonder)	0.881973								
+2	achterovergebogen	achterovergebogen	[[achter]preposition [over]preposition [ge]/participle/past-tense [buig]verb [en]/participle/past-tense]verb	PP-compound	ADJ(prenom,basis,zonder)	0.881973								
 3	paal	paal	[paal]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.991561								
 4	.	.	[.]	0	LET()	1.000000								
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="compounds" generator="libfolia-v2.13" version="2.5.1">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="compounds" generator="libfolia-v2.18" version="2.5.4">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -11216,16 +11216,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-24T15:46:26" command="frog --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-24T15:46:26" name="ucto" version="0.27">
-          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
+      <processor xml:id="frog.1" begindatetime="2023-12-05T17:01:21" command="frog --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON" folia_version="2.5.4" host="kobus" name="frog" user="sloot" version="0.32">
+        <processor xml:id="frog.1.generator" folia_version="2.5.4" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2023-12-05T17:01:21" name="ucto" version="0.31">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.10">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-24T15:46:26" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-24T15:46:26" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-24T15:46:26" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-12-05T17:01:21" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-12-05T17:01:21" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-12-05T17:01:21" name="mbma" version="2.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -12865,10 +12865,25 @@
           </pos>
           <lemma class="niet-roken"/>
           <morphology>
-            <morpheme class="stem">
+            <morpheme class="complex">
               <t>niet-roken</t>
-              <feat class="[niet-roken]noun" subset="structure"/>
-              <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              <feat class="[[niet]adverb[roken]noun/singular]noun" subset="structure"/>
+              <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
+                <feat class="BN" subset="compound"/>
+              </pos>
+              <morpheme class="stem">
+                <t>niet</t>
+                <feat class="[niet]adverb" subset="structure"/>
+                <pos class="B" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+              <morpheme class="stem">
+                <t>roken</t>
+                <feat class="[roken]noun" subset="structure"/>
+                <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+              <morpheme class="inflection">
+                <feat class="singular" subset="inflection"/>
+              </morpheme>
             </morpheme>
           </morphology>
         </w>
@@ -14067,14 +14082,14 @@
   </text>
 </FoLiA>
 1	Het	het	[het]pronoun	0	VNW(pers,pron,stan,red,3,ev,onz)	0.982353	O	B-NP	2	su
-2	gebeurde	gebeuren	[ [ge]/participle/past-tense [beur]verb [d]/participle/past-tense [e]/suffix-e ]verb	0	WW(pv,verl,ev)	0.998062	O	B-VP	0	ROOT
-3	aan_de_vooravond_van	aan_de_vooravond_van	[aan]preposition_[de]article_[ [voor]adverb [avond]noun/singular ]noun_[van]preposition/singular	0	VZ(init)_LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)_VZ(init)	0.995520	O_O_O_O	B-PP_I-PP_I-PP_I-PP	2	mod
+2	gebeurde	gebeuren	[[ge]/participle/past-tense [beur]verb [d]/participle/past-tense [e]/suffix-e]verb	0	WW(pv,verl,ev)	0.998062	O	B-VP	0	ROOT
+3	aan_de_vooravond_van	aan_de_vooravond_van	[aan]preposition_[de]article_[[voor]adverb [avond]noun/singular]noun_[van]preposition/singular	0	VZ(init)_LID(bep,stan,rest)_N(soort,ev,basis,zijd,stan)_VZ(init)	0.995520	O_O_O_O	B-PP_I-PP_I-PP_I-PP	2	mod
 4	Kerstmis	Kerstmis	[Kerstmis]	0	SPEC(deeleigen)	1.000000	B-eve	B-NP	3	obj1
 5	.	.	[.]	0	LET()	1.000000	O	O	4	punct
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="mwu.txt" generator="libfolia-v2.13" version="2.5.1">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="mwu.txt" generator="libfolia-v2.18" version="2.5.4">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -14117,20 +14132,20 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-24T15:46:29" command="frog -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-24T15:46:29" name="ucto" version="0.27">
-          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
+      <processor xml:id="frog.1" begindatetime="2023-12-05T17:01:24" command="frog -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON" folia_version="2.5.4" host="kobus" name="frog" user="sloot" version="0.32">
+        <processor xml:id="frog.1.generator" folia_version="2.5.4" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2023-12-05T17:01:24" name="ucto" version="0.31">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.10">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-24T15:46:29" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-24T15:46:29" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-24T15:46:29" name="mbma" version="1.0"/>
-        <processor xml:id="IOB.1" begindatetime="2023-01-24T15:46:29" name="IOB" version="2.0"/>
-        <processor xml:id="NER.1" begindatetime="2023-01-24T15:46:29" name="NER" version="2.2"/>
-        <processor xml:id="mwu.1" begindatetime="2023-01-24T15:46:29" name="mwu" version="1.0"/>
-        <processor xml:id="dep-parser.1" begindatetime="2023-01-24T15:46:29" name="dep-parser" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-12-05T17:01:24" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-12-05T17:01:24" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-12-05T17:01:24" name="mbma" version="2.0"/>
+        <processor xml:id="IOB.1" begindatetime="2023-12-05T17:01:24" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2023-12-05T17:01:24" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2023-12-05T17:01:24" name="mwu" version="1.1"/>
+        <processor xml:id="dep-parser.1" begindatetime="2023-12-05T17:01:24" name="dep-parser" version="1.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
@@ -14417,55 +14432,55 @@
   </text>
 </FoLiA>
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	fabrieksschoorsteen	fabrieksschoorsteen	[ [fabriek]noun [s] [ [schoor]verb [steen]noun ]noun ]noun/singular	NN-compound	N(soort,mv,basis)	1.000000								
-3	staat	staan	[ [sta]verb [t]/present-tense/singular/2nd-person-verb ]verb	0	WW(pv,tgw,met-t)	0.902017								
+2	fabrieksschoorsteen	fabrieksschoorsteen	[[fabriek]noun [s][[schoor]verb [steen]noun]noun]noun/singular	NN-compound	N(soort,mv,basis)	1.000000								
+3	staat	staan	[[sta]verb [t]/present-tense/singular/2nd-person-verb]verb	0	WW(pv,tgw,met-t)	0.902017								
 4	in	in	[in]preposition	0	VZ(init)	0.999213								
 5	het	het	[het]article	0	LID(bep,stan,evon)	0.702074								
-6	annexatieplan	annexatieplan	[ [ [ [annex]adjective [eer] ]verb [atie] ]noun [plan]noun ]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	1.000000								
+6	annexatieplan	annexatieplan	[[[[annex]adjective [eer]]verb [atie]]noun [plan]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	1.000000								
 7	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	arrestatiegroepen	arrestatiegroep	[ [ [ [ [arrest]noun [eer] ]verb [atie] ]noun [groep]noun ]noun [en]/plural ]noun	NN-compound	N(soort,mv,basis)	1.000000								
-3	lijden	lijden	[ [lijd]verb [en]/infinitive ]verb	0	WW(inf,vrij,zonder)	0.900000								
+2	arrestatiegroepen	arrestatiegroep	[[[[[arrest]noun [eer]]verb [atie]]noun [groep]noun]noun [en]/plural]noun	NN-compound	N(soort,mv,basis)	1.000000								
+3	lijden	lijden	[[lijd]verb [en]/infinitive]verb	0	WW(inf,vrij,zonder)	0.900000								
 4	aan	aan	[aan]preposition	0	VZ(init)	0.983740								
-5	dehydratatie	dehydratatie	[ [ [de] [ [ [hydreer]verb [aat] ]noun [eer] ]verb ]verb [atie] ]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998865								
+5	dehydratatie	dehydratatie	[[[de][[[hydreer]verb [aat]]noun [eer]]verb]verb [atie]]noun/singular	0	N(soort,ev,basis,zijd,stan)	0.998865								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	Ik	ik	[ik]pronoun	0	VNW(pers,pron,nomin,vol,1,ev)	0.999791								
 2	zie	zien	[zie]verb/present-tense/singular/1st-person-verb	0	WW(pv,tgw,ev)	0.954545								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	condensatiestreep	condensatiestreep	[ [ [ [condens]noun [eer] ]verb [atie] ]noun [streep]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.789596								
+4	condensatiestreep	condensatiestreep	[[[[condens]noun [eer]]verb [atie]]noun [streep]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	0.789596								
 5	boven	boven	[boven]preposition	0	VZ(init)	0.532751								
 6	het	het	[het]article	0	LID(bep,stan,evon)	0.999914								
-7	consultatiebureau	consultatiebureau	[ [ [ [consult]noun [eer] ]verb [atie] ]noun [bureau]noun ]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.996268								
+7	consultatiebureau	consultatiebureau	[[[[consult]noun [eer]]verb [atie]]noun [bureau]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.996268								
 8	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	debiteurenadministratie	debiteurenadministratie	[ [ [ [debiet]noun [eer] ]verb [eur] ]noun [en] [ [administreer]verb [atie] ]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
+2	debiteurenadministratie	debiteurenadministratie	[[[[debiet]noun [eer]]verb [eur]]noun [en][[administreer]verb [atie]]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
 3	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.998276								
 4	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-5	regulatiemechanisme	regulatiemechanisme	[ [ [ [regel]noun [eer] ]verb [atie] ]noun [mechanisme]noun ]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.729400								
+5	regulatiemechanisme	regulatiemechanisme	[[[[regel]noun [eer]]verb [atie]]noun [mechanisme]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.729400								
 6	.	.	[.]	0	LET()	1.000000								
 
 1	De	de	[de]article	0	LID(bep,stan,rest)	0.877577								
-2	automatiseringsadviseuse	automatiseringsadviseuse	[ [ [ [automaat]noun [iseer] ]verb [ing] ]noun [s] [ [ [advies]noun [eer] ]verb [euse] ]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
-3	werkt	werken	[ [werk]verb [t]/present-tense/singular/2nd-person-verb ]verb	0	WW(pv,tgw,met-t)	0.999122								
+2	automatiseringsadviseuse	automatiseringsadviseuse	[[[[automaat]noun [iseer]]verb [ing]]noun [s][[[advies]noun [eer]]verb [euse]]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
+3	werkt	werken	[[werk]verb [t]/present-tense/singular/2nd-person-verb]verb	0	WW(pv,tgw,met-t)	0.999122								
 4	in	in	[in]preposition	0	VZ(init)	0.999213								
 5	het	het	[het]article	0	LID(bep,stan,evon)	0.999789								
-6	documentatiecentrum	documentatiecentrum	[ [ [ [document]noun [eer] ]verb [atie] ]noun [centrum]noun ]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.996268								
+6	documentatiecentrum	documentatiecentrum	[[[[document]noun [eer]]verb [atie]]noun [centrum]noun]noun/singular	NN-compound	N(soort,ev,basis,onz,stan)	0.996268								
 7	.	.	[.]	0	LET()	1.000000								
 
-1	Tabaksfermentatie	tabaksfermentatie	[ [tabak]noun [s] [ [ [ferment]noun [eer] ]verb [atie] ]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
+1	Tabaksfermentatie	tabaksfermentatie	[[tabak]noun [s][[[ferment]noun [eer]]verb [atie]]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
 2	is	zijn	[zijn]verb/present-tense/singular/3rd-person-verb	0	WW(pv,tgw,ev)	0.998828								
 3	een	een	[een]article	0	LID(onbep,stan,agr)	0.995147								
-4	kunstmanifestatie	kunstmanifestatie	[ [kunst]noun [ [ [manifest]adjective [eer] ]verb [atie] ]noun/singular ]noun	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
+4	kunstmanifestatie	kunstmanifestatie	[[kunst]noun [[[manifest]adjective [eer]]verb [atie]]noun/singular]noun	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
 5	in	in	[in]preposition	0	VZ(init)	0.999464								
 6	de	de	[de]article	0	LID(bep,stan,rest)	0.981887								
-7	internaatssituatie	internaatssituatie	[ [ [ [intern]adjective [eer] ]verb [aat] ]noun [s] [ [situeer]verb [atie] ]noun ]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
+7	internaatssituatie	internaatssituatie	[[[[intern]adjective [eer]]verb [aat]]noun [s][[situeer]verb [atie]]noun]noun/singular	NN-compound	N(soort,ev,basis,zijd,stan)	1.000000								
 8	.	.	[.]	0	LET()	1.000000								
 
 1	Enige	enig	[enige]pronoun	0	VNW(onbep,det,stan,prenom,met-e,rest)	0.555556								
-2	relativeringen	relativering	[ [ [ [ [relatie]noun [ief] ]adjective [eer] ]verb [ing] ]noun [en]/plural ]noun	0	N(soort,mv,basis)	1.000000								
+2	relativeringen	relativering	[[[[[relatie]noun [ief]]adjective [eer]]verb [ing]]noun [en]/plural]noun	0	N(soort,mv,basis)	1.000000								
 3	zijn	zijn	[zijn]verb/present-tense/plural	0	WW(pv,tgw,mv)	0.981481								
 4	op	op	[op]preposition	0	VZ(init)	0.957173								
 5	zijn	zijn	[zijn]pronoun	0	VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)	0.974968								
@@ -14474,7 +14489,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="folia.xsl"?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="fixtest" generator="libfolia-v2.13" version="2.5.1">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="fixtest" generator="libfolia-v2.18" version="2.5.4">
   <metadata type="native">
     <annotations>
       <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
@@ -14505,16 +14520,16 @@
       <alternative-annotation/>
     </annotations>
     <provenance>
-      <processor xml:id="frog.1" begindatetime="2023-01-24T15:46:33" command="frog --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON" folia_version="2.5.1" host="kobus" name="frog" user="sloot" version="0.27">
-        <processor xml:id="frog.1.generator" folia_version="2.5.1" name="libfolia" type="generator" version="2.13"/>
-        <processor xml:id="ucto.1" begindatetime="2023-01-24T15:46:33" name="ucto" version="0.27">
-          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.9.1">
+      <processor xml:id="frog.1" begindatetime="2023-12-05T17:01:29" command="frog --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON" folia_version="2.5.4" host="kobus" name="frog" user="sloot" version="0.32">
+        <processor xml:id="frog.1.generator" folia_version="2.5.4" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2023-12-05T17:01:29" name="ucto" version="0.31">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.10">
             <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
           </processor>
         </processor>
-        <processor xml:id="tagger.1" begindatetime="2023-01-24T15:46:33" name="tagger" version="2.0"/>
-        <processor xml:id="mblem.1" begindatetime="2023-01-24T15:46:33" name="mblem" version="2.0"/>
-        <processor xml:id="mbma.1" begindatetime="2023-01-24T15:46:33" name="mbma" version="1.0"/>
+        <processor xml:id="tagger.1" begindatetime="2023-12-05T17:01:29" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2023-12-05T17:01:29" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2023-12-05T17:01:29" name="mbma" version="2.0"/>
       </processor>
     </provenance>
     <meta id="language">nld</meta>
