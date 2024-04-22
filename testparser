@@ -6,6 +6,6 @@
 $comm -t testparser.txt -o testparser.tmp
 cat testparser.tmp > testparser.out
 $comm -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml
-cat testparser1.xml >> testparser.out
+$foliadiff testparser1.xml goodresults/testparser1.xml >> testparser.out
 $comm -x folia1.xml --nostdout --KANON -X testparser2.xml
-cat testparser2.xml >> testparser.out
+$foliadiff testparser2.xml goodresults/testparser2.xml >> testparser.out

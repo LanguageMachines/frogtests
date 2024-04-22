@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="WR-P-E-J-0000000001" generator="libfolia-v2.18" version="2.0">
+  <metadata type="native">
+    <annotations>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <division-annotation annotator="ucto" set="div"/>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="ucto.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="ucto.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
+        <annotator processor="mbma.1"/>
+      </pos-annotation>
+      <chunking-annotation set="http://ilk.uvt.nl/folia/sets/frog-chunker-nl">
+        <annotator processor="IOB.1"/>
+      </chunking-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-ner-nl">
+        <annotator processor="NER.1"/>
+      </entity-annotation>
+      <entity-annotation set="http://ilk.uvt.nl/folia/sets/frog-mwu-nl">
+        <annotator processor="mwu.1"/>
+      </entity-annotation>
+      <dependency-annotation set="http://ilk.uvt.nl/folia/sets/frog-depparse-nl">
+        <annotator processor="dep-parser.1"/>
+      </dependency-annotation>
+      <head-annotation/>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2024-04-22T10:02:54" command="frog -x folia1.xml --nostdout --inputclass=OCR --KANON -X testparser1.xml" folia_version="2.5.3" host="kobus" name="frog" user="sloot" version="0.33">
+        <processor xml:id="frog.1.generator" folia_version="2.5.3" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2024-04-22T10:02:54" name="ucto" version="0.33">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.11">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
+        </processor>
+        <processor xml:id="tagger.1" begindatetime="2024-04-22T10:02:54" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2024-04-22T10:02:54" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2024-04-22T10:02:54" name="mbma" version="2.0"/>
+        <processor xml:id="IOB.1" begindatetime="2024-04-22T10:02:54" name="IOB" version="2.0"/>
+        <processor xml:id="NER.1" begindatetime="2024-04-22T10:02:54" name="NER" version="2.2"/>
+        <processor xml:id="mwu.1" begindatetime="2024-04-22T10:02:54" name="mwu" version="1.1"/>
+        <processor xml:id="dep-parser.1" begindatetime="2024-04-22T10:02:54" name="dep-parser" version="1.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
+  </metadata>
+  <text xml:id="WR-P-E-J-0000000001.text">
+    <div xml:id="WR-P-E-J-0000000001.div0.1" class="1">
+      <head xml:id="WR-P-E-J-0000000001.head.1">
+        <s xml:id="WR-P-E-J-0000000001.head.1.s.1">
+          <t>Dit is als het ware een test.
+Gaat deze datum: 28-11-2011 goed?</t>
+          <t class="OCR">En dit is een klasse test in Nijmegen.</t>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.1" class="WORD" textclass="OCR">
+            <t class="OCR">En</t>
+            <pos class="VG(neven)" confidence="0.992995" head="VG" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="OCR">
+              <feat class="neven" subset="conjtype"/>
+            </pos>
+            <lemma class="en" textclass="OCR"/>
+            <morphology>
+              <morpheme class="complex">
+                <t class="OCR">en</t>
+                <feat class="[en]conjunction" subset="structure"/>
+                <pos class="C" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t class="OCR">en</t>
+                  <feat class="[en]conjunction" subset="structure"/>
+                  <pos class="C" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.2" class="WORD" textclass="OCR">
+            <t class="OCR">dit</t>
+            <pos class="VNW(aanw,pron,stan,vol,3o,ev)" confidence="0.996906" head="VNW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="OCR">
+              <feat class="aanw" subset="vwtype"/>
+              <feat class="pron" subset="pdtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="vol" subset="status"/>
+              <feat class="3o" subset="persoon"/>
+              <feat class="ev" subset="getal"/>
+            </pos>
+            <lemma class="dit" textclass="OCR"/>
+            <morphology>
+              <morpheme class="complex">
+                <t class="OCR">dit</t>
+                <feat class="[dit]pronoun" subset="structure"/>
+                <pos class="O" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t class="OCR">dit</t>
+                  <feat class="[dit]pronoun" subset="structure"/>
+                  <pos class="O" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.3" class="WORD" textclass="OCR">
+            <t class="OCR">is</t>
+            <pos class="WW(pv,tgw,ev)" confidence="0.999891" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="OCR">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="ev" subset="pvagr"/>
+            </pos>
+            <lemma class="zijn" textclass="OCR"/>
+            <morphology>
+              <morpheme class="complex">
+                <t class="OCR">is</t>
+                <feat class="[zijn]verb/present-tense/singular/3rd-person-verb" subset="structure"/>
+                <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t class="OCR">zijn</t>
+                  <feat class="[zijn]verb" subset="structure"/>
+                  <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="inflection">
+                  <feat class="present-tense" subset="inflection"/>
+                  <feat class="singular" subset="inflection"/>
+                  <feat class="3rd-person-verb" subset="inflection"/>
+                </morpheme>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.4" class="WORD" textclass="OCR">
+            <t class="OCR">een</t>
+            <pos class="LID(onbep,stan,agr)" confidence="0.99956" head="LID" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="OCR">
+              <feat class="onbep" subset="lwtype"/>
+              <feat class="stan" subset="naamval"/>
+              <feat class="agr" subset="npagr"/>
+            </pos>
+            <lemma class="een" textclass="OCR"/>
+            <morphology>
+              <morpheme class="complex">
+                <t class="OCR">een</t>
+                <feat class="[een]article" subset="structure"/>
+                <pos class="D" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t class="OCR">een</t>
+                  <feat class="[een]article" subset="structure"/>
+                  <pos class="D" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.5" class="WORD" textclass="OCR">
+            <t class="OCR">klasse</t>
+            <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.97006" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="OCR">
+              <feat class="soort" subset="ntype"/>
+              <feat class="ev" subset="getal"/>
+              <feat class="basis" subset="graad"/>
+              <feat class="zijd" subset="genus"/>
+              <feat class="stan" subset="naamval"/>
+            </pos>
+            <lemma class="klasse" textclass="OCR"/>
+            <morphology>
+              <morpheme class="complex">
+                <t class="OCR">klasse</t>
+                <feat class="[klasse]noun/singular" subset="structure"/>
+                <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t class="OCR">klasse</t>
+                  <feat class="[klasse]noun" subset="structure"/>
+                  <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="inflection">
+                  <feat class="singular" subset="inflection"/>
+                </morpheme>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.6" class="WORD" textclass="OCR">
+            <t class="OCR">test</t>
+            <pos class="WW(pv,tgw,ev)" confidence="0.75" head="WW" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="OCR">
+              <feat class="pv" subset="wvorm"/>
+              <feat class="tgw" subset="pvtijd"/>
+              <feat class="ev" subset="pvagr"/>
+            </pos>
+            <lemma class="testen" textclass="OCR"/>
+            <morphology>
+              <morpheme class="complex">
+                <t class="OCR">test</t>
+                <feat class="[test]verb/present-tense/singular/1st-person-verb" subset="structure"/>
+                <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t class="OCR">test</t>
+                  <feat class="[test]verb" subset="structure"/>
+                  <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="inflection">
+                  <feat class="present-tense" subset="inflection"/>
+                  <feat class="singular" subset="inflection"/>
+                  <feat class="1st-person-verb" subset="inflection"/>
+                </morpheme>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.7" class="WORD" textclass="OCR">
+            <t class="OCR">in</t>
+            <pos class="VZ(init)" confidence="0.998321" head="VZ" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="OCR">
+              <feat class="init" subset="vztype"/>
+            </pos>
+            <lemma class="in" textclass="OCR"/>
+            <morphology>
+              <morpheme class="complex">
+                <t class="OCR">in</t>
+                <feat class="[in]preposition" subset="structure"/>
+                <pos class="P" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t class="OCR">in</t>
+                  <feat class="[in]preposition" subset="structure"/>
+                  <pos class="P" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.8" class="WORD" space="no" textclass="OCR">
+            <t class="OCR">Nijmegen</t>
+            <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="OCR">
+              <feat class="deeleigen" subset="spectype"/>
+            </pos>
+            <lemma class="Nijmegen" textclass="OCR"/>
+            <morphology>
+              <morpheme class="stem">
+                <t class="OCR">Nijmegen</t>
+                <feat class="[Nijmegen]" subset="structure"/>
+                <pos class="SPEC" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+            </morphology>
+          </w>
+          <w xml:id="WR-P-E-J-0000000001.head.1.s.1.w.9" class="PUNCTUATION" textclass="OCR">
+            <t class="OCR">.</t>
+            <pos class="LET()" confidence="1.0" head="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="OCR"/>
+            <lemma class="." textclass="OCR"/>
+            <morphology>
+              <morpheme class="stem">
+                <t class="OCR">.</t>
+                <feat class="[.]" subset="structure"/>
+                <pos class="LET" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              </morpheme>
+            </morphology>
+          </w>
+          <chunking xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1">
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.1" class="PP" confidence="1.0" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.1" t="En"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.2" class="NP" confidence="1.0" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="dit"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.3" class="VP" confidence="1.0" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="is"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.4" class="NP" confidence="1.0" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="een"/>
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.5" class="VP" confidence="1.0" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.6" class="PP" confidence="1.0" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
+            </chunk>
+            <chunk xml:id="WR-P-E-J-0000000001.head.1.s.1.chunking.1.chunk.7" class="NP" confidence="1.0" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
+            </chunk>
+          </chunking>
+          <entities xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1">
+            <entity xml:id="WR-P-E-J-0000000001.head.1.s.1.entities.1.entity.1" class="loc" confidence="1.0" set="http://ilk.uvt.nl/folia/sets/frog-ner-nl" textclass="OCR">
+              <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
+            </entity>
+          </entities>
+          <dependencies xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1">
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.1" class="su" textclass="OCR">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.3" t="is"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.2" t="dit"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.2" class="det" textclass="OCR">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.4" t="een"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.3" class="su" textclass="OCR">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.5" t="klasse"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.4" class="mod" textclass="OCR">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.6" t="test"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.5" class="obj1" textclass="OCR">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.7" t="in"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
+              </dep>
+            </dependency>
+            <dependency xml:id="WR-P-E-J-0000000001.head.1.s.1.dependencies.1.dependency.6" class="punct" textclass="OCR">
+              <hd>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.8" t="Nijmegen"/>
+              </hd>
+              <dep>
+                <wref id="WR-P-E-J-0000000001.head.1.s.1.w.9" t="."/>
+              </dep>
+            </dependency>
+          </dependencies>
+        </s>
+      </head>
+    </div>
+  </text>
+</FoLiA>
