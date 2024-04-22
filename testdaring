@@ -6,19 +6,19 @@
 rm ./mbmaout/*
 
 $comm --skip=mpcn -t ./mbmaproblems/bons --debug=a0 --deep-morph -X bons.xml --KANON > testdaring.out
-cat bons.xml >> testdaring.out
+$foliadiff bons.xml goodresults/bons.xml >> testdaring.out
 
 $comm  --skip=mpcn -t ./mbmaproblems/torture --debug=a0 --deep-morph -X torture.xml --KANON >> testdaring.out
-cat torture.xml >> testdaring.out
+$foliadiff torture.xml goodresults/torture.xml >> testdaring.out
 
 $comm  --skip=mpcn -t ./mbmaproblems/tortuur --debug=a0 --deep-morph -X tortuur.xml --KANON >> testdaring.out
-cat tortuur.xml >> testdaring.out
+$foliadiff tortuur.xml goodresults/tortuur.xml >> testdaring.out
 
 $comm  --skip=mpcn -t ./mbmaproblems/compounds --debug=a0 --deep-morph -X compounds.xml --KANON >> testdaring.out
-cat compounds.xml >> testdaring.out
+$foliadiff compounds.xml goodresults/compounds.xml >> testdaring.out
 
 $comm  -t mwu.txt --debug=a0 --deep-morph -X mwu.xml --KANON >> testdaring.out
-cat mwu.xml >> testdaring.out
+$foliadiff mwu.xml goodresults/mwu.xml >> testdaring.out
 
 $comm  --skip=mpcn -t ./mbmaproblems/fixtest --debug=a0 --deep-morph -X fixtest.xml --KANON >> testdaring.out
-cat fixtest.xml >> testdaring.out
+$foliadiff fixtest.xml goodresults/fixtest.xml >> testdaring.out
