@@ -8,24 +8,24 @@ rm *.out.xml*
 
 echo "test 1: " > testtextclass.out
 $comm --skip=nmcp -x textproblem.xml -X textproblem1.out.xml --KANON
-cat textproblem1.out.xml >> testtextclass.out
+$foliadiff textproblem1.out.xml goodresults/textproblem1.xml >> testtextclass.out
 
 echo "test 2: " >> testtextclass.out
 $comm --skip=nmcp --textclass=OCR -x textproblem.xml -X textproblem2.out.xml --KANON
-cat textproblem2.out.xml >> testtextclass.out
+$foliadiff textproblem2.out.xml goodresults/textproblem2.xml >> testtextclass.out
 
 echo "test 3: " >> testtextclass.out
 $comm --skip=nmcp -X textproblem3.out.xml --KANON textproblem.xml
-cat textproblem3.out.xml >> testtextclass.out
+$foliadiff textproblem3.out.xml goodresults/textproblem3.xml >> testtextclass.out
 
 echo "test 4: " >> testtextclass.out
 $comm --skip=nmcp --textclass=OCR -X textproblem4.out.xml --KANON textproblem.xml
-cat textproblem4.out.xml >> testtextclass.out
+$foliadiff textproblem4.out.xml goodresults/textproblem4.xml >> testtextclass.out
 
 echo "test 5: " >> testtextclass.out
 $comm --skip=nmcp --inputclass=OCR -X textproblem5.out.xml --KANON textproblem.xml
-cat textproblem5.out.xml >> testtextclass.out
+$foliadiff textproblem5.out.xml goodresults/textproblem5.xml >> testtextclass.out
 
 echo "test 6: " >> testtextclass.out
 $comm --skip=nmcp --inputclass=OCR --outputclass=TEST -X textproblem6.out.xml --KANON textproblem.xml
-cat textproblem6.out.xml >> testtextclass.out
+$foliadiff textproblem6.out.xml goodresults/textproblem6.xml >> testtextclass.out

@@ -4,4 +4,4 @@
 #
 
 $comm -t teststandard.txt -X testparser.xml --textredundancy=full --id=frog-parse
-cat testparser.xml > testparserxml.out
+$folialint --nooutput testparser.xml > testparserxml.out

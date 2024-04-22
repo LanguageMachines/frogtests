@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="strbug" generator="libfolia-v2.18" version="1.5.0">
+  <metadata type="native">
+    <annotations>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="ucto.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="ucto.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
+        <annotator processor="mbma.1"/>
+      </pos-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2024-04-22T17:43:35" command="frog --skip=nmcp --inputclass=OCR --outputclass=TEST -X textproblem6.out.xml --KANON" folia_version="2.5.3" host="kobus" name="frog" user="sloot" version="0.33">
+        <processor xml:id="frog.1.generator" folia_version="2.5.3" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2024-04-22T17:43:35" name="ucto" version="0.33">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.11">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
+        </processor>
+        <processor xml:id="tagger.1" begindatetime="2024-04-22T17:43:35" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2024-04-22T17:43:35" name="mblem" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2024-04-22T17:43:35" name="mbma" version="2.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
+  </metadata>
+  <text xml:id="strbug.text">
+    <p xml:id="p.1">
+      <t>Chipssnĳden</t>
+      <str xml:id="str.1">
+        <t>Chipssnĳden</t>
+      </str>
+    </p>
+    <p xml:id="p.2">
+      <t class="OCR">Chipssnĳden</t>
+      <str xml:id="str.2">
+        <t class="OCR">Chipssnĳden</t>
+      </str>
+      <s xml:id="p.2.s.1">
+        <w xml:id="p.2.s.1.w.1" class="WORD" textclass="TEST">
+          <t class="TEST">Chipssnijden</t>
+          <pos class="N(soort,mv,basis)" confidence="0.94299" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn" textclass="TEST">
+            <feat class="soort" subset="ntype"/>
+            <feat class="mv" subset="getal"/>
+            <feat class="basis" subset="graad"/>
+          </pos>
+          <lemma class="chipssnijden" textclass="TEST"/>
+          <morphology>
+            <morpheme class="stem">
+              <t class="TEST">chipssnijden</t>
+              <feat class="[chipssnijden]noun" subset="structure"/>
+              <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+            </morpheme>
+          </morphology>
+        </w>
+      </s>
+    </p>
+  </text>
+</FoLiA>
