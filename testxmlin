@@ -22,8 +22,7 @@ $comm --skip=p -x folia1.xml --outputclass=NEW -X folia4.out.xml --KANON
 $folialint --nooutput folia4.out.xml >> testxmlin.out
 echo "test 5: " >> testxmlin.out
 $comm --skip=p -t folia1.xml.gz -X folia1.out.5.xml.gz --KANON
-gunzip -c folia1.out.5.xml.gz >> testxmlin.out
-$folialint --nooutput folia1.out.5.xml >> testxmlin.out
+$folialint --nooutput folia1.out.5.xml.gz >> testxmlin.out
 echo "test 6: " >> testxmlin.out
 $comm --skip=p -t folia1.xml.bz2 -X folia1.out.6.xml.bz2 --KANON
 $folialint --nooutput folia1.out.6.xml.bz2 >> testxmlin.out
