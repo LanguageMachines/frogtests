@@ -7,19 +7,19 @@ rm lang*.xml
 
 echo "testlang test 1" > testlang.out
 $comm --skip=ampcn -x folia-lang.xml -X lang1.xml --KANON >> testlang.out
-cat lang1.xml >> testlang.out
+$foliadiff lang1.xml goodresults/lang1.xml >> testlang.out
 
 echo "testlang test 2" >> testlang.out
 $comm --skip=ampcn --language=nld -x folia-lang.xml -X lang2.xml --KANON >> testlang.out
-cat lang2.xml >> testlang.out
+$foliadiff lang2.xml goodresults/lang2.xml >> testlang.out
 
 echo "testlang test 3" >> testlang.out
 $comm --skip=ampcn -c settings/testlang.cfg -x folia-lang.xml -X lang3.xml --KANON >> testlang.out
-cat lang3.xml >> testlang.out
+$foliadiff lang3.xml goodresults/lang3.xml >> testlang.out
 
 echo "testlang test 4" >> testlang.out
 $comm --skip=ampcn --language=nld,eng -t folia-lang.txt -X lang4.xml --KANON >> testlang.out
-cat lang4.xml >> testlang.out
+$foliadiff lang4.xml goodresults/lang4.xml >> testlang.out
 
 echo "testlang test 5 (should NOT run) " >> testlang.out
 $comm --skip=ampcn --language=dum -t dum.txt >> testlang.out
@@ -27,4 +27,4 @@ $comm --skip=ampcn --language=bla,eng -t dum.txt >> testlang.out
 
 echo "testlang test 6" >> testlang.out
 $comm --skip=ampcn --language=und,nld,eng -t hel.txt -X lang5.xml --KANON >> testlang.out
-cat lang5.xml >> testlang.out
+$foliadiff lang5.xml goodresults/lang5.xml >> testlang.out

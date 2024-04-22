@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="folia.xsl"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="hel.txt" generator="libfolia-v2.18" version="2.5.3">
+  <metadata type="native">
+    <annotations>
+      <token-annotation alias="tokconfig-eng" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-eng.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <token-annotation set="undetermined">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="ucto.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="ucto.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <lemma-annotation set="http://ilk.uvt.nl/folia/sets/frog-mblem-nl">
+        <annotator processor="mblem.1"/>
+      </lemma-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <lang-annotation set="http://raw.github.com/proycon/folia/master/setdefinitions/iso639_3.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </lang-annotation>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2024-04-22T10:02:28" command="frog --skip=ampcn --language=und,nld,eng -t hel.txt -X lang5.xml --KANON" folia_version="2.5.3" host="kobus" name="frog" user="sloot" version="0.33">
+        <processor xml:id="frog.1.generator" folia_version="2.5.3" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2024-04-22T10:02:28" name="ucto" version="0.33">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.11">
+            <processor xml:id="uctodata.1.1" name="tokconfig-eng" type="datasource" version="0.3"/>
+            <processor xml:id="uctodata.1.2" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
+        </processor>
+        <processor xml:id="tagger.1" begindatetime="2024-04-22T10:02:28" name="tagger" version="2.0"/>
+        <processor xml:id="mblem.1" begindatetime="2024-04-22T10:02:28" name="mblem" version="2.0"/>
+      </processor>
+    </provenance>
+  </metadata>
+  <text xml:id="hel.txt.text">
+    <p xml:id="hel.txt.p.1">
+      <s xml:id="hel.txt.p.1.s.1">
+        <w xml:id="hel.txt.p.1.s.1.w.1" class="WORD" set="tokconfig-nld">
+          <t>Ick</t>
+          <pos class="SPEC(vreemd)" confidence="1.0" head="SPEC">
+            <feat class="vreemd" subset="spectype"/>
+          </pos>
+          <lemma class="Ick"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.2" class="WORD" set="tokconfig-nld">
+          <t>sie</t>
+          <pos class="SPEC(vreemd)" confidence="1.0" head="SPEC">
+            <feat class="vreemd" subset="spectype"/>
+          </pos>
+          <lemma class="sie"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.3" class="WORD" set="tokconfig-nld">
+          <t>de</t>
+          <pos class="LID(bep,stan,rest)" confidence="0.981887" head="LID">
+            <feat class="bep" subset="lwtype"/>
+            <feat class="stan" subset="naamval"/>
+            <feat class="rest" subset="npagr"/>
+          </pos>
+          <lemma class="de"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.4" class="WORD" set="tokconfig-nld">
+          <t>helleuene</t>
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.582782" head="N">
+            <feat class="soort" subset="ntype"/>
+            <feat class="ev" subset="getal"/>
+            <feat class="basis" subset="graad"/>
+            <feat class="zijd" subset="genus"/>
+            <feat class="stan" subset="naamval"/>
+          </pos>
+          <lemma class="helleuene"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.5" class="WORD" set="tokconfig-nld" space="no">
+          <t>Scepenen</t>
+          <pos class="SPEC(deeleigen)" confidence="1.0" head="SPEC">
+            <feat class="deeleigen" subset="spectype"/>
+          </pos>
+          <lemma class="Scepenen"/>
+        </w>
+        <w xml:id="hel.txt.p.1.s.1.w.6" class="PUNCTUATION" set="tokconfig-nld">
+          <t>.</t>
+          <pos class="LET()" confidence="1.0" head="LET"/>
+          <lemma class="."/>
+        </w>
+      </s>
+      <s xml:id="hel.txt.p.1.s.2">
+        <w xml:id="hel.txt.p.1.s.2.w.1" class="UNANALYZED" set="undetermined">
+          <t>I see eleven ships.</t>
+        </w>
+        <lang class="und"/>
+      </s>
+    </p>
+    <p xml:id="hel.txt.p.2">
+      <s xml:id="hel.txt.p.2.s.1">
+        <w xml:id="hel.txt.p.2.s.1.w.1" class="WORD" set="tokconfig-eng">
+          <t>I</t>
+        </w>
+        <w xml:id="hel.txt.p.2.s.1.w.2" class="WORD" set="tokconfig-eng">
+          <t>see</t>
+        </w>
+        <w xml:id="hel.txt.p.2.s.1.w.3" class="WORD" set="tokconfig-eng">
+          <t>eleven</t>
+        </w>
+        <w xml:id="hel.txt.p.2.s.1.w.4" class="WORD" set="tokconfig-eng">
+          <t>ships</t>
+        </w>
+        <w xml:id="hel.txt.p.2.s.1.w.5" class="WORD" set="tokconfig-eng">
+          <t>in</t>
+        </w>
+        <w xml:id="hel.txt.p.2.s.1.w.6" class="WORD" set="tokconfig-eng">
+          <t>the</t>
+        </w>
+        <w xml:id="hel.txt.p.2.s.1.w.7" class="WORD" set="tokconfig-eng" space="no">
+          <t>distance</t>
+        </w>
+        <w xml:id="hel.txt.p.2.s.1.w.8" class="PUNCTUATION" set="tokconfig-eng">
+          <t>.</t>
+        </w>
+        <lang class="eng"/>
+      </s>
+    </p>
+  </text>
+</FoLiA>
