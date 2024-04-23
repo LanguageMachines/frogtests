@@ -2,4 +2,4 @@
 
 $comm --textclass=contemporary issue77.xml -o issue77.out -X issue77_out.xml
 cat issue77.out > testissue77.out
-cat issue77_out.xml > testissue77.out
+$folialint --nooutput issue77_out.xml > testissue77.out

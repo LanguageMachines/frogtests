@@ -3,4 +3,4 @@
 $comm --skip=plmcn issue98.txt --deep-morph -o issue98.flat
 $comm --skip=plmcn issue98.txt --deep-morph -X issue98.deep.xml
 cat issue98.flat > testissue98.out
-cat issue98.deep.xml >> testissue98.out
+$foliadiff issue98.deep.xml goodresults/issue98.xml >> testissue98.out

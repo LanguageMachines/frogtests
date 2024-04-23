@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="folia.xsl"?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="issue98.txt" generator="libfolia-v2.18" version="2.5.3">
+  <metadata type="native">
+    <annotations>
+      <token-annotation alias="tokconfig-nld" set="https://raw.githubusercontent.com/LanguageMachines/uctodata/master/setdefinitions/tokconfig-nld.foliaset.ttl">
+        <annotator processor="ucto.1"/>
+      </token-annotation>
+      <paragraph-annotation>
+        <annotator processor="ucto.1"/>
+      </paragraph-annotation>
+      <sentence-annotation>
+        <annotator processor="ucto.1"/>
+      </sentence-annotation>
+      <quote-annotation>
+        <annotator processor="ucto.1"/>
+      </quote-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+        <annotator processor="tagger.1"/>
+      </pos-annotation>
+      <morphological-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbma-nl">
+        <annotator processor="mbma.1"/>
+      </morphological-annotation>
+      <pos-annotation set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex">
+        <annotator processor="mbma.1"/>
+      </pos-annotation>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+    </annotations>
+    <provenance>
+      <processor xml:id="frog.1" begindatetime="2024-04-23T11:22:44" command="frog --skip=plmcn --deep-morph -X issue98.deep.xml" folia_version="2.5.3" host="kobus" name="frog" user="sloot" version="0.33">
+        <processor xml:id="frog.1.generator" folia_version="2.5.3" name="libfolia" type="generator" version="2.18"/>
+        <processor xml:id="ucto.1" begindatetime="2024-04-23T11:22:44" name="ucto" version="0.33">
+          <processor xml:id="uctodata.1" name="uctodata" type="datasource" version="0.11">
+            <processor xml:id="uctodata.1.1" name="tokconfig-nld" type="datasource" version="0.2"/>
+          </processor>
+        </processor>
+        <processor xml:id="tagger.1" begindatetime="2024-04-23T11:22:44" name="tagger" version="2.0"/>
+        <processor xml:id="mbma.1" begindatetime="2024-04-23T11:22:44" name="mbma" version="2.0"/>
+      </processor>
+    </provenance>
+    <meta id="language">nld</meta>
+  </metadata>
+  <text xml:id="issue98.txt.text">
+    <p xml:id="issue98.txt.p.1">
+      <s xml:id="issue98.txt.p.1.s.1">
+        <w xml:id="issue98.txt.p.1.s.1.w.1" class="WORD">
+          <t>presidents</t>
+          <pos class="N(soort,ev,basis,zijd,stan)" confidence="0.553279" head="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-cgn">
+            <feat class="soort" subset="ntype"/>
+            <feat class="ev" subset="getal"/>
+            <feat class="basis" subset="graad"/>
+            <feat class="zijd" subset="genus"/>
+            <feat class="stan" subset="naamval"/>
+          </pos>
+          <morphology>
+            <morpheme class="complex">
+              <t>presidents</t>
+              <feat class="[[presideer]verb[ent]]noun[s]/genitive/singular" subset="structure"/>
+              <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+              <morpheme class="complex">
+                <feat class="N_V*" subset="applied_rule"/>
+                <feat class="[[presideer]verb[ent]]noun" subset="structure"/>
+                <pos class="N" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                <morpheme class="stem">
+                  <t>presideer</t>
+                  <feat class="[presideer]verb" subset="structure"/>
+                  <pos class="V" set="http://ilk.uvt.nl/folia/sets/frog-mbpos-clex"/>
+                </morpheme>
+                <morpheme class="affix">
+                  <t>ent</t>
+                  <feat class="[ent]" subset="structure"/>
+                </morpheme>
+              </morpheme>
+              <morpheme class="inflection">
+                <t>s</t>
+                <feat class="genitive" subset="inflection"/>
+                <feat class="singular" subset="inflection"/>
+              </morpheme>
+            </morpheme>
+          </morphology>
+        </w>
+      </s>
+    </p>
+  </text>
+</FoLiA>

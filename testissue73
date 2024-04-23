@@ -2,7 +2,7 @@
 
 $comm --skip=tmp --language=nld issue73/issue73_a.xml -o issue73_1.out -X issue73_a_out.xml
 cat issue73_1.out > testissue73.out
-cat issue73_a_out.xml >> testissue73.out
-$comm --skip=mp --language=nld issue73/issue73_a.xml -o issue73_1.out -X issue73_a_out.xml
+$foliadiff issue73_a_out.xml goodresults/issue73_a.xml >> testissue73.out
+$comm --skip=mp --language=nld issue73/issue73_a.xml -o issue73_1.out -X issue73_b_out.xml
 cat issue73_1.out >> testissue73.out
-cat issue73_a_out.xml >> testissue73.out
+$foliadiff issue73_b_out.xml goodresults/issue73_b.xml >> testissue73.out

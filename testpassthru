@@ -4,5 +4,5 @@
 #
 
 $comm --skip=pt -t teststandard.txt -o testpassthru.txt -X testpassthru.xml
-cat testpassthru.xml >> testpassthru.out
+$foliadiff testpassthru.xml goodresults/testpassthru.xml >> testpassthru.out
 cat testpassthru.txt >> testpassthru.out
