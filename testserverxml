@@ -40,8 +40,10 @@ done
 
 echo "done waiting"
 
-cat testserver3.out > testserverxml.out
-cat testserver4.out >> testserverxml.out
+grep -v READY testserver3.out | grep "\S" > testserverxml.1.xml
+$folialint --nooutput testserverxml.1.xml > testserverxml.out 2>&1
+grep -v READY testserver4.out | grep "\S" > testserverxml.2.xml
+$folialint --nooutput testserverxml.2.xml >> testserverxml.out 2>&1
 
 kill $pid
 wait $pid
@@ -87,8 +89,11 @@ done
 
 echo "done waiting"
 
-cat testserver3.out >> testserverxml.out
-cat testserver4.out >> testserverxml.out
+grep -v READY testserver3.out | grep "\S" > testserverxml.3.xml
+$folialint --nooutput testserverxml.3.xml >> testserverxml.out 2>&1
+grep -v READY testserver4.out | grep "\S" > testserverxml.4.xml
+$folialint --nooutput testserverxml.4.xml >> testserverxml.out 2>&1
+
 
 kill $pid
 wait $pid
@@ -134,8 +139,10 @@ done
 
 echo "done waiting"
 
-cat testserver6.out >> testserverxml.out
-cat testserver7.out >> testserverxml.out
+grep -v READY testserver3.out | grep "\S" > testserverxml.5.xml
+$folialint --nooutput testserverxml.5.xml >> testserverxml.out 2>&1
+grep -v READY testserver4.out | grep "\S" > testserverxml.6.xml
+$folialint --nooutput testserverxml.6.xml >> testserverxml.out 2>&1
 
 kill $pid
 wait $pid
