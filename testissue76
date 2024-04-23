@@ -1,7 +1,7 @@
 #/bin/sh
 
-/rm -i issue76_out
+\rm -i issue76_out
 $comm --skip=mpcn --xmldir=issue76_out -x --testdir=issue76
-$folialint issue76_out/empty.xml > testissue76.out 2>&1
-$folialint issue76_out/filter.xml >> testissue76.out 2>&1
-$folialint issue76_out/folia1.xml >> testissue76.out 2>&1
+$folialint --nooutput issue76_out/empty.xml > testissue76.out 2>&1
+$folialint --nooutput issue76_out/filter.xml >> testissue76.out 2>&1
+$folialint --nooutput issue76_out/folia1.xml >> testissue76.out 2>&1
