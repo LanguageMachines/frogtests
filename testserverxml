@@ -42,9 +42,11 @@ done
 
 echo "done waiting"
 
-grep -v READY testserver3.out | grep "\S" > testserverxml.1.xml
-$folialint --nooutput testserverxml.1.xml > testserverxml.out 2>&1
-grep -v READY testserver4.out | grep "\S" > testserverxml.2.xml
+grep -v '<' testserver3.out > testserverxml.out
+grep '<' testserver3.out > testserverxml.1.xml
+$folialint --nooutput testserverxml.1.xml >> testserverxml.out 2>&1
+grep -v '<' testserver4.out >> testserverxml.out
+grep '<' testserver4.out > testserverxml.2.xml
 $folialint --nooutput testserverxml.2.xml >> testserverxml.out 2>&1
 
 kill $pid
@@ -90,11 +92,20 @@ do
 done
 
 echo "done waiting"
+\rm awkout*
+\rm awkclean*
 
-grep -v READY testserver3.out | grep "\S" > testserverxml.3.xml
-$folialint --nooutput testserverxml.3.xml >> testserverxml.out 2>&1
-grep -v READY testserver4.out | grep "\S" > testserverxml.4.xml
-$folialint --nooutput testserverxml.4.xml >> testserverxml.out 2>&1
+awk -v RS='\n\r' '{print > ("awkout.3-" NR ".xml")}' testserver3.out
+$folialint --nooutput awkout.3-1.xml >> testserverxml.out 2>&1
+cat awkout.3-2.xml >> testserverxml.out
+grep "<" awkout.3-3.xml > awkclean.3.3.xml
+$folialint --nooutput awkclean.3.3.xml >> testserverxml.out 2>&1
+
+awk -v RS='\n\r' '{print > ("awkout.4-" NR ".xml")}' testserver4.out
+$folialint --nooutput awkout.4-1.xml >> testserverxml.out 2>&1
+cat awkout.4-2.xml >> testserverxml.out
+grep "<" awkout.4-3.xml > awkclean.4.3.xml
+$folialint --nooutput awkclean.4.3.xml >> testserverxml.out 2>&1
 
 
 kill $pid
