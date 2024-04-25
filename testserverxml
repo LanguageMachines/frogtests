@@ -141,9 +141,9 @@ done
 
 echo "done waiting"
 
-grep -v READY testserver6.out | grep "\S" > testserverxml.6.xml
+grep "<" testserver6.out > testserverxml.6.xml
 $folialint --nooutput testserverxml.6.xml >> testserverxml.out 2>&1
-grep -v READY testserver7.out | grep "\S" > testserverxml.7.xml
+grep "<" testserver7.out > testserverxml.7.xml
 $folialint --nooutput testserverxml.7.xml >> testserverxml.out 2>&1
 
 kill $pid
