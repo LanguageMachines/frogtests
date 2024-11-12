@@ -159,3 +159,5 @@ $folialint --nooutput testserverxml.7.xml >> testserverxml.out 2>&1
 
 kill $pid
 wait $pid
+\rm awkout*
+\rm awkclean*
